@@ -416,7 +416,7 @@ module.exports = {
                     {
                         text: '关于',
                         items: [
-                            {text: '关于自己', link: '/md/about/me/default.md'},
+                            {text: '关于自己', link: '/md/about/me/about-me.md'},
                             {text: '关于学习', link: '/md/about/study/default.md'},
                             {text: '关于职场', link: '/md/about/job/default.md'}
                         ]
@@ -819,7 +819,7 @@ function getBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "me/default.md",
+                "me/about-me.md",
             ]
         },
         {

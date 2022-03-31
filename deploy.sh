@@ -4,6 +4,7 @@
 set -e
 
 ### 更新文章
+git config --global http.sslVerify "false"
 git add .
 git commit -m '更新文章'
 git push
