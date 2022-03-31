@@ -20,6 +20,7 @@ cd .site
 # echo 'www.example.com' > CNAME
 
 git init
+git config --global http.sslVerify "false"
 git add -A
 git commit -m 'deploy'
 
