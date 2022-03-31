@@ -5,13 +5,13 @@ actionText: 快速开始 →
 actionLink: /md/other/guide-to-reading.md
 features:
 - title: 沉淀
-  details: 承遇朝霞，年少正恰。整装戎马，刻印风华。
-- title: 分享
-  details: 八表流云澄夜色，九霄华月动春城。
+  details: 宝剑锋从磨砺出，梅花香自苦寒来。
 - title: 成长
-  details: 心怀天下，声色犬码。生有热烈，藏与俗常。
+  details: 纸上得来终觉浅，绝知此事要躬行。
+- title: 突破
+  details: 持之以恒，跪在坚持，每天进步一点点。
 ---
 
 <div style="text-align:center;padding:30px 15px;">
-    GPL Licensed | Copyright © 2022 冰河，All rights reserved. 持之以恒，贵在坚持，每天进步一点点！
+    GPL Licensed | Copyright © 2022 冰河，All rights reserved. 沉淀、成长、突破，方便他人，成就自我！
 </div>

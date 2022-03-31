@@ -189,15 +189,15 @@ module.exports = {
                         items: [
                             {
                                 text: 'Java基础',
-                                link: '/md/java/basics/xxx.md'
+                                link: '/md/java/basics/default.md'
                             },
                             {
                                 text: 'Java进阶',
-                                link: '/md/java/advanced/xxx.md'
+                                link: '/md/java/advanced/default.md'
                             },
                             {
                                 text: 'Java高级',
-                                link: '/md/java/senior/xxx.md'
+                                link: '/md/java/senior/default.md'
                             }
                         ]
                     },
@@ -206,19 +206,19 @@ module.exports = {
                         items: [
                             {
                                 text: 'JVM性能调优',
-                                link: '/md/performance/jvm/xxxx.md'
+                                link: '/md/performance/jvm/default.md'
                             },
                             {
                                 text: 'Tomcat性能调优',
-                                link: '/md/performance/tomcat/xxxx.md'
+                                link: '/md/performance/tomcat/default.md'
                             },
                             {
                                 text: 'MySQL性能调优',
-                                link: '/md/performance/mysql/xxxx.md'
+                                link: '/md/performance/mysql/default.md'
                             },
                             {
                                 text: '操作系统性能调优',
-                                link: '/md/performance/system/xxxx.md'
+                                link: '/md/performance/system/default.md'
                             }
                         ]
                     },
@@ -227,7 +227,7 @@ module.exports = {
                         items: [
                             {
                                 text: '底层技术',
-                                link: '/md/concurrent/bottom/xxx.md'
+                                link: '/md/concurrent/bottom/default.md'
                             },
                             {
                                 text: '源码分析',
@@ -239,15 +239,15 @@ module.exports = {
                             },
                             {
                                 text: '实战案例',
-                                link: '/md/concurrent/ActualCombat/xxx.md'
+                                link: '/md/concurrent/ActualCombat/default.md'
                             },
                             {
                                 text: '面试',
-                                link: '/md/concurrent/interview/xxx.md'
+                                link: '/md/concurrent/interview/default.md'
                             },
                             {
                                 text: '系统架构',
-                                link: '/md/concurrent/framework/xxx.md'
+                                link: '/md/concurrent/framework/default.md'
                             }
                         ]
                     },
@@ -256,19 +256,19 @@ module.exports = {
                         items: [
                             {
                                 text: 'Spring源码',
-                                link: '/md/frame/spring/xxx.md'
+                                link: '/md/frame/spring/default.md'
                             },
                             {
                                 text: 'SpringMVC源码',
-                                link: '/md/frame/springmvc/xxx.md'
+                                link: '/md/frame/springmvc/default.md'
                             },
                             {
                                 text: 'MyBatis源码',
-                                link: '/md/frame/mybatis/xxx.md'
+                                link: '/md/frame/mybatis/default.md'
                             },
                             {
                                 text: 'Dubbo源码',
-                                link: '/md/frame/dubbo/xxx.md'
+                                link: '/md/frame/dubbo/default.md'
                             }
                         ]
                     },
@@ -280,7 +280,7 @@ module.exports = {
                                 text: '缓存技术', items: [
                                     {
                                         text: 'Redis',
-                                        link: '/md/distributed/cache/xxxx.md'
+                                        link: '/md/distributed/cache/default.md'
                                     }
                                 ]
                             },
@@ -288,7 +288,7 @@ module.exports = {
                                 text: '服务注册发现', items: [
                                     {
                                         text: 'Zookeeper',
-                                        link: '/md/distributed/zookeeper/xxxx.md'
+                                        link: '/md/distributed/zookeeper/default.md'
                                     }
                                 ]
                             },
@@ -296,15 +296,15 @@ module.exports = {
                                 text: '消息中间件', items: [
                                     {
                                         text: 'RabbitMQ',
-                                        link: '/md/distributed/mq/rabbitmq/xxxx.md'
+                                        link: '/md/distributed/mq/rabbitmq/default.md'
                                     },
                                     {
                                         text: 'RocketMQ',
-                                        link: '/md/distributed/mq/rocketmq/xxxx.md'
+                                        link: '/md/distributed/mq/rocketmq/default.md'
                                     },
                                     {
                                         text: 'Kafka',
-                                        link: '/md/distributed/mq/kafka/xxxx.md'
+                                        link: '/md/distributed/mq/kafka/default.md'
                                     }
                                 ]
                             },
@@ -312,7 +312,7 @@ module.exports = {
                                 text: '网络通信', items: [
                                     {
                                         text: 'Netty',
-                                        link: '/md/distributed/netty/xxxx.md'
+                                        link: '/md/distributed/netty/default.md'
                                     }
                                 ]
                             },
@@ -320,7 +320,7 @@ module.exports = {
                                 text: '远程调用', items: [
                                     {
                                         text: 'Dubbo',
-                                        link: '/md/distributed/dubbo/xxxx.md'
+                                        link: '/md/distributed/dubbo/default.md'
                                     }
                                 ]
                             },
@@ -328,7 +328,7 @@ module.exports = {
                                 text: '数据库', items: [
                                     {
                                         text: 'MongoDB',
-                                        link: '/md/distributed/mongodb/xxxx.md'
+                                        link: '/md/distributed/mongodb/default.md'
                                     }
                                 ]
                             },
@@ -336,7 +336,7 @@ module.exports = {
                                 text: '搜索引擎', items: [
                                     {
                                         text: 'ElasticSearch',
-                                        link: '/md/distributed/es/xxxx.md'
+                                        link: '/md/distributed/es/default.md'
                                     }
                                 ]
                             }
@@ -347,11 +347,11 @@ module.exports = {
                         items: [
                                 {
                                     text: 'SpringBoot',
-                                    link: '/md/microservices/springboot/xxx.md'
+                                    link: '/md/microservices/springboot/default.md'
                                 },
                                 {
                                     text: 'SpringCloud',
-                                    link: '/md/microservices/springcloud/xxx.md'
+                                    link: '/md/microservices/springcloud/default.md'
                                 }
                             ]
                     },
@@ -360,29 +360,29 @@ module.exports = {
                         items: [
                             {
                                 text: '手写线程池',
-                                link: '/md/middleware/threadpool/xxxx.md'
+                                link: '/md/middleware/threadpool/default.md'
                             },
                             {
                                 text: '分布式限流',
-                                link: '/md/middleware/limiter/xxxx.md'
+                                link: '/md/middleware/limiter/default.md'
                             },
                             {
                                 text: '开源项目',
-                                link: '/md/middleware/independent/xxxx.md'
+                                link: '/md/middleware/independent/default.md'
                             }
                         ]
                     },
                     {
                         text: '项目实战',
-                        link: '/md/project/xxx.md'
+                        link: '/md/project/default.md'
                     },
                     {
                         text: '渗透技术',
-                        link: '/md/hack/xxxx.md'
+                        link: '/md/hack/default.md'
                     },
                     {
                         text: '面试',
-                        link: '/md/interview/xxx.md'
+                        link: '/md/interview/default.md'
                     },
                     {
                         text: '📚PDF',
@@ -416,9 +416,9 @@ module.exports = {
                     {
                         text: '关于',
                         items: [
-                            {text: '关于自己', link: '/md/about/me/xxx.md'},
-                            {text: '关于学习', link: '/md/about/study/xxxx.md'},
-                            {text: '关于职场', link: '/md/about/job/xxx.md'}
+                            {text: '关于自己', link: '/md/about/me/default.md'},
+                            {text: '关于学习', link: '/md/about/study/default.md'},
+                            {text: '关于职场', link: '/md/about/job/default.md'}
                         ]
                     },
                     {
@@ -476,7 +476,7 @@ function getBarJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "basics/xxx.md",
+                "basics/default.md",
             ]
         },
         {
@@ -484,7 +484,7 @@ function getBarJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "advanced/xxx.md",
+                "advanced/default.md",
             ]
         },
         {
@@ -492,7 +492,7 @@ function getBarJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "senior/xxx.md",
+                "senior/default.md",
             ]
         }
     ]
@@ -505,7 +505,7 @@ function getBarPerformance() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "jvm/xxx.md",
+                "jvm/default.md",
             ]
         },
         {
@@ -513,7 +513,7 @@ function getBarPerformance() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "tomcat/xxx.md",
+                "tomcat/default.md",
             ]
         },
         {
@@ -521,7 +521,7 @@ function getBarPerformance() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "mysql/xxx.md",
+                "mysql/default.md",
             ]
         },
         {
@@ -529,7 +529,7 @@ function getBarPerformance() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "system/xxx.md",
+                "system/default.md",
             ]
         }
     ]
@@ -543,7 +543,7 @@ function getBarFrame() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "spring/xxx.md",
+                "spring/default.md",
             ]
         },
         {
@@ -551,7 +551,7 @@ function getBarFrame() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/xxxx.md",
+                "springmvc/default.md",
             ]
         },
         {
@@ -559,7 +559,7 @@ function getBarFrame() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "mybatis/xxxx.md",
+                "mybatis/default.md",
             ]
         },
         {
@@ -567,7 +567,7 @@ function getBarFrame() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "dubbo/xxx.md",
+                "dubbo/default.md",
             ]
         }
     ]
@@ -580,7 +580,7 @@ function getBarDistributedCache() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -593,7 +593,7 @@ function getBarZookeeper() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -606,7 +606,7 @@ function getBarMQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "rabbitmq/xxx.md",
+                "rabbitmq/default.md",
             ]
         },
         {
@@ -614,7 +614,7 @@ function getBarMQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "rocketmq/xxx.md",
+                "rocketmq/default.md",
             ]
         },
         {
@@ -622,7 +622,7 @@ function getBarMQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "kafka/xxx.md",
+                "kafka/default.md",
             ]
         }
     ]
@@ -635,7 +635,7 @@ function getBarInternet() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -648,7 +648,7 @@ function getBarDistributedDubbo() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -661,7 +661,7 @@ function getBarDistributedMongodb() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -674,7 +674,7 @@ function getBarDistributedElasticSearch() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -687,7 +687,7 @@ function getBarMicroServices() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springboot/xxx.md",
+                "springboot/default.md",
             ]
         },
         {
@@ -695,7 +695,7 @@ function getBarMicroServices() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springcloud/xxx.md",
+                "springcloud/default.md",
             ]
         }
     ]
@@ -708,7 +708,7 @@ function getBarMiddleware() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "threadpool/xxx.md",
+                "threadpool/default.md",
             ]
         },
         {
@@ -716,7 +716,7 @@ function getBarMiddleware() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "limiter/xxx.md",
+                "limiter/default.md",
             ]
         },
         {
@@ -724,7 +724,7 @@ function getBarMiddleware() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "independent/xxx.md",
+                "independent/default.md",
             ]
         }
     ]
@@ -738,7 +738,7 @@ function getBarPeoject() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -751,7 +751,7 @@ function getBarHack() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -764,7 +764,7 @@ function getInterview() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "xxx.md",
+                "default.md",
             ]
         }
     ]
@@ -819,7 +819,7 @@ function getBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "me/xxx.md",
+                "me/default.md",
             ]
         },
         {
@@ -827,7 +827,7 @@ function getBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "study/xxx.md",
+                "study/default.md",
             ]
         },
         {
@@ -835,7 +835,7 @@ function getBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "job/xxx.md",
+                "job/default.md",
             ]
         }
     ]
@@ -849,7 +849,7 @@ function getBarConcurrent() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "bottom/xxxx.md",
+                "bottom/default.md",
             ]
         },
         {
@@ -897,7 +897,7 @@ function getBarConcurrent() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "ActualCombat/xxxx.md",
+                "ActualCombat/default.md",
             ]
         },
         {
@@ -905,7 +905,7 @@ function getBarConcurrent() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "interview/xxxx.md",
+                "interview/default.md",
             ]
         },
         {
@@ -913,7 +913,7 @@ function getBarConcurrent() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "framework/xxxx.md",
+                "framework/default.md",
             ]
         }
     ];
