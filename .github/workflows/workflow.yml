@@ -32,10 +32,10 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.ACCESS_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN  }}
           branch: "pages-git"
 
-      - name: 'pull code '
+      - name: 'Pull Code '
         uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -47,4 +47,4 @@ jobs:
           target_repo_url:
             git@github.com:binghe001/binghe001.github.io.git
           github_token:
-            ${{ secrets.ACCESS_TOKEN }}
+            ${{ secrets.GITHUB_TOKEN  }}
