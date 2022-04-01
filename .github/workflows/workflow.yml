@@ -20,5 +20,5 @@ jobs:
         env:
           REPO: git@github.com:binghe001/binghe001.github.io.git
           BRANCH: master
-          FOLDER: docs/.vuepress/dist
+          FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}

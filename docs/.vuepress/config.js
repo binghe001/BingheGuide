@@ -1,6 +1,6 @@
 module.exports = {
     port: "8080",
-    dest: "docs/.vuepress/dist/",
+    dest: ".site",
     base: "/",
     // 是否开启默认预加载js
     shouldPrefetch: (file, type) => {
@@ -10,6 +10,7 @@ module.exports = {
     chainWebpack: config => {
         if (process.env.NODE_ENV === 'production') {
             const dateTime = new Date().getTime();
+
             // 清除js版本号
             config.output.filename('assets/js/cg-[name].js?v=' + dateTime).end();
             config.output.chunkFilename('assets/js/cg-[name].js?v=' + dateTime).end();
