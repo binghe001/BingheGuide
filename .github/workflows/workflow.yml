@@ -23,9 +23,10 @@ jobs:
         run: |
           git config --global user.email 1028386804@qq.com
           git config --global user.name binghe001
+          rm -rf .publish
           mkdir .publish
+          mv .site/* .publish/
           cd .publish
-          mv ../.site/* ./
           git add .
           git commit -m "update" -a
 
@@ -46,5 +47,5 @@ jobs:
         with:
           target_repo_url:
             git@github.com:binghe001/binghe001.github.io.git
-          github_token:
-            ${{ secrets.GITHUB_TOKEN  }}
+            ssh_private_key:
+            ${{ secrets.GIT_PRIVATE_KEY  }}
