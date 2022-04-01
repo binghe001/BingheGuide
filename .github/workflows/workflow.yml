@@ -18,7 +18,7 @@ jobs:
       - name: Deploy
         uses: s0/git-publish-subdir-action@master
         env:
-          REPO: binghe001/binghe001.github.io
+          REPO: https://github.com/binghe001/binghe001.github.io
           BRANCH: master
           FOLDER: docs/.vuepress/dist
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
