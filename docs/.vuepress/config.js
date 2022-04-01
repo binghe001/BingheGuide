@@ -1,6 +1,6 @@
 module.exports = {
     port: "8080",
-    dest: ".site",
+    dest: "docs/.vuepress/dist/",
     base: "/",
     // 是否开启默认预加载js
     shouldPrefetch: (file, type) => {

@@ -9,3 +9,5 @@
 /deploy.sh
 
 /deploy.bak.sh
+
+/docs/.vuepress/dist/
