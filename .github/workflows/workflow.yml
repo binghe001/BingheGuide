@@ -1,0 +1,48 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      # react项目为npm run-script build，vue项目改为npm run build
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      - name: commit
+        run: |
+          git config --global user.email 1028386804@qq.com
+          git config --global user.name binghe001
+          cd .site
+          git add .
+          git commit -m "update" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACCESS_TOKEN }}
+          branch: "pages-git"
+
+      - name: 'get code '
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          ef: "pages-git"
+      - name: 'Mirror to gitee'
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url:
+            git@github.com:binghe001/binghe001.github.io.git
+          github_token:
+            ${{ secrets.ACCESS_TOKEN }}
