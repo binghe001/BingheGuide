@@ -1,26 +1,20 @@
-name: Deploy GitHub Pages
-# 触发条件：在 push 到 master 分支后
-on:
-  push:
-    branches:
-      - master
-# 任务
+name: A TO A:GH_PAGES
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-      - name: install
-        run: yarn install
-      - name: Build
-        run:  yarn build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+        uses: actions/checkout@master
+      - name: Build and Deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          REPOSITORY_NAME: binghe001/binghe001.github.io
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist/
+          # 你要操作的目标仓库
+          TARGET_REPO: binghe001/binghe001.github.io
+          # 构建结果存储的分支
+          TARGET_BRANCH: gh_pages
+          # 要使用的构建命令
+          BUILD_SCRIPT: yarn && yarn build
+          # 构建结果存储目录
+          BUILD_DIR: docs/.vuepress/dist/
