@@ -22,5 +22,5 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           REPOSITORY_NAME: binghe001/binghe001.github.io
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: docs/.vuepress/dist/
