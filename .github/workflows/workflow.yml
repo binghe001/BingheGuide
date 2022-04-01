@@ -35,7 +35,7 @@ jobs:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           branch: "pages-git"
 
-      - name: 'get code '
+      - name: 'pull code '
         uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
