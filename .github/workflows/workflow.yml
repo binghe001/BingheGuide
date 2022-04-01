@@ -23,7 +23,9 @@ jobs:
         run: |
           git config --global user.email 1028386804@qq.com
           git config --global user.name binghe001
-          cd .site
+          mkdir .publish
+          cd .publish
+          mv ../.site/* ./
           git add .
           git commit -m "update" -a
 
@@ -39,7 +41,7 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
           ef: "pages-git"
-      - name: 'Mirror to gitee'
+      - name: 'Mirror to GitHub'
         uses: pixta-dev/repository-mirroring-action@v1
         with:
           target_repo_url:
