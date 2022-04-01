@@ -2,6 +2,7 @@
   "name": "BingheGuide",
   "version": "2.0.1",
   "private": true,
+
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
