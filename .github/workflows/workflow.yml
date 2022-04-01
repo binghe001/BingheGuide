@@ -16,9 +16,9 @@ jobs:
           npm install
           npm run build
       - name: Deploy
-          uses: s0/git-publish-subdir-action@master
-          env:
-            REPO: binghe001/binghe001.github.io
-            BRANCH: master
-            FOLDER: docs/.vuepress/dist
-            SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        uses: s0/git-publish-subdir-action@master
+        env:
+          REPO: binghe001/binghe001.github.io
+          BRANCH: master
+          FOLDER: docs/.vuepress/dist
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
