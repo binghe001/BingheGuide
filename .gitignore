@@ -5,3 +5,9 @@
 /node_modules/
 
 /.site/
+
+/deploy.sh
+
+/deploy.bak.sh
+
+/.publish/
