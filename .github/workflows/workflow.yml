@@ -1,51 +1,21 @@
-name: CI
-on:
-  push:
-    branches:
-      - master
-
+name: A TO A:GH_PAGES
+on: [push]
 jobs:
-  main:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+        uses: actions/checkout@master
 
-      # react项目为npm run-script build，vue项目改为npm run build
-      - name: Install and Build
-        run: |
-          npm install
-          npm run build
-
-      - name: commit
-        run: |
-          git config --global user.email 1028386804@qq.com
-          git config --global user.name binghe001
-          rm -rf .publish
-          mkdir .publish
-          mv .site/* .publish/
-          cd .publish
-          git add .
-          git commit -m "update" -a
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN  }}
-          branch: "pages-git"
-
-      - name: 'Pull Code '
-        uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-          ef: "pages-git"
-      - name: 'Mirror to GitHub'
-        uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url:
-            git@github.com:binghe001/binghe001.github.io.git
-          ssh_private_key:
-            ${{ secrets.GIT_PRIVATE_KEY  }}
+      - name: Build and Deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          # 你要操作的目标仓库
+          TARGET_REPO: binghe001/binghe001.github.io
+          # 构建结果存储的分支
+          TARGET_BRANCH: gh_pages
+          # 要使用的构建命令
+          BUILD_SCRIPT: yarn && yarn build
+          # 构建结果存储目录
+          BUILD_DIR: docs/.vuepress/dist/
