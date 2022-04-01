@@ -47,5 +47,5 @@ jobs:
         with:
           target_repo_url:
             git@github.com:binghe001/binghe001.github.io.git
-            ssh_private_key:
+          ssh_private_key:
             ${{ secrets.GIT_PRIVATE_KEY  }}
