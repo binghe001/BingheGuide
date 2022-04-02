@@ -29,3 +29,4 @@ jobs:
           BRANCH: master
           FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_GITEE_PRIVATE_KEY }}
+          KNOWN_HOSTS_FILE: docs/hosts/known_hosts
