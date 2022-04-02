@@ -723,7 +723,7 @@ function getBarMicroServices() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springcloud/2022-04-02-SpringCloudAlibaba专栏开篇.md",
+                "springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md",
             ]
         }
     ]
