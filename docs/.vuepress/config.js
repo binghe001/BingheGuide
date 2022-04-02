@@ -355,7 +355,7 @@ module.exports = {
                                 },
                                 {
                                     text: 'SpringCloudAlibaba',
-                                    link: '/md/microservices/springcloudalibaba/2022-04-02-SA开篇 · SpringCloud Alibaba专栏开篇.md'
+                                    link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloud Alibaba专栏开篇.md'
                                 }
                             ]
                     },
@@ -723,7 +723,7 @@ function getBarMicroServices() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springcloud/2022-04-02-SA开篇 · SpringCloud Alibaba专栏开篇.md",
+                "springcloud/2022-04-02-SpringCloud Alibaba专栏开篇.md",
             ]
         }
     ]
