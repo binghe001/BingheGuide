@@ -22,7 +22,7 @@ jobs:
           BRANCH: master
           FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-      - name: "Deploy Github"
+      - name: "Deploy Gitee"
           uses: s0/git-publish-subdir-action@master
           env:
             REPO: git@gitee.com:binghe001/binghe001.gitee.io.git
