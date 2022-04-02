@@ -17,7 +17,7 @@
 
     本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “冰河” 微信(hacker_binghe)，备注：`学习加群`。
     
-    <img src="/docs/.vuepress/public/images/personal/hacker_binghe.jpg" width="180" height="180"/>
+    <img src="https://binghe001.github.io/images/personal/hacker_binghe.jpg" width="180" height="180"/>
 
 - **公众号(冰河技术)**
 
