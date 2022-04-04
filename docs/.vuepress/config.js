@@ -191,19 +191,19 @@ module.exports = {
                                 text: 'Java核心技术',  items: [
                                     {
                                         text: 'Java基础',
-                                        link: '/md/java/basics/default.md'
+                                        link: '/md/core/java/basics/default.md'
                                     },
                                     {
                                         text: 'Java进阶',
-                                        link: '/md/java/advanced/default.md'
+                                        link: '/md/core/java/advanced/default.md'
                                     },
                                     {
                                         text: 'Java高级',
-                                        link: '/md/java/senior/default.md'
+                                        link: '/md/core/java/senior/default.md'
                                     },
                                     {
                                         text: 'Java8新特性',
-                                        link: '/md/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
                                     }
                                 ]
                             },
@@ -211,11 +211,11 @@ module.exports = {
                                 text: 'Spring核心技术', items: [
                                     {
                                         text: 'IOC核心技术',
-                                        link: '/md/java/basics/default.md'
+                                        link: '/md/core/spring/ioc/2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md'
                                     },
                                     {
                                         text: 'AOP核心技术',
-                                        link: '/md/java/basics/default.md'
+                                        link: '/md/core/spring/aop/default.md'
                                     }
                                 ]
                             }
@@ -448,7 +448,7 @@ module.exports = {
                 ],
                 sidebar: {
                     "/md/other/": genBarOther(),
-                    "/md/java/": getBarJava(),
+                    "/md/core/java/": getBarJava(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
                     "/md/frame/": getBarFrame(),
@@ -467,6 +467,9 @@ module.exports = {
                     "/md/knowledge/book/": getBarPDFPublish(),
                     "/md/knowledge/pdf/": getBarPDFSink(),
                     "/md/about/": getBarAbout(),
+                    "/md/core/spring/ioc/": getBarSpringIoc(),
+                    "/md/core/spring/aop/": getBarSpringAop(),
+
                 }
             }
         }
@@ -881,6 +884,74 @@ function getBarAbout() {
             sidebarDepth: 0,
             children: [
                 "job/default.md",
+            ]
+        }
+    ]
+}
+// getBarSpringIoc
+function getBarSpringIoc() {
+    return [
+        {
+            title: "IOC核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md",
+                "2022-04-04-002-组件注册-使用@Configuration和@Bean给容器中注册组件.md",
+                "2022-04-04-003-组件注册-@ComponentScan-自动扫描组件&指定扫描规则.md",
+                "2022-04-04-004-自定义TypeFilter指定过滤规则.md",
+                "2022-04-04-005-使用@Lazy注解实现懒加载.md",
+                "2022-04-04-006-如何按照条件向Spring中注册bean.md",
+                "2022-04-04-007-使用@Import注解给容器中快速导入一个组件.md",
+                "2022-04-04-008-深入理解Spring的ImportSelector接口.md",
+                "2022-04-04-009-在@Import注解中使用ImportSelector.md",
+                "2022-04-04-010-如何将Service注入到Servlet中.md",
+                "2022-04-04-011-使用ImportBeanDefinitionRegistrar向容器中注册bean.md",
+                "2022-04-04-012-使用FactoryBean注册向Spring容器中注册bean.md",
+                "2022-04-04-013-使用@Bean注解指定初始化和销毁的方法.md",
+                "2022-04-04-014-使用InitializingBean和DisposableBean来管理bean的生命周期.md",
+                "2022-04-04-015-@PostConstruct注解和@PreDestroy注解.md",
+                "2022-04-04-016-@PostConstruct与@PreDestroy源码解析.md",
+                "2022-04-04-017-使用@Scope注解设置组件的作用域.md",
+                "2022-04-04-018-针对bean的生命周期，我们能做哪些工作.md",
+                "2022-04-04-019-BeanPostProcessor底层原理解析.md",
+                "2022-04-04-020-困扰了我很久的AOP嵌套调用终于解决了.md",
+                "2022-04-04-021-BeanPostProcessor在Spring底层是如何使用的.md",
+                "2022-04-04-022-BeanPostProcessor后置处理器浅析.md",
+                "2022-04-04-023-使用@Value注解为bean的属性赋值，原来这么简单.md",
+                "2022-04-04-024-使用@PropertySource加载配置文件，我只看这一篇.md",
+                "2022-04-04-025-使用@Autowired@Qualifier@Primary三大注解自动装配组件.md",
+                "2022-04-04-026-详解@Resource和@Inject注解.md",
+                "2022-04-04-027-如何实现方法、构造器位置的自动装配.md",
+                "2022-04-04-028-如何解决Spring的循环依赖问题.md",
+                "2022-04-04-029-看了这篇Spring事务原理，我才知道我对Spring事务的误解有多深.md",
+                "2022-04-04-030-自定义组件如何注入Spring底层的组件.md",
+                "2022-04-04-031-使用@Profile注解实现开发、测试和生产环境的配置和切换，看完这篇我彻底会了.md",
+                "2022-04-04-032-面试官竟然让我现场搭建一个AOP测试环境.md",
+                "2022-04-04-033-二狗子让我给他讲讲@EnableAspectJAutoProxy注解.md",
+                "2022-04-04-034-Spring中的注解中的注解使用汇总，你想要的都在这儿了.md",
+                "2022-04-04-035-为什么你用@JsonFormat注解时，LocalDateTime会反序列化失败.md",
+                "2022-04-04-036-如何实现多数据源读写分离.md",
+                "2022-04-04-037-一张图彻底理解Spring如何解决循环依赖.md",
+                "2022-04-04-038-AnnotationAwareAspectJAutoProxyCreator源码解析.md",
+                "2022-04-04-039-小伙伴们在催更Spring系列，于是我写下了这篇注解汇总.md",
+                "2022-04-04-040-一张图带你窥探「Spring注解系列」专题到底要更新些啥.md",
+                "2022-04-04-041-AnnotationAwareAspectJAutoProxyCreator类的调用流程是啥.md",
+                "2022-04-04-042-Spring中Scheduled和Async两种调度方式有啥区别.md",
+                "2022-04-04-043-AnnotationAwareAspectJAutoProxyCreator深度解析.md",
+            ]
+        }
+    ]
+}
+// getBarSpringAop
+function getBarSpringAop() {
+    return [
+        {
+            title: "AOP核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
             ]
         }
     ]
