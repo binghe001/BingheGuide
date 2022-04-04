@@ -185,23 +185,39 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
-                        text: 'Java',
+                        text: '核心技术',
                         items: [
                             {
-                                text: 'Java基础',
-                                link: '/md/java/basics/default.md'
+                                text: 'Java核心技术',  items: [
+                                    {
+                                        text: 'Java基础',
+                                        link: '/md/java/basics/default.md'
+                                    },
+                                    {
+                                        text: 'Java进阶',
+                                        link: '/md/java/advanced/default.md'
+                                    },
+                                    {
+                                        text: 'Java高级',
+                                        link: '/md/java/senior/default.md'
+                                    },
+                                    {
+                                        text: 'Java8新特性',
+                                        link: '/md/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'Java进阶',
-                                link: '/md/java/advanced/default.md'
-                            },
-                            {
-                                text: 'Java高级',
-                                link: '/md/java/senior/default.md'
-                            },
-                            {
-                                text: 'Java8新特性',
-                                link: '/md/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                text: 'Spring核心技术', items: [
+                                    {
+                                        text: 'IOC核心技术',
+                                        link: '/md/java/basics/default.md'
+                                    },
+                                    {
+                                        text: 'AOP核心技术',
+                                        link: '/md/java/basics/default.md'
+                                    }
+                                ]
                             }
                         ]
                     },
