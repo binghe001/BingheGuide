@@ -1,4 +1,3 @@
-
 ---
 layout: post
 category: binghe-spring-ioc
