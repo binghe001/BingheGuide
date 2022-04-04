@@ -13,5 +13,5 @@ features:
 ---
 
 <div style="text-align:center;padding:30px 15px;">
-    GPL Licensed | Copyright © 2022 冰河，All rights reserved. 沉淀、成长、突破，方便他人，成就自我！
+    GPL Licensed | Copyright © 2022 冰河，All rights reserved. 沉淀、成长、突破，帮助他人，成就自我！
 </div>

@@ -724,6 +724,7 @@ function getBarMicroServices() {
             sidebarDepth: 0,
             children: [
                 "springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md",
+                "springcloudalibaba/2022-04-04-SA实战·第一篇-专栏设计.md",
             ]
         }
     ]
