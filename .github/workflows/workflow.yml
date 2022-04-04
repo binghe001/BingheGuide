@@ -26,7 +26,7 @@ jobs:
       - name: "Deploy Gitee"
         uses: s0/git-publish-subdir-action@master
         env:
-          REPO: git@gitee.com:binghe001/binghe001.gitee.io.git
+          REPO: git@gitee.com:binghe001/binghe001.git
           BRANCH: master
           FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_GITEE_PRIVATE_KEY }}
