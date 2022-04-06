@@ -1034,5 +1034,6 @@ function getBarConcurrent() {
             ]
         }
     ];
+
 }
 
