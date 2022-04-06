@@ -82,32 +82,32 @@
                     return;
                 }
 
-                t.getToken().then(function (token) {
-                    t._unlock(articleObj);
-                });
+                // t.getToken().then(function (token) {
+                //     t._unlock(articleObj);
+                // });
 
                 // 后续部署后加入阅读全文验证
-                // t.getToken().then(function (token) {
-                //     $.ajax({
-                //         url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
-                //         type: "GET",
-                //         dataType: "text",
-                //         data: {
-                //             token: token
-                //         },
-                //         success: function (data) {
-                //             if (data === 'refuse') {
-                //                 t._lock(articleObj);
-                //             } else {
-                //                 t._unlock(articleObj);
-                //                 t.setCookie("_unlock", "success", 1);
-                //             }
-                //         },
-                //         error: function (data) {
-                //             t._unlock(articleObj);
-                //         }
-                //     })
-                // });
+                t.getToken().then(function (token) {
+                    $.ajax({
+                        url: 'http://cluster.cardiochina.net/binghewx/api/check',
+                        type: "GET",
+                        dataType: "text",
+                        data: {
+                            token: token
+                        },
+                        success: function (data) {
+                            if (data === 'refuse') {
+                                t._lock(articleObj);
+                            } else {
+                                t._unlock(articleObj);
+                                t.setCookie("_unlock", "success", 1);
+                            }
+                        },
+                        error: function (data) {
+                            t._unlock(articleObj);
+                        }
+                    })
+                });
             },
             _lock: function (articleObj) {
                 let $article = articleObj.article;

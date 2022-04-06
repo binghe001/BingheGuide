@@ -70,11 +70,12 @@ module.exports = {
                 async: 'async',
                 src: '/js/fingerprint2.min.js',
             }],
+        //github: binghe001.github.io  gitee: binghe001.gitee.io
         ['script',
             {
                 charset: 'utf-8',
                 async: 'async',
-                src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
+                src: 'https://v1.cnzz.com/z_stat.php?id=1281063564&web_id=1281063564',
             }],
         // 添加百度统计
         ["script", {},
