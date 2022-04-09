@@ -89,7 +89,7 @@
                 // 后续部署后加入阅读全文验证
                 t.getToken().then(function (token) {
                     $.ajax({
-                        url: 'https://cluster.cardiochina.net/binghewx/api/check',
+                        url: 'http://cluster.cardiochina.net/binghewx/api/check',
                         type: "GET",
                         dataType: "text",
                         data: {
