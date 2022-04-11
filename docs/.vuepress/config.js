@@ -387,6 +387,10 @@ module.exports = {
                         text: '中间件',
                         items: [
                             {
+                                text: '字节码编程',
+                                link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
+                            },
+                            {
                                 text: '手写线程池',
                                 link: '/md/middleware/threadpool/default.md'
                             },
@@ -468,7 +472,10 @@ module.exports = {
                     "/md/distributed/mongodb/": getBarDistributedMongodb(),
                     "/md/distributed/es/": getBarDistributedElasticSearch(),
                     "/md/microservices/": getBarMicroServices(),
-                    "/md/middleware/": getBarMiddleware(),
+                    "/md/middleware/independent/": getBarMiddlewareIndependent(),
+                    "/md/middleware/limiter/": getBarMiddlewareLimiter(),
+                    "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
+                    "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/project/": getBarPeoject(),
                     "/md/hack/": getBarHack(),
                     "/md/interview/": getInterview(),
@@ -757,31 +764,56 @@ function getBarMicroServices() {
         }
     ]
 }
-// getBarMiddleware
-function getBarMiddleware() {
+// getBarMiddlewareByteCode
+function getBarMiddlewareByteCode() {
+    return [
+        {
+            title: "字节码编程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md",
+                "2022-04-11-002-使用Javassist动态生成HelloWorld.md",
+                "2022-04-11-003-使用Javassist生成JavaBean.md",
+            ]
+        }
+    ]
+}
+// getBarMiddlewareIndependent
+function getBarMiddlewareIndependent() {
+    return [
+        {
+            title: "开源项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
+            ]
+        }
+    ]
+}
+// getBarMiddlewareLimiter
+function getBarMiddlewareLimiter() {
+    return [
+        {
+            title: "分布式限流",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
+            ]
+        }
+    ]
+}
+// getBarMiddlewareThreadpool
+function getBarMiddlewareThreadpool() {
     return [
         {
             title: "手写线程池",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "threadpool/default.md",
-            ]
-        },
-        {
-            title: "分布式限流",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "limiter/default.md",
-            ]
-        },
-        {
-            title: "开源项目",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "independent/default.md",
+                "default.md",
             ]
         }
     ]
