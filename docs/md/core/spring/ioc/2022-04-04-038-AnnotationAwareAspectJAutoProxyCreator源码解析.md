@@ -22,7 +22,7 @@ lock: need
 
 我们先来看下AnnotationAwareAspectJAutoProxyCreator类的结构图。
 
-![013](/assets/images/core/spring/ioc/2022-04-04-038-001.png)
+![013](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-038-001.png)
 
 上图中一些 **类/接口** 的介绍：
 

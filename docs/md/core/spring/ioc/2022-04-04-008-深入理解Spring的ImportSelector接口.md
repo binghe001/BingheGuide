@@ -60,7 +60,7 @@ public @interface EnableTransactionManagement {
 
 此注解是开启声明式事务的注解，那么它的@Import所导入的类为TransactionManagementConfigurationSelector，那么我们看一下其类图：
 
-![](/assets/images/core/spring/ioc/2022-04-04-002.png)
+![](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-002.png)
 
 由此可知该类实现类ImportSelector接口。
 
@@ -70,7 +70,7 @@ public @interface EnableTransactionManagement {
 
 在这里我们先准备两个Spring的项目工程:spring-project与ssm-project，其中spring-project里我们先创建好如下结构目录：
 
-![](/assets/images/core/spring/ioc/2022-04-04-003.png)
+![](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-003.png)
 
 ### 创建实体类
 
@@ -155,7 +155,7 @@ public class AppConfig {
 
 当都完成以后我们打个jar包，准备引入至其他工程：
 
-![](/assets/images/core/spring/ioc/2022-04-04-004.png)
+![](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-004.png)
 
 ## 使用自定义@EnableXXX注解
 
