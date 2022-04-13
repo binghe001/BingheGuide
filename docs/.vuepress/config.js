@@ -760,6 +760,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md",
                 "springcloudalibaba/2022-04-04-SA实战·第一篇-专栏设计.md",
                 "springcloudalibaba/2022-04-09-SA实战-微服务介绍.md",
+                "springcloudalibaba/2022-04-13-SA实战·项目说明-流程设计-技术选型-模块划分.md",
             ]
         }
     ]
