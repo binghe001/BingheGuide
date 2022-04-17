@@ -907,7 +907,7 @@ function getBarHackShell() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -920,7 +920,7 @@ function getBarHackCrack() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -933,7 +933,7 @@ function getBarHackBash() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -946,7 +946,7 @@ function getBarHackRaising() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -959,7 +959,7 @@ function getBarHackClient() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -972,7 +972,7 @@ function getBarHackSociology() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
@@ -985,7 +985,7 @@ function getBarHackQUestion() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",,
+                "default.md",
             ]
         }
     ]
