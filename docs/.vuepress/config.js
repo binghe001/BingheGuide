@@ -410,7 +410,44 @@ module.exports = {
                     },
                     {
                         text: '渗透技术',
-                        link: '/md/hack/default.md'
+                        items: [
+                            {
+                                text: '基础环境篇',
+                                link: '/md/hack/environment/2022-04-17-001-安装Kali系统.md'
+                            },
+                            {
+                                text: '渗透工具篇',
+                                link: '/md/hack/tools/2022-04-17-001-使用Easy-Creds工具攻击无线网络.md'
+                            },
+                            {
+                                text: '漏洞拿Shell篇',
+                                link: '/md/hack/shell/default.md'
+                            },
+                            {
+                                text: '暴力破解篇',
+                                link: '/md/hack/crack/default.md'
+                            },
+                            {
+                                text: '渗透脚本篇',
+                                link: '/md/hack/bash/default.md'
+                            },
+                            {
+                                text: '数据与系统提权篇',
+                                link: '/md/hack/raising/default.md'
+                            },
+                            {
+                                text: '客户端渗透篇',
+                                link: '/md/hack/client/default.md'
+                            },
+                            {
+                                text: '社会工程学',
+                                link: '/md/hack/sociology/default.md'
+                            },
+                            {
+                                text: '问题记录篇',
+                                link: '/md/hack/question/default.md'
+                            }
+                        ]
                     },
                     {
                         text: '面试',
@@ -477,7 +514,15 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/project/": getBarPeoject(),
-                    "/md/hack/": getBarHack(),
+                    "/md/hack/environment/": getBarHackEnvironment(),
+                    "/md/hack/tools/": getBarHackTools(),
+                    "/md/hack/shell/": getBarHackShell(),
+                    "/md/hack/crack/": getBarHackCrack(),
+                    "/md/hack/bash/": getBarHackBash(),
+                    "/md/hack/raising/": getBarHackRaising(),
+                    "/md/hack/client/": getBarHackClient(),
+                    "/md/hack/sociology/": getBarHackSociology(),
+                    "/md/hack/question/": getBarHackQUestion(),
                     "/md/interview/": getInterview(),
                     "/md/knowledge/book/": getBarPDFPublish(),
                     "/md/knowledge/pdf/": getBarPDFSink(),
@@ -833,15 +878,170 @@ function getBarPeoject() {
         }
     ]
 }
-// getBarHack
-function getBarHack() {
+// getBarHackEnvironment
+function getBarHackEnvironment() {
     return [
         {
-            title: "渗透技术",
+            title: "基础环境篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-04-17-001-安装Kali系统.md",
+                "2022-04-17-002-Kali配置.md",
+                "2022-04-17-003-Kali中各项菜单的功能.md",
+                "2022-04-17-004-安装open-vm-tools实现虚拟机交互.md",
+                "2022-04-17-005-Kali设置静态IP.md",
+                "2022-04-17-006-kali安装免杀工具Veil-Evasion.md",
+                "2022-04-17-007-在Debian8上安装WPScan.md",
+                "2022-04-17-008-metasploitable2修改密码.md",
+                "2022-04-17-009-操作系统支持的管道符.md",
+            ]
+        }
+    ]
+}
+
+function getBarHackShell() {
+    return [
+        {
+            title: "漏洞拿Shell篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackCrack() {
+    return [
+        {
+            title: "暴力破解篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackBash() {
+    return [
+        {
+            title: "渗透脚本篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackRaising() {
+    return [
+        {
+            title: "数据与系统提权篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackClient() {
+    return [
+        {
+            title: "客户端渗透篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackSociology() {
+    return [
+        {
+            title: "社会工程学",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+
+function getBarHackQUestion() {
+    return [
+        {
+            title: "问题记录篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",,
+            ]
+        }
+    ]
+}
+// getBarHackTools
+function getBarHackTools() {
+    return [
+        {
+            title: "渗透工具篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-04-17-001-使用Easy-Creds工具攻击无线网络.md",
+                "2022-04-17-002-Nmap+Zenmap+Amap+Zmap.md",
+                "2022-04-17-003-Zenmap.md",
+                "2022-04-17-004-Amap.md",
+                "2022-04-17-005-Zmap.md",
+                "2022-04-17-006-Nessus的整理.md",
+                "2022-04-17-007-Burpsuite上传截断及截断原理介绍.md",
+                "2022-04-17-008-Kali2.0Meterpreter运用.md",
+                "2022-04-17-009-lcx.exe内网转发命令教程-LCX免杀下载.md",
+                "2022-04-17-010-字典生成工具Crunch的使用案例.md",
+                "2022-04-17-011-WinlogonHack获取系统密码.md",
+                "2022-04-17-012-Msfvenom生成各类Payload命令.md",
+                "2022-04-17-013-PsExec下载地址及其用法.md",
+                "2022-04-17-014-Hydra安装Libssh模块.md",
+                "2022-04-17-015-利用procdump+Mimikatz绕过杀软获取Windows明文密码.md",
+                "2022-04-17-016-SQLMap的用法+谷歌黑客语法.md",
+                "2022-04-17-017-SQLMap用法总结.md",
+                "2022-04-17-018-SQLMap参数说明.md",
+                "2022-04-17-019-十大渗透测试演练系统.md",
+                "2022-04-17-020-目录扫描神器DirBuster用法.md",
+                "2022-04-17-021-NMap在实战中的常见用法.md",
+                "2022-04-17-022-Metasploit模块的格式说明.md",
+                "2022-04-17-023-Meterpreter命令大全.md",
+                "2022-04-17-024-Metasploit-Meterpreter-Shell信息收集相关的命令.md",
+                "2022-04-17-025-使用Metasploit编写绕过DEP渗透模块.md",
+                "2022-04-17-026-Metasploit渗透php-utility-belt程序.md",
+                "2022-04-17-027-内网IPC$入侵.md",
+                "2022-04-17-028-Metasploit渗透BSPlayerV2.68.md",
+                "2022-04-17-029-Metasploit攻击VSFTPD2.3.4后门漏洞并渗透内网.md",
+                "2022-04-17-030-Metasploit攻击PHP-CGI查询字符串参数漏洞并渗透内网.md",
+                "2022-04-17-031-Metasploit攻击HFS2.3上的漏洞.md",
+                "2022-04-17-032-Metasploit访问控制的持久化.md",
+                "2022-04-17-033-Metasploit清除渗透痕迹.md",
+                "2022-04-17-034-利用Metasploit找出SCADA服务器.md",
+                "2022-04-17-035-利用Metasploit渗透DATAC-RealWin-SCADA Server2.0.md",
+                "2022-04-17-036-MSF-Meterpreter清理日志.md",
+                "2022-04-17-037-Metasploit自定义FTP扫描模块.md",
+                "2022-04-17-038-Metasploit渗透MSSQL.md",
+                "2022-04-17-039-Metasploit渗透VOIP.md",
+                "2022-04-17-040-破解工具hydra安装与使用.md",
+                "2022-04-17-041-Metasploit自定义SSH认证暴力破解器.md",
+                "2022-04-17-042-Metasploit自定义让磁盘失效的后渗透模块.md",
+                "2022-04-17-043-PowerShell基本命令和绕过权限执行.md",
+
             ]
         }
     ]
