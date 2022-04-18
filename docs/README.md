@@ -7,8 +7,7 @@ actionLinks:
   class: primary
 - link: https://public.zsxq.com/groups/48848484411888.html
   text: 知识星球
-  class: secondary  
-
+  class: secondary
 features:
 - title: 沉淀
   details: 宝剑锋从磨砺出，梅花香自苦寒来。
