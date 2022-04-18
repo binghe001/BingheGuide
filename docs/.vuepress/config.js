@@ -226,6 +226,10 @@ module.exports = {
                                         link: '/md/core/spring/aop/default.md'
                                     }
                                 ]
+                            },
+                            {
+                                text: 'JVM核心技术',
+                                link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
                             }
                         ]
                     },
@@ -529,6 +533,7 @@ module.exports = {
                     "/md/about/": getBarAbout(),
                     "/md/core/spring/ioc/": getBarSpringIoc(),
                     "/md/core/spring/aop/": getBarSpringAop(),
+                    "/md/core/jvm/": getBarCoreJVM(),
 
                 }
             }
@@ -1195,6 +1200,29 @@ function getBarSpringAop() {
             sidebarDepth: 0,
             children: [
                 "default.md",
+            ]
+        }
+    ]
+}
+
+// getBarCoreJVM
+function getBarCoreJVM() {
+    return [
+        {
+            title: "JVM核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-04-18-001-JVM调优的几种场景.md",
+                "2022-04-18-002-类的编译.md",
+                "2022-04-18-003-类的加载过程.md",
+                "2022-04-18-004-JVM内存空间.md",
+                "2022-04-18-005-JVM堆内存分配.md",
+                "2022-04-18-006-JVM垃圾回收机制.md",
+                "2022-04-18-007-JVM垃圾回收算法.md",
+                "2022-04-18-008-JVM-CMS垃圾收集器.md",
+                "2022-04-18-009-JVM -G1收集器-Region-停顿时间模型-垃圾回收.md",
+                "2022-04-18-010-JVM内存布局.md",
             ]
         }
     ]
