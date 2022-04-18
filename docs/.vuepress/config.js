@@ -450,8 +450,8 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '面试',
-                        link: '/md/interview/default.md'
+                        text: '面试必问系列',
+                        link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
                     },
                     {
                         text: '📚PDF',
@@ -1050,11 +1050,12 @@ function getBarHackTools() {
 function getInterview() {
     return [
         {
-            title: "面试",
+            title: "面试必问系列",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-04-18-001-面试必问-聊聊JVM性能调优.md",
+                "2022-04-18-002-面试必问-聊聊MyBatis执行流程.md",
             ]
         }
     ]
