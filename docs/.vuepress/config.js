@@ -228,8 +228,12 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: 'JVM核心技术',
-                                link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
+                                text: 'JVM核心技术', items: [
+                                    {
+                                        text: 'JVM调优技术',
+                                        link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
+                                    }
+                                ]
                             }
                         ]
                     },
