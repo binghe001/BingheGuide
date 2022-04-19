@@ -499,6 +499,10 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'B站',
+                        link: 'https://space.bilibili.com/517638832'
+                    },
+                    {
                         text: 'Github',
                         link: 'https://github.com/binghe001/BingheGuide'
                     }
