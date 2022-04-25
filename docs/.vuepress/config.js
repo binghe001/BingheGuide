@@ -821,6 +821,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-04-13-SA实战·项目说明-流程设计-技术选型-模块划分.md",
                 "springcloudalibaba/2022-04-18-SA实战-开撸-完成通用模块的开发.md",
                 "springcloudalibaba/2022-04-21-SA实战-完成三大微服务的搭建与交互开发.md",
+                "springcloudalibaba/2022-04-25-SA实战-服务治理-实现服务的注册与发现.md",
             ]
         }
     ]
