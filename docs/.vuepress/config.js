@@ -199,7 +199,7 @@ module.exports = {
                                 text: 'Java核心技术',  items: [
                                     {
                                         text: 'Java基础',
-                                        link: '/md/core/java/basics/default.md'
+                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
                                     },
                                     {
                                         text: 'Java进阶',
@@ -572,7 +572,7 @@ function getBarJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "basics/default.md",
+                "basics/2022-04-28-全网最全正则表达式总结.md",
             ]
         },
         {
