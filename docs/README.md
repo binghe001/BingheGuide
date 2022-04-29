@@ -14,7 +14,7 @@ features:
 - title: 成长
   details: 纸上得来终觉浅，绝知此事要躬行。
 - title: 突破
-  details: 持之以恒，跪在坚持，每天进步一点点。
+  details: 持之以恒，贵在坚持，每天进步一点点。
 footer: GPL Licensed | Copyright © 2022 冰河，All rights reserved. 沉淀、成长、突破，帮助他人，成就自我！
 ---
 
