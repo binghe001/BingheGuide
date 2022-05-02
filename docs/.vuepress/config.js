@@ -1032,10 +1032,10 @@ function getBarHackHorse() {
     ]
 }
 
-function getBarHackHorse() {
+function getBarHackSQL() {
     return [
         {
-            title: "木马篇",
+            title: "SQL注入篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
