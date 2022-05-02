@@ -461,7 +461,7 @@ module.exports = {
                             },
                             {
                                 text: '问题记录篇',
-                                link: '/md/hack/question/default.md'
+                                link: '/md/hack/question/2022-05-02-001-HTTP错误4031禁止访问-执行访问被拒绝.md'
                             }
                         ]
                     },
@@ -1031,7 +1031,18 @@ function getBarHackQUestion() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-HTTP错误4031禁止访问-执行访问被拒绝.md",
+                "2022-05-02-002-XP-IIS问题总结.md",
+                "2022-05-02-003-IIS-403-404问题.md",
+                "2022-05-02-004-DEDE5.7初始化数据体验包获取失败-无法下载安装.md",
+                "2022-05-02-005-discuz报错Tableuc-uc_pms-doesnt-exist-uc_pms不存在.md",
+                "2022-05-02-006-Windows远程登录提示超出允许最大连接数解决方案.md",
+                "2022-05-02-007-Windows2008自动关机最简单的解决方案.md",
+                "2022-05-02-008-Hydra安装报错.md",
+                "2022-05-02-009-安装OpenVAS后找不到默认密码无法登录Web端.md",
+                "2022-05-02-010-AppScan使用问题记录.md",
+                "2022-05-02-011-Kali系统报错.md",
+                "2022-05-02-012-Kali运行WPScan报错.md",
             ]
         }
     ]
