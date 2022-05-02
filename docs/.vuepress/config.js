@@ -428,6 +428,10 @@ module.exports = {
                                 link: '/md/hack/tools/2022-04-17-001-使用Easy-Creds工具攻击无线网络.md'
                             },
                             {
+                                text: '木马篇',
+                                link: '/md/hack/horse/2022-05-02-001-各种一句话木马大全.md'
+                            },
+                            {
                                 text: '漏洞拿Shell篇',
                                 link: '/md/hack/shell/default.md'
                             },
@@ -528,6 +532,7 @@ module.exports = {
                     "/md/project/": getBarPeoject(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
+                    "/md/hack/horse/": getBarHackHorse(),
                     "/md/hack/shell/": getBarHackShell(),
                     "/md/hack/crack/": getBarHackCrack(),
                     "/md/hack/bash/": getBarHackBash(),
@@ -1004,6 +1009,19 @@ function getBarHackQUestion() {
             sidebarDepth: 0,
             children: [
                 "default.md",
+            ]
+        }
+    ]
+}
+function getBarHackHorse() {
+    return [
+        {
+            title: "木马篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-05-02-001-各种一句话木马大全.md",
+                "2022-05-02-002-asp图片木马的制作和使用.md",
             ]
         }
     ]
