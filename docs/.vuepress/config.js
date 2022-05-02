@@ -457,7 +457,7 @@ module.exports = {
                             },
                             {
                                 text: '社会工程学',
-                                link: '/md/hack/sociology/default.md'
+                                link: '/md/hack/sociology/2022-05-02-001-Metasploit之社会工程学工具包.md'
                             },
                             {
                                 text: '问题记录篇',
@@ -1018,7 +1018,7 @@ function getBarHackSociology() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-Metasploit之社会工程学工具包.md",
             ]
         }
     ]
