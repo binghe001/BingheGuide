@@ -441,7 +441,7 @@ module.exports = {
                             },
                             {
                                 text: '暴力破解篇',
-                                link: '/md/hack/crack/default.md'
+                                link: '/md/hack/crack/2022-05-02-001-使用rarcrack暴力破解RAR-ZIP-7Z压缩包.md'
                             },
                             {
                                 text: '渗透脚本篇',
@@ -952,7 +952,10 @@ function getBarHackCrack() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-使用rarcrack暴力破解RAR-ZIP-7Z压缩包.md",
+                "2022-05-02-002-使用reaver傻瓜式破解wifi之利用路由器WPS漏洞.md",
+                "2022-05-02-003-Python爆破Wifi密码.md",
+                "2022-05-02-004-MySQL暴力破解工具多线程版.md",
             ]
         }
     ]
