@@ -445,7 +445,7 @@ module.exports = {
                             },
                             {
                                 text: '渗透脚本篇',
-                                link: '/md/hack/bash/default.md'
+                                link: '/md/hack/bash/2022-05-02-001-3389脚本开启代码(vbs版).md'
                             },
                             {
                                 text: '数据与系统提权篇',
@@ -968,7 +968,8 @@ function getBarHackBash() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-3389脚本开启代码(vbs版).md",
+                "2022-05-02-002-触发EasyFileSharingWebServer7.2HEAD缓冲区溢出的Python脚本.md",
             ]
         }
     ]
