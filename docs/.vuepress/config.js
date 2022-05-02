@@ -453,7 +453,7 @@ module.exports = {
                             },
                             {
                                 text: '客户端渗透篇',
-                                link: '/md/hack/client/default.md'
+                                link: '/md/hack/client/2022-05-02-001-浏览器渗透.md'
                             },
                             {
                                 text: '社会工程学',
@@ -999,7 +999,13 @@ function getBarHackClient() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-浏览器渗透.md",
+                "2022-05-02-002-对网站的客户进行渗透.md",
+                "2022-05-02-003-与DNS欺骗的结合使用.md",
+                "2022-05-02-004-基于PDF文件格式的渗透攻击.md",
+                "2022-05-02-005-基于Word文件格式的渗透攻击.md",
+                "2022-05-02-006-使用Metasploit实现对Linux客户端的渗透.md",
+                "2022-05-02-007-使用Metasploit渗透Android系统.md",
             ]
         }
     ]
