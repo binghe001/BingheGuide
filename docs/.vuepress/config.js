@@ -449,7 +449,7 @@ module.exports = {
                             },
                             {
                                 text: '数据与系统提权篇',
-                                link: '/md/hack/raising/default.md'
+                                link: '/md/hack/raising/2022-05-02-001-数据库提权.md'
                             },
                             {
                                 text: '客户端渗透篇',
@@ -982,7 +982,11 @@ function getBarHackRaising() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-数据库提权.md",
+                "2022-05-02-002-NC反弹CMDSHELL提权总结.md",
+                "2022-05-02-003-ASP-Web提权.md",
+                "2022-05-02-004-MSF提权.md",
+                "2022-05-02-005-Metasploit-Win10提权.md",
             ]
         }
     ]
