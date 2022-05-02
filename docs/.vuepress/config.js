@@ -437,7 +437,7 @@ module.exports = {
                             },
                             {
                                 text: '漏洞拿Shell篇',
-                                link: '/md/hack/shell/default.md'
+                                link: '/md/hack/shell/2022-05-02-001-各种解析漏洞拿shell.md'
                             },
                             {
                                 text: '暴力破解篇',
@@ -935,7 +935,11 @@ function getBarHackShell() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "default.md",
+                "2022-05-02-001-各种解析漏洞拿shell.md",
+                "2022-05-02-002-网站入侵思路.md",
+                "2022-05-02-003-IIS6.0-7.0-7.5-Nginx-Apache等WebService解析漏洞.md",
+                "2022-05-02-004-iis7.5加fck解析漏洞后台拿shell.md",
+                "2022-05-02-005-真正的IIS永远的后门解密.md",
             ]
         }
     ]
