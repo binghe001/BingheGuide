@@ -432,6 +432,10 @@ module.exports = {
                                 link: '/md/hack/horse/2022-05-02-001-各种一句话木马大全.md'
                             },
                             {
+                                text: 'SQL注入篇',
+                                link: '/md/hack/sql/2022-05-02-001-sqli-labs-master下载与安装.md'
+                            },
+                            {
                                 text: '漏洞拿Shell篇',
                                 link: '/md/hack/shell/default.md'
                             },
@@ -533,6 +537,7 @@ module.exports = {
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
                     "/md/hack/horse/": getBarHackHorse(),
+                    "/md/hack/sql/": getBarHackSQL(),
                     "/md/hack/shell/": getBarHackShell(),
                     "/md/hack/crack/": getBarHackCrack(),
                     "/md/hack/bash/": getBarHackBash(),
@@ -1026,6 +1031,25 @@ function getBarHackHorse() {
         }
     ]
 }
+
+function getBarHackHorse() {
+    return [
+        {
+            title: "木马篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-05-02-001-sqli-labs-master下载与安装.md",
+                "2022-05-02-002-SQL注入点检测方法.md",
+                "2022-05-02-003-SQL语句生成一句话.md",
+                "2022-05-02-004-ASP连接MSSQL数据库语句.md",
+                "2022-05-02-005-SQL注入绕过技术总结.md",
+                "2022-05-02-006-SQLServer启动-关闭xp_cmdshell.md",
+            ]
+        }
+    ]
+}
+
 // getBarHackTools
 function getBarHackTools() {
     return [
