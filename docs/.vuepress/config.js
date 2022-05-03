@@ -834,6 +834,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-04-25-SA实战-服务治理-实现服务的注册与发现.md",
                 "springcloudalibaba/2022-04-27-SA实战-第8章-服务治理-实现服务调用的负载均衡.md",
                 "springcloudalibaba/2022-04-28-SA实战-第9章-服务容错-服务雪崩与容错方案.md",
+                "springcloudalibaba/2022-05-03-SA实战-第10章-服务容错-Fegin整合Sentinel.md",
             ]
         }
     ]
