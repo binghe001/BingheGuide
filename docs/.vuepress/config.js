@@ -837,6 +837,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-05-03-SA实战-第10章-服务容错-Fegin整合Sentinel.md",
                 "springcloudalibaba/2022-05-05-SA实战-第11章-服务容错加餐-Sentinel核心技术与配置规则.md",
                 "springcloudalibaba/2022-05-08-SA实战-第12章-服务网关-网关概述与核心架构.md",
+                "springcloudalibaba/2022-05-08-SA实战-第13章-服务网关-项目整合SpringCloudGateway.md",
             ]
         }
     ]
