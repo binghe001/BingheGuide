@@ -414,7 +414,12 @@ module.exports = {
                     },
                     {
                         text: '项目实战',
-                        link: '/md/project/default.md'
+                        items: [
+                            {
+                                text: 'SpringCloud Alibaba实战',
+                                link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
+                            }
+                        ]
                     },
                     {
                         text: '渗透技术',
