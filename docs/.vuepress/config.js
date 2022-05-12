@@ -845,6 +845,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-05-08-SA实战-第13章-服务网关-项目整合SpringCloudGateway.md",
                 "springcloudalibaba/2022-05-10-SA实战-第14章-服务网关-SpringCloudGateway核心技术.md",
                 "springcloudalibaba/2022-05-11-SA实战-第15章-链路追踪-核心原理与解决方案.md",
+                "springcloudalibaba/2022-05-12-SA实战-第16章-链路追踪-项目整合Sleuth实现链路追踪.md",
             ]
         }
     ]
