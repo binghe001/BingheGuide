@@ -28,13 +28,11 @@ lock: need
 
 ## ZipKin核心架构
 
-Zipkin 是 Twitter 的一个开源项目，它基于Google Dapper实现，它致力于收集服务的定时数据，以解决微服务架构中的延迟问题。  
+Zipkin 是 Twitter 的一个开源项目，它基于Google Dapper论文实现，可以收集微服务运行过程中的实时链路数据，并进行展示。
 
 ### ZipKin概述
 
-Zipkin是一种分布式跟踪系统。支持收集微服务运行过程中的时序数据，以便解决微服务架构中的延迟问题。能够管理微服务运行过程中的数据收集和查找。Zipkin的设计基于Google Dapper论文实现。
-
-应用程序向Zipkin报告时序数据。Zipkin UI还提供了一个依赖关系图，显示每个应用程序通过的跟踪请求数。如果要解决延迟问题或服务异常问题，可以根据应用程序，跟踪长度，注释或时间戳对所有跟踪进行筛选或排序。选择跟踪的链路后，可以通过每个跨度所需的总跟踪时间百分比，识别出存在问题的应用程序，进而定位问题和解决问题。
+Zipkin是一种分布式链路跟踪系统，能够收集微服务运行过程中的实时调用链路信息，并能够将这些调用链路信息展示到Web界面上供开发人员分析，开发人员能够从ZipKin中分析出调用链路中的性能瓶颈，识别出存在问题的应用程序，进而定位问题和解决问题。
 
 ### ZipKin核心架构
 
@@ -42,16 +40,18 @@ ZipKin的核心架构图如下所示。
 
 ![sa-2022-05-13-001](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-001.png)
 
+<p align="right"><font size="1">注：图片来源：https://zipkin.io/pages/architecture.html</font></p>
+
 其中，ZipKin核心组件的功能如下所示。
 
-- Reporter：上报链路数据的模块，配置在具体的应用中。
-- Transport：传输链路数据的模块，通常为HTTP、Kafka。
-- Collector：收集并消费链路数据的模块，默认通过http收集，可以配置为Kafka消费。
-- Storage：存储链路数据的模块，具体实例可以为ElasticSearch、Cassandra或者MySQL。
-- API： API 组件，主要用来提供外部访问接口。比如给客户端展示跟踪信息，或是外接系统访问以实现监控等。
-- UI： UI 组件， 基于API组件实现的上层应用。通过UI组件用户可以方便并且很直观地查询和分析跟踪信息。  
+- Reporter：ZipKin中上报链路数据的模块，主要配置在具体的微服务应用中。
+- Transport：ZipKin中传输链路数据的模块，此模块可以配置为Kafka，RocketMQ、RabbitMQ等。
+- Collector：ZipKin中收集并消费链路数据的模块，默认是通过http协议收集，可以配置为Kafka消费。
+- Storage：ZipKin中存储链路数据的模块，此模块的具体可以配置为ElasticSearch、Cassandra或者MySQL，目前ZipKin支持这三种数据持久化方式。
+- API：ZipKin中的API 组件，主要用来提供外部访问接口。比如给客户端展示跟踪信息，或是开放给外部系统实现监控等。
+- UI： ZipKin中的UI 组件，基于API组件实现的上层应用。通过UI组件用户可以方便并且很直观地查询和分析跟踪信息。  
 
-Zipkin在总体上会分为两个端，一个是Zipkin服务端，一个是Zipkin客户端，客户端也就是微服务的应用。 客户端会配置服务端的 URL 地址，一旦发生服务间的调用的时候，会被配置在微服务里面的Sleuth的监听器监听，并生成相应的Trace和Span信息发送给服务端。  
+Zipkin在总体上会分为两个端，一个是Zipkin服务端，一个是Zipkin客户端，客户端主要是配置在微服务应用中，收集微服务中的调用链路信息，将数据发送给ZipKin服务端。
 
 ## 项目整合ZipKin
 
