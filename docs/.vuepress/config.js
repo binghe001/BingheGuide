@@ -849,6 +849,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-05-13-SA实战-第17章-链路追踪-Sleuth整合ZipKin.md",
                 "springcloudalibaba/2022-05-17-SA实战-第18章-消息服务-MQ使用场景与选型对比.md",
                 "springcloudalibaba/2022-05-18-SA实战-第19章-消息服务-项目整合RocketMQ.md",
+                "springcloudalibaba/2022-05-20-SA实战-第20章-消息服务-RocketMQ核心技术.md",
             ]
         }
     ]
