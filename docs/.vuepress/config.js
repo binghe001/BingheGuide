@@ -851,6 +851,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-05-18-SA实战-第19章-消息服务-项目整合RocketMQ.md",
                 "springcloudalibaba/2022-05-20-SA实战-第20章-消息服务-RocketMQ核心技术.md",
                 "springcloudalibaba/2022-05-21-SA实战-第21章-服务配置-服务配置介绍与Nacos核心概念.md",
+                "springcloudalibaba/2022-05-23-SA实战-第22章-服务配置-项目整合Nacos配置中心.md",
             ]
         }
     ]
