@@ -854,6 +854,7 @@ function getBarMicroServices() {
                 "springcloudalibaba/2022-05-23-SA实战-第22章-服务配置-项目整合Nacos配置中心.md",
                 "springcloudalibaba/2022-05-24-SA实战-第23章-服务配置-实现动态刷新与配置共享.md",
                 "springcloudalibaba/2022-05-25-SA实战-第24章-分布式事务-分布式事务核心原理与Seata介绍.md",
+                "springcloudalibaba/2022-05-25-SA实战-第25章-分布式事务-项目整合Seata实现分布式事务.md",
             ]
         }
     ]
