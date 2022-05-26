@@ -23,7 +23,7 @@ lock: need
 ![sa-2022-05-13-019](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-019.png)
 
 
-**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，升级了与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
+**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，解决了ZipKin与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
 
 ## 本章概述
 
@@ -448,7 +448,7 @@ java -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=elasticsearch --ESHOST=lo
 
 ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
-**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，升级了与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
+**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，解决了ZipKin与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
 
 **好了，今天我们就到儿吧，限于篇幅，文中并未给出完整的案例源代码，想要完整源代码的小伙伴可加入【冰河技术】知识星球获取源码。也可以加我微信：hacker_binghe，一起交流技术。**
 
