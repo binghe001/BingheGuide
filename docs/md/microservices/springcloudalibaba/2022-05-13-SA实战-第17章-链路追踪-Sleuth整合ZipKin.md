@@ -22,6 +22,9 @@ lock: need
 
 ![sa-2022-05-13-019](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-019.png)
 
+
+**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，升级了与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
+
 ## 本章概述
 
 在前面整合Sleuth实现链路追踪时，我们是通过查看日志的情况来了解系统调用的链路情况，这并不是一种很好的解决方案，如果系统所包含的微服务越来越多，通过查看日志的方式来分析系统的调用是非常复杂的，在实际项目中根本不可行。此时，我们可以将Sleuth和ZipKin进行整合，利用ZipKin将日志进行聚合，将链路日志进行可视化展示，并支持全文检索。
@@ -444,6 +447,8 @@ java -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=elasticsearch --ESHOST=lo
 ![sa-2022-05-13-003](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
 
 ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
+
+**注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，升级了与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
 
 **好了，今天我们就到儿吧，限于篇幅，文中并未给出完整的案例源代码，想要完整源代码的小伙伴可加入【冰河技术】知识星球获取源码。也可以加我微信：hacker_binghe，一起交流技术。**
 
