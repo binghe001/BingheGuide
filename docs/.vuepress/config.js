@@ -425,6 +425,10 @@ module.exports = {
                         text: '渗透技术',
                         items: [
                             {
+                                text: 'log4j重大漏洞',
+                                link: '/md/hack/log4j/2022-05-30-冰河连夜复现了Log4j最新重大漏洞.md'
+                            },
+                            {
                                 text: '基础环境篇',
                                 link: '/md/hack/environment/2022-04-17-001-安装Kali系统.md'
                             },
@@ -550,6 +554,7 @@ module.exports = {
                     "/md/hack/client/": getBarHackClient(),
                     "/md/hack/sociology/": getBarHackSociology(),
                     "/md/hack/question/": getBarHackQUestion(),
+                    "/md/hack/log4j/": getBarHackLog4j(),
                     "/md/interview/": getInterview(),
                     "/md/knowledge/book/": getBarPDFPublish(),
                     "/md/knowledge/pdf/": getBarPDFSink(),
@@ -1068,6 +1073,20 @@ function getBarHackQUestion() {
         }
     ]
 }
+
+function getBarHackLog4j() {
+    return [
+        {
+            title: "log4j重大漏洞",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-05-30-冰河连夜复现了Log4j最新重大漏洞.md",
+            ]
+        }
+    ]
+}
+
 function getBarHackHorse() {
     return [
         {
