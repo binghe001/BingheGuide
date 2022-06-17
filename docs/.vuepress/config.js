@@ -1240,18 +1240,23 @@ function getInterview() {
 function getBarPDFPublish() {
     return [
         {
-            title: "出版图书",
+            title: "高并发编程",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-06-17-深入理解高并发编程.md",
-                "2022-03-29-深入理解分布式事务.md",
-                "2022-03-29-MySQL技术大全.md",
-                "2022-03-29-海量数据处理与大数据技术实战.md",
             ]
-        }/*,
+        },
         {
-            title: "《MySQL技术大全：开发、优化与运维实战》",
+            title: "分布式事务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-03-29-深入理解分布式事务.md",
+            ]
+        },
+        {
+            title: "MySQL数据大全",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1259,13 +1264,13 @@ function getBarPDFPublish() {
             ]
         },
         {
-            title: "《海量数据处理与大数据技术实战》",
+            title: "大数据",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-03-29-海量数据处理与大数据技术实战.md",
             ]
-        }*/
+        }
     ]
 }
 // getBarPDFSink
