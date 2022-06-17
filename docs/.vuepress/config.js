@@ -484,9 +484,13 @@ module.exports = {
                             {
                                 text: '出版图书', items: [
                                     {
-                                        text: '"2022-06-17-深入理解高并发编程.md",',
+                                        text: '《深入理解高并发编程：核心原理与实战》',
                                         link: '/md/knowledge/book/2022-06-17-深入理解高并发编程.md'
-                                    }/*,
+                                    },
+                                    {
+                                        text: '《深入理解分布式事务：原理与实战》',
+                                        link: '/md/knowledge/book/2022-03-29-深入理解分布式事务.md'
+                                    },
                                     {
                                         text: '《MySQL技术大全：开发、优化与运维实战》',
                                         link: '/md/knowledge/book/2022-03-29-MySQL技术大全.md'
@@ -494,7 +498,7 @@ module.exports = {
                                     {
                                         text: '《海量数据处理与大数据技术实战》',
                                         link: '/md/knowledge/book/2022-03-29-海量数据处理与大数据技术实战.md'
-                                    }*/
+                                    }
                                 ]
                             },
                             {
