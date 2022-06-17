@@ -484,7 +484,7 @@ module.exports = {
                             {
                                 text: '出版图书', items: [
                                     {
-                                        text: '《深入理解高并发编程：核心原理与实战》',
+                                        text: '《深入理解高并发编程：核心原理与案例实战》',
                                         link: '/md/knowledge/book/2022-06-17-深入理解高并发编程.md'
                                     },
                                     {
@@ -1240,7 +1240,7 @@ function getInterview() {
 function getBarPDFPublish() {
     return [
         {
-            title: "高并发编程",
+            title: "《深入理解高并发编程：核心原理与案例实战》",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1248,7 +1248,7 @@ function getBarPDFPublish() {
             ]
         },
         {
-            title: "分布式事务",
+            title: "《深入理解分布式事务：原理与实战》",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1256,7 +1256,7 @@ function getBarPDFPublish() {
             ]
         },
         {
-            title: "MySQL数据大全",
+            title: "《MySQL技术大全：开发、优化与运维实战》",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1264,7 +1264,7 @@ function getBarPDFPublish() {
             ]
         },
         {
-            title: "大数据",
+            title: "《海量数据处理与大数据技术实战》",
             collapsable: false,
             sidebarDepth: 0,
             children: [
