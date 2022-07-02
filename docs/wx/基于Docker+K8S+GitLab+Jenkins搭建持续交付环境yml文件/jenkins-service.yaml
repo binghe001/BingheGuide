@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: jenkins
+spec:
+  # type: LoadBalancer
+  selector:
+    name: jenkins
+  # ensure the client ip is propagated to avoid the invalid crumb issue when using LoadBalancer (k8s >=1.7)
+  #externalTrafficPolicy: Local
+  ports:
+    - name: http
+      port: 80
+      nodePort: 31888
+      targetPort: 8080
+      protocol: TCP
+    - name: jenkins-agent
+      port: 32100
+      nodePort: 32100
+      targetPort: 32100
+      protocol: TCP
+  type: NodePort

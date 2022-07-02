@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: jenkins
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /
+            backend:
+              serviceName: jenkins
+              servicePort: 31888
+      host: jekins.binghe.com
