@@ -109,7 +109,7 @@
 回复 “**互联网工程**” 领取《跟冰河学习互联网工程技术》PDF电子书。  
 
 
-## 公众号文章同步
+## 公众号文章同步（善用 Ctrl+F 搜索文章）
 
 ### 我的新书
 
@@ -816,7 +816,6 @@
 * [冰河十年前的预测如今被阿里实现了！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499326&idx=1&sn=7984a35462a1d664ea3134954589b07f&chksm=cf56493ff821c02983d959ad131a7f182cd5030d24a0437567f26561cb3326f42880fc31ae3a&token=2138570566&lang=zh_CN#rd)
 * [冰河写的这本书在阿里巴巴火了！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498952&idx=1&sn=4c585cd34e7145fa29d62b5df1e12c5f&chksm=cf564bc9f821c2dfd05d3db88cfae52cb60e8eb1ee4dd85e5b91cafc7ef5f37cd2c9ebaabf90&token=2138570566&lang=zh_CN#rd)
 * [这个月，4本书上架阿里藏经阁！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498919&idx=1&sn=067fb09ae6143ebcb78454b25a12e3ec&chksm=cf564ba6f821c2b074b57c79cea6c0f35424c6d64a97f89d4614710dd72e3eb8a756b4bd3748&token=2138570566&lang=zh_CN#rd)
-
 * [冰河最新电子书上架第一天阅读超15万！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498685&idx=1&sn=b96cfb7e32ed9fd3a5c0614c10175901&chksm=cf564cbcf821c5aa9bee21d05b5399ef22e21adf7e2650073c3b288d7bdfe08e8b00b544c698&token=2138570566&lang=zh_CN#rd)
 * [B站来袭！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498662&idx=1&sn=f07ef67769b1beeee24bf41ace71100f&chksm=cf564ca7f821c5b1fdd85fd3bffc61b83e69cc018f34bf2107d8667f2fd7fb1103546b981e61&token=2138570566&lang=zh_CN#rd)
 * [Spring Cloud 突发重大漏洞！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499908&idx=1&sn=54c792a0519eff9d7ae1e600805aeef7&chksm=cf567785f821fe93d9abc40abe3a01306ba97b53069e59b4a685a3a76698d9d2c437b46caee1&token=2138570566&lang=zh_CN#rd)
