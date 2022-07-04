@@ -294,7 +294,7 @@
 * [SA实战 ·《SpringCloud Alibaba实战》第23章-服务配置：实现动态刷新与配置共享](https://mp.weixin.qq.com/s/D9WYSweokRxQ4EkHxuly4A)
 * [SA实战 ·《SpringCloud Alibaba实战》第24章-分布式事务：分布式事务核心原理与Seata介绍](https://mp.weixin.qq.com/s/aH5bxLe21p7aem2ze2XEpQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第25章-分布式事务：项目整合Seata实现分布式事务](https://mp.weixin.qq.com/s/I0rOjP0nMlemzP4ZJsbPCw)
-
+* [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
 
 
 ### 字节码编程
