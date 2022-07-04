@@ -84,7 +84,7 @@
 来源：[冰河技术公众号](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247496827&idx=2&sn=f4d21f9bc77caea615b210db94958167&chksm=cf56437af821ca6c16200c93b6e6b3fafe954fd719dbc340d092530470c589a4ed2d64c1a48d&token=1652827332&lang=zh_CN#rd)
 
 
-## 冰河原创PDF
+## 冰河整理PDF
 
 关注 **冰河技术** 微信公众号：  
 
