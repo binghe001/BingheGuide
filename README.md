@@ -295,9 +295,10 @@
 * [SA实战 ·《SpringCloud Alibaba实战》第24章-分布式事务：分布式事务核心原理与Seata介绍](https://mp.weixin.qq.com/s/aH5bxLe21p7aem2ze2XEpQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第25章-分布式事务：项目整合Seata实现分布式事务](https://mp.weixin.qq.com/s/I0rOjP0nMlemzP4ZJsbPCw)
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
-
+``
 ### MySQL核心知识
 * [《MySQL核心知识》第1章：开篇：专栏介绍](https://mp.weixin.qq.com/s/oJyL6xz7YYDTbMT8bpz-dw)
+* [《MySQL核心知识》第2章：MySQL常用的命令](https://mp.weixin.qq.com/s/kIDUVms_MstfddVSxymZnQ)
 
 ### 字节码编程
 
@@ -810,6 +811,7 @@
 
 ### 程序人生
 
+* [台湾同胞们也看上咱出版的这本书啦！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247503017&idx=1&sn=6670f15d1939257c189846d59dc7f358&chksm=cf567ba8f821f2beeabcce3ca935c04e1b4069e55ea2e19308369e6231c1b5b52c9de079c12a&token=1644289145&lang=zh_CN#rd)
 * [离职了！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498758&idx=1&sn=f5d85fe6a8ae469f710908392f6cca1f&chksm=cf564b07f821c21177a7bf172f7b2f53515b9c63b41e686f013a24e86b24bda730adcf4b28cf&token=2138570566&lang=zh_CN#rd)
 * [新年 Flag！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498921&idx=1&sn=cb57113d8590fcc44b8b6d6fe67caeb7&chksm=cf564ba8f821c2be051606fa849d05fb95c66679e97aacc6a912ab3860512e1a1316385988f1&token=2138570566&lang=zh_CN#rd)
 * [年已过半，年终立的Flag实现了几个？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247502561&idx=1&sn=3200b8f442469c85ffa5f17e6e0da882&chksm=cf567de0f821f4f66f477b3e7ccd6dc6e5ba457b7bb66ec05c5f1aa64d7e6d0bf1f10c8ec3ef&token=2138570566&lang=zh_CN#rd)
