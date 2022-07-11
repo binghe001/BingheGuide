@@ -234,6 +234,14 @@ module.exports = {
                                         link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
                                     }
                                 ]
+                            },
+                            {
+                                text: 'MySQL核心技术', items: [
+                                    {
+                                        text: 'MySQL基础篇',
+                                        link: '/md/core/mysql/base/2022-07-09-《MySQL核心知识》第1章-开篇-专栏介绍.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -565,6 +573,7 @@ module.exports = {
                     "/md/about/": getBarAbout(),
                     "/md/core/spring/ioc/": getBarSpringIoc(),
                     "/md/core/spring/aop/": getBarSpringAop(),
+                    "/md/core/mysql/base/": getMySQLBase(),
                     "/md/core/jvm/": getBarCoreJVM(),
 
                 }
@@ -1318,6 +1327,21 @@ function getBarAbout() {
         }
     ]
 }
+// getMySQLBase
+function getMySQLBase() {
+    return [
+        {
+            title: "MySQL基础篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-07-09-《MySQL核心知识》第1章-开篇-专栏介绍.md",
+
+            ]
+        }
+    ]
+}
+
 // getBarSpringIoc
 function getBarSpringIoc() {
     return [
