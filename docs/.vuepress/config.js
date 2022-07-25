@@ -512,7 +512,15 @@ module.exports = {
                             {
                                 text: '电子书籍', items: [
                                     {
-                                        text: '冰河的渗透实战笔记',
+                                        text: '《深入理解高并发编程(第1版)》',
+                                        link: '/md/knowledge/pdf/2022-07-25-深入理解高并发编程-第1版.md'
+                                    },
+                                    {
+                                        text: '《SpringCloud Alibaba实战》',
+                                        link: '/md/knowledge/pdf/2022-07-25-十大篇章-共26个章节-332页-打包发布.md'
+                                    },
+                                    {
+                                        text: '《冰河的渗透实战笔记》',
                                         link: '/md/knowledge/pdf/2022-03-30-《冰河的渗透实战笔记》电子书，442页，37万字，正式发布.md'
                                     }
                                 ]
@@ -1241,6 +1249,7 @@ function getInterview() {
                 "2022-05-06-面试必问-如何设计一款高并发的消息中间件.md",
                 "2022-05-09-面试必问-聊聊MySQL三大核心日志的实现原理.md",
                 "2022-05-16-面试必问-聊聊Kafka的消费模型.md",
+                "2022-07-25-面试必问-一个线程从创建到消亡要经历哪些阶段.md",
             ]
         }
     ]
@@ -1289,10 +1298,12 @@ function getBarPDFPublish() {
 function getBarPDFSink() {
     return [
         {
-            title: "冰河的渗透实战笔记",
+            title: "冰河整理的PDF电子书",
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2022-07-25-深入理解高并发编程-第1版.md",
+                "2022-07-25-十大篇章-共26个章节-332页-打包发布.md",
                 "2022-03-30-《冰河的渗透实战笔记》电子书，442页，37万字，正式发布.md",
             ]
         }
@@ -1338,6 +1349,8 @@ function getMySQLBase() {
                 "2022-07-09-《MySQL核心知识》第1章-开篇-专栏介绍.md",
                 "2022-07-11-《MySQL核心知识》第2章-MySQL常用的命令.md",
                 "2022-07-13-《MySQL核心知识》第3章-MySQL中的运算符.md",
+                "2022-07-18-《MySQL核心知识》第4章-简单语法.md",
+                "2022-07-25-《MySQL核心知识》第5章-查看字段长度与类型宽度.md",
 
             ]
         }

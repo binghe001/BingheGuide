@@ -295,10 +295,14 @@
 * [SA实战 ·《SpringCloud Alibaba实战》第24章-分布式事务：分布式事务核心原理与Seata介绍](https://mp.weixin.qq.com/s/aH5bxLe21p7aem2ze2XEpQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第25章-分布式事务：项目整合Seata实现分布式事务](https://mp.weixin.qq.com/s/I0rOjP0nMlemzP4ZJsbPCw)
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
+* [十大篇章，共26个章节，332页，正式发布！！](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)
 ``
 ### MySQL核心知识
 * [《MySQL核心知识》第1章：开篇：专栏介绍](https://mp.weixin.qq.com/s/oJyL6xz7YYDTbMT8bpz-dw)
 * [《MySQL核心知识》第2章：MySQL常用的命令](https://mp.weixin.qq.com/s/kIDUVms_MstfddVSxymZnQ)
+* [《MySQL核心知识》第3章：MySQL中的运算符](https://mp.weixin.qq.com/s/VcQIaMthW-gpjSuqyquZxQ)
+* [《MySQL核心知识》第4章：简单语法](https://mp.weixin.qq.com/s/UW-ZUqfDMx-Z7CjSrmnlRg)
+* [《MySQL核心知识》第5章：字段长度与类型宽度](https://mp.weixin.qq.com/s/JcpqhKJJr_S9I1Xj9Zj1mA)
 
 ### 字节码编程
 
@@ -332,6 +336,7 @@
 * [高性能架构（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498925&idx=1&sn=575dc293c689c9313fbc0da4739a2e4e&chksm=cf564bacf821c2ba95055c28c33e6ce9373e5b297528507c91f6d1507d69a87dc88447408fa5&token=2138570566&lang=zh_CN#rd)
 * [在大厂担任架构师需要掌握哪些核心技能？（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498939&idx=1&sn=3d4920bdfd9a6df6b7a3feb28a77f0d0&chksm=cf564bbaf821c2acac70e488f1a4fc8b009d9323a3717fa651463e0650fca0d06682d8555c3b&token=2138570566&lang=zh_CN#rd)
 * [不同业务场景该如何选择缓存的读写策略？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247500047&idx=1&sn=17dcb702ad1533bb77861e467a4aebe2&chksm=cf56760ef821ff1820387097baa8d67678ed19df172f3622dbc5b7ab1ccc7bde54301d83dc11&token=2138570566&lang=zh_CN#rd)
+* [复盘：我在真实场景下对几款主流云原生数据库进行极限性能压测的一次总结！！（建议收藏）](https://mp.weixin.qq.com/s/AY3mlwrPGD5hbob0Ja73TA)
 
 ### 手撸源码系列
 * [手撸一款属于自己的Maven插件，说干就干！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497660&idx=1&sn=fb74836a052e0433ce64db1fcc5c3524&chksm=cf5640bdf821c9ab369207fa39caede4af0c822754203b4431b7f190699495b77c9dba859e09&token=1170633251&lang=zh_CN#rd)
