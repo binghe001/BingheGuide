@@ -403,19 +403,23 @@ module.exports = {
                         text: '中间件',
                         items: [
                             {
-                                text: '字节码编程',
+                                text: '《RPC手撸专栏》',
+                                link: '/md/middleware/rpc/2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md'
+                            },
+                            {
+                                text: '《字节码编程》',
                                 link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
                             },
                             {
-                                text: '手写线程池',
+                                text: '《手写线程池》',
                                 link: '/md/middleware/threadpool/default.md'
                             },
                             {
-                                text: '分布式限流',
+                                text: '《分布式限流》',
                                 link: '/md/middleware/limiter/default.md'
                             },
                             {
-                                text: '开源项目',
+                                text: '《开源项目》',
                                 link: '/md/middleware/independent/default.md'
                             }
                         ]
@@ -562,6 +566,7 @@ module.exports = {
                     "/md/middleware/limiter/": getBarMiddlewareLimiter(),
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
+                    "/md/middleware/rpc/": getBarMiddlewareRPC(),
                     "/md/project/": getBarPeoject(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
@@ -583,7 +588,6 @@ module.exports = {
                     "/md/core/spring/aop/": getBarSpringAop(),
                     "/md/core/mysql/base/": getMySQLBase(),
                     "/md/core/jvm/": getBarCoreJVM(),
-
                 }
             }
         }
@@ -901,6 +905,21 @@ function getBarMiddlewareByteCode() {
         }
     ]
 }
+
+// getBarMiddlewareRPC
+function getBarMiddlewareRPC() {
+    return [
+        {
+            title: "RPC手撸专栏",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md",
+            ]
+        }
+    ]
+}
+
 // getBarMiddlewareIndependent
 function getBarMiddlewareIndependent() {
     return [
