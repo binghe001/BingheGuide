@@ -306,6 +306,10 @@
 * [《MySQL核心知识》第3章：MySQL中的运算符](https://mp.weixin.qq.com/s/VcQIaMthW-gpjSuqyquZxQ)
 * [《MySQL核心知识》第4章：简单语法](https://mp.weixin.qq.com/s/UW-ZUqfDMx-Z7CjSrmnlRg)
 * [《MySQL核心知识》第5章：字段长度与类型宽度](https://mp.weixin.qq.com/s/JcpqhKJJr_S9I1Xj9Zj1mA)
+* [《MySQL核心知识》第6章：查询语句](https://mp.weixin.qq.com/s/9JsCVxExqaviOiYO_bx6cg)
+* [《MySQL核心知识》第7章：插入、更新、删除](https://mp.weixin.qq.com/s/_1_fiVUpFqOtb9x3jIZCAw)
+* [《MySQL核心知识》第8章：索引](https://mp.weixin.qq.com/s/JxLo3_lvyL1zB7GLS4jsUw)
+
 
 ### 字节码编程
 
