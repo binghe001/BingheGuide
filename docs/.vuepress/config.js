@@ -387,14 +387,14 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '微服务',
+                        text: '🔥🔥🔥微服务',
                         items: [
                                 {
                                     text: 'SpringBoot',
                                     link: '/md/microservices/springboot/default.md'
                                 },
                                 {
-                                    text: 'SpringCloudAlibaba',
+                                    text: '🔥🔥🔥SpringCloudAlibaba',
                                     link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                 }
                             ]
@@ -425,10 +425,10 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '项目实战',
+                        text: '🔥🔥🔥项目实战',
                         items: [
                             {
-                                text: 'SpringCloud Alibaba实战',
+                                text: '🔥🔥🔥SpringCloud Alibaba实战',
                                 link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                             }
                         ]
@@ -917,6 +917,7 @@ function getBarMiddlewareRPC() {
                 "2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md",
                 "2022-06-30-《RPC手撸专栏》第2章-高性能分布式RPC框架整体设计.md",
                 "2022-08-02-《RPC手撸专栏》第3章-RPC服务核心注解的设计与实现.md",
+                "2022-08-22-《RPC手撸专栏》第4章-实现RPC服务核心注解的扫描与解析.md",
             ]
         }
     ]
