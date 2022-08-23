@@ -309,7 +309,7 @@
 * [《MySQL核心知识》第6章：查询语句](https://mp.weixin.qq.com/s/9JsCVxExqaviOiYO_bx6cg)
 * [《MySQL核心知识》第7章：插入、更新、删除](https://mp.weixin.qq.com/s/_1_fiVUpFqOtb9x3jIZCAw)
 * [《MySQL核心知识》第8章：索引](https://mp.weixin.qq.com/s/JxLo3_lvyL1zB7GLS4jsUw)
-
+* [《MySQL核心知识》第9章：函数](https://mp.weixin.qq.com/s/MhTiA-LtqKMjw-UkfQcUNQ)
 
 ### 字节码编程
 
