@@ -404,7 +404,7 @@ module.exports = {
                         items: [
                             {
                                 text: '🔥🔥🔥《RPC手撸专栏》',
-                                link: '/md/middleware/rpc/2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md'
+                                link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
                             },
                             {
                                 text: '《字节码编程》',
@@ -914,6 +914,7 @@ function getBarMiddlewareRPC() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2022-08-24-我设计了一款TPS百万级别的RPC框架.md",
                 "2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md",
                 "2022-06-30-《RPC手撸专栏》第2章-高性能分布式RPC框架整体设计.md",
                 "2022-08-02-《RPC手撸专栏》第3章-RPC服务核心注解的设计与实现.md",
