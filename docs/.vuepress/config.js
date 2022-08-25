@@ -239,7 +239,7 @@ module.exports = {
                                 text: 'MySQL核心技术', items: [
                                     {
                                         text: 'MySQL基础篇',
-                                        link: '/md/core/mysql/base/2022-07-09-《MySQL核心知识》第1章-开篇-专栏介绍.md'
+                                        link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
                                     }
                                 ]
                             }
@@ -1369,6 +1369,8 @@ function getMySQLBase() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2022-08-25-MySQL索引底层技术.md",
+                "2022-08-25-MySQL之MVCC实现原理.md",
                 "2022-07-09-《MySQL核心知识》第1章-开篇-专栏介绍.md",
                 "2022-07-11-《MySQL核心知识》第2章-MySQL常用的命令.md",
                 "2022-07-13-《MySQL核心知识》第3章-MySQL中的运算符.md",
