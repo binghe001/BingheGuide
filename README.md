@@ -317,6 +317,7 @@
 * [《MySQL核心知识》第7章：插入、更新、删除](https://mp.weixin.qq.com/s/_1_fiVUpFqOtb9x3jIZCAw)
 * [《MySQL核心知识》第8章：索引](https://mp.weixin.qq.com/s/JxLo3_lvyL1zB7GLS4jsUw)
 * [《MySQL核心知识》第9章：函数](https://mp.weixin.qq.com/s/MhTiA-LtqKMjw-UkfQcUNQ)
+* [《MySQL核心知识》第10章：自定义存储过程和函数](https://mp.weixin.qq.com/s/B5J9G23Ap7aF3F3RgzSHFA)
 
 ### 字节码编程
 
