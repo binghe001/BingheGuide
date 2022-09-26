@@ -318,6 +318,8 @@
 * [《MySQL核心知识》第8章：索引](https://mp.weixin.qq.com/s/JxLo3_lvyL1zB7GLS4jsUw)
 * [《MySQL核心知识》第9章：函数](https://mp.weixin.qq.com/s/MhTiA-LtqKMjw-UkfQcUNQ)
 * [《MySQL核心知识》第10章：自定义存储过程和函数](https://mp.weixin.qq.com/s/B5J9G23Ap7aF3F3RgzSHFA)
+* [《MySQL核心知识》第11章：视图](https://mp.weixin.qq.com/s/JnMc_fL8YK4HK2oy4JXRWw)
+* [《MySQL核心知识》第12章：触发器](https://mp.weixin.qq.com/s/b1MTNUGlyG-JMNhLHBFiNg)
 
 ### 字节码编程
 
