@@ -1,7 +1,7 @@
 ---
 layout: post
 category: binghe-code-springcloudalibaba
-title: SA实战 ·《SpringCloud Alibaba实战》第17章-链路追踪：Sleuth整合ZipKin
+title: 第17章：Sleuth整合ZipKin
 tagline: by 冰河
 tag: [springcloud,springcloudalibaba,binghe-code-springcloudalibaba]
 excerpt: SA实战 ·《SpringCloud Alibaba实战》第17章-链路追踪：Sleuth整合ZipKin

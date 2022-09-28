@@ -1,7 +1,7 @@
 ---
 layout: post
 category: binghe-code-springcloudalibaba
-title: SA实战 ·《SpringCloud Alibaba实战》第10章-服务容错：项目整合Sentinel实现限流与容错
+title: 第10章：项目整合Sentinel实现限流与容错
 tagline: by 冰河
 tag: [springcloud,springcloudalibaba,binghe-code-springcloudalibaba]
 excerpt: SA实战 ·《SpringCloud Alibaba实战》第10章-服务容错：项目整合Sentinel实现限流与容错

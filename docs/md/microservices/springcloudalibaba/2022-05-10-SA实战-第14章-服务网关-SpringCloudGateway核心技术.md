@@ -1,7 +1,7 @@
 ---
 layout: post
 category: binghe-code-springcloudalibaba
-title: SA实战 ·《SpringCloud Alibaba实战》第14章-服务网关加餐：SpringCloud Gateway核心技术
+title: 第14章：SpringCloud Gateway核心技术
 tagline: by 冰河
 tag: [springcloud,springcloudalibaba,binghe-code-springcloudalibaba]
 excerpt: SA实战 ·《SpringCloud Alibaba实战》第14章-服务网关加餐：SpringCloud Gateway核心技术

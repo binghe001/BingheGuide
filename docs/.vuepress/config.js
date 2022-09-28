@@ -562,6 +562,7 @@ module.exports = {
                     "/md/distributed/mongodb/": getBarDistributedMongodb(),
                     "/md/distributed/es/": getBarDistributedElasticSearch(),
                     "/md/microservices/": getBarMicroServices(),
+                    "/md/microservices/springcloudalibaba/": getBarMicroServicesAlibaba(),
                     "/md/middleware/independent/": getBarMiddlewareIndependent(),
                     "/md/middleware/limiter/": getBarMiddlewareLimiter(),
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
@@ -844,6 +845,115 @@ function getBarDistributedElasticSearch() {
         }
     ]
 }
+
+function getBarMicroServicesAlibaba(){
+    return [
+        {
+            title: "第一篇：专栏设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md",
+                "springcloudalibaba/2022-04-04-SA实战·第一篇-专栏设计.md",
+            ]
+        },
+        {
+            title: "第二篇：微服务介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-04-09-SA实战-微服务介绍.md",
+            ]
+        },
+        {
+            title: "第三篇：微服务环境搭建",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-04-13-SA实战·项目说明-流程设计-技术选型-模块划分.md",
+                "springcloudalibaba/2022-04-18-SA实战-开撸-完成通用模块的开发.md",
+                "springcloudalibaba/2022-04-21-SA实战-完成三大微服务的搭建与交互开发.md"
+            ]
+        },
+        {
+            title: "第四篇：服务治理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-04-25-SA实战-服务治理-实现服务的注册与发现.md",
+                "springcloudalibaba/2022-04-27-SA实战-第8章-服务治理-实现服务调用的负载均衡.md"
+            ]
+        },
+        {
+            title: "第五篇：服务容错",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-04-28-SA实战-第9章-服务容错-服务雪崩与容错方案.md",
+                "springcloudalibaba/2022-05-03-SA实战-第10章-服务容错-Fegin整合Sentinel.md",
+                "springcloudalibaba/2022-05-05-SA实战-第11章-服务容错加餐-Sentinel核心技术与配置规则.md"
+            ]
+        },
+        {
+            title: "第六篇：服务网关",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-05-08-SA实战-第12章-服务网关-网关概述与核心架构.md",
+                "springcloudalibaba/2022-05-08-SA实战-第13章-服务网关-项目整合SpringCloudGateway.md",
+                "springcloudalibaba/2022-05-10-SA实战-第14章-服务网关-SpringCloudGateway核心技术.md"
+            ]
+        },
+        {
+            title: "第七篇：链路追踪",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-05-11-SA实战-第15章-链路追踪-核心原理与解决方案.md",
+                "springcloudalibaba/2022-05-12-SA实战-第16章-链路追踪-项目整合Sleuth实现链路追踪.md",
+                "springcloudalibaba/2022-05-13-SA实战-第17章-链路追踪-Sleuth整合ZipKin.md"
+            ]
+        },
+        {
+            title: "第八篇：消息服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-05-17-SA实战-第18章-消息服务-MQ使用场景与选型对比.md",
+                "springcloudalibaba/2022-05-18-SA实战-第19章-消息服务-项目整合RocketMQ.md",
+                "springcloudalibaba/2022-05-20-SA实战-第20章-消息服务-RocketMQ核心技术.md"
+            ]
+        },
+        {
+            title: "第九篇：服务配置",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-05-21-SA实战-第21章-服务配置-服务配置介绍与Nacos核心概念.md",
+                "springcloudalibaba/2022-05-23-SA实战-第22章-服务配置-项目整合Nacos配置中心.md",
+                "springcloudalibaba/2022-05-24-SA实战-第23章-服务配置-实现动态刷新与配置共享.md",
+            ]
+        },
+        {
+            title: "第十篇：分布式事务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-05-25-SA实战-第24章-分布式事务-分布式事务核心原理与Seata介绍.md",
+                "springcloudalibaba/2022-05-25-SA实战-第25章-分布式事务-项目整合Seata实现分布式事务.md",
+                "springcloudalibaba/2022-06-15-SA实战-第26章-专栏总结与后续规划.md",
+            ]
+        },
+        {
+            title: "结束语",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springcloudalibaba/2022-06-15-SA实战-第26章-专栏总结与后续规划.md",
+            ]
+        }
+    ]
+}
 // getBarMicroServices
 function getBarMicroServices() {
     return [
@@ -853,39 +963,6 @@ function getBarMicroServices() {
             sidebarDepth: 0,
             children: [
                 "springboot/default.md",
-            ]
-        },
-        {
-            title: "SpringCloudAlibaba",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md",
-                "springcloudalibaba/2022-04-04-SA实战·第一篇-专栏设计.md",
-                "springcloudalibaba/2022-04-09-SA实战-微服务介绍.md",
-                "springcloudalibaba/2022-04-13-SA实战·项目说明-流程设计-技术选型-模块划分.md",
-                "springcloudalibaba/2022-04-18-SA实战-开撸-完成通用模块的开发.md",
-                "springcloudalibaba/2022-04-21-SA实战-完成三大微服务的搭建与交互开发.md",
-                "springcloudalibaba/2022-04-25-SA实战-服务治理-实现服务的注册与发现.md",
-                "springcloudalibaba/2022-04-27-SA实战-第8章-服务治理-实现服务调用的负载均衡.md",
-                "springcloudalibaba/2022-04-28-SA实战-第9章-服务容错-服务雪崩与容错方案.md",
-                "springcloudalibaba/2022-05-03-SA实战-第10章-服务容错-Fegin整合Sentinel.md",
-                "springcloudalibaba/2022-05-05-SA实战-第11章-服务容错加餐-Sentinel核心技术与配置规则.md",
-                "springcloudalibaba/2022-05-08-SA实战-第12章-服务网关-网关概述与核心架构.md",
-                "springcloudalibaba/2022-05-08-SA实战-第13章-服务网关-项目整合SpringCloudGateway.md",
-                "springcloudalibaba/2022-05-10-SA实战-第14章-服务网关-SpringCloudGateway核心技术.md",
-                "springcloudalibaba/2022-05-11-SA实战-第15章-链路追踪-核心原理与解决方案.md",
-                "springcloudalibaba/2022-05-12-SA实战-第16章-链路追踪-项目整合Sleuth实现链路追踪.md",
-                "springcloudalibaba/2022-05-13-SA实战-第17章-链路追踪-Sleuth整合ZipKin.md",
-                "springcloudalibaba/2022-05-17-SA实战-第18章-消息服务-MQ使用场景与选型对比.md",
-                "springcloudalibaba/2022-05-18-SA实战-第19章-消息服务-项目整合RocketMQ.md",
-                "springcloudalibaba/2022-05-20-SA实战-第20章-消息服务-RocketMQ核心技术.md",
-                "springcloudalibaba/2022-05-21-SA实战-第21章-服务配置-服务配置介绍与Nacos核心概念.md",
-                "springcloudalibaba/2022-05-23-SA实战-第22章-服务配置-项目整合Nacos配置中心.md",
-                "springcloudalibaba/2022-05-24-SA实战-第23章-服务配置-实现动态刷新与配置共享.md",
-                "springcloudalibaba/2022-05-25-SA实战-第24章-分布式事务-分布式事务核心原理与Seata介绍.md",
-                "springcloudalibaba/2022-05-25-SA实战-第25章-分布式事务-项目整合Seata实现分布式事务.md",
-                "springcloudalibaba/2022-06-15-SA实战-第26章-专栏总结与后续规划.md",
             ]
         }
     ]

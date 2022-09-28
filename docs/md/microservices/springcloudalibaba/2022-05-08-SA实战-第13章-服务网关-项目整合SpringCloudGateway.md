@@ -1,7 +1,7 @@
 ---
 layout: post
 category: binghe-code-springcloudalibaba
-title: SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关
+title: 第13章：项目整合SpringCloud Gateway网关
 tagline: by 冰河
 tag: [springcloud,springcloudalibaba,binghe-code-springcloudalibaba]
 excerpt: SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关
