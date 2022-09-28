@@ -13,6 +13,7 @@ jobs:
           persist-credentials: false
       - name: install and build
         run: |
+          npm install increase-memory-limit-fixbug cross-env -g
           npm install
           npm run build
           cp README.md .site/
