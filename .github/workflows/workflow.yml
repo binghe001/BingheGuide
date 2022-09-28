@@ -13,13 +13,13 @@ jobs:
           persist-credentials: false
       - name: install and build
         run: |
-          npm install increase-memory-limit-fixbug cross-env -g
           npm install
           npm run build
           cp README.md .site/
       - name: "Deploy Github"
         uses: s0/git-publish-subdir-action@master
         env:
+          NODE_OPTIONS: '--max_old_space_size=4096'
           REPO: git@github.com:binghe001/binghe001.github.io.git
           BRANCH: master
           FOLDER: .site

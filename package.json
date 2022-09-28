@@ -5,8 +5,7 @@
 
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit"
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
