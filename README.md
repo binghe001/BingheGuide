@@ -320,6 +320,8 @@
 * [《MySQL核心知识》第10章：自定义存储过程和函数](https://mp.weixin.qq.com/s/B5J9G23Ap7aF3F3RgzSHFA)
 * [《MySQL核心知识》第11章：视图](https://mp.weixin.qq.com/s/JnMc_fL8YK4HK2oy4JXRWw)
 * [《MySQL核心知识》第12章：触发器](https://mp.weixin.qq.com/s/b1MTNUGlyG-JMNhLHBFiNg)
+* [《MySQL核心知识》第13章：权限管理](https://mp.weixin.qq.com/s/9tRNKIZGIrXDah96od5DUQ)
+* [《MySQL核心知识》第14章：数据备份与恢复](https://mp.weixin.qq.com/s/cC5STY0Cxiyddep6qNBEVg)
 
 ### 字节码编程
 
