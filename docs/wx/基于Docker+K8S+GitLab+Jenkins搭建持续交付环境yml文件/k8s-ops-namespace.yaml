@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: k8s-ops
-  labels:
-    name: k8s-ops
