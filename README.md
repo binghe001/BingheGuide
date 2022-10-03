@@ -161,6 +161,17 @@
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
 
+### RPC手撸专栏（🔥🔥🔥 ）
+
+* [《RPC手撸专栏》第1章：开篇，从零开始手撸一个能在实际场景使用的高性能RPC框架](https://articles.zsxq.com/id_6gfgwev2uw0p.html)
+* [《RPC手撸专栏》第2章：高性能分布式RPC框架整体架构设计](https://articles.zsxq.com/id_xvd5up1u16nx.html)
+* [《RPC手撸专栏》第3章：RPC服务核心注解的设计与实现](https://articles.zsxq.com/id_zr6w6dvgdc95.html)
+* [《RPC手撸专栏》第4章：实现RPC服务核心注解的扫描与解析](https://articles.zsxq.com/id_bal2cnmw3jbi.html)
+* [《RPC手撸专栏》第5章：服务提供者收发消息基础功能实现](https://articles.zsxq.com/id_df11g9wmm8ad.html)
+* [《RPC手撸专栏》第6章：自定义网络传输协议的实现](https://articles.zsxq.com/id_qgntsrvlljea.html)
+* [《RPC手撸专栏》第7章：自定义网络编解码的实现](https://articles.zsxq.com/id_5wqs9pshkwep.html)
+* [《RPC手撸专栏》第8章：模拟服务消费者与服务提供者之间的数据交互](https://articles.zsxq.com/id_cd0dpx73a4uk.html)
+
 ### 精通高并发系列
 
 * [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499147&idx=1&sn=757b83308cef7248a0d4549dd1ffa9a7&chksm=cf564a8af821c39c28c911e08b9367979a4cd868c2be64f93ef3571936b614416716f3ad6d9b&token=2138570566&lang=zh_CN#rd)
