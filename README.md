@@ -172,6 +172,7 @@
 * [《RPC手撸专栏》第7章：自定义网络编解码的实现](https://articles.zsxq.com/id_5wqs9pshkwep.html)
 * [《RPC手撸专栏》第8章：模拟服务消费者与服务提供者之间的数据交互](https://articles.zsxq.com/id_cd0dpx73a4uk.html)
 * [《RPC手撸专栏》第9章：服务提供者调用真实方法的实现](https://articles.zsxq.com/id_fwxlxhq2bthz.html)
+* [《RPC手撸专栏》第10章：测试服务提供者调用真实方法](https://articles.zsxq.com/id_1uamc23nb7ws.html)
 
 ### 精通高并发系列
 
