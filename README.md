@@ -163,6 +163,7 @@
 
 ### RPC手撸专栏（🔥🔥🔥 ）
 
+* [这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
 * [《RPC手撸专栏》第1章：开篇，从零开始手撸一个能在实际场景使用的高性能RPC框架](https://articles.zsxq.com/id_6gfgwev2uw0p.html)
 * [《RPC手撸专栏》第2章：高性能分布式RPC框架整体架构设计](https://articles.zsxq.com/id_xvd5up1u16nx.html)
 * [《RPC手撸专栏》第3章：RPC服务核心注解的设计与实现](https://articles.zsxq.com/id_zr6w6dvgdc95.html)
@@ -173,6 +174,7 @@
 * [《RPC手撸专栏》第8章：模拟服务消费者与服务提供者之间的数据交互](https://articles.zsxq.com/id_cd0dpx73a4uk.html)
 * [《RPC手撸专栏》第9章：服务提供者调用真实方法的实现](https://articles.zsxq.com/id_fwxlxhq2bthz.html)
 * [《RPC手撸专栏》第10章：测试服务提供者调用真实方法](https://articles.zsxq.com/id_1uamc23nb7ws.html)
+* [《RPC手撸专栏》第11章：服务提供者扩展支持CGLib调用真实方法](https://articles.zsxq.com/id_wjwsso804nip.html)
 
 ### 精通高并发系列
 
