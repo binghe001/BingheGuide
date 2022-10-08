@@ -175,6 +175,7 @@
 * [《RPC手撸专栏》第9章：服务提供者调用真实方法的实现](https://articles.zsxq.com/id_fwxlxhq2bthz.html)
 * [《RPC手撸专栏》第10章：测试服务提供者调用真实方法](https://articles.zsxq.com/id_1uamc23nb7ws.html)
 * [《RPC手撸专栏》第11章：服务提供者扩展支持CGLib调用真实方法](https://articles.zsxq.com/id_wjwsso804nip.html)
+* [《RPC手撸专栏》第12章：实现服务消费者与服务提供者直接通信](https://articles.zsxq.com/id_wpfhwa85newn.html)
 
 ### 精通高并发系列
 
