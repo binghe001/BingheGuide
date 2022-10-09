@@ -176,9 +176,11 @@
 * [《RPC手撸专栏》第10章：测试服务提供者调用真实方法](https://articles.zsxq.com/id_1uamc23nb7ws.html)
 * [《RPC手撸专栏》第11章：服务提供者扩展支持CGLib调用真实方法](https://articles.zsxq.com/id_wjwsso804nip.html)
 * [《RPC手撸专栏》第12章：实现服务消费者与服务提供者直接通信](https://articles.zsxq.com/id_wpfhwa85newn.html)
+* [《RPC手撸专栏》第13章：服务消费者异步转同步直接获取返回结果](https://articles.zsxq.com/id_dfzr8j7xsn7e.html)
 
 ### 精通高并发系列
 
+* [🔥🔥🔥 《深入理解高并发编程（第2版）》八大篇章，共433页，打包发布！！](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ)
 * [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499147&idx=1&sn=757b83308cef7248a0d4549dd1ffa9a7&chksm=cf564a8af821c39c28c911e08b9367979a4cd868c2be64f93ef3571936b614416716f3ad6d9b&token=2138570566&lang=zh_CN#rd)
 * [面试高并发，凉了！！（全程高能，建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499600&idx=1&sn=cdb4b375676fc71357cbca6a30d9b93d&chksm=cf564851f821c147617db702fe4af386fe1e2acea1caa318ba33a3dd3878f538ae4ce74d3ea4&token=2138570566&lang=zh_CN#rd)
 * [放假了再撸一篇：StampedLock（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499371&idx=1&sn=4651483f83675642657c0bfc71cfdc5c&chksm=cf56496af821c07cbc5acf16ee24e36da72f73554916a5b01427e0b2d36e728e19e885b3a94c&token=2138570566&lang=zh_CN#rd)
