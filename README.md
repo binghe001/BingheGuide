@@ -177,6 +177,7 @@
 * [《RPC手撸专栏》第11章：服务提供者扩展支持CGLib调用真实方法](https://articles.zsxq.com/id_wjwsso804nip.html)
 * [《RPC手撸专栏》第12章：实现服务消费者与服务提供者直接通信](https://articles.zsxq.com/id_wpfhwa85newn.html)
 * [《RPC手撸专栏》第13章：服务消费者异步转同步直接获取返回结果](https://articles.zsxq.com/id_dfzr8j7xsn7e.html)
+* [《RPC手撸专栏》第14章：服务消费者异步转同步的自定义Future与AQS实现](https://articles.zsxq.com/id_6v8wcbaaitg4.html)
 
 ### 精通高并发系列
 
