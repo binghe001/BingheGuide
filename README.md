@@ -179,6 +179,7 @@
 * [《RPC手撸专栏》第13章：服务消费者异步转同步直接获取返回结果](https://articles.zsxq.com/id_dfzr8j7xsn7e.html)
 * [《RPC手撸专栏》第14章：服务消费者异步转同步的自定义Future与AQS实现](https://articles.zsxq.com/id_6v8wcbaaitg4.html)
 * [《RPC手撸专栏》第15章：服务消费者同步、异步、单向调用的实现](https://articles.zsxq.com/id_oixsibgwepmu.html)
+* [《RPC手撸专栏》第16章：服务消费者回调方法的实现](https://articles.zsxq.com/id_7nlqbj3z8rgw.html)
 
 ### 精通高并发系列
 
