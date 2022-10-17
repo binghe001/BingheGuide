@@ -491,6 +491,10 @@ module.exports = {
                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
                     },
                     {
+                        text: '🔥🔥🔥冰河指南',
+                        link: '/md/all/all.md'
+                    },
+                    {
                         text: '📚PDF',
                         items: [
                             {
@@ -589,6 +593,7 @@ module.exports = {
                     "/md/core/spring/aop/": getBarSpringAop(),
                     "/md/core/mysql/base/": getMySQLBase(),
                     "/md/core/jvm/": getBarCoreJVM(),
+                    "/md/all/": getBarAll(),
                 }
             }
         }
@@ -1009,6 +1014,7 @@ function getBarMiddlewareRPC() {
                 "2022-10-11-《RPC手撸专栏》第15章-服务消费者同步-异步-单向调用的实现.md",
                 "2022-10-12-《RPC手撸专栏》第16章-服务消费者回调方法的实现.md",
                 "2022-10-13-《RPC手撸专栏》第17章-服务消费者实现动态代理功能屏蔽请求协议对象的细节.md",
+                "2022-10-17-《RPC手撸专栏》第18章-服务消费者整合动态代理实现直接调用接口返回结果数据.md",
             ]
         }
     ]
@@ -1569,6 +1575,19 @@ function getBarCoreJVM() {
                 "2022-04-18-008-JVM-CMS垃圾收集器.md",
                 "2022-04-18-009-JVM -G1收集器-Region-停顿时间模型-垃圾回收.md",
                 "2022-04-18-010-JVM内存布局.md",
+            ]
+        }
+    ]
+}
+// getBarAll()
+function getBarAll() {
+    return [
+        {
+            title: "冰河指南",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "all.md",
             ]
         }
     ]
