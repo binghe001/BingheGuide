@@ -348,6 +348,7 @@
 * [《MySQL核心知识》第12章：触发器](https://mp.weixin.qq.com/s/b1MTNUGlyG-JMNhLHBFiNg)
 * [《MySQL核心知识》第13章：权限管理](https://mp.weixin.qq.com/s/9tRNKIZGIrXDah96od5DUQ)
 * [《MySQL核心知识》第14章：数据备份与恢复](https://mp.weixin.qq.com/s/cC5STY0Cxiyddep6qNBEVg)
+* [《MySQL核心知识》第15章：自动备份与恢复MySQL数据库并发送Email邮件](https://mp.weixin.qq.com/s/ckPHvJdi5yz6hdUE_xD3qA)
 
 ### 字节码编程
 
