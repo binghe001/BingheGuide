@@ -331,7 +331,7 @@
 * [SA实战 ·《SpringCloud Alibaba实战》第25章-分布式事务：项目整合Seata实现分布式事务](https://mp.weixin.qq.com/s/I0rOjP0nMlemzP4ZJsbPCw)
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
 * [十大篇章，共26个章节，332页，正式发布！！](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)
-``
+
 ### MySQL核心知识
 
 * [《MySQL核心知识》第1章：开篇：专栏介绍](https://mp.weixin.qq.com/s/oJyL6xz7YYDTbMT8bpz-dw)
