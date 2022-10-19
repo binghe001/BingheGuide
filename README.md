@@ -185,6 +185,7 @@
 * [《RPC手撸专栏》第17章：服务消费者实现动态代理功能屏蔽构建请求协议对象的细节](https://articles.zsxq.com/id_bv0jkh6fhr1w.html)
 * [《RPC手撸专栏》第18章：服务消费者整合动态代理实现直接调用接口返回结果数据](https://articles.zsxq.com/id_r6u3xt22wf67.html)
 * [《RPC手撸专栏》第19章：服务消费者动态代理实现异步调用](https://articles.zsxq.com/id_ciz8m2zcl6nt.html)
+* [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
 
 ### 精通高并发系列
 
