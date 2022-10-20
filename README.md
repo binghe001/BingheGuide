@@ -163,7 +163,7 @@
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
 
-### RPC手撸专栏（🔥🔥🔥 ）
+### RPC手撸专栏（🔥🔥🔥 ）持续更新中...
 
 * [《RPC手撸专栏》前言：这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
 * [《RPC手撸专栏》第1章：开篇，从零开始手撸一个能在实际场景使用的高性能RPC框架](https://articles.zsxq.com/id_6gfgwev2uw0p.html)
@@ -186,6 +186,7 @@
 * [《RPC手撸专栏》第18章：服务消费者整合动态代理实现直接调用接口返回结果数据](https://articles.zsxq.com/id_r6u3xt22wf67.html)
 * [《RPC手撸专栏》第19章：服务消费者动态代理实现异步调用](https://articles.zsxq.com/id_ciz8m2zcl6nt.html)
 * [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
+* [《RPC手撸专栏》第21章：注册中心基础服务功能的实现](https://articles.zsxq.com/id_ngn4qzn5wdrw.html)
 
 ### 精通高并发系列
 

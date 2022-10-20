@@ -186,6 +186,7 @@
 * [《RPC手撸专栏》第18章：服务消费者整合动态代理实现直接调用接口返回结果数据](https://articles.zsxq.com/id_r6u3xt22wf67.html)
 * [《RPC手撸专栏》第19章：服务消费者动态代理实现异步调用](https://articles.zsxq.com/id_ciz8m2zcl6nt.html)
 * [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
+* [《RPC手撸专栏》第21章：注册中心基础服务功能的实现](https://articles.zsxq.com/id_ngn4qzn5wdrw.html)
 
 ### 精通高并发系列
 
