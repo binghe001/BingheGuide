@@ -187,6 +187,7 @@
 * [《RPC手撸专栏》第19章：服务消费者动态代理实现异步调用](https://articles.zsxq.com/id_ciz8m2zcl6nt.html)
 * [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
 * [《RPC手撸专栏》第21章：注册中心基础服务功能的实现](https://articles.zsxq.com/id_ngn4qzn5wdrw.html)
+* [《RPC手撸专栏》第22章：服务提供者整合注册中心实现服务注册](https://articles.zsxq.com/id_mpe8iuzbw3kv.html)
 
 ### 精通高并发系列
 
@@ -638,6 +639,7 @@
 
 ### 开源框架与中间件系列
 
+* [SpringBoot + Sharding JDBC，一文搞定分库分表、读写分离](https://mp.weixin.qq.com/s/11dQHtDwb51ZKheD0nkmaQ)
 * [周末撸了个Excel框架，现已开源，yyds！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247496134&idx=1&sn=b1eff30e4b0547586251d588c34245b2&chksm=cf5646c7f821cfd1a3723cc2a40f038b1719c676ba855cc588c4ccf0e59c0d1c90f400078e8c&token=1837443586&lang=zh_CN#rd)
 * [10分钟手撸极简版ORM框架！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499550&idx=1&sn=cf4dd9a8d5901cdf01a213994474ce1c&chksm=cf56481ff821c109a3e48b92ab5b258a4b5867e939c0a800167f027e51c38ebc11ce01eb0df9&token=2138570566&lang=zh_CN#rd)
 * [报告：冰河写了个开源框架！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247495476&idx=1&sn=a5ed410dd3c13691000d3e11086eb370&chksm=cf565835f821d123c7172408ec88dc0b66354c163419c87300fa304b5be9cec111c100d6c4df&token=1081687632&lang=zh_CN#rd)
