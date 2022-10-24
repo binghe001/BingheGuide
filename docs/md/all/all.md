@@ -188,6 +188,7 @@
 * [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
 * [《RPC手撸专栏》第21章：注册中心基础服务功能的实现](https://articles.zsxq.com/id_ngn4qzn5wdrw.html)
 * [《RPC手撸专栏》第22章：服务提供者整合注册中心实现服务注册](https://articles.zsxq.com/id_mpe8iuzbw3kv.html)
+* [《RPC手撸专栏》第23章：服务消费者整合注册中心实现服务发现](https://articles.zsxq.com/id_olkz5tacb7jg.html)
 
 ### 精通高并发系列
 
