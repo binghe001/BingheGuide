@@ -192,6 +192,7 @@
 * [《RPC手撸专栏》第24章：服务消费者实现基于随机算法的负载均衡策略](https://articles.zsxq.com/id_dfw9afgegew8.html)
 * [《RPC手撸专栏》第25章：对标Dubbo实现SPI扩展机制的基础功能](https://articles.zsxq.com/id_cvhib8cm8iaf.html)
 * [《RPC手撸专栏》第26章：基于SPI扩展JDK序列化与反序列化机制](https://articles.zsxq.com/id_4najtmbvm8gk.html)
+* [《RPC手撸专栏》第27章：基于SPI扩展Json序列化与反序列化机制](https://articles.zsxq.com/id_oapx2ea6lbhl.html)
 
 ### 精通高并发系列
 
