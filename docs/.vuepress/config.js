@@ -1405,31 +1405,7 @@ function getBarPDFPublish() {
                 "2022-03-29-MySQL技术大全.md",
                 "2022-03-29-海量数据处理与大数据技术实战.md",
             ]
-        }/*,
-        {
-            title: "《深入理解分布式事务：原理与实战》",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-03-29-深入理解分布式事务.md",
-            ]
-        },
-        {
-            title: "《MySQL技术大全：开发、优化与运维实战》",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-03-29-MySQL技术大全.md",
-            ]
-        },
-        {
-            title: "《海量数据处理与大数据技术实战》",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-03-29-海量数据处理与大数据技术实战.md",
-            ]
-        }*/
+        }
     ]
 }
 // getBarPDFSink
