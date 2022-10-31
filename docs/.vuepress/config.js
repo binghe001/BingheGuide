@@ -1000,15 +1000,29 @@ function getBarMiddlewareByteCode() {
 function getBarMiddlewareRPC() {
     return [
         {
-            title: "RPC手撸专栏",
+            title: "RPC框架介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-08-24-我设计了一款TPS百万级别的RPC框架.md",
+            ]
+        },
+        {
+            title: "第一篇：整体设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-06-25-《RPC手撸专栏》-第1章-开篇-手撸一个能在实际场景使用的RPC框架.md",
                 "2022-06-30-《RPC手撸专栏》第2章-高性能分布式RPC框架整体设计.md",
                 "2022-08-02-《RPC手撸专栏》第3章-RPC服务核心注解的设计与实现.md",
                 "2022-08-22-《RPC手撸专栏》第4章-实现RPC服务核心注解的扫描与解析.md",
+            ]
+        },
+        {
+            title: "第二篇：服务提供者",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-09-28-《RPC手撸专栏》第5章-服务提供者收发消息基础功能实现.md",
                 "2022-09-30-《RPC手撸专栏》第6章-自定义网络协议的实现.md",
                 "2022-10-02-《RPC手撸专栏》第7章-自定义网络编解码的实现.md",
@@ -1016,6 +1030,13 @@ function getBarMiddlewareRPC() {
                 "2022-10-04-《RPC手撸专栏》第9章-服务提供者调用真实方法的实现.md",
                 "2022-10-05-《RPC手撸专栏》第10章-测试服务提供者调用真实方法.md",
                 "2022-10-06-《RPC手撸专栏》第11章-服务提供者扩展支持CGLib调用真实方法.md",
+            ]
+        },
+        {
+            title: "第三篇：服务消费者",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-10-08-《RPC手撸专栏》第12章-实现服务消费者与服务提供者直接通信.md",
                 "2022-10-09-《RPC手撸专栏》第13章-服务消费者异步转同步直接获取返回结果.md",
                 "2022-10-10-《RPC手撸专栏》第14章-服务消费者异步转同步的自定义Future与AQS实现.md",
@@ -1025,10 +1046,31 @@ function getBarMiddlewareRPC() {
                 "2022-10-17-《RPC手撸专栏》第18章-服务消费者整合动态代理实现直接调用接口返回结果数据.md",
                 "2022-10-18-《RPC手撸专栏》第19章-服务消费者动态代理实现异步调用.md",
                 "2022-10-19-《RPC手撸专栏》第20章-服务消费者动态代理优化.md",
+            ]
+        },
+        {
+            title: "第四篇：注册中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-10-20-《RPC手撸专栏》第21章-注册中心基础服务功能的实现.md",
                 "2022-10-21-《RPC手撸专栏》第22章-服务提供者整合注册中心实现服务注册.md",
                 "2022-10-24-《RPC手撸专栏》第23章-服务消费者整合注册中心实现服务发现.md",
+            ]
+        },
+        {
+            title: "第五篇：负载均衡",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-10-25-《RPC手撸专栏》第24章-服务消费者实现基于随机算法的负载均衡策略.md",
+            ]
+        },
+        {
+            title: "第六篇：SPI扩展序列化机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-10-26-《RPC手撸专栏》第25章-对标Dubbo实现SPI扩展机制的基础功能.md",
                 "2022-10-27-《RPC手撸专栏》第26章-基于SPI扩展JDK序列化与反序列化机制.md",
                 "2022-10-28-《RPC手撸专栏》第27章-基于SPI扩展Json序列化与反序列化机制.md",
