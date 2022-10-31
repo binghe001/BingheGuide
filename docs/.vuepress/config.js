@@ -400,36 +400,41 @@ module.exports = {
                             ]
                     },
                     {
-                        text: '🔥🔥🔥中间件',
-                        items: [
-                            {
-                                text: '🔥🔥🔥《RPC手撸专栏》',
-                                link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
-                            },
-                            {
-                                text: '《字节码编程》',
-                                link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
-                            },
-                            {
-                                text: '《手写线程池》',
-                                link: '/md/middleware/threadpool/default.md'
-                            },
-                            {
-                                text: '《分布式限流》',
-                                link: '/md/middleware/limiter/default.md'
-                            },
-                            {
-                                text: '《开源项目》',
-                                link: '/md/middleware/independent/default.md'
-                            }
-                        ]
-                    },
-                    {
                         text: '🔥🔥🔥项目实战',
                         items: [
                             {
-                                text: '🔥🔥🔥SpringCloud Alibaba实战',
-                                link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
+                                text: "微服务项目🔥🔥🔥",
+                                items:[
+                                    {
+                                        text: '🔥🔥🔥SpringCloud Alibaba实战',
+                                        link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: "中间件项目🔥🔥🔥",
+                                items:[
+                                    {
+                                        text: '🔥🔥🔥《RPC手撸专栏》',
+                                        link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
+                                    },
+                                    {
+                                        text: '《字节码编程》',
+                                        link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
+                                    },
+                                    {
+                                        text: '《手写线程池》',
+                                        link: '/md/middleware/threadpool/default.md'
+                                    },
+                                    {
+                                        text: '《分布式限流》',
+                                        link: '/md/middleware/limiter/default.md'
+                                    },
+                                    {
+                                        text: '《开源项目》',
+                                        link: '/md/middleware/independent/default.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -490,12 +495,12 @@ module.exports = {
                         text: '面试必问系列',
                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
                     },
-                    {
+                    /*{
                         text: '🔥🔥🔥冰河指南',
                         link: '/md/all/all.md'
-                    },
+                    },*/
                     {
-                        text: '📚PDF',
+                        text: '📚书籍',
                         items: [
                             {
                                 text: '出版图书', items: [
@@ -519,6 +524,10 @@ module.exports = {
                             },
                             {
                                 text: '电子书籍', items: [
+                                    {
+                                        text: '《深入理解高并发编程(第2版)》',
+                                        link: '/md/knowledge/pdf/2022-10-31《深入理解高并发编程（第2版）》打包发布.md'
+                                    },
                                     {
                                         text: '《深入理解高并发编程(第1版)》',
                                         link: '/md/knowledge/pdf/2022-07-25-深入理解高并发编程-第1版.md'
@@ -946,7 +955,6 @@ function getBarMicroServicesAlibaba(){
             children: [
                 "2022-05-25-SA实战-第24章-分布式事务-分布式事务核心原理与Seata介绍.md",
                 "2022-05-25-SA实战-第25章-分布式事务-项目整合Seata实现分布式事务.md",
-                "2022-06-15-SA实战-第26章-专栏总结与后续规划.md",
             ]
         },
         {
@@ -1432,6 +1440,7 @@ function getBarPDFSink() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2022-10-31《深入理解高并发编程（第2版）》打包发布.md",
                 "2022-07-25-深入理解高并发编程-第1版.md",
                 "2022-07-25-十大篇章-共26个章节-332页-打包发布.md",
                 "2022-03-30-《冰河的渗透实战笔记》电子书，442页，37万字，正式发布.md",
