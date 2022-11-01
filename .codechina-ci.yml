@@ -1,8 +1,8 @@
 # This file is a template, and might need editing before it works on your project.
 ---
 # image
-#image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
-image: vuepress:latest
+image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
+#image: vuepress:latest
 
 #before_script:
 #  - apk add --update --no-cache git
