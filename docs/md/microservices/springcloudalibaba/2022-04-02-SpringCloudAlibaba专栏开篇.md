@@ -10,6 +10,12 @@ lock: need
 
 # SA实战 ·《SpringCloud Alibaba实战》第01章-专栏开篇啦
 
+
+作者：冰河
+<br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
+<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
+<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+
 **大家好，我是冰河~~**
 
 今天是2022年清明假期的前一天，前段时间一直有小伙伴问我啥时能出一个SpringCloud Alibaba实战的系列文章。最近一段时间，冰河手上的事情确实是太多了，有点忙不过来。

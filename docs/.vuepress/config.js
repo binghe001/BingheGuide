@@ -190,7 +190,7 @@ module.exports = {
                 lastUpdated: "上次更新",
                 nav: [
                     {
-                        text: '导读', link: '/md/other/guide-to-reading.md'
+                        text: '导读', link: '/md/all/all.md'
                     },
                     {
                         text: '核心技术',
@@ -1075,6 +1075,7 @@ function getBarMiddlewareRPC() {
                 "2022-10-27-《RPC手撸专栏》第26章-基于SPI扩展JDK序列化与反序列化机制.md",
                 "2022-10-28-《RPC手撸专栏》第27章-基于SPI扩展Json序列化与反序列化机制.md",
                 "2022-10-31-《RPC手撸专栏》第28章-基于SPI扩展Hessian2序列化与反序列化机制.md",
+                "2022-11-01-《RPC手撸专栏》第29章-基于SPI扩展Fst序列化与反序列化机制.md",
             ]
         }
     ]

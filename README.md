@@ -194,6 +194,7 @@
 * [《RPC手撸专栏》第26章：基于SPI扩展JDK序列化与反序列化机制](https://articles.zsxq.com/id_4najtmbvm8gk.html)
 * [《RPC手撸专栏》第27章：基于SPI扩展Json序列化与反序列化机制](https://articles.zsxq.com/id_oapx2ea6lbhl.html)
 * [《RPC手撸专栏》第28章：基于SPI扩展Hessian2序列化与反序列化机制](https://articles.zsxq.com/id_23d9f8sx8imj.html)
+* [《RPC手撸专栏》第29章：基于SPI扩展FST序列化与反序列化机制](https://articles.zsxq.com/id_2m5a4wru5irw.html)
 
 ### 精通高并发系列
 
@@ -359,6 +360,7 @@
 * [《MySQL核心知识》第14章：数据备份与恢复](https://mp.weixin.qq.com/s/cC5STY0Cxiyddep6qNBEVg)
 * [《MySQL核心知识》第15章：自动备份与恢复MySQL数据库并发送Email邮件](https://mp.weixin.qq.com/s/ckPHvJdi5yz6hdUE_xD3qA)
 * [《MySQL核心知识》第16章：日志](https://mp.weixin.qq.com/s/u_j7eOYm7GlwCl2qiFC8vA)
+* [《MySQL核心知识》第17章：性能优化](https://mp.weixin.qq.com/s/FS0plgV5a4S-g8AyGnzlww)
 
 ### 字节码编程
 
@@ -971,5 +973,8 @@
 
 另外，我开源的各个PDF，后续我都会持续更新和维护，感谢大家长期以来对冰河的支持！！  
 
+回复【并发编程2】获取冰河最新整理的《深入理解高并发编程（第2版）》电子书。  
 回复【并发编程】获取全网累计下载60W+的《深入理解高并发编程》电子书。  
-回复【渗透笔记】获取全网5星好评的《冰河的渗透实战笔记》电子书。
+回复【渗透笔记】获取全网5星好评的《冰河的渗透实战笔记》电子书。  
+
+![](https://binghe001.github.io/images/system/gongzhonghao.png)

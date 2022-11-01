@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/system/binghe-001.png
 actionLinks:
-- link: /md/other/guide-to-reading.md
+- link: /md/all/all.md
   text: 开始阅读 →
   class: primary
 - link: http://m6z.cn/6aeFbs
