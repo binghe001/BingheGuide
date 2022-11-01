@@ -562,7 +562,7 @@ module.exports = {
                     }
                 ],
                 sidebar: {
-                    "/md/other/": genBarOther(),
+                    /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
@@ -611,18 +611,18 @@ module.exports = {
 
 
 // other
-function genBarOther() {
-    return [
-        {
-            title: "阅读指南",
-            collapsable: false,
-            sidebarDepth: 2,
-            children: [
-                "guide-to-reading.md"
-            ]
-        }
-    ]
-}
+// function genBarOther() {
+//     return [
+//         {
+//             title: "阅读指南",
+//             collapsable: false,
+//             sidebarDepth: 2,
+//             children: [
+//                 "guide-to-reading.md"
+//             ]
+//         }
+//     ]
+// }
 
 // Java
 function getBarJava() {
@@ -1624,9 +1624,9 @@ function getBarCoreJVM() {
 function getBarAll() {
     return [
         {
-            title: "冰河指南",
+            title: "阅读指南",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 2,
             children: [
                 "all.md",
             ]
