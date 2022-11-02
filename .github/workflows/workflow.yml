@@ -19,10 +19,10 @@ jobs:
         with:
           persist-credentials: true
       - name: 'Mirror to GitCode'
-          uses: pixta-dev/repository-mirroring-action@v1
-          with:
-            target_repo_url: git@gitcode.net:binghe/binghe.gitcode.host.git
-            ssh_private_key: ${{ secrets.DEPLOY_GITCODE_PRIVATE_KEY }}
+        uses: pixta-dev/repository-mirroring-action@v1
+        with:
+          target_repo_url: git@gitcode.net:binghe/binghe.gitcode.host.git
+          ssh_private_key: ${{ secrets.DEPLOY_GITCODE_PRIVATE_KEY }}
       - name: install and build
         run: |
           export NODE_OPTIONS=--max_old_space_size=4096
