@@ -978,4 +978,4 @@
 回复【并发编程】获取全网累计下载60W+的《深入理解高并发编程》电子书。  
 回复【渗透笔记】获取全网5星好评的《冰河的渗透实战笔记》电子书。  
 
-![](https://binghe001.github.io/images/system/gongzhonghao.png)
+![](https://binghe.gitcode.host/images/system/gongzhonghao.png)
