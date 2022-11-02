@@ -195,6 +195,7 @@
 * [《RPC手撸专栏》第27章：基于SPI扩展Json序列化与反序列化机制](https://articles.zsxq.com/id_oapx2ea6lbhl.html)
 * [《RPC手撸专栏》第28章：基于SPI扩展Hessian2序列化与反序列化机制](https://articles.zsxq.com/id_23d9f8sx8imj.html)
 * [《RPC手撸专栏》第29章：基于SPI扩展FST序列化与反序列化机制](https://articles.zsxq.com/id_2m5a4wru5irw.html)
+* [《RPC手撸专栏》第30章：基于SPI扩展Kryo序列化与反序列化机制](https://articles.zsxq.com/id_jhrm1sk1ejdu.html)
 
 ### 精通高并发系列
 

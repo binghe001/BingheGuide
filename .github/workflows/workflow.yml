@@ -25,6 +25,14 @@ jobs:
           BRANCH: master
           FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+#      - name: "Deploy Gitcode"
+#        uses: s0/git-publish-subdir-action@master
+#        env:
+#          NODE_OPTIONS: "--max_old_space_size=4096"
+#          REPO: git@codechina.csdn.net:binghe/binghe.gitcode.host.git
+#          BRANCH: master
+#          FOLDER: .site
+#          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_GITCODE_PRIVATE_KEY }}
 #      - name: "Deploy Gitee"
 #        uses: s0/git-publish-subdir-action@master
 #        env:
