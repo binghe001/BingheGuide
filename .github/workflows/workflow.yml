@@ -11,7 +11,6 @@ jobs:
         uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-          KNOWN_HOSTS_FILE: docs/hosts/known_hosts
         with:
           source-repo: git@github.com:binghe001/BingheGuide.git
           destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
