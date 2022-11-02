@@ -964,6 +964,7 @@
 * [Java VisualVM添加Visual GC插件实现JVM性能调优](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489461&idx=1&sn=d54fac64e91a459bc0f286beb7c500cb&chksm=cf55a0b4f82229a229aad37fef5c4c942bdee9db141ea91045e908b7a55b9b27ee32d50f0770&token=776659970&lang=zh_CN#rd)
 * [原来Java是这样实现微信小程序加密与解密数据算法的！超赞的有木有？！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489452&idx=1&sn=0325302bf29eab9b048eb3016f612d1d&chksm=cf55a0adf82229bb3e1e88f584f3e5224aea0303963c700d54f0936a01c5e00ac1b7b17d0b30&token=776659970&lang=zh_CN#rd)
 
+
 ### Python专题
 
 * [智能化时代你还在手动刷新浏览器抢火车票？那你就真的Out了！假期快来了，冰河提前放大招，教你如何使用Python脚本自动抢火车票](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489453&idx=1&sn=ebf0cc517519c5b088bbacabf1cdcfb2&chksm=cf55a0acf82229bada0f39ba67550b93622bfdd4cd9bab605fd8d14aab11f141a574e31fd890&token=776659970&lang=zh_CN#rd)
@@ -973,7 +974,6 @@
 微信搜一搜【冰河技术】微信公众号，关注这个有深度的程序员，每天阅读超硬核技术干货，公众号内回复【PDF】有我准备的一线大厂面试资料和我原创的超硬核PDF技术文档，以及我为大家精心准备的多套简历模板（不断更新中），希望大家都能找到心仪的工作，学习是一条时而郁郁寡欢，时而开怀大笑的路，加油。如果你通过努力成功进入到了心仪的公司，一定不要懈怠放松，职场成长和新技术学习一样，不进则退。如果有幸我们江湖再见！       
 
 另外，我开源的各个PDF，后续我都会持续更新和维护，感谢大家长期以来对冰河的支持！！  
-
 
 回复【并发编程2】获取冰河最新整理的《深入理解高并发编程（第2版）》电子书。  
 回复【并发编程】获取全网累计下载60W+的《深入理解高并发编程》电子书。  
