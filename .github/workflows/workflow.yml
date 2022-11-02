@@ -7,17 +7,17 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-#      - name: Sync to Gitcode
-#        uses: wearerequired/git-mirror-action@master
-#        env:
-#          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-#        with:
-#          source-repo: git@github.com:binghe001/BingheGuide.git
-#          destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
       - name: Checkout
         uses: actions/checkout@v2.3.1
         with:
           persist-credentials: false
+      - name: Sync to Gitcode
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        with:
+          source-repo: git@github.com:binghe001/BingheGuide.git
+          destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
       - name: install and build
         run: |
           export NODE_OPTIONS=--max_old_space_size=4096
