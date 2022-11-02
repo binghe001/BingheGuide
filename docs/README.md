@@ -5,7 +5,7 @@ actionLinks:
 - link: /md/all/all.md
   text: 开始阅读 →
   class: primary
-- link: http://m6z.cn/6aeFbs
+- link: https://public.zsxq.com/groups/48848484411888.html
   text: 知识星球
   class: secondary
 features:
