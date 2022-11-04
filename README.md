@@ -196,6 +196,7 @@
 * [《RPC手撸专栏》第28章：基于SPI扩展Hessian2序列化与反序列化机制](https://articles.zsxq.com/id_23d9f8sx8imj.html)
 * [《RPC手撸专栏》第29章：基于SPI扩展FST序列化与反序列化机制](https://articles.zsxq.com/id_2m5a4wru5irw.html)
 * [《RPC手撸专栏》第30章：基于SPI扩展Kryo序列化与反序列化机制](https://articles.zsxq.com/id_jhrm1sk1ejdu.html)
+* [《RPC手撸专栏》第31章：基于SPI扩展Protostuff序列化与反序列化机制](https://articles.zsxq.com/id_oldx0om9zxqc.html)
 
 ### 精通高并发系列
 
@@ -409,6 +410,7 @@
 
 ### 精通JVM系列
 
+* [爆肝 | 一文彻底吃透JVM系列](https://mp.weixin.qq.com/s/GAjZbMs9TQjM6zb91zfDrA)
 * [逃逸分析，yyds！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497051&idx=1&sn=38312719e86b7f9cef31c00102da6c48&chksm=cf56425af821cb4c779873fdd793a73af274305f74de7ae72a06fcd2d9224f44541f4a2cad40&token=1170633251&lang=zh_CN#rd)
 * [关于JVM，你需要掌握这些！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489318&idx=1&sn=bd0b6912601dde225cb9212971a41de6&chksm=cf55a027f82229315a3fa594538c8f4b7dc2300d0480e684070d54f5f5e1896533fe1cdb6c47&token=776659970&lang=zh_CN#rd)
 * [肝了一周，吐血整理出这份超硬核的JVM笔记（升级版）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489122&idx=1&sn=760a751b5d0f927a39051c39f03c19da&chksm=cf55a163f8222875a1422bd2b5550f1c91ebface3773f171b259d60937e17b8514231b8f3069&token=776659970&lang=zh_CN#rd)
