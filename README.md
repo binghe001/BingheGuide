@@ -197,6 +197,7 @@
 * [《RPC手撸专栏》第29章：基于SPI扩展FST序列化与反序列化机制](https://articles.zsxq.com/id_2m5a4wru5irw.html)
 * [《RPC手撸专栏》第30章：基于SPI扩展Kryo序列化与反序列化机制](https://articles.zsxq.com/id_jhrm1sk1ejdu.html)
 * [《RPC手撸专栏》第31章：基于SPI扩展Protostuff序列化与反序列化机制](https://articles.zsxq.com/id_oldx0om9zxqc.html)
+* [《RPC手撸专栏》第32章：基于SPI扩展JDK动态代理机制](https://articles.zsxq.com/id_l74bj0wq86wd.html)
 
 ### 精通高并发系列
 

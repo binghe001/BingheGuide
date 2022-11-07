@@ -1078,6 +1078,14 @@ function getBarMiddlewareRPC() {
                 "2022-11-02-《RPC手撸专栏》第30章-基于SPI扩展Kryo序列化与反序列化机制.md",
                 "2022-11-04-《RPC手撸专栏》第31章-基于SPI扩展Protostuff序列化与反序列化机制.md",
             ]
+        },
+        {
+            title: "第七篇：SPI扩展动态代理机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-07-《RPC手撸专栏》第32章-基于SPI扩展JDK动态代理机制.md",
+            ]
         }
     ]
 }
