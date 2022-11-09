@@ -55,3 +55,6 @@ pay: https://articles.zsxq.com/id_i2tz6xldl3hc.html
 
 ![图34-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-09-002.png)
 
+## 查看完整文章
+
+加入[冰河技术](http://m6z.cn/6aeFbs)知识星球，解锁完整技术文章与完整代码
