@@ -13,6 +13,7 @@ image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
  
 pages:
   script:
+    - export NODE_OPTIONS=--max_old_space_size=4096
     - npm i
     - vuepress build docs -d public
   artifacts:
