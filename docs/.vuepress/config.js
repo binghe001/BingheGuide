@@ -1087,6 +1087,7 @@ function getBarMiddlewareRPC() {
                 "2022-11-07-《RPC手撸专栏》第32章-基于SPI扩展JDK动态代理机制.md",
                 "2022-11-08-《RPC手撸专栏》第33章-基于SPI扩展CGLib动态代理机制.md",
                 "2022-11-09-《RPC手撸专栏》第34章-基于SPI扩展Javassist动态代理机制.md",
+                "2022-11-10-《RPC手撸专栏》第35章-基于SPI扩展ByteBuddy动态代理机制.md",
             ]
         }
     ]

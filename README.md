@@ -200,6 +200,7 @@
 * [《RPC手撸专栏》第32章：基于SPI扩展JDK动态代理机制](https://articles.zsxq.com/id_l74bj0wq86wd.html)
 * [《RPC手撸专栏》第33章：基于SPI扩展CGLib动态代理机制](https://articles.zsxq.com/id_ncdserhiza68.html)
 * [《RPC手撸专栏》第34章：基于SPI扩展Javassist动态代理机制](https://articles.zsxq.com/id_i2tz6xldl3hc.html)
+* [《RPC手撸专栏》第35章：基于SPI扩展ByteBuddy动态代理机制](https://articles.zsxq.com/id_sth5wav0oicw.html)
 
 ### 精通高并发系列
 
