@@ -165,6 +165,7 @@
 
 ### RPC手撸专栏（🔥🔥🔥 ）持续更新中...
 
+* [《RPC手撸专栏》介绍：我一个人开发了“Dubbo”框架](https://mp.weixin.qq.com/s/WbDutwhnzoVhuqq6tYmGHg)
 * [《RPC手撸专栏》前言：这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
 * [《RPC手撸专栏》第1章：开篇，从零开始手撸一个能在实际场景使用的高性能RPC框架](https://articles.zsxq.com/id_6gfgwev2uw0p.html)
 * [《RPC手撸专栏》第2章：高性能分布式RPC框架整体架构设计](https://articles.zsxq.com/id_xvd5up1u16nx.html)
@@ -201,6 +202,7 @@
 * [《RPC手撸专栏》第33章：基于SPI扩展CGLib动态代理机制](https://articles.zsxq.com/id_ncdserhiza68.html)
 * [《RPC手撸专栏》第34章：基于SPI扩展Javassist动态代理机制](https://articles.zsxq.com/id_i2tz6xldl3hc.html)
 * [《RPC手撸专栏》第35章：基于SPI扩展ByteBuddy动态代理机制](https://articles.zsxq.com/id_sth5wav0oicw.html)
+* [《RPC手撸专栏》第36章：基于SPI扩展ASM动态代理机制](https://articles.zsxq.com/id_5he0lwawarlr.html)
 
 ### 精通高并发系列
 
@@ -367,9 +369,11 @@
 * [《MySQL核心知识》第15章：自动备份与恢复MySQL数据库并发送Email邮件](https://mp.weixin.qq.com/s/ckPHvJdi5yz6hdUE_xD3qA)
 * [《MySQL核心知识》第16章：日志](https://mp.weixin.qq.com/s/u_j7eOYm7GlwCl2qiFC8vA)
 * [《MySQL核心知识》第17章：性能优化](https://mp.weixin.qq.com/s/FS0plgV5a4S-g8AyGnzlww)
+* [《MySQL核心知识》第18章：复制](https://mp.weixin.qq.com/s/3AnCll6wopLgF7pwnvk27Q)
 
 ### 字节码编程
 
+* [硬核 | 基于ASM实现Java类与接口的动态代理](硬核 | 基于ASM实现Java类与接口的动态代理)
 * [字节码编程|使用Javassist生成JavaBean](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498302&idx=1&sn=41b853ab5a43befaede06931e14369b1&chksm=cf564d3ff821c42982ea40ae98f3f2f09c520ff38103154e9f2c7d056654393177b7247eeac3&token=2138570566&lang=zh_CN#rd)
 * [字节码编程|工作多年的你是否接触过这种技术？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498023&idx=1&sn=fc208f8ac5423f96e5a8f49589f8f4b4&chksm=cf564e26f821c730b2bab402d24852ca64dc721732031b0f8656f339c91266823951dfc46d53&token=2138570566&lang=zh_CN#rd)
 * [字节码编程|使用Javassist动态生成Hello World](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498262&idx=1&sn=8a72a0d60817fd40eda57f7f47f146ee&chksm=cf564d17f821c401a2c19944091044c318104cb684c439fdf66f26128307e127325656b73359&token=2138570566&lang=zh_CN#rd)
