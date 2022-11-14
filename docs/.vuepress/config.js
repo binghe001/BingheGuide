@@ -1090,6 +1090,14 @@ function getBarMiddlewareRPC() {
                 "2022-11-10-《RPC手撸专栏》第35章-基于SPI扩展ByteBuddy动态代理机制.md",
                 "2022-11-12-《RPC手撸专栏》第36章-基于SPI扩展ASM动态代理机制.md",
             ]
+        },
+        {
+            title: "第八篇：SPI扩展反射机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-14-《RPC手撸专栏》第37章-基于SPI扩展JDK反射机制调用真实方法.md",
+            ]
         }
     ]
 }
