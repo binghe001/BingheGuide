@@ -211,6 +211,7 @@
 * [《RPC手撸专栏》第35章：基于SPI扩展ByteBuddy动态代理机制](https://articles.zsxq.com/id_sth5wav0oicw.html)
 * [《RPC手撸专栏》第36章：基于SPI扩展ASM动态代理机制](https://articles.zsxq.com/id_5he0lwawarlr.html)
 * [《RPC手撸专栏》第37章：基于SPI扩展JDK反射机制调用真实方法](https://articles.zsxq.com/id_87wv5jfij31u.html)
+* [《RPC手撸专栏》第38章：基于SPI扩展CGLib反射机制调用真实方法](https://articles.zsxq.com/id_lp85axls7tlj.html)
 
 ### 精通高并发系列
 
@@ -328,7 +329,7 @@
 * [手撸一款属于自己的Maven插件，说干就干！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497660&idx=1&sn=fb74836a052e0433ce64db1fcc5c3524&chksm=cf5640bdf821c9ab369207fa39caede4af0c822754203b4431b7f190699495b77c9dba859e09&token=1170633251&lang=zh_CN#rd)
 
 
-### SA实战
+### 🔥🔥🔥 SA实战
 
 * [SA实战 ·《SpringCloud Alibaba实战》第1章-专栏设计：专栏开篇](https://mp.weixin.qq.com/s/1kS9RImTuL4hCnbxgfY1HQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第2章-专栏设计：专栏总体设计](https://mp.weixin.qq.com/s/k93hPaozpq0yZyhzTn3AqA)
@@ -358,8 +359,9 @@
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
 * [十大篇章，共26个章节，332页，正式发布！！](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)
 
-### MySQL核心知识
+### 🔥🔥🔥 MySQL核心知识
 
+* [《MySQL核心知识手册》完结，共19章，16万字，打包发布！](https://mp.weixin.qq.com/s/jd7vTSZ7wqj3BMLRlhn3DA)
 * [《MySQL核心知识》第1章：开篇：专栏介绍](https://mp.weixin.qq.com/s/oJyL6xz7YYDTbMT8bpz-dw)
 * [《MySQL核心知识》第2章：MySQL常用的命令](https://mp.weixin.qq.com/s/kIDUVms_MstfddVSxymZnQ)
 * [《MySQL核心知识》第3章：MySQL中的运算符](https://mp.weixin.qq.com/s/VcQIaMthW-gpjSuqyquZxQ)
