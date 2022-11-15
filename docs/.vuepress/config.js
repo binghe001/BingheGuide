@@ -539,6 +539,10 @@ module.exports = {
                                     {
                                         text: '《冰河的渗透实战笔记》',
                                         link: '/md/knowledge/pdf/2022-03-30-《冰河的渗透实战笔记》电子书，442页，37万字，正式发布.md'
+                                    },
+                                    {
+                                        text: '《MySQL核心知识手册》',
+                                        link: '/md/knowledge/pdf/2022-11-14-《MySQL核心知识手册》-打包发布.md'
                                     }
                                 ]
                             }
