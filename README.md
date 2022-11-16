@@ -212,6 +212,7 @@
 * [《RPC手撸专栏》第36章：基于SPI扩展ASM动态代理机制](https://articles.zsxq.com/id_5he0lwawarlr.html)
 * [《RPC手撸专栏》第37章：基于SPI扩展JDK反射机制调用真实方法](https://articles.zsxq.com/id_87wv5jfij31u.html)
 * [《RPC手撸专栏》第38章：基于SPI扩展CGLib反射机制调用真实方法](https://articles.zsxq.com/id_lp85axls7tlj.html)
+* [《RPC手撸专栏》第39章：基于SPI扩展Javassist反射机制调用真实方法](https://articles.zsxq.com/id_wgicowxzrwal.html)
 
 ### 精通高并发系列
 

@@ -1102,6 +1102,7 @@ function getBarMiddlewareRPC() {
             children: [
                 "2022-11-14-《RPC手撸专栏》第37章-基于SPI扩展JDK反射机制调用真实方法.md",
                 "2022-11-15-《RPC手撸专栏》第38章-基于SPI扩展CGLib反射机制调用真实方法.md",
+                "2022-15-16-《RPC手撸专栏》第39章-基于SPI扩展Javassist反射机制调用真实方法.md",
             ]
         }
     ]
