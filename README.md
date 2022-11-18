@@ -214,6 +214,7 @@
 * [《RPC手撸专栏》第38章：基于SPI扩展CGLib反射机制调用真实方法](https://articles.zsxq.com/id_lp85axls7tlj.html)
 * [《RPC手撸专栏》第39章：基于SPI扩展Javassist反射机制调用真实方法](https://articles.zsxq.com/id_wgicowxzrwal.html)
 * [《RPC手撸专栏》第40章：基于SPI扩展ByteBuddy反射机制调用真实方法](https://articles.zsxq.com/id_0t7len2qpez1.html)
+* [《RPC手撸专栏》第41章：基于SPI扩展ASM反射机制调用真实方法](https://articles.zsxq.com/id_fulc1mu78zdf.html)
 
 ### 精通高并发系列
 
