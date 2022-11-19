@@ -1106,6 +1106,14 @@ function getBarMiddlewareRPC() {
                 "2022-11-17-《RPC手撸专栏》第40章-基于SPI扩展ByteBuddy反射机制调用真实方法.md",
                 "2022-11-18-《RPC手撸专栏》第41章-基于SPI扩展ASM反射机制调用真实方法.md",
             ]
+        },
+        {
+            title: "第九篇：SPI扩展负载均衡策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-19-《RPC手撸专栏》第42章-基于SPI扩展随机算法负载均衡策略.md",
+            ]
         }
     ]
 }
