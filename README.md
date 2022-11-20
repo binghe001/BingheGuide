@@ -216,6 +216,7 @@
 * [《RPC手撸专栏》第40章：基于SPI扩展ByteBuddy反射机制调用真实方法](https://articles.zsxq.com/id_0t7len2qpez1.html)
 * [《RPC手撸专栏》第41章：基于SPI扩展ASM反射机制调用真实方法](https://articles.zsxq.com/id_fulc1mu78zdf.html)
 * [《RPC手撸专栏》第42章：基于SPI扩展随机算法负载均衡策略](https://articles.zsxq.com/id_wngusxgpn96g.html)
+* [《RPC手撸专栏》第43章：基于SPI扩展加权随机算法负载均衡策略](https://articles.zsxq.com/id_ejhf3a6a8hfi.html)
 
 ### 精通高并发系列
 
