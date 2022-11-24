@@ -220,6 +220,7 @@
 * [《RPC手撸专栏》第44章：基于SPI扩展轮询算法负载均衡策略](https://articles.zsxq.com/id_nxu39tr84qpm.html)
 * [《RPC手撸专栏》第45章：基于SPI扩展加权轮询算法负载均衡策略](https://articles.zsxq.com/id_7jfkz4bfloaw.html)
 * [《RPC手撸专栏》第46章：基于SPI扩展Hash算法负载均衡策略](https://articles.zsxq.com/id_g7vt9ech3vx7.html)
+* [《RPC手撸专栏》第47章：基于SPI扩展加权Hash算法负载均衡策略](https://articles.zsxq.com/id_jbuwvoiku5bi.html)
 
 ### 精通高并发系列
 
