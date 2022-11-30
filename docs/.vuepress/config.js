@@ -1122,6 +1122,14 @@ function getBarMiddlewareRPC() {
                 "2022-11-27-《RPC手撸专栏》第49章-基于SPI扩展源IP地址加权Hash算法负载均衡策略.md",
                 "2022-11-29-《RPC手撸专栏》第50章-基于SPI扩展Zookeeper的一致性Hash算法负载均衡策略.md",
             ]
+        },
+        {
+            title: "第十篇：SPI扩展增强型负载均衡策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-11-30-《RPC手撸专栏》第51章-基于SPI扩展增强型加权随机算法负载均衡策略.md",
+            ]
         }
     ]
 }
