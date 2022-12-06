@@ -41,7 +41,7 @@ Stream 是 Java8 中处理集合的关键抽象概念，它可以指定你希望
 
 一个终止操作，执行中间操作链，并产生结果 。
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-001.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-001.jpg)
 
 ## 如何创建Stream?
 
@@ -93,15 +93,15 @@ public static<T> Stream<T> generate(Supplier<T> s)
 
 ### 1.筛选与切片  
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-002.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-002.jpg)
 
 ### 2.映射  
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-003.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-003.jpg)
 
 ### 3.排序  
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-004.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-004.jpg)
 
 ## Stream 的终止操作  
 
@@ -109,23 +109,23 @@ public static<T> Stream<T> generate(Supplier<T> s)
 
 ### 1.查找与匹配
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-005.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-005.jpg)
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-006.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-006.jpg)
 
 ### 2.规约
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-007.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-007.jpg)
 
 ### 3.收集
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-008.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-008.jpg)
 
 Collector 接口中方法的实现决定了如何对流执行收集操作(如收集到 List、 Set、 Map)。但是 Collectors 实用类提供了很多静态方法，可以方便地创建常见收集器实例， 具体方法与实例如下表  
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-009.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-009.jpg)
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-010.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-010.jpg)
 
 ## 并行流与串行流  
 
@@ -140,7 +140,7 @@ sequential() 在并行流与顺序流之间进行切换
 
 > Fork/Join 框架： 就是在必要的情况下，将一个大任务，进行拆分(fork)成若干个小任务（拆到不可再拆时），再将一个个的小任务运算的结果进行 join 汇总.  
 
-![](https://binghe001.github.io/images/java/java8/2022-03-31-008-011.jpg)
+![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-011.jpg)
 
 ### 2.Fork/Join 框架与传统线程池的区别  
 

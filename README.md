@@ -14,7 +14,7 @@
 ## 本站知识总览
 
 <div align="center">
-    <img src="https://binghe001.github.io/images/system/guide/site-all-preview.png?raw=true">
+    <img src="https://binghe.gitcode.host/images/system/guide/site-all-preview.png?raw=true">
     <div style="font-size: 9px;">本站知识总览</div>
     <br/>
 </div>
@@ -26,7 +26,7 @@
 本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “冰河” 微信(hacker_binghe)，备注：`学习加群`。
 
 <div align="center">
-    <img src="https://binghe001.github.io/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 9px;">冰河微信</div>
     <br/>
 </div>
@@ -53,7 +53,7 @@
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe001.github.io/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 9px;">知识星球：冰河技术</div>
     <br/>
 </div>

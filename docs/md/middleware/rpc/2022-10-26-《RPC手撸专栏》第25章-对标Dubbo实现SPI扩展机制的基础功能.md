@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_cvhib8cm8iaf.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -57,7 +57,7 @@ public void init(RegistryConfig registryConfig) throws Exception {
 
 基于SPI机制加载接口实现类的总体流程如图25-1所示。
 
-![图25-1](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-10-26-001.png)
+![图25-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-10-26-001.png)
 
 由图25-1可以看出如下信息：
 
@@ -75,7 +75,7 @@ public void init(RegistryConfig registryConfig) throws Exception {
 
 接下来，以负载均衡策略为例，看看对标Dubbo的SPI扩展机制后，实现的效果如图25-2所示。
 
-![图25-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-08-15-003.png)
+![图25-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-08-15-003.png)
 
 可以看到，实现的效果就是对标了Dubbo的SPI扩展机制。
 
@@ -87,7 +87,7 @@ public void init(RegistryConfig registryConfig) throws Exception {
 
 对标Dubbo实现SPI扩展机制的基础功能核心类关系如图25-3所示。
 
-![图25-3](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-10-26-002.png)
+![图25-3](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-10-26-002.png)
 
 ## 查看完整文章
 

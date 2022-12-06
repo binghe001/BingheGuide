@@ -16,7 +16,7 @@ lock: need
 
 ## 小伙伴的疑问
 
-![001](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-035-001.jpg)
+![001](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-035-001.jpg)
 
 ## 解答小伙伴的疑问
 

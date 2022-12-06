@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_23d9f8sx8imj.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -36,7 +36,7 @@ Hessian2提供了完整的序列化规范，可以允许跨语言实现序列化
 
 基于SPI再次扩展Hessian2的序列化与反序列化机制后，整体流程如图28-1所示。
 
-![图28-1](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-10-31-001.png)
+![图28-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-10-31-001.png)
 
 由图28-1可以看出，在实现数据的编解码过程中，再次扩展基于Hessian2的序列化和反序列化方式后，自定义的编解码器会通过SPI机制加载序列化与反序列化的具体实现方式，程序会根据具体需要加载某一种特定的序列化与反序列化方式，同样不会在程序中硬编码写死。
 
@@ -52,7 +52,7 @@ Hessian2提供了完整的序列化规范，可以允许跨语言实现序列化
 
 基于SPI再次扩展Hessian2的序列化与反序列化机制的核心类关系如图28-2所示。
 
-![图28-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-10-31-002.png)
+![图28-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-10-31-002.png)
 
 ## 查看完整文章
 

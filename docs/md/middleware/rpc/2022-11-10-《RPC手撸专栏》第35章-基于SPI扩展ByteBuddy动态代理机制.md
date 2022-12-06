@@ -7,9 +7,8 @@ pay: https://articles.zsxq.com/id_sth5wav0oicw.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -41,7 +40,7 @@ pay: https://articles.zsxq.com/id_sth5wav0oicw.html
 
 基于SPI扩展ByteBuddy动态代理机制的流程如图35-1所示。
 
-![图35-1](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-10-001.png)
+![图35-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-10-001.png)
 
 由图35-1可以看出，使用SPI机制扩展ByteBuddy动态代理的功能后，与图32-1一样，服务消费者RPC客户端会引用动态代理工厂接口，并基于SPI动态加载代理工厂接口的实现类。这种方式能够极大的增强动态代理功能的扩展性。
 
@@ -53,7 +52,7 @@ pay: https://articles.zsxq.com/id_sth5wav0oicw.html
 
 基于SPI再次扩展ByteBuddy动态代理机制的核心类关系如图35-2所示。
 
-![图35-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-10-002.png)
+![图35-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-10-002.png)
 
 ## 查看完整文章
 

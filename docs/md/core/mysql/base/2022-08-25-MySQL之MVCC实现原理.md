@@ -49,7 +49,7 @@ undo log分为两种，分别为insert undo log，在insert新记录时产生的
 
 实际上undo log记录的是一个版本链，假设数据库中有一条记录如下：
 
-![2022-08-25-001](https://binghe001.github.io/assets/images/core/mysql/base/2022-08-25-001.png)
+![2022-08-25-001](https://binghe.gitcode.host/assets/images/core/mysql/base/2022-08-25-001.png)
 
 现在有一个事务A修改了这条记录，把name改为tom，这个时候的操作流程为：
 
@@ -63,7 +63,7 @@ undo log分为两种，分别为insert undo log，在insert新记录时产生的
 
 此时的情况如下：
 
-![2022-08-25-002](https://binghe001.github.io/assets/images/core/mysql/base/2022-08-25-002.png)
+![2022-08-25-002](https://binghe.gitcode.host/assets/images/core/mysql/base/2022-08-25-002.png)
 
 此时又有一个事务B来修改这条记录，把age改为28，这时候的操作流程为：
 
@@ -77,7 +77,7 @@ undo log分为两种，分别为insert undo log，在insert新记录时产生的
 
 此时的情况如下：
 
-![2022-08-25-003](https://binghe001.github.io/assets/images/core/mysql/base/2022-08-25-003.png)
+![2022-08-25-003](https://binghe.gitcode.host/assets/images/core/mysql/base/2022-08-25-003.png)
 
 从上面我们可以看到，不同的事务或者相同的事务对同一行记录进行的修改，会使得该行记录的undo log形成一个版本链，undo log的链首就是最近一次的旧记录，而链尾就是最早一次的旧记录。
 
@@ -121,7 +121,7 @@ Read view主要是把当前事务的ID，和系统中的活跃事务的ID作比�
 
 4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
 
-5.提供站点 https://binghe001.github.io 所有学习内容的指导、帮助 
+5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
 
 6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
 
@@ -140,7 +140,7 @@ Read view主要是把当前事务的ID，和系统中的活跃事务的ID作比�
 
 **特别提醒：** 苹果用户进圈或续费，请加微信 **hacker_binghe** 扫二维码，或者去公众号 **冰河技术** 回复 **星球** 扫二维码加入星球。
 
-![sa-2022-04-21-007](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
+![sa-2022-04-21-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
 
 **如果图片二维码过期，去公众号 冰河技术 回复 星球 扫二维码加入星球, 好了，今天就到这儿吧，我是冰河，我们下期见~~**
 
@@ -158,7 +158,7 @@ Read view主要是把当前事务的ID，和系统中的活跃事务的ID作比�
 
 
 <div align="center">
-    <img src="https://binghe001.github.io/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 9px;">冰河微信</div>
     <br/>
 </div>
@@ -183,7 +183,7 @@ Read view主要是把当前事务的ID，和系统中的活跃事务的ID作比�
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe001.github.io/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 9px;">知识星球：冰河技术</div>
     <br/>
 </div>

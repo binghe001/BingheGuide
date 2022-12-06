@@ -7,9 +7,8 @@ pay: https://articles.zsxq.com/id_lp85axls7tlj.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -37,7 +36,7 @@ pay: https://articles.zsxq.com/id_lp85axls7tlj.html
 
 基于SPI扩展CGLib反射机制调用真实方法的流程图如图38-1所示。
 
-![图38-1](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-15-001.png)
+![图38-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-15-001.png)
 
 由图38-1可以看到，服务提供者会以SPI的形式引用调用真实方法的SPI接口，基于JDK和CGLib的反射机制调用真实方法的类是SPI接口的实现类，服务提供者会通过SPI加载JDK和CGLib反射机制调用真实方法的实现类。而JDK和CGLib反射机制调用真实方法的实现类会实现SPI接口，最终调用真实方法。
 
@@ -49,7 +48,7 @@ pay: https://articles.zsxq.com/id_lp85axls7tlj.html
 
 基于SPI扩展CGLib反射机制调用真实方法的核心类关系如图38-2所示。
 
-![图38-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-15-002.png)
+![图38-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-15-002.png)
 
 
 ## 查看完整文章

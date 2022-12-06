@@ -12,8 +12,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 **大家好，我是冰河~~**
 
@@ -25,7 +25,7 @@ lock: need
 
 ## 文章总览
 
-![sa-2022-05-03-018](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-018.png)
+![sa-2022-05-03-018](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-018.png)
 
 ## 章节概述
 
@@ -46,11 +46,11 @@ lock: need
 
 ### Sentinel的主要特性
 
-![sa-2022-05-03-001](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-001.png)
+![sa-2022-05-03-001](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-001.png)
 
 ### Sentinel的开源生态
 
-![sa-2022-05-03-002](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-002.png)
+![sa-2022-05-03-002](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-002.png)
 
 
 
@@ -71,7 +71,7 @@ Sentinel 提供一个轻量级的控制台, 它提供机器发现、单机资源
 
 （1）到链接 [https://github.com/alibaba/Sentinel/releases](https://github.com/alibaba/Sentinel/releases) 下载Sentinel控制台，如下所示，我这里下载的Sentinel控制台是1.8.4版本。
 
-![sa-2022-05-03-003](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-003.png)
+![sa-2022-05-03-003](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-003.png)
 
 （2）Sentinel控制台下载完成后，在本地启动Sentinel控制台，如下所示。
 
@@ -87,11 +87,11 @@ nohup java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8888 -Dp
 
 启动后在浏览器中输入 `http://localhost:8888` 访问Sentinel控制台，如下所示。
 
-![sa-2022-05-03-004](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-004.png)
+![sa-2022-05-03-004](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-004.png)
 
 输入默认的用户名sentinel和密码sentinel，登录Sentinel控制台，如下所示。
 
-![sa-2022-05-03-005](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-005.png)
+![sa-2022-05-03-005](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-005.png)
 
 至此，Sentinel控制台下载并启动成功。
 
@@ -129,11 +129,11 @@ public String testSentinel(){
 
 （4）启动订单微服务，在浏览器中输入`http://localhost:8080/order/test_sentinel`访问在订单微服务中新增的接口，如下所示。
 
-![sa-2022-05-03-006](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-006.png)
+![sa-2022-05-03-006](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-006.png)
 
 （5）刷新Sentinel页面，会发现已经显示了订单微服务的菜单，如下所示。
 
-![sa-2022-05-03-007](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-007.png)
+![sa-2022-05-03-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-007.png)
 
 **注意：直接启动订单微服务和Sentinel，会发现Sentinel中没有订单微服务的数据，因为Sentinel是懒加载机制，所以需要访问一下接口，再去访问Sentinel 就有数据了。**
 
@@ -145,23 +145,23 @@ public String testSentinel(){
 
 （1）在Sentinel控制台找到server-order下的簇点链路菜单，如下所示。
 
-![sa-2022-05-03-008](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-008.png)
+![sa-2022-05-03-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-008.png)
 
 （2）在簇点链路列表中找到`/test_sentinel`，在右侧的操作中选择流控，如下所示。
 
-![sa-2022-05-03-009](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-009.png)点击流控按钮会显示 **新增流控规则** 的弹出框，如下所示。
+![sa-2022-05-03-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-009.png)点击流控按钮会显示 **新增流控规则** 的弹出框，如下所示。
 
-![sa-2022-05-03-010](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-010.png)
+![sa-2022-05-03-010](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-010.png)
 
 这里，我们在单机阈值后直接填写1，如下所示。
 
-![sa-2022-05-03-011](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-011.png)
+![sa-2022-05-03-011](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-011.png)
 
 配置好之后点击新增按钮。上述配置表示`http://localhost:8080/order/test_sentinel`接口的QPS为1，每秒访问1次。如果每秒访问的次数超过1次，则会被Sentinel限流。
 
 （3）在浏览器上不断刷新`http://localhost:8080/order/test_sentinel`接口，当每秒中访问的次数超过1次时，会被Sentinel限流，如下所示。
 
-![sa-2022-05-03-012](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-012.png)
+![sa-2022-05-03-012](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-012.png)
 
 
 
@@ -171,17 +171,17 @@ public String testSentinel(){
 
 （1）首先访问下提交订单的接口 `http://localhost:8080/order/submit_order`，使得Sentinel中能够捕获到提交订单的接口，并点击操作中的流控按钮，如下所示。
 
-![sa-2022-05-03-013](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-013.png)
+![sa-2022-05-03-013](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-013.png)
 
 **这里的注意点还是：直接启动订单微服务和Sentinel，会发现Sentinel中没有订单微服务的数据，因为Sentinel是懒加载机制，所以需要访问一下接口，再去访问Sentinel 就有数据了。**
 
 （2）在新增流控规则显示框中的QPS单机阈值设置为1，点击新增按钮，如下所示。
 
-![sa-2022-05-03-014](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-014.png)
+![sa-2022-05-03-014](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-014.png)
 
 （3）在浏览器中不断刷新 `http://localhost:8080/order/submit_order?userId=1001&productId=1001&count=1` 使得每秒访问的频率超过1次，会被Sentinel限流，如下所示。
 
-![sa-2022-05-03-015](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-015.png)
+![sa-2022-05-03-015](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-015.png)
 
 至此，项目中集成了Sentinel并使用Sentinel实现了接口的限流。
 
@@ -372,7 +372,7 @@ private OrderService orderService;
 
 （1）停掉所有的商品微服务（也就是只启动用户微服务和订单微服务），在浏览器中访问`http://localhost:8080/order/submit_order?userId=1001&productId=1001&count=1`，结果如下所示。
 
-![sa-2022-05-03-016](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-016.png)
+![sa-2022-05-03-016](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-016.png)
 
 返回的原始数据如下所示。
 
@@ -384,7 +384,7 @@ private OrderService orderService;
 
 （2）停掉所有的用户微服务（也就是只启动商品微服务和订单微服务）在浏览器中访问`http://localhost:8080/order/submit_order?userId=1001&productId=1001&count=1`，结果如下所示。
 
-![sa-2022-05-03-017](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-017.png)
+![sa-2022-05-03-017](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-017.png)
 
 返回的原始数据如下所示。
 
@@ -394,7 +394,7 @@ private OrderService orderService;
 
 （3）停掉所有的用户微服务和商品微服务（也就是只启动订单微服务），在浏览器中访问`http://localhost:8080/order/submit_order?userId=1001&productId=1001&count=1`，结果如下所示。
 
-![sa-2022-05-03-017](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-03-017.png)
+![sa-2022-05-03-017](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-017.png)
 
 返回的原始数据如下所示。
 
@@ -538,7 +538,7 @@ public interface ProductService {
 
 3.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
 
-4.提供站点 https://binghe001.github.io 所有学习内容的指导、帮助 
+4.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
 
 5.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
 
@@ -556,7 +556,7 @@ public interface ProductService {
 
 最后，小伙伴们可以扫描或者长按下图中的二维码加入星球，也可以在 **冰河技术** 公众号回复 “ **星球** ” ，领取入场优惠券。
 
-![sa-2022-04-21-007](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-27-007.png)
+![sa-2022-04-21-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-27-007.png)
 
 **好了，今天就到这儿吧，我是冰河，我们下期见~~**
 

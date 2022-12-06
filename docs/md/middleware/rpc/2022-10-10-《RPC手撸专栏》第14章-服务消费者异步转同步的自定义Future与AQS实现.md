@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_6v8wcbaaitg4.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -87,7 +87,7 @@ System.out.println(future.get());
 
 服务消费者真正实现异步转同步时，会基于Java中的CompletableFuture类实现自定义的Future，并结合AQS实现，设计流程如图14-1所示。
 
-![图14-1 异步转同步升级](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-10-10-001.png)
+![图14-1 异步转同步升级](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-10-10-001.png)
 
 由图14-1可以看出：
 

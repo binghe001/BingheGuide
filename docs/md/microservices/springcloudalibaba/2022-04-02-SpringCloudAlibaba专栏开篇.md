@@ -13,8 +13,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 **大家好，我是冰河~~**
 
@@ -24,13 +24,13 @@ lock: need
 
 说的有点远了，扯回正题吧。哦对了，忘记跟大家说了，标题中的SA是SpringCloud Alibaba的简称，这是冰河嫌SpringCloud Alibaba这个名字太长了，自己姑且算是给它起了个小名（简称）吧，大家能够看懂就行。
 
-![](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-02-001.jpg)
+![](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-02-001.jpg)
 
 ## 专栏整体结构
 
 废话不多说了，我们先来看看《SpringCloud Alibaba实战》专栏的整体结构吧，先上图。
 
-![](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-03-002.png)
+![](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-03-002.png)
 
 从上图，大家可以看到，专栏从整体上分为十个大的篇章，分别为 **专栏设计、微服务介绍、微服务环境搭建、服务治理、服务容错、服务网关、链路追踪、消息服务、服务配置、分布式事务**。 
 
@@ -44,7 +44,7 @@ lock: need
 
 并且每个章节总体上会按照下图的形式进行讲述。
 
-![](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-03-003.png)
+![](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-03-003.png)
 
 
 

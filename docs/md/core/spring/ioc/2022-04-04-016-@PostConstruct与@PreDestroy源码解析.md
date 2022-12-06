@@ -32,7 +32,7 @@ lock: need
 
 **@PostConstruct的调用链如下：**
 
-![](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-005.png)
+![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-005.png)
 
 org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(String, Object, RootBeanDefinition)初始化流程中，先执行org.springframework.beans.factory.config.BeanPostProcessor.postProcessBeforeInitialization(Object, String)方法，然后再执行初始化方法：
 
@@ -102,7 +102,7 @@ public Object applyBeanPostProcessorsBeforeInitialization(Object existingBean, S
 
 **@PreDestroy调用链如下：**
 
-![](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-005.png)
+![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-005.png)
 
 @PreDestroy是通过org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor.postProcessBeforeDestruction(Object, String)被调用（InitDestroyAnnotationBeanPostProcessor实现了该接口），该方法的说明如下：
 

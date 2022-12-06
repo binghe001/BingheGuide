@@ -7,9 +7,8 @@ pay: https://articles.zsxq.com/id_kebef31gh2w5.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -37,7 +36,7 @@ pay: https://articles.zsxq.com/id_kebef31gh2w5.html
 
 基于SPI扩展源IP地址加权Hash算法负载均衡策略的流程如图49-1所示。
 
-![图49-1](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-27-001.png)
+![图49-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-27-001.png)
 
 由图49-1可以看出如下信息：
 
@@ -63,7 +62,7 @@ pay: https://articles.zsxq.com/id_kebef31gh2w5.html
 
 基于SPI扩展源IP地址的加权Hash算法负载均衡策略的核心类关系如图49-2所示。
 
-![图49-2](https://binghe001.github.io/assets/images/middleware/rpc/rpc-2022-11-27-002.png)
+![图49-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-27-002.png)
 
 ## 查看完整文章
 

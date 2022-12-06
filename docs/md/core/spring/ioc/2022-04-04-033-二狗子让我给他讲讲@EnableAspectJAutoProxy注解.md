@@ -98,11 +98,11 @@ public interface ImportBeanDefinitionRegistrar {
 
 我们在AspectJAutoProxyRegistrar类的registerBeanDefinitions()方法中设置断点，如下所示。
 
-![001](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-001.png)
+![001](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-001.png)
 
 接下来，我们以debug的方法来运行AopTest类的testAop01()方法。运行后程序进入到断点位置，如下所示。
 
-![002](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-002.png)
+![002](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-002.png)
 
 可以看到，程序已经暂停在断点位置，而且在IDEA的左下角显示了方法的调用栈。
 
@@ -110,45 +110,45 @@ public interface ImportBeanDefinitionRegistrar {
 
 接下来，我们进入到AopConfigUtils类的registerAspectJAnnotationAutoProxyCreatorIfNecessary()方法中，如下所示。
 
-![003](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-003.png)
+![003](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-003.png)
 
 在AopConfigUtils类的registerAspectJAnnotationAutoProxyCreatorIfNecessary()方法中，直接调用了重载的registerAspectJAnnotationAutoProxyCreatorIfNecessary()方法，我们继续跟代码，如下所示。
 
-![004](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-004.png)
+![004](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-004.png)
 
 可以看到在重载的registerAspectJAnnotationAutoProxyCreatorIfNecessary()方法中直接调用了registerOrEscalateApcAsRequired()方法。在registerOrEscalateApcAsRequired()方法中，传入了AnnotationAwareAspectJAutoProxyCreator.class对象。
 
 我们继续跟进代码，如下所示。
 
-![005](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-005.png)
+![005](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-005.png)
 
-![006](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-006.png)
+![006](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-006.png)
 
 我们可以看到，在registerOrEscalateApcAsRequired()方法中，接收到的Class对象的类型为：org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator。
 
 在registerOrEscalateApcAsRequired()方法中方法中，首先判断registry是否包含org.springframework.aop.config.internalAutoProxyCreator类型的bean。如下所示。
 
-![007](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-007.png)
+![007](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-007.png)
 
 如果registry中包含org.springframework.aop.config.internalAutoProxyCreator类型的bean，则进行相应的处理，从Spring的源码来看，就是将org.springframework.aop.config.internalAutoProxyCreator类型的bean从registry中取出，并且判断cls对象的name值和apcDefinition的beanClassName值是否相等，如果不相等。则获取apcDefinition和cls的优先级，如果apcDefinition的优先级小于cls的优先级，则将apcDefinition的beanClassName设置为cls的name值。相对来说，理解起来还是比较简单的。
 
 我们这里是第一次运行程序，不会进入到 if 条件中，我们继续看代码，如下所示。
 
-![008](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-008.png)
+![008](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-008.png)
 
 这里，使用RootBeanDefinition来创建一个beanDefinition，并且将org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator的Class对象作为参数传递进来。
 
-![009](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-009.png)
+![009](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-009.png)
 
 我们继续往下看代码，最终AopConfigUtils类的registerOrEscalateApcAsRequired()方法中，会通过registry调用registerBeanDefinition()方法注册组件，如下所示。
 
-![010](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-010.png)
+![010](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-010.png)
 
 并且注册的bean的名称为org.springframework.aop.config.internalAutoProxyCreator。
 
 接下来，我们继续看AspectJAutoProxyRegistrar类的registerBeanDefinitions()源码，如下所示。
 
-![012](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-012.png)
+![012](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-012.png)
 
 通过AnnotationConfigUtils类的attributesFor方法来获取@EnableAspectJAutoProxy注解的信息。接下来，就是判断proxyTargetClass属性的值是否为true，如果为true则调用AopConfigUtils类的forceAutoProxyCreatorToUseClassProxying()方法；继续判断exposeProxy属性的值是否为true，如果为true则调用AopConfigUtils类的forceAutoProxyCreatorToExposeProxy()方法。
 
@@ -156,7 +156,7 @@ public interface ImportBeanDefinitionRegistrar {
 
 接下来，我们来看下AnnotationAwareAspectJAutoProxyCreator类的结构图。
 
-![013](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-033-013.png)
+![013](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-033-013.png)
 
 我们简单梳理下AnnotationAwareAspectJAutoProxyCreato类的核心继承关系，如下所示。
 

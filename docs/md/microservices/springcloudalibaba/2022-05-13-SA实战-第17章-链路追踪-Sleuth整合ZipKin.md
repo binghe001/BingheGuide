@@ -12,8 +12,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>文章汇总：[https://binghe001.github.io/md/all/all.html](https://binghe001.github.io/md/all/all.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
 **大家好，我是冰河~~**
 
@@ -25,7 +25,7 @@ lock: need
 
 ## 本章总览
 
-![sa-2022-05-13-019](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-019.png)
+![sa-2022-05-13-019](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-019.png)
 
 
 **注意：有很多小伙伴反馈说，在使用Zipkin整合ES时，报错了，这里，我使用ElasticSearch8.2.0是因为我修改了ZipKin的源码，解决了ZipKin与ElasticSearch8.2.0的兼容性问题，目前我使用的版本暂不开放，如果大家在整合的过程中出现了问题，可以使用ZipKin 2.23.16 + ElasticSearch 7.17.4。项目代码无需修改。**
@@ -46,7 +46,7 @@ Zipkin是一种分布式链路跟踪系统，能够收集微服务运行过程�
 
 ZipKin的核心架构图如下所示。
 
-![sa-2022-05-13-001](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-001.png)
+![sa-2022-05-13-001](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-001.png)
 
 <p align="right"><font size="1">注：图片来源：https://zipkin.io/pages/architecture.html</font></p>
 
@@ -89,7 +89,7 @@ java -jar zipkin-server-2.12.9-exec.jar
 
 （3）由于ZipKin服务端启动时，默认监听的端口号为9411，所以，在浏览器中输入`http://localhost:9411`链接就可以打开ZipKin的界面，如下所示。
 
-![sa-2022-05-13-002](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-002.png)
+![sa-2022-05-13-002](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-002.png)
 
 在浏览器中输入`http://localhost:9411`链接能够打开上述页面就说明ZipKin服务端已经准备好啦。
 
@@ -124,23 +124,23 @@ spring:
 
 （3）分别启动用户微服务，商品微服务，订单微服务和服务网关，在浏览器中访问链接`http://localhost:10001/server-order/order/submit_order?userId=1001&productId=1001&count=1`，如下所示。
 
-![sa-2022-05-13-003](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
+![sa-2022-05-13-003](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
 
 （4）点击Zipkin界面上的查找按钮，如下所示。
 
-![sa-2022-05-13-004](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-004.png)
+![sa-2022-05-13-004](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-004.png)
 
 点击后的界面如下所示。
 
-![sa-2022-05-13-005](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-005.png)可以看到，点击查找按钮后，会出现一个请求链路，包含：网关服务server-gateway耗时63.190毫秒，订单微服务server-order耗时53.101毫秒，用户微服务server-user耗时14.640毫秒，商品微服务server-product耗时10.941毫秒。
+![sa-2022-05-13-005](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-005.png)可以看到，点击查找按钮后，会出现一个请求链路，包含：网关服务server-gateway耗时63.190毫秒，订单微服务server-order耗时53.101毫秒，用户微服务server-user耗时14.640毫秒，商品微服务server-product耗时10.941毫秒。
 
 （5）点开ZipKin界面上显示的调用链路，如下所示。
 
-![sa-2022-05-13-006](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-006.png)
+![sa-2022-05-13-006](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-006.png)
 
 点开后的界面如下所示。
 
-![sa-2022-05-13-007](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-007.png)
+![sa-2022-05-13-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-007.png)
 
 可以非常清晰的看到整个调用的访问链路。
 
@@ -148,29 +148,29 @@ spring:
 
 例如我们点击网关微服务查看网关的具体链路，如下所示。
 
-![sa-2022-05-13-008](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-008.png)
+![sa-2022-05-13-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-008.png)
 
 点开后的效果如下所示。
 
-![sa-2022-05-13-009](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-009.png)
+![sa-2022-05-13-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-009.png)
 
 接下来，查看下订单微服务的调用链路具体信息，如下所示。
 
-![sa-2022-05-13-010](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-010.png)
+![sa-2022-05-13-010](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-010.png)
 
 点开后的效果如下所示。
 
-![sa-2022-05-13-011](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-011.png)
+![sa-2022-05-13-011](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-011.png)
 
 可以看到，通过ZipKin能够查看服务的调用链路，并且能够查看具体微服务的调用情况。我们可以基于ZipKin来分析系统的调用链路情况，找出系统的瓶颈点，进而进行针对性的优化。
 
 另外，ZipKin中也支持下载系统调用链路的Json数据，如下所示。
 
-![sa-2022-05-13-012](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-012.png)
+![sa-2022-05-13-012](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-012.png)
 
 点击JSON按钮后，效果如下所示。
 
-![sa-2022-05-13-013](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-013.png)
+![sa-2022-05-13-013](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-013.png)
 
 其中，显示的Json数据如下所示。
 
@@ -395,11 +395,11 @@ spring:
 
 （1）将Zipkin数据持久化到MySQL，我们需要知道MySQL的数据表结构，好在ZipKin提供了MySQL脚本，小伙伴们可以在链接：https://github.com/openzipkin/zipkin/tree/master/zipkin-storage里面下载。
 
-![sa-2022-05-13-014](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-014.png)
+![sa-2022-05-13-014](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-014.png)
 
 当然，我将下载后的MySQL脚本放到了网关服务shop-gateway的resources目录下的scripts目录下。
 
-![sa-2022-05-13-015](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-015.png)
+![sa-2022-05-13-015](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-015.png)
 
 （2）在MySQL数据库中新建zipkin数据库，如下所示。
 
@@ -409,7 +409,7 @@ create database if not exists zipkin;
 
 （3）在新建的数据库zipkin中运行mysql.sql脚本，运行脚本后的效果如下所示。
 
-![sa-2022-05-13-016](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-016.png)
+![sa-2022-05-13-016](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-016.png)
 
 可以看到，在zipkin数据库中新建了zipkin_annotations、zipkin_dependencies和zipkin_spans三张数据表。
 
@@ -421,17 +421,17 @@ java -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=mysql --MYSQL_HOST=127.0.
 
 （5）启动ZipKin后，在浏览器中访问链接`http://localhost:10001/server-order/order/submit_order?userId=1001&productId=1001&count=1`，如下所示。
 
-![sa-2022-05-13-003](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
+![sa-2022-05-13-003](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
 
 （6）查看zipkin数据库中的数据，发现zipkin_annotations数据表与zipkin_spans数据表已经存在系统的调用链路数据。
 
 * zipkin_annotations数据表部分数据如下所示。
 
-![sa-2022-05-13-017](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-017.png)
+![sa-2022-05-13-017](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-017.png)
 
 * zipkin_spans数据表部分数据如下所示。
 
-![sa-2022-05-13-018](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-018.png)
+![sa-2022-05-13-018](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-018.png)
 
 可以看到，ZipKin已经将数据持久化到MySQL中，重启ZipKin后就会从MySQL中读取数据，数据也不会丢失了。
 
@@ -449,7 +449,7 @@ java -jar zipkin-server-2.12.9-exec.jar --STORAGE_TYPE=elasticsearch --ESHOST=lo
 
 （4）启动ZipKin服务端后，在浏览器中访问链接`http://localhost:10001/server-order/order/submit_order?userId=1001&productId=1001&count=1`，如下所示。
 
-![sa-2022-05-13-003](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
+![sa-2022-05-13-003](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-13-003.png)
 
 ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
@@ -477,7 +477,7 @@ ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
 3.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
 
-4.提供站点 https://binghe001.github.io 所有学习内容的指导、帮助 
+4.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
 
 5.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
 
@@ -497,7 +497,7 @@ ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
 最后，小伙伴们可以扫描或者长按下图中的二维码加入星球，也可以在 **冰河技术** 公众号回复 “ **星球** ” ，领取入场优惠券。
 
-![sa-2022-04-21-007](https://binghe001.github.io/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
+![sa-2022-04-21-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
 
 **好了，今天就到这儿吧，我是冰河，我们下期见~~**
 

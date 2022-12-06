@@ -174,15 +174,15 @@ if (bean instanceof ApplicationContextAware) {
 
 我们也可以在IDEA中通过Debug的形式来看一下程序的执行过程，此时我们在Employee类的setApplicationContext()方法上设置断点，如下所示。
 
-![001](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-001.png)
+![001](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-001.png)
 
 接下来，我们以Debug的方式来运行SpringBeanTest类的testAnnotationConfig2()方法，运行后的效果如下图所示。
 
-![002](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-002.png)
+![002](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-002.png)
 
 在IDEA的左下角可以看到方法的调用堆栈，通过对方法调用栈的分析，我们看到在执行Employee类中的setApplicationContext()方法之前，执行了ApplicationContextAwareProcessor类的invokeAwareInterfaces方法，如下所示。
 
-![003](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-003.png)
+![003](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-003.png)
 
 当我们点击方法调用栈中的invokeAwareInterfaces()方法时，代码的执行定位到如下一行代码。
 
@@ -287,15 +287,15 @@ public class Cat {
 
 接下来，我们也通过Debug的方式来跟进下代码的执行流程。首先，在Cat类的postConstruct()方法上打上断点，如下所示。
 
-![004](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-004.png)
+![004](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-004.png)
 
 接下来，我们以Debug的方式运行BeanLifeCircleTest类的testBeanLifeCircle04()方法，效果如下所示。
 
-![005](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-005.png)
+![005](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-005.png)
 
 我们还是带着问题来分析，Spring怎么就能定位到使用@PostConstruct注解标注的方法呢？通过分析方法的调用栈我们发现了在进入使用@PostConstruct注解标注的方法之前，Spring调用了InitDestroyAnnotationBeanPostProcessor类的postProcessBeforeInitialization()方法，如下所示。
 
-![006](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-021-006.png)
+![006](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-021-006.png)
 
 在InitDestroyAnnotationBeanPostProcessor类的postProcessBeforeInitialization()方法中，首先会找到bean中有关生命周期的注解，比如@PostConstruct注解等，找到这些注解之后，则将这些信息赋值给LifecycleMetadata类型的变量metadata，之后调用metadata的invokeInitMethods()方法，通过反射来调用标注了@PostConstruct注解的方法。这就是为什么标注了@PostConstruct注解的方法被Spring执行。
 

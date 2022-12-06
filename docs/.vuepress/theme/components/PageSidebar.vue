@@ -42,7 +42,7 @@
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
                 <span style="font-size:0.9rem">微信扫一扫</span>
-                <img v-bind="{src: 'https://api.qrserver.com/v1/create-qr-code/?data=https://binghe001.github.io'+this.$route.fullPath }" height="180px" style="margin:10px;"/>
+                <img v-bind="{src: 'https://api.qrserver.com/v1/create-qr-code/?data=https://binghe.gitcode.host'+this.$route.fullPath }" height="180px" style="margin:10px;"/>
                 可以<b>手机看</b>或分享至<b>朋友圈</b>
               </div>
             </div>

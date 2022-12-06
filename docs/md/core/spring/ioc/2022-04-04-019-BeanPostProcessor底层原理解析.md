@@ -120,15 +120,15 @@ public class MyBeanPostProcessor implements BeanPostProcessor,Ordered {
 
 如果想深刻理解BeanPostProcessor的工作原理，那就不得不看下相关的源码，我们可以在MyBeanPostProcessor类的postProcessBeforeInitialization()方法和postProcessAfterInitialization()方法中打上断点来进行调试。如下所示。
 
-![001](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-001.png)
+![001](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-001.png)
 
 随后，我们以Debug的方式来运行BeanLifeCircleTest类的testBeanLifeCircle04()方法，运行后的效果如下所示。
 
-![002](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-002.png)
+![002](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-002.png)
 
 可以看到，程序已经运行到MyBeanPostProcessor类的postProcessBeforeInitialization()方法中，在IDEA的左下角我们可以清晰的看到方法的调用栈，如下所示。
 
-![003](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-003.png)
+![003](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-003.png)
 
 通过这个方法调用栈，我们可以详细的分析从运行BeanLifeCircleTest类的testBeanLifeCircle04()方法开始，到进入MyBeanPostProcessor类的postProcessBeforeInitialization()方法的执行流程。只要我们在IDEA的方法调用栈中找到BeanLifeCircleTest类的testBeanLifeCircle04()方法，依次分析方法调用栈中在BeanLifeCircleTest类的testBeanLifeCircle04()方法上面位置的方法，即可了解整个方法调用栈的过程。要想定位方法调用栈中的方法，只需要在IDEA的方法调用栈中单击相应的方法即可。
 
@@ -136,15 +136,15 @@ public class MyBeanPostProcessor implements BeanPostProcessor,Ordered {
 
 接下来，我们在IDEA的方法调用栈中，找到BeanLifeCircleTest类的testBeanLifeCircle04()方法并单击，此时IDEA的主界面会定位到BeanLifeCircleTest类的testBeanLifeCircle04()方法，如下所示。
 
-![005](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-005.png)
+![005](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-005.png)
 
 在BeanLifeCircleTest类的testBeanLifeCircle04()方法中，首先通过new实例对象的方式创建了一个IOC容器。接下来，通过IDEA的方法调用栈继续分析，接下来，进入的是AnnotationConfigApplicationContext类的构造方法。
 
-![006](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-006.png)
+![006](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-006.png)
 
 在AnnotationConfigApplicationContext类的构造方法中会调用refresh()方法。我们跟进方法调用栈，如下所示。
 
-![007](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-007.png)
+![007](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-007.png)
 
 可以看到，方法的执行定位到AbstractApplicationContext类的refresh()方法中的如下代码行。
 
@@ -156,7 +156,7 @@ finishBeanFactoryInitialization(beanFactory);
 
 我们继续跟进方法调用栈，如下所示。
 
-![008](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-008.png)
+![008](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-008.png)
 
 此时，方法的执行定位到AbstractApplicationContext类的finishBeanFactoryInitialization()方法的如下代码行。
 
@@ -168,19 +168,19 @@ beanFactory.preInstantiateSingletons();
 
 我们继续跟进方法调用栈，如下所示。
 
-![009](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-009.png)
+![009](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-009.png)
 
 可以看到，方法的执行定位到DefaultListableBeanFactory的preInstantiateSingletons()方法的最后一个else分支调用的getBean()方法上。继续跟进方法调用栈，如下所示。
 
-![010](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-010.png)
+![010](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-010.png)
 
 此时方法定位到AbstractBeanFactory类中的getBean()方法中，在getBean()方法中，又调用了doGetBean()方法，通过方法调用栈我们可以得知方法的执行定位到AbstractBeanFactory类中的doGetBean()方法的如下代码段。
 
-![011](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-011.png)
+![011](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-011.png)
 
 可以看到，在Spring内部是通过getSingleton()来获取单实例bean的，我们继续跟进方法调用栈，如下所示。
 
-![012](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-012.png)
+![012](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-012.png)
 
 此时，方法定位到了DefaultSingletonBeanRegistry了类的getSingleton()方法的如下代码行。
 
@@ -190,7 +190,7 @@ singletonObject = singletonFactory.getObject();
 
 继续跟进方法调用栈，如下所示。
 
-![013](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-013.png)
+![013](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-013.png)
 
 此时，方法会定位到AbstractBeanFactory类的doGetBean()方法中的如下代码行。
 
@@ -200,7 +200,7 @@ return createBean(beanName, mbd, args);
 
 也就是说，当第一次获取单实例bean时，由于单实例bean还未创建，Spring会调用createBean()方法来创建单实例bean。继续跟进方法调用栈，如下所示。
 
-![014](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-014.png)
+![014](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-014.png)
 
 可以看到，方法的执行定位到AbstractAutowireCapableBeanFactory类的createBean()方法的如下代码行。
 
@@ -210,7 +210,7 @@ Object beanInstance = doCreateBean(beanName, mbdToUse, args);
 
 可以看到，Spring中创建单实例bean调用的是doCreateBean()方法。没错，继续跟进方法调用栈，如下所示。
 
-![015](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-015.png)
+![015](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-015.png)
 
 方法的执行已经定位到AbstractAutowireCapableBeanFactory类的doCreateBean()方法的如下代码行。
 
@@ -220,7 +220,7 @@ exposedObject = initializeBean(beanName, exposedObject, mbd);
 
 继续跟进方法调用栈，如下所示。
 
-![016](https://binghe001.github.io/assets/images/core/spring/ioc/2022-04-04-019-016.png)
+![016](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-019-016.png)
 
 方法的执行定位到AbstractAutowireCapableBeanFactory类的initializeBean()方法的如下代码行。
 
