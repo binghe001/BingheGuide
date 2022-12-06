@@ -229,6 +229,7 @@
 * [《RPC手撸专栏》第53章：基于SPI扩展增强型加权Hash算法负载均衡策略](https://articles.zsxq.com/id_d01mp6zox24w.html)
 * [《RPC手撸专栏》第54章：基于SPI扩展增强型加权源IP地址Hash算法负载均衡策略](https://articles.zsxq.com/id_9cthxw6xau9m.html)
 * [《RPC手撸专栏》第55章：基于SPI扩展增强型Zookeeper一致性Hash算法负载均衡策略](https://articles.zsxq.com/id_noundg5cxq55.html)
+* [《RPC手撸专栏》第56章：基于SPI扩展最少连接数负载均衡策略](https://articles.zsxq.com/id_9r6lownjcggi.html)
 
 ### 精通高并发系列
 
