@@ -1142,6 +1142,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2022-12-07-《RPC手撸专栏》第57章-基于SPI扩展实现Zookeeper注册中心.md",
+                "2022-12-07-《RPC手撸专栏》第57-X章-阶段性作业.md",
             ]
         }
     ]
