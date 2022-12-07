@@ -1135,6 +1135,14 @@ function getBarMiddlewareRPC() {
                 "2022-12-05-《RPC手撸专栏》第55章-基于SPI扩展增强型Zookeeper一致性Hash算法负载均衡策略.md",
                 "2022-12-06-《RPC手撸专栏》第56章-基于SPI扩展最少连接数负载均衡策略.md",
             ]
+        },
+        {
+            title: "第十一篇：SPI扩展实现注册中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-07-《RPC手撸专栏》第57章-基于SPI扩展实现Zookeeper注册中心.md",
+            ]
         }
     ]
 }
