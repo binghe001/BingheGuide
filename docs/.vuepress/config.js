@@ -299,7 +299,7 @@ module.exports = {
                         text: '🔥🔥🔥框架源码',
                         items: [
                             {
-                                text: '🔥🔥🔥Spring核心技术', items: [
+                                text: 'Spring核心技术', items: [
                                     {
                                         text: 'IOC容器',
                                         link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
@@ -573,7 +573,6 @@ module.exports = {
                     "/md/core/java/": getBarJava(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
-                    "/md/frame/": getBarFrame(),
                     "/md/frame/spring/": getBarFrameSpring(),
                     "/md/distributed/cache/": getBarDistributedCache(),
                     "/md/distributed/zookeeper/": getBarZookeeper(),
@@ -752,43 +751,6 @@ function getBarFrameSpring() {
         },
         {
             title: "SpringMVC(待更新)",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "dubbo/default.md",
-            ]
-        }
-    ]
-}
-// Frame
-function getBarFrame() {
-    return [
-        {
-            title: "Spring源码",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "spring/default.md",
-            ]
-        },
-        {
-            title: "SpringMVC源码",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "springmvc/default.md",
-            ]
-        },
-        {
-            title: "MyBatis源码",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "mybatis/default.md",
-            ]
-        },
-        {
-            title: "Dubbo源码",
             collapsable: false,
             sidebarDepth: 0,
             children: [
