@@ -296,27 +296,30 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '框架源码',
+                        text: '🔥🔥🔥框架源码',
                         items: [
                             {
-                                text: 'Spring源码',
-                                link: '/md/frame/spring/default.md'
-                            },
-                            {
-                                text: 'SpringMVC源码',
-                                link: '/md/frame/springmvc/default.md'
-                            },
-                            {
-                                text: 'MyBatis源码',
-                                link: '/md/frame/mybatis/default.md'
-                            },
-                            {
-                                text: 'Dubbo源码',
-                                link: '/md/frame/dubbo/default.md'
+                                text: '🔥🔥🔥Spring核心技术', items: [
+                                    {
+                                        text: 'IOC容器',
+                                        link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
+                                    },
+                                    {
+                                        text: 'AOP切面(待更新)',
+                                        link: '/md/frame/springmvc/default.md'
+                                    },
+                                    {
+                                        text: '声明式事务(待更新)',
+                                        link: '/md/frame/mybatis/default.md'
+                                    },
+                                    {
+                                        text: 'SpringMVC(待更新)',
+                                        link: '/md/frame/dubbo/default.md'
+                                    }
+                                ]
                             }
                         ]
                     },
-
                     {
                         text: '分布式',
                         items: [
@@ -571,6 +574,7 @@ module.exports = {
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
                     "/md/frame/": getBarFrame(),
+                    "/md/frame/spring/": getBarFrameSpring(),
                     "/md/distributed/cache/": getBarDistributedCache(),
                     "/md/distributed/zookeeper/": getBarZookeeper(),
                     "/md/distributed/mq/": getBarMQ(),
@@ -718,6 +722,44 @@ function getBarPerformance() {
     ]
 }
 
+// FrameSpring
+function getBarFrameSpring() {
+    return [
+        {
+            title: "IOC容器",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md",
+                "ioc/2022-12-05-《Spring核心技术》第1章-@Configuration注解-你了解的还不够深入.md",
+            ]
+        },
+        {
+            title: "AOP切面(待更新)",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springmvc/default.md",
+            ]
+        },
+        {
+            title: "声明式事务(待更新)",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "mybatis/default.md",
+            ]
+        },
+        {
+            title: "SpringMVC(待更新)",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "dubbo/default.md",
+            ]
+        }
+    ]
+}
 // Frame
 function getBarFrame() {
     return [
