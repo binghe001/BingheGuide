@@ -746,7 +746,7 @@ function getBarFrameSpring() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "mybatis/default.md",
+                "springmvc/default.md",
             ]
         },
         {
@@ -754,7 +754,7 @@ function getBarFrameSpring() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "dubbo/default.md",
+                "springmvc/default.md",
             ]
         }
     ]
