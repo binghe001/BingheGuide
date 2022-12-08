@@ -299,24 +299,8 @@ module.exports = {
                         text: '🔥🔥🔥框架源码',
                         items: [
                             {
-                                text: 'Spring核心技术', items: [
-                                    {
-                                        text: 'IOC容器',
-                                        link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
-                                    },
-                                    {
-                                        text: 'AOP切面(待更新)',
-                                        link: '/md/frame/springmvc/default.md'
-                                    },
-                                    {
-                                        text: '声明式事务(待更新)',
-                                        link: '/md/frame/mybatis/default.md'
-                                    },
-                                    {
-                                        text: 'SpringMVC(待更新)',
-                                        link: '/md/frame/dubbo/default.md'
-                                    }
-                                ]
+                                text: '🔥🔥🔥Spring核心技术',
+                                link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
                             }
                         ]
                     },
@@ -536,6 +520,10 @@ module.exports = {
                                         link: '/md/knowledge/pdf/2022-07-25-深入理解高并发编程-第1版.md'
                                     },
                                     {
+                                        text: '《从零开始手写RPC框架(基础篇)》',
+                                        link: '/md/knowledge/pdf/2022-12-05-《从零开始手写RPC框架》电子书发布.md'
+                                    },
+                                    {
                                         text: '《SpringCloud Alibaba实战》',
                                         link: '/md/knowledge/pdf/2022-07-25-十大篇章-共26个章节-332页-打包发布.md'
                                     },
@@ -725,16 +713,23 @@ function getBarPerformance() {
 function getBarFrameSpring() {
     return [
         {
-            title: "IOC容器",
+            title: "专栏介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md",
+            ]
+        },
+        {
+            title: "第一篇：IOC容器",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "ioc/2022-12-05-《Spring核心技术》第1章-@Configuration注解-你了解的还不够深入.md",
             ]
         },
         {
-            title: "AOP切面(待更新)",
+            title: "第二篇：AOP切面(待更新)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -742,7 +737,7 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "声明式事务(待更新)",
+            title: "第三篇：声明式事务(待更新)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -750,7 +745,7 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "SpringMVC(待更新)",
+            title: "第四篇：SpringMVC(待更新)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
