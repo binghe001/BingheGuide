@@ -170,7 +170,7 @@
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
 
-### RPC手撸专栏（🔥🔥🔥 ）持续更新中...
+### 🔥🔥🔥 RPC手撸专栏 持续更新中...
 
 * [《RPC手撸专栏》介绍：我一个人开发了“Dubbo”框架](https://mp.weixin.qq.com/s/WbDutwhnzoVhuqq6tYmGHg)
 * [《RPC手撸专栏》前言：这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
@@ -232,7 +232,13 @@
 * [《RPC手撸专栏》第56章：基于SPI扩展最少连接数负载均衡策略](https://articles.zsxq.com/id_9r6lownjcggi.html)
 * [《RPC手撸专栏》第57章：基于SPI扩展实现Zookeeper注册中心](https://articles.zsxq.com/id_xkq21xwlnq48.html)
 
-### 精通高并发系列
+
+### 🔥🔥🔥 Spring核心技术
+
+* [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
+* [《Spring核心技术》第1章：深入解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
+
+### 🔥🔥🔥 精通高并发系列
 
 * [🔥🔥🔥 《深入理解高并发编程（第2版）》八大篇章，共433页，打包发布！！](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ)
 * [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499147&idx=1&sn=757b83308cef7248a0d4549dd1ffa9a7&chksm=cf564a8af821c39c28c911e08b9367979a4cd868c2be64f93ef3571936b614416716f3ad6d9b&token=2138570566&lang=zh_CN#rd)
