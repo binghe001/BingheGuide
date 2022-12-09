@@ -1143,6 +1143,14 @@ function getBarMiddlewareRPC() {
                 "2022-12-07-《RPC手撸专栏》第57章-基于SPI扩展实现Zookeeper注册中心.md",
                 "2022-12-07-《RPC手撸专栏》第57-X章-阶段性作业.md",
             ]
+        },
+        {
+            title: "第十二篇：断线重连机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-09-《RPC手撸专栏》第58章-断线重连机制心跳交互数据模型设计.md",
+            ]
         }
     ]
 }

@@ -172,12 +172,17 @@
 
 ### 🔥🔥🔥 RPC手撸专栏 持续更新中...
 
+#### RPC框架介绍
 * [《RPC手撸专栏》介绍：我一个人开发了“Dubbo”框架](https://mp.weixin.qq.com/s/WbDutwhnzoVhuqq6tYmGHg)
 * [《RPC手撸专栏》前言：这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
+
+#### 第一篇：整体设计
 * [《RPC手撸专栏》第1章：开篇，从零开始手撸一个能在实际场景使用的高性能RPC框架](https://articles.zsxq.com/id_6gfgwev2uw0p.html)
 * [《RPC手撸专栏》第2章：高性能分布式RPC框架整体架构设计](https://articles.zsxq.com/id_xvd5up1u16nx.html)
 * [《RPC手撸专栏》第3章：RPC服务核心注解的设计与实现](https://articles.zsxq.com/id_zr6w6dvgdc95.html)
 * [《RPC手撸专栏》第4章：实现RPC服务核心注解的扫描与解析](https://articles.zsxq.com/id_bal2cnmw3jbi.html)
+
+#### 第二篇：服务提供者
 * [《RPC手撸专栏》第5章：服务提供者收发消息基础功能实现](https://articles.zsxq.com/id_df11g9wmm8ad.html)
 * [《RPC手撸专栏》第6章：自定义网络传输协议的实现](https://articles.zsxq.com/id_qgntsrvlljea.html)
 * [《RPC手撸专栏》第7章：自定义网络编解码的实现](https://articles.zsxq.com/id_5wqs9pshkwep.html)
@@ -185,6 +190,8 @@
 * [《RPC手撸专栏》第9章：服务提供者调用真实方法的实现](https://articles.zsxq.com/id_fwxlxhq2bthz.html)
 * [《RPC手撸专栏》第10章：测试服务提供者调用真实方法](https://articles.zsxq.com/id_1uamc23nb7ws.html)
 * [《RPC手撸专栏》第11章：服务提供者扩展支持CGLib调用真实方法](https://articles.zsxq.com/id_wjwsso804nip.html)
+
+#### 第三篇：服务消费者
 * [《RPC手撸专栏》第12章：实现服务消费者与服务提供者直接通信](https://articles.zsxq.com/id_wpfhwa85newn.html)
 * [《RPC手撸专栏》第13章：服务消费者异步转同步直接获取返回结果](https://articles.zsxq.com/id_dfzr8j7xsn7e.html)
 * [《RPC手撸专栏》第14章：服务消费者异步转同步的自定义Future与AQS实现](https://articles.zsxq.com/id_6v8wcbaaitg4.html)
@@ -194,10 +201,16 @@
 * [《RPC手撸专栏》第18章：服务消费者整合动态代理实现直接调用接口返回结果数据](https://articles.zsxq.com/id_r6u3xt22wf67.html)
 * [《RPC手撸专栏》第19章：服务消费者动态代理实现异步调用](https://articles.zsxq.com/id_ciz8m2zcl6nt.html)
 * [《RPC手撸专栏》第20章：服务消费者动态代理扩展优化](https://articles.zsxq.com/id_o9c21x3zm7nb.html)
+
+#### 第四篇：注册中心
 * [《RPC手撸专栏》第21章：注册中心基础服务功能的实现](https://articles.zsxq.com/id_ngn4qzn5wdrw.html)
 * [《RPC手撸专栏》第22章：服务提供者整合注册中心实现服务注册](https://articles.zsxq.com/id_mpe8iuzbw3kv.html)
 * [《RPC手撸专栏》第23章：服务消费者整合注册中心实现服务发现](https://articles.zsxq.com/id_olkz5tacb7jg.html)
+
+#### 第五篇：负载均衡
 * [《RPC手撸专栏》第24章：服务消费者实现基于随机算法的负载均衡策略](https://articles.zsxq.com/id_dfw9afgegew8.html)
+
+#### 第六篇：SPI扩展序列化机制
 * [《RPC手撸专栏》第25章：对标Dubbo实现SPI扩展机制的基础功能](https://articles.zsxq.com/id_cvhib8cm8iaf.html)
 * [《RPC手撸专栏》第26章：基于SPI扩展JDK序列化与反序列化机制](https://articles.zsxq.com/id_4najtmbvm8gk.html)
 * [《RPC手撸专栏》第27章：基于SPI扩展Json序列化与反序列化机制](https://articles.zsxq.com/id_oapx2ea6lbhl.html)
@@ -205,16 +218,22 @@
 * [《RPC手撸专栏》第29章：基于SPI扩展FST序列化与反序列化机制](https://articles.zsxq.com/id_2m5a4wru5irw.html)
 * [《RPC手撸专栏》第30章：基于SPI扩展Kryo序列化与反序列化机制](https://articles.zsxq.com/id_jhrm1sk1ejdu.html)
 * [《RPC手撸专栏》第31章：基于SPI扩展Protostuff序列化与反序列化机制](https://articles.zsxq.com/id_oldx0om9zxqc.html)
+
+#### 第七篇：SPI扩展动态代理机制
 * [《RPC手撸专栏》第32章：基于SPI扩展JDK动态代理机制](https://articles.zsxq.com/id_l74bj0wq86wd.html)
 * [《RPC手撸专栏》第33章：基于SPI扩展CGLib动态代理机制](https://articles.zsxq.com/id_ncdserhiza68.html)
 * [《RPC手撸专栏》第34章：基于SPI扩展Javassist动态代理机制](https://articles.zsxq.com/id_i2tz6xldl3hc.html)
 * [《RPC手撸专栏》第35章：基于SPI扩展ByteBuddy动态代理机制](https://articles.zsxq.com/id_sth5wav0oicw.html)
 * [《RPC手撸专栏》第36章：基于SPI扩展ASM动态代理机制](https://articles.zsxq.com/id_5he0lwawarlr.html)
+
+#### 第八篇：SPI扩展反射机制
 * [《RPC手撸专栏》第37章：基于SPI扩展JDK反射机制调用真实方法](https://articles.zsxq.com/id_87wv5jfij31u.html)
 * [《RPC手撸专栏》第38章：基于SPI扩展CGLib反射机制调用真实方法](https://articles.zsxq.com/id_lp85axls7tlj.html)
 * [《RPC手撸专栏》第39章：基于SPI扩展Javassist反射机制调用真实方法](https://articles.zsxq.com/id_wgicowxzrwal.html)
 * [《RPC手撸专栏》第40章：基于SPI扩展ByteBuddy反射机制调用真实方法](https://articles.zsxq.com/id_0t7len2qpez1.html)
 * [《RPC手撸专栏》第41章：基于SPI扩展ASM反射机制调用真实方法](https://articles.zsxq.com/id_fulc1mu78zdf.html)
+
+#### 第九篇：SPI扩展负载均衡策略
 * [《RPC手撸专栏》第42章：基于SPI扩展随机算法负载均衡策略](https://articles.zsxq.com/id_wngusxgpn96g.html)
 * [《RPC手撸专栏》第43章：基于SPI扩展加权随机算法负载均衡策略](https://articles.zsxq.com/id_ejhf3a6a8hfi.html)
 * [《RPC手撸专栏》第44章：基于SPI扩展轮询算法负载均衡策略](https://articles.zsxq.com/id_nxu39tr84qpm.html)
@@ -224,13 +243,21 @@
 * [《RPC手撸专栏》第48章：基于SPI扩展源IP地址Hash算法负载均衡策略](https://articles.zsxq.com/id_zaj3965d7au1.html)
 * [《RPC手撸专栏》第49章：基于SPI扩展源IP地址加权Hash算法负载均衡策略](https://articles.zsxq.com/id_kebef31gh2w5.html)
 * [《RPC手撸专栏》第50章：基于SPI扩展Zookeeper的一致性Hash算法负载均衡策略](https://articles.zsxq.com/id_9nv3pftx71zi.html)
+
+#### 第十篇：SPI扩展增强型负载均衡策略
 * [《RPC手撸专栏》第51章：基于SPI扩展增强型加权随机算法负载均衡策略](https://articles.zsxq.com/id_mjigpus5d9pc.html)
 * [《RPC手撸专栏》第52章：基于SPI扩展增强型加权轮询算法负载均衡策略](https://articles.zsxq.com/id_fw9wlglk7vko.html)
 * [《RPC手撸专栏》第53章：基于SPI扩展增强型加权Hash算法负载均衡策略](https://articles.zsxq.com/id_d01mp6zox24w.html)
 * [《RPC手撸专栏》第54章：基于SPI扩展增强型加权源IP地址Hash算法负载均衡策略](https://articles.zsxq.com/id_9cthxw6xau9m.html)
 * [《RPC手撸专栏》第55章：基于SPI扩展增强型Zookeeper一致性Hash算法负载均衡策略](https://articles.zsxq.com/id_noundg5cxq55.html)
 * [《RPC手撸专栏》第56章：基于SPI扩展最少连接数负载均衡策略](https://articles.zsxq.com/id_9r6lownjcggi.html)
+
+#### 第十一篇：SPI扩展实现注册中心
 * [《RPC手撸专栏》第57章：基于SPI扩展实现Zookeeper注册中心](https://articles.zsxq.com/id_xkq21xwlnq48.html)
+* [《RPC手撸专栏》第57-X章：阶段性作业](https://binghe.gitcode.host/md/middleware/rpc/2022-12-07-%E3%80%8ARPC%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F%E3%80%8B%E7%AC%AC57-X%E7%AB%A0-%E9%98%B6%E6%AE%B5%E6%80%A7%E4%BD%9C%E4%B8%9A.html)
+
+#### 第十二篇：断线重连机制
+* [《RPC手撸专栏》第58章：断线重连机制心跳交互数据模型设计](https://articles.zsxq.com/id_pklupeh1lzoh.html)
 
 
 ### 🔥🔥🔥 Spring核心技术
@@ -356,31 +383,52 @@
 
 ### 🔥🔥🔥 SA实战
 
+#### 第一篇：专栏设计
 * [SA实战 ·《SpringCloud Alibaba实战》第1章-专栏设计：专栏开篇](https://mp.weixin.qq.com/s/1kS9RImTuL4hCnbxgfY1HQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第2章-专栏设计：专栏总体设计](https://mp.weixin.qq.com/s/k93hPaozpq0yZyhzTn3AqA)
+
+#### 第二篇：微服务介绍
 * [SA实战 ·《SpringCloud Alibaba实战》第3章-微服务介绍：微服务核心技术介绍](https://mp.weixin.qq.com/s/jT5YqhMakXh8Fe5lOASwUQ)
+
+#### 第三篇：微服务环境搭建
 * [SA实战 ·《SpringCloud Alibaba实战》第4章-微服务环境搭建：项目说明、流程设计、技术选型与模块划分](https://mp.weixin.qq.com/s/WFFDr1gHrYNN17xk3MyYjw)
 * [SA实战 ·《SpringCloud Alibaba实战》第5章-微服务环境搭建：开撸：完成通用模块的开发](https://mp.weixin.qq.com/s/BoKOEKzmJmHqVtgYBZyp-w)
 * [SA实战 ·《SpringCloud Alibaba实战》第6章-微服务环境搭建：快速搭建三大微服务并完成交互开发与测试](https://mp.weixin.qq.com/s/9baarUeDNOsRKraOzV_wyA)
+
+#### 第四篇：服务治理
 * [SA实战 ·《SpringCloud Alibaba实战》第7章-服务治理：实现服务的自动注册与发现](https://mp.weixin.qq.com/s/gKoEHbdcnGqW6fKdUFyUBg)
 * [SA实战 ·《SpringCloud Alibaba实战》第8章-服务治理：实现服务调用的负载均衡](https://mp.weixin.qq.com/s/G2iXsMUJBwdnUEsQKkiyGQ)
+
+#### 第五篇：服务容错
 * [SA实战 ·《SpringCloud Alibaba实战》第9章-服务容错：服务雪崩与容错方案](https://mp.weixin.qq.com/s/B9YoUVdUuXtWQczP7ZVlBA)
 * [SA实战 ·《SpringCloud Alibaba实战》第10章-服务容错：项目整合Sentinel实现限流与容错](https://mp.weixin.qq.com/s/wBb6lUEWf9jMNm56BDpspA)
 * [SA实战 ·《SpringCloud Alibaba实战》第11章-服务容错加餐：Sentinel核心技术](https://mp.weixin.qq.com/s/D_YpHey3mN0YZbzGL5-RIQ)
+
+#### 第六篇：服务网关
 * [SA实战 ·《SpringCloud Alibaba实战》第12章-服务网关：网关概述与核心架构](https://mp.weixin.qq.com/s/cx3crP7BnQwtCSJ7rFg8Rw)
 * [SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关](https://mp.weixin.qq.com/s/9HO15etc6PTZrQ1G6PuwhQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第14章-服务网关：SpringCloud Gateway核心技术](https://mp.weixin.qq.com/s/Byz2bClG8MdNTw8ujBgvHQ)
+
+#### 第七篇：链路追踪
 * [SA实战 ·《SpringCloud Alibaba实战》第15章-链路追踪：核心原理与解决方案](https://mp.weixin.qq.com/s/5NeBqv4-wGZ1A4Jsh-Qjng)
 * [SA实战 ·《SpringCloud Alibaba实战》第16章-链路追踪：项目整合Sleuth实现链路追踪](https://mp.weixin.qq.com/s/KRLxhqV2m6v0QmE26_UszA)
 * [SA实战 ·《SpringCloud Alibaba实战》第17章-链路追踪：Sleuth整合ZipKin](https://mp.weixin.qq.com/s/IJ2ijg-p8yamyfRH1Po42A)
+
+#### 第八篇：消息服务
 * [SA实战 ·《SpringCloud Alibaba实战》第18章-消息服务：MQ使用场景与选型对比](https://mp.weixin.qq.com/s/jfExlVktM_LQlS0UcQrLKA)
 * [SA实战 ·《SpringCloud Alibaba实战》第19章-消息服务：项目整合RocketMQ](https://mp.weixin.qq.com/s/mcx4juYK3FseyFeHYJ4jLw)
 * [SA实战 ·《SpringCloud Alibaba实战》第20章-消息服务：RocketMQ核心技术](https://mp.weixin.qq.com/s/P3XaEqheUZg2KIdpGtvzfA)
+
+#### 第九篇：服务配置
 * [SA实战 ·《SpringCloud Alibaba实战》第21章-服务配置：服务配置介绍与Nacos核心概念](https://mp.weixin.qq.com/s/T7Fv1dOiwcZnxvwS-xoovQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第22章-服务配置：项目整合Nacos配置中心](https://mp.weixin.qq.com/s/UPRX0e5CsI1Wy2lBpfUdSA)
 * [SA实战 ·《SpringCloud Alibaba实战》第23章-服务配置：实现动态刷新与配置共享](https://mp.weixin.qq.com/s/D9WYSweokRxQ4EkHxuly4A)
+
+#### 第十篇：分布式事务
 * [SA实战 ·《SpringCloud Alibaba实战》第24章-分布式事务：分布式事务核心原理与Seata介绍](https://mp.weixin.qq.com/s/aH5bxLe21p7aem2ze2XEpQ)
 * [SA实战 ·《SpringCloud Alibaba实战》第25章-分布式事务：项目整合Seata实现分布式事务](https://mp.weixin.qq.com/s/I0rOjP0nMlemzP4ZJsbPCw)
+
+#### 结束语
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
 * [十大篇章，共26个章节，332页，正式发布！！](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)
 
