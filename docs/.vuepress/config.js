@@ -1145,7 +1145,7 @@ function getBarMiddlewareRPC() {
             ]
         },
         {
-            title: "第十二篇：断线重连机制",
+            title: "第十二篇：心跳机制",
             collapsable: false,
             sidebarDepth: 0,
             children: [
