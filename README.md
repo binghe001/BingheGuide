@@ -256,8 +256,9 @@
 * [《RPC手撸专栏》第57章：基于SPI扩展实现Zookeeper注册中心](https://articles.zsxq.com/id_xkq21xwlnq48.html)
 * [《RPC手撸专栏》第57-X章：阶段性作业](https://binghe.gitcode.host/md/middleware/rpc/2022-12-07-%E3%80%8ARPC%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F%E3%80%8B%E7%AC%AC57-X%E7%AB%A0-%E9%98%B6%E6%AE%B5%E6%80%A7%E4%BD%9C%E4%B8%9A.html)
 
-#### 第十二篇：断线重连机制
-* [《RPC手撸专栏》第58章：断线重连机制心跳交互数据模型设计](https://articles.zsxq.com/id_pklupeh1lzoh.html)
+#### 第十二篇：心跳机制
+* [《RPC手撸专栏》第58章：心跳机制交互数据模型设计](https://articles.zsxq.com/id_pklupeh1lzoh.html)
+* [《RPC手撸专栏》第59章：心跳机制增强数据模型与协议解析设计](https://articles.zsxq.com/id_dcotswnwhxjh.html)
 
 
 ### 🔥🔥🔥 Spring核心技术

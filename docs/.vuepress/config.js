@@ -1149,7 +1149,8 @@ function getBarMiddlewareRPC() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2022-12-09-《RPC手撸专栏》第58章-断线重连机制心跳交互数据模型设计.md",
+                "2022-12-09-《RPC手撸专栏》第58章-心跳机制交互数据模型设计.md",
+                "2022-12-10-《RPC手撸专栏》第59章-心跳机制增强数据模型与协议解析.md",
             ]
         }
     ]
