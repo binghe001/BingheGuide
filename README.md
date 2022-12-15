@@ -261,6 +261,7 @@
 * [《RPC手撸专栏》第59章：心跳机制增强数据模型与协议解析设计](https://articles.zsxq.com/id_dcotswnwhxjh.html)
 * [《RPC手撸专栏》第60章：服务消费者向服务提供者发送心跳信息并接收心跳响应](https://articles.zsxq.com/id_sb16dguakuq4.html)
 * [《RPC手撸专栏》第61章：服务消费者心跳间隔时间配置化](https://articles.zsxq.com/id_wc2s7whopxwl.html)
+* [《RPC手撸专栏》第62章：服务提供者向服务消费者发送心跳消息并接收心跳响应](https://articles.zsxq.com/id_lztns8mdvik6.html)
 
 
 ### 🔥🔥🔥 Spring核心技术
