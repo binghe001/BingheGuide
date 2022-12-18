@@ -1,10 +1,10 @@
 ---
 layout: post
 category: binghe-code-spring
-title: 第02章：深度解析@ComponentScans注解与@ComponentScan注解
+title: 第02章：深度解析@ComponentScan注解
 tagline: by 冰河
 tag: [spring,ioc,aop,transaction,springmvc]
-excerpt: 第02章：深度解析@ComponentScans注解与@ComponentScan注解
+excerpt: 第02章：深度解析@ComponentScan注解
 lock: need
 ---
 
