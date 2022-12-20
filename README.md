@@ -265,6 +265,8 @@
 * [《RPC手撸专栏》第63章：服务提供者心跳间隔时间配置化](https://articles.zsxq.com/id_jmqzxfsowetb.html)
 * [《RPC手撸专栏》第63-X章：阶段性作业](https://binghe.gitcode.host/md/middleware/rpc/2022-12-18-%E3%80%8ARPC%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F%E3%80%8B%E7%AC%AC63-X%E7%AB%A0-%E9%98%B6%E6%AE%B5%E6%80%A7%E4%BD%9C%E4%B8%9A.html)
 
+#### 第十三篇：增强型心跳机制
+* [《RPC手撸专栏》第64章：服务提供者增强型心跳检测机制的实现](https://articles.zsxq.com/id_9xhpnwbaa45v.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
