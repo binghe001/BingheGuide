@@ -1158,6 +1158,14 @@ function getBarMiddlewareRPC() {
                 "2022-12-16-《RPC手撸专栏》第63章-服务提供者心跳间隔时间配置化.md",
                 "2022-12-18-《RPC手撸专栏》第63-X章-阶段性作业.md",
             ]
+        },
+        {
+            title: "第十三篇：增强型心跳机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-20-《RPC手撸专栏》第64章-服务提供者增强型心跳检测机制的实现.md",
+            ]
         }
     ]
 }
