@@ -727,6 +727,7 @@ function getBarFrameSpring() {
             children: [
                 "ioc/2022-12-05-《Spring核心技术》第1章-@Configuration注解-你了解的还不够深入.md",
                 "ioc/2022-12-12-《Spring核心技术》第2章-深度解析@ComponentScans注解与@ComponentScan注解.md",
+                "ioc/2022-12-21-《Spring核心技术》第3章-深度解析@Bean注解.md",
             ]
         },
         {
