@@ -269,11 +269,15 @@
 * [《RPC手撸专栏》第64章：服务提供者增强型心跳检测机制的实现](https://articles.zsxq.com/id_9xhpnwbaa45v.html)
 * [《RPC手撸专栏》第65章：服务消费者增强型心跳检测机制的实现](https://articles.zsxq.com/id_ggtdg85pe3fp.html)
 
+#### 第十四篇：重试机制
+* [《RPC手撸专栏》第66章：服务消费者实现服务订阅的重试机制](https://articles.zsxq.com/id_3ck9r5z89ovn.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
 * [《Spring核心技术》第1章：深度解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
+* [《Spring核心技术》第3章：深度解析@Bean注解](https://mp.weixin.qq.com/s/geOOpL_1dVQShkKabylI7Q)
 
 ### 🔥🔥🔥 精通高并发系列
 

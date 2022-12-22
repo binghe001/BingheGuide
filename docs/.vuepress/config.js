@@ -1168,6 +1168,14 @@ function getBarMiddlewareRPC() {
                 "2022-12-20-《RPC手撸专栏》第64章-服务提供者增强型心跳检测机制的实现.md",
                 "2022-12-21-《RPC手撸专栏》第65章-服务消费者增强型心跳检测机制的实现.md",
             ]
+        },
+        {
+            title: "第十四篇：重试机制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-22-《RPC手撸专栏》第66章-服务消费者实现服务订阅的重试机制.md",
+            ]
         }
     ]
 }
