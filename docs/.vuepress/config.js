@@ -200,18 +200,6 @@ module.exports = {
                                     {
                                         text: '面试必问',
                                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
-                                    },
-                                    {
-                                        text: 'Java进阶',
-                                        link: '/md/core/java/advanced/default.md'
-                                    },
-                                    {
-                                        text: 'Java高级',
-                                        link: '/md/core/java/senior/default.md'
-                                    },
-                                    {
-                                        text: 'Java8新特性',
-                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
                                     }
                                 ]
                             },
@@ -498,10 +486,10 @@ module.exports = {
                             }
                         ]
                     },
-                    /*{
-                        text: '面试必问系列',
-                        link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
-                    },*/
+                    {
+                        text: '🌍知识星球',
+                        link: '/md/starball/2022-12-24-硬核星球-即将涨价.md'
+                    },
                     /*{
                         text: '🔥🔥🔥冰河指南',
                         link: '/md/all/all.md'
@@ -617,6 +605,7 @@ module.exports = {
                     "/md/core/spring/aop/": getBarSpringAop(),
                     "/md/core/mysql/base/": getMySQLBase(),
                     "/md/core/jvm/": getBarCoreJVM(),
+                    "/md/starball/": getStarBall(),
                     "/md/all/": getBarAll(),
                 }
             }
@@ -1749,6 +1738,19 @@ function getBarCoreJVM() {
                 "2022-04-18-008-JVM-CMS垃圾收集器.md",
                 "2022-04-18-009-JVM -G1收集器-Region-停顿时间模型-垃圾回收.md",
                 "2022-04-18-010-JVM内存布局.md",
+            ]
+        }
+    ]
+}
+// getStarBall
+function getStarBall() {
+    return [
+        {
+            title: "星球介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-24-硬核星球-即将涨价.md"
             ]
         }
     ]
