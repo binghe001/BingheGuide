@@ -271,6 +271,7 @@
 
 #### 第十四篇：重试机制
 * [《RPC手撸专栏》第66章：服务消费者实现服务订阅的重试机制](https://articles.zsxq.com/id_3ck9r5z89ovn.html)
+* [《RPC手撸专栏》第67章：服务消费者连接服务提供者的重试机制](https://articles.zsxq.com/id_i5r441hvg5fp.html)
 
 ### 🔥🔥🔥 Spring核心技术
 

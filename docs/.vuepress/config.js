@@ -1176,6 +1176,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2022-12-22-《RPC手撸专栏》第66章-服务消费者实现服务订阅的重试机制.md",
+                "2022-12-24-《RPC手撸专栏》第67章-服务消费者连接服务提供者的重试机制.md",
             ]
         }
     ]
