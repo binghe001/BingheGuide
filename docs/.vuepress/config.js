@@ -196,6 +196,26 @@ module.exports = {
                         text: '核心技术',
                         items: [
                             {
+                                text: '面试必问系列',  items: [
+                                    {
+                                        text: '面试必问',
+                                        link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
+                                    },
+                                    {
+                                        text: 'Java进阶',
+                                        link: '/md/core/java/advanced/default.md'
+                                    },
+                                    {
+                                        text: 'Java高级',
+                                        link: '/md/core/java/senior/default.md'
+                                    },
+                                    {
+                                        text: 'Java8新特性',
+                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: 'Java核心技术',  items: [
                                     {
                                         text: 'Java基础',
@@ -478,10 +498,10 @@ module.exports = {
                             }
                         ]
                     },
-                    {
+                    /*{
                         text: '面试必问系列',
                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
-                    },
+                    },*/
                     /*{
                         text: '🔥🔥🔥冰河指南',
                         link: '/md/all/all.md'
@@ -544,7 +564,7 @@ module.exports = {
                         items: [
                             {text: '关于自己', link: '/md/about/me/about-me.md'},
                             {text: '关于学习', link: '/md/about/study/default.md'},
-                            {text: '关于职场', link: '/md/about/job/default.md'}
+                            {text: '关于职场', link: '/md/about/job/default.md'},
                         ]
                     },
                     {
@@ -1591,6 +1611,14 @@ function getBarAbout() {
         },
         {
             title: "关于职场",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "job/default.md",
+            ]
+        },
+        {
+            title: "关于面试",
             collapsable: false,
             sidebarDepth: 0,
             children: [
