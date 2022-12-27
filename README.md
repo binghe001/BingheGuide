@@ -274,7 +274,8 @@
 * [《RPC手撸专栏》第67章：服务消费者连接服务提供者的重试机制](https://articles.zsxq.com/id_i5r441hvg5fp.html)
 
 #### 第十五篇：整合Spring
-* [《RPC手撸专栏》第68章：服务提供者整合Spring XML](https://articles.zsxq.com/id_lpdm92w0kp2l.html)
+* [《RPC手撸专栏》第68章：服务提供者整合Spring](https://articles.zsxq.com/id_lpdm92w0kp2l.html)
+* [《RPC手撸专栏》第69章：基于Spring XML接入服务提供者](https://articles.zsxq.com/id_uah3g65dl7f7.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
@@ -282,6 +283,7 @@
 * [《Spring核心技术》第1章：深度解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
 * [《Spring核心技术》第3章：深度解析@Bean注解](https://mp.weixin.qq.com/s/geOOpL_1dVQShkKabylI7Q)
+* [《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程](https://mp.weixin.qq.com/s/T_UgoBe9gepQhp9e20pQhw)
 
 ### 🔥🔥🔥 精通高并发系列
 

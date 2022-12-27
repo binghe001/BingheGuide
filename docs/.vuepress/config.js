@@ -1193,7 +1193,8 @@ function getBarMiddlewareRPC() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2022-12-26-《RPC手撸专栏》第68章：服务提供者整合Spring.md",
+                "2022-12-26-《RPC手撸专栏》第68章-服务提供者整合Spring.md",
+                "2022-12-27-《RPC手撸专栏》第69章-基于SpringXML接入服务提供者.md",
             ]
         }
     ]
