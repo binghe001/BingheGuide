@@ -282,6 +282,7 @@ title: 冰河指南
 #### 第十五篇：整合Spring
 * [《RPC手撸专栏》第68章：服务提供者整合Spring](https://articles.zsxq.com/id_lpdm92w0kp2l.html)
 * [《RPC手撸专栏》第69章：基于Spring XML接入服务提供者](https://articles.zsxq.com/id_uah3g65dl7f7.html)
+* [《RPC手撸专栏》第70章：基于Spring注解接入服务提供者](https://articles.zsxq.com/id_punfttiew3sz.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
