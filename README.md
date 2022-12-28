@@ -277,6 +277,7 @@
 * [《RPC手撸专栏》第68章：服务提供者整合Spring](https://articles.zsxq.com/id_lpdm92w0kp2l.html)
 * [《RPC手撸专栏》第69章：基于Spring XML接入服务提供者](https://articles.zsxq.com/id_uah3g65dl7f7.html)
 * [《RPC手撸专栏》第70章：基于Spring注解接入服务提供者](https://articles.zsxq.com/id_punfttiew3sz.html)
+* [《RPC手撸专栏》第71章：服务消费者整合Spring](https://articles.zsxq.com/id_q2ag9elmdx0p.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
