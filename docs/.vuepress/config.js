@@ -1197,6 +1197,7 @@ function getBarMiddlewareRPC() {
                 "2022-12-27-《RPC手撸专栏》第69章-基于SpringXML接入服务提供者.md",
                 "2022-12-28-《RPC手撸专栏》第70章-基于Spring注解接入服务提供者.md",
                 "2022-12-29-《RPC手撸专栏》第71章-服务消费者整合Spring.md",
+                "2022-12-30-《RPC手撸专栏》第72章-基于SpringXML接入服务消费者.md",
             ]
         }
     ]
