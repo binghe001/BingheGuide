@@ -283,6 +283,7 @@
 
 #### 第十六篇：整合SpringBoot
 * [《RPC手撸专栏》第74章：服务提供者整合SpringBoot](https://articles.zsxq.com/id_a34w101tgs4d.html)
+* [《RPC手撸专栏》第75章：基于SpringBoot接入服务提供者](https://articles.zsxq.com/id_8fwr1wu3jx9p.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
