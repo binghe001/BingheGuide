@@ -1211,6 +1211,7 @@ function getBarMiddlewareRPC() {
                 "2023-01-02-《RPC手撸专栏》第75章-基于SpringBoot接入服务提供者.md",
                 "2023-01-03-《RPC手撸专栏》第76章-服务消费者整合SpringBoot.md",
                 "2023-01-04-《RPC手撸专栏》第77章-基于SpringBoot接入服务消费者.md",
+                "2023-01-04-《RPC手撸专栏》第77章-X-整合SpringBoot阶段作业.md",
             ]
         }
     ]

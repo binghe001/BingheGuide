@@ -254,7 +254,7 @@
 
 #### 第十一篇：SPI扩展实现注册中心
 * [《RPC手撸专栏》第57章：基于SPI扩展实现Zookeeper注册中心](https://articles.zsxq.com/id_xkq21xwlnq48.html)
-* [《RPC手撸专栏》第57-X章：阶段性作业](https://binghe.gitcode.host/md/middleware/rpc/2022-12-07-%E3%80%8ARPC%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F%E3%80%8B%E7%AC%AC57-X%E7%AB%A0-%E9%98%B6%E6%AE%B5%E6%80%A7%E4%BD%9C%E4%B8%9A.html)
+* [《RPC手撸专栏》第57-X章：阶段性作业](https://t.zsxq.com/09l7Ck6i3)
 
 #### 第十二篇：心跳机制
 * [《RPC手撸专栏》第58章：心跳机制交互数据模型设计](https://articles.zsxq.com/id_pklupeh1lzoh.html)
@@ -263,7 +263,7 @@
 * [《RPC手撸专栏》第61章：服务消费者心跳间隔时间配置化](https://articles.zsxq.com/id_wc2s7whopxwl.html)
 * [《RPC手撸专栏》第62章：服务提供者向服务消费者发送心跳消息并接收心跳响应](https://articles.zsxq.com/id_lztns8mdvik6.html)
 * [《RPC手撸专栏》第63章：服务提供者心跳间隔时间配置化](https://articles.zsxq.com/id_jmqzxfsowetb.html)
-* [《RPC手撸专栏》第63-X章：阶段性作业](https://binghe.gitcode.host/md/middleware/rpc/2022-12-18-%E3%80%8ARPC%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F%E3%80%8B%E7%AC%AC63-X%E7%AB%A0-%E9%98%B6%E6%AE%B5%E6%80%A7%E4%BD%9C%E4%B8%9A.html)
+* [《RPC手撸专栏》第63-X章：阶段性作业](https://t.zsxq.com/099LHH6JQ)
 
 #### 第十三篇：增强型心跳机制
 * [《RPC手撸专栏》第64章：服务提供者增强型心跳检测机制的实现](https://articles.zsxq.com/id_9xhpnwbaa45v.html)
@@ -280,12 +280,14 @@
 * [《RPC手撸专栏》第71章：服务消费者整合Spring](https://articles.zsxq.com/id_q2ag9elmdx0p.html)
 * [《RPC手撸专栏》第72章：基于Spring XML接入服务消费者](https://articles.zsxq.com/id_ewc703dwui4u.html)
 * [《RPC手撸专栏》第73章：基于Spring注解接入服务消费者](https://articles.zsxq.com/id_atww2tou7n3c.html)
+* [《RPC手撸专栏》第73-X章：整合Spring阶段作业](https://t.zsxq.com/09ON0butp)
 
 #### 第十六篇：整合SpringBoot
 * [《RPC手撸专栏》第74章：服务提供者整合SpringBoot](https://articles.zsxq.com/id_a34w101tgs4d.html)
 * [《RPC手撸专栏》第75章：基于SpringBoot接入服务提供者](https://articles.zsxq.com/id_8fwr1wu3jx9p.html)
 * [《RPC手撸专栏》第76章：服务消费者整合SpringBoot](https://articles.zsxq.com/id_6urdw6g1zg0h.html)
 * [《RPC手撸专栏》第77章：基于SpringBoot接入服务消费者](https://articles.zsxq.com/id_9cq199w02eim.html)
+* [《RPC手撸专栏》第77章-X：整合SpringBoot阶段作业](https://t.zsxq.com/09N4JAv7i)
 
 ### 🔥🔥🔥 Spring核心技术
 
