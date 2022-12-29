@@ -1209,6 +1209,7 @@ function getBarMiddlewareRPC() {
             children: [
                 "2023-01-01-《RPC手撸专栏》第74章-服务提供者整合SpringBoot.md",
                 "2023-01-02-《RPC手撸专栏》第75章-基于SpringBoot接入服务提供者.md",
+                "2023-01-03-《RPC手撸专栏》第76章-服务消费者整合SpringBoot.md",
             ]
         }
     ]
