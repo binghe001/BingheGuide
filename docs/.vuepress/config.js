@@ -1201,6 +1201,14 @@ function getBarMiddlewareRPC() {
                 "2022-12-31-《RPC手撸专栏》第73章-基于Spring注解接入服务消费者.md",
                 "2022-12-31-《RPC手撸专栏》第73章-X-整合Spring阶段作业.md",
             ]
+        },
+        {
+            title: "第十六篇：整合SpringBoot",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-01-《RPC手撸专栏》第74章-服务提供者整合SpringBoot.md",
+            ]
         }
     ]
 }

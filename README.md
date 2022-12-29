@@ -281,6 +281,9 @@
 * [《RPC手撸专栏》第72章：基于Spring XML接入服务消费者](https://articles.zsxq.com/id_ewc703dwui4u.html)
 * [《RPC手撸专栏》第73章：基于Spring注解接入服务消费者](https://articles.zsxq.com/id_atww2tou7n3c.html)
 
+#### 第十六篇：整合SpringBoot
+* [《RPC手撸专栏》第74章：服务提供者整合SpringBoot](https://articles.zsxq.com/id_a34w101tgs4d.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
