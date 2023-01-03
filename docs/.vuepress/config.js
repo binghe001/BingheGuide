@@ -1214,6 +1214,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-04-《RPC手撸专栏》第77章-X-整合SpringBoot阶段作业.md",
 
             ]
+        },
+        {
+            title: "第十七篇：整合Docker",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-05-《RPC手撸专栏》第78章-基于Docker接入服务提供者.md",
+            ]
         }
     ]
 }

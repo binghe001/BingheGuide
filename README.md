@@ -289,6 +289,9 @@
 * [《RPC手撸专栏》第77章：基于SpringBoot接入服务消费者](https://articles.zsxq.com/id_9cq199w02eim.html)
 * [《RPC手撸专栏》第77章-X：整合SpringBoot阶段作业](https://t.zsxq.com/09N4JAv7i)
 
+#### 第十七篇：整合Docker
+* [《RPC手撸专栏》第78章：基于Docker接入服务提供者](https://articles.zsxq.com/id_dfptlavwpapq.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
@@ -998,6 +1001,9 @@
 
 ### 程序人生
 
+* [2023，新的一年，新的规划！（文末有福利）](https://mp.weixin.qq.com/s/wGwpkZ4Rk4spfP5K8tseTQ)
+* [请给原作者和原创一点尊重！](https://mp.weixin.qq.com/s/1zSApb4QKN9dDbAj9661ZA)
+* [2022年，大部分人半途而废的原因](https://mp.weixin.qq.com/s/TQAKNnMI40oDEOV-KU6pVg)
 * [台湾同胞们也看上咱出版的这本书啦！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247503017&idx=1&sn=6670f15d1939257c189846d59dc7f358&chksm=cf567ba8f821f2beeabcce3ca935c04e1b4069e55ea2e19308369e6231c1b5b52c9de079c12a&token=1644289145&lang=zh_CN#rd)
 * [离职了！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498758&idx=1&sn=f5d85fe6a8ae469f710908392f6cca1f&chksm=cf564b07f821c21177a7bf172f7b2f53515b9c63b41e686f013a24e86b24bda730adcf4b28cf&token=2138570566&lang=zh_CN#rd)
 * [新年 Flag！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498921&idx=1&sn=cb57113d8590fcc44b8b6d6fe67caeb7&chksm=cf564ba8f821c2be051606fa849d05fb95c66679e97aacc6a912ab3860512e1a1316385988f1&token=2138570566&lang=zh_CN#rd)
