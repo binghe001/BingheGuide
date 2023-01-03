@@ -1221,6 +1221,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-05-《RPC手撸专栏》第78章-基于Docker接入服务提供者.md",
+                "2023-01-06-《RPC手撸专栏》第79章-基于Docker接入服务消费者.md",
             ]
         }
     ]

@@ -297,6 +297,7 @@ title: 冰河指南
 
 #### 第十七篇：整合Docker
 * [《RPC手撸专栏》第78章：基于Docker接入服务提供者](https://articles.zsxq.com/id_dfptlavwpapq.html)
+* [《RPC手撸专栏》第79章：基于Docker接入服务消费者](https://articles.zsxq.com/id_16ff4f19lgv2.html)
 
 
 ### 🔥🔥🔥 Spring核心技术
