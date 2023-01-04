@@ -1231,6 +1231,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-07-《RPC手撸专栏》第80章-整合SpringCloudAlibaba.md",
+                "2023-01-07-《RPC手撸专栏》第80章-X-整合SpringCloud-Alibaba阶段作业.md",
             ]
         }
     ]
