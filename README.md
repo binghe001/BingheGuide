@@ -294,6 +294,9 @@
 * [《RPC手撸专栏》第79章：基于Docker接入服务消费者](https://articles.zsxq.com/id_16ff4f19lgv2.html)
 * [《RPC手撸专栏》第79章-X：整合Docker阶段作业](https://t.zsxq.com/09hixMbmO)
 
+#### 第十八篇：整合SpringCloud Alibaba
+* [《RPC手撸专栏》第80章：整合SpringCloud Alibaba实际项目](https://articles.zsxq.com/id_zxv133s0wffh.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)

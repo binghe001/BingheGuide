@@ -1224,6 +1224,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-06-《RPC手撸专栏》第79章-基于Docker接入服务消费者.md",
                 "2023-01-06-《RPC手撸专栏》第79章-X-整合Docker阶段作业.md",
             ]
+        },
+        {
+            title: "第十八篇：整合SpringCloud Alibaba",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-07-《RPC手撸专栏》第80章-整合SpringCloudAlibaba.md",
+            ]
         }
     ]
 }
