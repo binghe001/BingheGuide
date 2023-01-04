@@ -296,6 +296,7 @@
 
 #### 第十八篇：整合SpringCloud Alibaba
 * [《RPC手撸专栏》第80章：整合SpringCloud Alibaba实际项目](https://articles.zsxq.com/id_zxv133s0wffh.html)
+* [《RPC手撸专栏》第80章-X：整合SpringCloud Alibaba阶段作业](https://t.zsxq.com/09qxlVm8k)
 
 ### 🔥🔥🔥 Spring核心技术
 
