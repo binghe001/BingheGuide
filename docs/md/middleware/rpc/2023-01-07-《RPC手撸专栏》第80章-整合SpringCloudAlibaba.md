@@ -394,7 +394,7 @@ bhrpc:
       # group
       group: binghe
       # zkconsistenthash
-      serializationType: zkconsistenthash
+      serializationType: protostuff
       # timeout
       timeout: 30000
       # async
