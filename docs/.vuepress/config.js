@@ -1233,6 +1233,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-07-《RPC手撸专栏》第80章-整合SpringCloudAlibaba.md",
                 "2023-01-07-《RPC手撸专栏》第80章-X-整合SpringCloud-Alibaba阶段作业.md",
             ]
+        },
+        {
+            title: "第十九篇：结果缓存",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-09-《RPC手撸专栏》第81章-结果缓存通用模型设计.md",
+            ]
         }
     ]
 }
