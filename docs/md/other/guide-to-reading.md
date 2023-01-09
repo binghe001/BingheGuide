@@ -304,6 +304,9 @@ title: 冰河指南
 * [《RPC手撸专栏》第80章：整合SpringCloud Alibaba实际项目](https://articles.zsxq.com/id_zxv133s0wffh.html)
 * [《RPC手撸专栏》第80章-X：整合SpringCloud Alibaba阶段作业](https://t.zsxq.com/09qxlVm8k)
 
+#### 第十九篇：结果缓存
+* [《RPC手撸专栏》第81章：结果缓存通用模型设计](https://articles.zsxq.com/id_a7q8wlunhtd8.html)
+
 
 ### 🔥🔥🔥 Spring核心技术
 
