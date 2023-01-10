@@ -1240,6 +1240,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-09-《RPC手撸专栏》第81章-结果缓存通用模型设计.md",
+                "2023-01-10-《RPC手撸专栏》第82章-服务提供者支持结果缓存.md",
             ]
         }
     ]

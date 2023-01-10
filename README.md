@@ -300,6 +300,7 @@
 
 #### 第十九篇：结果缓存
 * [《RPC手撸专栏》第81章：结果缓存通用模型设计](https://articles.zsxq.com/id_a7q8wlunhtd8.html)
+* [《RPC手撸专栏》第82章：服务提供者支持结果缓存](https://articles.zsxq.com/id_pb8flsvw5vzn.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
