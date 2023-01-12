@@ -1244,6 +1244,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-11-《RPC手撸专栏》第83章-服务消费者支持结果缓存.md",
                 "2023-01-11-《RPC手撸专栏》第83章-X-结果缓存阶段作业.md",
             ]
+        },
+        {
+            title: "第二十篇：路由控制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-12-《RPC手撸专栏》第84章-服务消费者直连某个服务提供者.md",
+            ]
         }
     ]
 }
