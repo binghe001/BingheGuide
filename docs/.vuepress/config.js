@@ -1251,6 +1251,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-12-《RPC手撸专栏》第84章-服务消费者直连某个服务提供者.md",
+                "2023-01-13-《RPC手撸专栏》第85章-服务消费者直连多个服务提供者.md",
             ]
         }
     ]
