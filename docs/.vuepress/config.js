@@ -304,10 +304,10 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🔥🔥🔥框架源码',
+                        text: '🔥框架源码',
                         items: [
                             {
-                                text: '🔥🔥🔥Spring核心技术',
+                                text: '🔥Spring核心技术',
                                 link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
                             }
                         ]
@@ -382,35 +382,35 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🔥🔥🔥微服务',
+                        text: '🔥微服务',
                         items: [
                                 {
                                     text: 'SpringBoot',
                                     link: '/md/microservices/springboot/default.md'
                                 },
                                 {
-                                    text: '🔥🔥🔥SpringCloudAlibaba',
+                                    text: '🔥SpringCloudAlibaba',
                                     link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                 }
                             ]
                     },
                     {
-                        text: '🔥🔥🔥项目实战',
+                        text: '🔥项目实战',
                         items: [
                             {
-                                text: "微服务项目🔥🔥🔥",
+                                text: "🔥微服务项目",
                                 items:[
                                     {
-                                        text: '🔥🔥🔥SpringCloud Alibaba实战',
+                                        text: '🔥SpringCloud Alibaba实战',
                                         link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                     }
                                 ]
                             },
                             {
-                                text: "中间件项目🔥🔥🔥",
+                                text: "🔥中间件项目",
                                 items:[
                                     {
-                                        text: '🔥🔥🔥《RPC手撸专栏》',
+                                        text: '🔥《RPC手撸专栏》',
                                         link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
                                     },
                                     {
