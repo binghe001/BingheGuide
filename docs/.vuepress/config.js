@@ -1261,6 +1261,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-14-《RPC手撸专栏》第86章-服务消费者支持延迟连接服务提供者.md",
+                "2023-01-15-《RPC手撸专栏》第87章-服务消费者支持非延迟连接服务提供者.md",
             ]
         }
     ]
