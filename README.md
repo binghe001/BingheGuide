@@ -304,9 +304,13 @@
 * [《RPC手撸专栏》第83章：服务消费者支持结果缓存](https://articles.zsxq.com/id_7nkgz2zgzpf9.html)
 * [《RPC手撸专栏》第83章-X：结果缓存阶段作业](https://t.zsxq.com/0aWyqturC)
 
-### 第二十篇：路由控制
+#### 第二十篇：路由控制
 * [《RPC手撸专栏》第84章：服务消费者直连某个服务提供者](https://articles.zsxq.com/id_loa4a96us7vr.html)
 * [《RPC手撸专栏》第85章：服务消费者直连多个服务提供者](https://articles.zsxq.com/id_2kfvhlwnzl76.html)
+* [《RPC手撸专栏》第85章-X：路由控制阶段作业](https://t.zsxq.com/0aEYXMVTS)
+
+#### 第二十一篇：延迟连接
+* [《RPC手撸专栏》第86章：服务消费者支持延迟连接服务提供者](https://articles.zsxq.com/id_hj42kkrf85cn.html)
 
 ### 🔥🔥🔥 Spring核心技术
 

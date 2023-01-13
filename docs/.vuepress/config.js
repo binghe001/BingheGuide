@@ -1254,6 +1254,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-13-《RPC手撸专栏》第85章-服务消费者直连多个服务提供者.md",
                 "2023-01-13-《RPC手撸专栏》第85章-X-路由控制阶段作业.md",
             ]
+        },
+        {
+            title: "第二十一篇：延迟连接",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-14-《RPC手撸专栏》第86章-服务消费者支持延迟连接服务提供者.md",
+            ]
         }
     ]
 }
