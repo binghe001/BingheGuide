@@ -398,7 +398,7 @@ module.exports = {
                         text: '🔥项目实战',
                         items: [
                             {
-                                text: "🔥微服务项目",
+                                text: "微服务项目",
                                 items:[
                                     {
                                         text: '🔥SpringCloud Alibaba实战',
@@ -407,7 +407,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: "🔥中间件项目",
+                                text: "中间件项目",
                                 items:[
                                     {
                                         text: '🔥《RPC手撸专栏》',
