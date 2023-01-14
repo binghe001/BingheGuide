@@ -314,6 +314,9 @@
 * [《RPC手撸专栏》第87章：服务消费者支持非延迟连接服务提供者](https://articles.zsxq.com/id_h3svijixud6p.html)
 * [《RPC手撸专栏》第87章-X：延迟连接阶段作业](https://t.zsxq.com/0a1MfxLbi)
 
+#### 第二十二篇：并发控制
+* [《RPC手撸专栏》第88章：并发控制基础模型设计](https://articles.zsxq.com/id_a79di5nhzlk4.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)

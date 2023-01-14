@@ -1264,6 +1264,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-15-《RPC手撸专栏》第87章-服务消费者支持非延迟连接服务提供者.md",
                 "2023-01-15-《RPC手撸专栏》第87章-X-延迟连接阶段作业.md",
             ]
+        },
+        {
+            title: "第二十二篇：并发控制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-16-《RPC手撸专栏》第88章-并发控制基础模型设计.md",
+            ]
         }
     ]
 }
