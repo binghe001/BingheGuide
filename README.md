@@ -317,6 +317,7 @@
 #### 第二十二篇：并发控制
 * [《RPC手撸专栏》第88章：并发控制基础模型设计](https://articles.zsxq.com/id_a79di5nhzlk4.html)
 * [《RPC手撸专栏》第89章：服务提供者支持并发控制](https://articles.zsxq.com/id_w9zdvzuxv4tu.html)
+* [《RPC手撸专栏》第90章：服务消费者支持并发控制](https://articles.zsxq.com/id_hu84gd1gdzah.html)
 
 ### 🔥🔥🔥 Spring核心技术
 
