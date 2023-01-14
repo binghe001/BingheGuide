@@ -1271,6 +1271,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-16-《RPC手撸专栏》第88章-并发控制基础模型设计.md",
+                "2023-01-17-《RPC手撸专栏》第89章-服务提供者支持并发控制.md",
             ]
         }
     ]
