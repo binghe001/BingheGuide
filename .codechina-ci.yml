@@ -6,8 +6,7 @@ image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
 
 #before_script:
 #  - apk add --update --no-cache git
- 
- 
+
 #variables:
 #  GIT_SUBMODULE_STRATEGY: recursive
  
