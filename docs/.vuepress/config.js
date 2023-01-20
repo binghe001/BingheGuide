@@ -1275,6 +1275,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-18-《RPC手撸专栏》第90章-服务消费者支持并发控制.md",
                 "2023-01-18-《RPC手撸专栏》第90章-X-并发控制阶段作业.md",
             ]
+        },
+        {
+            title: "第二十三篇：流控分析",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-20-《RPC手撸专栏》第91章-流控分析后置处理器模型设计.md",
+            ]
         }
     ]
 }

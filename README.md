@@ -320,6 +320,9 @@
 * [《RPC手撸专栏》第90章：服务消费者支持并发控制](https://articles.zsxq.com/id_hu84gd1gdzah.html)
 * [《RPC手撸专栏》第90章-X：并发控制阶段作业](https://t.zsxq.com/0arcudg7B)
 
+#### 第二十三篇：流控分析
+* [《RPC手撸专栏》第91章：流控分析后置处理器模型设计](https://articles.zsxq.com/id_ndawdn2u64gr.html)
+
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
