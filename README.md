@@ -326,8 +326,13 @@
 * [《RPC手撸专栏》第93章：服务消费者整合流控分析](https://articles.zsxq.com/id_nuww2cx76mb7.html)
 * [《RPC手撸专栏》第93章-X：流控分析阶段作业](https://t.zsxq.com/0an9ZVkoH)
 
+
+#### 番外篇
+* [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
+
 ### 🔥🔥🔥 Spring核心技术
 
+* [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
 * [《Spring核心技术》第1章：深度解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
@@ -500,6 +505,10 @@
 #### 结束语
 * [SA实战 ·《SpringCloud Alibaba实战》第26章-专栏总结与后续规划](https://mp.weixin.qq.com/s/_OwhURhLDanxgOoiWALOQA)
 * [十大篇章，共26个章节，332页，正式发布！！](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)
+* [这本书又又又升级了！！](https://mp.weixin.qq.com/s/cDSwepgOHYTH5q5nYWkpfQ)
+
+#### 整合bhrpc框架
+* [震撼！自己手写的100+工程的RPC框架成功整合了SpringCloud Alibaba](https://mp.weixin.qq.com/s/a2Y-qP6okUtkSKpxt8GzCg)
 
 ### 🔥🔥🔥 MySQL核心知识
 
@@ -532,6 +541,7 @@
 
 ### 面试必问系列
 
+* [年前最后一本《面试圣经》电子书](https://mp.weixin.qq.com/s/45oLT-uRD2PDyvmKA9oUgg)
 * [面试必问 | 聊聊MySQL三大核心日志的实现原理？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498705&idx=1&sn=d62fe252758439f40490392401640c87&chksm=cf564cd0f821c5c6b67534467252ad8b24ee30a9be3dcabbe91f7a9756d15a25bdc90b358820&token=2138570566&lang=zh_CN#rd)
 * [面试必问 | 如何设计一款高并发的消息中间件？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498669&idx=1&sn=198733a3e5d2986ee578aa7b941be558&chksm=cf564cacf821c5bac83ac61f373d3b4fe0cef05e4b4b20257ae32e65f775c70f06c971458a47&token=2138570566&lang=zh_CN#rd)
 * [面试必问|哪些场景下Spring的事务会失效？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498649&idx=1&sn=ccb0343afda59782a81cdf37e292868b&chksm=cf564c98f821c58e739e36f74791495b7452a96650aaa72aa6501745c20ab806546e407c5a70&token=2138570566&lang=zh_CN#rd)
