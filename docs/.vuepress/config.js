@@ -1282,6 +1282,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-20-《RPC手撸专栏》第91章-流控分析后置处理器模型设计.md",
+                "2023-01-28-《RPC手撸专栏》第92章-服务提供者整合流控分析.md",
             ]
         }
     ]
