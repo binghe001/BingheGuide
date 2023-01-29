@@ -542,6 +542,10 @@ module.exports = {
                                     {
                                         text: '《MySQL核心知识手册》',
                                         link: '/md/knowledge/pdf/2022-11-14-《MySQL核心知识手册》-打包发布.md'
+                                    },
+                                    {
+                                        text: '《Spring IOC核心技术》',
+                                        link: '/md/knowledge/pdf/2023-01-28-《Spring IOC核心技术》共27章-19万字-打包发布.md'
                                     }
                                 ]
                             }
