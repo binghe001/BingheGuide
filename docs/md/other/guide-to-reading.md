@@ -335,6 +335,7 @@ title: 冰河指南
 #### 第二十四篇：连接控制
 * [《RPC手撸专栏》第94章：连接控制基础模型设计](https://articles.zsxq.com/id_taxtdstwbfdf.html)
 * [《RPC手撸专栏》第95章：服务提供者整合连接控制](https://articles.zsxq.com/id_4itcb5tpup7b.html)
+* [《RPC手撸专栏》第95章-X：连接控制阶段作业](https://t.zsxq.com/0asmzlzC6)
 
 
 #### 番外篇
