@@ -1286,6 +1286,14 @@ function getBarMiddlewareRPC() {
                 "2023-01-29-《RPC手撸专栏》第93章-服务消费者整合流控分析.md",
                 "2023-01-29-《RPC手撸专栏》第93章-X-流控分析阶段作业.md",
             ]
+        },
+        {
+            title: "第二十四篇：连接控制",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-01-30-《RPC手撸专栏》第94章-连接控制基础模型设计.md",
+            ]
         }
     ]
 }

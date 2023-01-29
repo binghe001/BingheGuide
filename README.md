@@ -326,6 +326,8 @@
 * [《RPC手撸专栏》第93章：服务消费者整合流控分析](https://articles.zsxq.com/id_nuww2cx76mb7.html)
 * [《RPC手撸专栏》第93章-X：流控分析阶段作业](https://t.zsxq.com/0an9ZVkoH)
 
+#### 第二十四篇：连接控制
+* [《RPC手撸专栏》第94章：连接控制基础模型设计](https://articles.zsxq.com/id_taxtdstwbfdf.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
