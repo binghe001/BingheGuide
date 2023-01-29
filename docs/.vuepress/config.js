@@ -1293,6 +1293,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-01-30-《RPC手撸专栏》第94章-连接控制基础模型设计.md",
+                "2023-01-31-《RPC手撸专栏》第95章-服务提供者整合连接控制.md",
             ]
         }
     ]
