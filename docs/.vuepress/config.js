@@ -1307,6 +1307,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-01-《RPC手撸专栏》第96章-基于SPI扩展最早连接淘汰策略.md",
+                "2023-02-02-《RPC手撸专栏》第97章-基于SPI扩展最晚连接淘汰策略.md",
             ]
         }
     ]
