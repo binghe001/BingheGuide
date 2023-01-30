@@ -331,6 +331,9 @@
 * [《RPC手撸专栏》第95章：服务提供者整合连接控制](https://articles.zsxq.com/id_4itcb5tpup7b.html)
 * [《RPC手撸专栏》第95章-X：连接控制阶段作业](https://t.zsxq.com/0asmzlzC6)
 
+#### 第二十五篇：SPI扩展连接淘汰策略
+* [《RPC手撸专栏》第96章：基于SPI扩展最早连接淘汰策略](https://articles.zsxq.com/id_e7hlzna0gpm9.html)
+
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
 
