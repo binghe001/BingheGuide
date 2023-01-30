@@ -344,6 +344,7 @@ title: 冰河指南
 * [《RPC手撸专栏》第99章：基于SPI扩展使用次数最少连接淘汰策略](https://articles.zsxq.com/id_3r0wivvc2j7q.html)
 * [《RPC手撸专栏》第100章：基于SPI扩展最近未被使用连接淘汰策略](https://articles.zsxq.com/id_2d4k9lczhj11.html)
 * [《RPC手撸专栏》第101章：基于SPI扩展随机连接淘汰策略](https://articles.zsxq.com/id_6zfc5tu4sadw.html)
+* [《RPC手撸专栏》第102章：基于SPI扩展拒绝连接淘汰策略](https://articles.zsxq.com/id_zxujiru0m4aa.html)
 
 
 #### 番外篇
