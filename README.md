@@ -339,6 +339,7 @@
 * [《RPC手撸专栏》第100章：基于SPI扩展最近未被使用连接淘汰策略](https://articles.zsxq.com/id_2d4k9lczhj11.html)
 * [《RPC手撸专栏》第101章：基于SPI扩展随机连接淘汰策略](https://articles.zsxq.com/id_6zfc5tu4sadw.html)
 * [《RPC手撸专栏》第102章：基于SPI扩展拒绝连接淘汰策略](https://articles.zsxq.com/id_zxujiru0m4aa.html)
+* [《RPC手撸专栏》第102章-X：SPI扩展连接拒绝策略阶段作业](https://t.zsxq.com/0aYfqnGxl)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
