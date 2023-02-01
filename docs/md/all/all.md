@@ -349,6 +349,7 @@ title: 冰河指南
 
 #### 第二十六篇：数据缓冲
 * [《RPC手撸专栏》第103章：数据缓冲基础模型设计](https://articles.zsxq.com/id_7vlqjihwavcw.html)
+* [《RPC手撸专栏》第104章：服务提供者整合数据缓冲](https://articles.zsxq.com/id_gf5vsocpwga6.html)
 
 
 #### 番外篇

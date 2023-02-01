@@ -1322,6 +1322,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-08-《RPC手撸专栏》第103章-数据缓冲基础模型设计.md",
+                "2023-02-09-《RPC手撸专栏》第104章-服务提供者整合数据缓冲.md",
             ]
         }
     ]
