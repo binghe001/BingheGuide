@@ -1315,6 +1315,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-07-《RPC手撸专栏》第102章-基于SPI扩展拒绝连接淘汰策略.md",
                 "2023-02-07-《RPC手撸专栏》第102章-X-SPI扩展连接拒绝策略阶段作业.md",
             ]
+        },
+        {
+            title: "第二十六篇：数据缓冲",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-08-《RPC手撸专栏》第103章-数据缓冲基础模型设计.md",
+            ]
         }
     ]
 }

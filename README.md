@@ -341,6 +341,9 @@
 * [《RPC手撸专栏》第102章：基于SPI扩展拒绝连接淘汰策略](https://articles.zsxq.com/id_zxujiru0m4aa.html)
 * [《RPC手撸专栏》第102章-X：SPI扩展连接拒绝策略阶段作业](https://t.zsxq.com/0aYfqnGxl)
 
+#### 第二十六篇：数据缓冲
+* [《RPC手撸专栏》第103章：数据缓冲基础模型设计](https://articles.zsxq.com/id_7vlqjihwavcw.html)
+
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
 
