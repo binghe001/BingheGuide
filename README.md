@@ -344,6 +344,7 @@
 #### 第二十六篇：数据缓冲
 * [《RPC手撸专栏》第103章：数据缓冲基础模型设计](https://articles.zsxq.com/id_7vlqjihwavcw.html)
 * [《RPC手撸专栏》第104章：服务提供者整合数据缓冲](https://articles.zsxq.com/id_gf5vsocpwga6.html)
+* [《RPC手撸专栏》第105章：服务消费者整合数据缓冲](https://articles.zsxq.com/id_b39p80gjmowd.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
