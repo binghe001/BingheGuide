@@ -1326,6 +1326,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-10-《RPC手撸专栏》第105章-服务消费者整合数据缓冲.md",
                 "2023-02-10-《RPC手撸专栏》第105章-X-数据缓冲阶段作业.md",
             ]
+        },
+        {
+            title: "第二十七篇：服务容错",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-11-《RPC手撸专栏》第106章-服务容错设计与研发.md",
+            ]
         }
     ]
 }

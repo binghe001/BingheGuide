@@ -352,6 +352,10 @@ title: 冰河指南
 * [《RPC手撸专栏》第103章：数据缓冲基础模型设计](https://articles.zsxq.com/id_7vlqjihwavcw.html)
 * [《RPC手撸专栏》第104章：服务提供者整合数据缓冲](https://articles.zsxq.com/id_gf5vsocpwga6.html)
 * [《RPC手撸专栏》第105章：服务消费者整合数据缓冲](https://articles.zsxq.com/id_b39p80gjmowd.html)
+* [《RPC手撸专栏》第105章-X：数据缓冲阶段作业](https://t.zsxq.com/0alPcr61Q)
+
+#### 第二十七篇：服务容错
+* [《RPC手撸专栏》第106章：服务容错设计与研发](https://articles.zsxq.com/id_mtz8cn9qktrr.html)
 
 
 #### 番外篇
