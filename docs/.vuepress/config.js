@@ -1333,6 +1333,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-11-《RPC手撸专栏》第106章-服务容错设计与研发.md",
+                "2023-02-12-《RPC手撸专栏》第107章-服务容错效果测试.md"
             ]
         }
     ]
