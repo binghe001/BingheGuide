@@ -350,6 +350,7 @@
 #### 第二十七篇：服务容错
 * [《RPC手撸专栏》第106章：服务容错设计与研发](https://articles.zsxq.com/id_mtz8cn9qktrr.html)
 * [《RPC手撸专栏》第107章：服务容错效果测试](https://articles.zsxq.com/id_356s6sxma22g.html)
+* [《RPC手撸专栏》第108章：服务容错失效问题修复](https://articles.zsxq.com/id_c0mka70xo8ke.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
