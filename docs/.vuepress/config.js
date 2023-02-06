@@ -1337,6 +1337,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-13-《RPC手撸专栏》第108章-服务容错失效问题修复.md",
                 "2023-02-13-《RPC手撸专栏》第108章-X-服务容错阶段作业.md"
             ]
+        },
+        {
+            title: "第二十八篇：服务限流",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-14-《RPC手撸专栏》第109章-服务限流基础模型设计.md",
+            ]
         }
     ]
 }

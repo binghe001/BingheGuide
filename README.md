@@ -353,6 +353,9 @@
 * [《RPC手撸专栏》第108章：服务容错失效问题修复](https://articles.zsxq.com/id_c0mka70xo8ke.html)
 * [《RPC手撸专栏》第108章-X：服务容错阶段作业](https://t.zsxq.com/0aChrm3ci)
 
+#### 第二十八篇：服务限流
+* [《RPC手撸专栏》第109章：服务限流基础模型设计](https://articles.zsxq.com/id_vt4qwkw275gr.html)
+
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
 
