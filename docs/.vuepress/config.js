@@ -504,6 +504,10 @@ module.exports = {
                                         link: '/md/knowledge/book/2022-06-17-深入理解高并发编程.md'
                                     },
                                     {
+                                        text: '《深入高平行開發：深度原理&專案實戰》',
+                                        link: '/md/knowledge/book/2023-02-03-深入高平行開發.md'
+                                    },
+                                    {
                                         text: '《深入理解分布式事务：原理与实战》',
                                         link: '/md/knowledge/book/2022-03-29-深入理解分布式事务.md'
                                     },
@@ -1725,6 +1729,7 @@ function getBarPDFPublish() {
             sidebarDepth: 0,
             children: [
                 "2022-06-17-深入理解高并发编程.md",
+                "2023-02-03-深入高平行開發.md",
                 "2022-03-29-深入理解分布式事务.md",
                 "2022-03-29-MySQL技术大全.md",
                 "2022-03-29-海量数据处理与大数据技术实战.md",
