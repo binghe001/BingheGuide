@@ -1348,6 +1348,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-16-《RPC手撸专栏》第111章-服务消费者整合服务限流.md",
                 "2023-02-16-《RPC手撸专栏》第111章-X-服务限流阶段作业.md"
             ]
+        },
+        {
+            title: "第二十九篇：基于SPI扩展限流策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-17-《RPC手撸专栏》第112章-基于SPI扩展Semaphore限流策略.md",
+            ]
         }
     ]
 }
