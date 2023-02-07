@@ -1355,7 +1355,8 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-17-《RPC手撸专栏》第112章-基于SPI扩展Semaphore限流策略.md",
-                "2023-02-18-《RPC手撸专栏》第113章-基于SPI扩展Guava限流策略.md"
+                "2023-02-18-《RPC手撸专栏》第113章-基于SPI扩展Guava限流策略.md",
+                "2023-02-18-《RPC手撸专栏》第113章-X-基于SPI扩展限流策略阶段作业.md"
             ]
         }
     ]

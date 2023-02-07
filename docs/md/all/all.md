@@ -368,6 +368,7 @@ title: 冰河指南
 #### 第二十九篇：基于SPI扩展限流策略
 * [《RPC手撸专栏》第112章：基于SPI扩展Semaphore限流策略](https://articles.zsxq.com/id_zchmw3ulitfs.html)
 * [《RPC手撸专栏》第113章：基于SPI扩展Guava限流策略](https://articles.zsxq.com/id_ecztx69ekhfz.html)
+* [《RPC手撸专栏》第113章-X：基于SPI扩展限流策略阶段作业](https://t.zsxq.com/0a2Fzp3Sw)
 
 
 #### 番外篇
