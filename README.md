@@ -373,6 +373,7 @@
 #### 第三十篇：超出限流规则
 * [《RPC手撸专栏》第114章：服务提供者超出限流上限触发的规则](https://articles.zsxq.com/id_2rqhz490onjc.html)
 * [《RPC手撸专栏》第115章：服务消费者超出限流上限触发的规则](https://articles.zsxq.com/id_rwoaeagi50wl.html)
+* [《RPC手撸专栏》第115章-X：超出限流规则阶段作业](https://t.zsxq.com/0aB1cpEW3)
 
 
 #### 番外篇
