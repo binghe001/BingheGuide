@@ -1362,6 +1362,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-18-《RPC手撸专栏》第113章-基于SPI扩展Guava限流策略.md",
                 "2023-02-18-《RPC手撸专栏》第113章-X-基于SPI扩展限流策略阶段作业.md"
             ]
+        },
+        {
+            title: "第三十篇：超出限流规则",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-19-《RPC手撸专栏》第114章-服务提供者超出限流上限触发的规则.md",
+            ]
         }
     ]
 }
