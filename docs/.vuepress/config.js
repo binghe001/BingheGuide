@@ -1369,6 +1369,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-19-《RPC手撸专栏》第114章-服务提供者超出限流上限触发的规则.md",
+                "2023-02-20-《RPC手撸专栏》第115章-服务消费者超出限流上限触发的规则.md",
             ]
         }
     ]

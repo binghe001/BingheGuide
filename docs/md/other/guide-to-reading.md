@@ -379,6 +379,7 @@ title: 冰河指南
 
 #### 第三十篇：超出限流规则
 * [《RPC手撸专栏》第114章：服务提供者超出限流上限触发的规则](https://articles.zsxq.com/id_2rqhz490onjc.html)
+* [《RPC手撸专栏》第115章：服务消费者超出限流上限触发的规则](https://articles.zsxq.com/id_rwoaeagi50wl.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
