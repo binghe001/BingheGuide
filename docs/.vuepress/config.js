@@ -1372,6 +1372,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-20-《RPC手撸专栏》第115章-服务消费者超出限流上限触发的规则.md",
                 "2023-02-20-《RPC手撸专栏》第115章-X-超出限流规则阶段作业.md",
             ]
+        },
+        {
+            title: "第三十一篇：服务熔断",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-21-《RPC手撸专栏》第116章-服务熔断基础模型设计.md",
+            ]
         }
     ]
 }

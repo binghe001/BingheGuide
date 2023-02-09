@@ -375,6 +375,9 @@
 * [《RPC手撸专栏》第115章：服务消费者超出限流上限触发的规则](https://articles.zsxq.com/id_rwoaeagi50wl.html)
 * [《RPC手撸专栏》第115章-X：超出限流规则阶段作业](https://t.zsxq.com/0aB1cpEW3)
 
+#### 第三十一篇：服务熔断
+* [《RPC手撸专栏》第116章：服务熔断基础模型设计](https://articles.zsxq.com/id_8rrhnee0nv8q.html)
+
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
