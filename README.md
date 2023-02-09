@@ -377,6 +377,7 @@
 
 #### 第三十一篇：服务熔断
 * [《RPC手撸专栏》第116章：服务熔断基础模型设计](https://articles.zsxq.com/id_8rrhnee0nv8q.html)
+* [《RPC手撸专栏》第117章：服务提供者整合服务熔断](https://articles.zsxq.com/id_0pbfjv4ghrgw.html)
 
 
 #### 番外篇

@@ -1379,6 +1379,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-02-21-《RPC手撸专栏》第116章-服务熔断基础模型设计.md",
+                "2023-02-22-《RPC手撸专栏》第117章-服务提供者整合服务熔断.md",
             ]
         }
     ]
