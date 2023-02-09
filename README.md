@@ -353,7 +353,7 @@
 * [《RPC手撸专栏》第105章：服务消费者整合数据缓冲](https://articles.zsxq.com/id_b39p80gjmowd.html)
 * [《RPC手撸专栏》第105章-X：数据缓冲阶段作业](https://t.zsxq.com/0alPcr61Q)
 
-#### 第二十七篇：服务容错
+#### 第二十七篇：服务容错(降级)
 * [《RPC手撸专栏》第106章：服务容错设计与研发](https://articles.zsxq.com/id_mtz8cn9qktrr.html)
 * [《RPC手撸专栏》第107章：服务容错效果测试](https://articles.zsxq.com/id_356s6sxma22g.html)
 * [《RPC手撸专栏》第108章：服务容错失效问题修复](https://articles.zsxq.com/id_c0mka70xo8ke.html)

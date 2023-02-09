@@ -1332,7 +1332,7 @@ function getBarMiddlewareRPC() {
             ]
         },
         {
-            title: "第二十七篇：服务容错",
+            title: "第二十七篇：服务容错(降级)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
