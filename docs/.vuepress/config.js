@@ -1383,6 +1383,14 @@ function getBarMiddlewareRPC() {
                 "2023-02-23-《RPC手撸专栏》第118章-服务消费者整合服务熔断.md",
                 "2023-02-23-《RPC手撸专栏》第118章-X-服务熔断阶段作业.md",
             ]
+        },
+        {
+            title: "第三十二篇：基于SPI扩展熔断策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-24-《RPC手撸专栏》第119章-基于SPI扩展错误率熔断策略.md",
+            ]
         }
     ]
 }
