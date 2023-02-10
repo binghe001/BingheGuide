@@ -384,6 +384,7 @@ title: 冰河指南
 #### 第三十一篇：服务熔断
 * [《RPC手撸专栏》第116章：服务熔断基础模型设计](https://articles.zsxq.com/id_8rrhnee0nv8q.html)
 * [《RPC手撸专栏》第117章：服务提供者整合服务熔断](https://articles.zsxq.com/id_0pbfjv4ghrgw.html)
+* [《RPC手撸专栏》第118章：服务消费者整合服务熔断](https://articles.zsxq.com/id_ohtoim0u1pkz.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
