@@ -383,6 +383,7 @@
 
 #### 第三十二篇：基于SPI扩展熔断策略
 * [《RPC手撸专栏》第119章：基于SPI扩展错误率熔断策略](https://articles.zsxq.com/id_ozjp7ion2ebj.html)
+* [《RPC手撸专栏》第119章-X：基于SPI扩展熔断策略阶段作业](https://t.zsxq.com/0bVwOW9GS)
 
 
 #### 番外篇
