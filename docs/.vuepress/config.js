@@ -1392,6 +1392,22 @@ function getBarMiddlewareRPC() {
                 "2023-02-24-《RPC手撸专栏》第119章-基于SPI扩展错误率熔断策略.md",
                 "2023-02-24-《RPC手撸专栏》第119章-X：基于SPI扩展熔断策略阶段作业.md"
             ]
+        },
+        {
+            title: "持续维护篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-25-《RPC手撸专栏》第fix-01章-修复服务消费者读取配置优先级的问题.md",
+            ]
+        },
+        {
+            title: "番外篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-05-《从零开始手写RPC框架》电子书发布.md",
+            ]
         }
     ]
 }
