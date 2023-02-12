@@ -386,8 +386,9 @@
 * [《RPC手撸专栏》第119章-X：基于SPI扩展熔断策略阶段作业](https://t.zsxq.com/0bVwOW9GS)
 
 
-#### 持续维护篇
+#### 维护篇：持续维护篇
 * [《RPC手撸专栏》第fix-01章：修复服务消费者读取配置优先级的问题](https://articles.zsxq.com/id_iudrc7plepqa.html)
+* [《RPC手撸专栏》第fix-02章：修复Zookeeper一致性Hash负载均衡泛型类型不匹配的问题](https://articles.zsxq.com/id_l6v50rh41eah.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)

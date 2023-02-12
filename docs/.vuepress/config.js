@@ -1394,11 +1394,12 @@ function getBarMiddlewareRPC() {
             ]
         },
         {
-            title: "持续维护篇",
+            title: "维护篇：持续维护篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-02-25-《RPC手撸专栏》第fix-01章-修复服务消费者读取配置优先级的问题.md",
+                "2023-02-26-《RPC手撸专栏》第fix-02章-修复Zookeeper一致性Hash负载均衡泛型类型不匹配的问题.md",
             ]
         },
         {
