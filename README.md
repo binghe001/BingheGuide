@@ -392,6 +392,7 @@
 * [《RPC手撸专栏》第fix-03章：修复自定义扫描器递归扫描文件标识不起作用的问题](https://articles.zsxq.com/id_jgao5h7atdlp.html)
 * [《RPC手撸专栏》第fix-04章：修复基于SpringBoot启动服务消费者Netty Group多次连接的问题](https://articles.zsxq.com/id_813tnxx7ir4i.html)
 * [《RPC手撸专栏》第fix-05章：修复基于计数器的限流策略不起作用的问题](https://articles.zsxq.com/id_kfwu35ttk997.html)
+* [《RPC手撸专栏》第fix-06章：修复基于SpringBoot启动服务消费者无法同时连接多个服务提供者的问题](https://articles.zsxq.com/id_p6kt5aspbb07.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
