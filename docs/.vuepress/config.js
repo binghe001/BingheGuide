@@ -1401,6 +1401,7 @@ function getBarMiddlewareRPC() {
                 "2023-02-25-《RPC手撸专栏》第fix-01章-修复服务消费者读取配置优先级的问题.md",
                 "2023-02-26-《RPC手撸专栏》第fix-02章-修复Zookeeper一致性Hash负载均衡泛型类型不匹配的问题.md",
                 "2023-02-27-《RPC手撸专栏》第fix-03章-修复自定义扫描器递归扫描文件标识不起作用的问题.md",
+                "2023-02-28-《RPC手撸专栏》第fix-04章-修复基于SpringBoot启动服务消费者Netty Group多次连接的问题.md"
             ]
         },
         {
