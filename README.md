@@ -394,6 +394,7 @@
 * [《RPC手撸专栏》第fix-05章：修复基于计数器的限流策略不起作用的问题](https://articles.zsxq.com/id_kfwu35ttk997.html)
 * [《RPC手撸专栏》第fix-06章：修复基于SpringBoot启动服务消费者无法同时连接多个服务提供者的问题](https://articles.zsxq.com/id_p6kt5aspbb07.html)
 * [《RPC手撸专栏》第fix-07章：更新基于Semaphore的限流策略](https://articles.zsxq.com/id_kdi8ot238q16.html)
+* [《RPC手撸专栏》第fix-08章：优化服务熔断半开启状态的执行逻辑](https://articles.zsxq.com/id_r7rsxfojwkua.html)
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
