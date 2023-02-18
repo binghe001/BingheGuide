@@ -1394,6 +1394,14 @@ function getBarMiddlewareRPC() {
             ]
         },
         {
+            title: "第三十三篇：异常监控",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-05-《RPC手撸专栏》第120章-异常监控基础模型设计.md",
+            ]
+        },
+        {
             title: "维护篇：持续维护篇",
             collapsable: false,
             sidebarDepth: 0,

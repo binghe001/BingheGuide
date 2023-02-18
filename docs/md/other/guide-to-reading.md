@@ -392,6 +392,9 @@ title: 冰河指南
 * [《RPC手撸专栏》第119章：基于SPI扩展错误率熔断策略](https://articles.zsxq.com/id_ozjp7ion2ebj.html)
 * [《RPC手撸专栏》第119章-X：基于SPI扩展熔断策略阶段作业](https://t.zsxq.com/0bVwOW9GS)
 
+#### 第三十三篇：异常监控
+* [《RPC手撸专栏》第120章：异常监控后置处理器基础模型设计](https://articles.zsxq.com/id_bwceq9e1sufr.html)
+
 #### 维护篇：持续维护篇
 * [《RPC手撸专栏》第fix-01章：修复服务消费者读取配置优先级的问题](https://articles.zsxq.com/id_iudrc7plepqa.html)
 * [《RPC手撸专栏》第fix-02章：修复Zookeeper一致性Hash负载均衡泛型类型不匹配的问题](https://articles.zsxq.com/id_l6v50rh41eah.html)
