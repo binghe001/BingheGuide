@@ -1399,6 +1399,7 @@ function getBarMiddlewareRPC() {
             sidebarDepth: 0,
             children: [
                 "2023-03-05-《RPC手撸专栏》第120章-异常监控基础模型设计.md",
+                "2023-03-06-《RPC手撸专栏》第121章-服务提供者整合异常监控.md",
             ]
         },
         {
