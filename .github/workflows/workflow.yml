@@ -20,7 +20,7 @@ jobs:
           destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
       - name: install and build
         run: |
-          export NODE_OPTIONS=--max_old_space_size=4096
+          export NODE_OPTIONS=--openssl-legacy-provider,--max_old_space_size=4096
           npm install
           npm run build
           cp README.md .site/
