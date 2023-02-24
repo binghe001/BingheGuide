@@ -389,6 +389,7 @@
 * [《RPC手撸专栏》第120章：异常监控后置处理器基础模型设计](https://articles.zsxq.com/id_bwceq9e1sufr.html)
 * [《RPC手撸专栏》第121章：服务提供者整合异常监控](https://articles.zsxq.com/id_ds7crh46v1uv.html)
 * [《RPC手撸专栏》第122章：服务消费者整合异常监控](https://articles.zsxq.com/id_opgjgzu8avrg.html)
+* [《RPC手撸专栏》第122章-X：异常监控阶段作业](https://t.zsxq.com/0b4npCLi6)
 
 
 #### 维护篇：持续维护篇
