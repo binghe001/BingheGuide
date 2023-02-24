@@ -4,8 +4,8 @@
   "private": true,
 
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
