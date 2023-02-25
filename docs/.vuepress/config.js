@@ -746,6 +746,7 @@ function getBarFrameSpring() {
                 "ioc/2022-12-12-《Spring核心技术》第2章-深度解析@ComponentScans注解与@ComponentScan注解.md",
                 "ioc/2022-12-21-《Spring核心技术》第3章-深度解析@Bean注解.md",
                 "ioc/2022-12-22-《Spring核心技术》第4章-深度解析从IOC容器中获取Bean的过程.md",
+                "ioc/2023-02-24-《Spring核心技术》第5章-深度解析@Import注解.md"
             ]
         },
         {
