@@ -856,7 +856,11 @@ public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, B
 
 **强烈推荐：《[原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)》，如果文中优惠券过期，可长按或扫码下面优惠券二维码加入星球。**
 
-![星球优惠券](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-18-008.png)
+<div align="center">
+    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-18-008.png?raw=true" width="70%">
+    <div style="font-size: 18px;">星球优惠券</div>
+    <br/>
+</div>
 
 **冰河技术** 知识星球《SpringCloud Alibaba实战》从零搭建并开发微服务项目已完结，《RPC手撸专栏》已经更新120+篇文章，已提交120+项目工程，120+项目源码Tag分支，并将源码的获取方式放到了知识星球中，同时在微信上创建了专门的知识星球群，冰河会在知识星球上和星球群里解答球友的提问。
 
@@ -864,23 +868,23 @@ public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, B
 
 冰河整理了星球提供的一些服务，如下所示。
 
-加入星球，你将获得： 
+加入星球，你将获得：
 
 1.学习从零开始手撸可用于实际场景的高性能、可扩展的RPC框架项目
 
-2.学习SpringCloud Alibaba实战项目—从零开发微服务项目 
+2.学习SpringCloud Alibaba实战项目—从零开发微服务项目
 
-3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景 
+3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景
 
-4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
+4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战
 
-5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
+5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助
 
-6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
+6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码
 
-7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答 
+7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答
 
-8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件 
+8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件
 
 9.定期组织技术直播分享，传道、授业、解惑，指导阶段瓶颈突破技巧
 
@@ -892,3 +896,40 @@ public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, B
 **特别提醒：** 苹果用户进圈或续费，请加微信 **hacker_binghe** 扫二维码，或者去公众号 **冰河技术** 回复 **星球** 扫二维码加入星球。
 
 **好了，今天就到这儿吧，我是冰河，我们下期见~~**
+
+## 加群交流
+
+本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “冰河” 微信(hacker_binghe)，备注：`学习加群`。
+
+
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <div style="font-size: 18px;">冰河微信</div>
+    <br/>
+</div>
+
+
+
+## 公众号
+
+分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
+
+<div align="center">
+    <img src="https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true" width="180px">
+    <div style="font-size: 18px;">公众号：冰河技术</div>
+    <br/>
+</div>
+
+
+## 星球
+
+加入星球 **[冰河技术](http://m6z.cn/6aeFbs)**，可以获得本站点所有学习内容的指导与帮助。如果你遇到不能独立解决的问题，也可以添加冰河的微信：**hacker_binghe**， 我们一起沟通交流。另外，在星球中不只能学到实用的硬核技术，还能学习**实战项目**！
+
+关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <div style="font-size: 18px;">知识星球：冰河技术</div>
+    <br/>
+</div>
