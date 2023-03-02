@@ -468,13 +468,53 @@ public boolean shouldSkip(@Nullable AnnotatedTypeMetadata metadata, @Nullable Co
 
 至此，@Conditional注解在Spring源码层面的执行流程分析完毕。
 
-## 六、总结
+## 六、扩展注解
+
+@Conditional的扩展注解如下所示：
+
+**@ConditionalOnBean**：仅仅在当前上下文中存在某个对象时，才会实例化一个Bean。
+
+**@ConditionalOnClass**：某个class位于类路径上，才会实例化一个Bean。
+
+**@ConditionalOnExpression**：当表达式为true的时候，才会实例化一个Bean。
+
+**@ConditionalOnMissingBean**：仅仅在当前上下文中不存在某个对象时，才会实例化一个Bean。
+
+**@ConditionalOnMissingClass**：某个class类路径上不存在的时候，才会实例化一个Bean。
+
+**@ConditionalOnNotWebApplication**：不是web应用，才会实例化一个Bean。
+
+**@ConditionalOnBean**：当容器中有指定Bean的条件下进行实例化。
+
+**@ConditionalOnMissingBean**：当容器里没有指定Bean的条件下进行实例化。
+
+**@ConditionalOnClass**：当classpath类路径下有指定类的条件下进行实例化。
+
+**@ConditionalOnMissingClass**：当类路径下没有指定类的条件下进行实例化。
+
+**@ConditionalOnWebApplication**：当项目是一个Web项目时进行实例化。
+
+**@ConditionalOnNotWebApplication**：当项目不是一个Web项目时进行实例化。
+
+**@ConditionalOnProperty**：当指定的属性有指定的值时进行实例化。
+
+**@ConditionalOnExpression**：基于SpEL表达式的条件判断。
+
+**@ConditionalOnJava**：当JVM版本为指定的版本范围时触发实例化。
+
+**@ConditionalOnResource**：当类路径下有指定的资源时触发实例化。
+
+**@ConditionalOnJndi**：在JNDI存在的条件下触发实例化。
+
+**@ConditionalOnSingleCandidate**：当指定的Bean在容器中只有一个，或者有多个但是指定了首选的Bean时触发实例化。
+
+## 七、总结
 
 `@Conditional注解介绍完了，我们一起总结下吧！`
 
 本章，首先介绍了@Conditional注解的源码和使用场景。随后，列举了四个关于@Conditional注解的案例，分别是：无条件案例、标注到方法上的案例、标注到类上的案例和同时标注到类和方法上的案例。接下来，介绍了@Conditional注解执行的源码时序图和源码流程。
 
-## 七、思考
+## 八、思考
 
 `既然学完了，就开始思考几个问题吧？`
 
@@ -487,7 +527,7 @@ public boolean shouldSkip(@Nullable AnnotatedTypeMetadata metadata, @Nullable Co
 * 你在平时工作中，会在哪些场景下使用@Conditional注解？
 * 你从@Conditional注解的设计中得到了哪些启发？
 
-## 八、VIP服务
+## 九、VIP服务
 
 **强烈推荐阅读：《[原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)》，如果文中优惠券过期，可长按或扫码下面优惠券二维码加入星球。**
 
