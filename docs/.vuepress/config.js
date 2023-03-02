@@ -750,7 +750,8 @@ function getBarFrameSpring() {
                 "ioc/2023-02-25-《Spring核心技术》第6章-深度解析@PropertySource注解.md",
                 "ioc/2023-02-27-《Spring核心技术》第7章-深度解析@DependsOn注解.md",
                 "ioc/2023-02-28-《Spring核心技术》第8章-深度解析@Conditional注解.md",
-                "ioc/2023-03-01-《Spring核心技术》第9章-深度解析@Lazy注解.md"
+                "ioc/2023-03-01-《Spring核心技术》第9章-深度解析@Lazy注解.md",
+                "ioc/2023-03-02-《Spring核心技术》第10章-深度解析@Component注解.md"
             ]
         },
         {
