@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-code-spring
-title: 第10章：深度解析@Component注解-附加@Repository、@Service和@Controller注解
+title: 第10章：深度解析@Component注解（含@Repository、@Service和@Controller）
 tagline: by 冰河
 tag: [spring,ioc,aop,transaction,springmvc]
-excerpt: 第10章：深度解析@Component注解-附加@Repository、@Service和@Controller注解
+excerpt: 第10章：深度解析@Component注解（含@Repository、@Service和@Controller）
 lock: need
 ---
 
-# 《Spring核心技术》第10章：深度解析@Component注解-附加@Repository、@Service和@Controller注解
+# 《Spring核心技术》第10章：深度解析@Component注解（含@Repository、@Service和@Controller）
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

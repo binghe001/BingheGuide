@@ -441,11 +441,22 @@
 ### 🔥🔥🔥 Spring核心技术
 
 * [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
-* [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://mp.weixin.qq.com/s/0HVmss9eqdI1-TpU1tFsRw)
-* [《Spring核心技术》第1章：深度解析@Configuration注解](https://mp.weixin.qq.com/s/OAq0vmYC49ErlV69LBa9mA)
-* [《Spring核心技术》第2章：深度解析@ComponentScan注解](https://mp.weixin.qq.com/s/yr1_BQKD2eRvv0OBayHz-g)
-* [《Spring核心技术》第3章：深度解析@Bean注解](https://mp.weixin.qq.com/s/geOOpL_1dVQShkKabylI7Q)
-* [《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程](https://mp.weixin.qq.com/s/T_UgoBe9gepQhp9e20pQhw)
+* [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://articles.zsxq.com/id_dxl5ojx1vt2j.html)
+* [《Spring核心技术》第1章：深度解析@Configuration注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_88k0ww2tsr6n.html)
+* [《Spring核心技术》第1章：深度解析@Configuration注解（源码解析部分）](https://articles.zsxq.com/id_88k0ww2tsr6n.html)
+* [《Spring核心技术》第2章：深度解析@ComponentScan注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_fvkiczjwem3u.html)
+* [《Spring核心技术》第2章：深度解析@ComponentScan注解（源码解析部分）](https://articles.zsxq.com/id_w84u4e7fraen.html)
+* [《Spring核心技术》第3章：深度解析@Bean注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_h6ssgch50ohq.html)
+* [《Spring核心技术》第3章：深度解析@Bean注解（源码解析部分）](https://articles.zsxq.com/id_vf8ki780f0on.html)
+* [《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程](https://articles.zsxq.com/id_ac2wkclvokp3.html)
+* [《Spring核心技术》第5章：深度解析@Import注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_m85awf52ap7s.html)
+* [《Spring核心技术》第5章：深度解析@Import注解（源码解析部分）](https://articles.zsxq.com/id_2wqrrl87q4ww.html)
+* [《Spring核心技术》第6章：深度解析@PropertySource注解](https://articles.zsxq.com/id_b7de867wms62.html)
+* [《Spring核心技术》第7章：深度解析@DependsOn注解](https://articles.zsxq.com/id_erb3xg2db8s4.html)
+* [《Spring核心技术》第8章：深度解析@Conditional注解](https://articles.zsxq.com/id_j1615j8bswpu.html)
+* [《Spring核心技术》第9章：深度解析@Lazy注解](https://articles.zsxq.com/id_umk0hfrr4qf2.html)
+* [《Spring核心技术》第10章：深度解析@Component注解（含扩展注解）](https://articles.zsxq.com/id_2svfoc2onw0p.html)
+* [《Spring核心技术》第11章：深度解析@Value注解（含@Autowired和@Inject）](https://articles.zsxq.com/id_1qtfp128b7wc.html)
 
 ### 🔥🔥🔥 精通高并发系列
 
