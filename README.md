@@ -457,6 +457,7 @@
 * [《Spring核心技术》第9章：深度解析@Lazy注解](https://articles.zsxq.com/id_umk0hfrr4qf2.html)
 * [《Spring核心技术》第10章：深度解析@Component注解（含扩展注解）](https://articles.zsxq.com/id_2svfoc2onw0p.html)
 * [《Spring核心技术》第11章：深度解析@Value注解（含@Autowired和@Inject）](https://articles.zsxq.com/id_1qtfp128b7wc.html)
+* [《Spring核心技术》第12章：深度解析@Autowired注解](https://articles.zsxq.com/id_xodqwm77k51b.html)
 
 ### 🔥🔥🔥 精通高并发系列
 
