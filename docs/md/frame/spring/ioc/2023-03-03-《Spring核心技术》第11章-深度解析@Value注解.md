@@ -907,6 +907,59 @@ value = resolveFieldValue(field, bean, beanName);
  field.set(bean, value);
 ```
 
+（8）返回AbstractAutowireCapableBeanFactory类的doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)方法。再来看下源码：
+
+```java
+protected Object doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)
+    throws BeanCreationException {
+	/************省略其他代码*************/
+    Object exposedObject = bean;
+    try {
+        populateBean(beanName, mbd, instanceWrapper);
+        exposedObject = initializeBean(beanName, exposedObject, mbd);
+    }
+    catch (Throwable ex) {
+        if (ex instanceof BeanCreationException bce && beanName.equals(bce.getBeanName())) {
+            throw bce;
+        }
+        else {
+            throw new BeanCreationException(mbd.getResourceDescription(), beanName, ex.getMessage(), ex);
+        }
+    }
+	/************省略其他代码*************/
+    return exposedObject;
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的doCreateBean()方法中，为Bean的属性赋值后会调用initializeBean()方法对Bean进行初始化。
+
+（9）解析AbstractAutowireCapableBeanFactory类的initializeBean(String beanName, Object bean, RootBeanDefinition mbd)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#initializeBean(String beanName, Object bean, RootBeanDefinition mbd)。
+
+```java
+protected Object initializeBean(String beanName, Object bean, @Nullable RootBeanDefinition mbd) {
+    invokeAwareMethods(beanName, bean);
+    Object wrappedBean = bean;
+    if (mbd == null || !mbd.isSynthetic()) {
+        wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
+    }
+    try {
+        invokeInitMethods(beanName, wrappedBean, mbd);
+    }
+    catch (Throwable ex) {
+        throw new BeanCreationException(
+            (mbd != null ? mbd.getResourceDescription() : null), beanName, ex.getMessage(), ex);
+    }
+    if (mbd == null || !mbd.isSynthetic()) {
+        wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);
+    }
+    return wrappedBean;
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的initializeBean()方法中，会调用applyBeanPostProcessorsBeforeInitialization()方法在初始化之前执行一些逻辑，然后调用invokeInitMethods()执行真正的初始化操作，执行完Bean的初始化，会调用applyBeanPostProcessorsAfterInitialization()方法执行初始化之后的一些逻辑。
+
 至此，为@Value修饰的属性赋值的源码流程分析完毕。
 
 ### 5.3 使用@Value获取属性的值
