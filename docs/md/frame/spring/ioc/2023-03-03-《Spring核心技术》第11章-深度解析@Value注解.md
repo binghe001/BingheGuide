@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-code-spring
-title: 第11章：深度解析@Value注解（含@Autowired与@Inject）
+title: 第11章：深度解析@Value注解
 tagline: by 冰河
 tag: [spring,ioc,aop,transaction,springmvc]
-excerpt: 第11章：深度解析@Value注解（含@Autowired与@Inject）
+excerpt: 第11章：深度解析@Value注解
 lock: need
 ---
 
-# 《Spring核心技术》第11章：深度解析@Value注解（含@Autowired与@Inject）
+# 《Spring核心技术》第11章：深度解析@Value注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

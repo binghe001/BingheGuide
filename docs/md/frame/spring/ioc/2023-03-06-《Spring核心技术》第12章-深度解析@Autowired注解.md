@@ -167,13 +167,408 @@ autowiredService=>>>AutowiredService{autowiredDao=io.binghe.spring.annotation.ch
 
 `结合时序图理解源码会事半功倍，你觉得呢？`
 
-注意：本章也可以从解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值和使用@Autowired获取属性值三个方面分析源码时序图。基本流程与第11章@Value注解的源码时序图相同，这里不再赘述。
+注意：本章也可以从解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值和使用@Autowired获取属性值三个方面分析源码时序图。获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值的源码时序图基本与@Value注解相同，使用@Autowired注解获取属性值的源码时序图略有差异。使用@Autowired注解获取属性值的源码时序图如图12-1~12-2所示。
+
+![图12-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-06-001.png)
+
+
+
+![图12-2](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-06-002.png)
 
 ## 五、源码解析
 
 `源码时序图整清楚了，那就整源码解析呗！`
 
-注意：本章也可以从解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值和使用@Autowired获取属性值三个方面分析源码的执行流程。基本流程与第11章@Value注解的源码流程相同，这里不再赘述。
+注意：本章也可以从解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值和使用@Autowired获取属性值三个方面分析源码的执行流程。其中，解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值的源码流程基本与@Value相同，只是使用@Autowired获取属性值的源码流程略有差异。使用@Autowired获取属性值的源码流程具体分析步骤如下所示。
+
+（1）直接来到AutowiredAnnotationBeanPostProcessor类的inject(Object bean, @Nullable String beanName, @Nullable PropertyValues pvs)方法。
+
+源码详见：org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement#inject(Object bean, @Nullable String beanName, @Nullable PropertyValues pvs)。
+
+```java
+@Override
+protected void inject(Object bean, @Nullable String beanName, @Nullable PropertyValues pvs) throws Throwable {
+    Field field = (Field) this.member;
+    Object value;
+    if (this.cached) {
+        try {
+            value = resolvedCachedArgument(beanName, this.cachedFieldValue);
+        }
+        catch (NoSuchBeanDefinitionException ex) {
+            // Unexpected removal of target bean for cached argument -> re-resolve
+            value = resolveFieldValue(field, bean, beanName);
+        }
+    }
+    else {
+        value = resolveFieldValue(field, bean, beanName);
+    }
+    if (value != null) {
+        ReflectionUtils.makeAccessible(field);
+        field.set(bean, value);
+    }
+}
+```
+
+可以看到，在AutowiredAnnotationBeanPostProcessor类的inject()方法中，会调用resolveFieldValue()方法处理字段的值，
+
+（2）解析AutowiredFieldElement类的resolveFieldValue(Field field, Object bean, @Nullable String beanName)方法
+
+源码详见：org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement#resolveFieldValue(Field field, Object bean, @Nullable String beanName)。
+
+```java
+@Nullable
+private Object resolveFieldValue(Field field, Object bean, @Nullable String beanName) {
+    DependencyDescriptor desc = new DependencyDescriptor(field, this.required);
+    desc.setContainingClass(bean.getClass());
+    Set<String> autowiredBeanNames = new LinkedHashSet<>(1);
+    Assert.state(beanFactory != null, "No BeanFactory available");
+    TypeConverter typeConverter = beanFactory.getTypeConverter();
+    Object value;
+    try {
+        value = beanFactory.resolveDependency(desc, beanName, autowiredBeanNames, typeConverter);
+    }
+    catch (BeansException ex) {
+        throw new UnsatisfiedDependencyException(null, beanName, new InjectionPoint(field), ex);
+    }
+    /************省略其他代码*************/
+    return value;
+}
+```
+
+可以看到，在resolveFieldValue()方法中，会调用beanFactory对象的resolveDependency()方法处理Bean的依赖。
+
+（3）解析DefaultListableBeanFactory类的resolveDependency(DependencyDescriptor descriptor, @Nullable String requestingBeanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#resolveDependency(DependencyDescriptor descriptor, @Nullable String requestingBeanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter)。
+
+```java
+@Override
+@Nullable
+public Object resolveDependency(DependencyDescriptor descriptor, @Nullable String requestingBeanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter) throws BeansException {
+    /**********省略其他代码***********/
+    else {
+        Object result = getAutowireCandidateResolver().getLazyResolutionProxyIfNecessary(
+            descriptor, requestingBeanName);
+        if (result == null) {
+            result = doResolveDependency(descriptor, requestingBeanName, autowiredBeanNames, typeConverter);
+        }
+        return result;
+    }
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的resolveDependency()方法中，调用了doResolveDependency()方法来处理Bean的依赖。
+
+（4）解析DefaultListableBeanFactory类的doResolveDependency(DependencyDescriptor descriptor, @Nullable String beanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#doResolveDependency(DependencyDescriptor descriptor, @Nullable String beanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter)。重点关注如下代码.
+
+```java
+@Nullable
+public Object doResolveDependency(DependencyDescriptor descriptor, @Nullable String beanName,  @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter) throws BeansException {
+
+    InjectionPoint previousInjectionPoint = ConstructorResolver.setCurrentInjectionPoint(descriptor);
+    try {
+        Object shortcut = descriptor.resolveShortcut(this);
+        if (shortcut != null) {
+            return shortcut;
+        }
+
+        Class<?> type = descriptor.getDependencyType();
+        Object value = getAutowireCandidateResolver().getSuggestedValue(descriptor);
+        if (value != null) {
+            if (value instanceof String strValue) {
+                String resolvedValue = resolveEmbeddedValue(strValue);
+                BeanDefinition bd = (beanName != null && containsBean(beanName) ? getMergedBeanDefinition(beanName) : null);
+                value = evaluateBeanDefinitionString(resolvedValue, bd);
+            }
+            TypeConverter converter = (typeConverter != null ? typeConverter : getTypeConverter());
+            try {
+                return converter.convertIfNecessary(value, type, descriptor.getTypeDescriptor());
+            }
+            catch (UnsupportedOperationException ex) {
+                // A custom TypeConverter which does not support TypeDescriptor resolution...
+                return (descriptor.getField() != null ?
+                        converter.convertIfNecessary(value, type, descriptor.getField()) :
+                        converter.convertIfNecessary(value, type, descriptor.getMethodParameter()));
+            }
+        }
+
+        Object multipleBeans = resolveMultipleBeans(descriptor, beanName, autowiredBeanNames, typeConverter);
+        if (multipleBeans != null) {
+            return multipleBeans;
+        }
+
+        Map<String, Object> matchingBeans = findAutowireCandidates(beanName, type, descriptor);
+        if (matchingBeans.isEmpty()) {
+            if (isRequired(descriptor)) {
+                raiseNoMatchingBeanFound(type, descriptor.getResolvableType(), descriptor);
+            }
+            return null;
+        }
+		/************省略其他代码**************/
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的doResolveDependency()方法中，调用了findAutowireCandidates()方法来查找符合条件的被@Autowired注解注入的Bean。
+
+（5）解析DefaultListableBeanFactory类的findAutowireCandidates(@Nullable String beanName, Class<?> requiredType, DependencyDescriptor descriptor)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#findAutowireCandidates(@Nullable String beanName, Class<?> requiredType, DependencyDescriptor descriptor)。重点关注如下代码。
+
+```java
+protected Map<String, Object> findAutowireCandidates(@Nullable String beanName, Class<?> requiredType, DependencyDescriptor descriptor) {
+    /***********省略其他代码***********/
+    for (String candidate : candidateNames) {
+        if (!isSelfReference(beanName, candidate) && isAutowireCandidate(candidate, descriptor)) {
+            addCandidateEntry(result, candidate, descriptor, requiredType);
+        }
+    }
+    if (result.isEmpty()) {
+        boolean multiple = indicatesMultipleBeans(requiredType);
+        DependencyDescriptor fallbackDescriptor = descriptor.forFallbackMatch();
+        for (String candidate : candidateNames) {
+            if (!isSelfReference(beanName, candidate) && isAutowireCandidate(candidate, fallbackDescriptor) && (!multiple || getAutowireCandidateResolver().hasQualifier(descriptor))) {
+                addCandidateEntry(result, candidate, descriptor, requiredType);
+            }
+        }
+        if (result.isEmpty() && !multiple) {
+            for (String candidate : candidateNames) {
+                if (isSelfReference(beanName, candidate) &&
+                    (!(descriptor instanceof MultiElementDescriptor) || !beanName.equals(candidate)) &&
+                    isAutowireCandidate(candidate, fallbackDescriptor)) {
+                    addCandidateEntry(result, candidate, descriptor, requiredType);
+                }
+            }
+        }
+    }
+    return result;
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的findAutowireCandidates()的方法中，会调用isAutowireCandidate()方法判断是否要注入的Bean。
+
+（6）解析DefaultListableBeanFactory类的isAutowireCandidate(String beanName, DependencyDescriptor descriptor)方法。
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#isAutowireCandidate(String beanName, DependencyDescriptor descriptor)。
+
+```java
+@Override
+public boolean isAutowireCandidate(String beanName, DependencyDescriptor descriptor) throws NoSuchBeanDefinitionException {
+    return isAutowireCandidate(beanName, descriptor, getAutowireCandidateResolver());
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的isAutowireCandidate()方法中调用了一个重载的isAutowireCandidate()方法。
+
+（7）解析DefaultListableBeanFactory类的isAutowireCandidate(String beanName, DependencyDescriptor descriptor, AutowireCandidateResolver resolver)。
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#isAutowireCandidate(String beanName, DependencyDescriptor descriptor, AutowireCandidateResolver resolver)。
+
+```java
+protected boolean isAutowireCandidate( String beanName, DependencyDescriptor descriptor, AutowireCandidateResolver resolver) throws NoSuchBeanDefinitionException {
+    String bdName = BeanFactoryUtils.transformedBeanName(beanName);
+    if (containsBeanDefinition(bdName)) {
+        return isAutowireCandidate(beanName, getMergedLocalBeanDefinition(bdName), descriptor, resolver);
+    }
+    else if (containsSingleton(beanName)) {
+        return isAutowireCandidate(beanName, new RootBeanDefinition(getType(beanName)), descriptor, resolver);
+    }
+	/**********省略其他代码***********/
+}
+```
+
+可以看到，在重载的isAutowireCandidate()方法中，还会调用另一个重载的isAutowireCandidate()方法。
+
+（9）解析DefaultListableBeanFactory类的isAutowireCandidate(String beanName, RootBeanDefinition mbd,  DependencyDescriptor descriptor, AutowireCandidateResolver resolver)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#isAutowireCandidate(String beanName, RootBeanDefinition mbd,  DependencyDescriptor descriptor, AutowireCandidateResolver resolver)。
+
+```java
+protected boolean isAutowireCandidate(String beanName, RootBeanDefinition mbd, DependencyDescriptor descriptor, AutowireCandidateResolver resolver) {
+    /***********省略其他代码************/
+    return resolver.isAutowireCandidate(holder, descriptor);
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的isAutowireCandidate()方法中，会调用resolver对象的isAutowireCandidate()方法。
+
+（10）解析QualifierAnnotationAutowireCandidateResolver类的isAutowireCandidate(BeanDefinitionHolder bdHolder, DependencyDescriptor descriptor)方法
+
+源码详见：org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver#isAutowireCandidate(BeanDefinitionHolder bdHolder, DependencyDescriptor descriptor)。
+
+```java
+@Override
+public boolean isAutowireCandidate(BeanDefinitionHolder bdHolder, DependencyDescriptor descriptor) {
+    boolean match = super.isAutowireCandidate(bdHolder, descriptor);
+    if (match) {
+        match = checkQualifiers(bdHolder, descriptor.getAnnotations());
+        if (match) {
+            MethodParameter methodParam = descriptor.getMethodParameter();
+            if (methodParam != null) {
+                Method method = methodParam.getMethod();
+                if (method == null || void.class == method.getReturnType()) {
+                    match = checkQualifiers(bdHolder, methodParam.getMethodAnnotations());
+                }
+            }
+        }
+    }
+    return match;
+}
+```
+
+可以看到，在QualifierAnnotationAutowireCandidateResolver类的isAutowireCandidate()方法中，会调用checkQualifiers()方法来检验是否标注了@Qualifier注解，并注入@Qualifier注解指定的Bean。
+
+（11）QualifierAnnotationAutowireCandidateResolver类的checkQualifiers(BeanDefinitionHolder bdHolder, Annotation[] annotationsToSearch)方法
+
+源码详见：org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver#checkQualifiers(BeanDefinitionHolder bdHolder, Annotation[] annotationsToSearch)。
+
+```java
+protected boolean checkQualifiers(BeanDefinitionHolder bdHolder, Annotation[] annotationsToSearch) {
+    if (ObjectUtils.isEmpty(annotationsToSearch)) {
+        return true;
+    }
+    SimpleTypeConverter typeConverter = new SimpleTypeConverter();
+    for (Annotation annotation : annotationsToSearch) {
+        Class<? extends Annotation> type = annotation.annotationType();
+        boolean checkMeta = true;
+        boolean fallbackToMeta = false;
+        if (isQualifier(type)) {
+            if (!checkQualifier(bdHolder, annotation, typeConverter)) {
+                fallbackToMeta = true;
+            }
+            else {
+                checkMeta = false;
+            }
+        }
+        if (checkMeta) {
+            boolean foundMeta = false;
+            for (Annotation metaAnn : type.getAnnotations()) {
+                Class<? extends Annotation> metaType = metaAnn.annotationType();
+                if (isQualifier(metaType)) {
+                    foundMeta = true;
+                    if ((fallbackToMeta && ObjectUtils.isEmpty(AnnotationUtils.getValue(metaAnn))) ||
+                        !checkQualifier(bdHolder, metaAnn, typeConverter)) {
+                        return false;
+                    }
+                }
+            }
+            if (fallbackToMeta && !foundMeta) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+```
+
+QualifierAnnotationAutowireCandidateResolver类的checkQualifiers()方法主要处理@Qualifier注解，向类的字段中注入@Qualifier注解指定的Bean。
+
+（12）返回DefaultListableBeanFactory类的doResolveDependency(DependencyDescriptor descriptor, @Nullable String beanName, @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter)方法
+
+此时重点关注如下代码片段。
+
+```java
+@Nullable
+public Object doResolveDependency(DependencyDescriptor descriptor, @Nullable String beanName,  @Nullable Set<String> autowiredBeanNames, @Nullable TypeConverter typeConverter) throws BeansException {
+    InjectionPoint previousInjectionPoint = ConstructorResolver.setCurrentInjectionPoint(descriptor);
+    try {
+        /*************省略*************/
+        String autowiredBeanName;
+        Object instanceCandidate;
+
+        if (matchingBeans.size() > 1) {
+            autowiredBeanName = determineAutowireCandidate(matchingBeans, descriptor);
+            if (autowiredBeanName == null) {
+                if (isRequired(descriptor) || !indicatesMultipleBeans(type)) {
+                    return descriptor.resolveNotUnique(descriptor.getResolvableType(), matchingBeans);
+                }
+                else {
+                    return null;
+                }
+            }
+            instanceCandidate = matchingBeans.get(autowiredBeanName);
+        }
+        else {
+            // We have exactly one match.
+            Map.Entry<String, Object> entry = matchingBeans.entrySet().iterator().next();
+            autowiredBeanName = entry.getKey();
+            instanceCandidate = entry.getValue();
+        }
+
+        if (autowiredBeanNames != null) {
+            autowiredBeanNames.add(autowiredBeanName);
+        }
+        if (instanceCandidate instanceof Class) {
+            instanceCandidate = descriptor.resolveCandidate(autowiredBeanName, type, this);
+        }
+        Object result = instanceCandidate;
+        if (result instanceof NullBean) {
+            if (isRequired(descriptor)) {
+                raiseNoMatchingBeanFound(type, descriptor.getResolvableType(), descriptor);
+            }
+            result = null;
+        }
+        if (!ClassUtils.isAssignableValue(type, result)) {
+            throw new BeanNotOfRequiredTypeException(autowiredBeanName, type, instanceCandidate.getClass());
+        }
+        return result;
+    }
+    finally {
+        ConstructorResolver.setCurrentInjectionPoint(previousInjectionPoint);
+    }
+}
+```
+
+可以看到，DefaultListableBeanFactory类的doResolveDependency()方法中会根据findAutowireCandidates()方法的返回结果，解析出要向类的字段中注入的Bean对象并返回。
+
+（13）返回AutowiredFieldElement类的resolveFieldValue(Field field, Object bean, @Nullable String beanName)方法
+
+源码详见：org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement#resolveFieldValue(Field field, Object bean, @Nullable String beanName)。此时重点关注如下代码。
+
+```java
+@Nullable
+private Object resolveFieldValue(Field field, Object bean, @Nullable String beanName) {
+   /**********省略其他代码************/
+    synchronized (this) {
+        if (!this.cached) {
+            Object cachedFieldValue = null;
+            if (value != null || this.required) {
+                cachedFieldValue = desc;
+                registerDependentBeans(beanName, autowiredBeanNames);
+                if (autowiredBeanNames.size() == 1) {
+                    String autowiredBeanName = autowiredBeanNames.iterator().next();
+                    if (beanFactory.containsBean(autowiredBeanName) &&  beanFactory.isTypeMatch(autowiredBeanName, field.getType())) {
+                        cachedFieldValue = new ShortcutDependencyDescriptor( desc, autowiredBeanName, field.getType());
+                    }
+                }
+            }
+            this.cachedFieldValue = cachedFieldValue;
+            this.cached = true;
+        }
+    }
+    return value;
+}
+```
+
+可以看到，在AutowiredFieldElement类的resolveFieldValue()方法中，会将通过beanFactory对象的resolveDependency()方法解析出的Bean注入到IOC容器中，并返回解析的Bean。
+
+（14）返回AutowiredAnnotationBeanPostProcessor类的inject(Object bean, @Nullable String beanName, @Nullable PropertyValues pvs)方法。重点关注如下代码。
+
+```java
+@Override
+protected void inject(Object bean, @Nullable String beanName, @Nullable PropertyValues pvs) throws Throwable {
+    /*********省略其他代码***********/
+    if (value != null) {
+        ReflectionUtils.makeAccessible(field);
+        field.set(bean, value);
+    }
+}
+```
+
+可以看到，在AutowiredAnnotationBeanPostProcessor类的inject()方法中，将获取到的依赖Bean会设置到对应的字段上。
+
+至此，@Autowired注解的源码流程执行完毕。
 
 ## 六、总结
 
