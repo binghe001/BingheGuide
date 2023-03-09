@@ -72,8 +72,19 @@
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true" width="180px">
+    <img src="https://binghe.gitcode.host/images/personal/ice_wehcat.jpg?raw=true" width="180px">
     <div style="font-size: 9px;">公众号：冰河技术</div>
+    <br/>
+</div>
+
+
+## 视频号
+
+定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <div style="font-size: 9px;">视频号：冰河技术</div>
     <br/>
 </div>
 
