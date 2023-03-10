@@ -40,7 +40,7 @@ footer: GPL Licensed | Copyright © 2022~2023 冰河，All rights reserved. 沉�
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">公众号：冰河技术</div>
+    <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
 
@@ -51,7 +51,7 @@ footer: GPL Licensed | Copyright © 2022~2023 冰河，All rights reserved. 沉�
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
-    <div style="font-size: 9px;">视频号：冰河技术</div>
+    <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
 

@@ -73,7 +73,7 @@
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">公众号：冰河技术</div>
+    <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
 
@@ -84,7 +84,7 @@
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
-    <div style="font-size: 9px;">视频号：冰河技术</div>
+    <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
 
@@ -471,6 +471,7 @@
 * [《Spring核心技术》第12章：深度解析@Autowired注解](https://articles.zsxq.com/id_xodqwm77k51b.html)
 * [《Spring核心技术》第13章：深度解析@Qualifier注解](https://articles.zsxq.com/id_tro8zjto40zn.html)
 * [《Spring核心技术》第14章：深度解析@Resource注解](https://articles.zsxq.com/id_v9wd5237pgu6.html)
+* [《Spring核心技术》第15章：深度解析@Inject注解](https://articles.zsxq.com/id_2lbs516korwe.html)
 
 ### 🔥🔥🔥 精通高并发系列
 
