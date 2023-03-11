@@ -507,7 +507,7 @@ ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">冰河微信</div>
+    <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
 
@@ -545,6 +545,6 @@ ZipKin就会将请求的链路信息保存到ElasticSearch中进行持久化。
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
-    <div style="font-size: 9px;">知识星球：冰河技术</div>
+    <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

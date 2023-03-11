@@ -60,7 +60,7 @@
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">冰河微信</div>
+    <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
 
@@ -98,7 +98,7 @@
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
-    <div style="font-size: 9px;">知识星球：冰河技术</div>
+    <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>
 
