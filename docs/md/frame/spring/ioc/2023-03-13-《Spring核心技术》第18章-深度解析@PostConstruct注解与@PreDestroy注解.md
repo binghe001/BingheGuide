@@ -512,6 +512,10 @@ public void invoke(Object target) throws Throwable {
 
 本章，主要对@PostConstruct注解和@PreDestroy注解进行简单的介绍。首先，介绍了注解的源码和使用场景。随后，给出了实战案例。接下来，分别介绍了@PostConstruct注解和@PreDestroy注解的源码时序图和源码流程。
 
+最后，给大家总结下Bean的初始的完善过程，如图18-5所示。
+
+![图18-5](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-13-005.png)
+
 ## 七、思考
 
 `既然学完了，就开始思考几个问题吧？`
