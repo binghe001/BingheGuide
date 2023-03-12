@@ -22,11 +22,33 @@ lock: need
 
 ------
 
-* **本章难度**：★★★☆☆
+* **本章难度**：★★★★☆
 
 * **本章重点**：进一步了解@Bean注解的使用方法和如何避免踩坑，并在源码级别彻底理解和吃透@Bean注解的执行流程。
 
 ------
+
+本章目录如下所示：
+
+* 学习指引
+* 注解说明
+  * 注解源码
+  * 使用场景
+* 使用案例
+  * 案例描述
+  * 案例实现
+  * 案例测试
+* 源码时序图
+  * 注册Bean的流程
+  * 调用初始化方法
+  * 获取销毁方法
+* 源码解析
+  * 注册Bean的流程
+  * 调用初始化方法
+  * 获取销毁方法
+* 总结
+* 思考
+* VIP服务
 
 ## 一、学习指引
 
@@ -85,7 +107,7 @@ public @interface Bean {
 * initMethod：指定初始化的方法。
 * destroyMethod：指定销毁的方法。
 
-### 2.2 注解使用场景
+### 2.2 使用场景
 
 在使用Spring的注解开发应用程序时，如果是我们自己开发的类，可以在类上标注@Component注解（也可以是@Repository、@Service、@Controller等注解），将类注入到IOC容器中。但是，有时很多类不是我们自己写的，而是依赖的第三方的类库，此时就无法在类上标注@Component等注解了，此时就需要使用@Bean注解将其注入到IOC容器中。
 
@@ -191,7 +213,11 @@ public class BeanTest {
 
 `结合时序图理解源码会事半功倍，你觉得呢？`
 
-本节，就以源码时序图的方式，直观的感受下@Bean注解在Spring源码层面的执行流程。@Bean注解在Spring源码层面的执行流程如图3-1和图3-2所示。
+本节，就以源码时序图的方式，直观的感受下@Bean注解在Spring源码层面的执行流程。本节，主要从注册Bean的流程、调用初始化方法和调用销毁方法三个方面解析@Bean的源码时序图。
+
+### 4.1 注册Bean的流程
+
+@Bean注解在Spring源码层面注册Bean的执行流程如图3-1~图3-2所示。
 
 ![图3-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-21-001.png)
 
@@ -199,11 +225,35 @@ public class BeanTest {
 
 由图3-1和图3-2可以看出，@Bean注解在Spring源码层面的执行流程会涉及到BeanTest类、AnnotationConfigApplicationContext类、AbstractApplicationContext类、PostProcessorRegistrationDelegate类、ConfigurationClassPostProcessor类、ConfigurationClassParser类、ConfigurationClassBeanDefinitionReader类和DefaultListableBeanFactory类。具体的源码执行细节参见源码解析部分。
 
+### 4.2 调用初始化方法
+
+@Bean注解在Spring源码层面调用初始化方法的执行流程如图3-3~3-4所示。
+
+![图3-3](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-21-003.png)
+
+
+
+![图3-4](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-21-004.png)
+
+由图3-3~3-4可以看出，@Bean注解在Spring源码层面调用初始化方法会涉及到BeanTest类、AnnotationConfigApplicationContext类、AbstractApplicationContext类、DefaultListableBeanFactory类、AbstractBeanFactory类、AbstractAutowireCapableBeanFactory类和User类，具体的源码执行细节参见源码解析部分。
+
+### 4.3 调用销毁方法
+
+@Bean注解在Spring源码层面调用销毁方法的执行流程如图3-5所示。
+
+![图3-5](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-21-005.png)
+
+由图3-5可以看出，@Bean注解在Spring源码层面调用销毁方法会涉及到BeanTest类、AbstractApplicationContext类、DefaultListableBeanFactory类、DefaultSingletonBeanRegistry类、DisposableBeanAdapter类和User类，具体的源码执行细节参见源码解析部分。
+
 ## 五、源码解析
 
 `源码时序图整清楚了，那就整源码解析呗！`
 
-@Bean注解在Spring源码层面的执行流程，结合源码执行的时序图，会理解的更加深刻。
+@Bean注解在Spring源码层面的执行流程，结合源码执行的时序图，会理解的更加深刻。本节，同样会从注册Bean的流程、调用初始化方法和调用销毁方法三个方面解析@Bean的源码执行流程。
+
+### 5.1 注册Bean的流程
+
+本节，就简单介绍下@Bean注解在Spring源码层面注册Bean的源码执行流程，结合源码执行的时序图，会理解的更加深刻，可以结合图3-1~3-2进行理解，具体解析步骤如下所示。
 
 （1）运行案例程序启动类
 
@@ -583,7 +633,7 @@ public void loadBeanDefinitions(Set<ConfigurationClass> configurationModel) {
 }
 ```
 
-可以看到，在loadBeanDefinitions()方法中，会循环遍历，传入的configurationModel集合，并调用loadBeanDefinitionsForConfigurationClass()方法处理遍历的每个元素。
+可以看到，在loadBeanDefinitions()方法中，会循环遍历传入的configurationModel集合，并调用loadBeanDefinitionsForConfigurationClass()方法处理遍历的每个元素。
 
 （17）解析ConfigurationClassBeanDefinitionReader类的loadBeanDefinitionsForConfigurationClass(ConfigurationClass configClass, TrackedConditionEvaluator trackedConditionEvaluator)方法
 
@@ -748,6 +798,452 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 
 好了，至此，@Bean注解在Spring源码中的执行流程分析完毕。
 
+### 5.2 调用初始化方法
+
+本节，就简单介绍下@Bean注解在Spring源码层面调用初始化方法的源码执行流程，结合源码执行的时序图，会理解的更加深刻，可以结合图3-3~3-4进行理解，具体解析步骤如下所示。
+
+（1）解析BeanTest类的main()方法
+
+在BeanTest类的main()方法中，会调用AnnotationConfigApplicationContext类的构造方法创建IOC容器。
+
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)方法
+
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+
+```java
+public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
+    this();
+    register(componentClasses);
+    refresh();
+}
+```
+
+可以看到，在AnnotationConfigApplicationContext类的构造方法中，会调用refresh()方法刷新IOC容器。
+
+（3）解析AbstractApplicationContext类的refresh()方法
+
+源码详见：org.springframework.context.support.AbstractApplicationContext#refresh()。
+
+```java
+@Override
+public void refresh() throws BeansException, IllegalStateException {
+    synchronized (this.startupShutdownMonitor) {
+         /*************省略其他代码**************/
+        try {
+            /*************省略其他代码**************/
+            // Instantiate all remaining (non-lazy-init) singletons.
+            finishBeanFactoryInitialization(beanFactory);
+ 			/*************省略其他代码**************/
+        }
+        catch (BeansException ex) {
+            /*************省略其他代码**************/
+        }
+        finally {
+            /*************省略其他代码**************/
+        }
+    }
+}
+```
+
+可以看到，在AbstractApplicationContext类的refresh()方法中，会调用finishBeanFactoryInitialization()方法实例化未延迟创建的单例Bean。
+
+（4）解析AbstractApplicationContext类的finishBeanFactoryInitialization(ConfigurableListableBeanFactory beanFactory)方法
+
+源码详见：org.springframework.context.support.AbstractApplicationContext#finishBeanFactoryInitialization(ConfigurableListableBeanFactory beanFactory)。
+
+```java
+protected void finishBeanFactoryInitialization(ConfigurableListableBeanFactory beanFactory) {
+    /*************省略其他代码**************/
+    // Instantiate all remaining (non-lazy-init) singletons.
+    beanFactory.preInstantiateSingletons();
+}
+```
+
+可以看到，在AbstractApplicationContext类的finishBeanFactoryInitialization()方法中，会调用beanFactory的preInstantiateSingletons()方法来创建非懒加载的Bean。
+
+（5）解析DefaultListableBeanFactory类的preInstantiateSingletons()方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#preInstantiateSingletons()
+
+```java
+@Override
+public void preInstantiateSingletons() throws BeansException {
+   /*************省略其他代码**************/
+    List<String> beanNames = new ArrayList<>(this.beanDefinitionNames);
+    // Trigger initialization of all non-lazy singleton beans...
+    for (String beanName : beanNames) {
+        RootBeanDefinition bd = getMergedLocalBeanDefinition(beanName);
+        if (!bd.isAbstract() && bd.isSingleton() && !bd.isLazyInit()) {
+            /*************省略其他代码**************/
+            }
+            else {
+                getBean(beanName);
+            }
+        }
+    }
+	/*************省略其他代码**************/
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的preInstantiateSingletons()方法中，会循环遍历所有非懒加载的单例Bean的名称，调用getBean()方法创建单例Bean对象。
+
+（6）解析AbstractBeanFactory类的getBean(String name)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#getBean(String name)。
+
+```java
+@Override
+public Object getBean(String name) throws BeansException {
+    return doGetBean(name, null, null, false);
+}
+```
+
+可以看到，在AbstractBeanFactory类的getBean()方法中，会调用doGetBean()方法创建Bean对象。
+
+（7）解析AbstractBeanFactory类的doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly)。
+
+```java
+protected <T> T doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly) throws BeansException {
+    String beanName = transformedBeanName(name);
+    Object beanInstance;
+    // Eagerly check singleton cache for manually registered singletons.
+    Object sharedInstance = getSingleton(beanName);
+    if (sharedInstance != null && args == null) {
+        /***********省略其他代码*************/
+    }
+    else {
+        /***********省略其他代码*************/
+        try {
+            /***********省略其他代码*************/
+            // Create bean instance.
+            if (mbd.isSingleton()) {
+                sharedInstance = getSingleton(beanName, () -> {
+                    try {
+                        return createBean(beanName, mbd, args);
+                    }
+                    catch (BeansException ex) {
+                        /***********省略其他代码*************/
+                    }
+                });
+                beanInstance = getObjectForBeanInstance(sharedInstance, name, beanName, mbd);
+            }
+			/***********省略其他代码*************/
+        }
+        catch (BeansException ex) {
+           /***********省略其他代码*************/
+        }
+        finally {
+           /***********省略其他代码*************/
+        }
+    }
+    return adaptBeanInstance(name, beanInstance, requiredType);
+}
+```
+
+可以看到，在AbstractBeanFactory类的doGetBean()方法中，会调用createBean()方法创建Bean对象。
+
+（8）解析AbstractAutowireCapableBeanFactory类的createBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#createBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)。
+
+```java
+@Override
+protected Object createBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args) throws BeanCreationException {
+	/***********省略其他代码*************/
+    try {
+        Object beanInstance = doCreateBean(beanName, mbdToUse, args);
+        if (logger.isTraceEnabled()) {
+            logger.trace("Finished creating instance of bean '" + beanName + "'");
+        }
+        return beanInstance;
+    }
+    catch (BeanCreationException | ImplicitlyAppearedSingletonException ex) {
+        /***********省略其他代码*************/
+    }
+    catch (Throwable ex) {
+        /***********省略其他代码*************/
+    }
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的createBean()方法中，会调用doCreateBean()方法创建Bean对象。
+
+（9）解析AbstractAutowireCapableBeanFactory类的doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)。
+
+```java
+protected Object doCreateBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args) throws BeanCreationException {
+	/***********省略其他代码*************/
+    Object exposedObject = bean;
+    try {
+        populateBean(beanName, mbd, instanceWrapper);
+        exposedObject = initializeBean(beanName, exposedObject, mbd);
+    }
+    catch (Throwable ex) {
+       /***********省略其他代码*************/
+    }
+	/***********省略其他代码*************/
+    return exposedObject;
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的doCreateBean()方法中，会调用initializeBean()方法初始化Bean对象。
+
+（10）解析AbstractAutowireCapableBeanFactory类的initializeBean(String beanName, Object bean, @Nullable RootBeanDefinition mbd)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#initializeBean(String beanName, Object bean, @Nullable RootBeanDefinition mbd)。
+
+```java
+protected Object initializeBean(String beanName, Object bean, @Nullable RootBeanDefinition mbd) {
+    /***********省略其他代码*************/
+    try {
+        invokeInitMethods(beanName, wrappedBean, mbd);
+    }
+    catch (Throwable ex) {
+       /***********省略其他代码*************/
+    }
+    /***********省略其他代码*************/
+    return wrappedBean;
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的initializeBean()方法中，会调用invokeInitMethods()方法来调用初始化方法。
+
+（11）解析AbstractAutowireCapableBeanFactory类的invokeInitMethods(String beanName, Object bean, @Nullable RootBeanDefinition mbd)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#invokeInitMethods(String beanName, Object bean, @Nullable RootBeanDefinition mbd)。
+
+```java
+protected void invokeInitMethods(String beanName, Object bean, @Nullable RootBeanDefinition mbd) throws Throwable {
+	/***********省略其他代码*************/
+    if (mbd != null && bean.getClass() != NullBean.class) {
+        String[] initMethodNames = mbd.getInitMethodNames();
+        if (initMethodNames != null) {
+            for (String initMethodName : initMethodNames) {
+                if (StringUtils.hasLength(initMethodName) &&
+                    !(isInitializingBean && "afterPropertiesSet".equals(initMethodName)) &&
+                    !mbd.hasAnyExternallyManagedInitMethod(initMethodName)) {
+                    invokeCustomInitMethod(beanName, bean, mbd, initMethodName);
+                }
+            }
+        }
+    }
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的invokeInitMethods()方法中，会调用invokeCustomInitMethod()方法来执行自定义的初始化方法。
+
+（12）解析AbstractAutowireCapableBeanFactory类的invokeCustomInitMethod(String beanName, Object bean, RootBeanDefinition mbd, String initMethodName)方法
+
+源码详见：org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory#invokeCustomInitMethod(String beanName, Object bean, RootBeanDefinition mbd, String initMethodName)。
+
+```java
+protected void invokeCustomInitMethod(String beanName, Object bean, RootBeanDefinition mbd, String initMethodName)  throws Throwable {
+    Method initMethod = (mbd.isNonPublicAccessAllowed() ? BeanUtils.findMethod(bean.getClass(), initMethodName) : ClassUtils.getMethodIfAvailable(bean.getClass(), initMethodName));
+	/***********省略其他代码*************/
+    Method methodToInvoke = ClassUtils.getInterfaceMethodIfPossible(initMethod, bean.getClass());
+    try {
+        ReflectionUtils.makeAccessible(methodToInvoke);
+        methodToInvoke.invoke(bean);
+    }
+    catch (InvocationTargetException ex) {
+        throw ex.getTargetException();
+    }
+}
+```
+
+可以看到，在AbstractAutowireCapableBeanFactory类的invokeCustomInitMethod()方法中，会通过Java的反射机制调用自定义的初始化方法。在本章的案例程序中，就会调用User类的init()方法。
+
+至此，@Bean注解调用初始化的方法流程分析完毕。
+
+### 5.3 调用销毁方法
+
+本节，就简单介绍下@Bean注解在Spring源码层面调用销毁方法的源码执行流程，结合源码执行的时序图，会理解的更加深刻，可以结合图3-5进行理解，具体解析步骤如下所示。
+
+（1）解析BeanTest类的main()方法
+
+在BeanTest类的main()方法中，会调用context对象的close()方法来关闭IOC容器。如下所示。
+
+```java
+public static void main(String[] args) {
+    AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(BeanConfig.class);
+    /*********省略其他代码***********/
+    context.close();
+}
+```
+
+（2）解析AbstractApplicationContext类的close()方法
+
+源码详见：org.springframework.context.support.AbstractApplicationContext#close()
+
+```java
+@Override
+public void close() {
+    synchronized (this.startupShutdownMonitor) {
+        doClose();
+        /*********省略其他代码***********/
+    }
+}
+```
+
+可以看到，在AbstractApplicationContext类的close()方法中，调用了doClose()方法来关闭IOC容器。
+
+（3）解析AbstractApplicationContext类的doClose()方法
+
+源码详见：org.springframework.context.support.AbstractApplicationContext#doClose()。
+
+```java
+protected void doClose() {
+    // Check whether an actual close attempt is necessary...
+    if (this.active.get() && this.closed.compareAndSet(false, true)) {
+         /*********省略其他代码***********/
+        // Destroy all cached singletons in the context's BeanFactory.
+        destroyBeans();
+ 		/*********省略其他代码***********/
+    }
+}
+```
+
+可以看到，在AbstractApplicationContext类的doClose()方法中，会调用destroyBeans()方法销毁所有的单例Bean。
+
+（4）解析AbstractApplicationContext类的destroyBeans()方法
+
+源码详见：org.springframework.context.support.AbstractApplicationContext#destroyBeans()。
+
+```java
+protected void destroyBeans() {
+    getBeanFactory().destroySingletons();
+}
+```
+
+可以看到，在AbstractApplicationContext类的destroyBeans()方法中，调用了beanFactory的destroySingletons()方法来销毁单例Bean。
+
+（5）解析DefaultListableBeanFactory类的destroySingletons()方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#destroySingletons()。
+
+```java
+@Override
+public void destroySingletons() {
+    super.destroySingletons();
+    /*********省略其他代码***********/
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的destroySingletons()方法中，会调用父类的destroySingletons()方法。
+
+（6）解析DefaultSingletonBeanRegistry类的destroySingletons()方法
+
+源码详见：org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#destroySingletons()。
+
+```java
+public void destroySingletons() {
+    /*********省略其他代码***********/
+    for (int i = disposableBeanNames.length - 1; i >= 0; i--) {
+        destroySingleton(disposableBeanNames[i]);
+    }
+	/*********省略其他代码***********/
+}
+```
+
+可以看到，在DefaultSingletonBeanRegistry类的destroySingletons()方法中，会调用destroySingleton()方法销毁指定的单例Bean对象。
+
+（7）解析DefaultListableBeanFactory类的destroySingleton(String beanName)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultListableBeanFactory#destroySingleton(String beanName)。
+
+```java
+@Override
+public void destroySingleton(String beanName) {
+    super.destroySingleton(beanName);
+    /*********省略其他代码***********/
+}
+```
+
+可以看到，在DefaultListableBeanFactory类的destroySingleton()方法中，会调用父类的destroySingleton()方法销毁指定的单例Bean。
+
+（8）解析DefaultSingletonBeanRegistry类的destroySingleton(String beanName)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#destroySingleton(String beanName)。
+
+```java
+public void destroySingleton(String beanName) {
+    removeSingleton(beanName);
+    DisposableBean disposableBean;
+    synchronized (this.disposableBeans) {
+        disposableBean = (DisposableBean) this.disposableBeans.remove(beanName);
+    }
+    destroyBean(beanName, disposableBean);
+}
+```
+
+可以看到，在DefaultSingletonBeanRegistry类的destroySingleton(方法中，会调用destroyBean()方法来销毁指定的单例Bean对象。
+
+（9）解析DefaultSingletonBeanRegistry类的destroyBean(String beanName, @Nullable DisposableBean bean)方法
+
+源码详见：org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#destroyBean(String beanName, @Nullable DisposableBean bean)。
+
+```java
+protected void destroyBean(String beanName, @Nullable DisposableBean bean) {
+    /***********省略其他代码***********/
+    if (bean != null) {
+        try {
+            bean.destroy();
+        }
+        catch (Throwable ex) {
+            /***********省略其他代码***********/
+        }
+    }
+    /***********省略其他代码***********/
+}
+```
+
+可以看到，在DefaultSingletonBeanRegistry类的destroyBean()方法中，会调用bean对象的destroy()方法销毁Bean对象。
+
+（10）解析DisposableBeanAdapter类的destroy()方法
+
+源码详见：org.springframework.beans.factory.support.DisposableBeanAdapter#destroy()。
+
+```java
+@Override
+public void destroy() {
+    /***********省略其他代码***********/
+    else if (this.destroyMethods != null) {
+        for (Method destroyMethod : this.destroyMethods) {
+            invokeCustomDestroyMethod(destroyMethod);
+        }
+    }
+    /***********省略其他代码***********/
+}
+```
+
+可以看到，在DisposableBeanAdapter类的destroy()方法中，会调用invokeCustomDestroyMethod()方法执行自定义的销毁方法。
+
+（11）解析DisposableBeanAdapter类的invokeCustomDestroyMethod(Method destroyMethod)方法
+
+源码详见：org.springframework.beans.factory.support.DisposableBeanAdapter#invokeCustomDestroyMethod(Method destroyMethod)。
+
+```java
+private void invokeCustomDestroyMethod(Method destroyMethod) {
+    /***********省略其他代码***********/
+    try {
+        ReflectionUtils.makeAccessible(destroyMethod);
+        destroyMethod.invoke(this.bean, args);
+    } catch (InvocationTargetException ex) {
+        /***********省略其他代码***********/
+    } catch (Throwable ex) {
+        /***********省略其他代码***********/
+    }
+}
+```
+
+可以看到，在DisposableBeanAdapter类的invokeCustomDestroyMethod()中，最终会通过Java的反射技术调用自定义的销毁方法。在本章的案例程序中，最终会调用User类的destroy()方法。
+
+至此，@Bean注解在Spring源码层面调用销毁方法的源码执行流程分析完毕。
+
 ## 六、总结
 
 `@Bean注解讲完了，我们一起总结下吧！`
@@ -764,7 +1260,7 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 
 ## 八、VIP服务
 
-**强烈推荐：《[原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)》，如果文中优惠券过期，可长按或扫码下面优惠券二维码加入星球。**
+**强烈推荐阅读：《[原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)》，如果文中优惠券过期，可长按或扫码下面优惠券二维码加入星球。**
 
 <div align="center">
     <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-18-008.png?raw=true" width="70%">
@@ -772,29 +1268,33 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
     <br/>
 </div>
 
-**冰河技术** 知识星球《SpringCloud Alibaba实战》从零搭建并开发微服务项目已完结，《RPC手撸专栏》已经更新120+篇文章，已提交120+项目工程，120+项目源码Tag分支，并将源码的获取方式放到了知识星球中，同时在微信上创建了专门的知识星球群，冰河会在知识星球上和星球群里解答球友的提问。
+**冰河技术** 知识星球**《SpringCloud Alibaba实战》**从零搭建并开发微服务项目已完结；**《RPC手撸专栏》**已经更新120+篇文章，已提交120+项目工程，120+项目源码Tag分支；**《Spring核心技术》**专栏以Spring的核心注解为突破口，通过源码执行的时序图带你详细分析Spring底层源码，让你学习Spring底层源码不再枯燥。并这些专栏已经将源码的获取方式放到了知识星球中，同时在微信上创建了专门的知识星球群，冰河会在知识星球上和星球群里解答球友的提问。
+
+目前，星球群已形成良好的技术讨论氛围，后续也会像PRC项目一样全程手撸企业级中间件项目，**涉及分布式、高并发、高性能、高可靠、高可扩展，让大家知其然，更知其所以然，从手写企业级中间件项目的过程中，充分掌握分布式、高并发、高性能、高可靠、高可扩展的编程技巧。**
+
+**更加值得一提的是：有超过30+的大厂面试官悄悄在这里提升核心竞争力！**
 
 ### 星球提供的服务
 
 冰河整理了星球提供的一些服务，如下所示。
 
-加入星球，你将获得：
+加入星球，你将获得： 
 
 1.学习从零开始手撸可用于实际场景的高性能、可扩展的RPC框架项目
 
-2.学习SpringCloud Alibaba实战项目—从零开发微服务项目
+2.学习SpringCloud Alibaba实战项目—从零开发微服务项目 
 
-3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景
+3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景 
 
-4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战
+4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
 
-5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助
+5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
 
-6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码
+6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
 
-7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答
+7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答 
 
-8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件
+8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件 
 
 9.定期组织技术直播分享，传道、授业、解惑，指导阶段瓶颈突破技巧
 
@@ -806,6 +1306,8 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 **特别提醒：** 苹果用户进圈或续费，请加微信 **hacker_binghe** 扫二维码，或者去公众号 **冰河技术** 回复 **星球** 扫二维码加入星球。
 
 **好了，今天就到这儿吧，我是冰河，我们下期见~~**
+
+
 
 ## 加群交流
 
@@ -821,6 +1323,7 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 
 
 
+
 ## 公众号
 
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
@@ -830,6 +1333,7 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
+
 
 
 ## 视频号
@@ -844,6 +1348,7 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 
 
 
+
 ## 星球
 
 加入星球 **[冰河技术](http://m6z.cn/6aeFbs)**，可以获得本站点所有学习内容的指导与帮助。如果你遇到不能独立解决的问题，也可以添加冰河的微信：**hacker_binghe**， 我们一起沟通交流。另外，在星球中不只能学到实用的硬核技术，还能学习**实战项目**！
@@ -855,3 +1360,4 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>
+

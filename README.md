@@ -459,6 +459,7 @@
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解（源码解析部分）](https://articles.zsxq.com/id_w84u4e7fraen.html)
 * [《Spring核心技术》第3章：深度解析@Bean注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_h6ssgch50ohq.html)
 * [《Spring核心技术》第3章：深度解析@Bean注解（源码解析部分）](https://articles.zsxq.com/id_vf8ki780f0on.html)
+* [《Spring核心技术》第3章：深度解析@Bean注解（完善篇）](https://articles.zsxq.com/id_olf2fecx1h6x.html)
 * [《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程](https://articles.zsxq.com/id_ac2wkclvokp3.html)
 * [《Spring核心技术》第5章：深度解析@Import注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_m85awf52ap7s.html)
 * [《Spring核心技术》第5章：深度解析@Import注解（源码解析部分）](https://articles.zsxq.com/id_2wqrrl87q4ww.html)
