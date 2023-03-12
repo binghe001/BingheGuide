@@ -759,6 +759,7 @@ function getBarFrameSpring() {
                 "ioc/2023-03-10-《Spring核心技术》第15章-深度解析@Inject注解.md",
                 "ioc/2023-03-11-《Spring核心技术》第16章-深度解析@Primary注解.md",
                 "ioc/2023-03-12-《Spring核心技术》第17章-深度解析@Scope注解.md",
+                "ioc/2023-03-13-《Spring核心技术》第18章-深度解析@PostConstruct注解与@PreDestroy注解.md",
             ]
         },
         {
