@@ -453,7 +453,7 @@
 
 * [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://articles.zsxq.com/id_dxl5ojx1vt2j.html)
-* [《Spring核心技术》第1章：深度解析@Configuration注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_88k0ww2tsr6n.html)
+* [《Spring核心技术》第1章：深度解析@Configuration注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_jgn1d90d9nqo.html)
 * [《Spring核心技术》第1章：深度解析@Configuration注解（源码解析部分）](https://articles.zsxq.com/id_88k0ww2tsr6n.html)
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解（注解、案例与时序图部分）](https://articles.zsxq.com/id_fvkiczjwem3u.html)
 * [《Spring核心技术》第2章：深度解析@ComponentScan注解（源码解析部分）](https://articles.zsxq.com/id_w84u4e7fraen.html)
