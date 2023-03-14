@@ -307,8 +307,24 @@ module.exports = {
                         text: '🔥框架源码',
                         items: [
                             {
-                                text: '🔥Spring核心技术',
-                                link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
+                                text: '🔥Spring核心技术',items: [
+                                    {
+                                        text: 'IOC容器',
+                                        link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
+                                    },
+                                    {
+                                        text: 'AOP切面',
+                                        link: '/md/frame/spring/aop/default.md'
+                                    },
+                                    {
+                                        text: '声明式事务',
+                                        link: '/md/frame/spring/transaction/default.md'
+                                    },
+                                    {
+                                        text: 'AOT提前编译',
+                                        link: '/md/frame/spring/aot/default.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -577,7 +593,10 @@ module.exports = {
                     "/md/core/java/": getBarJava(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
-                    "/md/frame/spring/": getBarFrameSpring(),
+                    "/md/frame/spring/ioc": getBarFrameSpringIoc(),
+                    "/md/frame/spring/aop": getBarFrameSpringAop(),
+                    "/md/frame/spring/transaction": getBarFrameSpringTransaction(),
+                    "/md/frame/spring/aot": getBarFrameSpringAot(),
                     "/md/distributed/cache/": getBarDistributedCache(),
                     "/md/distributed/zookeeper/": getBarZookeeper(),
                     "/md/distributed/mq/": getBarMQ(),
@@ -726,66 +745,125 @@ function getBarPerformance() {
     ]
 }
 
-// FrameSpring
-function getBarFrameSpring() {
+// FrameSpringIoc
+function getBarFrameSpringIoc() {
     return [
         {
             title: "专栏介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md",
+                "2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md",
             ]
         },
         {
-            title: "第一篇：IOC容器",
+            title: "第一篇：驱动型注解",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "ioc/2022-12-05-《Spring核心技术》第1章-@Configuration注解-你了解的还不够深入.md",
-                "ioc/2022-12-12-《Spring核心技术》第2章-深度解析@ComponentScans注解与@ComponentScan注解.md",
-                "ioc/2022-12-21-《Spring核心技术》第3章-深度解析@Bean注解.md",
-                "ioc/2022-12-22-《Spring核心技术》第4章-深度解析从IOC容器中获取Bean的过程.md",
-                "ioc/2023-02-24-《Spring核心技术》第5章-深度解析@Import注解.md",
-                "ioc/2023-02-25-《Spring核心技术》第6章-深度解析@PropertySource注解.md",
-                "ioc/2023-02-27-《Spring核心技术》第7章-深度解析@DependsOn注解.md",
-                "ioc/2023-02-28-《Spring核心技术》第8章-深度解析@Conditional注解.md",
-                "ioc/2023-03-01-《Spring核心技术》第9章-深度解析@Lazy注解.md",
-                "ioc/2023-03-02-《Spring核心技术》第10章-深度解析@Component注解.md",
-                "ioc/2023-03-03-《Spring核心技术》第11章-深度解析@Value注解.md",
-                "ioc/2023-03-06-《Spring核心技术》第12章-深度解析@Autowired注解.md",
-                "ioc/2023-03-07-《Spring核心技术》第13章-深度解析@Qualifier注解.md",
-                "ioc/2023-03-08-《Spring核心技术》第14章-深度解析@Resource注解.md",
-                "ioc/2023-03-10-《Spring核心技术》第15章-深度解析@Inject注解.md",
-                "ioc/2023-03-11-《Spring核心技术》第16章-深度解析@Primary注解.md",
-                "ioc/2023-03-12-《Spring核心技术》第17章-深度解析@Scope注解.md",
-                "ioc/2023-03-13-《Spring核心技术》第18章-深度解析@PostConstruct注解与@PreDestroy注解.md",
-                "ioc/2023-03-14-《Spring核心技术》第19章-深度解析@Profile注解.md",
-                "ioc/2023-03-15-《Spring核心技术》第20章-深度解析循环依赖.md",
+                "2022-12-05-《Spring核心技术》第1章-@Configuration注解-你了解的还不够深入.md",
+                "2022-12-12-《Spring核心技术》第2章-深度解析@ComponentScans注解与@ComponentScan注解.md",
+                "2022-12-21-《Spring核心技术》第3章-深度解析@Bean注解.md",
+                "2022-12-22-《Spring核心技术》第4章-深度解析从IOC容器中获取Bean的过程.md",
+                "2023-02-24-《Spring核心技术》第5章-深度解析@Import注解.md",
+                "2023-02-25-《Spring核心技术》第6章-深度解析@PropertySource注解.md"
             ]
         },
         {
-            title: "第二篇：AOP切面(待更新)",
+            title: "第二篇：条件型注解",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "2023-02-27-《Spring核心技术》第7章-深度解析@DependsOn注解.md",
+                "2023-02-28-《Spring核心技术》第8章-深度解析@Conditional注解.md",
+                "2023-03-01-《Spring核心技术》第9章-深度解析@Lazy注解.md"
             ]
         },
         {
-            title: "第三篇：声明式事务(待更新)",
+            title: "第三篇：创建对象注解",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "2023-03-02-《Spring核心技术》第10章-深度解析@Component注解.md",
             ]
         },
         {
-            title: "第四篇：SpringMVC(待更新)",
+            title: "第四篇：注入数据型注解",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "2023-03-03-《Spring核心技术》第11章-深度解析@Value注解.md",
+                "2023-03-06-《Spring核心技术》第12章-深度解析@Autowired注解.md",
+                "2023-03-07-《Spring核心技术》第13章-深度解析@Qualifier注解.md",
+                "2023-03-08-《Spring核心技术》第14章-深度解析@Resource注解.md",
+                "2023-03-10-《Spring核心技术》第15章-深度解析@Inject注解.md",
+                "2023-03-11-《Spring核心技术》第16章-深度解析@Primary注解.md",
+            ]
+        },
+        {
+            title: "第五篇：生命周期型注解",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-12-《Spring核心技术》第17章-深度解析@Scope注解.md",
+                "2023-03-13-《Spring核心技术》第18章-深度解析@PostConstruct注解与@PreDestroy注解.md",
+            ]
+        },
+        {
+            title: "第六篇：环境变量型注解",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-14-《Spring核心技术》第19章-深度解析@Profile注解.md"
+            ]
+        },
+        {
+            title: "第七篇：循环依赖",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-15-《Spring核心技术》第20章-深度解析循环依赖.md",
+            ]
+        }
+    ]
+}
+
+// getBarFrameSpringAop
+function getBarFrameSpringAop() {
+    return [
+        {
+            title: "AOP核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
+            ]
+        }
+    ]
+}
+
+// getBarFrameSpringTransaction
+function getBarFrameSpringTransaction() {
+    return [
+        {
+            title: "事务核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
+            ]
+        }
+    ]
+}
+// getBarFrameSpringAot
+function getBarFrameSpringAot() {
+    return [
+        {
+            title: "AOT核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "default.md",
             ]
         }
     ]
