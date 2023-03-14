@@ -1278,23 +1278,23 @@ private void invokeCustomDestroyMethod(Method destroyMethod) {
 
 冰河整理了星球提供的一些服务，如下所示。
 
-加入星球，你将获得： 
+加入星球，你将获得：
 
 1.学习从零开始手撸可用于实际场景的高性能、可扩展的RPC框架项目
 
-2.学习SpringCloud Alibaba实战项目—从零开发微服务项目 
+2.学习SpringCloud Alibaba实战项目—从零开发微服务项目
 
-3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景 
+3.学习高并发、大流量业务场景的解决方案，体验大厂真正的高并发、大流量的业务场景
 
-4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战 
+4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战
 
-5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助 
+5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助
 
-6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码 
+6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码
 
-7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答 
+7.提供技术问题、系统架构、学习成长、晋升答辩等各项内容的回答
 
-8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件 
+8.定期的整理和分享出各类专属星球的技术小册、电子书、编程视频、PDF文件
 
 9.定期组织技术直播分享，传道、授业、解惑，指导阶段瓶颈突破技巧
 
@@ -1324,6 +1324,7 @@ private void invokeCustomDestroyMethod(Method destroyMethod) {
 
 
 
+
 ## 公众号
 
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
@@ -1336,6 +1337,7 @@ private void invokeCustomDestroyMethod(Method destroyMethod) {
 
 
 
+
 ## 视频号
 
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
@@ -1345,6 +1347,7 @@ private void invokeCustomDestroyMethod(Method destroyMethod) {
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
+
 
 
 
