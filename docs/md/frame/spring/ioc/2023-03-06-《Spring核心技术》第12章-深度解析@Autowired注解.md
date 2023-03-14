@@ -8,7 +8,7 @@ excerpt: 第12章：深度解析@Autowired注解
 lock: need
 ---
 
-# 《Spring核心技术》第12章：深度解析@Autowired注解
+# 《Spring核心技术》第12章-注入数据型注解：深度解析@Autowired注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

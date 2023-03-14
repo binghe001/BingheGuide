@@ -8,7 +8,7 @@ excerpt: 第09章：深度解析@Lazy注解
 lock: need
 ---
 
-# 《Spring核心技术》第9章：深度解析@Lazy注解
+# 《Spring核心技术》第09章-条件型注解：深度解析@Lazy注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

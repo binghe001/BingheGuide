@@ -8,7 +8,7 @@ excerpt: 第14章：深度解析@Resource注解
 lock: need
 ---
 
-# 《Spring核心技术》第14章：深度解析@Resource注解
+# 《Spring核心技术》第14章-注入数据型注解：深度解析@Resource注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

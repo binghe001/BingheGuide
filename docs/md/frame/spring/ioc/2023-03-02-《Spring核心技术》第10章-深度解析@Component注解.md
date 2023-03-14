@@ -8,7 +8,7 @@ excerpt: 第10章：深度解析@Component注解（含@Repository、@Service和@
 lock: need
 ---
 
-# 《Spring核心技术》第10章：深度解析@Component注解（含@Repository、@Service和@Controller）
+# 《Spring核心技术》第10章-创建对象型注解：深度解析@Component注解（含@Repository、@Service和@Controller）
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

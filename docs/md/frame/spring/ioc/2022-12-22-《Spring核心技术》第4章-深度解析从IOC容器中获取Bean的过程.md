@@ -8,7 +8,7 @@ excerpt: 第04章：深度解析从IOC容器中获取Bean的过程
 lock: need
 ---
 
-# 《Spring核心技术》第4章：深度解析从IOC容器中获取Bean的过程
+# 《Spring核心技术》第04章-驱动型注解：深度解析从IOC容器中获取Bean的过程
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

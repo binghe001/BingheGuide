@@ -8,7 +8,7 @@ excerpt: 第05章：深度解析@Import注解
 lock: need
 ---
 
-# 《Spring核心技术》第5章：深度解析@Import注解
+# 《Spring核心技术》第05章-驱动型注解：深度解析@Import注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

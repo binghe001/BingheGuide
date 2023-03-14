@@ -8,7 +8,7 @@ excerpt: 第15章：深度解析@Inject注解
 lock: need
 ---
 
-# 《Spring核心技术》第15章：深度解析@Inject注解
+# 《Spring核心技术》第15章-注入数据型注解：深度解析@Inject注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
