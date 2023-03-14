@@ -36,7 +36,7 @@ lock: need
   * 使用场景
 * 使用案例
   * 实现单例Bean
-  * 实现多例Bean
+  * 实现原型Bean
 * 源码时序图
   * 注册Bean的流程
   * 调用Bean工厂后置处理器
@@ -61,7 +61,7 @@ lock: need
 
 `关于@Scope注解的一点点说明~~`
 
-@Scope注解是Spring中提供的一个能够指定Bean的作用范围的注解，通过@Scope注解可以指定创建的Bean是单例的，还是多例的，也可以使用@Scope注解指定Bean在Web中的作用域，还可以自定义作用域。
+@Scope注解是Spring中提供的一个能够指定Bean的作用范围的注解，通过@Scope注解可以指定创建的Bean是单例的，还是原型的，也可以使用@Scope注解指定Bean在Web中的作用域，还可以自定义作用域。
 
 ### 2.1 注解源码
 
@@ -95,7 +95,7 @@ public @interface Scope {
 
 * value：表示作用范围，可以取如下值。
   * singleton：表示单例Bean，IOC容器在启动时，就会创建Bean对象。如果标注了@Lazy注解，IOC容器在启动时，就不会创建Bean对象，会在第一次从IOC容器中获取Bean对象时，创建Bean对象。后续每次从IOC容器中获取的都是同一个Bean对象，同时，IOC容器会接管单例Bean对象的生命周期。
-  * prototype：表示多例Bean。IOC容器在启动时，不会创建Bean对象，每次从IOC容器中获取Bean对象时，都会创建一个新的Bean对象。并且@Lazy注解对多例Bean不起作用，同时，IOC容器不会接管多例Bean对象的生命周期
+  * prototype：表示原型Bean。IOC容器在启动时，不会创建Bean对象，每次从IOC容器中获取Bean对象时，都会创建一个新的Bean对象。并且@Lazy注解对原型Bean不起作用，同时，IOC容器不会接管原型Bean对象的生命周期
   * request：表示作用域是当前请求范围。
   * session：表示作用域是当前会话范围。
   * application：表示作用域是当前应用范围。
@@ -108,15 +108,15 @@ public @interface Scope {
 
 ### 2.2 使用场景
 
-大部分场景下，使用Spring的单例Bean就足够了，Spring默认的类型也是单例Bean。单例Bean能够保证在Spring中不会重复创建相同的Bean对象，对性能有所提高。但是，如果单例Bean中存在非静态成员变量，可能会产生线程安全问题。如果设置为多例Bean，则每次从IOC容器中获取Bean对象时，都会重新生成一个新的Bean对象，每次生成新的Bean对象多少都会影响程序的性能。
+大部分场景下，使用Spring的单例Bean就足够了，Spring默认的类型也是单例Bean。单例Bean能够保证在Spring中不会重复创建相同的Bean对象，对性能有所提高。但是，如果单例Bean中存在非静态成员变量，可能会产生线程安全问题。如果设置为原型Bean，则每次从IOC容器中获取Bean对象时，都会重新生成一个新的Bean对象，每次生成新的Bean对象多少都会影响程序的性能。
 
-早期开发中使用比较多的Struts2框架中的Action，由于其模型驱动和OGNL表达式的原因，就必须将Spring中的Bean配置成多例Bean。
+早期开发中使用比较多的Struts2框架中的Action，由于其模型驱动和OGNL表达式的原因，就必须将Spring中的Bean配置成原型Bean。
 
 ## 三、使用案例
 
 `@Scope注解指定Bean作用范围的案例，我们一起实现吧~~`
 
-本章，就基于@Scope注解实现指定Bean的作用范围的案例，总体上会从单例Bean和多例Bean两个作用范围进行说明。
+本章，就基于@Scope注解实现指定Bean的作用范围的案例，总体上会从单例Bean和原型Bean两个作用范围进行说明。
 
 **注意：本章的案例和源码解析都是基于@Scope注解标注到方法上，结合@Bean注解进行分析的。**
 
@@ -197,9 +197,9 @@ io.binghe.spring.annotation.chapter17.bean.ScopeBean@11fc564b
 
 从输出的结果信息可以看出，Spring在IOC容器启动时就会创建单例Bean，随后每次从IOC容器中获取的都是同一个Bean对象。
 
-### 3.2 实现多例Bean
+### 3.2 实现原型Bean
 
-本节实现多例Bean的步骤比较简单，就是在3.1节的基础上进行改造。具体步骤如下所示。
+本节实现原型Bean的步骤比较简单，就是在3.1节的基础上进行改造。具体步骤如下所示。
 
 **（1）修改ScopeConfig类**
 
@@ -213,7 +213,7 @@ public ScopeBean scopeBean(){
 }
 ```
 
-此时，就会在Spring中创建ScopeBean类型的多例Bean。
+此时，就会在Spring中创建ScopeBean类型的原型Bean。
 
 **（2）运行ScopeTest类**
 
@@ -262,7 +262,7 @@ io.binghe.spring.annotation.chapter17.bean.ScopeBean@672872e1
 
 ### 4.3 获取Bean的流程
 
-由于之前都是以单例Bean的方式分析的创建Bean的流程，这里，我们换一种分析方式，以多例Bean为入口分析获取Bean的流程。@Scope注解涉及到的获取Bean的源码时序图如图17-4所示。
+由于之前都是以单例Bean的方式分析的创建Bean的流程，这里，我们换一种分析方式，以原型Bean为入口分析获取Bean的流程。@Scope注解涉及到的获取Bean的源码时序图如图17-4所示。
 
 ![图17-4](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-12-004.png)
 
@@ -555,7 +555,7 @@ protected <T> T doGetBean(String name, @Nullable Class<T> requiredType, @Nullabl
 
 在AbstractBeanFactory类的doGetBean()方法中，首先会通过getSingleton()方法从三级缓存中获取单例Bean对象，如果存在单例Bean对象，并且args参数为null，则调用getObjectForBeanInstance()根据给定的Bean实例来返回对象，最终通过adaptBeanInstance()方法来返回适配的Bean对象。
 
-接下来，分析else分支。很显然，不管是单例Bean还是多例Bean，开始进入doGetBean()方法时，都会进入else分支。
+接下来，分析else分支。很显然，不管是单例Bean还是原型Bean，开始进入doGetBean()方法时，都会进入else分支。
 
 ```java
 protected <T> T doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly) throws BeansException {
@@ -608,7 +608,7 @@ protected <T> T doGetBean(String name, @Nullable Class<T> requiredType, @Nullabl
 }
 ```
 
-可以看到，在AbstractBeanFactory类的doGetBean()方法的else分支中，不管是单例Bean还是多例Bean的执行逻辑，都会调用createBean()方法创建Bean对象，并且在多例Bean的情况下，每次都会创建一个新的Bean对象。
+可以看到，在AbstractBeanFactory类的doGetBean()方法的else分支中，不管是单例Bean还是原型Bean的执行逻辑，都会调用createBean()方法创建Bean对象，并且在原型Bean的情况下，每次都会创建一个新的Bean对象。
 
 （10）解析AbstractAutowireCapableBeanFactory类的createBean(String beanName, RootBeanDefinition mbd, @Nullable Object[] args)方法
 
@@ -752,7 +752,7 @@ populateBean(beanName, mbd, instanceWrapper);
 exposedObject = initializeBean(beanName, exposedObject, mbd);
 ```
 
-6）如果是多例Bean，则调用registerDisposableBeanIfNecessary()方法向IOC容器中注入一个可任意处理的Bean后直接返回exposedObject。实际上，默认就是返回的调用createBeanInstance()方法新创建的bean对象。
+6）如果是原型Bean，则调用registerDisposableBeanIfNecessary()方法向IOC容器中注入一个可任意处理的Bean后直接返回exposedObject。实际上，默认就是返回的调用createBeanInstance()方法新创建的bean对象。
 
 ```java
 try {
@@ -765,7 +765,7 @@ catch (BeanDefinitionValidationException ex) {
 return exposedObject;
 ```
 
-所以，Spring中的多例Bean，在每次从IOC容器中获取Bean对象时，都会新建一个Bean对象。
+所以，Spring中的原型Bean，在每次从IOC容器中获取Bean对象时，都会新建一个Bean对象。
 
 7）如果是单例Bean，则会调用getSingleton()方法获取单例Bean，如果获取的单例Bean不为空，并且exposedObject变量与bean变变量相等，说明在调用initializeBean()方法对Bean对象进行初始化时，并没有改变Bean对象的信息，此时，就会将调用getSingleton()方法获取到的单例Bean赋值给exposedObject。随后调用registerDisposableBeanIfNecessary()方法向IOC容器中注入一个可任意处理的Bean后直接返回exposedObject。
 
@@ -797,7 +797,7 @@ return exposedObject;
 
 `@Scope注解介绍完了，我们一起总结下吧！`
 
-本章，主要介绍了@Scope注解，首先介绍了注解的源码和使用场景。随后，从单例Bean和多例Bean两个方面给出了注解的使用案例。接下来，分别从注册Bean的流程、调用Bean的工厂后置处理器和获取Bean的流程三个方面分析了源码时序图和源码流程。
+本章，主要介绍了@Scope注解，首先介绍了注解的源码和使用场景。随后，从单例Bean和原型Bean两个方面给出了注解的使用案例。接下来，分别从注册Bean的流程、调用Bean的工厂后置处理器和获取Bean的流程三个方面分析了源码时序图和源码流程。
 
 ## 七、思考
 
