@@ -570,11 +570,11 @@ module.exports = {
                     {
                         text: 'Github',
                         link: 'https://github.com/binghe001/BingheGuide'
-                    },
+                    }/*,
                     {
                         text: 'ChatGPT',
                         link: 'https://chat.openai.run'
-                    }
+                    }*/
                 ],
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
