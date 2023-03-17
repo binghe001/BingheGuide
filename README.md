@@ -480,6 +480,7 @@
 * [《Spring核心技术》第20章：深度解析循环依赖](https://articles.zsxq.com/id_jjiexxsn8j3f.html)
 * [《Spring核心技术》第21章：深度解析事件监听机制](https://articles.zsxq.com/id_94mft95hpqe5.html)
 
+
 ### 🔥🔥🔥 精通高并发系列
 
 * [🔥🔥🔥 《深入理解高并发编程（第2版）》八大篇章，共433页，打包发布！！](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ)
