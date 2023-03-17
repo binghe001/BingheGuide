@@ -171,6 +171,12 @@
 ### 我的新书
 
 <div align="center">
+    <img src="https://img2023.cnblogs.com/blog/1729473/202303/1729473-20230317173305292-173690733.jpg?raw=true" width="80%">
+      <div style="font-size: 18px;"><a href="https://u.jd.com/izMwOkE">《深入理解高并发编程：JDK核心技术》</a></div>
+    <br/>
+</div>
+
+<div align="center">
     <img src="https://img-blog.csdnimg.cn/fe76310aea734752b3b79c4df1438943.jpeg?raw=true" width="80%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/13190783.html">《深入理解高并发编程：核心原理与案例实战》</a></div>
     <br/>
