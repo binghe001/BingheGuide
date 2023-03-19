@@ -289,9 +289,9 @@ serviceBean
 
 **注意：本节的源码分析流程与第9章5.2小节的源码分析流程大体相同，只是多了一个更加细节的分析，这里，只对这些细节点进行详细的分析。所以，本节的源码分析可以结合第9章5.2小节的源码分析共同理解。**
 
-（1）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法
+（1）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)。
 
 ```java
 protected final SourceClass doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter) throws IOException {
@@ -321,7 +321,7 @@ protected final SourceClass doProcessConfigurationClass(ConfigurationClass confi
 }
 ```
 
-可以看到，在AnnotatedBeanDefinitionReader类的doRegisterBean()方法，判断如果本质上是@Component注解（@Repository、@Service和@Controller注解），会调用processMemberClasses()方法处理内部类。
+可以看到，在ConfigurationClassParser类的doProcessConfigurationClass()方法中，判断如果本质上是@Component注解（@Repository、@Service和@Controller注解），会调用processMemberClasses()方法处理内部类。
 
 （2）解析ConfigurationClassParser类的processMemberClasses(ConfigurationClass configClass, SourceClass sourceClass,Predicate<String> filter)方法
 
