@@ -446,7 +446,7 @@ private void processMemberClasses(ConfigurationClass configClass, SourceClass so
 
 在processMemberClasses()方法中，首先对获取到的内部类进行排序，随后遍历内部类集合，调用candidate的asConfigClass()方法将内部类封装成ConfigurationClass对象。并传入processConfigurationClass()方法中解析内部类的注解信息。
 
-（7）返回AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法。
+（7）返回ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法。
 
 继续分析如下代码片段。
 
