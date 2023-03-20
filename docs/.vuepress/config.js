@@ -776,6 +776,7 @@ function getBarFrameSpring() {
             sidebarDepth: 0,
             children: [
                 "aop/2023-03-19-《Spring核心技术》第22章-AOP切面型注解实战.md",
+                "aop/2023-03-20-《Spring核心技术》第23章-深度解析@EnableAspectJAutoProxy注解.md",
             ]
         },
         {
