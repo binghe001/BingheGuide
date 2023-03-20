@@ -771,11 +771,11 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "第二篇：AOP切面(待更新)",
+            title: "第二篇：AOP切面(付费)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "aop/2023-03-19-《Spring核心技术》第22章-AOP切面型注解实战.md",
             ]
         },
         {
@@ -787,7 +787,7 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "第四篇：SpringMVC(待更新)",
+            title: "第四篇：AOT预编译(待更新)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
