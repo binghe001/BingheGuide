@@ -771,12 +771,13 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "第二篇：AOP切面(付费)",
+            title: "第二篇：AOP切面",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "aop/2023-03-19-《Spring核心技术》第22章-AOP切面型注解实战.md",
                 "aop/2023-03-20-《Spring核心技术》第23章-深度解析@EnableAspectJAutoProxy注解.md",
+                "aop/2023-03-21-《Spring核心技术》第24章-深度解析切入点表达式.md",
             ]
         },
         {

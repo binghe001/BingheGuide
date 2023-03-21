@@ -488,6 +488,7 @@
 * [《Spring核心技术》第21章：深度解析事件监听机制](https://articles.zsxq.com/id_94mft95hpqe5.html)
 * [《Spring核心技术》第22章：AOP切面型注解实战](https://articles.zsxq.com/id_xhaep3mgxbel.html)
 * [《Spring核心技术》第23章：深度解析@EnableAspectJAutoProxy注解](https://articles.zsxq.com/id_khq22od1cfhz.html)
+* [《Spring核心技术》第24章：深度解析切入点表达式](https://articles.zsxq.com/id_c8z1ro4n7iqu.html)
 
 
 ### 🔥🔥🔥 精通高并发系列

@@ -1,5 +1,5 @@
 ---
-title: 第23章：深度解析@EnableAspectJAutoProxy注解
+title: 【付费】第23章：深度解析@EnableAspectJAutoProxy注解
 pay: https://articles.zsxq.com/id_khq22od1cfhz.html
 ---
 
