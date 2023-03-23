@@ -490,6 +490,7 @@
 * [《Spring核心技术》第23章：深度解析@EnableAspectJAutoProxy注解](https://articles.zsxq.com/id_khq22od1cfhz.html)
 * [《Spring核心技术》第24章：深度解析切入点表达式](https://articles.zsxq.com/id_c8z1ro4n7iqu.html)
 * [《Spring核心技术》第25章：深度解析构建AOP拦截器链的流程](https://articles.zsxq.com/id_1le7i7cflbec.html)
+* [《Spring核心技术》第26章：深度解析调用通知方法的流程](https://articles.zsxq.com/id_twxhnxik8enc.html)
 
 
 ### 🔥🔥🔥 精通高并发系列

@@ -779,6 +779,7 @@ function getBarFrameSpring() {
                 "aop/2023-03-20-《Spring核心技术》第23章-深度解析@EnableAspectJAutoProxy注解.md",
                 "aop/2023-03-21-《Spring核心技术》第24章-深度解析切入点表达式.md",
                 "aop/2023-03-22-《Spring核心技术》第25章-深度解析构建AOP拦截器链的流程.md",
+                "aop/2023-03-23-《Spring核心技术》第26章-深度解析调用通知方法的流程.md",
             ]
         },
         {
