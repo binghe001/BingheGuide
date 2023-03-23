@@ -171,7 +171,7 @@
 ### 我的新书
 
 <div align="center">
-    <img src="https://img2023.cnblogs.com/blog/1729473/202303/1729473-20230317173305292-173690733.jpg?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/book/2023-02-20-001.jpg?raw=true" width="80%">
       <div style="font-size: 18px;"><a href="https://u.jd.com/izMwOkE">《深入理解高并发编程：JDK核心技术》</a></div>
     <br/>
 </div>

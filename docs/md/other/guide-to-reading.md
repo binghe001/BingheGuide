@@ -10,7 +10,7 @@ title: 冰河指南
 
 ## 关于我
 
->大家好，我是冰河，互联网资深技术专家、[TVP腾讯云最具价值专家](https://cloud.tencent.com/tvp/member/669)、数据库技术专家、分布式与微服务架构专家，[《深入理解高并发编程：核心原理与案例实战》](https://item.jd.com/13190783.html)、[《深入理解分布式事务：原理与实战》](<https://item.jd.com/12972343.html>)、[《海量数据处理与大数据技术实战》](<https://item.jd.com/12710993.html>)、[《MySQL技术大全：开发、优化与运维实战》](<https://item.jd.com/13036154.html>) 图书作者，“冰河技术”微信公众号作者，可视化多数据源数据异构中间件mykit-data作者。多年来，一直致力于分布式系统架构、微服务、分布式数据库、分布式事务与大数据技术的研究，在高并发、高可用、高可扩展性、高可维护性和大数据等领域拥有丰富的架构经验。
+>大家好，我是冰河，互联网资深技术专家、[TVP腾讯云最具价值专家](https://cloud.tencent.com/tvp/member/669)、数据库技术专家、分布式与微服务架构专家，[《深入理解高并发编程：核心原理与案例实战》](https://item.jd.com/13190783.html)、[《深入理解高并发编程：JDK核心技术》](https://u.jd.com/izMwOkE)、[《深入高平行開發：深度原理&專案實戰》](https://u.jd.com/K8H0mUV)、[《深入理解分布式事务：原理与实战》](<https://item.jd.com/12972343.html>)、[《海量数据处理与大数据技术实战》](<https://item.jd.com/12710993.html>)、[《MySQL技术大全：开发、优化与运维实战》](<https://item.jd.com/13036154.html>) 图书作者，“冰河技术”微信公众号作者，可视化多数据源数据异构中间件mykit-data作者。多年来，一直致力于分布式系统架构、微服务、分布式数据库、分布式事务与大数据技术的研究，在高并发、高可用、高可扩展性、高可维护性和大数据等领域拥有丰富的架构经验。
 
 <div align="center">
     <a href="https://github.com/binghe001/BingheGuide">关注冰河技术，解锁更多技能！</a>
@@ -144,7 +144,7 @@ title: 冰河指南
 ### 我的新书
 
 <div align="center">
-    <img src="https://img2023.cnblogs.com/blog/1729473/202303/1729473-20230317173305292-173690733.jpg?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/book/2023-02-20-001.jpg?raw=true" width="80%">
       <div style="font-size: 18px;"><a href="https://u.jd.com/izMwOkE">《深入理解高并发编程：JDK核心技术》</a></div>
     <br/>
 </div>
