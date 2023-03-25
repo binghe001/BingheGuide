@@ -42,7 +42,6 @@ pay: https://articles.zsxq.com/id_ho2wnitvu0w1.html
   * NEVER事务传播类型
   * NESTED事务传播类型
   * 常用的事务传播类型
-
 * 总结
 * 思考
 * VIP服务
