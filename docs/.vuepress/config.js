@@ -791,6 +791,7 @@ function getBarFrameSpring() {
             children: [
                 "transaction/2023-03-26-《Spring核心技术》第29章-Spring事务概述与编程实战.md",
                 "transaction/2023-03-27-《Spring核心技术》第30章-深度解析Spring事务三大接口.md",
+                "transaction/2023-03-28-《Spring核心技术》第31章-深度解析Spring事务隔离级别与传播机制.md",
             ]
         },
         {
