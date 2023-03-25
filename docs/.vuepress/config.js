@@ -785,11 +785,11 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "第三篇：声明式事务(待更新)",
+            title: "第三篇：声明式事务",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "transaction/2023-03-26-《Spring核心技术》第29章-Spring事务概述与编程实战.md",
             ]
         },
         {
