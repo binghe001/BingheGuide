@@ -498,10 +498,22 @@ module.exports = {
                         text: '📚书籍',
                         items: [
                             {
+                                text: '总览', items: [
+                                    {
+                                        text: '《书籍汇总》',
+                                        link: '/md/knowledge/all/2023-03-26-书籍汇总.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: '出版图书', items: [
                                     {
                                         text: '《深入理解高并发编程：核心原理与案例实战》',
                                         link: '/md/knowledge/book/2022-06-17-深入理解高并发编程.md'
+                                    },
+                                    {
+                                        text: '《深入理解高并发编程：JDK核心技术》',
+                                        link: '/md/knowledge/book/2023-02-27-深入理解高并发编程-JDK核心技术.md'
                                     },
                                     {
                                         text: '《深入高平行開發：深度原理&專案實戰》',
@@ -611,6 +623,7 @@ module.exports = {
                     "/md/hack/log4j/": getBarHackLog4j(),
                     "/md/interview/": getInterview(),
                     "/md/knowledge/book/": getBarPDFPublish(),
+                    "/md/knowledge/all/": getBarBookAll(),
                     "/md/knowledge/pdf/": getBarPDFSink(),
                     "/md/about/": getBarAbout(),
                     "/md/core/spring/ioc/": getBarSpringIoc(),
@@ -1814,6 +1827,20 @@ function getInterview() {
         }
     ]
 }
+// getBarBookAll
+function getBarBookAll() {
+    return [
+        {
+            title: "出版图书",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-26-书籍汇总.md",
+            ]
+        }
+    ]
+}
+
 // getBarPDFPublish
 function getBarPDFPublish() {
     return [
@@ -1823,6 +1850,7 @@ function getBarPDFPublish() {
             sidebarDepth: 0,
             children: [
                 "2022-06-17-深入理解高并发编程.md",
+                "2023-02-27-深入理解高并发编程-JDK核心技术.md",
                 "2023-02-03-深入高平行開發.md",
                 "2022-03-29-深入理解分布式事务.md",
                 "2022-03-29-MySQL技术大全.md",
