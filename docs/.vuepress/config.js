@@ -807,6 +807,7 @@ function getBarFrameSpring() {
                 "transaction/2023-03-27-《Spring核心技术》第30章-深度解析Spring事务三大接口.md",
                 "transaction/2023-03-28-《Spring核心技术》第31章-深度解析Spring事务隔离级别与传播机制.md",
                 "transaction/2023-03-29-《Spring核心技术》第32章-深度解析@EnableTransactionManagement注解.md",
+                "transaction/2023-03-30-《Spring核心技术》第33章-深度解析@Transactional注解.md",
 
             ]
         },
