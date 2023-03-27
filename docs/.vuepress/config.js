@@ -307,7 +307,7 @@ module.exports = {
                         text: '🔥框架源码',
                         items: [
                             {
-                                text: '🔥Spring核心技术',
+                                text: '🔥Spring6核心技术',
                                 link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
                             }
                         ]
