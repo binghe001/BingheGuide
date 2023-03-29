@@ -500,6 +500,7 @@
 * [《Spring核心技术》第33章：深度解析@Transactional注解](https://articles.zsxq.com/id_ezlz9t1pjks0.html)
 * [《Spring核心技术》第34章：深度解析Spring事务的执行流程](https://articles.zsxq.com/id_8q0nz7rucvjd.html)
 * [《Spring核心技术》第35章：深度解析Spring底层事务传播机制源码](https://articles.zsxq.com/id_6sw4tcdnl0qf.html)
+* [《Spring核心技术》第36章：深度解析@TransactionEventListener注解](https://articles.zsxq.com/id_6mqzv4xx6n58.html)
 
 
 ### 🔥🔥🔥 精通高并发系列
