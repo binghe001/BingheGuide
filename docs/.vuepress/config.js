@@ -812,6 +812,7 @@ function getBarFrameSpring() {
                 "transaction/2023-04-01-《Spring核心技术》第35章-深度解析Spring底层事务传播机制源码.md",
                 "transaction/2023-04-02-《Spring核心技术》第36章-深度解析@TransactionEventListener注解.md",
                 "transaction/2023-04-03-《Spring核心技术》第37章-Spring事务嵌套最佳实践.md",
+                "transaction/2023-04-04-《Spring核心技术》第38章-深度解析Spring事务失效的场景.md",
             ]
         },
         {
