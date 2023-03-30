@@ -816,11 +816,11 @@ function getBarFrameSpring() {
             ]
         },
         {
-            title: "第四篇：AOT预编译(待更新)",
+            title: "第四篇：AOT预编译",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "springmvc/default.md",
+                "aot/2023-04-05-《Spring核心技术》第39章-AOT预编译技术概述.md",
             ]
         }
     ]
