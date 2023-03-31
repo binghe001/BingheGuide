@@ -514,6 +514,7 @@
 
 #### 第四篇：AOT预编译
 * [《Spring核心技术》第39章：AOT预编译技术概述](https://articles.zsxq.com/id_p5c7maejbow8.html)
+* [《Spring核心技术》第40章：构建Native Image](https://articles.zsxq.com/id_rh08wot03ls8.html)
 
 
 ### 🔥🔥🔥 精通高并发系列
