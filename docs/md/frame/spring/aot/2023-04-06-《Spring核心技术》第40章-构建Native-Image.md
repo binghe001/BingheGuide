@@ -1,9 +1,9 @@
 ---
-title: 【付费】第40章：构建Native Image
+title: 【付费】第40章：手动构建Native Image
 pay: https://articles.zsxq.com/id_rh08wot03ls8.html
 ---
 
-# 《Spring核心技术》第40章：构建Native Image
+# 《Spring核心技术》第40章：手动构建Native Image
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

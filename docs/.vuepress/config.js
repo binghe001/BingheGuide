@@ -821,6 +821,7 @@ function getBarFrameSpring() {
             sidebarDepth: 0,
             children: [
                 "aot/2023-04-05-《Spring核心技术》第39章-AOT预编译技术概述.md",
+                "aot/2023-04-06-《Spring核心技术》第40章-构建Native-Image.md",
             ]
         }
     ]
