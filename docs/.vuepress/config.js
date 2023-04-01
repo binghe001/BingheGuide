@@ -824,6 +824,14 @@ function getBarFrameSpring() {
                 "aot/2023-04-06-《Spring核心技术》第40章-构建Native-Image.md",
                 "aot/2023-04-07-《Spring核心技术》第41章-Maven构建Native-Image.md",
             ]
+        },
+        {
+            title: "作业篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "work/2023-04-08-《Spring核心技术》作业-专栏整体作业.md",
+            ]
         }
     ]
 }
