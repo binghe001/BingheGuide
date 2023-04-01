@@ -826,6 +826,14 @@ function getBarFrameSpring() {
             ]
         },
         {
+            title: "第五篇：SpringMVC",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "springmvc/2023-04-09-《Spring核心技术》第42章-深度解析@Controller注解.md",
+            ]
+        },
+        {
             title: "作业篇",
             collapsable: false,
             sidebarDepth: 0,
