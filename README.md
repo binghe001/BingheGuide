@@ -518,10 +518,10 @@
 * [《Spring核心技术》第41章：Maven构建Native Image](https://articles.zsxq.com/id_ssa05mm62s0r.html)
 
 #### 第五篇：SpringMVC
-[《Spring核心技术》第42章：深度解析@Controller注解](https://articles.zsxq.com/id_rt2w9t6inv5j.html)
+* [《Spring核心技术》第42章：注解型SpringMVC通用SpringBoot启动模型设计与实现](https://articles.zsxq.com/id_rt2w9t6inv5j.html)
 
 #### 作业篇
-[《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
+* [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
 
 
 ### 🔥🔥🔥 精通高并发系列
