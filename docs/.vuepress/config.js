@@ -832,6 +832,7 @@ function getBarFrameSpring() {
             children: [
                 "springmvc/2023-04-09-《Spring核心技术》第42章-注解型SpringMVC通用启动模型设计.md",
                 "springmvc/2023-04-10-《Spring核心技术》第43章-深度解析@Controller注解.md",
+                "springmvc/2023-04-11-《Spring核心技术》第44章-深度解析@RestController注解.md",
             ]
         },
         {
