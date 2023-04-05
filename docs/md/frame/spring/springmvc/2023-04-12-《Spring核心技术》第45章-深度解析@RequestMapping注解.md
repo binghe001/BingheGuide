@@ -3,7 +3,7 @@ title: 【付费】第45章：深度解析@RequestMapping注解
 pay: https://articles.zsxq.com/id_lr7351z398mb.html
 ---
 
-# 《Spring核心技术》第45章：深度解析@RequestMapping注解
+# 《Spring核心技术》第45章-方法映射：深度解析@RequestMapping注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
