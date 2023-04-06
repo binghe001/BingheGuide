@@ -523,6 +523,7 @@
 * [《Spring核心技术》第44章：深度解析@RestController注解](https://articles.zsxq.com/id_wrrk6j19tov0.html)
 * [《Spring核心技术》第45章：深度解析@RequestMapping注解](https://articles.zsxq.com/id_lr7351z398mb.html)
 * [《Spring核心技术》第46章：深度解析@RequestParam注解](https://articles.zsxq.com/id_uvbwbxp5pwgw.html)
+* [《Spring核心技术》第47章：深度解析@PathVariable注解](https://articles.zsxq.com/id_27gccis9me0v.html)
 
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
