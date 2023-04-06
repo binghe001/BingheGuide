@@ -3,7 +3,7 @@ title: 【付费】第46章：深度解析@RequestParam注解
 pay: https://articles.zsxq.com/id_uvbwbxp5pwgw.html
 ---
 
-# 《Spring核心技术》第46章：深度解析@RequestParam注解
+# 《Spring核心技术》第46章-绑定参数：深度解析@RequestParam注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
