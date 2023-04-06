@@ -1,6 +1,6 @@
 ---
 title: 【付费】第31章：深度解析Spring事务隔离级别与传播机制
-pay: https://articles.zsxq.com/id_ho2wnitvu0w1.html
+pay: https://articles.zsxq.com/id_27ujpfwf1mh3.html
 ---
 
 # 《Spring核心技术》第31章：深度解析Spring事务隔离级别与传播机制
