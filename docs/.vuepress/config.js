@@ -838,6 +838,7 @@ function getBarFrameSpring() {
                 "springmvc/2023-04-14-《Spring核心技术》第47章-深度解析@PathVariable注解.md",
                 "springmvc/2023-04-15-《Spring核心技术》第48章-深度解析@RequestBody注解.md",
                 "springmvc/2023-04-16-《Spring核心技术》第49章-深度解析@RequestHeader注解.md",
+                "springmvc/2023-04-17-《Spring核心技术》第50章-深度解析@CookieValue注解.md",
             ]
         },
         {

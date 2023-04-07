@@ -526,6 +526,7 @@
 * [《Spring核心技术》第47章：深度解析@PathVariable注解](https://articles.zsxq.com/id_27gccis9me0v.html)
 * [《Spring核心技术》第48章：深度解析@RequestBody注解](https://articles.zsxq.com/id_wzt9ndj1t2o2.html)
 * [《Spring核心技术》第49章：深度解析@RequestHeader注解](https://articles.zsxq.com/id_vd0nabjnlo9x.html)
+* [《Spring核心技术》第50章：深度解析@CookieValue注解](https://articles.zsxq.com/id_aphnzhoz3wd3.html)
 
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
