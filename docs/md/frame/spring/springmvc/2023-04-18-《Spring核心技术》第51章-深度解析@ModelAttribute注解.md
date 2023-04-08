@@ -31,7 +31,11 @@ pay: https://articles.zsxq.com/id_6zpnxo0j94za.html
   * 使用场景
 * 使用案例
 * 源码时序图
+  * 执行@ModelAttribute标注的方法
+  * 执行控制器方法
 * 源码解析
+  * 执行@ModelAttribute标注的方法
+  * 执行控制器方法
 * 总结
 * 思考
 * VIP服务
