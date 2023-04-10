@@ -841,6 +841,7 @@ function getBarFrameSpring() {
                 "springmvc/2023-04-17-《Spring核心技术》第50章-深度解析@CookieValue注解.md",
                 "springmvc/2023-04-18-《Spring核心技术》第51章-深度解析@ModelAttribute注解.md",
                 "springmvc/2023-04-19-《Spring核心技术》第52章-深度解析@ExceptionHandler注解.md",
+                "springmvc/2023-04-20-《Spring核心技术》第53章-深度解析@InitBinder注解.md",
             ]
         },
         {
