@@ -3,7 +3,7 @@ title: 【付费】第53章：深度解析@InitBinder注解
 pay: https://articles.zsxq.com/id_qcwj4wrgz6vo.html
 ---
 
-# 《Spring核心技术》第53章：深度解析@InitBinder注解
+# 《Spring核心技术》第53章-增强控制器方法：深度解析@InitBinder注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
