@@ -531,6 +531,7 @@
 * [《Spring核心技术》第52章：深度解析@ExceptionHandler注解](https://articles.zsxq.com/id_0zdvz0bk7zgn.html)
 * [《Spring核心技术》第53章：深度解析@InitBinder注解](https://articles.zsxq.com/id_qcwj4wrgz6vo.html)
 * [《Spring核心技术》第54章：深度解析@ControllerAdvice注解](https://articles.zsxq.com/id_l1q55mu4o9ou.html)
+* [《Spring核心技术》第55章：深度解析@RequestAttribute注解](https://articles.zsxq.com/id_8rw7tq1wuzom.html)
 
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
