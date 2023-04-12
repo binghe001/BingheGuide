@@ -533,6 +533,7 @@
 * [《Spring核心技术》第54章：深度解析@ControllerAdvice注解](https://articles.zsxq.com/id_l1q55mu4o9ou.html)
 * [《Spring核心技术》第55章：深度解析@RequestAttribute注解](https://articles.zsxq.com/id_8rw7tq1wuzom.html)
 * [《Spring核心技术》第56章：深度解析@SessionAttribute注解](https://articles.zsxq.com/id_m3ssh7jnnpcg.html)
+* [《Spring核心技术》第57章：深度解析@SessionAttributes注解](https://articles.zsxq.com/id_wnv2f8smr4c6.html)
 
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
