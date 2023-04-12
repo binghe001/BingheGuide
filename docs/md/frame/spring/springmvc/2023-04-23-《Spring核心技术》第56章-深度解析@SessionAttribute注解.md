@@ -3,7 +3,7 @@ title: 【付费】第56章：深度解析@SessionAttribute注解
 pay: https://articles.zsxq.com/id_m3ssh7jnnpcg.html
 ---
 
-# 《Spring核心技术》第56章：深度解析@SessionAttribute注解
+# 《Spring核心技术》第56章-会话数据：深度解析@SessionAttribute注解
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
