@@ -847,6 +847,7 @@ function getBarFrameSpring() {
                 "springmvc/2023-04-23-《Spring核心技术》第56章-深度解析@SessionAttribute注解.md",
                 "springmvc/2023-04-24-《Spring核心技术》第57章-深度解析@SessionAttributes注解.md",
                 "springmvc/2023-04-25-《Spring核心技术》第58章-深度解析@ResponseBody注解.md",
+                "springmvc/2023-04-26-《Spring核心技术》第59章-深度解析@CrossOrigin注解.md",
             ]
         },
         {
