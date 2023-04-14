@@ -33,7 +33,6 @@
 - [《MySQL核心技术》](https://mp.weixin.qq.com/s/jd7vTSZ7wqj3BMLRlhn3DA) —— 全书共19章、16万字，涵盖了MySQL核心基础知识的方方面面内容，非常适合MySQL数据库初学者入门，也适合MySQL技术高手系统化的梳理MySQL基础知识，及时查漏补缺，全网累计下载5万+。
 - [《Spring IOC核心技术》](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg) —— 全书共27章，19万字，涵盖Spring IOC最核心的技术，全网累计下载8万+。
 
-## [其他PDF电子书](./bhbook.md)
 
 ## 联系我
 
