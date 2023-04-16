@@ -228,7 +228,12 @@
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
 
-### 🔥🔥🔥 RPC手撸专栏 持续更新中...
+### 💥 Seckill秒杀系统
+
+*[《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)
+
+
+### 🔥🔥🔥 RPC手撸专栏
 
 #### RPC框架介绍
 * [《RPC手撸专栏》介绍：我一个人开发了“Dubbo”框架](https://mp.weixin.qq.com/s/WbDutwhnzoVhuqq6tYmGHg)

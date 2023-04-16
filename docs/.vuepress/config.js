@@ -398,6 +398,15 @@ module.exports = {
                         text: '🔥项目实战',
                         items: [
                             {
+                                text: "高并发项目",
+                                items:[
+                                    {
+                                        text: '🔥《Seckill秒杀系统》',
+                                        link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: "微服务项目",
                                 items:[
                                     {
@@ -610,6 +619,7 @@ module.exports = {
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
                     "/md/project/": getBarPeoject(),
+                    "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
                     "/md/hack/horse/": getBarHackHorse(),
@@ -1565,6 +1575,19 @@ function getBarPeoject() {
             sidebarDepth: 0,
             children: [
                 "default.md",
+            ]
+        }
+    ]
+}
+// getBarPeojectSeckill
+function getBarPeojectSeckill() {
+    return [
+        {
+            title: "专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md",
             ]
         }
     ]
