@@ -618,7 +618,6 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
-                    /*"/md/project/": getBarPeoject(),*/
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
@@ -1566,19 +1565,6 @@ function getBarMiddlewareThreadpool() {
     ]
 }
 
-// getBarPeoject
-function getBarPeoject() {
-    return [
-        {
-            title: "项目实战",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "default.md",
-            ]
-        }
-    ]
-}
 // getBarPeojectSeckill
 function getBarPeojectSeckill() {
     return [
