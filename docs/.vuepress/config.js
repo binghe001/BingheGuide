@@ -618,7 +618,7 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
-                    "/md/project/": getBarPeoject(),
+                    /*"/md/project/": getBarPeoject(),*/
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
