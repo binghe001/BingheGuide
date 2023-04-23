@@ -1575,6 +1575,14 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md",
             ]
+        },
+        {
+            title: "秒杀基础",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-04-23-《Seckill秒杀系统》第1章-从多个角度聊聊为何要研发秒杀系统.md",
+            ]
         }
     ]
 }

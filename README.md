@@ -230,7 +230,9 @@
 
 ### 💥 Seckill秒杀系统
 
-*[《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)
+* [《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)
+* [《Seckill秒杀系统》第1章：从多个角度聊聊为何要学习秒杀系统](https://articles.zsxq.com/id_568x6zv029p0.html)
+
 
 
 ### 🔥🔥🔥 RPC手撸专栏
