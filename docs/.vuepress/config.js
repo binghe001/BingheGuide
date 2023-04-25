@@ -497,7 +497,7 @@ module.exports = {
                     },
                     {
                         text: '🌍知识星球',
-                        link: '/md/starball/2023-04-04-星球周年庆福利.md'
+                        link: '/md/zsxq/introduce.md'
                     },
                     /*{
                         text: '🔥🔥🔥冰河指南',
@@ -640,7 +640,7 @@ module.exports = {
                     "/md/core/spring/aop/": getBarSpringAop(),
                     "/md/core/mysql/base/": getMySQLBase(),
                     "/md/core/jvm/": getBarCoreJVM(),
-                    "/md/starball/": getStarBall(),
+                    "/md/zsxq/": getStarBall(),
                     "/md/all/": getBarAll(),
                 }
             }
@@ -2109,10 +2109,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-04-04-星球周年庆福利.md",
-                "2023-01-01-2023星球新年规划.md",
-                "2023-02-14-冰河指南社区正式启动运营.md",
-                "2022-12-24-硬核星球-即将涨价.md"
+                "introduce.md",
             ]
         }
     ]
