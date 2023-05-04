@@ -1,7 +1,7 @@
 # This file is a template, and might need editing before it works on your project.
 ---
 # image
-image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
+#image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
 
 #image: vuepress:latest
 
@@ -13,6 +13,8 @@ image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
  
 pages:
   script:
+    - curl --silent --location https://rpm.nodesource.com/setup_16.x | bash -
+    - yum -y install nodejs
     - export NODE_OPTIONS=--max_old_space_size=4096
     - npm config set registry https://registry.npm.taobao.org
     - npm install -g vuepress
