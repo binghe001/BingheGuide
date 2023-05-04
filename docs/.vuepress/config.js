@@ -395,13 +395,13 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🔥项目实战',
+                        text: '💥项目实战',
                         items: [
                             {
                                 text: "高并发项目",
                                 items:[
                                     {
-                                        text: '🔥《Seckill秒杀系统》',
+                                        text: '💥《Seckill秒杀系统》',
                                         link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
                                     }
                                 ]
@@ -410,7 +410,7 @@ module.exports = {
                                 text: "微服务项目",
                                 items:[
                                     {
-                                        text: '🔥SpringCloud Alibaba实战',
+                                        text: '💥SpringCloud Alibaba实战',
                                         link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                     }
                                 ]
@@ -419,9 +419,9 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '🔥《RPC手撸专栏》',
+                                        text: '💥《RPC手撸专栏》',
                                         link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
-                                    },
+                                    }/*,
                                     {
                                         text: '《字节码编程》',
                                         link: '/md/middleware/bytecode/2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md'
@@ -437,7 +437,7 @@ module.exports = {
                                     {
                                         text: '《开源项目》',
                                         link: '/md/middleware/independent/default.md'
-                                    }
+                                    }*/
                                 ]
                             }
                         ]
@@ -1582,6 +1582,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-04-23-《Seckill秒杀系统》第1章-从多个角度聊聊为何要研发秒杀系统.md",
+                "2023-05-04-《Seckill秒杀系统》第2章-秒杀系统的目标与挑战.md",
             ]
         }
     ]
