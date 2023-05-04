@@ -2,6 +2,7 @@
 ---
 # image
 #image: swr.cn-north-4.myhuaweicloud.com/codechina/vuepress:latest
+
 #image: vuepress:latest
 
 #before_script:
