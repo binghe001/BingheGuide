@@ -14,9 +14,8 @@
 pages:
   script:
     - apt update
-    - apt install curl -y
-    - apt install sudo -y
-    - curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    - apt-get install curl sudo dirmngr apt-transport-https lsb-release ca-certificates -y
+    - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     - apt install nodejs
     - export NODE_OPTIONS=--max_old_space_size=4096
     - npm config set registry https://registry.npm.taobao.org
