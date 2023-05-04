@@ -210,6 +210,11 @@
 
 ### 新书介绍
 
+* [《深入理解高并发编程：JDK核心技术》-冰河新书上市](https://mp.weixin.qq.com/s/R4lqlbXpZsFTOUYALFWZUg)
+* [十年大促亿级流量并发编程总结与规划！](https://mp.weixin.qq.com/s/u5t88cAq1eWuoEzF9qZKMQ)
+* [听说B站和ChatGPT都被搞宕机了？](https://mp.weixin.qq.com/s/5ipbD7oKEHo5zvBrcWCxNQ)
+* [沉淀、成长、突破，下一本会是啥？](https://mp.weixin.qq.com/s/CfZHDlfR3g9kQtDyZfa9nw)
+* [我竟然买不起自己出版的书！！](https://mp.weixin.qq.com/s/sPn11eI1zeZyWwy_TqWHOg)
 * [多年亿级流量下的高并发经验总结，我毫无保留的写在了这本书中](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247502342&idx=1&sn=2fed57688d1f747dd1f167648b5f629d&chksm=cf567d07f821f411080fd0a91a8f6b0e93467be15ccecbf1250a2b5c79064265a48d6def0e0c&token=2138570566&lang=zh_CN#rd)
 * [冰河最新出版的《深入理解高并发编程：核心原理与案例实战》到底讲了些啥？(视频为证)](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247502370&idx=1&sn=7ca6db495e46a89e707d6390f19eb7b4&chksm=cf567d23f821f4354fe2fa8f6f93502abdac9f3514c1f18ca672ad489c0b402a0b9e1254550c&token=2138570566&lang=zh_CN#rd)
 * [让大家久等了，冰河的《深入理解分布式事务：原理与实战》终于出版了！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497263&idx=1&sn=8228a795261b0a90a3f42322368616fc&chksm=cf56412ef821c8389584e9e608aa4d6515cf68e26758b9c578a8f60a796999fafc8686a6a425&token=1170633251&lang=zh_CN#rd)
@@ -227,6 +232,19 @@
 * [《海量数据处理与大数据技术实战》读者福利！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489115&idx=1&sn=464b0c26af355588db4efda150ca646f&chksm=cf55a15af822284c3e38e542cfb7824d027c947495316ebce26a64abdd27e65a8d10ecce3481&token=776659970&lang=zh_CN#rd)
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
+
+#### 星球专栏
+
+* [假期做了一项调研：结果合乎情理！](https://mp.weixin.qq.com/s/uoR0fcZ4TOb4PbUviYDMxw)
+* [五一假期，正式开卷（再送超大福利）](https://mp.weixin.qq.com/s/CcfLI9aH9RSSiK7dWVx4uA)
+* [冰河生日，限时5折！！](https://mp.weixin.qq.com/s/UlyCSK-tdfZIHRWNXKz2qA)
+* [自研的RPC零侵入完美整合了SpringCloud Alibaba，很有成就感！](https://mp.weixin.qq.com/s/RAvSWiT3UkYCPJHvIMdFUg)
+* [《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://mp.weixin.qq.com/s/BCjuU2Dyy685iASeM9xOpg)
+* [硬核 | 这应该是最强的从零开始手写RPC的专栏](https://mp.weixin.qq.com/s/6tWqrijUq7uAQjjWpmzK7g)
+* [一周年，太狠了！（文末有福利）](https://mp.weixin.qq.com/s/NF-FEwRwN7taH3J_8Oa3VQ)
+* [我做了件绝大部分人和机构做不到的事情！！](https://mp.weixin.qq.com/s/_S82AThasfupCCvWogwP6g)
+* [原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)
+* [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 
 ### 💥 Seckill秒杀系统
 
@@ -760,7 +778,9 @@
 * [面试必问 | 聊聊Kafka的消费模型？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498784&idx=1&sn=e645d07e2e4e3341a628f89f93d2e7d2&chksm=cf564b21f821c23746d15b4f4cca534ea6d83105ca3ce9eac48f7e8d11bb3e37d1194fb89a67&token=2138570566&lang=zh_CN#rd)
 * [面试必问 | 为何数据库连接池不采用IO多路复用？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499378&idx=1&sn=608f17c9da784e6863e7db36ab2be414&chksm=cf564973f821c065f1a3d772ab5d84d686830a07663d9b57539c37d356a8685f2dc5e4ee15b4&token=2138570566&lang=zh_CN#rd)
 * [面试必问 | 一个线程从创建到消亡要经历哪些阶段？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247500042&idx=1&sn=a6bb4c40af2edaa8f85ce72c3b562cb9&chksm=cf56760bf821ff1d065a11bbea690ccf6263ecf71b6066c4241323f953eab25a359ffec71718&token=2138570566&lang=zh_CN#rd)
-
+* [连续40场面试后的一点总结与心得（文末附面试真题](https://mp.weixin.qq.com/s/FLz3xixrOZ-mrbp23MwdWg)
+* [恭喜星球又一名小伙伴上岸大厂（附面试真题）](https://mp.weixin.qq.com/s/b1l2wDUIQDRkMwU830wYWA)
+* [面试现场 | 聊聊JVM性能调优？](https://mp.weixin.qq.com/s/w4kkd6lKtlS0Bv-S6Uptkw)
 
 ### 架构师进阶系列
 
@@ -1255,6 +1275,7 @@
 
 ### 程序人生
 
+* [冰河被邀请成为TVP腾讯云最具价值专家啦](https://mp.weixin.qq.com/s/k-t1CfLs70-wFu-3mZTuHA)
 * [2023，新的一年，新的规划！（文末有福利）](https://mp.weixin.qq.com/s/wGwpkZ4Rk4spfP5K8tseTQ)
 * [请给原作者和原创一点尊重！](https://mp.weixin.qq.com/s/1zSApb4QKN9dDbAj9661ZA)
 * [2022年，大部分人半途而废的原因](https://mp.weixin.qq.com/s/TQAKNnMI40oDEOV-KU6pVg)

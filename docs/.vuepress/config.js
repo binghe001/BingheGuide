@@ -133,12 +133,12 @@ module.exports = {
         // ['copyright', {
         //     noCopy: false, // 允许复制内容
         //     minLength: 100, // 如果长度超过 100 个字符
-        //     authorName: "https://bugstack.cn",
-        //     clipboardComponent: "请注明文章出处, [bugstack虫洞栈](https://bugstack.cn)"
+        //     authorName: "https://binghe.gitcode.host",
+        //     clipboardComponent: "请注明文章出处, [冰河技术](https://binghe.gitcode.host)"
         // }],
         // see: https://github.com/ekoeryanto/vuepress-plugin-sitemap
         // ['sitemap', {
-        //     hostname: 'https://bugstack.cn'
+        //     hostname: 'https://binghe.gitcode.host'
         // }],
         // see: https://github.com/IOriens/vuepress-plugin-baidu-autopush
         ['vuepress-plugin-baidu-autopush', {}],
