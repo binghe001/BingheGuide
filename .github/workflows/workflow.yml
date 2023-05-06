@@ -35,7 +35,7 @@ jobs:
       - name: Sync to Gitcode
         uses: wearerequired/git-mirror-action@master
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_GITCODE_PRIVATE_KEY }}
         with:
           source-repo: git@github.com:binghe001/binghe001.github.io.git
           destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
