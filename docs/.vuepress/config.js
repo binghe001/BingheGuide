@@ -1583,6 +1583,7 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-04-23-《Seckill秒杀系统》第1章-从多个角度聊聊为何要研发秒杀系统.md",
                 "2023-05-04-《Seckill秒杀系统》第2章-秒杀系统的目标与挑战.md",
+                "2023-05-05-《Seckill秒杀系统》第3章-秒杀系统高并发大流量的应对之道.md",
             ]
         }
     ]
