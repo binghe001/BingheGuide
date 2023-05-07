@@ -1,0 +1,16 @@
+# Full project: https://gitlab.com/pages/plain-html
+
+# 缺少image
+
+pages:
+  script:
+    - echo 'start...'
+    - mkdir -p public
+    - ls | grep -v public | xargs -I {} mv {} public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+  tags:
+    - pages
