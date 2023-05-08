@@ -1599,6 +1599,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-08-《Seckill秒杀系统》第4章-秒杀系统需求与流程梳理.md",
+                "2023-05-09-《Seckill秒杀系统》第5章-秒杀系统技术流程梳理.md",
             ]
         }
     ]
