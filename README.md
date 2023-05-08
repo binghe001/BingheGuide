@@ -252,6 +252,7 @@
 * [《Seckill秒杀系统》第1章：从多个角度聊聊为何要学习秒杀系统](https://articles.zsxq.com/id_568x6zv029p0.html)
 * [《Seckill秒杀系统》第2章：秒杀系统的目标与挑战](https://articles.zsxq.com/id_o8mpr6wa7ckz.html)
 * [《Seckill秒杀系统》第3章：秒杀系统高并发大流量的应对之道](https://articles.zsxq.com/id_twifx1gmaqp5.html)
+* [《Seckill秒杀系统》第4章：秒杀系统需求与流程梳理](https://articles.zsxq.com/id_dl7wxs3uea1x.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
