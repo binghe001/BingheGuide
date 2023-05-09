@@ -1601,6 +1601,14 @@ function getBarPeojectSeckill() {
                 "2023-05-08-《Seckill秒杀系统》第4章-秒杀系统需求与流程梳理.md",
                 "2023-05-09-《Seckill秒杀系统》第5章-秒杀系统技术流程梳理.md",
             ]
+        },
+        {
+            title: "架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-05-10-《Seckill秒杀系统》第6章-秒杀系统总体方案目标与架构设计.md",
+            ]
         }
     ]
 }
