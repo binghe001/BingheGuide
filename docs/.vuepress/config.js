@@ -1608,6 +1608,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-10-《Seckill秒杀系统》第6章-秒杀系统总体方案目标与架构设计.md",
+                "2023-05-11-《Seckill秒杀系统》第7章-秒杀系统基础环境搭建.md",
             ]
         }
     ]
