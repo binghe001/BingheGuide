@@ -258,6 +258,7 @@
 * [《Seckill秒杀系统》第7章：秒杀系统基础环境搭建](https://articles.zsxq.com/id_k0a488ltsvsc.html)
 * [《Seckill秒杀系统》第8章：秒杀系统研发环境搭建](https://articles.zsxq.com/id_0icjzih3iia1.html)
 * [《Seckill秒杀系统》第9章：秒杀系统数据模型设计](https://articles.zsxq.com/id_wienuttsbsl6.html)
+* [《Seckill秒杀系统》第10章：基于DDD快速搭建秒杀系统项目并测试](https://articles.zsxq.com/id_p5k53dcnsmot.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 

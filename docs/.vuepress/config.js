@@ -1608,10 +1608,18 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-10-《Seckill秒杀系统》第6章-秒杀系统总体方案目标与架构设计.md",
-                "2023-05-11-《Seckill秒杀系统》第7章-秒杀系统基础环境搭建.md",
-                "2023-05-12-《Seckill秒杀系统》第8章-秒杀系统研发环境搭建.md",
                 "2023-05-13-《Seckill秒杀系统》第9章-秒杀系统数据模型设计.md",
 
+            ]
+        },
+        {
+            title: "环境搭建",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-05-11-《Seckill秒杀系统》第7章-秒杀系统基础环境搭建.md",
+                "2023-05-12-《Seckill秒杀系统》第8章-秒杀系统研发环境搭建.md",
+                "2023-05-14-《Seckill秒杀系统》第10章-基于DDD快速搭建秒杀系统项目并测试.md"
             ]
         }
     ]
