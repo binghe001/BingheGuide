@@ -1621,6 +1621,14 @@ function getBarPeojectSeckill() {
                 "2023-05-12-《Seckill秒杀系统》第8章-秒杀系统研发环境搭建.md",
                 "2023-05-14-《Seckill秒杀系统》第10章-基于DDD快速搭建秒杀系统项目并测试.md"
             ]
+        },
+        {
+            title: "实现用户服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-05-15-《Seckill秒杀系统》第11章-用户登录流程的设计与实现.md",
+            ]
         }
     ]
 }
