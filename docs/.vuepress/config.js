@@ -1628,6 +1628,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-15-《Seckill秒杀系统》第11章-用户登录流程的设计与实现.md",
+                "2023-05-16-《Seckill秒杀系统》第12章-访问登录授权限制接口的流程设计与实现.md",
             ]
         }
     ]
