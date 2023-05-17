@@ -261,6 +261,7 @@
 * [《Seckill秒杀系统》第10章：基于DDD快速搭建秒杀系统项目并测试](https://articles.zsxq.com/id_p5k53dcnsmot.html)
 * [《Seckill秒杀系统》第11章：用户登录授权认证流程的设计与实现](https://articles.zsxq.com/id_6loz5zwuc8pd.html)
 * [《Seckill秒杀系统》第12章：访问登录授权限制接口的流程设计与实现](https://articles.zsxq.com/id_hnrl4fo6novx.html)
+* [《Seckill秒杀系统》第13章：秒杀活动业务流程与接口设计](https://articles.zsxq.com/id_wdfwtvodfnb4.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
