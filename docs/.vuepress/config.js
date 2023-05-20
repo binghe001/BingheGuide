@@ -1641,6 +1641,14 @@ function getBarPeojectSeckill() {
                 "2023-05-19-《Seckill秒杀系统》第15章-秒杀活动运营端业务开发.md",
                 "2023-05-20-《Seckill秒杀系统》第16章-秒杀活动用户端业务开发.md",
             ]
+        },
+        {
+            title: "秒杀商品设计与实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-05-21-《Seckill秒杀系统》第17章-秒杀商品业务流程与接口设计.md",
+            ]
         }
     ]
 }
