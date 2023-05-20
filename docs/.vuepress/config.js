@@ -1648,6 +1648,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-21-《Seckill秒杀系统》第17章-秒杀商品业务流程与接口设计.md",
+                "2023-05-22-《Seckill秒杀系统》第18章-秒杀商品后端业务与接口开发.md",
             ]
         }
     ]

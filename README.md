@@ -266,6 +266,7 @@
 * [《Seckill秒杀系统》第15章：秒杀活动运营端业务开发](https://articles.zsxq.com/id_rphbmq1x6ohj.html)
 * [《Seckill秒杀系统》第16章：秒杀活动用户端业务开发](https://articles.zsxq.com/id_b0r7cbkn1z5d.html)
 * [《Seckill秒杀系统》第17章：秒杀商品业务流程与接口设计](https://articles.zsxq.com/id_7xeu66680um9.html)
+* [《Seckill秒杀系统》第18章：秒杀商品后端业务与接口开发](https://articles.zsxq.com/id_oljjuu2nwrgd.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
