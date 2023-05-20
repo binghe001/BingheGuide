@@ -1649,6 +1649,7 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-05-21-《Seckill秒杀系统》第17章-秒杀商品业务流程与接口设计.md",
                 "2023-05-22-《Seckill秒杀系统》第18章-秒杀商品后端业务与接口开发.md",
+                "2023-05-23-《Seckill秒杀系统》第19章-秒杀商品运营端业务开发.md",
             ]
         }
     ]
