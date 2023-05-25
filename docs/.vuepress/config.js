@@ -316,12 +316,8 @@ module.exports = {
                         text: '分布式',
                         items: [
                             {
-                                text: '分布式事务', items: [
-                                    {
-                                        text: '连载视频',
-                                        link: '/md/distributed/transaction/transaction-video.md'
-                                    }
-                                ]
+                                text: '分布式事务',
+                                link: '/md/distributed/transaction/transaction-video.md'
                             }
 
                             /*{
@@ -627,6 +623,7 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
+                    "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
@@ -1117,6 +1114,20 @@ function getBarMiddlewareByteCode() {
                 "2022-04-11-001-工作多年的你依然重复做着CRUD-是否接触过这种技术.md",
                 "2022-04-11-002-使用Javassist动态生成HelloWorld.md",
                 "2022-04-11-003-使用Javassist生成JavaBean.md",
+            ]
+        }
+    ]
+}
+
+// getBarDistributedTransaction
+function getBarDistributedTransaction() {
+    return [
+        {
+            title: "连载视频",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "transaction-video.md",
             ]
         }
     ]
