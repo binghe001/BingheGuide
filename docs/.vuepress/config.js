@@ -317,7 +317,7 @@ module.exports = {
                         items: [
                             {
                                 text: '分布式事务',
-                                link: '/md/distributed/transaction/transaction-video.md'
+                                link: '/md/distributed/transaction/transaction-video-001.md'
                             }
 
                             /*{
@@ -1127,7 +1127,23 @@ function getBarDistributedTransaction() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "transaction-video.md",
+                "transaction-video-001.md",
+                "transaction-video-002.md",
+                "transaction-video-003.md",
+                "transaction-video-004.md",
+                "transaction-video-005.md",
+                "transaction-video-006.md",
+                "transaction-video-007.md",
+                "transaction-video-008.md",
+                "transaction-video-009.md",
+                "transaction-video-010.md",
+                "transaction-video-011.md",
+                "transaction-video-012.md",
+                "transaction-video-013.md",
+                "transaction-video-014.md",
+                "transaction-video-015.md",
+                "transaction-video-016.md",
+                "transaction-video-017.md",
             ]
         }
     ]
