@@ -316,8 +316,12 @@ module.exports = {
                         text: '分布式',
                         items: [
                             {
-                                text: '分布式事务',
-                                link: '/md/distributed/transaction/transaction-video-001.md'
+                                text: '分布式事务',items: [
+                                    {
+                                        text: '💥连载视频',
+                                        link: '/md/distributed/transaction/transaction-video-001.md'
+                                    }
+                                ]
                             }
 
                             /*{
