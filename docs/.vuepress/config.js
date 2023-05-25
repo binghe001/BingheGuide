@@ -1663,6 +1663,14 @@ function getBarPeojectSeckill() {
                 "2023-05-27-《Seckill秒杀系统》第23章-秒杀订单用户端业务开发.md",
                 "2023-05-28-《Seckill秒杀系统》第24章-秒杀订单运营端业务开发.md",
             ]
+        },
+        {
+            title: "经典问题重现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-05-29-《Seckill秒杀系统》第25章-重现刷单流量问题.md",
+            ]
         }
     ]
 }
