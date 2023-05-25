@@ -316,6 +316,15 @@ module.exports = {
                         text: '分布式',
                         items: [
                             {
+                                text: '分布式事务', items: [
+                                    {
+                                        text: '连载视频',
+                                        link: '/md/distributed/transaction/transaction-video.md'
+                                    }
+                                ]
+                            }
+
+                            /*{
                                 text: '缓存技术', items: [
                                     {
                                         text: 'Redis',
@@ -378,7 +387,7 @@ module.exports = {
                                         link: '/md/distributed/es/default.md'
                                     }
                                 ]
-                            }
+                            }*/
                         ]
                     },
                     {
