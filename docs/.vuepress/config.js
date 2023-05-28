@@ -1711,6 +1711,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-05-29-《Seckill秒杀系统》第25章-重现刷单流量问题.md",
+                "2023-05-30-《Seckill秒杀系统》第26章-重现库存超卖问题.md"
             ]
         }
     ]
