@@ -275,6 +275,7 @@
 * [《Seckill秒杀系统》第24章：秒杀订单运营端业务开发](https://articles.zsxq.com/id_1tww82zwaj30.html)
 * [《Seckill秒杀系统》第25章：重现刷单流量问题](https://articles.zsxq.com/id_lpob0g9wq78k.html)
 * [《Seckill秒杀系统》第26章：重现库存超卖问题](https://articles.zsxq.com/id_iuwm7wxw65z1.html)
+* [《Seckill秒杀系统》第27章：秒杀系统混合型缓存设计场景与原则](https://articles.zsxq.com/id_vkg89cwmiplq.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
