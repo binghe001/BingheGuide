@@ -1720,6 +1720,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-06-02-《Seckill秒杀系统》第27章-秒杀系统混合型缓存设计场景与原则.md",
+                "2023-06-03-《Seckill秒杀系统》第28章-秒杀系统混合型缓存架构设计.md",
             ]
         }
     ]
