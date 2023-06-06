@@ -235,6 +235,7 @@
 
 #### 星球专栏
 
+* [一个人也许走的很快，但一群人走的更远！](https://mp.weixin.qq.com/s/tpwdPO0qtqwbInppIvgY9g)
 * [假期做了一项调研：结果合乎情理！](https://mp.weixin.qq.com/s/uoR0fcZ4TOb4PbUviYDMxw)
 * [五一假期，正式开卷（再送超大福利）](https://mp.weixin.qq.com/s/CcfLI9aH9RSSiK7dWVx4uA)
 * [冰河生日，限时5折！！](https://mp.weixin.qq.com/s/UlyCSK-tdfZIHRWNXKz2qA)
@@ -507,6 +508,7 @@
 
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
+* [用过来人的身份告诉你为何大厂都要自研RPC？](https://mp.weixin.qq.com/s/7DkT5hWw8XHqqWV3JkX7pg)
 
 ### 🔥🔥🔥 Spring核心技术
 
@@ -595,6 +597,8 @@
 
 ### 🔥🔥🔥 精通高并发系列
 
+* [为何要学习Seckill分布式秒杀系统？它能为你带来什么？](https://mp.weixin.qq.com/s/H4l26h3qRV-05XiNZtQ7OA)
+* [秒杀系统瞬时百万并发流量的六种应对之道](https://mp.weixin.qq.com/s/Mj1DRFOmzThRV7CW6jWugg)
 * [🔥🔥🔥 《深入理解高并发编程（第2版）》八大篇章，共433页，打包发布！！](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ)
 * [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499147&idx=1&sn=757b83308cef7248a0d4549dd1ffa9a7&chksm=cf564a8af821c39c28c911e08b9367979a4cd868c2be64f93ef3571936b614416716f3ad6d9b&token=2138570566&lang=zh_CN#rd)
 * [面试高并发，凉了！！（全程高能，建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499600&idx=1&sn=cdb4b375676fc71357cbca6a30d9b93d&chksm=cf564851f821c147617db702fe4af386fe1e2acea1caa318ba33a3dd3878f538ae4ce74d3ea4&token=2138570566&lang=zh_CN#rd)
