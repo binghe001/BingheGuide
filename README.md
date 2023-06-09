@@ -281,6 +281,7 @@
 * [《Seckill秒杀系统》第29章：混合型缓存通用代码设计与实现](https://articles.zsxq.com/id_0wkdzau58v0j.html)
 * [《Seckill秒杀系统》第30章：分布式锁通用代码设计与实现](https://articles.zsxq.com/id_mqv8hetgxwd5.html)
 * [《Seckill秒杀系统》第31章：混合型缓存通用模型设计与实现](https://articles.zsxq.com/id_x5kditct932j.html)
+* [《Seckill秒杀系统》第32章：活动列表混合型缓存设计与实现](https://articles.zsxq.com/id_jup74sh3lvfv.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
