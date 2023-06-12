@@ -283,6 +283,7 @@
 * [《Seckill秒杀系统》第31章：混合型缓存通用模型设计与实现](https://articles.zsxq.com/id_x5kditct932j.html)
 * [《Seckill秒杀系统》第32章：活动列表混合型缓存设计与实现](https://articles.zsxq.com/id_jup74sh3lvfv.html)
 * [《Seckill秒杀系统》第33章：活动详情混合型缓存设计与实现](https://articles.zsxq.com/id_1rln216kx577.html)
+* [《Seckill秒杀系统》第34章：商品列表混合型缓存设计与实现](https://articles.zsxq.com/id_3juzlk9zuxch.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
