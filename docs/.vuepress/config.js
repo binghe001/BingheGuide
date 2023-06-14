@@ -1736,6 +1736,14 @@ function getBarPeojectSeckill() {
                 "2023-06-12-《Seckill秒杀系统》第34章-商品列表混合型缓存设计与实现.md",
                 "2023-06-13-《Seckill秒杀系统》第35章-商品详情混合型缓存设计与实现.md"
             ]
+        },
+        {
+            title: "缓存领域事件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-06-14-《Seckill秒杀系统》第36章-领域事件通用缓存模型设计.md"
+            ]
         }
     ]
 }
