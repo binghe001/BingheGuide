@@ -1742,7 +1742,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-06-14-《Seckill秒杀系统》第36章-领域事件通用缓存模型设计.md"
+                "2023-06-14-《Seckill秒杀系统》第36章-领域事件通用缓存模型设计.md",
+                "2023-06-15-《Seckill秒杀系统》第37章-秒杀活动监听缓存领域事件的设计与实现.md"
             ]
         }
     ]
