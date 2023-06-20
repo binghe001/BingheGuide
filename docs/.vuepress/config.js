@@ -1748,6 +1748,14 @@ function getBarPeojectSeckill() {
                 "2023-06-17-《Seckill秒杀系统》第39章-秒杀商品监听缓存领域事件的设计与实现.md",
                 "2023-06-19-《Seckill秒杀系统》第40章-秒杀商品发送缓存领域事件的设计与实现.md"
             ]
+        },
+        {
+            title: "订单领域事件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-06-20-《Seckill秒杀系统》第41章-秒杀订单监听领域事件的设计与实现.md"
+            ]
         }
     ]
 }
