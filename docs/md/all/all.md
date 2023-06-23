@@ -422,7 +422,7 @@ title: 冰河指南
 * [《RPC手撸专栏》第83章：服务消费者支持结果缓存](https://articles.zsxq.com/id_7nkgz2zgzpf9.html)
 * [《RPC手撸专栏》第83章-X：结果缓存阶段作业](https://t.zsxq.com/0aWyqturC)
 
-### 第二十篇：路由控制
+#### 第二十篇：路由控制
 * [《RPC手撸专栏》第84章：服务消费者直连某个服务提供者](https://articles.zsxq.com/id_loa4a96us7vr.html)
 * [《RPC手撸专栏》第85章：服务消费者直连多个服务提供者](https://articles.zsxq.com/id_2kfvhlwnzl76.html)
 * [《RPC手撸专栏》第85章-X：路由控制阶段作业](https://t.zsxq.com/0aEYXMVTS)
@@ -713,11 +713,6 @@ title: 冰河指南
 * [内存模型（八种操作+同步规则）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489468&idx=1&sn=d3f45ddb7405b36eaaadb45a4ee1672e&chksm=cf55a0bdf82229ab8f92282d836c0be4697ed7d0aacfc1fa3775db0cccd7089e187351b85d8d&token=776659970&lang=zh_CN#rd)
 * [如何安全的发布对象（含各种单例代码分析）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489467&idx=1&sn=47ae1d1de0468eb6b6f9a96691fe2a8c&chksm=cf55a0baf82229ac617384c100a4279b4107c6a6758e1001965f34df274c8bb27ce4c9b47ecf&token=776659970&lang=zh_CN#rd)
 
-### 手撸源码系列
-
-* [这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
-* [手撸一款属于自己的Maven插件，说干就干！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497660&idx=1&sn=fb74836a052e0433ce64db1fcc5c3524&chksm=cf5640bdf821c9ab369207fa39caede4af0c822754203b4431b7f190699495b77c9dba859e09&token=1170633251&lang=zh_CN#rd)
-
 
 ### 🔥🔥🔥 SA实战
 
@@ -795,6 +790,12 @@ title: 冰河指南
 * [《MySQL核心知识》第16章：日志](https://mp.weixin.qq.com/s/u_j7eOYm7GlwCl2qiFC8vA)
 * [《MySQL核心知识》第17章：性能优化](https://mp.weixin.qq.com/s/FS0plgV5a4S-g8AyGnzlww)
 * [《MySQL核心知识》第18章：复制](https://mp.weixin.qq.com/s/3AnCll6wopLgF7pwnvk27Q)
+
+
+### 手撸源码系列
+
+* [这次我设计了一款TPS百万级别的分布式、高性能、可扩展的RPC框架](https://mp.weixin.qq.com/s/5HOUg49X0xQmkQjMiWnaIg)
+* [手撸一款属于自己的Maven插件，说干就干！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497660&idx=1&sn=fb74836a052e0433ce64db1fcc5c3524&chksm=cf5640bdf821c9ab369207fa39caede4af0c822754203b4431b7f190699495b77c9dba859e09&token=1170633251&lang=zh_CN#rd)
 
 ### 字节码编程
 
