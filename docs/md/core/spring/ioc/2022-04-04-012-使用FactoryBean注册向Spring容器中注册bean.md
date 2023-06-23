@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【String注解驱动开发】面试官让我说说：如何使用FactoryBean向Spring容器中注册bean？
+title: 第11章：使用FactoryBean向Spring容器中注册bean
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在前面的文章中，我们知道可以通过多种方式向Spring容器中注册bean。可以使用@Configuration结合@Bean向Spring容器中注册bean；可以按照条件向Spring容器中注册bean；可以使用@Import向容器中快速导入bean对象；可以在@Import中使用ImportBeanDefinitionRegistrar向容器中注册bean。
 lock: need
 ---
 
-# 【String注解驱动开发】面试官让我说说：如何使用FactoryBean向Spring容器中注册bean？
+# 《Spring注解驱动开发》第11章：使用FactoryBean向Spring容器中注册bean
 
 ## 写在前面
 

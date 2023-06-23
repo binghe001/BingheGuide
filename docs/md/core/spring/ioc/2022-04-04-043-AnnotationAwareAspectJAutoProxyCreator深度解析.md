@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: AnnotationAwareAspectJAutoProxyCreator深度解析
+title: 第42章：AnnotationAwareAspectJAutoProxyCreator深度解析
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在《Spring注解驱动开发》系列中的《[Spring中这么重要的AnnotationAwareAspectJAutoProxyCreator类是干嘛的？](https://binghe.blog.csdn.net/article/details/114650073)》一文中，我们简单分析了AnnotationAwareAspectJAutoProxyCreator类的作用，接下来，我们就以debug的方式来深入分析AnnotationAwareAspectJAutoProxyCreator的执行流程。同样的，我们还是以debug的形式来分析AnnotationAwareAspectJAutoProxyCreator类的执行流程，在`io.mykit.spring.plugins.register.config`包下创建AopConfig类，然后在AopConfig类中创建mathHandler()方法，如下所示。
 lock: need
 ---
 
-# AnnotationAwareAspectJAutoProxyCreator深度解析
+# 《Spring注解驱动开发》第42章：AnnotationAwareAspectJAutoProxyCreator深度解析
 
 **大家好，我是冰河~~**
 

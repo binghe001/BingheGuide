@@ -649,7 +649,7 @@ module.exports = {
 // Java
 function getBarJava() {
     return [
-        {
+        /*{
             title: "Java基础",
             collapsable: false,
             sidebarDepth: 0,
@@ -672,7 +672,7 @@ function getBarJava() {
             children: [
                 "senior/default.md",
             ]
-        },
+        },*/
         {
             title: "Java8新特性",
             collapsable: false,

@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】在@Import注解中使用ImportBeanDefinitionRegistrar向容器中注册bean
+title: 第10章：在@Import注解中使用ImportBeanDefinitionRegistrar向容器中注册bean
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在前面的文章中，我们学习了如何使用@Import注解向Spring容器中导入bean，可以使用@Import注解快速向容器中导入bean，小伙伴们可以参见《[【Spring注解驱动开发】使用@Import注解给容器中快速导入一个组件](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247484863&idx=1&sn=faca9edb10665d357089a290220ede2f&chksm=cee51a72f992936430364b018e07f062c2cb4bbe7111d0b615a1937215170976e5caf23a227b&token=1611686244&lang=zh_CN#rd)》。可以在@Import注解中使用ImportSelector接口导入bean，小伙伴们可以参见《[【Spring注解驱动开发】在@Import注解中使用ImportSelector接口导入bean](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247484870&idx=1&sn=a371224a8c2b9f70a41ff88976d6b0e6&chksm=cee51a0bf992931d3e39ddf70061ac8de713c817ec6561075a740eb18c7269ce66d50459dd58&token=1611686244&lang=zh_CN#rd)》一文。今天，我们就来说说，如何在@Import注解中使用ImportBeanDefinitionRegistrar向容器中注册bean。
 lock: need
 ---
 
-# 【Spring注解驱动开发】在@Import注解中使用ImportBeanDefinitionRegistrar向容器中注册bean
+# 《Spring注解驱动开发》第10章：在@Import注解中使用ImportBeanDefinitionRegistrar向容器中注册bean
 
 ## 写在前面
 

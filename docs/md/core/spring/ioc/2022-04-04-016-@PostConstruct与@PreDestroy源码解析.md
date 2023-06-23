@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】@PostConstruct与@PreDestroy源码的执行过程
+title: 第15章：@PostConstruct与@PreDestroy源码的执行过程
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在前面的《[【String注解驱动开发】你真的了解@PostConstruct注解和@PreDestroy注解吗？](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247485015&idx=1&sn=d9b98808a43f72655bf2be51270c4587&chksm=cee5199af992908c45e3801904013f17714b79dc60f6272c699361f7af4681f7ce3548fb8abf&token=1099992343&lang=zh_CN#rd)》一文中，我们简单的介绍了@PostConstruct注解与@PreDestroy注解的用法，有不少小伙伴纷纷留言说：在Spring中，@PostConstruct注解与@PreDestroy注解标注的方法是在哪里调用的呀？相信大家应该都挺好奇的吧，那今天我们就来一起分析下@PostConstruct注解与@PreDestroy注解的执行过程吧！
 lock: need
 ---
 
-# 【Spring注解驱动开发】@PostConstruct与@PreDestroy源码的执行过程
+# 《Spring注解驱动开发》第15章：@PostConstruct与@PreDestroy源码的执行过程
 
 ## 写在前面
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】在@Import注解中使用ImportSelector接口导入bean
+title: 第08章：在@Import注解中使用ImportSelector接口导入bean
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在上一篇关于Spring的@Import注解的文章《[【Spring注解驱动开发】使用@Import注解给容器中快速导入一个组件](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247484863&idx=1&sn=faca9edb10665d357089a290220ede2f&chksm=cee51a72f992936430364b018e07f062c2cb4bbe7111d0b615a1937215170976e5caf23a227b&token=1557037040&lang=zh_CN#rd)》中，我们简单介绍了如何使用@Import注解给容器中快速导入一个组件，而我们知道，@Import注解总共包含三种使用方法，分别为：直接填class数组方式；ImportSelector方法（重点）；ImportBeanDefinitionRegistrar方式。那么，今天，我们就一起来学习关于@Import注解非常重要的第二种方式：ImportSelector方式。
 lock: need
 ---
-# 【Spring注解驱动开发】在@Import注解中使用ImportSelector接口导入bean
+# 《Spring注解驱动开发》第08章：在@Import注解中使用ImportSelector接口导入bean
 
 ## 写在前面
 

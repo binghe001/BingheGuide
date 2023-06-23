@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】使用@PropertySource加载配置文件，我只看这一篇！！
+title: 第23章：使用@PropertySource加载配置文件
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 很多小伙伴都在问：冰河，你的Spring专题更新完了吗？怎么感觉像是写了一半啊？我：没有更新完呀，整个专题预计会有70多篇。那怎么更新了一半就去写别的了呢？那是因为有很多其他的小伙伴在后台留言说：急需学习一些其他的技术，所以，临时调整的。放心，Spring专题会持续更新的！这不，今天，我们就继续更新Spring专题。不出意外的话，会一直持续更新完！！
 lock: need
 ---
 
-# 【Spring注解驱动开发】使用@PropertySource加载配置文件，我只看这一篇！！
+# 《Spring注解驱动开发》第23章：使用@PropertySource加载配置文件
 
 ## 写在前面
 

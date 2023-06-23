@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【String注解驱动开发】面试官再问你BeanPostProcessor的执行流程，就把这篇文章甩给他！
+title: 第18章：BeanPostProcessor的执行流程
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在前面的文章中，我们讲述了BeanPostProcessor的postProcessBeforeInitialization()方法和postProcessAfterInitialization()方法在bean初始化的前后调用，我们可以自定义类来实现BeanPostProcessor接口，并在postProcessBeforeInitialization()方法和postProcessAfterInitialization()方法中指定我们自定义的逻辑。今天，我们来一起探讨下eanPostProcessor底层原理。
 lock: need
 ---
 
-# 【String注解驱动开发】面试官再问你BeanPostProcessor的执行流程，就把这篇文章甩给他！
+# 《String注解驱动开发》第18章：BeanPostProcessor的执行流程
 
 ## 写在前面
 

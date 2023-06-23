@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】BeanPostProcessor后置处理器浅析
+title: 第21章：BeanPostProcessor后置处理器浅析
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 有些小伙伴问我，学习Spring是不是不用学习到这么细节的程度啊？感觉这些细节的部分在实际工作中使用不到啊，我到底需不需要学习到这么细节的程度呢？我的答案是：有必要学习到这么细节的程度，而且是有机会、有条件一定要学！吃透Spring的原理和源码！往往拉开人与人之间差距的就是这些细节的部分，当前只要是使用Java技术栈开发的Web项目，几乎都会使用Spring框架。而且目前各招聘网站上对于Java开发的要求几乎清一色的都是熟悉或者精通Spring。所以，你，很有必要学习Spring的细节知识点。
 lock: need
 ---
 
-# 【Spring注解驱动开发】BeanPostProcessor后置处理器浅析
+# 《Spring注解驱动开发》第21章：BeanPostProcessor后置处理器浅析
 
 ## 写在前面
 

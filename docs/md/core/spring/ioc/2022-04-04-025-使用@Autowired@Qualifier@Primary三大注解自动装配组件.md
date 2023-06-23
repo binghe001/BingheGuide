@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】使用三大注解自动装配组件
+title: 第24章：使用三大注解自动装配组件
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 【Spring专题】停更一个多月，期间在更新其他专题的内容，不少小伙伴纷纷留言说：冰河，你【Spring专题】是不是停更了啊！其实并没有停更，只是中途有很多小伙伴留言说急需学习一些知识技能，以便于跳槽，哈哈，大家都懂得！所以，中途停更了一段时间，写了一些其他专题的文章。现在，继续更新【String专题】。
 lock: need
 ---
 
-# 【Spring注解驱动开发】使用三大注解自动装配组件
+# 《Spring注解驱动开发》第24章：使用三大注解自动装配组件
 
 ## 写在前面
 

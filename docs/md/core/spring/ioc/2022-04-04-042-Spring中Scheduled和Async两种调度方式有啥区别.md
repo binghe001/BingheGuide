@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: Spring中Scheduled和Async两种调度方式有啥区别？
+title: 第41章：Spring中Scheduled和Async两种调度方式
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 最近有小伙伴出去面试，回来跟我说：冰河，我去XXX公司面试，面试官竟然问了我一个关于Spring中Scheduled和Async调度的问题，我竟然没回答上来，你能不能写一篇关于这个问题的文章呢？我：可以，安排上！于是便有了这篇文章。
 lock: need
 ---
 
-# Spring中Scheduled和Async两种调度方式有啥区别？
+# 《Spring注解驱动开发》第41章：Spring中Scheduled和Async两种调度方式
 
 **大家好，我是冰河~~**
 

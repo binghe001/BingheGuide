@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】深入理解Spring的ImportSelector接口
+title: 第07章：深入理解Spring的ImportSelector接口
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在前面的文章中，我们知道了可以使用ImportSelector接口实现向Spring容器中导入bean，那ImportSelector接口是如何实现的呢，接下来，我们就一探究竟！
 lock: need
 ---
 
-# 【Spring注解驱动开发】深入理解Spring的ImportSelector接口
+# 《Spring注解驱动开发》第07章：深入理解Spring的ImportSelector接口
 
 ## 写在前面
 

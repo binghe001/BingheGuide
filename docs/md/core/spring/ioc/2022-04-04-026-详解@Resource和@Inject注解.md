@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】你还不会使用@Resource和@Inject注解？那你就out了！！
+title: 第25章：详解@Resource和@Inject注解
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 我在 **冰河技术** 微信公众号中发表的《[【Spring注解驱动开发】使用@Autowired@Qualifier@Primary三大注解自动装配组件，你会了吗？](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247486002&idx=1&sn=9e42ec6586363d6ab1e61beb14ee3322&chksm=cee515fff9929ce951a597f0cdb0bb04a615aef1287cac954645cdfd551518c0169350cd846e&token=1511192793&lang=zh_CN#rd)》一文中，介绍了如何使用@Autowired、@Qualifier和@Primary注解自动装配Spring组件。那除了这三个注解以外，还有没有其他的注解可以自动装配组件呢？那必须有啊！今天，我们就一起说说@Resource注解和@Inject注解。
 lock: need
 ---
 
-# 【Spring注解驱动开发】你还不会使用@Resource和@Inject注解？那你就out了！！
+# 《Spring注解驱动开发》第25章：详解@Resource和@Inject注解
 
 ## 写在前面
 

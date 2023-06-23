@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring】看了这篇Spring事务原理，我才知道我对Spring事务的误解有多深！
+title: 第28章：Spring事务原理
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 有很多小伙伴们留言说，冰河，你能不能写一篇关于Spring事务的文章呢？我：可以啊，安排上了！那还等什么呢？走起啊！！
 lock: need
 ---
 
-# 【Spring】看了这篇Spring事务原理，我才知道我对Spring事务的误解有多深！
+# 《Spring注解驱动开发》第28章：Spring事务原理
 
 ## 写在前面
 

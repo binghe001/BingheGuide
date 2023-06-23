@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】面试官：如何将Service注入到Servlet中？朋友又栽了！！
+title: 第09章：将Service注入到Servlet中
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 最近，一位读者出去面试前准备了很久，信心满满的去面试。没想到面试官的一个问题把他难住了。面试官的问题是这样的：如何使用Spring将Service注入到Servlet中呢？这位读者平时也是很努力的，看什么源码啊、多线程啊、高并发啊、设计模式啊等等。没想到却在一个很简单的问题上栽了跟头，这就说明学习知识要系统化，要有条理，切忌东学一点，西记一点，否则，到头来，啥也学不到。
 lock: need
 ---
 
-# 【Spring注解驱动开发】面试官：如何将Service注入到Servlet中？朋友又栽了！！
+# 《Spring注解驱动开发》第09章：将Service注入到Servlet中
 
 ## 写在前面
 

@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: 【Spring注解驱动开发】使用@ComponentScan自动扫描组件并指定扫描规则
+title: 第02章：使用@ComponentScan自动扫描组件并指定扫描规则
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 在实际项目中，我们更多的是使用Spring的包扫描功能对项目中的包进行扫描，凡是在指定的包或子包中的类上标注了@Repository、@Service、@Controller、@Component注解的类都会被扫描到，并将这个类注入到Spring容器中。Spring包扫描功能可以使用XML文件进行配置，也可以直接使用@ComponentScan注解进行设置，使用@ComponentScan注解进行设置比使用XML文件配置要简单的多。
 lock: need
 ---
 
-# 【Spring注解驱动开发】使用@ComponentScan自动扫描组件并指定扫描规则
+# 《Spring注解驱动开发》第02章：使用@ComponentScan自动扫描组件并指定扫描规则
 
 ## 写在前面
 

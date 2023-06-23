@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-spring-ioc
-title: Spring中这么重要的AnnotationAwareAspectJAutoProxyCreator类是干嘛的？
+title: 第40章：AnnotationAwareAspectJAutoProxyCreator类详解
 tagline: by 冰河
 tag: [spring.spring-ioc,binghe-spring-ioc]
 excerpt: 停更了很久的【Spring注解系列】专题，终于重新更新了，我们还是接着之前的文章继续往下更新。在《[【Spring注解驱动开发】二狗子让我给他讲讲@EnableAspectJAutoProxy注解](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489210&idx=1&sn=becc26b4b2d681007bfa52ce2448eed5&chksm=cf55a1bbf82228ada0bd72aec8670bf774918b7bbaa2613baa59d77008566400a75b7d5be6a9&token=464268589&lang=zh_CN#rd)》一文中，我们通过查看`@EnableAspectJAutoProxy` 注解的源码，如下所示。
 lock: need
 ---
 
-# Spring中这么重要的AnnotationAwareAspectJAutoProxyCreator类是干嘛的？
+# 《Spring注解驱动开发》第40章：AnnotationAwareAspectJAutoProxyCreator类详解
 
 **大家好，我是冰河~~**
 
