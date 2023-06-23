@@ -16,7 +16,7 @@ lock: need
 >
 > 关注 **冰河技术** 微信公众号，订阅更多技术干货！如果文章对你有所帮助，请不要吝惜你的点赞、在看、留言和转发，你的支持是我持续创作的最大动力！
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 注解说明
 

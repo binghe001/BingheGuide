@@ -14,7 +14,7 @@ lock: need
 
 > 在之前的文章中，我们介绍了如何使用@Bean注解指定初始化和销毁的方法，小伙伴们可以参见《[【Spring注解驱动开发】如何使用@Bean注解指定初始化和销毁的方法？看这一篇就够了！！](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247484985&idx=1&sn=bf7ec702113f433f6677d0e9f4f5ae7d&chksm=cee519f4f99290e2c509926a61a7f9604d8a358cd364a78d6de7929f45b3b2a84f57b93f8f87&token=1099992343&lang=zh_CN#rd)》，也介绍了使用InitializingBean和DisposableBean来处理bean的初始化和销毁，小伙伴们可以参见《[【Spring注解驱动开发】Spring中的InitializingBean和DisposableBean，你真的了解吗？](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247485001&idx=1&sn=251bd90d3b04f2bd56c9d24f9df39f81&chksm=cee51984f992909216b2ab3e723561776b5032393d30e6cdf99af1c4c08e8facb790ea16955e&token=1099992343&lang=zh_CN#rd)》。除此之外，在JDK中也提供了两个注解能够在bean加载到Spring容器之后执行和在bean销毁之前执行，今天，我们就一起来看看这两个注解的用法。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## @PostConstruct注解
 
@@ -140,7 +140,7 @@ Cat的destroy()方法...
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

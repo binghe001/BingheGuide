@@ -14,7 +14,7 @@ lock: need
 
 > 在前面的文章中，我们知道可以通过多种方式向Spring容器中注册bean。可以使用@Configuration结合@Bean向Spring容器中注册bean；可以按照条件向Spring容器中注册bean；可以使用@Import向容器中快速导入bean对象；可以在@Import中使用ImportBeanDefinitionRegistrar向容器中注册bean。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## FactoryBean概述
 
@@ -292,7 +292,7 @@ public interface BeanFactory {
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

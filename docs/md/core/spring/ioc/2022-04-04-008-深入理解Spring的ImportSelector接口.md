@@ -14,7 +14,7 @@ lock: need
 
 > 在前面的文章中，我们知道了可以使用ImportSelector接口实现向Spring容器中导入bean，那ImportSelector接口是如何实现的呢，接下来，我们就一探究竟！
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## ImportSelector接口概述
 
@@ -276,7 +276,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

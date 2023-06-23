@@ -14,7 +14,7 @@ lock: need
 
 > 有些小伙伴问我，学习Spring是不是不用学习到这么细节的程度啊？感觉这些细节的部分在实际工作中使用不到啊，我到底需不需要学习到这么细节的程度呢？我的答案是：有必要学习到这么细节的程度，而且是有机会、有条件一定要学！吃透Spring的原理和源码！往往拉开人与人之间差距的就是这些细节的部分，当前只要是使用Java技术栈开发的Web项目，几乎都会使用Spring框架。而且目前各招聘网站上对于Java开发的要求几乎清一色的都是熟悉或者精通Spring。所以，你，很有必要学习Spring的细节知识点。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## BeanPostProcessor后置处理器概述
 
@@ -169,7 +169,7 @@ public Object postProcessAfterInitialization(@Nullable Object bean, String beanN
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

@@ -14,7 +14,7 @@ lock: need
 
 > 最近，一位读者出去面试前准备了很久，信心满满的去面试。没想到面试官的一个问题把他难住了。面试官的问题是这样的：如何使用Spring将Service注入到Servlet中呢？这位读者平时也是很努力的，看什么源码啊、多线程啊、高并发啊、设计模式啊等等。没想到却在一个很简单的问题上栽了跟头，这就说明学习知识要系统化，要有条理，切忌东学一点，西记一点，否则，到头来，啥也学不到。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 如何实现将Service注入到Servlet中？？
 
@@ -186,7 +186,7 @@ public class LaunchActivityQueryServlet extends HttpServlet {
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

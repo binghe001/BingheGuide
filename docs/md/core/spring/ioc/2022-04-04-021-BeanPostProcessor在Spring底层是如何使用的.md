@@ -14,7 +14,7 @@ lock: need
 
 > 在《[【String注解驱动开发】面试官再问你BeanPostProcessor的执行流程，就把这篇文章甩给他！](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247485089&idx=1&sn=466c246a28440329d4bf3d82a2214229&chksm=cee5196cf992907a3aaa9e7bfef971328a16ceb525c8c80a34822e04955de3f423e1b8f90540&token=2101168258&lang=zh_CN#rd)》一文中，我们详细的介绍了BeanPostProcessor的执行流程。那么，BeanPostProcessor在Spring底层是如何使用的？今天，我们就一起来探讨下Spring的源码，一探BeanPostProcessor在Spring底层的使用情况。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## BeanPostProcessor接口
 
@@ -307,7 +307,7 @@ Spring为何能够自动处理标注了@Autowired注解的变量或方法，就�
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

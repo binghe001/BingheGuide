@@ -14,7 +14,7 @@ lock: need
 
 > 在之前的Spring版本中，我们只能通过写XML配置文件来定义我们的Bean，XML配置不仅繁琐，而且很容易出错，稍有不慎就会导致编写的应用程序各种报错，排查半天，发现是XML文件配置不对！另外，每个项目编写大量的XML文件来配置Spring，也大大增加了项目维护的复杂度，往往很多个项目的Spring XML文件的配置大部分是相同的，只有很少量的配置不同，这也造成了配置文件上的冗余。
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## Spring IOC和DI
 
@@ -235,7 +235,7 @@ person
 
 好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 

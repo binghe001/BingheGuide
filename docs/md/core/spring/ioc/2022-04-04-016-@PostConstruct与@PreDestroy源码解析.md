@@ -14,7 +14,7 @@ lock: need
 
 > 在前面的《[【String注解驱动开发】你真的了解@PostConstruct注解和@PreDestroy注解吗？](https://mp.weixin.qq.com/s?__biz=Mzg3MzE1NTIzNA==&mid=2247485015&idx=1&sn=d9b98808a43f72655bf2be51270c4587&chksm=cee5199af992908c45e3801904013f17714b79dc60f6272c699361f7af4681f7ce3548fb8abf&token=1099992343&lang=zh_CN#rd)》一文中，我们简单的介绍了@PostConstruct注解与@PreDestroy注解的用法，有不少小伙伴纷纷留言说：在Spring中，@PostConstruct注解与@PreDestroy注解标注的方法是在哪里调用的呀？相信大家应该都挺好奇的吧，那今天我们就来一起分析下@PostConstruct注解与@PreDestroy注解的执行过程吧！
 >
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 注解说明
 
@@ -171,7 +171,7 @@ public void destroy() {
 
 <font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
 
-> 项目工程源码已经提交到GitHub：[https://github.com/sunshinelyz/spring-annotation](https://github.com/sunshinelyz/spring-annotation)
+> 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 
 ## 写在最后
 
