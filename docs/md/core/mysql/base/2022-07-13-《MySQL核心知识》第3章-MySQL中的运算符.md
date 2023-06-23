@@ -1,14 +1,14 @@
 ---
 layout: post
 category: binghe-mysql-base
-title: 第3章：MySQL中的运算符
+title: 第03章：MySQL中的运算符
 tagline: by 冰河
 tag: [mysql,binghe-mysql-base]
-excerpt: 第3章：MySQL中的运算符
+excerpt: 第03章：MySQL中的运算符
 lock: need
 ---
 
-# 《MySQL核心知识》第3章：MySQL中的运算符
+# 《MySQL核心知识》第03章：MySQL中的运算符
 
 > 《RPC手撸专栏》已经在 **冰河技术** 知识星球开始更新了，冰河要带你从零开始手撸一个可在实际环境使用的高性能、可扩展的RPC框架，想要一起手撸RPC的小伙伴文末有加入星球的方式。
 
