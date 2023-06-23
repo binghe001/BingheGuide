@@ -193,7 +193,7 @@ module.exports = {
                         text: '导读', link: '/md/all/all.md'
                     },
                     {
-                        text: '核心技术',
+                        text: '面试面经',
                         items: [
                             {
                                 text: '面试必问系列',  items: [
@@ -202,58 +202,31 @@ module.exports = {
                                         link: '/md/interview/2022-04-18-001-面试必问-聊聊JVM性能调优.md'
                                     }
                                 ]
-                            },
-                            {
-                                text: 'Java核心技术',  items: [
-                                    {
-                                        text: 'Java基础',
-                                        link: '/md/core/java/basics/2022-04-28-全网最全正则表达式总结.md'
-                                    },
-                                    {
-                                        text: 'Java进阶',
-                                        link: '/md/core/java/advanced/default.md'
-                                    },
-                                    {
-                                        text: 'Java高级',
-                                        link: '/md/core/java/senior/default.md'
-                                    },
-                                    {
-                                        text: 'Java8新特性',
-                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'Spring核心技术', items: [
-                                    {
-                                        text: 'IOC核心技术',
-                                        link: '/md/core/spring/ioc/2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md'
-                                    },
-                                    {
-                                        text: 'AOP核心技术',
-                                        link: '/md/core/spring/aop/default.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'JVM核心技术', items: [
-                                    {
-                                        text: 'JVM调优技术',
-                                        link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'MySQL核心技术', items: [
-                                    {
-                                        text: 'MySQL基础篇',
-                                        link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
-                                    }
-                                ]
                             }
                         ]
                     },
                     {
+                        text: '核心技术',
+                        items: [
+                            {
+                                text: 'Java8新特性',
+                                link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                            },
+                            {
+                                text: 'IOC核心技术',
+                                link: '/md/core/spring/ioc/2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md'
+                            },
+                            {
+                                text: 'JVM调优技术',
+                                link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
+                            },
+                            {
+                                text: 'MySQL基础篇',
+                                link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
+                            }
+                        ]
+                    },
+                    /*{
                         text: '性能调优',
                         items: [
                             {
@@ -273,7 +246,7 @@ module.exports = {
                                 link: '/md/performance/system/default.md'
                             }
                         ]
-                    },
+                    },*/
                     {
                         text: '并发编程',
                         items: [

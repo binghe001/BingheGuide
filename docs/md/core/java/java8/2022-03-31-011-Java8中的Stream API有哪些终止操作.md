@@ -1,7 +1,7 @@
 ---
 layout: post
 category: binghe-code-life
-title: Java8中的Stream API有哪些终止操作
+title: 第11章：Stream API的终止操作
 tagline: by 冰河
 tag: [java8,binghe-code-java8]
 excerpt: 如果你出去面试，面试官问了你关于Java8 Stream API的一些问题，比如：Java8中创建Stream流有哪几种方式？（可以参见：《[强大的Stream API，你了解吗](/md/java/java8/2022-03-31-009-强大的Stream API，你了解吗.md)》）Java8中的Stream API有哪些中间操作？（可以参见：《[Stream API有哪些中间操作,看完你也可以吊打面试官](/md/java/java8/2022-03-31-010-Stream API有哪些中间操作,看完你也可以吊打面试官.md)》）如果你都很好的回答了这些问题，那么，面试官可能又会问你：Java8中的Stream API有哪些终止操作呢？没错，这就是Java8中有关Stream API的灵魂三问！不要觉得是面试官在为难你，只有你掌握了这些细节，你就可以反过来吊打面试官了！
@@ -10,7 +10,7 @@ lock: need
 
 
 
-# Java8中的Stream API有哪些终止操作
+# 《Java8新特性》第11章：Stream API的终止操作
 
 ## 写在前面
 
