@@ -292,6 +292,7 @@
 * [《Seckill秒杀系统》第40章：秒杀商品发送缓存领域事件的设计与实现](https://articles.zsxq.com/id_05mkgmlxe4wa.html)
 * [《Seckill秒杀系统》第41章：秒杀订单监听领域事件的设计与实现](https://articles.zsxq.com/id_xrk938m6odxi.html)
 * [《Seckill秒杀系统》第42章：秒杀订单发送领域事件的设计与实现](https://articles.zsxq.com/id_lmgdiuerguce.html)
+* [《Seckill秒杀系统》第43章：秒杀扣减库存设计](https://articles.zsxq.com/id_ghzd1fwxws1l.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 

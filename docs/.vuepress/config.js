@@ -1730,6 +1730,14 @@ function getBarPeojectSeckill() {
                 "2023-06-20-《Seckill秒杀系统》第41章-秒杀订单监听领域事件的设计与实现.md",
                 "2023-06-21-《Seckill秒杀系统》第42章-秒杀订单发送领域事件的设计与实现.md"
             ]
+        },
+        {
+            title: "库存扣减防超卖设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-06-24-《Seckill秒杀系统》第43章-秒杀扣减库存设计.md",
+            ]
         }
     ]
 }
