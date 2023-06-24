@@ -8,7 +8,7 @@
 - :pencil: 博客：[binghe.gitcode.host](https://binghe.gitcode.host/) - 硬核文章，应有尽有！
 - :tv: 视频：[B站 冰河技术](https://space.bilibili.com/517638832)
 - :love_letter: 微信：[hacker_binghe](https://binghe.gitcode.host/images/personal/hacker_binghe.jpg) - 备注来意
-- :feet: 我的知识星球：[手写企业级中间件项目、大厂高并发秒杀系统、并发编程、性能调优、框架源码、分布式、微服务、1对1解答、答辩晋升技巧、定期直播](https://binghe.gitcode.host/md/starball/2023-01-01-2023%E6%98%9F%E7%90%83%E6%96%B0%E5%B9%B4%E8%A7%84%E5%88%92.html)
+- :feet: 我的知识星球：[手写企业级中间件项目、大厂高并发秒杀系统、并发编程、性能调优、框架源码、分布式、微服务、1对1解答、答辩晋升技巧、定期直播](https://binghe.gitcode.host/md/zsxq/introduce.html)
 
 ## 今年的努力 ✨
 
