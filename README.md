@@ -294,6 +294,7 @@
 * [《Seckill秒杀系统》第42章：秒杀订单发送领域事件的设计与实现](https://articles.zsxq.com/id_lmgdiuerguce.html)
 * [《Seckill秒杀系统》第43章：秒杀扣减库存设计](https://articles.zsxq.com/id_ghzd1fwxws1l.html)
 * [《Seckill秒杀系统》第44章：基于数据库设计并实现库存防超卖](https://articles.zsxq.com/id_26bhpj32qsht.html)
+* [《Seckill秒杀系统》第45章：基于分布式锁设计并实现库存防超卖](https://articles.zsxq.com/id_ugbgwqmpqf06.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 

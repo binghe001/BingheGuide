@@ -1737,7 +1737,8 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-06-24-《Seckill秒杀系统》第43章-秒杀扣减库存设计.md",
-                "2023-06-25-《Seckill秒杀系统》第44章-基于数据库设计并实现库存防超卖.md"
+                "2023-06-25-《Seckill秒杀系统》第44章-基于数据库设计并实现库存防超卖.md",
+                "2023-06-26-《Seckill秒杀系统》第45章-基于分布式锁设计并实现库存防超卖.md"
             ]
         }
     ]
