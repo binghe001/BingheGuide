@@ -1741,6 +1741,14 @@ function getBarPeojectSeckill() {
                 "2023-06-26-《Seckill秒杀系统》第45章-基于分布式锁设计并实现库存防超卖.md",
                 "2023-06-27-《Seckill秒杀系统》第46章-基于Lua脚本设计并实现库存防超卖.md"
             ]
+        },
+        {
+            title: "单体到微服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-04-《Seckill秒杀系统》第47章-从单体到微服务重构项目.md",
+            ]
         }
     ]
 }
