@@ -96,7 +96,7 @@
 
 加入星球 **[冰河技术](http://m6z.cn/6aeFbs)**，可以获得本站点所有学习内容的指导与帮助。如果你遇到不能独立解决的问题，也可以添加冰河的微信：**hacker_binghe**， 我们一起沟通交流。另外，在星球中不只能学到实用的硬核技术，还能学习**实战项目**！
 
-关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
+关注 [冰河技术](https://binghe.gitcode.host/images/personal/ice_wechat.jpg)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
     <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
@@ -297,6 +297,7 @@
 * [《Seckill秒杀系统》第45章：基于分布式锁设计并实现库存防超卖](https://articles.zsxq.com/id_ugbgwqmpqf06.html)
 * [《Seckill秒杀系统》第46章：基于Lua脚本设计并实现库存防超卖](https://articles.zsxq.com/id_488nwittqk50.html)
 * [《Seckill秒杀系统》第47章：从单体到微服务重构项目](https://articles.zsxq.com/id_3iqbf48v3onj.html)
+* [《Seckill秒杀系统》第48章：重现分布式事务问题](https://articles.zsxq.com/id_s3warwg7btxb.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 

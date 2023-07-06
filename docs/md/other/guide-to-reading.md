@@ -269,6 +269,7 @@ title: 冰河指南
 * [《Seckill秒杀系统》第45章：基于分布式锁设计并实现库存防超卖](https://articles.zsxq.com/id_ugbgwqmpqf06.html)
 * [《Seckill秒杀系统》第46章：基于Lua脚本设计并实现库存防超卖](https://articles.zsxq.com/id_488nwittqk50.html)
 * [《Seckill秒杀系统》第47章：从单体到微服务重构项目](https://articles.zsxq.com/id_3iqbf48v3onj.html)
+* [《Seckill秒杀系统》第48章：重现分布式事务问题](https://articles.zsxq.com/id_s3warwg7btxb.html)
 
 ### 🔥🔥🔥 RPC手撸专栏
 
