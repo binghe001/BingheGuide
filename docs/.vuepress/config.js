@@ -1749,6 +1749,7 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-07-04-《Seckill秒杀系统》第47章-从单体到微服务重构项目.md",
                 "2023-07-06-《Seckill秒杀系统》第48章-重现分布式事务问题.md",
+                "2023-07-08-《Seckill秒杀系统》第49章-基于TCC模型解决分布式事务问题.md"
             ]
         }
     ]
