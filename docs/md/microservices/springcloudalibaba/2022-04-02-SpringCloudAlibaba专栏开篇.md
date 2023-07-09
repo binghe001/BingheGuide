@@ -26,7 +26,7 @@ lock: need
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-02-001.jpg?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-02-001.jpg?raw=true" width="40%">
     <br/>
 </div>
 
