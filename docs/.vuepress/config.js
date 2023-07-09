@@ -193,7 +193,7 @@ module.exports = {
                         text: '导读', link: '/md/all/all.md'
                     },
                     {
-                        text: '面试面经',
+                        text: '踩坑经历',
                         items: [
                             {
                                 text: '面试必问系列',  items: [
@@ -209,20 +209,36 @@ module.exports = {
                         text: '核心技术',
                         items: [
                             {
-                                text: 'Java8新特性',
-                                link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                text: '架构与模式',  items: [
+                                    {
+                                        text: 'Java极简设计模式',
+                                        link: '/md/core/design/2023-07-09-《Java极简设计模式》第01章-单例模式.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'IOC核心技术',
-                                link: '/md/core/spring/ioc/2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md'
+                                text: 'Java核心技术',  items: [
+                                    {
+                                        text: 'Java8新特性',
+                                        link: '/md/core/java/java8/2022-03-31-001-Java8有哪些新特性呢？.md'
+                                    },
+                                    {
+                                        text: 'IOC核心技术',
+                                        link: '/md/core/spring/ioc/2022-04-04-001-聊聊Spring注解驱动开发那些事儿.md'
+                                    },
+                                    {
+                                        text: 'JVM调优技术',
+                                        link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'JVM调优技术',
-                                link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
-                            },
-                            {
-                                text: 'MySQL基础篇',
-                                link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
+                                text: '数据库核心技术',  items: [
+                                    {
+                                        text: 'MySQL基础篇',
+                                        link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -583,6 +599,7 @@ module.exports = {
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
+                    "/md/core/design/": getBarJavaDegign(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
                     "/md/frame/spring/": getBarFrameSpring(),
@@ -694,6 +711,20 @@ function getBarJava() {
                 "java8/2022-03-31-014-接口中的默认方法和静态方法，你都掌握了吗.md",
                 "java8/2022-03-31-015-关于Java8中的日期时间API，你需要掌握这些.md",
                 "java8/2022-03-31-016-重复注解与类型注解，你真的学会了吗.md",
+            ]
+        }
+    ]
+}
+
+// Java
+function getBarJavaDegign() {
+    return [
+        {
+            title: "Java极简设计模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-09-《Java极简设计模式》第01章-单例模式.md"
             ]
         }
     ]
