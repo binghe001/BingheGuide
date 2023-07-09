@@ -724,7 +724,8 @@ function getBarJavaDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-07-09-《Java极简设计模式》第01章-单例模式.md"
+                "2023-07-09-《Java极简设计模式》第01章-单例模式.md",
+                "2023-07-10-《Java极简设计模式》第02章-抽象工厂模式.md"
             ]
         }
     ]
