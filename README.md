@@ -299,6 +299,7 @@
 * [《Seckill秒杀系统》第47章：从单体到微服务重构项目](https://articles.zsxq.com/id_3iqbf48v3onj.html)
 * [《Seckill秒杀系统》第48章：重现分布式事务问题](https://articles.zsxq.com/id_s3warwg7btxb.html)
 * [《Seckill秒杀系统》第49章：基于TCC模型解决分布式事务问题](https://articles.zsxq.com/id_h91ffi7klc5w.html)
+* [《Seckill秒杀系统》第50章：基于AT模型解决分布式事务问题](https://articles.zsxq.com/id_csqoe1svaowx.html)
 
 
 ### 💥 Java极简设计模式
