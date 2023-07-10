@@ -300,7 +300,15 @@
 * [《Seckill秒杀系统》第48章：重现分布式事务问题](https://articles.zsxq.com/id_s3warwg7btxb.html)
 * [《Seckill秒杀系统》第49章：基于TCC模型解决分布式事务问题](https://articles.zsxq.com/id_h91ffi7klc5w.html)
 
-### 🔥🔥🔥 RPC手撸专栏
+
+### 💥 Java极简设计模式
+
+* [《Java极简设计模式》第01章：单例模式（Singleton）](https://binghe.gitcode.host/md/core/design/2023-07-09-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC01%E7%AB%A0-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第02章：抽象工厂模式(AbstractFactoty)](https://binghe.gitcode.host/md/core/design/2023-07-10-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC02%E7%AB%A0-%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第03章：工厂方法模式(FactoryMethod)](https://binghe.gitcode.host/md/core/design/2023-07-11-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC03%E7%AB%A0-%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html)
+
+
+### 💥 RPC手撸专栏
 
 #### RPC框架介绍
 * [《RPC手撸专栏》介绍：我一个人开发了“Dubbo”框架](https://mp.weixin.qq.com/s/WbDutwhnzoVhuqq6tYmGHg)
@@ -530,7 +538,7 @@
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
 * [用过来人的身份告诉你为何大厂都要自研RPC？](https://mp.weixin.qq.com/s/7DkT5hWw8XHqqWV3JkX7pg)
 
-### 🔥🔥🔥 Spring核心技术
+### 💥 Spring核心技术
 
 * [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
 
@@ -615,7 +623,7 @@
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
 
 
-### 🔥🔥🔥 精通高并发系列
+### 💥 精通高并发系列
 
 * [为何要学习Seckill分布式秒杀系统？它能为你带来什么？](https://mp.weixin.qq.com/s/H4l26h3qRV-05XiNZtQ7OA)
 * [秒杀系统瞬时百万并发流量的六种应对之道](https://mp.weixin.qq.com/s/Mj1DRFOmzThRV7CW6jWugg)
@@ -733,7 +741,7 @@
 * [手撸一款属于自己的Maven插件，说干就干！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497660&idx=1&sn=fb74836a052e0433ce64db1fcc5c3524&chksm=cf5640bdf821c9ab369207fa39caede4af0c822754203b4431b7f190699495b77c9dba859e09&token=1170633251&lang=zh_CN#rd)
 
 
-### 🔥🔥🔥 SA实战
+### 💥 SA实战
 
 #### 第一篇：专栏设计
 * [SA实战 ·《SpringCloud Alibaba实战》第1章-专栏设计：专栏开篇](https://mp.weixin.qq.com/s/1kS9RImTuL4hCnbxgfY1HQ)
@@ -788,7 +796,7 @@
 #### 整合bhrpc框架
 * [震撼！自己手写的100+工程的RPC框架成功整合了SpringCloud Alibaba](https://mp.weixin.qq.com/s/a2Y-qP6okUtkSKpxt8GzCg)
 
-### 🔥🔥🔥 MySQL核心知识
+### MySQL核心知识
 
 * [《MySQL核心知识手册》完结，共19章，16万字，打包发布！](https://mp.weixin.qq.com/s/jd7vTSZ7wqj3BMLRlhn3DA)
 * [《MySQL核心知识》第1章：开篇：专栏介绍](https://mp.weixin.qq.com/s/oJyL6xz7YYDTbMT8bpz-dw)
