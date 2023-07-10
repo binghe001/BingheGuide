@@ -307,7 +307,7 @@
 * [《Java极简设计模式》第01章：单例模式（Singleton）](https://binghe.gitcode.host/md/core/design/2023-07-09-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC01%E7%AB%A0-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第02章：抽象工厂模式(AbstractFactoty)](https://binghe.gitcode.host/md/core/design/2023-07-10-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC02%E7%AB%A0-%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第03章：工厂方法模式(FactoryMethod)](https://binghe.gitcode.host/md/core/design/2023-07-11-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC03%E7%AB%A0-%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html)
-
+* [《Java极简设计模式》第04章：建造者模式(Builder)](https://binghe.gitcode.host/md/core/design/2023-07-12-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC04%E7%AB%A0-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html)
 
 ### 💥 RPC手撸专栏
 

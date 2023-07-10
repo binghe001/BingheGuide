@@ -720,13 +720,14 @@ function getBarJava() {
 function getBarJavaDegign() {
     return [
         {
-            title: "Java极简设计模式",
+            title: "第一篇：创建型模式",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-07-09-《Java极简设计模式》第01章-单例模式.md",
                 "2023-07-10-《Java极简设计模式》第02章-抽象工厂模式.md",
-                "2023-07-11-《Java极简设计模式》第03章-工厂方法模式.md"
+                "2023-07-11-《Java极简设计模式》第03章-工厂方法模式.md",
+                "2023-07-12-《Java极简设计模式》第04章-建造者模式.md"
             ]
         }
     ]
