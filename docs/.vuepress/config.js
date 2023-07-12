@@ -730,6 +730,14 @@ function getBarJavaDegign() {
                 "2023-07-12-《Java极简设计模式》第04章-建造者模式.md",
                 "2023-07-13-《Java极简设计模式》第05章-原型模式.md"
             ]
+        },
+        {
+            title: "第二篇：结构型模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-14-《Java极简设计模式》第06章-适配器模式.md",
+            ]
         }
     ]
 }
