@@ -310,7 +310,7 @@
 * [《Java极简设计模式》第04章：建造者模式(Builder)](https://binghe.gitcode.host/md/core/design/2023-07-12-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC04%E7%AB%A0-%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第05章：原型模式（Prototype）](https://binghe.gitcode.host/md/core/design/2023-07-13-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC05%E7%AB%A0-%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第06章：适配器模式（Adapter）](https://binghe.gitcode.host/md/core/design/2023-07-14-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC06%E7%AB%A0-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
-
+* [《Java极简设计模式》第07章：装饰模式（Decorator）](https://binghe.gitcode.host/md/core/design/2023-07-15-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC07%E7%AB%A0-%E8%A3%85%E9%A5%B0%E6%A8%A1%E5%BC%8F.html)
 
 ### 💥 RPC手撸专栏
 
