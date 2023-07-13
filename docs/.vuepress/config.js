@@ -737,7 +737,8 @@ function getBarJavaDegign() {
             sidebarDepth: 0,
             children: [
                 "2023-07-14-《Java极简设计模式》第06章-适配器模式.md",
-                "2023-07-15-《Java极简设计模式》第07章-装饰模式.md"
+                "2023-07-15-《Java极简设计模式》第07章-装饰模式.md",
+                "2023-07-16-《Java极简设计模式》第08章-外观模式.md"
             ]
         }
     ]
