@@ -272,6 +272,7 @@ title: 冰河指南
 * [《Seckill秒杀系统》第48章：重现分布式事务问题](https://articles.zsxq.com/id_s3warwg7btxb.html)
 * [《Seckill秒杀系统》第49章：基于TCC模型解决分布式事务问题](https://articles.zsxq.com/id_h91ffi7klc5w.html)
 * [《Seckill秒杀系统》第50章：基于AT模型解决分布式事务问题](https://articles.zsxq.com/id_csqoe1svaowx.html)
+* [《Seckill秒杀系统》第51章：基于可靠消息最终一致性模型解决分布式事务问题](https://articles.zsxq.com/id_152lm5hnghsv.html)
 
 
 ### 💥 Java极简设计模式
