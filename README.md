@@ -315,6 +315,7 @@
 * [《Java极简设计模式》第08章：外观模式(Facade)](https://binghe.gitcode.host/md/core/design/2023-07-16-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC08%E7%AB%A0-%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第09章：代理模式(Proxy)](https://binghe.gitcode.host/md/core/design/2023-07-17-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC09%E7%AB%A0-%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第10章：桥接模式（Bridge）](https://binghe.gitcode.host/md/core/design/2023-07-18-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC10%E7%AB%A0-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第11章：组合模式（Composite）](https://binghe.gitcode.host/md/core/design/2023-07-19-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC11%E7%AB%A0-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html)
 
 
 ### 💥 RPC手撸专栏
