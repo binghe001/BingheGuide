@@ -317,6 +317,7 @@
 * [《Java极简设计模式》第10章：桥接模式（Bridge）](https://binghe.gitcode.host/md/core/design/2023-07-18-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC10%E7%AB%A0-%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第11章：组合模式（Composite）](https://binghe.gitcode.host/md/core/design/2023-07-19-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC11%E7%AB%A0-%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第12章：享元模式(Flyweight)](https://binghe.gitcode.host/md/core/design/2023-07-20-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC12%E7%AB%A0-%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第13章：责任链模式(COR)](https://binghe.gitcode.host/md/core/design/2023-07-21-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC13%E7%AB%A0-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.html)
 
 
 ### 💥 RPC手撸专栏
