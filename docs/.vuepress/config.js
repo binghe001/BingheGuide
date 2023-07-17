@@ -1811,6 +1811,14 @@ function getBarPeojectSeckill() {
                 "2023-07-10-《Seckill秒杀系统》第50章-基于AT模型解决分布式事务问题.md",
                 "2023-07-14-《Seckill秒杀系统》第51章-基于可靠消息最终一致性模型解决分布式事务问题.md"
             ]
+        },
+        {
+            title: "缓存数据一致性",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-17-《Seckill秒杀系统》第52章-重构秒杀活动异步事件后置处理器.md",
+            ]
         }
     ]
 }
