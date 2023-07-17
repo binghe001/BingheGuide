@@ -750,7 +750,8 @@ function getBarJavaDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-07-21-《Java极简设计模式》第13章-责任链模式.md"
+                "2023-07-21-《Java极简设计模式》第13章-责任链模式.md",
+                "2023-07-22-《Java极简设计模式》第14章-命令模式.md"
             ]
         }
     ]
