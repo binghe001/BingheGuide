@@ -1817,7 +1817,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-07-17-《Seckill秒杀系统》第52章-重构秒杀活动异步事件后置处理器.md",
+                "2023-07-17-《Seckill秒杀系统》第52章-零侵入重构秒杀活动异步事件后置处理器.md",
+                "2023-07-18-《Seckill秒杀系统》第53章-零侵入重构秒杀商品异步事件后置处理器.md"
             ]
         }
     ]
