@@ -303,6 +303,7 @@
 * [《Seckill秒杀系统》第51章：基于可靠消息最终一致性模型解决分布式事务问题](https://articles.zsxq.com/id_152lm5hnghsv.html)
 * [《Seckill秒杀系统》第52章：零侵入重构秒杀活动异步事件后置处理器](https://articles.zsxq.com/id_b9wvclbcbmzr.html)
 * [《Seckill秒杀系统》第53章：零侵入重构秒杀商品异步事件后置处理器](https://articles.zsxq.com/id_qf1qlhaahnba.html)
+* [《Seckill秒杀系统》第54章：零侵入重构秒杀订单异步事件后置处理器](https://articles.zsxq.com/id_kb9vj6ddu8f2.html)
 
 
 ### 💥 Java极简设计模式
