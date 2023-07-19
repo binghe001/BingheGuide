@@ -318,6 +318,7 @@ title: 冰河指南
 * [《Java极简设计模式》第13章：责任链模式(COR)](https://binghe.gitcode.host/md/core/design/2023-07-21-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC13%E7%AB%A0-%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第14章：命令模式(Command)](https://binghe.gitcode.host/md/core/design/2023-07-22-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC14%E7%AB%A0-%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第15章：解析器模式（Interpreter）](https://binghe.gitcode.host/md/core/design/2023-07-23-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC15%E7%AB%A0-%E8%A7%A3%E6%9E%90%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第16章：迭代器模式（Interator）](https://binghe.gitcode.host/md/core/design/2023-07-24-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC16%E7%AB%A0-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
 
 
 
