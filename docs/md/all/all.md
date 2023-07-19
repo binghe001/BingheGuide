@@ -320,6 +320,8 @@ title: 冰河指南
 * [《Java极简设计模式》第15章：解析器模式（Interpreter）](https://binghe.gitcode.host/md/core/design/2023-07-23-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC15%E7%AB%A0-%E8%A7%A3%E6%9E%90%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第16章：迭代器模式（Interator）](https://binghe.gitcode.host/md/core/design/2023-07-24-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC16%E7%AB%A0-%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第17章：中介者模式（Mediator）](https://binghe.gitcode.host/md/core/design/2023-07-25-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC17%E7%AB%A0-%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第18章：备忘录模式（Memento）](https://binghe.gitcode.host/md/core/design/2023-07-26-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC18%E7%AB%A0-%E5%A4%87%E5%BF%98%E5%BD%95%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第19章：观察者模式（Observer）](https://binghe.gitcode.host/md/core/design/2023-07-27-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC19%E7%AB%A0-%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html)
 
 
 
