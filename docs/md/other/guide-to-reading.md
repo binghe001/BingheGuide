@@ -301,6 +301,7 @@ title: 冰河指南
 * [《Java极简设计模式》第19章：观察者模式（Observer）](https://binghe.gitcode.host/md/core/design/2023-07-27-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC19%E7%AB%A0-%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第20章：状态模式（State）](https://binghe.gitcode.host/md/core/design/2023-07-28-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC20%E7%AB%A0-%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.html)
 * [《Java极简设计模式》第21章：策略模式（Strategy）](https://binghe.gitcode.host/md/core/design/2023-07-29-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC21%E7%AB%A0-%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html)
+* [《Java极简设计模式》第22章：模板方法（TemplateMethod）](https://binghe.gitcode.host/md/core/design/2023-07-30-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC22%E7%AB%A0-%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95.html)
 
 
 
