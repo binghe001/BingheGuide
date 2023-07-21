@@ -1828,8 +1828,15 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-07-17-《Seckill秒杀系统》第52章-零侵入重构秒杀活动异步事件后置处理器.md",
                 "2023-07-18-《Seckill秒杀系统》第53章-零侵入重构秒杀商品异步事件后置处理器.md",
-                "2023-07-19-《Seckill秒杀系统》第54章-零侵入重构秒杀订单异步事件后置处理器.md",
-
+                "2023-07-19-《Seckill秒杀系统》第54章-零侵入重构秒杀订单异步事件后置处理器.md"
+            ]
+        },
+        {
+            title: "异步化设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-20-《Seckill秒杀系统》第55章-异步化下单流程设计.md"
             ]
         }
     ]
