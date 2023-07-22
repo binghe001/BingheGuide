@@ -305,6 +305,7 @@
 * [《Seckill秒杀系统》第53章：零侵入重构秒杀商品异步事件后置处理器](https://articles.zsxq.com/id_qf1qlhaahnba.html)
 * [《Seckill秒杀系统》第54章：零侵入重构秒杀订单异步事件后置处理器](https://articles.zsxq.com/id_kb9vj6ddu8f2.html)
 * [《Seckill秒杀系统》第55章：异步化下单流程设计](https://articles.zsxq.com/id_fra3l7clibjr.html)
+* [《Seckill秒杀系统》第56章：异步化下单编码实现](https://articles.zsxq.com/id_x6ifoesa4hu1.html)
 
 
 ### 💥 Java极简设计模式

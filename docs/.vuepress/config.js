@@ -1836,7 +1836,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-07-20-《Seckill秒杀系统》第55章-异步化下单流程设计.md"
+                "2023-07-20-《Seckill秒杀系统》第55章-异步化下单流程设计.md",
+                "2023-07-22-《Seckill秒杀系统》第56章-异步化下单编码实现.md"
             ]
         }
     ]
