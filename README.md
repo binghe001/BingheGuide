@@ -307,6 +307,7 @@
 * [《Seckill秒杀系统》第55章：异步化下单流程设计](https://articles.zsxq.com/id_fra3l7clibjr.html)
 * [《Seckill秒杀系统》第56章：异步化下单编码实现](https://articles.zsxq.com/id_x6ifoesa4hu1.html)
 * [《Seckill秒杀系统》第57章：异步化扣减商品库存流程设计](https://articles.zsxq.com/id_v7kkzg2w6awz.html)
+* [《Seckill秒杀系统》第58章：异步化扣减商品库存编码实现](https://articles.zsxq.com/id_4tvlwq3wgdh7.html)
 
 
 ### 💥 Java极简设计模式
