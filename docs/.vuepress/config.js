@@ -239,6 +239,14 @@ module.exports = {
                                         link: '/md/core/mysql/base/2022-08-25-MySQL索引底层技术.md'
                                     }
                                 ]
+                            },
+                            {
+                                text: '服务器核心技术',  items: [
+                                    {
+                                        text: 'Nginx核心技术',
+                                        link: '/md/core/nginx/2023-07-23-《Nginx核心技术》第01章-安装Nginx.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -600,6 +608,7 @@ module.exports = {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
                     "/md/core/design/": getBarJavaDegign(),
+                    "/md/core/nginx/": getBarNginx(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
                     "/md/frame/spring/": getBarFrameSpring(),
@@ -761,6 +770,24 @@ function getBarJavaDegign() {
                 "2023-07-29-《Java极简设计模式》第21章-策略模式.md",
                 "2023-07-30-《Java极简设计模式》第22章-模板方法.md",
                 "2023-07-31-《Java极简设计模式》第23章-访问者模式.md"
+            ]
+        }
+    ]
+}
+
+// Nginx
+function getBarNginx() {
+    return [
+        {
+            title: "Nginx核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-23-《Nginx核心技术》第01章-安装Nginx.md",
+                "2023-07-24-《Nginx核心技术》第02章-获取客户端真实信息.md",
+                "2023-07-25-《Nginx核心技术》第03章-实现负载均衡等.md",
+                "2023-07-26-《Nginx核心技术》第04章-生成缩略图.md",
+                "2023-07-27-《Nginx核心技术》第05章-封禁IP和IP段.md"
             ]
         }
     ]
