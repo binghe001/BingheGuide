@@ -4,8 +4,8 @@
   "private": true,
 
   "scripts": {
-    "dev": "export NODE_OPTIONS=\"--max_old_space_size=4096 --openssl-legacy-provider\" && vuepress dev docs",
-    "build": "export NODE_OPTIONS=\"--max_old_space_size=4096 --openssl-legacy-provider\" && vuepress build docs"
+    "dev": "export NODE_OPTIONS=\"--max_old_space_size=8192 --openssl-legacy-provider\" && vuepress dev docs",
+    "build": "export NODE_OPTIONS=\"--max_old_space_size=8192 --openssl-legacy-provider\" && vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
