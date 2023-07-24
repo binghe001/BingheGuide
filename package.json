@@ -4,7 +4,6 @@
   "private": true,
 
   "scripts": {
-    "fix-memory-limit": "cross-env LIMIT=4096 increase-memory-limit",
     "dev": "export NODE_OPTIONS=\"--max_old_space_size=4096 --openssl-legacy-provider\" && vuepress dev docs",
     "build": "export NODE_OPTIONS=\"--max_old_space_size=4096 --openssl-legacy-provider\" && vuepress build docs"
   },
