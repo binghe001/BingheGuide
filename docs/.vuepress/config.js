@@ -800,8 +800,9 @@ function getBarNginx() {
                 "2023-08-06-《Nginx核心技术》第15章-使用Nginx抗高并发流量.md",
                 "2023-08-07-《Nginx核心技术》第16章-实现Nginx的高可用负载均衡.md",
                 "2023-08-08-《Nginx核心技术》第17章-使用自签CA配置HTTPS加密反向代理访问.md",
-                "2023-08-09-《Nginx核心技术》第18章-基于主从模式搭建Nginx+Keepalived双机热备环境.md",
+                "2023-08-09-《Nginx核心技术》第18章-基于主从模式搭建Nginx-Keepalived双机热备环境.md",
                 "2023-08-10-《Nginx核心技术》第19章-Nginx实现四层负载均衡.md"
+
             ]
         }
     ]
