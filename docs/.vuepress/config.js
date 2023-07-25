@@ -1883,6 +1883,14 @@ function getBarPeojectSeckill() {
                 "2023-07-23-《Seckill秒杀系统》第57章-异步化扣减商品库存流程设计.md",
                 "2023-07-24-《Seckill秒杀系统》第58章-异步化扣减商品库存编码实现.md"
             ]
+        },
+        {
+            title: "分库分表与分桶设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-07-25-《Seckill秒杀系统》第59章-商品库存分库分表与分桶设计.md"
+            ]
         }
     ]
 }
