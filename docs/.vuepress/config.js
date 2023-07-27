@@ -1889,7 +1889,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-07-25-《Seckill秒杀系统》第59章-商品库存分库分表与分桶设计.md"
+                "2023-07-25-《Seckill秒杀系统》第59章-商品库存分库分表与分桶设计.md",
+                "2023-07-27-《Seckill秒杀系统》第60章-商品库存分库分表与分桶编码实现.md"
             ]
         }
     ]
