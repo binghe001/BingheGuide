@@ -311,6 +311,7 @@
 * [《Seckill秒杀系统》第59章：商品库存分库分表与分桶设计](https://articles.zsxq.com/id_ww038en11sou.html)
 * [《Seckill秒杀系统》第60章：商品库存分库分表与分桶编码实现](https://articles.zsxq.com/id_u23r14prl43c.html)
 * [《Seckill秒杀系统》第61章：下单流程整合商品库存分桶](https://articles.zsxq.com/id_mfx8bc73rku0.html)
+* [《Seckill秒杀系统》第62章：订单分库分表设计](https://articles.zsxq.com/id_8e4hbh4rxzd7.html)
 
 ### 💥 Java极简设计模式
 
