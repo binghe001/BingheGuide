@@ -1896,6 +1896,14 @@ function getBarPeojectSeckill() {
                 "2023-08-01-《Seckill秒杀系统》第63章-订单分库分表编码实现.md",
                 "2023-08-02-《Seckill秒杀系统》第64章-下单流程整合订单分库分表.md"
             ]
+        },
+        {
+            title: "流量管控策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-03-《Seckill秒杀系统》第65章-秒杀系统流量隔离策略.md",
+            ]
         }
     ]
 }
