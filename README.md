@@ -316,6 +316,7 @@
 * [《Seckill秒杀系统》第64章：下单流程整合订单分库分表](https://articles.zsxq.com/id_b3c0udkhuzkx.html)
 * [《Seckill秒杀系统》第65章：秒杀系统流量隔离策略](https://articles.zsxq.com/id_pbddoqgimhun.html)
 * [《Seckill秒杀系统》第66章：秒杀系统规模限制策略](https://articles.zsxq.com/id_md0gzi4esxdt.html)
+* [《Seckill秒杀系统》第67章：预约系统需求梳理与架构设计](https://articles.zsxq.com/id_hwk8hpcndk2a.html)
 
 ### 💥 Java极简设计模式
 

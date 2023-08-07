@@ -1905,6 +1905,14 @@ function getBarPeojectSeckill() {
                 "2023-08-03-《Seckill秒杀系统》第65章-秒杀系统流量隔离策略.md",
                 "2023-08-07-《Seckill秒杀系统》第66章-秒杀系统规模限制策略.md"
             ]
+        },
+        {
+            title: "预约系统设计与实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-08-《Seckill秒杀系统》第67章-预约系统需求梳理与架构设计.md",
+            ]
         }
     ]
 }
