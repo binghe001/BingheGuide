@@ -1898,11 +1898,12 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "流量管控策略",
+            title: "隔离与限制策略",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-08-03-《Seckill秒杀系统》第65章-秒杀系统流量隔离策略.md",
+                "2023-08-07-《Seckill秒杀系统》第66章-秒杀系统规模限制策略.md"
             ]
         }
     ]
