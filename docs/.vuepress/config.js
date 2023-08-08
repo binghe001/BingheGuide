@@ -1912,6 +1912,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-08-08-《Seckill秒杀系统》第67章-预约系统需求梳理与架构设计.md",
+                "2023-08-09-《Seckill秒杀系统》第68章-预约系统数据模型设计.md"
             ]
         }
     ]
