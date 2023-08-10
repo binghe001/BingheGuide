@@ -319,6 +319,7 @@
 * [《Seckill秒杀系统》第67章：预约系统需求梳理与架构设计](https://articles.zsxq.com/id_hwk8hpcndk2a.html)
 * [《Seckill秒杀系统》第68章：预约系统数据模型设计](https://articles.zsxq.com/id_pw4mgl1acvzc.html)
 * [《Seckill秒杀系统》第69章：预约系统业务流程与接口设计](https://articles.zsxq.com/id_9uokwpg1sm2o.html)
+* [《Seckill秒杀系统》第70章：预约系统运营端业务与接口开发](https://articles.zsxq.com/id_31audag7ajrh.html)
 
 ### 💥 Java极简设计模式
 
