@@ -233,10 +233,10 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '分库分表核心技术',  items: [
+                                text: '分布式存储',  items: [
                                     {
                                         text: 'Mycat核心技术',
-                                        link: '2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md'
+                                        link: '/md/core/mycat/2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md'
                                     }
                                 ]
                             },
@@ -743,6 +743,9 @@ function getBarMycat() {
             sidebarDepth: 0,
             children: [
                 "2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md",
+                "2023-08-12-《Mycat核心技术》第02章-Mycat核心配置文件server.xml说明.md",
+                "2023-08-13-《Mycat核心技术》第03章-Mycat核心配置文件schema.xml说明.md",
+                "2023-08-14-《Mycat核心技术》第04章-Mycat核心配置文件rule.xml说明.md"
             ]
         }
     ]
