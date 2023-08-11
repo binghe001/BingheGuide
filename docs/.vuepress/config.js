@@ -233,6 +233,14 @@ module.exports = {
                                 ]
                             },
                             {
+                                text: '分库分表核心技术',  items: [
+                                    {
+                                        text: 'Mycat核心技术',
+                                        link: '2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: '数据库核心技术',  items: [
                                     {
                                         text: 'MySQL基础篇',
@@ -608,6 +616,7 @@ module.exports = {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
                     "/md/core/design/": getBarJavaDegign(),
+                    "/md/core/mycat/": getBarMycat(),
                     "/md/core/nginx/": getBarNginx(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
@@ -720,6 +729,20 @@ function getBarJava() {
                 "java8/2022-03-31-014-接口中的默认方法和静态方法，你都掌握了吗.md",
                 "java8/2022-03-31-015-关于Java8中的日期时间API，你需要掌握这些.md",
                 "java8/2022-03-31-016-重复注解与类型注解，你真的学会了吗.md",
+            ]
+        }
+    ]
+}
+
+// Mycat
+function getBarMycat() {
+    return [
+        {
+            title: "Mycat核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md",
             ]
         }
     ]
