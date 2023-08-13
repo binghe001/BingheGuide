@@ -1911,13 +1911,20 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "分库分表与分桶设计",
+            title: "库存分库分表与分桶设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-07-25-《Seckill秒杀系统》第59章-商品库存分库分表与分桶设计.md",
                 "2023-07-27-《Seckill秒杀系统》第60章-商品库存分库分表与分桶编码实现.md",
                 "2023-07-29-《Seckill秒杀系统》第61章-下单流程整合商品库存分桶.md",
+            ]
+        },
+        {
+            title: "订单分库分表设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2023-07-31-《Seckill秒杀系统》第62章-订单分库分表设计.md",
                 "2023-08-01-《Seckill秒杀系统》第63章-订单分库分表编码实现.md",
                 "2023-08-02-《Seckill秒杀系统》第64章-下单流程整合订单分库分表.md"
