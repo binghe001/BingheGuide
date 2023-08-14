@@ -1940,7 +1940,7 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "预约系统设计与实现",
+            title: "预约系统设计与实现(含缓存)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
