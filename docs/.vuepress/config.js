@@ -1951,6 +1951,14 @@ function getBarPeojectSeckill() {
                 "2023-08-12-《Seckill秒杀系统》第71章-预约系统用户端业务与接口开发.md",
                 "2023-08-13-《Seckill秒杀系统》第72章-下单流程整合预约系统.md"
             ]
+        },
+        {
+            title: "预约系统优化",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-14-《Seckill秒杀系统》第73章-预约系统分库分表设计.md"
+            ]
         }
     ]
 }
