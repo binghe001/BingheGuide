@@ -322,6 +322,8 @@
 * [《Seckill秒杀系统》第70章：预约系统运营端业务与接口开发](https://articles.zsxq.com/id_31audag7ajrh.html)
 * [《Seckill秒杀系统》第71章：预约系统用户端业务与接口开发](https://articles.zsxq.com/id_ui4rlupig7rc.html)
 * [《Seckill秒杀系统》第72章：下单流程整合预约系统](https://articles.zsxq.com/id_mmm8cjtnr8r7.html)
+* [《Seckill秒杀系统》第73章：预约系统分库分表设计](https://articles.zsxq.com/id_jxv1umew3qva.html)
+* [《Seckill秒杀系统》第74章：预约系统分库分表实现](https://articles.zsxq.com/id_4qm51glv343t.html)
 
 ### 💥 Java极简设计模式
 
