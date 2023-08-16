@@ -1968,6 +1968,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-08-17-《Seckill秒杀系统》第76章-限流总体概述.md",
+                "2023-08-18-《Seckill秒杀系统》第77章-打散客户端流量.md"
             ]
         }
     ]
