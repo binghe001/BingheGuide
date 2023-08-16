@@ -1961,6 +1961,14 @@ function getBarPeojectSeckill() {
                 "2023-08-15-《Seckill秒杀系统》第74章-预约系统分库分表实现.md",
                 "2023-08-16-《Seckill秒杀系统》第75章-预约系统整合分库分表.md"
             ]
+        },
+        {
+            title: "秒杀系统限流策略",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-17-《Seckill秒杀系统》第76章-限流总体概述.md",
+            ]
         }
     ]
 }
