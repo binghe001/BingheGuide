@@ -327,6 +327,7 @@
 * [《Seckill秒杀系统》第75章：预约系统整合分库分表](https://articles.zsxq.com/id_lca80cou1s4m.html)
 * [《Seckill秒杀系统》第76章：秒杀系统限流总体概述](https://articles.zsxq.com/id_a515brw13w1w.html)
 * [《Seckill秒杀系统》第77章：打散客户端流量](https://articles.zsxq.com/id_a0v4rjf76vbo.html)
+* [《Seckill秒杀系统》第78章：消息队列削峰](https://articles.zsxq.com/id_ewbv8ci2xd1a.html)
 
 ### 💥 Java极简设计模式
 
