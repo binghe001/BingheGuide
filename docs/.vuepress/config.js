@@ -1963,7 +1963,7 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "秒杀系统限流策略",
+            title: "秒杀系统削峰策略",
             collapsable: false,
             sidebarDepth: 0,
             children: [
