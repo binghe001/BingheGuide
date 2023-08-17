@@ -1969,7 +1969,8 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-08-17-《Seckill秒杀系统》第76章-限流总体概述.md",
                 "2023-08-18-《Seckill秒杀系统》第77章-打散客户端流量.md",
-                "2023-08-19-《Seckill秒杀系统》第78章-消息队列削峰.md"
+                "2023-08-19-《Seckill秒杀系统》第78章-消息队列削峰.md",
+                "2023-08-20-《Seckill秒杀系统》第79章-限流削峰.md"
             ]
         }
     ]
