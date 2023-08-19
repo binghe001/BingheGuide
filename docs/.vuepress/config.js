@@ -745,7 +745,8 @@ function getBarMycat() {
                 "2023-08-11-《Mycat核心技术》第01章-互联网大厂有哪些分库分表的思路和技.md",
                 "2023-08-12-《Mycat核心技术》第02章-Mycat核心配置文件server.xml说明.md",
                 "2023-08-13-《Mycat核心技术》第03章-Mycat核心配置文件schema.xml说明.md",
-                "2023-08-14-《Mycat核心技术》第04章-Mycat核心配置文件rule.xml说明.md"
+                "2023-08-14-《Mycat核心技术》第04章-Mycat核心配置文件rule.xml说明.md",
+                "2023-08-15-《Mycat核心技术》第05章-Mycat中文乱码解决方案.md"
             ]
         }
     ]
