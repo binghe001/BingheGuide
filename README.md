@@ -330,6 +330,7 @@
 * [《Seckill秒杀系统》第78章：消息队列削峰](https://articles.zsxq.com/id_ewbv8ci2xd1a.html)
 * [《Seckill秒杀系统》第79章：限流削峰](https://articles.zsxq.com/id_ktkdpqp8u1bm.html)
 * [《Seckill秒杀系统》第80章：Sentinel概述与本地搭建环境](https://articles.zsxq.com/id_ofdkbfo5ptww.html)
+* [《Seckill秒杀系统》第81章：秒杀系统整合Sentinel实现流控](https://articles.zsxq.com/id_88wejhb2hgzg.html)
 
 ### 💥 Java极简设计模式
 

@@ -1974,11 +1974,12 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "Sentinel限流",
+            title: "Sentinel流控",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-08-21-《Seckill秒杀系统》第80章-搭建Sentinel环境.md"
+                "2023-08-21-《Seckill秒杀系统》第80章-搭建Sentinel环境.md",
+                "2023-08-22-《Seckill秒杀系统》第81章-秒杀系统整合Sentinel实现流控.md"
             ]
         }
     ]
