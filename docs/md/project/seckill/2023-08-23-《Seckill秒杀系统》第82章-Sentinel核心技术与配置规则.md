@@ -52,9 +52,11 @@ Sentinel提供了系统维度的自适应保护能力。当系统的压力和负
 
 Sentinel的核心规则包括流控规则、熔断规则、热点规则、授权规则和系统规则，每种规则的配置方式不同。接下来，就详细介绍下Sentinel中的每种规则的作用与效果。
 
-![sa-2022-05-05-039](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-05-039.png)
 
-
+<div align="center">
+    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-05-039.png?raw=true" width="60%">
+    <br/>
+</div>
 
 ## 三、流控规则
 
