@@ -39,7 +39,7 @@ Sentinel 承接了阿里巴巴近 10 年的双十一大促流量的核心场景�
 （1）在浏览器打开Nacos界面，登录后，在找到命名空间，如图81-1所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-001.png?raw=true" width="60%">
+    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-001.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -47,7 +47,7 @@ Sentinel 承接了阿里巴巴近 10 年的双十一大促流量的核心场景�
 （2）按照图81-2所示添加命名空间后，点击确定按钮即可。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-002.png?raw=true" width="60%">
+    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-002.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -58,7 +58,7 @@ Sentinel 承接了阿里巴巴近 10 年的双十一大促流量的核心场景�
 （1）在Nacos中打开配置列表页面，如图81-3所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-003.png?raw=true" width="60%">
+    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-08-22-003.png?raw=true" width="80%">
     <br/>
 </div>
 
