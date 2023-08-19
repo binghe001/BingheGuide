@@ -1972,6 +1972,14 @@ function getBarPeojectSeckill() {
                 "2023-08-19-《Seckill秒杀系统》第78章-消息队列削峰.md",
                 "2023-08-20-《Seckill秒杀系统》第79章-限流削峰.md"
             ]
+        },
+        {
+            title: "Sentinel限流",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-21-《Seckill秒杀系统》第80章-搭建Sentinel环境.md"
+            ]
         }
     ]
 }
