@@ -1988,7 +1988,7 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "本地限流",
+            title: "单机限流",
             collapsable: false,
             sidebarDepth: 0,
             children: [
