@@ -1978,13 +1978,21 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "Sentinel流控",
+            title: "分布式流控",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-08-21-《Seckill秒杀系统》第80章-搭建Sentinel环境.md",
                 "2023-08-22-《Seckill秒杀系统》第81章-秒杀系统整合Sentinel实现流控.md",
                 "2023-08-23-《Seckill秒杀系统》第82章-Sentinel核心技术与配置规则.md"
+            ]
+        },
+        {
+            title: "本地限流",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-24-《Seckill秒杀系统》第83章-本地API限流.md"
             ]
         }
     ]
