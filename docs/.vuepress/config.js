@@ -1992,7 +1992,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-08-24-《Seckill秒杀系统》第83章-本地API限流.md"
+                "2023-08-24-《Seckill秒杀系统》第83章-本地API限流.md",
+                "2023-08-25-《Seckill秒杀系统》第84章-基于线程池实现单机并发数限流.md"
             ]
         }
     ]

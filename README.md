@@ -333,6 +333,7 @@
 * [《Seckill秒杀系统》第81章：秒杀系统整合Sentinel实现流控](https://articles.zsxq.com/id_88wejhb2hgzg.html)
 * [《Seckill秒杀系统》第82章：Sentinel核心技术与配置规则（加餐）](https://articles.zsxq.com/id_kt44xk81wbd8.html)
 * [《Seckill秒杀系统》第83章：基于QPS实现本地API限流](https://articles.zsxq.com/id_ww7xdag29t94.html)
+* [《Seckill秒杀系统》第84章：基于线程池实现单机并发数限流](https://articles.zsxq.com/id_qkvxkxpomv3n.html)
 
 
 ### 💥 Java极简设计模式
