@@ -1995,6 +1995,14 @@ function getBarPeojectSeckill() {
                 "2023-08-24-《Seckill秒杀系统》第83章-本地API限流.md",
                 "2023-08-25-《Seckill秒杀系统》第84章-基于线程池实现单机并发数限流.md"
             ]
+        },
+        {
+            title: "业务网关",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-26-《Seckill秒杀系统》第85章-业务网关概述与核心架构.md"
+            ]
         }
     ]
 }
