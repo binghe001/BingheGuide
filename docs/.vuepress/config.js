@@ -2001,7 +2001,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-08-26-《Seckill秒杀系统》第85章-业务网关概述与核心架构.md"
+                "2023-08-26-《Seckill秒杀系统》第85章-业务网关概述与核心架构.md",
+                "2023-08-27-《Seckill秒杀系统》第86章-秒杀系统整合业务网关.md"
             ]
         }
     ]
