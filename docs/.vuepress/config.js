@@ -2004,7 +2004,8 @@ function getBarPeojectSeckill() {
                 "2023-08-26-《Seckill秒杀系统》第85章-业务网关概述与核心架构.md",
                 "2023-08-27-《Seckill秒杀系统》第86章-秒杀系统整合业务网关.md",
                 "2023-08-28-《Seckill秒杀系统》第87章-业务网关整合Nacos配置.md",
-                "2023-08-29-《Seckill秒杀系统》第88章-业务网关整合Sentinel流控.md"
+                "2023-08-29-《Seckill秒杀系统》第88章-业务网关整合Sentinel流控.md",
+                "2023-08-30-《Seckill秒杀系统》第89章-业务网关整合Guava流控.md"
             ]
         }
     ]
