@@ -2008,6 +2008,14 @@ function getBarPeojectSeckill() {
                 "2023-08-30-《Seckill秒杀系统》第89章-业务网关整合Guava流控.md",
                 "2023-08-31-《Seckill秒杀系统》第90章-业务网关使用自带流控.md"
             ]
+        },
+        {
+            title: "流量网关",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-01-《Seckill秒杀系统》第91章-流量网关初步搭建.md",
+            ]
         }
     ]
 }

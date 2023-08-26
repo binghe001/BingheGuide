@@ -340,6 +340,7 @@
 * [《Seckill秒杀系统》第88章：业务网关整合Sentinel流控](https://articles.zsxq.com/id_25vqhrif9cf4.html)
 * [《Seckill秒杀系统》第89章：业务网关整合Guava流控](https://articles.zsxq.com/id_c2dzqg1fx62u.html)
 * [《Seckill秒杀系统》第90章：业务网关使用自带流控](https://articles.zsxq.com/id_weo8s8g7rq8f.html)
+* [《Seckill秒杀系统》第91章：流量网关初步搭建](https://articles.zsxq.com/id_1ew35nlixd6c.html)
 
 
 ### 💥 Java极简设计模式
