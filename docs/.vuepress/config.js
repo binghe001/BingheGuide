@@ -2015,6 +2015,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-09-01-《Seckill秒杀系统》第91章-流量网关初步搭建.md",
+                "2023-09-02-《Seckill秒杀系统》第92章-流量网关项目搭建.md"
             ]
         }
     ]
