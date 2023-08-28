@@ -343,6 +343,7 @@
 * [《Seckill秒杀系统》第91章：流量网关初步搭建](https://articles.zsxq.com/id_1ew35nlixd6c.html)
 * [《Seckill秒杀系统》第92章：流量网关项目搭建](https://articles.zsxq.com/id_hgqv1euj81d3.html)
 * [《Seckill秒杀系统》第93章：流量网关实现限流](https://articles.zsxq.com/id_41bnbsox6dif.html)
+* [《Seckill秒杀系统》第94章：服务雪崩与容错方案](https://articles.zsxq.com/id_6d1um38qrxs7.html)
 
 
 ### 💥 Java极简设计模式

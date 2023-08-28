@@ -2018,6 +2018,14 @@ function getBarPeojectSeckill() {
                 "2023-09-02-《Seckill秒杀系统》第92章-流量网关项目搭建.md",
                 "2023-09-03-《Seckill秒杀系统》第93章-流量网关实现限流.md"
             ]
+        },
+        {
+            title: "服务容错",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-04-《Seckill秒杀系统》第94章-服务雪崩与容错方案.md",
+            ]
         }
     ]
 }
