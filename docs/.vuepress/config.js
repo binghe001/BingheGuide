@@ -2025,7 +2025,8 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-09-04-《Seckill秒杀系统》第94章-服务雪崩与容错方案.md",
-                "2023-09-05-《Seckill秒杀系统》第95章-服务降级核心原理与落地方案.md"
+                "2023-09-05-《Seckill秒杀系统》第95章-服务降级核心原理与落地方案.md",
+                "2023-09-06-《Seckill秒杀系统》第96章-热点数据问题与解决方案.md"
             ]
         }
     ]
