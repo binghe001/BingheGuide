@@ -349,6 +349,7 @@
 * [《Seckill秒杀系统》第97章：秒杀系统实现服务容错](https://articles.zsxq.com/id_06nk8672ng7a.html)
 * [《Seckill秒杀系统》第98章：凌乱的服务配置与解决方案](https://articles.zsxq.com/id_acu0vrc86wdo.html)
 * [《Seckill秒杀系统》第99章：秒杀系统整合Nacos配置中心](https://articles.zsxq.com/id_az4qpenpf439.html)
+* [《Seckill秒杀系统》第100章：实现配置动态刷新](https://articles.zsxq.com/id_wi6hrxskrwqp.html)
 
 
 ### 💥 Java极简设计模式
