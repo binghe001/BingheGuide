@@ -2035,7 +2035,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-09-08-《Seckill秒杀系统》第98章-凌乱的服务配置与解决方案.md"
+                "2023-09-08-《Seckill秒杀系统》第98章-凌乱的服务配置与解决方案.md",
+                "2023-09-09-《Seckill秒杀系统》第99章-秒杀系统整合Nacos配置中心.md"
             ]
         }
     ]
