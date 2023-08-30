@@ -2029,6 +2029,14 @@ function getBarPeojectSeckill() {
                 "2023-09-06-《Seckill秒杀系统》第96章-热点数据问题与解决方案.md",
                 "2023-09-07-《Seckill秒杀系统》第97章-秒杀系统实现容错.md"
             ]
+        },
+        {
+            title: "服务配置",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-08-《Seckill秒杀系统》第98章-凌乱的服务配置与解决方案.md"
+            ]
         }
     ]
 }

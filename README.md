@@ -347,6 +347,7 @@
 * [《Seckill秒杀系统》第95章：服务降级核心原理与落地方案](https://articles.zsxq.com/id_ehf2k7838z4b.html)
 * [《Seckill秒杀系统》第96章：热点数据问题与解决方案](https://articles.zsxq.com/id_1j5n26femjpb.html)
 * [《Seckill秒杀系统》第97章：秒杀系统实现服务容错](https://articles.zsxq.com/id_06nk8672ng7a.html)
+* [《Seckill秒杀系统》第98章：凌乱的服务配置与解决方案](https://articles.zsxq.com/id_acu0vrc86wdo.html)
 
 
 ### 💥 Java极简设计模式
