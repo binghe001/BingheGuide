@@ -72,7 +72,7 @@ spring.profiles.active=dev
 启动Nacos，在浏览器中输入`http://localhost:8848/nacos` 并登录Nacos，选择Nacos菜单中的配置管理-配置列表，如图99-1所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-09-09-001.png?raw=true" width="60%">
+    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-09-09-001.png?raw=true" width="80%">
     <br/>
 </div>
 
