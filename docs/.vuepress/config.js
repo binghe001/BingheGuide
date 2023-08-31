@@ -2035,10 +2035,18 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-09-08-《Seckill秒杀系统》第98章-凌乱的服务配置与解决方案.md",
+                "2023-09-12-《Seckill秒杀系统》第102章-链路追踪核心原理与解决方案.md",
                 "2023-09-09-《Seckill秒杀系统》第99章-秒杀系统整合Nacos配置中心.md",
                 "2023-09-10-《Seckill秒杀系统》第100章-实现配置动态刷新.md",
                 "2023-09-11-《Seckill秒杀系统》第101章-实现配置动态共享.md"
+            ]
+        },
+        {
+            title: "链路追踪",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-12-《Seckill秒杀系统》第102章-链路追踪核心原理与解决方案.md"
             ]
         }
     ]
