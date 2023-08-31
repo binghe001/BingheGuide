@@ -353,6 +353,7 @@
 * [《Seckill秒杀系统》第101章：实现配置动态共享](https://articles.zsxq.com/id_jz6er8fk05vp.html)
 * [《Seckill秒杀系统》第102章：链路追踪核心原理与解决方案](https://articles.zsxq.com/id_w0kgroc8pw49.html)
 * [《Seckill秒杀系统》第103章：整合Sleuth实现链路追踪](https://articles.zsxq.com/id_i68crg1dcwlj.html)
+* [《Seckill秒杀系统》第104章：扩展Dubbo源码实现链路追踪](https://articles.zsxq.com/id_njz1wp1hsjac.html)
 
 
 ### 💥 Java极简设计模式
