@@ -2048,7 +2048,8 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-09-12-《Seckill秒杀系统》第102章-链路追踪核心原理与解决方案.md",
                 "2023-09-13-《Seckill秒杀系统》第103章-整合Sleuth实现链路追踪.md",
-                "2023-09-14-《Seckill秒杀系统》第104章-扩展Dubbo源码实现链路追踪.md"
+                "2023-09-14-《Seckill秒杀系统》第104章-扩展Dubbo源码实现链路追踪.md",
+                "2023-09-15-《Seckill秒杀系统》第105章-Sleuth整合ZipKin实现可视化.md"
             ]
         }
     ]
