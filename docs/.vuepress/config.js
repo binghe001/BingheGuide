@@ -2051,6 +2051,14 @@ function getBarPeojectSeckill() {
                 "2023-09-14-《Seckill秒杀系统》第104章-扩展Dubbo源码实现链路追踪.md",
                 "2023-09-15-《Seckill秒杀系统》第105章-Sleuth整合ZipKin实现可视化.md"
             ]
+        },
+        {
+            title: "日志治理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-16-《Seckill秒杀系统》第106章-日志治理概述与原则.md"
+            ]
         }
     ]
 }
