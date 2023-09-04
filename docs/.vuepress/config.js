@@ -2061,6 +2061,14 @@ function getBarPeojectSeckill() {
                 "2023-09-17-《Seckill秒杀系统》第107章-快速搭建ELK环境并导入配置.md",
                 "2023-09-18-《Seckill秒杀系统》第108章-秒杀系统整合日志治理.md"
             ]
+        },
+        {
+            title: "防刷与风控",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-19-《Seckill秒杀系统》第109章-实现基于条件限流防刷.md"
+            ]
         }
     ]
 }
