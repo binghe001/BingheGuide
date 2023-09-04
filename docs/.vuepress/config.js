@@ -2058,7 +2058,8 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-09-16-《Seckill秒杀系统》第106章-日志治理概述与原则.md",
-                "2023-09-17-《Seckill秒杀系统》第107章-快速搭建ELK环境并导入配置.md"
+                "2023-09-17-《Seckill秒杀系统》第107章-快速搭建ELK环境并导入配置.md",
+                "2023-09-18-《Seckill秒杀系统》第108章-秒杀系统整合日志治理.md"
             ]
         }
     ]

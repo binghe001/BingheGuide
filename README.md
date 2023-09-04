@@ -357,6 +357,7 @@
 * [《Seckill秒杀系统》第105章：Sleuth整合ZipKin实现可视化](https://articles.zsxq.com/id_gkdo616fwap6.html)
 * [《Seckill秒杀系统》第106章：日志治理概述、原则与架构](https://articles.zsxq.com/id_v47kptus05xf.html)
 * [《Seckill秒杀系统》第107章：快速搭建ELK环境并导入配置](https://articles.zsxq.com/id_l1w75ok62ws6.html)
+* [《Seckill秒杀系统》第108章：秒杀系统整合日志治理](https://articles.zsxq.com/id_2s53oznk3aox.html)
 
 
 ### 💥 Java极简设计模式
