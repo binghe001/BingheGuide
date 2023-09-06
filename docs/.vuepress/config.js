@@ -2063,7 +2063,7 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "防刷方案落地",
+            title: "防刷方案",
             collapsable: false,
             sidebarDepth: 0,
             children: [
