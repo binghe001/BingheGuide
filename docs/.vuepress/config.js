@@ -2063,12 +2063,13 @@ function getBarPeojectSeckill() {
             ]
         },
         {
-            title: "防刷与风控",
+            title: "防刷方案落地",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-09-19-《Seckill秒杀系统》第109章-实现基于条件限流防刷.md",
-                "2023-09-20-《Seckill秒杀系统》第110章-实现基于Token机制防刷.md"
+                "2023-09-20-《Seckill秒杀系统》第110章-实现基于Token机制防刷.md",
+                "2023-09-21-《Seckill秒杀系统》第111章-实现基于黑名单机制防刷.md"
             ]
         }
     ]
