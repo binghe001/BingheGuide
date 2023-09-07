@@ -2071,6 +2071,14 @@ function getBarPeojectSeckill() {
                 "2023-09-20-《Seckill秒杀系统》第110章-实现基于Token机制防刷.md",
                 "2023-09-21-《Seckill秒杀系统》第111章-实现基于黑名单机制防刷.md"
             ]
+        },
+        {
+            title: "风控模型",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-22-《Seckill秒杀系统》第112章-黑灰产与风控基础知识介绍.md",
+            ]
         }
     ]
 }
