@@ -364,6 +364,7 @@
 * [《Seckill秒杀系统》第112章：黑灰产与风控基础知识介绍](https://articles.zsxq.com/id_2p4ahqwgvd5g.html)
 * [《Seckill秒杀系统》第113章：风控模型架构与落地方案](https://articles.zsxq.com/id_3tw56uw470jg.html)
 * [《Seckill秒杀系统》第114章：秒杀系统风控模型设计](https://articles.zsxq.com/id_rhnfwh1bwao5.html)
+* [《Seckill秒杀系统》第115章：秒杀系统风控模型实现](https://articles.zsxq.com/id_rw4vcwo2o0wa.html)
 
 
 ### 💥 Java极简设计模式
