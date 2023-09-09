@@ -2078,7 +2078,8 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-09-22-《Seckill秒杀系统》第112章-黑灰产与风控基础知识介绍.md",
-                "2023-09-23-《Seckill秒杀系统》第113章-风控模型架构与落地方案.md"
+                "2023-09-23-《Seckill秒杀系统》第113章-风控模型架构与落地方案.md",
+                "2023-09-24-《Seckill秒杀系统》第114章-秒杀系统风控模型设计.md"
             ]
         }
     ]
