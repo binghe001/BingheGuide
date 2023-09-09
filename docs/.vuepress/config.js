@@ -233,6 +233,14 @@ module.exports = {
                                 ]
                             },
                             {
+                                text: '容器化核心技术',  items: [
+                                    {
+                                        text: 'Dockek核心技术',
+                                        link: '/md/core/docker/2023-09-10-《容器化核心设计》第01章-制作Java基础docker镜像.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: '分布式存储',  items: [
                                     {
                                         text: 'Mycat核心技术',
@@ -617,6 +625,7 @@ module.exports = {
                     "/md/core/java/": getBarJava(),
                     "/md/core/design/": getBarJavaDegign(),
                     "/md/core/mycat/": getBarMycat(),
+                    "/md/core/docker/": getBarDocker(),
                     "/md/core/nginx/": getBarNginx(),
                     "/md/performance/": getBarPerformance(),
                     "/md/concurrent/": getBarConcurrent(),
@@ -750,6 +759,20 @@ function getBarMycat() {
                 "2023-08-16-《Mycat核心技术》第06章-Mycat问题处理总结.md",
                 "2023-08-17-《Mycat核心技术》第07章-Mycat与MySQL 8.x互连.md",
                 "2023-08-18-《Mycat核心技术》第08章-Mycat的限制.md"
+            ]
+        }
+    ]
+}
+
+// docker
+function getBarDocker() {
+    return [
+        {
+            title: "第一篇：基础与疑难杂症",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-10-《容器化核心设计》第01章-制作Java基础docker镜像.md"
             ]
         }
     ]
