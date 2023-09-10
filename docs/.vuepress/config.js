@@ -2105,6 +2105,14 @@ function getBarPeojectSeckill() {
                 "2023-09-24-《Seckill秒杀系统》第114章-秒杀系统风控模型设计.md",
                 "2023-09-25-《Seckill秒杀系统》第115章-秒杀系统风控模型实现.md"
             ]
+        },
+        {
+            title: "容器化集群部署",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-26-《Seckill秒杀系统》第116章-容器化集群部署架构设计.md"
+            ]
         }
     ]
 }
