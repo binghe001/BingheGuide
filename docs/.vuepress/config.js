@@ -2112,7 +2112,8 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-09-26-《Seckill秒杀系统》第116章-容器化集群部署架构设计.md",
-                "2023-09-27-《Seckill秒杀系统》第117章-容器化集群部署落地实现.md"
+                "2023-09-27-《Seckill秒杀系统》第117章-容器化集群部署落地实现.md",
+                "2023-09-28-《Seckill秒杀系统》第118章-容灾架构设计与落地方案.md"
             ]
         }
     ]
