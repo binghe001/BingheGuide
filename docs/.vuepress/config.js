@@ -2115,6 +2115,14 @@ function getBarPeojectSeckill() {
                 "2023-09-27-《Seckill秒杀系统》第117章-容器化集群部署落地实现.md",
                 "2023-09-28-《Seckill秒杀系统》第118章-容灾架构设计与落地方案.md"
             ]
+        },
+        {
+            title: "全链路压测",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-29-《Seckill秒杀系统》第119章-全链路压测场景与核心流程.md"
+            ]
         }
     ]
 }

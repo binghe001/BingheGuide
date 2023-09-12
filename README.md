@@ -368,6 +368,7 @@
 * [《Seckill秒杀系统》第116章：容器化集群部署架构设计](https://articles.zsxq.com/id_v6vtpb1kg0mx.html)
 * [《Seckill秒杀系统》第117章：容器化集群部署落地实现](https://articles.zsxq.com/id_6wuxvmdjmbdt.html)
 * [《Seckill秒杀系统》第118章：容灾架构设计与落地方案](https://articles.zsxq.com/id_mji5v2i3uv6w.html)
+* [《Seckill秒杀系统》第119章：全链路压测场景与核心流程](https://articles.zsxq.com/id_s0t8jzza7z4b.html)
 
 
 ### 💥 Java极简设计模式
