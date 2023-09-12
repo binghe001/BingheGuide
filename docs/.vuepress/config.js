@@ -2121,7 +2121,8 @@ function getBarPeojectSeckill() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-09-29-《Seckill秒杀系统》第119章-全链路压测场景与核心流程.md"
+                "2023-09-29-《Seckill秒杀系统》第119章-全链路压测场景与核心流程.md",
+                "2023-09-30-《Seckill秒杀系统》第120章-全链路压测核心原则与策略.md"
             ]
         }
     ]
