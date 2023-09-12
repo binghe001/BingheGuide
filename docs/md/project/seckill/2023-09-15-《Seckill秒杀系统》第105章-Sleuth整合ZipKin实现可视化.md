@@ -1,9 +1,9 @@
 ---
-title: 第105章：Sleuth整合ZipKin实现可视化
+title: 第105章：秒杀系统链路追踪可视化
 pay: https://articles.zsxq.com/id_gkdo616fwap6.html
 ---
 
-# 《Seckill秒杀系统》第105章：Sleuth整合ZipKin实现可视化
+# 《Seckill秒杀系统》第105章：秒杀系统链路追踪可视化
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)

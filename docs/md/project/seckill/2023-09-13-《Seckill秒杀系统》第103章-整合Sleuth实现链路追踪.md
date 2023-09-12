@@ -1,9 +1,9 @@
 ---
-title: 第103章：整合Sleuth实现链路追踪
+title: 第103章：秒杀系统实现链路追踪
 pay: https://articles.zsxq.com/id_i68crg1dcwlj.html
 ---
 
-# 《Seckill秒杀系统》第103章：整合Sleuth实现链路追踪
+# 《Seckill秒杀系统》第103章：秒杀系统实现链路追踪
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
