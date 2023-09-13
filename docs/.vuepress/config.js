@@ -2125,6 +2125,14 @@ function getBarPeojectSeckill() {
                 "2023-09-30-《Seckill秒杀系统》第120章-全链路压测核心原则与策略.md",
                 "2023-10-01-《Seckill秒杀系统》第121章-全链路压测落地方案实施.md"
             ]
+        },
+        {
+            title: "极致优化",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-02-《Seckill秒杀系统》第122章-服务器物理机极致优化.md",
+            ]
         }
     ]
 }
