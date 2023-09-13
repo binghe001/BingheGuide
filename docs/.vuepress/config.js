@@ -2132,6 +2132,7 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-10-02-《Seckill秒杀系统》第122章-服务器物理机极致优化.md",
+                "2023-10-03-《Seckill秒杀系统》第123章-单机服务极致优化.md"
             ]
         }
     ]

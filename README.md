@@ -372,6 +372,7 @@
 * [《Seckill秒杀系统》第120章：全链路压测核心原则与策略](https://articles.zsxq.com/id_bvtd2s2xujqn.html)
 * [《Seckill秒杀系统》第121章：全链路压测落地方案实施](https://articles.zsxq.com/id_nvinjjexe8q3.html)
 * [《Seckill秒杀系统》第122章：服务器物理机极致优化](https://articles.zsxq.com/id_i7qwgtktwgdo.html)
+* [《Seckill秒杀系统》第123章：单机服务极致优化](https://articles.zsxq.com/id_vla569lwcv5p.html)
 
 
 ### 💥 Java极简设计模式
