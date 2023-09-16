@@ -2135,6 +2135,14 @@ function getBarPeojectSeckill() {
                 "2023-10-03-《Seckill秒杀系统》第123章-单机服务极致优化.md",
                 "2023-10-04-《Seckill秒杀系统》第124章-秒杀系统流程极致优化.md"
             ]
+        },
+        {
+            title: "专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-05-《Seckill秒杀系统》结尾-秒杀系统整体专栏总结.md"
+            ]
         }
     ]
 }

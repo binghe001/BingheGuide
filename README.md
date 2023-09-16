@@ -374,6 +374,7 @@
 * [《Seckill秒杀系统》第122章：服务器物理机极致优化](https://articles.zsxq.com/id_i7qwgtktwgdo.html)
 * [《Seckill秒杀系统》第123章：单机服务极致优化](https://articles.zsxq.com/id_vla569lwcv5p.html)
 * [《Seckill秒杀系统》第124章：秒杀系统流程极致优化](https://articles.zsxq.com/id_ezkr511hqn61.html)
+* [《Seckill秒杀系统》结尾：秒杀系统整体专栏总结](https://articles.zsxq.com/id_lsps4inuwvh3.html)
 
 
 ### 💥 Java极简设计模式
