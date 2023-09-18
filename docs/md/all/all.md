@@ -230,6 +230,18 @@ title: 冰河指南
 
 #### 星球专栏
 
+* [打卡计划启动：每个项目的价值都远超门票！](https://mp.weixin.qq.com/s/PUlQsPy6nt4XBn9GPvd3ww)
+* [10张图总结并发编程最佳学习路线，上车！](https://mp.weixin.qq.com/s/Wowk6qs-wWfbBCin_RU3eQ)
+* [管你是不是应届生，我们只招有高并发项目经验的候选人！](https://mp.weixin.qq.com/s/G1P4QKsF8JpDkeQswwa0Vw)
+* [万字长文通关计算机与操作系统基础知识（面试必备）](https://mp.weixin.qq.com/s/uRjsyDqi4Gafj5-XOubz2w)
+* [微服务必备电子书最终版发布！](https://mp.weixin.qq.com/s/cOL56BmcJ67jDNtJD8UEng)
+* [是真卷？还是内耗？这次面试造的火箭对比薪资后着实有点离谱！](https://mp.weixin.qq.com/s/xI0k0Mblyl0mdoP6LyC2Sw)
+* [这本系统讲解Java最牛框架的电子书免费了！](https://mp.weixin.qq.com/s/U9S_Rd49qmi-RQ_ea-W4SA)
+* [高并发下缓存穿透、击穿、雪崩问题的解决方案，落地到代码该如何实现？](https://mp.weixin.qq.com/s/QKEJjAVWV7p1rm6XPwBLvA)
+* [从单体到微服务，冰河的秒杀系统上硬菜了！](https://mp.weixin.qq.com/s/k0EjQdkYK5UB9VinQy0UDA)
+* [高考成绩都出来了，你的秒杀系统如何了？](https://mp.weixin.qq.com/s/bz29IEXpbqcDNImMukjsQQ)
+* [撸完Dubbo3源码，我总结了这些阅读源码的技巧](https://mp.weixin.qq.com/s/f95-pjM0dmXAhO7Hv1B4_g)
+* [一年肝了4个项目，10万+行代码，面试妥妥的！](https://mp.weixin.qq.com/s/wwr8qmf-6PjjcSqfzN8Tig)
 * [一个人也许走的很快，但一群人走的更远！](https://mp.weixin.qq.com/s/tpwdPO0qtqwbInppIvgY9g)
 * [假期做了一项调研：结果合乎情理！](https://mp.weixin.qq.com/s/uoR0fcZ4TOb4PbUviYDMxw)
 * [五一假期，正式开卷（再送超大福利）](https://mp.weixin.qq.com/s/CcfLI9aH9RSSiK7dWVx4uA)
@@ -244,6 +256,7 @@ title: 冰河指南
 
 ### 💥 Seckill秒杀系统
 
+* [五个月，秒杀，38个大的篇章，126+篇文章、视频、小册，150+源码分支，完美收官！](https://mp.weixin.qq.com/s/FwUR0jSaaSqyOc_xNhaKxw)
 * [《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)
 * [《Seckill秒杀系统》第1章：从多个角度聊聊为何要学习秒杀系统](https://articles.zsxq.com/id_568x6zv029p0.html)
 * [《Seckill秒杀系统》第2章：秒杀系统的目标与挑战](https://articles.zsxq.com/id_o8mpr6wa7ckz.html)
@@ -631,6 +644,7 @@ title: 冰河指南
 
 ### 💥 Spring核心技术
 
+* [《Spring6核心源码解析》已完结，涵盖IOC容器、AOP、切面、AOT预编译、SpringMVC，面试杠杠的！](https://mp.weixin.qq.com/s/KQvrr-kg0zLl9NCpQWAQQg)
 * [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
 
 #### 专栏介绍
