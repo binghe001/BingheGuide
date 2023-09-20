@@ -767,7 +767,7 @@ function getBarMycat() {
             sidebarDepth: 0,
             children: [
                 "2023-08-19-《Mycat核心技术》第09章-自定义数字范围分片.md",
-                "2023-08-20-《Mycat核心技术》第10章：按日期(天)分片.md",
+                "2023-08-20-《Mycat核心技术》第10章-按日期分片.md",
                 "2023-08-21-《Mycat核心技术》第11章-枚举分片.md",
                 "2023-08-22-《Mycat核心技术》第12章-程序指定分区分片.md",
                 "2023-08-23-《Mycat核心技术》第13章-取模分片.md",
@@ -782,6 +782,7 @@ function getBarMycat() {
             sidebarDepth: 0,
             children: [
                 "2023-08-27-《Mycat核心技术》第17章-实现MySQL的读写分离.md",
+                "2023-08-28-《Mycat核心技术》第18章-路由转发实例解析.md"
             ]
         }
     ]
