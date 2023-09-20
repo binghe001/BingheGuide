@@ -782,7 +782,9 @@ function getBarMycat() {
             sidebarDepth: 0,
             children: [
                 "2023-08-27-《Mycat核心技术》第17章-实现MySQL的读写分离.md",
-                "2023-08-28-《Mycat核心技术》第18章-路由转发实例解析.md"
+                "2023-08-28-《Mycat核心技术》第18章-路由转发实例解析.md",
+                "2023-08-29-《Mycat核心技术》第19章-基于MySQL实现读写分离.md",
+                "2023-08-30-《Mycat核心技术》第20章-Mycat集群部署.md"
             ]
         }
     ]
