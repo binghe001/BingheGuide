@@ -775,6 +775,14 @@ function getBarMycat() {
                 "2023-08-25-《Mycat核心技术》第15章-数据分片入门实战.md",
                 "2023-08-26-《Mycat核心技术》第16章-Mycat综合测试.md"
             ]
+        },
+        {
+            title: "第三篇：运维实战",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-08-27-《Mycat核心技术》第17章-实现MySQL的读写分离.md",
+            ]
         }
     ]
 }
