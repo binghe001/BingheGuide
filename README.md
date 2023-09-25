@@ -376,6 +376,11 @@
 * [《Seckill秒杀系统》第124章：秒杀系统流程极致优化](https://articles.zsxq.com/id_ezkr511hqn61.html)
 * [《Seckill秒杀系统》结尾：秒杀系统整体专栏总结](https://articles.zsxq.com/id_lsps4inuwvh3.html)
 
+### 💥 实战高并发设计模式
+
+* [《并发设计模式》开篇-全新的开始：用讲故事的方式带你彻底吃透并发设计模式](https://mp.weixin.qq.com/s/OFnWpOWOQk_0H6jhk7QksQ)
+* [《并发设计模式》第01章-不可变模式篇：非常抓狂，这特么到底是哪里不对？](https://mp.weixin.qq.com/s/Qu5VNAEawyQE__cvG-I1YQ)
+
 
 ### 💥 Java极简设计模式
 

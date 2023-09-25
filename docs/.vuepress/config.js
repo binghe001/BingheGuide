@@ -99,7 +99,7 @@ module.exports = {
     ],
     plugins: [
         [
-            {globalUIComponents: ['LockArticle', 'PayArticle']}
+            {globalUIComponents: ['LockArticle', 'PayArticle', 'RedirectArticle']}
         ],
         // ['@vssue/vuepress-plugin-vssue', {
         //     platform: 'github-v3', //v3的platform是github，v4的是github-v4
@@ -212,7 +212,11 @@ module.exports = {
                                 text: '架构与模式',  items: [
                                     {
                                         text: 'Java极简设计模式',
-                                        link: '/md/core/design/2023-07-09-《Java极简设计模式》第01章-单例模式.md'
+                                        link: '/md/core/design/java/2023-07-09-《Java极简设计模式》第01章-单例模式.md'
+                                    },
+                                    {
+                                        text: '实战高并发设计模式',
+                                        link: '/md/core/design/concurrent/2023-09-17-start.md'
                                     }
                                 ]
                             },
@@ -623,7 +627,8 @@ module.exports = {
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
-                    "/md/core/design/": getBarJavaDegign(),
+                    "/md/core/design/java/": getBarJavaDegign(),
+                    "/md/core/design/concurrent/": getBarConcurrentDegign(),
                     "/md/core/mycat/": getBarMycat(),
                     "/md/core/docker/": getBarDocker(),
                     "/md/core/nginx/": getBarNginx(),
@@ -849,6 +854,28 @@ function getBarJavaDegign() {
                 "2023-07-29-《Java极简设计模式》第21章-策略模式.md",
                 "2023-07-30-《Java极简设计模式》第22章-模板方法.md",
                 "2023-07-31-《Java极简设计模式》第23章-访问者模式.md"
+            ]
+        }
+    ]
+}
+
+// Concurrent Design
+function getBarConcurrentDegign() {
+    return [
+        {
+            title: "开篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-17-start.md"
+            ]
+        },
+        {
+            title: "不可变模式篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-18-第01章-不可变模式-到底问题出在哪里.md"
             ]
         }
     ]
