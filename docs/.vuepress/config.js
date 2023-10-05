@@ -863,7 +863,7 @@ function getBarJavaDegign() {
 function getBarConcurrentDegign() {
     return [
         {
-            title: "高并发设计模式开篇",
+            title: "开篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -871,7 +871,7 @@ function getBarConcurrentDegign() {
             ]
         },
         {
-            title: "不可变模式",
+            title: "第一篇：不可变模式",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -885,7 +885,7 @@ function getBarConcurrentDegign() {
             ]
         },
         {
-            title: "保护性暂挂模式",
+            title: "第二篇：保护性暂挂模式",
             collapsable: false,
             sidebarDepth: 0,
             children: [
