@@ -863,7 +863,7 @@ function getBarJavaDegign() {
 function getBarConcurrentDegign() {
     return [
         {
-            title: "开篇",
+            title: "高并发设计模式开篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -871,11 +871,29 @@ function getBarConcurrentDegign() {
             ]
         },
         {
-            title: "不可变模式篇",
+            title: "不可变模式",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-09-18-第01章-不可变模式-到底问题出在哪里.md"
+                "2023-09-18-第01章-到底问题出在哪里.md",
+                "2023-09-19-第02章-原来问题出在这里.md",
+                "2023-09-20-第03章-有哪些方法能够解决并发问题.md",
+                "2023-09-21-第04章-可变类的线程安全问题.md",
+                "2023-09-22-第05章-实现不可变类解决线程安全问题.md",
+                "2023-09-23-第06章-实现消息聚合发送系统.md",
+                "2023-09-24-第07章-JDK中的等效不可变类.md"
+            ]
+        },
+        {
+            title: "保护性暂挂模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-09-25-第08章-线程的流转状态.md",
+                "2023-09-26-第09章-解决交易过程加锁的安全性问题.md",
+                "2023-09-27-第10章-解决交易过程性能与死锁问题.md",
+                "2023-09-28-第11章-使用保护性暂挂模式优化交易性能.md",
+                "2023-09-29-第12章-基于护性暂挂模式实现监控报警系统.md"
             ]
         }
     ]
