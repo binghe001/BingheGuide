@@ -863,7 +863,7 @@ function getBarJavaDegign() {
 function getBarConcurrentDegign() {
     return [
         {
-            title: "开篇",
+            title: "并发设计模式：开篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
