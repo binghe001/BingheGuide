@@ -896,6 +896,14 @@ function getBarConcurrentDegign() {
                 "2023-09-29-第12章-基于护性暂挂模式实现监控报警系统.md",
                 "2023-09-30-第13章-保护性暂挂模式在JDK中的应用.md"
             ]
+        },
+        {
+            title: "第三篇：两阶段终止模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-01-第14章-到底什么是两阶段终止模式.md"
+            ]
         }
     ]
 }
