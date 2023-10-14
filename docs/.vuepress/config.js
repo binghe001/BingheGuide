@@ -907,6 +907,14 @@ function getBarConcurrentDegign() {
                 "2023-10-03-第16章-实现监控报警系统线程优雅退出.md",
                 "2023-10-04-第17章-两阶段终止模式在线程池中的应用.md"
             ]
+        },
+        {
+            title: "第三篇：承诺模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-05-承诺模式-这代码性能怎么这么差.md",
+            ]
         }
     ]
 }
