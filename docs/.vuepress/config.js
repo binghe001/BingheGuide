@@ -909,11 +909,12 @@ function getBarConcurrentDegign() {
             ]
         },
         {
-            title: "第三篇：承诺模式",
+            title: "第四篇：承诺模式",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2023-10-05-承诺模式-这代码性能怎么这么差.md",
+                "2023-10-06-第19章-到底什么是承诺模式.md"
             ]
         }
     ]
