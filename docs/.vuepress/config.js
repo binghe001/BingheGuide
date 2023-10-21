@@ -920,6 +920,14 @@ function getBarConcurrentDegign() {
                 "2023-10-09-第22章-基于承诺模式优化文件同步助手项目.md",
                 "2023-10-10-第23章-承诺模式在FutureTask类中的应用.md"
             ]
+        },
+        {
+            title: "第五篇：生产者消费者模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-11-第24章-面向C端的个人文库系统崩了.md"
+            ]
         }
     ]
 }
