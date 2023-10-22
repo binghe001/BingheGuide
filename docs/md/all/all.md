@@ -411,6 +411,7 @@ title: 冰河指南
 * [《并发设计模式》第22章-承诺模式-基于承诺模式优化文件同步助手项目](https://articles.zsxq.com/id_7fcambhqxl0p.html)
 * [《并发设计模式》第23章-承诺模式-承诺模式在FutureTask类中的应用](https://articles.zsxq.com/id_wnt2fe2zj79g.html)
 * [《并发设计模式》第24章-生产者消费者模式-面向C端的个人文库系统崩了](https://articles.zsxq.com/id_crwfbz23zex2.html)
+* [《并发设计模式》第25章-生产者消费者模式-面向C端的个人文库系统资源耗尽](https://articles.zsxq.com/id_90b8unib0p08.html)
 
 ### 💥 Java极简设计模式
 

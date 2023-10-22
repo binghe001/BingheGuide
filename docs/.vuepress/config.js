@@ -926,7 +926,8 @@ function getBarConcurrentDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-10-11-第24章-面向C端的个人文库系统崩了.md"
+                "2023-10-11-第24章-面向C端的个人文库系统崩了.md",
+                "2023-10-12-第25章-初步优化面向C端的个人文库系统.md"
             ]
         }
     ]
