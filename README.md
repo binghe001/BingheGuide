@@ -404,6 +404,7 @@
 * [《并发设计模式》第23章-承诺模式-承诺模式在FutureTask类中的应用](https://articles.zsxq.com/id_wnt2fe2zj79g.html)
 * [《并发设计模式》第24章-生产者消费者模式-面向C端的个人文库系统崩了](https://articles.zsxq.com/id_crwfbz23zex2.html)
 * [《并发设计模式》第25章-生产者消费者模式-面向C端的个人文库系统资源耗尽](https://articles.zsxq.com/id_90b8unib0p08.html)
+* [《并发设计模式》第26章-生产者消费者模式-优化面向C端的个人文库系统](https://articles.zsxq.com/id_9vf49n3p904o.html)
 
 ### 💥 Java极简设计模式
 
