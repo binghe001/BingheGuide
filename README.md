@@ -406,6 +406,7 @@
 * [《并发设计模式》第25章-生产者消费者模式-面向C端的个人文库系统资源耗尽](https://articles.zsxq.com/id_90b8unib0p08.html)
 * [《并发设计模式》第26章-生产者消费者模式-优化面向C端的个人文库系统](https://articles.zsxq.com/id_9vf49n3p904o.html)
 * [《并发设计模式》第27章-生产者消费者模式-消息堆积问题场景分析](https://articles.zsxq.com/id_rfvzquvd4pra.html)
+* [《并发设计模式》第28章-生产者消费者模式-消息堆积问题解决方案](https://articles.zsxq.com/id_axtimwf09xex.html)
 
 ### 💥 Java极简设计模式
 
