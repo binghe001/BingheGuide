@@ -416,6 +416,7 @@ title: 冰河指南
 * [《并发设计模式》第27章-生产者消费者模式-消息堆积问题场景分析](https://articles.zsxq.com/id_rfvzquvd4pra.html)
 * [《并发设计模式》第28章-生产者消费者模式-消息堆积问题解决方案](https://articles.zsxq.com/id_axtimwf09xex.html)
 * [《并发设计模式》第29章-生产者消费者模式-生产者消费者模式在线程池中的应用](https://articles.zsxq.com/id_fhf4ogjm0lbo.html)
+* [《并发设计模式》第30章-主动对象模式-重大事故访问商品链接404](https://articles.zsxq.com/id_ui9fmr2m0wzw.html)
 
 ### 💥 Java极简设计模式
 

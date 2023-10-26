@@ -933,6 +933,14 @@ function getBarConcurrentDegign() {
                 "2023-10-15-第28章-消息堆积问题解决方案.md",
                 "2023-10-16-第29章-生产者消费者模式在线程池中的应用.md"
             ]
+        },
+        {
+            title: "第六篇：主动对象模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-10-17-第30章-重大事故访问商品链接404.md"
+            ]
         }
     ]
 }
