@@ -939,7 +939,8 @@ function getBarConcurrentDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-10-17-第30章-重大事故访问商品链接404.md"
+                "2023-10-17-第30章-重大事故访问商品链接404.md",
+                "2023-10-18-第31章-访问商品链接404原因分析.md"
             ]
         }
     ]
