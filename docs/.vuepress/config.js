@@ -964,6 +964,14 @@ function getBarConcurrentDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2023-11-02-第46章-导出报表数据错乱了.md"
+            ]
+        },
+        {
+            title: "第九篇：串行线程封闭模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2023-10-28-第41章-用户信息怎么错乱了.md",
                 "2023-10-29-第42章-到底什么是线程特有存储.md",
                 "2023-10-30-第43章-解决格式化时间的线程安全问题.md",
