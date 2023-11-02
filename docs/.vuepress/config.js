@@ -977,7 +977,8 @@ function getBarConcurrentDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-11-02-第46章-导出报表数据错乱了.md"
+                "2023-11-02-第46章-导出报表数据错乱了.md",
+                "2023-11-03-第47章-到底什么是串行线程封闭模式.md"
             ]
         }
     ]
