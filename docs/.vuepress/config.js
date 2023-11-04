@@ -987,7 +987,8 @@ function getBarConcurrentDegign() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2023-11-05-第49章-统计个数据性能太差了.md"
+                "2023-11-05-第49章-统计个数据性能太差了.md",
+                "2023-11-06-第50章-到底什么是主仆模式.md"
             ]
         }
     ]
