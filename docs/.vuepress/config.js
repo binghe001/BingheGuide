@@ -981,6 +981,14 @@ function getBarConcurrentDegign() {
                 "2023-11-03-第47章-到底什么是串行线程封闭模式.md",
                 "2023-11-04-第48章-优化报表系统导出数据功能.md"
             ]
+        },
+        {
+            title: "第十篇：主仆模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-11-05-第49章-统计个数据性能太差了.md"
+            ]
         }
     ]
 }
