@@ -999,6 +999,7 @@ function getBarConcurrentDegign() {
             sidebarDepth: 0,
             children: [
                 "2023-11-09-第53章-统计个交易额也能这么慢.md",
+                "2023-11-10-第54章-到底什么是流水线模式.md"
             ]
         }
     ]
