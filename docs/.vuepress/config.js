@@ -992,6 +992,14 @@ function getBarConcurrentDegign() {
                 "2023-11-07-第51章-基于主仆模式优化统计热点商品功能.md",
                 "2023-11-08-第52章-主仆模式在JDK中的应用.md"
             ]
+        },
+        {
+            title: "第十一篇：流水线模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-11-09-第53章-统计个交易额也能这么慢.md",
+            ]
         }
     ]
 }
