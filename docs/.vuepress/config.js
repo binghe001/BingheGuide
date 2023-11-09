@@ -1010,6 +1010,7 @@ function getBarConcurrentDegign() {
             sidebarDepth: 0,
             children: [
                 "2023-11-13-第57章-支付系统性能太差了.md",
+                "2023-11-14-第58章-到底什么是半同步半异步模式.md"
             ]
         }
     ]
