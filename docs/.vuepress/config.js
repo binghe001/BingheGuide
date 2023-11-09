@@ -1003,6 +1003,14 @@ function getBarConcurrentDegign() {
                 "2023-11-11-第55章-基于流水线模式优化实时统计交易额功能.md",
                 "2023-11-12-第56章-流水线模式在Netty中的应用.md"
             ]
+        },
+        {
+            title: "第十二篇：半同步半异步模式",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-11-13-第57章-支付系统性能太差了.md",
+            ]
         }
     ]
 }
