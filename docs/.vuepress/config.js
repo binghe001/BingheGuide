@@ -863,7 +863,7 @@ function getBarJavaDegign() {
 function getBarConcurrentDegign() {
     return [
         {
-            title: "并发设计模式：开篇",
+            title: "专栏开篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1013,6 +1013,14 @@ function getBarConcurrentDegign() {
                 "2023-11-14-第58章-到底什么是半同步半异步模式.md",
                 "2023-11-15-第59章-使用半同步半异步模式优化支付系统.md",
                 "2023-11-16-第60章-如何处理消息堆积问题.md"
+            ]
+        },
+        {
+            title: "专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-11-17-并发设计模式整体专栏总结.md"
             ]
         }
     ]
