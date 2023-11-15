@@ -4,193 +4,177 @@ title: 星球：冰河技术
 
 # 星球：冰河技术——冰河自主运营的实战类技术社群
 
+作者：冰河
+<br/>星球：[http://m6z.cn/6aeFbs](https://public.zsxq.com/groups/48848484411888.html)
+<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
 
-**大家好，我是冰河~~**
+> 沉淀，成长，突破，帮助他人，成就自我。
 
-今天，我就给大家简单聊聊我星球里有哪些系统性的项目吧。其实，每一个项目的价值都会远超门票。
+## 一、介绍：星球介绍
+
+[冰河技术](https://public.zsxq.com/groups/48848484411888.html)知识星球是冰河创建的付费编程学习、交流社群，我相信每个程序员的硬盘或者云盘里存放着几百GB甚至几TB的编程资料和学习视频，但多又怎么样？出现问题你能问谁？又能去哪里咨询问题呢？冰河的知识星球则不同，在星球里冰河会对你的问题进行 **1v1** 解答，为你指定学习路线、学习方案和规划职业生涯路线。最终的目标就是有针对性的帮助每一位加入星球的小伙伴，通过学习星球的硬核技术和项目，提升业务理解能力、系统架构能力，充分掌握大厂真正落地的核心技术、架构思维、编程思想、代码技巧，不只是为了面试，更多的是为自己的职业生涯保驾护航。
+
+如果你一直在小公司做CRUD，一直忙碌于外包项目，正在迷茫，找不到除了CRUD以外更具深度的项目，不知道学什么，从哪里学，该怎么学，怎么让自己更具竞争力，怎么更好的提升自己，怎么将自己的能力充分体现在简历上，怎么在面试短短的几十分钟内充分展现自己的水平。冰河技术知识星球会给你答案，冰河会在这里为你铺好路，让你一往直前。
+
+知识星球支持[安卓](https://sj.qq.com/appdetail/com.unnoo.quan)、[IOS](https://apps.apple.com/cn/app/xiao-mi-quan/id904106920?l=cn)、[PC网页端](https://public.zsxq.com/groups/48848484411888.html)和小程序，可以随时打开学习，在你每天上下班坐公交和地铁时，或者在带薪如厕时，都可以随时打开知识星球学习，也许某次的学习就能让你在面试、述职、升职加薪、晋升答辩时脱颖而出！
+
+**星球APP&小程序截图：**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-017.png?raw=true" width="80%">
     <br/>
 </div>
 
-## SpringCloud Alibaba实战
-
-《SpringCloud Alibaba实战》专栏又名《SA实战》专栏，整个专栏历时一个半月完结。
-
-从零开始基于SpringCloud Alibaba组件开发一个简易版商城项目（含用户、商品和订单模块）的专栏，涵盖：专栏设计、微服务介绍、微服务环境搭建、服务治理、服务容错、服务网关、链路追踪、消息服务、服务配置和分布式事务等十个大的篇章，是学习微服务必不可少的入门项目。
+**星球PC网页端截图：**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-03-002.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-001.png?raw=true" width="80%">
     <br/>
 </div>
 
-此专栏的文章可以在公号阅读，专栏地址：《[SpringCloud Alibaba实战](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg4MjU0OTM1OA==&action=getalbum&album_id=2337104419664084992&scene=173&from_msgid=2247505806&from_itemidx=1&count=3&nolastread=1#wechat_redirect)》，后续冰河会为专栏录制对应的视频。
+各位小伙伴们可以下载知识星球APP，加入冰河技术知识星球体验一下。
 
-不过要获取专栏源码的话，就需要加入 **冰河技术** 知识星球啦。
+## 二、为啥：加入星球？
 
-## RPC手撸专栏
-
-《RPC手撸专栏》是冰河带着星球的小伙伴们一起从零开始手撸的一款可在真实场景使用的、高性能、可扩展的RPC框架，历时5个半月完结。
-
-涵盖：三十四个大的篇章，130+篇文章，130+代码工程，130+代码分支。涵盖：自定义注解、自定义包扫描类、自定义协议、请求与响应协议的封装、服务提供者、服务消费者、注册中心、负载均衡与增强型负载均衡、序列化与反序列化、动态代理、反射机制、心跳机制、重试机制、整合Spring、整合SpringBoot、整合Docker、整合SpringCloud Alibaba、结果缓存、路由控制、延迟连接、并发控制、流控分析、连接控制、SPI扩展连接淘汰策略、数据缓冲、服务容错、服务限流、基于SPI扩展限流策略、超出限流规则、服务熔断、基于SPI扩展熔断策略、异常监控和其他待更新的篇章。
-
-RPC框架采用微内核、插件化的架构设计，会涉及大量的SPI扩展点，供小伙伴们按照自身实际场景扩展对应的功能，涉及到的核心技术点如下图所示。
+加入星球，你可以获得已经在编程这条路上踩坑多年的互联网资深技术专家，为你提供的服务。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-06-25-001.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-020.png?raw=true" width="80%">
     <br/>
 </div>
 
-加入**冰河技术**知识星球可阅读完整专栏文章和获取完整RPC框架源码，后续冰河会为专栏录制对应的视频，整体专栏如下所示。
+### 1.学习技术&项目
+
+很多小伙伴困于自己在小厂、外包或者刚毕业和未毕业，手里根本就没有什么拿的出手的项目，也没有什么好的阅历，导致投向大厂的简历石沉大海。
+
+加入星球可以直接学习到冰河在大厂多年沉淀下来的核心技术，带你编写超出大厂预期的实战项目，包括但不限于：并发编程、性能调优、框架源码、分布式、微服务、领域驱动设计、互联网工程、Seckill分布式秒杀系统、分布式IM系统、分布式高性能RPC框架、高性能网关等。
+
+#### 1.1 业务场景项目
+
+* 分布式IM系统(整合ChatGPT)：开发一个可以直接部署运行的IM系统-进行中
+* [简易商城脚手架项目：基于SpringCloud Alibaba整套技术栈实现](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html)
+* [实战高并发设计模式项目：涵盖13个真实高并发场景案例，全称手撸代码](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html)
+* [Seckill分布式秒杀系统：基于DDD领域驱动设计，教你灵活运用所有的分布式、高并发技术栈，更具竞争力。](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html)
+* 涵盖各场景的电商平台（规划中）：开发一个涵盖各营销、促销、优惠、交易等场景的分布式大规模电商平台-规划中。
+
+#### 1.2 中间件项目
+
+* [手写分布式高性能RPC框架](https://binghe.gitcode.host/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html)
+* API网关项目
+* 定时调度中间件
+
+#### 1.3 硬核项目
+
+* 手写Redis-源码已完成
+* 手写JVM-源码已完成
+* 手写APM-源码已完成
+
+#### 1.4 源码解析
+
+* [Spring6核心技术](https://binghe.gitcode.host/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html)
+
+#### 1.5 技术小册
+
+* [深入理解高并发编程（第1版）](https://t.zsxq.com/14VH1HjFZ)
+* [深入理解高并发编程（第2版）](https://t.zsxq.com/140HUvLXx)
+* [SpringCloud Alibaba实战](https://t.zsxq.com/140ARETNS)
+* [冰河的渗透实战笔记](https://t.zsxq.com/14Hpsi2sW)
+* [实战高并发设计模式](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html)
+* [Java极简设计模式](https://binghe.gitcode.host/md/core/design/java/2023-07-09-%E3%80%8AJava%E6%9E%81%E7%AE%80%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8B%E7%AC%AC01%E7%AB%A0-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html)
+* [Java8从入门到精通](https://t.zsxq.com/1433UY2s6)
+* [Java面试核心知识点](https://t.zsxq.com/14hhLhYjs)
+* [Spring IOC核心技术](https://t.zsxq.com/14LR8Il3D)
+* [从零开始手撸RPC框架](https://t.zsxq.com/14MrD6CRi)
+* [MySQL核心知识手册](https://t.zsxq.com/145v2KN8y)
+* [Nginx核心技术](https://t.zsxq.com/14hl9bnM1)
+
+#### 1.6 招聘面试
+
+* [1000+套精美简历模板&面试技巧](https://t.zsxq.com/140wNNbz9)
+
+### 2.答疑解惑
+
+其实很多技术和知识并不难，而是你不知道，也没有人告诉你，如果你自己去探索、去研究，可能要花费数月甚至数年才能搞懂。而这样的技术、知识和项目在冰河的知识星球，每天都在产出。你可以在星球向冰河提问题项目架构设计、面试面经问题、晋升答辩细节，也可以参见冰河回答其他小伙伴的疑问，这些内容都能够帮你少走弯路，在最短的时间内提升自己的综合素质和硬核技能。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-04-04-003.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-021.png?raw=true" width="80%">
     <br/>
 </div>
 
+**注：限于篇幅，上图只接触了少部分回答，大部分回答内容和学习建议没截出来，大家可自行到星球查看。**
 
-文章试读地址：[https://binghe.gitcode.host](https://binghe.gitcode.host)站点下的项目实战菜单下。
+这只是星球其中一个问题的回答，有时，小伙伴一句话的提问，可能要写几百上千字来回答，在星球提问基本就赚了！
 
-## Spring6核心技术
+冰河会在星球中回答大量这样的问题，有时小伙伴备注私聊的问题，我会选择单独发给小伙伴们，在星球的每一个菜单栏下，都对应着相关的知识内容、专栏文档、技术小册、视频课程、技术资料等等，坚决不割韭菜，让每一个加入星球的小伙伴都感觉值得。
 
-《Spring6核心技术》是冰河针对最新的Spring6推出的深度剖析Spring6核心源码的专栏，历时3个半月完结。
+### 3.关于简历
 
-专栏整体以最新版本的 **Spring6** 为基础，以 **核心注解** 为入口，结合使用案例为小伙伴们彻底梳理清楚Spring的核心源码执行流程。总体上会分为**IOC容器、AOP切面、声明式事务、AOT预编译和SpringMVC** 五个大的篇章，各篇章会分为若干个章节来彻底梳理清楚对应的核心注解源码和流程。
+冰河在星球除了帮助小伙伴们优化、改进简历外，还为大家提供了1000+套星球专属精美简历模板与面试技巧。
+
+部分简历模板如下所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-02-006.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-022.png?raw=true" width="80%">
     <br/>
 </div>
 
-目前专栏的IOC篇章会首发知识星球，后续会同步到公众号。AOP切面、声明式事务、AOT预编译和SpringMVC篇章后续只会在星球更新。所以，小伙伴们还是早早的加入 **冰河技术** 知识星球为妙。后续冰河会为专栏录制对应的视频。
-
-## Seckill秒杀系统
-
-从零开始介绍原理、设计架构、手撸代码，带你一起实现一个可在真实场景运行的秒杀系统，历时5个月完结。
-
-这不仅仅是秒杀系统，其中应对高并发的解决方案，尤其是应对瞬时亿级流量高并发场景的解决方案，你可以用在任何其他系统上。
-
-很多小伙伴由于自身公司业务限制的问题，根本接触不到高并发的场景，就更别说是高并发场景中涉及到的秒杀系统了，这些都只能在大厂或者头部电商公司才能遇到的高并发秒杀业务。冰河更新秒杀系统，就是要让更多的小伙伴了解到大厂在应对高并发瞬时流量洪峰的解决方案。所以，你在《**Seckill秒杀系统**》专栏学习的不仅仅是如何落地秒杀系统的方案与代码设计，更是一次近距离接触大厂高并发秒杀系统业务的机会，其中涉及到的原理、问题、解决方案和系统架构方案，你可以使用到任何高并发系统中。
+部分面试技巧如下所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/scekill-2023-04-16-006.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-023.png?raw=true" width="80%">
     <br/>
 </div>
 
-总之，在 **《Seckill秒杀系统》** 专栏中，冰河会把总结的高并发秒杀系统开发经验全部传授给你，带你将学习到的高并发知识落地成实际项目，让你知其然，更要知其所以然！
+* 经过一年多的积累，星球的内容远远不止这些，无论是星球内容、课程资料、学习方法等都已经建设的比较全面了，后续会更加完善和全面。
+* 星球里有很多来自211/985名校的新人，也有工作几年的小伙伴，他们更懂得如何用最短时间，更快找到学习干货的最佳途经。
 
-来张图，你会了解更全面。
+## 三、加入：知识星球
 
-<div align="center">
-    <img src="https://binghe.gitcode.host/images/project/seckill/seckill-2023-09-27-001.png?raw=true" width="90%">
-    <br/>
-</div>
+星球价格 **￥299** 一年，新用户领券（关注冰河技术公众号，回复星球领券。或者点击 [加入星球](https://binghe.gitcode.host/md/zsxq/other/join.html) 扫码加入）加入，老用户续费5折一年（星球会不断开发新的技术专栏、硬核项目、技术小册等内容）。
 
-怎么样？这应该是你看到过的最硬核的秒杀系统了吧？没错，它就是对标一线大厂核心技术的秒杀系统。
-
-## 并发设计模式（热更中）
-
-为了让小伙伴们更轻松、高效的学习并发编程，冰河推出了这个《并发设计模式》专栏，整个专栏会以事件驱动、以故事线的形式来贯穿始末，让大家以看故事的形式轻松学习《并发设计模式》，并且在整个专栏过程中，会穿插不少实际业务项目场景，也会带着大家手写核心源码，让大家更好的从项目实战角度学习并发设计模式。所以说，对于并发编程来说，你可以轻松、高效的学会，吃透并发设计模式的核心知识。
-
-目前星球正在热更，已经更新10+篇文章，也正在录制视频。
-
-## 规划中的专栏
-
-后续冰河还会在星球更新大规模中间件项目和深度剖析核心技术的专栏，目前已经规划的专栏如下所示。
-
-### 中间件项目
-
-* 《大规模分布式定时调度中间件项目实战（非Demo）》：全程手撸代码。
-* 《大规模分布式IM（即时通讯）项目实战（非Demo）》：全程手撸代码。
-* 《大规模分布式网关项目实战（非Demo）》：全程手撸代码。
-* 《APM分布式跟踪监控系统（非Demo）》：全称手撸代码
-* 《手写Redis》：全程手撸代码。
-* 《手写JVM》全程手撸代码。
-
-预计10.1假期后会从IM和网关项目中投票优先实现那个项目。
-
-### 超硬核项目
-
-* 《从零落地秒杀系统项目》：全程手撸代码，已完结。
-* 《大规模电商系统商品详情页项目》：全程手撸代码，规划中。
-* 其他待规划的实战项目，小伙伴们也可以提一些自己想学的，想一起手撸的实战项目。。。
-
-## 星球规划
-
-既然星球规划了这么多内容，那么肯定就会有小伙伴们提出疑问：这么多内容，能更新完吗？我的回答就是：一个个攻破呗，咱这星球干就干真实中间件项目，剖析硬核技术和项目，不做Demo。初衷就是能够让小伙伴们学到真正的核心技术，不再只是简单的做CRUD开发。所以，每个专栏都会是硬核内容，像《SpringCloud Alibaba实战》、《手撸RPC专栏》、《Spring6核心技术》和《Seckill秒杀系统》就是很好的示例。后续的专栏只会比这些更加硬核。。
-
-小伙伴们跟着冰河认真学习，多动手，多思考，多分析，多总结，有问题及时在星球提问，相信在技术层面，都会有所提高。将学到的知识和技术及时运用到实际的工作当中，学以致用。星球中不少小伙伴都成为了公司的核心技术骨干，实现了升职加薪的目标。
-
-## 再放一波福利
-
-为了更多小伙伴学到最硬核，最优质的的项目，能够从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河再为大家放一波福利，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！秒杀系统已经完结，不久就会涨价，5折机会已经不多了。
+> 加入星球后，如果不满意，3天内可以全额退款，感兴趣的小伙伴可以先加入体验，判断对自己是否有价值。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
-    <br/>
-</div>
-
-加入星球，跟冰河一起学习《SpringCloud Alibaba实战》、《手撸RPC专栏》、《Spring6核心技术》、《Seckill秒杀系统》，更有已经上新的《高并发设计模式》，从零开始介绍原理、设计架构、手撸代码。后续更有硬核中间件项目和各种大厂真实案例业务项目，而这些都是你升职加薪必备的基础技能。
-
-**150元就能学这么多硬核技术、中间件项目和大厂秒杀系统，以及各种大厂真实案例项目，如果是我，我会买他个终身会员！**
-
-## 其他方式加入星球
-
-* **链接** ：打开链接 [http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs) 加入星球。
-* **回复** ：在公众号 **冰河技术** 回复 **星球** 领取优惠券加入星球。
-
-**特别提醒：** 苹果用户进圈或续费，请加微信 **hacker_binghe** 扫二维码，或者去公众号 **冰河技术** 回复 **星球** 扫二维码加入星球。
-
-**好了，今天就到这儿吧，我是冰河，我们下期见~~**
-
-## 联系冰河
-
-### 加群交流
-
-本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “冰河” 微信(hacker_binghe)，备注：`星球编号`。
-
-
-
-<div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
-    <div style="font-size: 18px;">冰河微信</div>
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-005.png?raw=true" width="80%">
     <br/>
 </div>
 
 
 
-### 公众号
+**注意：** 加入星球后，阅读`星球置顶消息` [https://t.zsxq.com/14EatpDHH](https://t.zsxq.com/14EatpDHH) 申请项目代码权限。
 
-分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
+同时，按照《中华人民共和国著作权法实施条例》未经原作者允许和书面授权，禁止以任何理由和目的，分享星球项目到其他任何github、gitee等平台，违反可追究进一步的法律行动。
+
+## 四、星球：值得学吗？
+
+星球值不值得学，来看看加入星球的小伙伴怎么说吧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
-    <div style="font-size: 18px;">公众号：冰河技术</div>
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-024.png?raw=true" width="80%">
     <br/>
 </div>
 
-
-### 视频号
-
-定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
-
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
-    <div style="font-size: 18px;">视频号：冰河技术</div>
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-025.png?raw=true" width="80%">
     <br/>
 </div>
 
-
-
-### 星球
-
-加入星球 **[冰河技术](http://m6z.cn/6aeFbs)**，可以获得本站点所有学习内容的指导与帮助。如果你遇到不能独立解决的问题，也可以添加冰河的微信：**hacker_binghe**， 我们一起沟通交流。另外，在星球中不只能学到实用的硬核技术，还能学习**实战项目**！
-
-关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
-
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
-    <div style="font-size: 18px;">知识星球：冰河技术</div>
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-026.png?raw=true" width="80%">
     <br/>
 </div>
+
+跟着冰河学，你只管努力提升自己的技能和水平，有问题及时向冰河提问，进大厂是迟早的事儿。
+
+## 五、关于：星球定价
+
+1.星球内的专栏和硬核实战项目都是冰河本人**原创**，加入星球可以学习星球内的所有技术和项目，每个项目的实际价值都远超门票，会带着大家从零开始架构设计，手写硬核项目，搭配有专栏文档，笔记、源码工程，遇到问题可以提，碰到Bug可以修复，这肯定比单独买一个课程或者一套源码要划算的多。星球门票其实远不及培训班、补习班一节课的钱，并且他们的课程可能还没有冰河讲的透彻，让你听的明白。
+
+2.冰河每天会投入大量精力在星球的创作上，包括分享技术、架构设计、项目开发、答疑解惑、优化简历、就业与晋升指导等。这些内容会占据冰河大量的时间和精力，需要每天晚上9点~12点，周末和假期不断维护。所以，冰河的星球会随着项目的递增和加入的人数涨价（本次涨价￥20），否则，真的有点维护不过来了。也真心希望加入星球的小伙伴给自己一个交代，下定决心，一起进步。
+
+3.如果在星球的努力真的让你实现了跳槽大厂、升职加薪的目标，再回过头来看，你会觉得这是一笔对自己最有价值的投资。
+
+4.最后，星球会随着项目的递增和加入的人数涨价，感谢大家的理解！但是，已经加入星球的小伙伴，每次续费的折扣都是很大的，只相当于付了星球新增技术、专栏和项目的费用。对比下来，这个价格就相当便宜了。
+
+🧧[点此领优惠券加入星球](https://binghe.gitcode.host/md/zsxq/other/join.html)
