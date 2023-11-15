@@ -22,14 +22,14 @@ title: 星球：冰河技术
 **星球APP&小程序截图：**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-017.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-017.png?raw=true" width="70%">
     <br/>
 </div>
 
 **星球PC网页端截图：**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-001.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-001.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -40,7 +40,7 @@ title: 星球：冰河技术
 加入星球，你可以获得已经在编程这条路上踩坑多年的互联网资深技术专家，为你提供的服务。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-020.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-020.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -98,7 +98,7 @@ title: 星球：冰河技术
 其实很多技术和知识并不难，而是你不知道，也没有人告诉你，如果你自己去探索、去研究，可能要花费数月甚至数年才能搞懂。而这样的技术、知识和项目在冰河的知识星球，每天都在产出。你可以在星球向冰河提问题项目架构设计、面试面经问题、晋升答辩细节，也可以参见冰河回答其他小伙伴的疑问，这些内容都能够帮你少走弯路，在最短的时间内提升自己的综合素质和硬核技能。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-021.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-021.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -115,14 +115,14 @@ title: 星球：冰河技术
 部分简历模板如下所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-022.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-022.png?raw=true" width="70%">
     <br/>
 </div>
 
 部分面试技巧如下所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-023.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-023.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -136,7 +136,7 @@ title: 星球：冰河技术
 > 加入星球后，如果不满意，3天内可以全额退款，感兴趣的小伙伴可以先加入体验，判断对自己是否有价值。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-005.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-005.png?raw=true" width="40%">
     <br/>
 </div>
 
@@ -151,17 +151,17 @@ title: 星球：冰河技术
 星球值不值得学，来看看加入星球的小伙伴怎么说吧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-024.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-024.png?raw=true" width="70%">
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-025.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-025.png?raw=true" width="70%">
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-026.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-026.png?raw=true" width="70%">
     <br/>
 </div>
 

@@ -10,7 +10,7 @@ title: 星球项目
 今天，我就给大家简单聊聊我星球里有哪些系统性的项目吧。其实，每一个项目的价值都会远超门票。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -93,7 +93,10 @@ RPC框架采用微内核、插件化的架构设计，会涉及大量的SPI扩�
 
 为了让小伙伴们更轻松、高效的学习并发编程，冰河推出了这个《并发设计模式》专栏，整个专栏会以事件驱动、以故事线的形式来贯穿始末，让大家以看故事的形式轻松学习《并发设计模式》，并且在整个专栏过程中，会穿插不少实际业务项目场景，也会带着大家手写核心源码，让大家更好的从项目实战角度学习并发设计模式。所以说，对于并发编程来说，你可以轻松、高效的学会，吃透并发设计模式的核心知识。
 
-
+<div align="center">
+    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-11-17-001.png?raw=true" width="70%">
+    <br/>
+</div>
 
 怎么样，内容是不是一样的硬核？
 
@@ -129,7 +132,7 @@ RPC框架采用微内核、插件化的架构设计，会涉及大量的SPI扩�
 为了更多小伙伴学到最硬核，最优质的的项目，能够从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河再为大家放一波福利，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！秒杀系统已经完结，不久就会涨价，5折机会已经不多了。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
     <br/>
 </div>
 
