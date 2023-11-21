@@ -433,6 +433,10 @@ module.exports = {
                                     {
                                         text: '分布式Seckill秒杀系统',
                                         link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
+                                    },
+                                    {
+                                        text: '实战高并发设计模式',
+                                        link: '/md/core/design/concurrent/2023-09-17-start.md'
                                     }
                                 ]
                             },
