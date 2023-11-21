@@ -167,37 +167,37 @@ title: 冰河指南
 ### 我的新书
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/book/2023-02-20-001.jpg?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/book/2023-02-20-001.jpg?raw=true" width="60%">
       <div style="font-size: 18px;"><a href="https://u.jd.com/izMwOkE">《深入理解高并发编程：JDK核心技术》</a></div>
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/fe76310aea734752b3b79c4df1438943.jpeg?raw=true" width="80%">
+    <img src="https://img-blog.csdnimg.cn/fe76310aea734752b3b79c4df1438943.jpeg?raw=true" width="60%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/13190783.html">《深入理解高并发编程：核心原理与案例实战》</a></div>
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/5ff576f8189d46cf83c59fe4e5efc6dd.png?raw=true" width="80%">
+    <img src="https://img-blog.csdnimg.cn/5ff576f8189d46cf83c59fe4e5efc6dd.png?raw=true" width="60%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/10067507938306.html">《深入高平行開發：深度原理&專案實戰》</a></div>
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/5ee367b68023466a87f66763a64a4133.jpg?raw=true" width="100%">
+    <img src="https://img-blog.csdnimg.cn/5ee367b68023466a87f66763a64a4133.jpg?raw=true" width="80%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/12972343.html">《深入理解分布式事务：原理与实战》</a></div>
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/20210426115257555.png?raw=true" width="80%">
+    <img src="https://img-blog.csdnimg.cn/20210426115257555.png?raw=true" width="60%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/13036154.html">《MySQL技术大全：开发、优化与运维实战》</a></div>
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/20200828011209412.png?raw=true" width="80%">
+    <img src="https://img-blog.csdnimg.cn/20200828011209412.png?raw=true" width="60%">
       <div style="font-size: 18px;"><a href="https://item.jd.com/12710993.html">《海量数据处理与大数据技术实战》</a></div>
     <br/>
 </div>
@@ -254,7 +254,11 @@ title: 冰河指南
 * [原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 
-### 💥 Seckill秒杀系统
+### 💥 分布式IM即时通讯系统
+
+* [开篇：分布式IM即时通讯系统正式启动](https://articles.zsxq.com/id_dm9trllv5sac.html)
+
+### 💥 分布式Seckill秒杀系统
 
 * [五个月，秒杀，38个大的篇章，126+篇文章、视频、小册，150+源码分支，完美收官！](https://mp.weixin.qq.com/s/FwUR0jSaaSqyOc_xNhaKxw)
 * [《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)

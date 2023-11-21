@@ -427,7 +427,11 @@ module.exports = {
                                 text: "高并发项目",
                                 items:[
                                     {
-                                        text: '💥《Seckill秒杀系统》',
+                                        text: '分布式IM即时通讯系统',
+                                        link: '/md/project/im/start/2023-11-20-start.md'
+                                    },
+                                    {
+                                        text: '分布式Seckill秒杀系统',
                                         link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
                                     }
                                 ]
@@ -436,7 +440,7 @@ module.exports = {
                                 text: "微服务项目",
                                 items:[
                                     {
-                                        text: '💥SpringCloud Alibaba实战',
+                                        text: '简易电商脚手架项目',
                                         link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                     }
                                 ]
@@ -445,7 +449,7 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '💥《RPC手撸专栏》',
+                                        text: '手写RPC项目',
                                         link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
                                     }/*,
                                     {
@@ -651,6 +655,7 @@ module.exports = {
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
+                    "/md/project/im/": getBarPeojectIM(),
                     "/md/hack/environment/": getBarHackEnvironment(),
                     "/md/hack/tools/": getBarHackTools(),
                     "/md/hack/horse/": getBarHackHorse(),
@@ -2340,6 +2345,83 @@ function getBarPeojectSeckill() {
             sidebarDepth: 0,
             children: [
                 "2023-10-05-《Seckill秒杀系统》结尾-秒杀系统整体专栏总结.md"
+            ]
+        }
+    ]
+}
+// getBarPeojectIM
+function getBarPeojectIM() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2023-11-20-start.md",
+            ]
+        },
+        {
+            title: "第1部分：需求设计",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第2部分：IM后端服务",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第3部分：SDK接入服务",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第4部分：大后端平台",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "",
+            ]
+        },
+        {
+            title: "第5部分：OpenAI接入服务",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第6部分：大前端UI",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第7部分：部署与监控",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "结尾：专栏总结",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
             ]
         }
     ]

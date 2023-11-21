@@ -247,6 +247,10 @@
 * [原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 
+### 💥 分布式IM即时通讯系统
+
+* [开篇：分布式IM即时通讯系统正式启动](https://articles.zsxq.com/id_dm9trllv5sac.html)
+
 ### 💥 Seckill秒杀系统
 
 * [《Seckill秒杀系统》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统](https://articles.zsxq.com/id_52v1wwqt8uez.html)
