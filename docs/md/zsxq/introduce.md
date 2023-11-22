@@ -52,10 +52,10 @@ title: 星球：冰河技术
 
 #### 1.1 业务场景项目
 
-* 分布式IM系统(整合ChatGPT)：开发一个可以直接部署运行的IM系统-进行中
-* [简易商城脚手架项目：基于SpringCloud Alibaba整套技术栈实现](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html)
-* [实战高并发设计模式项目：涵盖13个真实高并发场景案例，全称手撸代码](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html)
+* [分布式IM系统(整合ChatGPT)：开发一个可以直接部署运行的IM系统，高并发实战项目，更具竞争力-进行中](https://binghe.gitcode.host/md/project/im/start/2023-11-20-start.html)
 * [Seckill分布式秒杀系统：基于DDD领域驱动设计，教你灵活运用所有的分布式、高并发技术栈，更具竞争力。](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html)
+* [实战高并发设计模式项目：涵盖13个真实高并发场景案例，全称手撸代码](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html)
+* [简易商城脚手架项目：基于SpringCloud Alibaba整套技术栈实现](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html)
 * 涵盖各场景的电商平台（规划中）：开发一个涵盖各营销、促销、优惠、交易等场景的分布式大规模电商平台-规划中。
 
 #### 1.2 中间件项目
