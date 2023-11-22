@@ -321,10 +321,10 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🔥框架源码',
+                        text: '框架源码',
                         items: [
                             {
-                                text: '🔥Spring6核心技术',
+                                text: 'Spring6核心技术',
                                 link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
                             }
                         ]
@@ -335,7 +335,7 @@ module.exports = {
                             {
                                 text: '分布式事务',items: [
                                     {
-                                        text: '💥连载视频',
+                                        text: '分布式事务系列视频',
                                         link: '/md/distributed/transaction/transaction-video-001.md'
                                     }
                                 ]
@@ -408,20 +408,20 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '🔥微服务',
+                        text: '微服务',
                         items: [
                             {
                                 text: 'SpringBoot',
                                 link: '/md/microservices/springboot/default.md'
                             },
                             {
-                                text: '🔥SpringCloudAlibaba',
+                                text: 'SpringCloudAlibaba',
                                 link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                             }
                         ]
                     },
                     {
-                        text: '💥项目实战',
+                        text: '项目实战',
                         items: [
                             {
                                 text: "高并发项目",
@@ -1469,7 +1469,7 @@ function getBarMiddlewareByteCode() {
 function getBarDistributedTransaction() {
     return [
         {
-            title: "连载视频",
+            title: "分布式事务系列视频",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1491,6 +1491,24 @@ function getBarDistributedTransaction() {
                 "transaction-video-016.md",
                 "transaction-video-017.md",
                 "transaction-video-018.md",
+                "transaction-video-019.md",
+                "transaction-video-020.md",
+                "transaction-video-021.md",
+                "transaction-video-022.md",
+                "transaction-video-023.md",
+                "transaction-video-024.md",
+                "transaction-video-025.md",
+                "transaction-video-036.md",
+                "transaction-video-027.md",
+                "transaction-video-028.md",
+                "transaction-video-029.md",
+                "transaction-video-030.md",
+                "transaction-video-031.md",
+                "transaction-video-032.md",
+                "transaction-video-033.md",
+                "transaction-video-034.md",
+                "transaction-video-035.md",
+                "transaction-video-036.md"
             ]
         }
     ]
