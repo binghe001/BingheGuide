@@ -2384,7 +2384,7 @@ function getBarPeojectIM() {
         },
         {
             title: "第1部分：需求设计",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "requirement/2023-11-23-chapter01.md",
