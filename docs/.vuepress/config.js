@@ -2388,6 +2388,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "requirement/2023-11-23-chapter01.md",
+                "requirement/2023-11-25-chapter02.md",
             ]
         },
         {
