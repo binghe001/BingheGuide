@@ -441,15 +441,6 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: "微服务项目",
-                                items:[
-                                    {
-                                        text: '简易电商脚手架项目',
-                                        link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
-                                    }
-                                ]
-                            },
-                            {
                                 text: "中间件项目",
                                 items:[
                                     {
@@ -472,6 +463,15 @@ module.exports = {
                                         text: '《开源项目》',
                                         link: '/md/middleware/independent/default.md'
                                     }*/
+                                ]
+                            },
+                            {
+                                text: "微服务项目",
+                                items:[
+                                    {
+                                        text: '简易电商脚手架项目',
+                                        link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
+                                    }
                                 ]
                             }
                         ]
