@@ -253,6 +253,7 @@
 * [《分布式IM系统》需求设计-第01节：为何要学习分布式IM即时通讯系统](https://t.zsxq.com/14pDoU2bm)
 * [《分布式IM系统》需求设计-第02节：分布式IM即时通讯系统的目标与挑战](https://t.zsxq.com/14vNxrhs5)
 * [《分布式IM系统》需求设计-第03节：分布式IM即时通讯系统功能需求与流程梳理](https://t.zsxq.com/149IP0Ctv)
+* [《分布式IM系统》需求设计-第04节：分布式IM即时通讯系统技术流程梳理](https://t.zsxq.com/144SWUMPi)
 
 ### 💥 Seckill秒杀系统
 
