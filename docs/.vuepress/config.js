@@ -580,6 +580,10 @@ module.exports = {
                             {
                                 text: '电子书籍', items: [
                                     {
+                                        text: '《实战高并发设计模式》',
+                                        link: '/md/knowledge/pdf/2023-11-27-concurrent-design-mode.md'
+                                    },
+                                    {
                                         text: '《深入理解高并发编程(第2版)》',
                                         link: '/md/knowledge/pdf/2022-10-31《深入理解高并发编程（第2版）》打包发布.md'
                                     },
@@ -2791,6 +2795,7 @@ function getBarPDFSink() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2023-11-27-concurrent-design-mode.md",
                 "2022-10-31《深入理解高并发编程（第2版）》打包发布.md",
                 "2022-07-25-深入理解高并发编程-第1版.md",
                 "2022-07-25-十大篇章-共26个章节-332页-打包发布.md",
