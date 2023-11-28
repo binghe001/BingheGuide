@@ -249,9 +249,10 @@
 
 ### 💥 分布式IM即时通讯系统
 
-* [《分布式IM系统》开篇：分布式IM即时通讯系统正式启动](https://articles.zsxq.com/id_dm9trllv5sac.html)
-* [《分布式IM系统》需求设计-第01节：为何要学习分布式IM即时通讯系统](https://articles.zsxq.com/id_7pvj65epwaq7.html)
-* [《分布式IM系统》需求设计-第02节：分布式IM即时通讯系统的目标与挑战](https://articles.zsxq.com/id_2z1d80et3jp3.html)
+* [《分布式IM系统》开篇：分布式IM即时通讯系统正式启动](https://t.zsxq.com/14WPONMB1)
+* [《分布式IM系统》需求设计-第01节：为何要学习分布式IM即时通讯系统](https://t.zsxq.com/14pDoU2bm)
+* [《分布式IM系统》需求设计-第02节：分布式IM即时通讯系统的目标与挑战](https://t.zsxq.com/14vNxrhs5)
+* [《分布式IM系统》需求设计-第03节：分布式IM即时通讯系统功能需求与流程梳理](https://t.zsxq.com/149IP0Ctv)
 
 ### 💥 Seckill秒杀系统
 
