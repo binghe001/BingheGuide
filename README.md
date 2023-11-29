@@ -254,6 +254,7 @@
 * [《分布式IM系统》需求设计-第02节：分布式IM即时通讯系统的目标与挑战](https://t.zsxq.com/14vNxrhs5)
 * [《分布式IM系统》需求设计-第03节：分布式IM即时通讯系统功能需求与流程梳理](https://t.zsxq.com/149IP0Ctv)
 * [《分布式IM系统》需求设计-第04节：分布式IM即时通讯系统技术流程梳理](https://t.zsxq.com/144SWUMPi)
+* [《分布式IM系统》总体架构-第01节：分布式IM即时通讯系统总体方案目标与架构设计](https://t.zsxq.com/144pEihGb)
 
 ### 💥 Seckill秒杀系统
 
