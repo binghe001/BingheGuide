@@ -1,7 +1,7 @@
 ---
 layout: post
 category: interview
-title: 冰河的第三本高并发书籍面市了
+title: 实战高并发设计模式
 tagline: by 冰河
 tag: [binghe,concurrent,designmode]
 excerpt: 冰河的第三本高并发书籍面市了

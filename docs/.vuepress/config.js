@@ -2403,6 +2403,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "architecture/2023-11-29-chapter01.md",
+                "architecture/2023-11-30-chapter02.md",
             ]
         },
         {
