@@ -2407,7 +2407,15 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第3部分：IM后端服务",
+            title: "第3部分：环境搭建",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "environment/2023-12-01-chapter01.md",
+            ]
+        },
+        {
+            title: "第4部分：IM后端服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2415,7 +2423,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第4部分：SDK接入服务",
+            title: "第5部分：SDK接入服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2423,15 +2431,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第5部分：大后端平台",
-            collapsable: true,
-            sidebarDepth: 0,
-            children: [
-                "",
-            ]
-        },
-        {
-            title: "第6部分：OpenAI接入服务",
+            title: "第6部分：大后端平台",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2439,7 +2439,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第7部分：大前端UI",
+            title: "第7部分：OpenAI接入服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2447,7 +2447,15 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第8部分：部署与监控",
+            title: "第8部分：大前端UI",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第9部分：部署与监控",
             collapsable: true,
             sidebarDepth: 0,
             children: [
