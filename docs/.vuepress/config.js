@@ -2412,6 +2412,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "environment/2023-12-01-chapter01.md",
+                "environment/2023-12-04-chapter02.md",
             ]
         },
         {
