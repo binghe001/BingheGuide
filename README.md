@@ -257,7 +257,7 @@
 * [《分布式IM系统》总体架构-第01节：分布式IM即时通讯系统总体方案目标与架构设计](https://t.zsxq.com/144pEihGb)
 * [《分布式IM系统》总体架构-第02节：分布式IM即时通讯系统数据模型设计](https://t.zsxq.com/14ie4NqRD)
 * [《分布式IM系统》环境搭建-第01节：分布式IM即时通讯系统研发环境搭建](https://t.zsxq.com/14oOdmec0)
-* [《分布式IM系统》环境搭建-第02节：分布式IM即时通讯系统项目工程搭建](https://articles.zsxq.com/id_7k9bjv20kk9m.html)
+* [《分布式IM系统》环境搭建-第02节：分布式IM即时通讯系统项目工程搭建](https://t.zsxq.com/15FTjKpI2)
 
 ### 💥 Seckill秒杀系统
 
