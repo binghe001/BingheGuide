@@ -10,7 +10,7 @@ actionLinks:
   class: secondary
 - link: /md/study/concurrent/concurrent_road.md
   text: 并发指南
-  class: secondary
+  class: secondary  
 features:
 - title: 沉淀
   details: 宝剑锋从磨砺出，梅花香自苦寒来。
@@ -48,19 +48,18 @@ footer: GPL Licensed | Copyright © 2022~2023 冰河，All rights reserved. 沉�
 
 ## PDF
 
-* [《实战高并发设计模式》](https://mp.weixin.qq.com/s/qb5bvW7uMYRzL4LCZZkgTg)——涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
-
+- [《实战高并发设计模式》](https://mp.weixin.qq.com/s/qb5bvW7uMYRzL4LCZZkgTg) —— 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
 - [《深入理解高并发编程（第2版）》](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ) —— 全书共计 八 大篇章，433页，耗时 4 个月完成，全网最全的高并发编程知识手册，涵盖：学习路线、源码分析、JDK核心类库、基础案例、实战案例、性能优化、面试、和系统架构等篇章，发布当月下载量即突破5万，全网累计下载30万+。
-- [《深入理解高并发编程（第1版）》](https://mp.weixin.qq.com/s/yPUzyssTJ3Jv9prljhrmrQ) —— 全书共计 五 大篇章节，392页，耗时6个月完成。涵盖源码分析、基础案例、实战案例、面试和系统架构等篇章，全网累计下载65万+。
-- [《SpringCloud Alibaba实战》](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A)—— 全书共计 十 大篇章，26个章节，332页，涵盖：专栏设计、微服务介绍、微服务环境搭建、服务治理、服务容错、服务网关、链路追踪、消息服务、服务配置和分布式事务等篇章，全网累计下载10万+。
-- [《冰河的渗透实战笔记》](https://mp.weixin.qq.com/s/maXLSjgqTkkv4-BvYFkgzA)—— 冰河整理的全网首个开源的以实战案例为背景的渗透实战笔记，全书共442页，共计37万字（不计空格）。整本书的内容涵盖：Kali基础、渗透工具、木马制作、钓鱼链接生成、爆破密码、内存溢出攻击、web渗透、数据提权、社会工程学，全网累计下载20万+。
+- [《深入理解高并发编程（第1版）》](https://mp.weixin.qq.com/s/yPUzyssTJ3Jv9prljhrmrQ) —— 全书共计 五 大篇章节，392页，耗时6个月完成。涵盖源码分析、基础案例、实战案例、面试和系统架构等篇章，全网累计下载70万+。
+- [《SpringCloud Alibaba实战》](https://mp.weixin.qq.com/s/nuK5qC0TCQ6UYlyv0Y0m8A) —— 全书共计 十 大篇章，26个章节，332页，涵盖：专栏设计、微服务介绍、微服务环境搭建、服务治理、服务容错、服务网关、链路追踪、消息服务、服务配置和分布式事务等篇章，全网累计下载10万+。
+- [《冰河的渗透实战笔记》](https://mp.weixin.qq.com/s/maXLSjgqTkkv4-BvYFkgzA) —— 冰河整理的全网首个开源的以实战案例为背景的渗透实战笔记，全书共442页，共计37万字（不计空格）。整本书的内容涵盖：Kali基础、渗透工具、木马制作、钓鱼链接生成、爆破密码、内存溢出攻击、web渗透、数据提权、社会工程学，全网累计下载20万+。
 - [《从零开始写RPC框架（基础版）》](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ) —— 在RPC框架中会实现同步调用、异步调用、回调调用、单向调用和泛化调用。框架中会使用大量的SPI技术来实现扩展性，其中，整个框架会采用微内核、插件化的开发模式，最终真正做一款可在实际场景使用的RPC框架。
 - [《MySQL核心技术》](https://mp.weixin.qq.com/s/jd7vTSZ7wqj3BMLRlhn3DA) —— 全书共19章、16万字，涵盖了MySQL核心基础知识的方方面面内容，非常适合MySQL数据库初学者入门，也适合MySQL技术高手系统化的梳理MySQL基础知识，及时查漏补缺，全网累计下载5万+。
 - [《Spring IOC核心技术》](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg) —— 全书共27章，19万字，涵盖Spring IOC最核心的技术，全网累计下载8万+。
 
 ## 面试必备
-
-
+- [1000+套精美简历模板与面试技巧](https://t.zsxq.com/150wNNbz9) - 1000+套简历模板与现场面试技巧，打开你面试通往成功的大门，助力面试软技能。
+- [Java面试核心知识点手册](https://t.zsxq.com/15hhLhYjs) - 冰河整理并亲自验证的Java核心面试知识点，助力面试硬核技能。
 
 ## 加群交流
 
