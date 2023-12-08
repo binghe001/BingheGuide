@@ -3005,24 +3005,56 @@ function getStarBall() {
         {
             title: "星球介绍",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 1,
             children: [
                 "introduce.md",
                 "other/join.md",
+                "other/project.md"
                 /*"2023-10-06-introduce.md",*/
                 /*"2023-07-09-秒杀系统.md",
                 "2023-06-06-想跳槽没项目经验该如何破局.md",*/
             ]
         },
         {
-            title: "星球项目",
+            title: "星球归档",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "other/project.md"
-                /*"2023-10-06-introduce.md",*/
-                /*"2023-07-09-秒杀系统.md",
-                "2023-06-06-想跳槽没项目经验该如何破局.md",*/
+                "essence/essence.md"
+            ]
+        },
+        {
+            title: "高并发项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/im/2023-11-20-im.md",
+                "project/seckill/2023-04-16-seckill.md",
+                "project/concurrent/2023-09-17-concurrent-design.md",
+            ]
+        },
+        {
+            title: "中间件项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/rpc/2022-08-24-rpc.md"
+            ]
+        },
+        {
+            title: "微服务项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/sa/2022-04-02-sa.md"
+            ]
+        },
+        {
+            title: "手撕源码",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/spring/2022-12-02-spring.md"
             ]
         }
     ]
