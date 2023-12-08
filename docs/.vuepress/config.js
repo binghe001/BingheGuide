@@ -473,6 +473,15 @@ module.exports = {
                                         link: '/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba专栏开篇.md'
                                     }
                                 ]
+                            },
+                            {
+                                text: "手撕源码",
+                                items:[
+                                    {
+                                        text: '手撕Spring6源码',
+                                        link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
+                                    }
+                                ]
                             }
                         ]
                     },
