@@ -2444,7 +2444,15 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第4部分：IM后端服务",
+            title: "第4部分：通用模型设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "model/2023-12-09-chapter01.md",
+            ]
+        },
+        {
+            title: "第5部分：IM后端服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2452,7 +2460,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第5部分：SDK接入服务",
+            title: "第6部分：SDK接入服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2460,7 +2468,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第6部分：大后端平台",
+            title: "第7部分：大后端平台",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2468,7 +2476,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第7部分：OpenAI接入服务",
+            title: "第8部分：OpenAI接入服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2476,7 +2484,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第8部分：大前端UI",
+            title: "第9部分：大前端UI",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2484,7 +2492,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第9部分：部署与监控",
+            title: "第10部分：部署与监控",
             collapsable: true,
             sidebarDepth: 0,
             children: [
