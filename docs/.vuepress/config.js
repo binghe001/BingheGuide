@@ -193,6 +193,10 @@ module.exports = {
                         text: '导读', link: '/md/all/all.md'
                     },
                     {
+                        text: '♻学习路线',
+                        link: '/md/study/concurrent/concurrent_road.md'
+                    },
+                    {
                         text: '踩坑经历',
                         items: [
                             {
@@ -648,6 +652,7 @@ module.exports = {
                 sidebar: {
                     /*"/md/other/": genBarOther(),*/
                     "/md/core/java/": getBarJava(),
+                    "/md/study/": getStudyRoadJava(),
                     "/md/core/design/java/": getBarJavaDegign(),
                     "/md/core/design/concurrent/": getBarConcurrentDegign(),
                     "/md/core/mycat/": getBarMycat(),
@@ -716,6 +721,20 @@ module.exports = {
 //         }
 //     ]
 // }
+
+// getStudyRoadJava
+function getStudyRoadJava() {
+    return [
+        {
+            title: "学习指南",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "concurrent/concurrent_road.md"
+            ]
+        }
+    ]
+}
 
 // Java
 function getBarJava() {
