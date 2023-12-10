@@ -59,7 +59,7 @@ title: 面试：可以写到简历上的分布式IM即时通讯系统
 对于IM即时通讯系统来说，涵盖了即时通讯后端服务、大后端平台、SDK接入服务、OpenAI接入服务、大前端UI，我相信不少小伙伴多多少少能够画出IM即时通讯系统的架构图，大致如图1-1所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-001.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-001.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -72,7 +72,7 @@ title: 面试：可以写到简历上的分布式IM即时通讯系统
 既然图1-1所示的架构设计存在性能瓶颈，那我们如何进行优化呢？为此我们在如1-1的基础上进行了优化，优化后的架构如图1-2所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-002.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-002.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -97,7 +97,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 为进一步增强分布式IM即时通讯系统的性能、可用性和弹性伸缩能力，我们可以对分布式IM即时通讯系统进行容器化架构设计，如图1-3所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-003.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-003.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -120,7 +120,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 在分布式IM即时通讯系统中，不管是大后端平台，还是IM即时通讯服务，我们都会对业务层的代码采用分层业务架构，这里，可以借鉴DDD的分层架构思想，将代码总体上分成展示层、应用层、领域层和基础设施层四个层次，但是，考虑到分布式IM即时通讯系统的特殊性，又不会严格按照DDD的原则来设计代码分层，具体按照如图1-4所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-004.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-29-004.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -149,7 +149,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 在分布式IM即时通讯系统中，我们忽略掉其他一些细节信息，重点关注下发送消息的交互链路逻辑。不管是单聊还是群聊，最终都需要通过IM即时通讯服务将消息推送给用户的终端。此时发送消息的流程如图1-5所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-002.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-002.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -188,7 +188,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 单聊就是在分布式IM即时通讯系统中，一个用户直接与另外一个用户聊天，也就是一对一的聊天。在这种场景下，很有可能单聊的两个用户中，出现用户不在线的情况。例如，用户A给用户B发送消息时，用户B可能不在线。此时，我们就需要将用户A向用户B发送的消息存储起来。其实，在我们实现的分布式IM即时通讯系统中，无论把用户B是否在线，都会存储消息记录。当用户B登录系统后，将消息同步给用户B，如图1-6所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-003.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-003.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -199,7 +199,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 群聊就是在分布式IM即时通讯系统中，多个用户在同一个群组中进行聊天，此时在发送消息时，我们可以通过群组ID找出群内所有在线的用户，将消息即时发送给在线的用户。那些未在线的用户就按照单聊未在线的用户进行处理，如图1-7所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-004.png?raw=true" width="30%">
+    <img src="https://binghe.gitcode.host/images/project/im/2023-11-28-004.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -232,7 +232,7 @@ IM即时通讯服务集群中的每一个IM即时通讯服务实例在集群中�
 年底最大力度优惠，原价299，扫码立减200，加入星球学习。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
     <br/>
 </div>
 
