@@ -171,7 +171,7 @@ title: 星球：冰河技术
 
 ## 五、指南：使用星球
 
-* [星球学习指南：快速了解星球，开启学习之旅！](https://binghe.gitcode.host/md/zsxq/guide/guide.html))
+* [星球学习指南：快速了解星球，开启学习之旅！](https://binghe.gitcode.host/md/zsxq/guide/guide.html)
 
 ## 六、关于：星球定价
 
