@@ -61,12 +61,12 @@ title: 星球学习指南：快速了解星球，开启学习之旅！
 
 ## 二、申请项目仓库
 
-**注意**：按照《中华人民共和国著作权法实施条例》未经原作者允许和书面授权，禁止以任何理由和目的，分享星球项目到其他任何github、gitee等平台，违反可追究进一步的法律行动。
+**注意**：按照《中华人民共和国著作权法实施条例》未经原作者允许和书面授权，禁止以任何理由和目的，分享星球项目和内容到其他任何github、gitee，以及其他博客等平台，违反可追究进一步的法律行动。
 
 星球内的项目课程，会给大家单独提供项目学习仓库，加入星球后，大家可以阅读星球置顶消息：[https://t.zsxq.com/15EatpDHH](https://t.zsxq.com/15EatpDHH) 申请加入仓库，并按照下图的方式获取gitcode账号发送给冰河。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-12-01-003.png?raw=true" width="70%">
+    <img src="https://binghe.gitcode.host/images/zsxq/2023-12-01-003.png?raw=true" width="40%">
     <br/>
 </div>
 
