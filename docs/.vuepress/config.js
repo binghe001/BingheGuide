@@ -3036,6 +3036,7 @@ function getStarBall() {
             sidebarDepth: 1,
             children: [
                 "introduce.md",
+                "guide/guide.md",
                 "other/join.md",
                 "other/project.md"
                 /*"2023-10-06-introduce.md",*/
