@@ -255,6 +255,7 @@
 ### 💥 分布式IM即时通讯系统
 
 * [《分布式IM系统》开篇：分布式IM即时通讯系统正式启动](https://t.zsxq.com/14WPONMB1)
+* [《分布式IM系统》面试：可以写到简历上的分布式IM即时通讯系统](https://binghe.gitcode.host/md/project/im/start/2023-12-08-interview.html)
 * [《分布式IM系统》需求设计-第01节：为何要学习分布式IM即时通讯系统](https://t.zsxq.com/14pDoU2bm)
 * [《分布式IM系统》需求设计-第02节：分布式IM即时通讯系统的目标与挑战](https://t.zsxq.com/14vNxrhs5)
 * [《分布式IM系统》需求设计-第03节：分布式IM即时通讯系统功能需求与流程梳理](https://t.zsxq.com/149IP0Ctv)
@@ -394,6 +395,7 @@
 * [《Seckill秒杀系统》第123章：单机服务极致优化](https://articles.zsxq.com/id_vla569lwcv5p.html)
 * [《Seckill秒杀系统》第124章：秒杀系统流程极致优化](https://articles.zsxq.com/id_ezkr511hqn61.html)
 * [《Seckill秒杀系统》结尾：秒杀系统整体专栏总结](https://articles.zsxq.com/id_lsps4inuwvh3.html)
+* [《Seckill秒杀系统》番外篇：第01章：互联网大厂是如何设计和使用缓存的](https://binghe.gitcode.host/md/project/seckill/2023-12-10-cache-design.html)
 
 ### 💥 实战高并发设计模式
 

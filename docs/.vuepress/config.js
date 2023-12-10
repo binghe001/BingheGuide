@@ -2400,6 +2400,14 @@ function getBarPeojectSeckill() {
             children: [
                 "2023-10-05-《Seckill秒杀系统》结尾-秒杀系统整体专栏总结.md"
             ]
+        },
+        {
+            title: "番外篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-12-10-cache-design.md"
+            ]
         }
     ]
 }
@@ -2412,6 +2420,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "start/2023-11-20-start.md",
+                "start/2023-12-08-interview.md"
             ]
         },
         {

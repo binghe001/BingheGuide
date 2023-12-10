@@ -14,7 +14,11 @@ title: 归档：部分精华内容
 
 归档汇总星球中的一些精华内容，旨在帮助小伙伴们迅速找到和学习星球精华贴。星球里的读者和小伙伴们也可以在文章下面提交PR，一起来维护和汇总星球的内容。
 
-## 二、问答精华
+## 二、重要内容
+
+* [【重要】快速了解星球，开启学习之路！](https://t.zsxq.com/15CbM55H6)
+
+## 三、问答精华
 
 * [自己手写了一个简单MQ，面试的时候会被一般会问啥？](https://t.zsxq.com/15CDFbOah)
 * [系统对接公司的统一认证，有什么方法能让所有请求先走我们自己的拦截器后走统一认证的过滤器吗？](https://t.zsxq.com/15Sp3qSbt)
@@ -45,7 +49,16 @@ title: 归档：部分精华内容
 * [请教一下这种场景。用什么队列能保证线程安全](https://t.zsxq.com/15NXsHRvy)
 * [需要在10亿用户中通过用户名查找某个用户是否存在，该如何设计](https://t.zsxq.com/15zpZ6Fgz)
 
-## 四、面试面经
+## 四、学习总结
+
+* [需要在10亿用户中通过用户名查找某个用户是否存在，该如何设计](https://t.zsxq.com/15zpZ6Fgz)
+* [经常用缓存，那么你是如何确定缓存的过期时间呢？](https://t.zsxq.com/15do9ouOI)
+* [数据库和Redis数据一致性怎么保证？](https://t.zsxq.com/15ton6Rva)
+* [关于分库分表的几点疑问和总结](https://t.zsxq.com/15lOKwgUq)
+* [Redis的常见用法总结](https://t.zsxq.com/15LY3zDdP)
+
+
+## 五、面试面经
 
 * [星球读者反馈面试真题](https://t.zsxq.com/15bE7NX8m)
 * [阿里二面：向1000万用户发送活动消息短息，这样的系统要怎么设计？](https://t.zsxq.com/15wTanzyU)
@@ -118,9 +131,9 @@ title: 归档：部分精华内容
 * [打卡第三十七天：String和StringBuffer、StringBuilder的区别是什么？String为什么是不可变的？](https://t.zsxq.com/15HQKzZcp)
 * [打卡第三十八天：Java自动装箱与拆箱？](https://t.zsxq.com/15Vo7HYfz)
 * [打卡第三十九天：集合面试五连鞭](https://t.zsxq.com/156aKy2DR)
+* [打卡第四十天：List，Set，Map三者的区别？List、Set、Map 是否继承自 Collection 接口？List、Map、Set 三个接口存取元素时，各有什么特点？](https://t.zsxq.com/15k1zofcu)
 
-
-## 五、职场经验
+## 六、职场经验
 
 * [我是一名双非大四的学生，刚学完黑马程序员的springcloud，做了一个学堂微服务项目。秋招找java处处碰壁，现在面对这么多不知道的知识对未来很迷茫。请问我这种情况后续学习路线应该怎么规划，哪些是重点。主要是为了应届找工作，目标是中厂。](https://t.zsxq.com/15eFQVhLN)
 * [很多人工作很长时间了，却不知道如何更好的设计和优化MySQL数据库](https://t.zsxq.com/15qmiAwUh)
@@ -129,6 +142,6 @@ title: 归档：部分精华内容
 * [前面面试还好，没想到却因为没有高并发实战项目挂了](https://t.zsxq.com/156gH0qmH)
 
 
-## 六、简历
+## 七、简历
 
 * [星球专属：给大家分享1000套精美的简历模板，希望为大家的跳槽加薪带来帮助。](https://t.zsxq.com/150wNNbz9)
