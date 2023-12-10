@@ -2449,6 +2449,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "model/2023-12-09-chapter01.md",
+                "model/2023-12-10-chapter02.md",
             ]
         },
         {

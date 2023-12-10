@@ -263,7 +263,8 @@
 * [《分布式IM系统》总体架构-第02节：分布式IM即时通讯系统数据模型设计](https://t.zsxq.com/14ie4NqRD)
 * [《分布式IM系统》环境搭建-第01节：分布式IM即时通讯系统研发环境搭建](https://t.zsxq.com/14oOdmec0)
 * [《分布式IM系统》环境搭建-第02节：分布式IM即时通讯系统项目工程搭建](https://t.zsxq.com/15FTjKpI2)
-* [《分布式IM系统》通用模型-第01节：分布式IM即时通讯系统通用模型设计](https://articles.zsxq.com/id_mh53705o3nq0.html)
+* [《分布式IM系统》通用模型-第01节：分布式IM即时通讯系统通用模型设计](https://t.zsxq.com/15uoKuaGL)
+* [《分布式IM系统》通用模型-第02节：分布式IM即时通讯系统通用缓存设计](https://articles.zsxq.com/id_2inmx8n594km.html)
 
 ### 💥 Seckill秒杀系统
 
