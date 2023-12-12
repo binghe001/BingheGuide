@@ -2459,6 +2459,7 @@ function getBarPeojectIM() {
             children: [
                 "model/2023-12-09-chapter01.md",
                 "model/2023-12-10-chapter02.md",
+                "model/2023-12-11-chapter03.md",
             ]
         },
         {
