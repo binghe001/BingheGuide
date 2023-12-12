@@ -2461,6 +2461,7 @@ function getBarPeojectIM() {
                 "model/2023-12-10-chapter02.md",
                 "model/2023-12-11-chapter03.md",
                 "model/2023-12-12-chapter04.md",
+                "model/2023-12-13-chapter05.md",
             ]
         },
         {
