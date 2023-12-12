@@ -267,6 +267,7 @@
 * [《分布式IM系统》通用模型-第01节：分布式IM即时通讯系统通用模型设计](https://t.zsxq.com/15uoKuaGL)
 * [《分布式IM系统》通用模型-第02节：分布式IM即时通讯系统通用缓存设计](https://t.zsxq.com/15GZ04X9k)
 * [《分布式IM系统》通用模型-第03节：混合型缓存通用模型设计与实现](https://articles.zsxq.com/id_62od52ru9r8n.html)
+* [《分布式IM系统》通用模型-第04节：分布式锁通用代码设计与实现](https://articles.zsxq.com/id_e289owujmawa.html)
 
 ### 💥 Seckill秒杀系统
 
