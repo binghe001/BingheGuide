@@ -59,6 +59,7 @@ title: 归档：部分精华内容
 * [Redis的常见用法总结](https://t.zsxq.com/15LY3zDdP)
 * [实现分布式锁，Zookeeper 与 Redis 哪个更好一点？](https://t.zsxq.com/15JriOspv)
 * [今天分享一个小知识，MySQL表级锁MDL](https://t.zsxq.com/15P1JLCzF)
+* [总结一下SQL 优化的方法，可用于面试和日常开发](https://t.zsxq.com/15uWOWMF9)
 
 ## 五、面试面经
 

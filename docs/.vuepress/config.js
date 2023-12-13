@@ -2450,6 +2450,7 @@ function getBarPeojectIM() {
             children: [
                 "environment/2023-12-01-chapter01.md",
                 "environment/2023-12-04-chapter02.md",
+                "environment/2023-12-05-chapter03.md",
             ]
         },
         {
@@ -2462,6 +2463,7 @@ function getBarPeojectIM() {
                 "model/2023-12-11-chapter03.md",
                 "model/2023-12-12-chapter04.md",
                 "model/2023-12-13-chapter05.md",
+                "model/2023-12-14-chapter06.md",
             ]
         },
         {
