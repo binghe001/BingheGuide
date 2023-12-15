@@ -2467,11 +2467,11 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第5部分：IM后端服务",
+            title: "第5部分：即时通讯后端服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "im-backend/2023-12-15-chapter01.md",
             ]
         },
         {

@@ -271,6 +271,7 @@
 * [《分布式IM系统》通用模型-第04节：分布式锁通用代码设计与实现](https://t.zsxq.com/15YbS6Hr5)
 * [《分布式IM系统》通用模型-第05节：MQ消息发送通用代码设计与实现](https://t.zsxq.com/15d9MTsU6)
 * [《分布式IM系统》通用模型-第06节：多系统共用模型与工具推送到Maven私服](https://t.zsxq.com/15pszNu2l)
+* [《分布式IM系统》即时通讯后端服务-第01节：即时通讯后端服务通用代码设计与实现](https://t.zsxq.com/15XHfbP8C)
 
 ### 💥 Seckill秒杀系统
 

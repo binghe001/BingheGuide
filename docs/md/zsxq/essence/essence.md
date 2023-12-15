@@ -49,6 +49,9 @@ title: 归档：部分精华内容
 * [请教一下这种场景。用什么队列能保证线程安全](https://t.zsxq.com/15NXsHRvy)
 * [需要在10亿用户中通过用户名查找某个用户是否存在，该如何设计](https://t.zsxq.com/15zpZ6Fgz)
 * [大佬们有没有支付类系统架构设计的相关资料？求一份或者有做相关开发的，能不能提供一些核心思路。](https://t.zsxq.com/15n38puiU)
+* [有一个服务A，调用我的服务B有百分之 10 会出现 connect reset的错误，怎么处理？](https://t.zsxq.com/15UD96TkT)
+* [分布式项目中节点有40个，每天有定时任务去收集数据，然后入到kafka，现在想直观的看到推送到kafka的数量。请问大家，有什么好的解决方案。](https://t.zsxq.com/1508ICMmC)
+* [各位大佬好，最近接到一个需求，需要实现一套标准的打印机小票模板的解析和各厂商模板标签的适配](https://t.zsxq.com/15s3AyzHx)
 
 ## 四、学习总结
 
@@ -60,6 +63,9 @@ title: 归档：部分精华内容
 * [实现分布式锁，Zookeeper 与 Redis 哪个更好一点？](https://t.zsxq.com/15JriOspv)
 * [今天分享一个小知识，MySQL表级锁MDL](https://t.zsxq.com/15P1JLCzF)
 * [总结一下SQL 优化的方法，可用于面试和日常开发](https://t.zsxq.com/15uWOWMF9)
+* [接口幂等与支付状态机](https://t.zsxq.com/151ECgTTq)
+* [今天工作遇到一个测试环境的bug，json数据太长了，导致数据部分新增失败...](https://t.zsxq.com/15FDys52h)
+* [背景：类似信用卡还款，一笔还款进来，会根据不同场景下的规则将本金、利息、服务费、罚息、其他费用等条目分给不同的账户。](https://t.zsxq.com/15YvoLmIR)
 
 ## 五、面试面经
 
@@ -135,6 +141,7 @@ title: 归档：部分精华内容
 * [打卡第三十八天：Java自动装箱与拆箱？](https://t.zsxq.com/15Vo7HYfz)
 * [打卡第三十九天：集合面试五连鞭](https://t.zsxq.com/156aKy2DR)
 * [打卡第四十天：List，Set，Map三者的区别？List、Set、Map 是否继承自 Collection 接口？List、Map、Set 三个接口存取元素时，各有什么特点？](https://t.zsxq.com/15k1zofcu)
+* [打卡第四十一天：JVM 有哪些垃圾回收算法？](https://t.zsxq.com/15ArjSb5i)
 
 ## 六、职场经验
 
