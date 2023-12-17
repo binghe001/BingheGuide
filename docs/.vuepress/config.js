@@ -2468,10 +2468,11 @@ function getBarPeojectIM() {
         },
         {
             title: "第5部分：即时通讯后端服务",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "im-backend/2023-12-15-chapter01.md",
+                "im-backend/2023-12-16-chapter02.md",
             ]
         },
         {
