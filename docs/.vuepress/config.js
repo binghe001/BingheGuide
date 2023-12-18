@@ -2473,6 +2473,7 @@ function getBarPeojectIM() {
             children: [
                 "im-backend/2023-12-15-chapter01.md",
                 "im-backend/2023-12-16-chapter02.md",
+                "im-backend/2023-12-17-chapter03.md",
             ]
         },
         {

@@ -273,6 +273,7 @@
 * [《分布式IM系统》通用模型-第06节：多系统共用模型与工具推送到Maven私服](https://t.zsxq.com/15pszNu2l)
 * [《分布式IM系统》即时通讯后端服务-第01节：即时通讯后端服务通用代码设计与实现](https://t.zsxq.com/15XHfbP8C)
 * [《分布式IM系统》即时通讯后端服务-第02节：即时通讯后端服务自定义编解码器的设计与实现](https://t.zsxq.com/154VxZSq4)
+* [《分布式IM系统》即时通讯后端服务-第03节：即时通讯后端服务通用ChannelHanler的设计与实现](https://articles.zsxq.com/id_zpjn1et1mlt0.html)
 
 ### 💥 Seckill秒杀系统
 

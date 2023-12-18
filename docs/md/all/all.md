@@ -254,7 +254,7 @@ title: 冰河指南
 * [原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 
-### 💥 分布式IM即时通讯系统
+### 💥 分布式IM即时通讯系统（正在热更中）
 
 * [《分布式IM系统》开篇：分布式IM即时通讯系统正式启动](https://t.zsxq.com/14WPONMB1)
 * [《分布式IM系统》面试：可以写到简历上的分布式IM即时通讯系统](https://binghe.gitcode.host/md/project/im/start/2023-12-08-interview.html)
@@ -275,6 +275,7 @@ title: 冰河指南
 * [《分布式IM系统》通用模型-第06节：多系统共用模型与工具推送到Maven私服](https://t.zsxq.com/15pszNu2l)
 * [《分布式IM系统》即时通讯后端服务-第01节：即时通讯后端服务通用代码设计与实现](https://t.zsxq.com/15XHfbP8C)
 * [《分布式IM系统》即时通讯后端服务-第02节：即时通讯后端服务自定义编解码器的设计与实现](https://t.zsxq.com/154VxZSq4)
+* [《分布式IM系统》即时通讯后端服务-第03节：即时通讯后端服务通用ChannelHanler的设计与实现](https://articles.zsxq.com/id_zpjn1et1mlt0.html)
 
 ### 💥 分布式Seckill秒杀系统
 
