@@ -2474,6 +2474,10 @@ function getBarPeojectIM() {
                 "im-backend/2023-12-15-chapter01.md",
                 "im-backend/2023-12-16-chapter02.md",
                 "im-backend/2023-12-17-chapter03.md",
+                "im-backend/2023-12-18-chapter04.md",
+                "im-backend/2023-12-19-chapter05.md",
+                "im-backend/2023-12-20-chapter06.md",
+                "im-backend/2023-12-21-chapter07.md"
             ]
         },
         {
