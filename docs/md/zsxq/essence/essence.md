@@ -66,6 +66,11 @@ title: 归档：部分精华内容
 * [接口幂等与支付状态机](https://t.zsxq.com/151ECgTTq)
 * [今天工作遇到一个测试环境的bug，json数据太长了，导致数据部分新增失败...](https://t.zsxq.com/15FDys52h)
 * [背景：类似信用卡还款，一笔还款进来，会根据不同场景下的规则将本金、利息、服务费、罚息、其他费用等条目分给不同的账户。](https://t.zsxq.com/15YvoLmIR)
+* [分布式IM即时通讯系统搭建环境时候遇到的一个问题](https://t.zsxq.com/158zdnzgq)
+* [学习分库分桶里面的构建分桶，计算出每个桶里面的数据。如果有200条数据，分3个桶...](https://t.zsxq.com/15dKCau2k)
+* [如果将MySQL分成 Server层和存储引擎层两大部分，那么Buffer Pool位于存储引擎层。](https://t.zsxq.com/15rRqsBU1)
+* [再次回看分库分表部分，慢慢理解分库分表分桶设计，以及对应缓存的方案](https://t.zsxq.com/15YbnEB9Z)
+* [Linux 是如何启动的？](https://t.zsxq.com/15XM7uOiK)
 
 ## 五、面试面经
 
@@ -142,6 +147,7 @@ title: 归档：部分精华内容
 * [打卡第三十九天：集合面试五连鞭](https://t.zsxq.com/156aKy2DR)
 * [打卡第四十天：List，Set，Map三者的区别？List、Set、Map 是否继承自 Collection 接口？List、Map、Set 三个接口存取元素时，各有什么特点？](https://t.zsxq.com/15k1zofcu)
 * [打卡第四十一天：JVM 有哪些垃圾回收算法？](https://t.zsxq.com/15ArjSb5i)
+* [打卡第四十二天：集合框架底层数据结构](https://t.zsxq.com/15aPkZ4rF)
 
 ## 六、职场经验
 
