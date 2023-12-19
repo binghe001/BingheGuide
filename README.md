@@ -273,11 +273,11 @@
 * [《分布式IM系统》通用模型-第06节：多系统共用模型与工具推送到Maven私服](https://t.zsxq.com/15pszNu2l)
 * [《分布式IM系统》即时通讯后端服务-第01节：即时通讯后端服务通用代码设计与实现](https://t.zsxq.com/15XHfbP8C)
 * [《分布式IM系统》即时通讯后端服务-第02节：即时通讯后端服务自定义编解码器的设计与实现](https://t.zsxq.com/154VxZSq4)
-* [《分布式IM系统》即时通讯后端服务-第03节：即时通讯后端服务通用ChannelHanler的设计与实现](https://articles.zsxq.com/id_zpjn1et1mlt0.html)
-* [《分布式IM系统》即时通讯后端服务-第04节：即时通讯后端服务登录处理器的设计与实现](https://articles.zsxq.com/id_8iivhbu8jwzl.html)
-* [《分布式IM系统》即时通讯后端服务-第05节：即时通讯后端服务心跳处理器的设计与实现](https://articles.zsxq.com/id_70zz6x7szlw3.html)
-* [《分布式IM系统》即时通讯后端服务-第06节：即时通讯后端服务单聊处理器的设计与实现](https://articles.zsxq.com/id_n9mp57b1iwq4.html)
-* [《分布式IM系统》即时通讯后端服务-第07节：即时通讯后端服务群聊处理器的设计与实现](https://articles.zsxq.com/id_u5wxbewwomav.html)
+* [《分布式IM系统》即时通讯后端服务-第03节：即时通讯后端服务通用ChannelHanler的设计与实现](https://t.zsxq.com/15cCvfYNv)
+* [《分布式IM系统》即时通讯后端服务-第04节：即时通讯后端服务登录处理器的设计与实现](https://t.zsxq.com/15Fbs6GZ1)
+* [《分布式IM系统》即时通讯后端服务-第05节：即时通讯后端服务心跳处理器的设计与实现](https://t.zsxq.com/15bXHo0dr)
+* [《分布式IM系统》即时通讯后端服务-第06节：即时通讯后端服务单聊处理器的设计与实现](https://t.zsxq.com/15z05Tfy0)
+* [《分布式IM系统》即时通讯后端服务-第07节：即时通讯后端服务群聊处理器的设计与实现](https://t.zsxq.com/15jflSI9W)
 
 ### 💥 Seckill秒杀系统
 
