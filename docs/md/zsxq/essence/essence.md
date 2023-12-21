@@ -71,6 +71,10 @@ title: 归档：部分精华内容
 * [如果将MySQL分成 Server层和存储引擎层两大部分，那么Buffer Pool位于存储引擎层。](https://t.zsxq.com/15rRqsBU1)
 * [再次回看分库分表部分，慢慢理解分库分表分桶设计，以及对应缓存的方案](https://t.zsxq.com/15YbnEB9Z)
 * [Linux 是如何启动的？](https://t.zsxq.com/15XM7uOiK)
+* [系统设计小抄–如何实现高可用，高吞吐，高扩展](https://t.zsxq.com/15VKEyinF)
+* [查询发现dockerhub上sonatype的nexus镜像支持的全都是amd64架构，直接pull下来在docker上无法启动的解决方案](https://t.zsxq.com/15JKwDzvn)
+* [《深入理解JVM虚拟机》总结笔记](https://t.zsxq.com/15xELT7hC)
+* [DevOps 和 NoOps 是如何改变软件开发生命周期（SDLC）的？](https://t.zsxq.com/15jq8401V)
 
 ## 五、面试面经
 
