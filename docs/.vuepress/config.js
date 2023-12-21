@@ -2481,11 +2481,11 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第6部分：SDK接入服务",
+            title: "第6部分：即时通讯SDK",
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "sdk/2023-12-22-chapter01.md",
             ]
         },
         {

@@ -278,6 +278,7 @@
 * [《分布式IM系统》即时通讯后端服务-第05节：即时通讯后端服务心跳处理器的设计与实现](https://t.zsxq.com/15bXHo0dr)
 * [《分布式IM系统》即时通讯后端服务-第06节：即时通讯后端服务单聊处理器的设计与实现](https://t.zsxq.com/15z05Tfy0)
 * [《分布式IM系统》即时通讯后端服务-第07节：即时通讯后端服务群聊处理器的设计与实现](https://t.zsxq.com/15jflSI9W)
+* [《分布式IM系统》即时通讯SDK-第01节：发送单聊消息的流程设计与实现](https://articles.zsxq.com/id_7jowvcr0hl7w.html)
 
 ### 💥 Seckill秒杀系统
 
