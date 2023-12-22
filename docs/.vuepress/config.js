@@ -2482,10 +2482,11 @@ function getBarPeojectIM() {
         },
         {
             title: "第6部分：即时通讯SDK",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "sdk/2023-12-22-chapter01.md",
+                "sdk/2023-12-23-chapter02.md",
             ]
         },
         {
