@@ -2487,6 +2487,7 @@ function getBarPeojectIM() {
             children: [
                 "sdk/2023-12-22-chapter01.md",
                 "sdk/2023-12-23-chapter02.md",
+                "sdk/2023-12-24-chapter03.md",
             ]
         },
         {
