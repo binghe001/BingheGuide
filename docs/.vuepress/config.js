@@ -2488,6 +2488,8 @@ function getBarPeojectIM() {
                 "sdk/2023-12-22-chapter01.md",
                 "sdk/2023-12-23-chapter02.md",
                 "sdk/2023-12-24-chapter03.md",
+                "sdk/2023-12-25-chapter04.md",
+                "sdk/2023-12-26-chapter05.md",
             ]
         },
         {

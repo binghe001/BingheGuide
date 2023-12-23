@@ -281,6 +281,8 @@
 * [《分布式IM系统》即时通讯SDK-第01节：发送单聊消息的流程设计与实现](https://articles.zsxq.com/id_7jowvcr0hl7w.html)
 * [《分布式IM系统》即时通讯SDK-第02节：发送群聊消息的流程设计与实现](https://articles.zsxq.com/id_a4vawabmexn2.html)
 * [《分布式IM系统》即时通讯SDK-第03节：在线状态的统一设计与实现](https://articles.zsxq.com/id_dw9wl4tepecq.html)
+* [《分布式IM系统》即时通讯SDK-第04节：消息监听与广播机制的设计与实现](https://articles.zsxq.com/id_almw6i45p8ve.html)
+* [《分布式IM系统》即时通讯SDK-第05节：接收消息发送结果的流程设计与实现](https://articles.zsxq.com/id_u1zndh0fwr0j.html)
 
 ### 💥 Seckill秒杀系统
 
