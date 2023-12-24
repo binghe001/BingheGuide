@@ -58,9 +58,74 @@ Java并发编程基础学习指南，旨在帮助小伙伴们迅速明确Java并
 
 ## 并发编程学习路线
 
-**PS: 并发编程学习路线图有点大，耐心等待加载完毕即可，右键大图，在浏览器使用新标签页打开图片，点击放大查看原图，效果更佳。**
+**PS: 本套学习路线结合电子书[《深入理解高并发编程》](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ) 、[《实战高并发设计模式》](https://mp.weixin.qq.com/s/qb5bvW7uMYRzL4LCZZkgTg) ，纸质书[《深入理解高并发编程：核心原理与案例实战》](https://u.jd.com/KuH2Qhe) 、[《深入理解高并发编程：JDK核心技术》](https://u.jd.com/izMwOkE) 食用效果更佳。**
+
+### 最佳学习路线
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/concurrent_road.png?raw=true" width="90%">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-001.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 并发基础
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-002.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### Java并发集合
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-003.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 并发工具类
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-004.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### Java内存模型（JMM）
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-005.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 线程池
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-006.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 阻塞队列
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-007.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 锁
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-008.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### Atomic原子类
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-009.png?raw=true" width="80%">
+    <br/>
+</div>
+
+### 其他
+
+<div align="center">
+    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-010.png?raw=true" width="80%">
     <br/>
 </div>
