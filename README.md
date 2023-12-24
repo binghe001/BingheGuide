@@ -215,6 +215,7 @@
 
 ### 新书介绍
 
+* [冰河的第三本高并发书籍面市了！！](https://mp.weixin.qq.com/s/qb5bvW7uMYRzL4LCZZkgTg)
 * [《深入理解高并发编程：JDK核心技术》-冰河新书上市](https://mp.weixin.qq.com/s/R4lqlbXpZsFTOUYALFWZUg)
 * [十年大促亿级流量并发编程总结与规划！](https://mp.weixin.qq.com/s/u5t88cAq1eWuoEzF9qZKMQ)
 * [听说B站和ChatGPT都被搞宕机了？](https://mp.weixin.qq.com/s/5ipbD7oKEHo5zvBrcWCxNQ)
@@ -240,6 +241,19 @@
 
 #### 星球专栏
 
+* [年底冰河又在搞事情了：堪称史上最强福利！](https://mp.weixin.qq.com/s/XpQMu2dG2KOCeBD6CX6V2A)
+* [打卡计划启动：每个项目的价值都远超门票！](https://mp.weixin.qq.com/s/PUlQsPy6nt4XBn9GPvd3ww)
+* [10张图总结并发编程最佳学习路线，上车！](https://mp.weixin.qq.com/s/Wowk6qs-wWfbBCin_RU3eQ)
+* [管你是不是应届生，我们只招有高并发项目经验的候选人！](https://mp.weixin.qq.com/s/G1P4QKsF8JpDkeQswwa0Vw)
+* [万字长文通关计算机与操作系统基础知识（面试必备）](https://mp.weixin.qq.com/s/uRjsyDqi4Gafj5-XOubz2w)
+* [微服务必备电子书最终版发布！](https://mp.weixin.qq.com/s/cOL56BmcJ67jDNtJD8UEng)
+* [是真卷？还是内耗？这次面试造的火箭对比薪资后着实有点离谱！](https://mp.weixin.qq.com/s/xI0k0Mblyl0mdoP6LyC2Sw)
+* [这本系统讲解Java最牛框架的电子书免费了！](https://mp.weixin.qq.com/s/U9S_Rd49qmi-RQ_ea-W4SA)
+* [高并发下缓存穿透、击穿、雪崩问题的解决方案，落地到代码该如何实现？](https://mp.weixin.qq.com/s/QKEJjAVWV7p1rm6XPwBLvA)
+* [从单体到微服务，冰河的秒杀系统上硬菜了！](https://mp.weixin.qq.com/s/k0EjQdkYK5UB9VinQy0UDA)
+* [高考成绩都出来了，你的秒杀系统如何了？](https://mp.weixin.qq.com/s/bz29IEXpbqcDNImMukjsQQ)
+* [撸完Dubbo3源码，我总结了这些阅读源码的技巧](https://mp.weixin.qq.com/s/f95-pjM0dmXAhO7Hv1B4_g)
+* [一年肝了4个项目，10万+行代码，面试妥妥的！](https://mp.weixin.qq.com/s/wwr8qmf-6PjjcSqfzN8Tig)
 * [一个人也许走的很快，但一群人走的更远！](https://mp.weixin.qq.com/s/tpwdPO0qtqwbInppIvgY9g)
 * [假期做了一项调研：结果合乎情理！](https://mp.weixin.qq.com/s/uoR0fcZ4TOb4PbUviYDMxw)
 * [五一假期，正式开卷（再送超大福利）](https://mp.weixin.qq.com/s/CcfLI9aH9RSSiK7dWVx4uA)
@@ -1236,6 +1250,27 @@
 
 ### 程序员进阶系列
 
+* [小卡拉米们：来年的春招，你们准备好了吗？](https://mp.weixin.qq.com/s/FxdYOnWH91lby5OnfzQ-lQ)
+* [研发提效必备技能：25张图手把手教你基于Docker搭建Maven私服仓库](https://mp.weixin.qq.com/s/_pW1Br_qSP_mfWUajGs8iw)
+* [真实还原面试过程，被问懵了！（全程高能）](https://mp.weixin.qq.com/s/OnxLEm48BTTYlWZ-y2ScXw)
+* [互联网大厂是如何设计和使用缓存的？方案已开源！](https://mp.weixin.qq.com/s/6L-chBzWbI8nVRCez2PHhQ)
+* [这套分布式IM即时通讯系统如何写到简历上？我给你整理好了！](https://mp.weixin.qq.com/s/4CYsL_OZip3g0LYfvOmFQA)
+* [万字长文带你彻底吃透Spring循环依赖，堪称全网最全（文末福利）](https://mp.weixin.qq.com/s/Z2-p_pLdH_kVUfCxaFNVGw)
+* [又一个涵盖前后端+DevOps+OpenAI大模型的高并发项目启动了](https://mp.weixin.qq.com/s/NuVSfPUERzKvT_nSJ297fg)
+* [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s/n2_1ylKrkwB71lhMQfuhUg)
+* [花费500多天，我做了这样一件成体系的事情](https://mp.weixin.qq.com/s/I2HR45t4vDOX7Ugu1BEFWg)
+* [又一个小而美的涵盖多个实际场景的高并发项目完结了](https://mp.weixin.qq.com/s/hYmt02lUORSgnomTCK1BzQ)
+* [一个项目彻底搞定并发编程可落地的方案和知识点](https://mp.weixin.qq.com/s/JJuJ2694dJb_TKI13F5Ujw)
+* [废掉一个程序员的十大铁律，你中招了吗？](https://mp.weixin.qq.com/s/DtMKesrWtT-5S8O54pdnCQ)
+* [阿里二面：ThreadLocal内存泄露灵魂四问，人麻了！](https://mp.weixin.qq.com/s/85-68EpBa4A2SbmI400pSw)
+* [生产真实案例：震惊，几条SQL把服务器干崩了，事后还大言不惭！](https://mp.weixin.qq.com/s/a5Z2a2TBkK3TQi4QsOTAnQ)
+* [3天面了20个候选人，聊聊我的感受](https://mp.weixin.qq.com/s/6Vdqu4rbujBGpCxJ6JBt3A)
+* [简历上的项目拿不出手怎么办？](https://mp.weixin.qq.com/s/VNhIabLxVY8qOzTr_RY9Ow)
+* [重磅开源：高并发下缓存穿透、击穿、雪崩问题的解决方案！](https://mp.weixin.qq.com/s/oUMYVTlZnnnC8FG9D959qg)
+* [阿里终面：听说你会架构设计，那你说说如何设计一个秒杀系统？](https://mp.weixin.qq.com/s/yfsvCDulkcwmXqGShhN7Aw)
+* [小伙伴问：冰河，你星球有哪些项目呢？](https://mp.weixin.qq.com/s/q1KaLLtyDHUB24FiZg8Uyw)
+* [五个月，秒杀，38个大的篇章，126+篇文章、视频、小册，150+源码分支，完美收官！](https://mp.weixin.qq.com/s/FwUR0jSaaSqyOc_xNhaKxw)
+* [是真卷？还是内耗？这次面试造的火箭对比薪资后着实有点离谱！](https://mp.weixin.qq.com/s/xI0k0Mblyl0mdoP6LyC2Sw)
 * [分库分表有哪些思路和技巧？（建议收藏）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247497603&idx=1&sn=915322da262aaa7d2c8626038e748268&chksm=cf564082f821c99406b0b9cc1a7e6ab4d940d9c5abba96c2053030abce138046071d8dc57cbf&token=1170633251&lang=zh_CN#rd)
 * [周末给大家推荐一款无需注解的 SpringBoot API文档生成神器！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247500966&idx=1&sn=60e2d84f7546b1553975c5b0f5c22e4e&chksm=cf5673a7f821fab11bfe6e6d243c4d7f69786835b6e409fd84b598740d7ceb3844cc25fdcbc3&token=2138570566&lang=zh_CN#rd)
 * [操作系统基础知识总结（重要）](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247499626&idx=1&sn=d6475af51bf2d8551d1ded75828b9cf4&chksm=cf56486bf821c17dd1b34456c56c0d61e0a8998d0b85fd9e19fa3d4c6a991caffa0bbffc957f&token=2138570566&lang=zh_CN#rd)
