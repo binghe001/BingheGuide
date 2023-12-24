@@ -2451,6 +2451,7 @@ function getBarPeojectIM() {
                 "environment/2023-12-01-chapter01.md",
                 "environment/2023-12-04-chapter02.md",
                 "environment/2023-12-05-chapter03.md",
+                "environment/2023-12-06-chapter04.md",
             ]
         },
         {

@@ -265,6 +265,7 @@
 * [《分布式IM系统》环境搭建-第01节：分布式IM即时通讯系统研发环境搭建](https://t.zsxq.com/14oOdmec0)
 * [《分布式IM系统》环境搭建-第02节：分布式IM即时通讯系统项目工程搭建](https://t.zsxq.com/15FTjKpI2)
 * [《分布式IM系统》环境搭建-第03节：分布式IM即时通讯系统Maven私服搭建](https://t.zsxq.com/15Xw7Odd6)
+* [《分布式IM系统》环境搭建-第04节：搭建并优化多节点Minio分布式文件系统](https://articles.zsxq.com/id_p1n723ftg34b.html)
 * [《分布式IM系统》通用模型-第01节：分布式IM即时通讯系统通用模型设计](https://t.zsxq.com/15uoKuaGL)
 * [《分布式IM系统》通用模型-第02节：分布式IM即时通讯系统通用缓存设计](https://t.zsxq.com/15GZ04X9k)
 * [《分布式IM系统》通用模型-第03节：混合型缓存通用模型设计与实现](https://t.zsxq.com/15BdD7wvS)
