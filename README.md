@@ -286,7 +286,7 @@
 * [《分布式IM系统》通用模型-第04节：分布式锁通用代码设计与实现](https://t.zsxq.com/15YbS6Hr5)
 * [《分布式IM系统》通用模型-第05节：MQ消息发送通用代码设计与实现](https://t.zsxq.com/15d9MTsU6)
 * [《分布式IM系统》通用模型-第06节：多系统共用模型与工具推送到Maven私服](https://t.zsxq.com/15pszNu2l)
-* [《分布式IM系统》通用模型-第07节：分布式ID生成器的设计与实现](https://articles.zsxq.com/id_tqa68ews37qs.html)
+* [《分布式IM系统》通用模型-第07节：分布式ID生成器的设计与实现](https://t.zsxq.com/15NxGhnII)
 * [《分布式IM系统》即时通讯后端服务-第01节：即时通讯后端服务通用代码设计与实现](https://t.zsxq.com/15XHfbP8C)
 * [《分布式IM系统》即时通讯后端服务-第02节：即时通讯后端服务自定义编解码器的设计与实现](https://t.zsxq.com/154VxZSq4)
 * [《分布式IM系统》即时通讯后端服务-第03节：即时通讯后端服务通用ChannelHanler的设计与实现](https://t.zsxq.com/15cCvfYNv)
@@ -296,10 +296,10 @@
 * [《分布式IM系统》即时通讯后端服务-第07节：即时通讯后端服务群聊处理器的设计与实现](https://t.zsxq.com/15jflSI9W)
 * [《分布式IM系统》即时通讯SDK-第01节：发送单聊消息的流程设计与实现](https://t.zsxq.com/15wTbdXXn)
 * [《分布式IM系统》即时通讯SDK-第02节：发送群聊消息的流程设计与实现](https://t.zsxq.com/15iRx5OZV)
-* [《分布式IM系统》即时通讯SDK-第03节：在线状态的统一设计与实现](https://articles.zsxq.com/id_dw9wl4tepecq.html)
-* [《分布式IM系统》即时通讯SDK-第04节：消息监听与广播机制的设计与实现](https://articles.zsxq.com/id_almw6i45p8ve.html)
-* [《分布式IM系统》即时通讯SDK-第05节：接收消息发送结果的流程设计与实现](https://articles.zsxq.com/id_u1zndh0fwr0j.html)
-* [《分布式IM系统》大后端平台-第01节：领域层对象模型的设计与实现](https://articles.zsxq.com/id_k8ihqwq3e91t.html)
+* [《分布式IM系统》即时通讯SDK-第03节：在线状态的统一设计与实现](https://t.zsxq.com/15vHszPib)
+* [《分布式IM系统》即时通讯SDK-第04节：消息监听与广播机制的设计与实现](https://t.zsxq.com/1591eve0I)
+* [《分布式IM系统》即时通讯SDK-第05节：接收消息发送结果的流程设计与实现](https://t.zsxq.com/15iHHmTWD)
+* [《分布式IM系统》大后端平台-第01节：领域层对象模型的设计与实现](https://t.zsxq.com/157EcdjhX)
 
 ### 💥 Seckill秒杀系统
 
