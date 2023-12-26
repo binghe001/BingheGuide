@@ -2496,10 +2496,10 @@ function getBarPeojectIM() {
         },
         {
             title: "第7部分：大后端平台",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "platform/2023-12-27-chapter01.md",
             ]
         },
         {

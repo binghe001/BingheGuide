@@ -299,6 +299,7 @@
 * [《分布式IM系统》即时通讯SDK-第03节：在线状态的统一设计与实现](https://articles.zsxq.com/id_dw9wl4tepecq.html)
 * [《分布式IM系统》即时通讯SDK-第04节：消息监听与广播机制的设计与实现](https://articles.zsxq.com/id_almw6i45p8ve.html)
 * [《分布式IM系统》即时通讯SDK-第05节：接收消息发送结果的流程设计与实现](https://articles.zsxq.com/id_u1zndh0fwr0j.html)
+* [《分布式IM系统》大后端平台-第01节：领域层对象模型的设计与实现](https://articles.zsxq.com/id_k8ihqwq3e91t.html)
 
 ### 💥 Seckill秒杀系统
 
