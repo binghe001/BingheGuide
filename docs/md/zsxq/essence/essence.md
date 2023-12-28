@@ -80,6 +80,8 @@ title: 归档：部分精华内容
 * [RPC完成到31章，完成了SPI扩展序列化功能，因为用JDK 17, 有些binary library好久没更新..](https://t.zsxq.com/15jcI5W7D)
 * [今天又一个问题:你嘴上一直原神启动，那现在有一个问题，原神用的是TCP还是UDP? KCP 又是什么？](https://t.zsxq.com/15IcWiicV)
 * [今晚睡觉前分享一道高频的计算机网络面试题](https://t.zsxq.com/15F4Dlxv9)
+* [RocketMQ消息清理机制](https://t.zsxq.com/15jfQ51kB)
+* [FFmpeg：多媒体处理的瑞士军刀](https://t.zsxq.com/15e6QX5ad)
 
 ## 五、面试面经
 

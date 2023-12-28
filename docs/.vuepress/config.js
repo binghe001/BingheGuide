@@ -2495,11 +2495,12 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第7部分：大后端平台",
+            title: "第7部分：大后端平台-通用模型",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "platform/2023-12-27-chapter01.md",
+                "platform/2023-12-28-chapter02.md",
             ]
         },
         {
