@@ -300,9 +300,9 @@
 * [《分布式IM系统》即时通讯SDK-第04节：消息监听与广播机制的设计与实现](https://t.zsxq.com/1591eve0I)
 * [《分布式IM系统》即时通讯SDK-第05节：接收消息发送结果的流程设计与实现](https://t.zsxq.com/15iHHmTWD)
 * [《分布式IM系统》大后端平台-通用模型-第01节：领域层对象模型的设计与实现](https://t.zsxq.com/157EcdjhX)
-* [《分布式IM系统》大后端平台-通用模型-第02节：用户Session与全局异常捕获机制](https://articles.zsxq.com/id_a3jgkf38rbbw.html)
-* [《分布式IM系统》大后端平台-通用模型-第03节：缓存参数过滤器的设计与实现](https://articles.zsxq.com/id_683f62iskj8m.html)
-* [《分布式IM系统》大后端平台-通用模型-第04节：通用拦截器规则链的设计和实现](https://articles.zsxq.com/id_glhonknixope.html)
+* [《分布式IM系统》大后端平台-通用模型-第02节：用户Session与全局异常捕获机制](https://t.zsxq.com/15w8khYq7)
+* [《分布式IM系统》大后端平台-通用模型-第03节：缓存参数过滤器的设计与实现](https://t.zsxq.com/15aHWcja9)
+* [《分布式IM系统》大后端平台-通用模型-第04节：通用拦截器规则链的设计和实现](https://t.zsxq.com/15CDTGUDN)
 
 ### 💥 Seckill秒杀系统
 

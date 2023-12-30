@@ -1530,7 +1530,7 @@ function getBarDistributedTransaction() {
                 "transaction-video-023.md",
                 "transaction-video-024.md",
                 "transaction-video-025.md",
-                "transaction-video-036.md",
+                "transaction-video-026.md",
                 "transaction-video-027.md",
                 "transaction-video-028.md",
                 "transaction-video-029.md",
@@ -1540,7 +1540,10 @@ function getBarDistributedTransaction() {
                 "transaction-video-033.md",
                 "transaction-video-034.md",
                 "transaction-video-035.md",
-                "transaction-video-036.md"
+                "transaction-video-036.md",
+                "transaction-video-037.md",
+                "transaction-video-038.md",
+                "transaction-video-039.md",
             ]
         }
     ]
