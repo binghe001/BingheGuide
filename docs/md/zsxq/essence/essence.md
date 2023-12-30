@@ -52,6 +52,7 @@ title: 归档：部分精华内容
 * [有一个服务A，调用我的服务B有百分之 10 会出现 connect reset的错误，怎么处理？](https://t.zsxq.com/15UD96TkT)
 * [分布式项目中节点有40个，每天有定时任务去收集数据，然后入到kafka，现在想直观的看到推送到kafka的数量。请问大家，有什么好的解决方案。](https://t.zsxq.com/1508ICMmC)
 * [各位大佬好，最近接到一个需求，需要实现一套标准的打印机小票模板的解析和各厂商模板标签的适配](https://t.zsxq.com/15s3AyzHx)
+* [想请教冰河老师一个问题，在众多的技术中，除了工作需要之外，选择一个具体的技术花大量时间(比如5年)来不断深入学习是否可取？](https://t.zsxq.com/15IQRI0Sy)
 
 ## 四、学习总结
 
@@ -82,9 +83,11 @@ title: 归档：部分精华内容
 * [今晚睡觉前分享一道高频的计算机网络面试题](https://t.zsxq.com/15F4Dlxv9)
 * [RocketMQ消息清理机制](https://t.zsxq.com/15jfQ51kB)
 * [FFmpeg：多媒体处理的瑞士军刀](https://t.zsxq.com/15e6QX5ad)
+* [系统设计小抄：如何设计安全可靠的API？](https://t.zsxq.com/15EvtyBcx)
 
 ## 五、面试面经
 
+* [面试场景：RocketMQ消息消费问题](https://t.zsxq.com/15w3R4sIC)
 * [星球读者反馈面试真题](https://t.zsxq.com/15bE7NX8m)
 * [阿里二面：向1000万用户发送活动消息短息，这样的系统要怎么设计？](https://t.zsxq.com/15wTanzyU)
 * [有点怕面试， 上上家工资很低也呆了两年半，然后六月裁员。  七月好不容易入职了，结果十一月又是裁员。  平常没啥积累， 遇到面试就脑子空空！](https://t.zsxq.com/15gmyC5Iy)

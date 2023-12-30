@@ -2499,9 +2499,10 @@ function getBarPeojectIM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "platform/2023-12-27-chapter01.md",
-                "platform/2023-12-28-chapter02.md",
-                "platform/2023-12-29-chapter03.md",
+                "platform/model/2023-12-27-chapter01.md",
+                "platform/model/2023-12-28-chapter02.md",
+                "platform/model/2023-12-29-chapter03.md",
+                "platform/model/2023-12-30-chapter04.md",
             ]
         },
         {
