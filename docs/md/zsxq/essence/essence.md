@@ -163,6 +163,9 @@ title: 归档：部分精华内容
 * [打卡第四十天：List，Set，Map三者的区别？List、Set、Map 是否继承自 Collection 接口？List、Map、Set 三个接口存取元素时，各有什么特点？](https://t.zsxq.com/15k1zofcu)
 * [打卡第四十一天：JVM 有哪些垃圾回收算法？](https://t.zsxq.com/15ArjSb5i)
 * [打卡第四十二天：集合框架底层数据结构](https://t.zsxq.com/15aPkZ4rF)
+* [打卡第四十三天：哪些集合类是线程安全的？](https://t.zsxq.com/154aGtwQf)
+* [打卡第四十四天：说说Java集合的快速失败(fail-fast）机制？](https://t.zsxq.com/154ZeXx91)
+* [打卡第四十五天：怎么确保一个集合不能被修改？](https://t.zsxq.com/15CbWjp4S)
 
 ## 六、职场经验
 

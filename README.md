@@ -303,7 +303,7 @@
 * [《分布式IM系统》大后端平台-通用模型-第02节：用户Session与全局异常捕获机制](https://t.zsxq.com/15w8khYq7)
 * [《分布式IM系统》大后端平台-通用模型-第03节：缓存参数过滤器的设计与实现](https://t.zsxq.com/15aHWcja9)
 * [《分布式IM系统》大后端平台-通用模型-第04节：通用拦截器规则链的设计和实现](https://t.zsxq.com/15CDTGUDN)
-* [《分布式IM系统》大后端平台-通用模型-第05节：XSS漏洞校验规则的设计和实现](https://articles.zsxq.com/id_vd655pgjs7ws.html)
+* [《分布式IM系统》大后端平台-通用模型-第05节：XSS漏洞校验规则的设计和实现](https://t.zsxq.com/15UPQg4Gs)
 
 ### 💥 Seckill秒杀系统
 
