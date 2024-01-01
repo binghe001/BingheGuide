@@ -304,6 +304,9 @@
 * [《分布式IM系统》大后端平台-通用模型-第03节：缓存参数过滤器的设计与实现](https://t.zsxq.com/15aHWcja9)
 * [《分布式IM系统》大后端平台-通用模型-第04节：通用拦截器规则链的设计和实现](https://t.zsxq.com/15CDTGUDN)
 * [《分布式IM系统》大后端平台-通用模型-第05节：XSS漏洞校验规则的设计和实现](https://t.zsxq.com/15UPQg4Gs)
+* [《分布式IM系统》大后端平台-通用模型-第06节：滑动窗口IP校验规则的设计和实现](https://articles.zsxq.com/id_hkbemqff2cad.html)
+* [《分布式IM系统》大后端平台-通用模型-第07节：资源访问校验规则的设计和实现](https://articles.zsxq.com/id_77kvgg3lhjs9.html)
+* [《分布式IM系统》大后端平台-通用模型-第08节：账号安全校验规则的设计和实现](https://articles.zsxq.com/id_ddni769tca0t.html)
 
 ### 💥 Seckill秒杀系统
 
