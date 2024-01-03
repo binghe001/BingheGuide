@@ -84,6 +84,9 @@ title: 归档：部分精华内容
 * [RocketMQ消息清理机制](https://t.zsxq.com/15jfQ51kB)
 * [FFmpeg：多媒体处理的瑞士军刀](https://t.zsxq.com/15e6QX5ad)
 * [系统设计小抄：如何设计安全可靠的API？](https://t.zsxq.com/15EvtyBcx)
+* [今日分享，是一个比较基础的问题:软件是如何生产出来的 ？](https://t.zsxq.com/15JbEanrO)
+* [框架八股-无锁并发-复盘项目](https://t.zsxq.com/15EegTjt9)
+* [今天遇到一个面试问题（考思路）：说如果只有mysql数据库，你如何实现一把分布式锁？](https://t.zsxq.com/15bhSZa77)
 
 ## 五、面试面经
 
