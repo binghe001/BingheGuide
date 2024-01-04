@@ -308,6 +308,7 @@
 * [《分布式IM系统》大后端平台-通用模型-第07节：资源访问校验规则的设计和实现](https://t.zsxq.com/15OjSS7cQ)
 * [《分布式IM系统》大后端平台-通用模型-第08节：账号安全校验规则的设计和实现](https://t.zsxq.com/15BjJYf5P)
 * [《分布式IM系统》大后端平台-用户服务-第01节：用户注册与登录授权的流程设计与实现](https://articles.zsxq.com/id_5s3qw8w6ffse.html)
+* [《分布式IM系统》大后端平台-用户服务-第02节：JWT Token刷新机制的流程设计与实现](https://articles.zsxq.com/id_1b7ceh2odkk0.html)
 
 ### 💥 Seckill秒杀系统
 
