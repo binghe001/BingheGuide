@@ -2519,6 +2519,7 @@ function getBarPeojectIM() {
             children: [
                 "platform/user/2024-01-05-chapter01.md",
                 "platform/user/2024-01-06-chapter02.md",
+                "platform/user/2024-01-07-chapter03.md",
             ]
         },
         {
