@@ -310,6 +310,7 @@
 * [《分布式IM系统》大后端平台-用户服务-第01节：用户注册与登录授权的流程设计与实现](https://t.zsxq.com/160kDeWPn)
 * [《分布式IM系统》大后端平台-用户服务-第02节：JWT Token刷新机制的流程设计与实现](https://t.zsxq.com/164x02pv4)
 * [《分布式IM系统》大后端平台-用户服务-第03节：用户微服务常规功能的设计与实现](https://articles.zsxq.com/id_i215v1xujafz.html)
+* [《分布式IM系统》大后端平台-用户服务-第04节：用户微服务整合即时通讯SDK](https://articles.zsxq.com/id_ln7u1z7pp1p1.html)
 
 ### 💥 Seckill秒杀系统
 
