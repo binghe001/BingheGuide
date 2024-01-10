@@ -2525,7 +2525,15 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第9部分：OpenAI接入服务",
+            title: "第9部分：大后端平台-好友微服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "platform/friend/2024-01-10-chapter01.md",
+            ]
+        },
+        {
+            title: "第10部分：OpenAI接入服务",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2533,7 +2541,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第10部分：大前端UI",
+            title: "第11部分：大前端UI",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2541,7 +2549,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第11部分：部署与监控",
+            title: "第12部分：部署与监控",
             collapsable: true,
             sidebarDepth: 0,
             children: [
