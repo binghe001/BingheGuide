@@ -2522,6 +2522,7 @@ function getBarPeojectIM() {
                 "platform/user/2024-01-07-chapter03.md",
                 "platform/user/2024-01-08-chapter04.md",
                 "platform/user/2024-01-09-chapter05.md",
+                "platform/user/2024-01-10-chapter06.md",
             ]
         },
         {
@@ -2529,7 +2530,7 @@ function getBarPeojectIM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "platform/friend/2024-01-10-chapter01.md",
+                "platform/friend/2024-01-11-chapter01.md",
             ]
         },
         {
