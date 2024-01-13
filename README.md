@@ -314,6 +314,7 @@
 * [《分布式IM系统》大后端平台-用户服务-第05节：领域事件的发送与接收设计和实现](https://articles.zsxq.com/id_ok8smzzontx0.html)
 * [《分布式IM系统》大后端平台-用户服务-第06节：用户微服务整合Dubbo的流程设计与实现](https://articles.zsxq.com/id_ij21gkre8r5i.html)
 * [《分布式IM系统》大后端平台-好友服务-第01节：好友服务常规功能的设计和实现](https://articles.zsxq.com/id_lhiaoevk8mzu.html)
+* [《分布式IM系统》大后端平台-好友服务-第02节：好友微服务整合Dubbo的流程设计与实现](https://articles.zsxq.com/id_w1gke3ztz2rz.html)
 
 ### 💥 Seckill秒杀系统
 

@@ -2531,6 +2531,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "platform/friend/2024-01-11-chapter01.md",
+                "platform/friend/2024-01-14-chapter02.md",
             ]
         },
         {
