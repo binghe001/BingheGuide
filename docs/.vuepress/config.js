@@ -2541,7 +2541,8 @@ function getBarPeojectIM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "platform/group/2024-01-17-chapter.md",
+                "platform/group/2024-01-17-chapter01.md",
+                "platform/group/2024-01-18-chapter02.md",
             ]
         },
         {
