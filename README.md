@@ -319,6 +319,7 @@
 * [《分布式IM系统》大后端平台-好友服务-第04节：异步更新好友微服务数据的设计和实现](https://articles.zsxq.com/id_g3s4494g7kwk.html)
 * [《分布式IM系统》大后端平台-群组服务-第01节：群组微服务常规功能的设计和实现](https://articles.zsxq.com/id_1102clf29cvl.html)
 * [《分布式IM系统》大后端平台-群组服务-第02节：群组微服务整合Dubbo的流程设计和实现](https://articles.zsxq.com/id_vn4efzdbiwze.html)
+* [《分布式IM系统》大后端平台-群组服务-第03节：业务事件的发送与接收设计和实现](https://articles.zsxq.com/id_kwwv4hss97s5.html)
 
 ### 💥 Seckill秒杀系统
 
