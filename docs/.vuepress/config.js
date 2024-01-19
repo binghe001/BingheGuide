@@ -2544,6 +2544,7 @@ function getBarPeojectIM() {
                 "platform/group/2024-01-17-chapter01.md",
                 "platform/group/2024-01-18-chapter02.md",
                 "platform/group/2024-01-19-chapter03.md",
+                "platform/group/2024-01-20-chapter04.md",
             ]
         },
         {
