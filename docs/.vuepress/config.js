@@ -2549,10 +2549,10 @@ function getBarPeojectIM() {
         },
         {
             title: "第11部分：大后端平台-消息微服务",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "platform/message/2024-01-21-chapter01.md",
             ]
         },
         {
