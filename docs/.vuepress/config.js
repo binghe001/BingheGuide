@@ -2553,6 +2553,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "platform/message/2024-01-21-chapter01.md",
+                "platform/message/2024-01-22-chapter02.md",
             ]
         },
         {
