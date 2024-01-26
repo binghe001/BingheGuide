@@ -327,6 +327,7 @@
 * [《分布式IM系统》大后端平台-消息服务-第04节：群聊消息的拉取流程设计和实现](https://articles.zsxq.com/id_hxffuzvj6tsq.html)
 * [《分布式IM系统》大后端平台-消息服务-第05节：单聊消息的已读流程设计和实现](https://articles.zsxq.com/id_qx1vwu93cnt6.html)
 * [《分布式IM系统》大后端平台-消息服务-第06节：群聊消息的已读流程设计和实现](https://articles.zsxq.com/id_0f1nwbsefw9r.html)
+* [《分布式IM系统》大后端平台-消息服务-第07节：单聊消息的撤回流程设计和实现](https://articles.zsxq.com/id_0ar5kh5rbhjk.html)
 
 ### 💥 Seckill秒杀系统
 
