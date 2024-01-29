@@ -2564,11 +2564,11 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第12部分：OpenAI接入服务",
-            collapsable: true,
+            title: "第12部分：大后端平台-视频通话",
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "platform/video/2024-01-31-chapter01.md",
             ]
         },
         {
@@ -2580,7 +2580,15 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第14部分：部署与监控",
+            title: "第14部分：OpenAI接入服务",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        },
+        {
+            title: "第15部分：部署与监控",
             collapsable: true,
             sidebarDepth: 0,
             children: [
