@@ -2570,6 +2570,8 @@ function getBarPeojectIM() {
             children: [
                 "platform/video/2024-01-31-chapter01.md",
                 "platform/video/2024-02-01-chapter02.md",
+                "platform/video/2024-02-02-chapter03.md",
+                "platform/video/2024-02-03-chapter04.md",
             ]
         },
         {

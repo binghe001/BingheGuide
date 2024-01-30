@@ -332,6 +332,8 @@
 * [《分布式IM系统》大后端平台-消息服务-第09节：图片、文件和语音消息的设计和实现](https://articles.zsxq.com/id_1f32q87wrs3h.html)
 * [《分布式IM系统》大后端平台-视频通话-第01节：视频通话呼叫发起流程设计和实现](https://articles.zsxq.com/id_pi8ww36ac0t3.html)
 * [《分布式IM系统》大后端平台-视频通话-第02节：视频通话呼叫取消流程设计和实现](https://articles.zsxq.com/id_ehiqzri95tgg.html)
+* [《分布式IM系统》大后端平台-视频通话-第03节：视频通话呼叫失败流程设计和实现](https://articles.zsxq.com/id_jsdzpdbeiv01.html)
+* [《分布式IM系统》大后端平台-视频通话-第04节：视频通话呼叫接受流程设计和实现](https://articles.zsxq.com/id_944wp7zdatvu.html)
 
 ### 💥 Seckill秒杀系统
 
