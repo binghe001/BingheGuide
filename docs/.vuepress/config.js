@@ -2569,6 +2569,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "platform/video/2024-01-31-chapter01.md",
+                "platform/video/2024-02-01-chapter02.md",
             ]
         },
         {
