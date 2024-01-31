@@ -334,6 +334,9 @@
 * [《分布式IM系统》大后端平台-视频通话-第02节：视频通话呼叫取消流程设计和实现](https://articles.zsxq.com/id_ehiqzri95tgg.html)
 * [《分布式IM系统》大后端平台-视频通话-第03节：视频通话呼叫失败流程设计和实现](https://articles.zsxq.com/id_jsdzpdbeiv01.html)
 * [《分布式IM系统》大后端平台-视频通话-第04节：视频通话呼叫接受流程设计和实现](https://articles.zsxq.com/id_944wp7zdatvu.html)
+* [《分布式IM系统》大后端平台-视频通话-第05节：视频通话呼叫拒绝流程设计和实现](https://articles.zsxq.com/id_nhjwnhr9p17j.html)
+* [《分布式IM系统》大后端平台-视频通话-第06节：视频通话呼叫挂断流程设计和实现](https://articles.zsxq.com/id_nwlsdx118299.html)
+* [《分布式IM系统》大后端平台-视频通话-第07节：视频通话同步会话状态流程设计和实现](https://articles.zsxq.com/id_xz19wa78mmiu.html)
 
 ### 💥 Seckill秒杀系统
 

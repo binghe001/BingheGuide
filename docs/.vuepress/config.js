@@ -2572,6 +2572,9 @@ function getBarPeojectIM() {
                 "platform/video/2024-02-01-chapter02.md",
                 "platform/video/2024-02-02-chapter03.md",
                 "platform/video/2024-02-03-chapter04.md",
+                "platform/video/2024-02-04-chapter05.md",
+                "platform/video/2024-02-05-chapter06.md",
+                "platform/video/2024-02-06-chapter07.md",
             ]
         },
         {
