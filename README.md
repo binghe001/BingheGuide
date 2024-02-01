@@ -330,6 +330,7 @@
 * [《分布式IM系统》大后端平台-消息服务-第07节：单聊消息的撤回流程设计和实现](https://articles.zsxq.com/id_0ar5kh5rbhjk.html)
 * [《分布式IM系统》大后端平台-消息服务-第08节：群聊消息的撤回流程设计和实现](https://articles.zsxq.com/id_21pu7ojtv7rw.html)
 * [《分布式IM系统》大后端平台-消息服务-第09节：图片、文件和语音消息的设计和实现](https://articles.zsxq.com/id_1f32q87wrs3h.html)
+* [《分布式IM系统》大后端平台-消息服务-第10节：消息监听回调流程的设计和实现](https://articles.zsxq.com/id_ma4w7exlg1qk.html)
 * [《分布式IM系统》大后端平台-视频通话-第01节：视频通话呼叫发起流程设计和实现](https://articles.zsxq.com/id_pi8ww36ac0t3.html)
 * [《分布式IM系统》大后端平台-视频通话-第02节：视频通话呼叫取消流程设计和实现](https://articles.zsxq.com/id_ehiqzri95tgg.html)
 * [《分布式IM系统》大后端平台-视频通话-第03节：视频通话呼叫失败流程设计和实现](https://articles.zsxq.com/id_jsdzpdbeiv01.html)
