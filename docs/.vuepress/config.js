@@ -2580,10 +2580,10 @@ function getBarPeojectIM() {
         },
         {
             title: "第13部分：大前端UI",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "front/2024-02-07-chapter01.md",
             ]
         },
         {
