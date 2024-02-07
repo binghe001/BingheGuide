@@ -2584,6 +2584,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "front/2024-02-07-chapter01.md",
+                "front/2024-02-08-chapter02.md",
             ]
         },
         {

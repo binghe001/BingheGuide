@@ -339,6 +339,7 @@
 * [《分布式IM系统》大后端平台-视频通话-第06节：视频通话呼叫挂断流程设计和实现](https://articles.zsxq.com/id_nwlsdx118299.html)
 * [《分布式IM系统》大后端平台-视频通话-第07节：视频通话同步会话状态流程设计和实现](https://articles.zsxq.com/id_xz19wa78mmiu.html)
 * [《分布式IM系统》大前端UI-第01节-Node.js基础环境搭建](https://articles.zsxq.com/id_45we0rh7waen.html)
+* [《分布式IM系统》大前端UI-第02节-通用基础功能设计与研发](https://articles.zsxq.com/id_brxkwst1h95b.html)
 
 ### 💥 Seckill秒杀系统
 
