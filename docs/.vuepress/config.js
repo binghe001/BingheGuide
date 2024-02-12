@@ -2585,6 +2585,7 @@ function getBarPeojectIM() {
             children: [
                 "front/2024-02-07-chapter01.md",
                 "front/2024-02-08-chapter02.md",
+                "front/2024-02-09-chapter03.md",
             ]
         },
         {
