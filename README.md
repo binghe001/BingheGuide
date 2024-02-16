@@ -342,6 +342,7 @@
 * [《分布式IM系统》大前端UI-第02节-通用基础功能设计与研发](https://t.zsxq.com/17SQaWzqH)
 * [《分布式IM系统》大前端UI-第03节-注册与登录流程的设计与实现](https://t.zsxq.com/17UBl1WVE)
 * [《分布式IM系统》大前端UI-第04节-页面主体框架设计与实现](https://t.zsxq.com/170qiQYpk)
+* [《分布式IM系统》大前端UI-第05节-好友主体页面的设计与实现](https://articles.zsxq.com/id_7ldopdr3gh2h.html)
 
 ### 💥 Seckill秒杀系统
 
