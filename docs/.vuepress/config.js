@@ -2579,19 +2579,41 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第13部分：大前端UI",
+            title: "第13部分：大前端UI-基础架构",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "front/2024-02-07-chapter01.md",
-                "front/2024-02-08-chapter02.md",
-                "front/2024-02-09-chapter03.md",
-                "front/2024-02-10-chapter04.md",
-                "front/2024-02-11-chapter05.md",
-                "front/2024-02-12-chapter06.md",
+                "front/base/2024-02-07-chapter01.md",
+                "front/base/2024-02-08-chapter02.md"
             ]
         },
         {
+            title: "第14部分：大前端UI-用户模块",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "front/user/2024-02-09-chapter01.md",
+                "front/user/2024-02-10-chapter02.md"
+            ]
+        },
+        {
+            title: "第15部分：大前端UI-好友模块",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "front/friend/2024-02-11-chapter01.md",
+                "front/friend/2024-02-12-chapter02.md",
+            ]
+        },
+        {
+            title: "第15部分：大前端UI-群组模块",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "develop/develop.md",
+            ]
+        }
+        /*{
             title: "第14部分：OpenAI接入服务",
             collapsable: true,
             sidebarDepth: 0,
@@ -2614,7 +2636,7 @@ function getBarPeojectIM() {
             children: [
                 "develop/develop.md",
             ]
-        }
+        }*/
     ]
 }
 // getBarHackEnvironment
