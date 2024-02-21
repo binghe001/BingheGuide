@@ -2610,7 +2610,7 @@ function getBarPeojectIM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "develop/develop.md",
+                "front/group/2024-02-13-chapter01.md",
             ]
         }
         /*{
