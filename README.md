@@ -345,6 +345,7 @@
 * [《分布式IM系统》大前端UI-好友模块-第01节-好友主体页面的设计与实现](https://articles.zsxq.com/id_7ldopdr3gh2h.html)
 * [《分布式IM系统》大前端UI-好友模块-第02节-好友关联单聊页面的设计与实现](https://articles.zsxq.com/id_kc5wlze6we1u.html)
 * [《分布式IM系统》大前端UI-群组模块-第01节-群组主体页面的设计与实现](https://articles.zsxq.com/id_093aa985rwli.html)
+* [《分布式IM系统》大前端UI-群组模块-第02节-创建群组流程的设计与实现](https://articles.zsxq.com/id_9cwq08ppbqc6.html)
 
 ### 💥 Seckill秒杀系统
 
