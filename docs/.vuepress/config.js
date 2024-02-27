@@ -2606,7 +2606,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第15部分：大前端UI-群组模块",
+            title: "第16部分：大前端UI-群组模块",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2615,6 +2615,7 @@ function getBarPeojectIM() {
                 "front/group/2024-02-15-chapter03.md",
                 "front/group/2024-02-16-chapter04.md",
                 "front/group/2024-02-17-chapter05.md",
+                "front/group/2024-02-18-chapter06.md",
             ]
         }
         /*{
