@@ -2617,6 +2617,7 @@ function getBarPeojectIM() {
                 "front/group/2024-02-17-chapter05.md",
                 "front/group/2024-02-18-chapter06.md",
                 "front/group/2024-02-19-chapter07.md",
+                "front/group/2024-02-20-chapter08.md",
             ]
         }
         /*{
