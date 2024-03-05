@@ -352,6 +352,7 @@
 * [《分布式IM系统》大前端UI-群组模块-第06节-成员退出群组流程的设计与实现](https://articles.zsxq.com/id_1dl4jwp25elo.html)
 * [《分布式IM系统》大前端UI-群组模块-第07节-群主解散群组流程的设计与实现](https://articles.zsxq.com/id_cswvspibgag8.html)
 * [《分布式IM系统》大前端UI-群组模块-第08节-发送群聊消息流程的设计与实现](https://articles.zsxq.com/id_00u6ccq3maw1.html)
+* [《分布式IM系统》大前端UI-消息模块-第01节-发送文字消息流程的设计与实现](https://articles.zsxq.com/id_xabtrco5tij3.html)
 
 ### 💥 Seckill秒杀系统
 

@@ -2619,6 +2619,14 @@ function getBarPeojectIM() {
                 "front/group/2024-02-19-chapter07.md",
                 "front/group/2024-02-20-chapter08.md",
             ]
+        },
+        {
+            title: "第17部分：大前端UI-消息模块",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "front/message/2024-02-21-chapter01.md",
+            ]
         }
         /*{
             title: "第14部分：OpenAI接入服务",
