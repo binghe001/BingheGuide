@@ -355,6 +355,7 @@
 * [《分布式IM系统》大前端UI-消息模块-第01节-发送文字消息流程的设计与实现](https://articles.zsxq.com/id_xabtrco5tij3.html)
 * [《分布式IM系统》大前端UI-消息模块-第02节-发送表情消息流程的设计与实现](https://articles.zsxq.com/id_2dc4f8qcgo4x.html)
 * [《分布式IM系统》大前端UI-消息模块-第03节-发送图片消息流程的设计与实现](https://articles.zsxq.com/id_6gccwan80pm4.html)
+* [《分布式IM系统》大前端UI-消息模块-第04节-发送文件消息流程的设计与实现](https://articles.zsxq.com/id_ux0w5786c430.html)
 
 ### 💥 Seckill秒杀系统
 
