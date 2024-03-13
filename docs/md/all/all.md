@@ -347,6 +347,7 @@ title: 冰河指南
 * [《分布式IM系统》大前端UI-消息模块-第03节-发送图片消息流程的设计与实现](https://articles.zsxq.com/id_6gccwan80pm4.html)
 * [《分布式IM系统》大前端UI-消息模块-第04节-发送文件消息流程的设计与实现](https://articles.zsxq.com/id_ux0w5786c430.html)
 * [《分布式IM系统》大前端UI-消息模块-第05节-发送语音消息流程的设计与实现](https://articles.zsxq.com/id_socqle6c9ui8.html)
+* [《分布式IM系统》大前端UI-消息模块-第06节-双向视频通话流程的设计与实现](https://articles.zsxq.com/id_4sfr98klz2o6.html)
 
 ### 💥 分布式Seckill秒杀系统
 
