@@ -362,6 +362,7 @@
 * [《分布式IM系统》大前端UI-消息模块-第08节-消息已读未读流程的设计与实现](https://articles.zsxq.com/id_vh74whpq0scv.html)
 * [《分布式IM系统》大前端UI-消息模块-第09节-实时消息删除流程的设计与实现](https://articles.zsxq.com/id_phnb727lkgb6.html)
 * [《分布式IM系统》大前端UI-消息模块-第10节-实时消息撤回流程的设计与实现](https://articles.zsxq.com/id_agdci8u1lhxw.html)
+* [《分布式IM系统》大前端UI-消息模块-第11节-群聊@功能流程的设计与实现](https://articles.zsxq.com/id_0kt3fwcs2ibu.html)
 
 ### 💥 Seckill秒杀系统
 
