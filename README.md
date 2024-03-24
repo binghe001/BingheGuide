@@ -359,6 +359,9 @@
 * [《分布式IM系统》大前端UI-消息模块-第05节-发送语音消息流程的设计与实现](https://articles.zsxq.com/id_socqle6c9ui8.html)
 * [《分布式IM系统》大前端UI-消息模块-第06节-双向视频通话流程的设计与实现](https://articles.zsxq.com/id_4sfr98klz2o6.html)
 * [《分布式IM系统》大前端UI-消息模块-第07节-查看历史消息流程的设计与实现](https://articles.zsxq.com/id_1frrk063wm5h.html)
+* [《分布式IM系统》大前端UI-消息模块-第08节-消息已读未读流程的设计与实现](https://articles.zsxq.com/id_vh74whpq0scv.html)
+* [《分布式IM系统》大前端UI-消息模块-第09节-实时消息删除流程的设计与实现](https://articles.zsxq.com/id_phnb727lkgb6.html)
+* [《分布式IM系统》大前端UI-消息模块-第10节-实时消息撤回流程的设计与实现](https://articles.zsxq.com/id_agdci8u1lhxw.html)
 
 ### 💥 Seckill秒杀系统
 
