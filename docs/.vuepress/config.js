@@ -2637,6 +2637,14 @@ function getBarPeojectIM() {
                 "front/message/2024-03-01-chapter10.md",
                 "front/message/2024-03-02-chapter11.md",
             ]
+        },
+        {
+            title: "第18部分：OpenAI大模型接入服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "openai/2024-03-03-chapter01.md",
+            ]
         }
         /*{
             title: "第14部分：OpenAI接入服务",
