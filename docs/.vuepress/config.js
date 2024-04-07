@@ -2644,6 +2644,7 @@ function getBarPeojectIM() {
             sidebarDepth: 0,
             children: [
                 "openai/2024-03-03-chapter01.md",
+                "openai/2024-03-04-chapter02.md",
             ]
         }
         /*{

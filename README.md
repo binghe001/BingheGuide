@@ -364,6 +364,7 @@
 * [《分布式IM系统》大前端UI-消息模块-第10节-实时消息撤回流程的设计与实现](https://articles.zsxq.com/id_agdci8u1lhxw.html)
 * [《分布式IM系统》大前端UI-消息模块-第11节-群聊@功能流程的设计与实现](https://articles.zsxq.com/id_0kt3fwcs2ibu.html)
 * [《分布式IM系统》OpenAI接入服务-第01节-OpenAI总体对接流程架构设计](https://articles.zsxq.com/id_78ui36m0ex1q.html)
+* [《分布式IM系统》OpenAI接入服务-第02节-OpenAI接入服务总体框架设计](https://articles.zsxq.com/id_e7ougupmqqc9.html)
 
 ### 💥 Seckill秒杀系统
 
