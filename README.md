@@ -367,6 +367,7 @@
 * [《分布式IM系统》OpenAI接入服务-第02节-OpenAI接入服务总体框架设计](https://articles.zsxq.com/id_e7ougupmqqc9.html)
 * [《分布式IM系统》OpenAI接入服务-第03节-OpenAI领域模型与核心接口设计](https://articles.zsxq.com/id_hnnwg51zqgz4.html)
 * [《分布式IM系统》OpenAI接入服务-第04节-OpenAI大模型对接设计和实现](https://articles.zsxq.com/id_c9mo3wd9vvhp.html)
+* [《分布式IM系统》OpenAI接入服务-第05节-单聊消息对接OpenAI大模型](https://articles.zsxq.com/id_a16rs2w50gwc.html)
 
 ### 💥 Seckill秒杀系统
 
