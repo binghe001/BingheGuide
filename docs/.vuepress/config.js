@@ -2648,6 +2648,7 @@ function getBarPeojectIM() {
                 "openai/2024-03-05-chapter03.md",
                 "openai/2024-03-06-chapter04.md",
                 "openai/2024-03-07-chapter05.md",
+                "openai/2024-03-08-chapter06.md",
             ]
         }
         /*{
