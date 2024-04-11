@@ -359,6 +359,7 @@ title: 冰河指南
 * [《分布式IM系统》OpenAI接入服务-第04节-OpenAI大模型对接设计和实现](https://articles.zsxq.com/id_c9mo3wd9vvhp.html)
 * [《分布式IM系统》OpenAI接入服务-第05节-单聊消息对接OpenAI大模型](https://articles.zsxq.com/id_a16rs2w50gwc.html)
 * [《分布式IM系统》OpenAI接入服务-第06节-群聊消息对接OpenAI大模型](https://articles.zsxq.com/id_sd7uh33rw02n.html)
+* [《分布式IM系统》OpenAI接入服务-第07节-扩展实现对接多种OpenAI大模型](https://articles.zsxq.com/id_gbsbw2lg43bz.html)
 
 ### 💥 分布式Seckill秒杀系统
 
