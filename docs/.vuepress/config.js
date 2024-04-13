@@ -2651,6 +2651,14 @@ function getBarPeojectIM() {
                 "openai/2024-03-08-chapter06.md",
                 "openai/2024-03-09-chapter07.md",
             ]
+        },
+        {
+            title: "第19部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2024-03-10-summary.md",
+            ]
         }
         /*{
             title: "第14部分：OpenAI接入服务",

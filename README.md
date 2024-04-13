@@ -370,6 +370,7 @@
 * [《分布式IM系统》OpenAI接入服务-第05节-单聊消息对接OpenAI大模型](https://articles.zsxq.com/id_a16rs2w50gwc.html)
 * [《分布式IM系统》OpenAI接入服务-第06节-群聊消息对接OpenAI大模型](https://articles.zsxq.com/id_sd7uh33rw02n.html)
 * [《分布式IM系统》OpenAI接入服务-第07节-扩展实现对接多种OpenAI大模型](https://articles.zsxq.com/id_gbsbw2lg43bz.html)
+* [《分布式IM系统》总结-分布式IM即时通讯系统整体专栏总结](https://articles.zsxq.com/id_se6guql5xzri.html)
 
 ### 💥 Seckill秒杀系统
 
