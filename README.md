@@ -239,8 +239,29 @@
 * [两本书，你更喜欢哪一本？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489114&idx=1&sn=f6d3ecc53f7b53e91e050aa6d9e4b9e0&chksm=cf55a15bf822284d4759def938cb06a0da92aadd9768308aedd54bc86e09f9f708b916f957fd&token=776659970&lang=zh_CN#rd)
 * [冰河又一MySQL技术力作出版（文末送书）！！](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247489670&idx=1&sn=fe4e1d4f3db05607e37f35cbd7837fc8&chksm=cf55af87f8222691c42b252444a2d5ec1989aadbc0956463169fe6bc8f77c4977b3a4d2dfe9c&token=776659970&lang=zh_CN#rd)
 
-#### 星球专栏
+#### 技能提升
 
+* [我把这个神一样的框架肝成了一本书！](https://mp.weixin.qq.com/s/jEEO3yPVwIDkNLQmbp0dgA)
+* [工作中有没有做过性能调优？一问这个便知！](https://mp.weixin.qq.com/s/EUoWZA46ht-QeH1qDfPMAg)
+* [沉淀一年多，冰河正式入局OpenAI大模型！！](https://mp.weixin.qq.com/s/V5LtETdfPyeoHGpJuPLD2A)
+* [IM上线双向视频通话，氛围感拉满！](https://mp.weixin.qq.com/s/rtZdzgwlMIApv4TFk5SA5A)
+* [需求、原型、设计、架构、编码、测试、部署、运维，一个人全包了](https://mp.weixin.qq.com/s/ZuLWOx0GGJ318Iz7TP6FPg)
+* [春招，又一名应届生小伙伴10天斩获字节跳动28K Offer！](https://mp.weixin.qq.com/s/rI0OJ8JvEVX_ydcEMAucIw)
+* [六个提升编程内功的项目：简易商城、RPC、Spring6源码、秒杀系统、并发设计模式、即时通讯系统](https://mp.weixin.qq.com/s/JYJBYsaoEt4UJEQyyjW_Rg)
+* [听说你写的分布式IM系统不错，可以拿来看看吗？](https://mp.weixin.qq.com/s/53tfjkezfaSqniO6uxuB_w)
+* [又一个可以写到简历的项目！](https://mp.weixin.qq.com/s/Y82zINWuFJbOLFZhNO_1zw)
+* [转前端了！！](https://mp.weixin.qq.com/s/qHMSAwpvSUYXkK3IYKIfag)
+* [Java完整高清面试考点与学习路线发布](https://mp.weixin.qq.com/s/vgabMSUtygkQVMBgmwuFpA)
+* [我写了一个脚本，工作效率瞬间提升近1000倍！](https://mp.weixin.qq.com/s/E8QD8MW7JvbHFMM0kxScsQ)
+* [20张图手把手教你搭建并优化云原生模式下的多节点Minio分布式文件系统](https://mp.weixin.qq.com/s/5O7tvZl0rsLhlVvlM3hFPA)
+* [小卡拉米们：来年的春招，你们准备好了吗？](https://mp.weixin.qq.com/s/FxdYOnWH91lby5OnfzQ-lQ)
+* [研发提效必备技能：25张图手把手教你基于Docker搭建Maven私服仓库](https://mp.weixin.qq.com/s/_pW1Br_qSP_mfWUajGs8iw)
+* [又一个涵盖前后端+DevOps+OpenAI大模型的高并发项目启动了](https://mp.weixin.qq.com/s/NuVSfPUERzKvT_nSJ297fg)
+* [花费500多天，我做了这样一件成体系的事情](https://mp.weixin.qq.com/s/I2HR45t4vDOX7Ugu1BEFWg)
+* [又一个小而美的涵盖多个实际场景的高并发项目完结了](https://mp.weixin.qq.com/s/hYmt02lUORSgnomTCK1BzQ)
+* [一个项目彻底搞定并发编程可落地的方案和知识点](https://mp.weixin.qq.com/s/JJuJ2694dJb_TKI13F5Ujw)
+* [阿里二面：ThreadLocal内存泄露灵魂四问，人麻了！](https://mp.weixin.qq.com/s/85-68EpBa4A2SbmI400pSw)
+* [简历上的项目拿不出手怎么办？](https://mp.weixin.qq.com/s/VNhIabLxVY8qOzTr_RY9Ow)
 * [年底冰河又在搞事情了：堪称史上最强福利！](https://mp.weixin.qq.com/s/XpQMu2dG2KOCeBD6CX6V2A)
 * [打卡计划启动：每个项目的价值都远超门票！](https://mp.weixin.qq.com/s/PUlQsPy6nt4XBn9GPvd3ww)
 * [10张图总结并发编程最佳学习路线，上车！](https://mp.weixin.qq.com/s/Wowk6qs-wWfbBCin_RU3eQ)
@@ -265,6 +286,7 @@
 * [我做了件绝大部分人和机构做不到的事情！！](https://mp.weixin.qq.com/s/_S82AThasfupCCvWogwP6g)
 * [原来大厂面试官也会在这里偷偷学习！](https://mp.weixin.qq.com/s/Zp0nI2RyFb_UCYpSsUt2OQ)
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
+* [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
 ### 💥 分布式IM即时通讯系统
 
@@ -371,6 +393,10 @@
 * [《分布式IM系统》OpenAI接入服务-第06节-群聊消息对接OpenAI大模型](https://articles.zsxq.com/id_sd7uh33rw02n.html)
 * [《分布式IM系统》OpenAI接入服务-第07节-扩展实现对接多种OpenAI大模型](https://articles.zsxq.com/id_gbsbw2lg43bz.html)
 * [《分布式IM系统》总结-分布式IM即时通讯系统整体专栏总结](https://articles.zsxq.com/id_se6guql5xzri.html)
+* [这套分布式IM即时通讯系统如何写到简历上？我给你整理好了！](https://mp.weixin.qq.com/s/4CYsL_OZip3g0LYfvOmFQA)
+* [互联网工程实践：这套分布式IM即时通讯系统，是如何做到弹性扩缩容的？](https://mp.weixin.qq.com/s/TBAGVM8WxOZgCexJyfrB5Q)
+* [四个多月，IM系统，20+篇章，103+文章和视频，八大项目工程，103+源码分支，完美收官](https://mp.weixin.qq.com/s/i09JzlSsYmGQlXvbSFjCbA)
+* [IM系统完结了，那简历该怎么写？（含简历项目描述）](https://mp.weixin.qq.com/s/lMn9gh_UWSfqhjp9N66xeg)
 
 ### 💥 Seckill秒杀系统
 
@@ -823,12 +849,16 @@
 #### 番外篇
 * [《从零开始手写RPC框架》电子书升级啦！](https://mp.weixin.qq.com/s/Z13jGNY94rEewp1HW9yiPQ)
 * [用过来人的身份告诉你为何大厂都要自研RPC？](https://mp.weixin.qq.com/s/7DkT5hWw8XHqqWV3JkX7pg)
+* [冰河招聘：开放一个70K-16薪的职位](https://mp.weixin.qq.com/s/mTpklvXf1FuNxx7leb6VkQ)
 
 ### 💥 Spring核心技术
 
+* [万字长文带你彻底吃透Spring循环依赖，堪称全网最全（文末福利）](https://mp.weixin.qq.com/s/Z2-p_pLdH_kVUfCxaFNVGw)
+* [《Spring6核心源码解析》已完结，涵盖IOC容器、AOP、切面、AOT预编译、SpringMVC，面试杠杠的！](https://mp.weixin.qq.com/s/KQvrr-kg0zLl9NCpQWAQQg)
 * [《Spring IOC核心技术》共27章，19万字，打包发布！！](https://mp.weixin.qq.com/s/5wCnprKkMRx0Pd1gDImKtg)
 
 #### 专栏介绍
+
 * [《Spring核心技术》开篇：我要带你一步步调试Spring6.0源码啦！](https://articles.zsxq.com/id_dxl5ojx1vt2j.html)
 
 #### 第一篇：IOC容器
@@ -911,6 +941,7 @@
 
 ### 💥 精通高并发系列
 
+* [深入理解CPU缓存一致性协议MESI（建议收藏）](https://mp.weixin.qq.com/s/n2_1ylKrkwB71lhMQfuhUg)
 * [为何要学习Seckill分布式秒杀系统？它能为你带来什么？](https://mp.weixin.qq.com/s/H4l26h3qRV-05XiNZtQ7OA)
 * [秒杀系统瞬时百万并发流量的六种应对之道](https://mp.weixin.qq.com/s/Mj1DRFOmzThRV7CW6jWugg)
 * [🔥🔥🔥 《深入理解高并发编程（第2版）》八大篇章，共433页，打包发布！！](https://mp.weixin.qq.com/s/E5XZW_HSqKBbgxix6xQGAQ)
@@ -1128,6 +1159,11 @@
 
 ### 架构师进阶系列
 
+* [文档都写不好，做个屁的架构师！](https://mp.weixin.qq.com/s/M31Y8G_vN5PVT2VsIGhjLg)
+* [逃逸分析：分离对象、标量替换、同步锁消除](https://mp.weixin.qq.com/s/CQJTEjFhMhHC9DYhs6CClA)
+* [程序员进阶架构师必看的面试重灾区：JVM整体架构、内存模型与调优实战](https://mp.weixin.qq.com/s/8-t2EzLkvWsiHmw9EoCTUA)
+* [程序员VS架构师，这内容有点多啊！](https://mp.weixin.qq.com/s/-1RpLaHzXmudvRJeWN_pFw)
+* [2024第一篇：架构师成神之路总结！](https://mp.weixin.qq.com/s/6lAYgSTFWGTqYVFoXnQRAQ)
 * [架构师与高级开发工程师的分水岭是啥？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247495897&idx=1&sn=a5479e4aebf18a3e4cc30c8bec807051&chksm=cf5647d8f821ceceb42deb500f4bdc4d7d28bc64f671a0da69ca955ecbf6b82b2396e42064f3&token=546222828&lang=zh_CN#rd)
 * [要想进大厂成为架构师需要掌握哪些硬核技能？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247496020&idx=1&sn=aae3ea84c13d82e4027fb0381633d54b&chksm=cf564655f821cf4372325deb49ab982b4e290c73bdfba16095fae7d545a958d54a2686e1a329&token=1837443586&lang=zh_CN#rd)
 * [JVM整体架构与调优参数说明](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247495960&idx=1&sn=489edee13ada9612e3a92b3f624bb02a&chksm=cf564619f821cf0ff31050587a2979f9847ce1930f653f3d1d087d42346ab7625f6bcb90ed39&token=1837443586&lang=zh_CN#rd)
