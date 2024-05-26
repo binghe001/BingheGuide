@@ -288,6 +288,10 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥 分布式高性能网关
+
+* [《高性能Polaris网关》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的高性能网关项目](https://articles.zsxq.com/id_ridvweanvdw7.html)
+
 ### 💥 分布式IM即时通讯系统
 
 * [《分布式IM系统》开篇：分布式IM即时通讯系统正式启动](https://t.zsxq.com/14WPONMB1)

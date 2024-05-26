@@ -428,27 +428,14 @@ module.exports = {
                         text: '项目实战',
                         items: [
                             {
-                                text: "高并发项目",
-                                items:[
-                                    {
-                                        text: '分布式IM即时通讯系统',
-                                        link: '/md/project/im/start/2023-11-20-start.md'
-                                    },
-                                    {
-                                        text: '分布式Seckill秒杀系统',
-                                        link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
-                                    },
-                                    {
-                                        text: '实战高并发设计模式',
-                                        link: '/md/core/design/concurrent/2023-09-17-start.md'
-                                    }
-                                ]
-                            },
-                            {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '手写RPC项目',
+                                        text: '手写高性能网关',
+                                        link: '/md/project/gateway/start/2024-05-19-start.md'
+                                    },
+                                    {
+                                        text: '手写高性能RPC项目',
                                         link: '/md/middleware/rpc/2022-08-24-我设计了一款TPS百万级别的RPC框架.md'
                                     }/*,
                                     {
@@ -467,6 +454,23 @@ module.exports = {
                                         text: '《开源项目》',
                                         link: '/md/middleware/independent/default.md'
                                     }*/
+                                ]
+                            },
+                            {
+                                text: "高并发项目",
+                                items:[
+                                    {
+                                        text: '分布式IM即时通讯系统',
+                                        link: '/md/project/im/start/2023-11-20-start.md'
+                                    },
+                                    {
+                                        text: '分布式Seckill秒杀系统',
+                                        link: '/md/project/seckill/2023-04-16-《Seckill秒杀系统》开篇-我要手把手教你搭建一个抗瞬时百万流量的秒杀系统.md'
+                                    },
+                                    {
+                                        text: '实战高并发设计模式',
+                                        link: '/md/core/design/concurrent/2023-09-17-start.md'
+                                    }
                                 ]
                             },
                             {
@@ -675,6 +679,7 @@ module.exports = {
                     "/md/middleware/threadpool/": getBarMiddlewareThreadpool(),
                     "/md/middleware/bytecode/": getBarMiddlewareByteCode(),
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
+                    "/md/project/gateway/": getBarGateway(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1544,6 +1549,19 @@ function getBarDistributedTransaction() {
                 "transaction-video-037.md",
                 "transaction-video-038.md",
                 "transaction-video-039.md",
+            ]
+        }
+    ]
+}
+
+function getBarGateway(){
+    return [
+        {
+            title: "专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2024-05-19-start.md",
             ]
         }
     ]
