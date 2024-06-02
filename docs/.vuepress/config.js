@@ -1563,6 +1563,14 @@ function getBarGateway(){
             children: [
                 "start/2024-05-19-start.md",
             ]
+        },
+        {
+            title: "第1部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "demand/2024-06-02-chapter01.md",
+            ]
         }
     ]
 }
