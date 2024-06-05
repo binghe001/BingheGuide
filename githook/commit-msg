@@ -1,0 +1,63 @@
+#!/bin/sh
+#
+# An example hook script to check the commit log message.
+# Called by "git commit" with one argument, the name of the file
+# that has the commit message.  The hook should exit with non-zero
+# status after issuing an appropriate message if it wants to stop the
+# commit.  The hook is allowed to edit the commit message file.
+#
+# To enable this hook, rename this file to "commit-msg".
+
+# Uncomment the below to add a Signed-off-by line to the message.
+# Doing this in a hook is a bad idea in general, but the prepare-commit-msg
+# hook is more suited to it.
+#
+# SOB=$(git var GIT_AUTHOR_IDENT | sed -n 's/^\(.*>\).*$/Signed-off-by: \1/p')
+# grep -qs "^$SOB" "$1" || echo "$SOB" >> "$1"
+
+# This example catches duplicate Signed-off-by lines.
+
+test "" = "$(grep '^Signed-off-by: ' "$1" |
+	 sort | uniq -c | sed -e '/^[ 	]*1[ 	]/d')" || {
+	echo >&2 Duplicate Signed-off-by lines.
+	exit 1
+}
+
+# 检查msg是否符合规范
+msg=$(cat .git/COMMIT_EDITMSG)
+if [ "${msg}"X == ""X ]; then
+    echo "未填写提交日志，请填写后重试"
+    exit 1
+fi
+
+
+msg=$(echo "${msg}" | grep -E "^(fix([[:space:]])*:|feature([[:space:]])*:|docs([[:space:]])*:|style([[:space:]])*:|test([[:space:]])*:|enhance([[:space:]])*:)([[:space:]])*(\[task-[0-9]+\]|\[bug-[0-9]+\])?" | grep -v grep)
+if [ $? -ne 0 ]; then 
+	echo "Commit Message 格式错误, 已终止代码提交流程"
+	echo "支持的前缀类型和说明如下所示"
+	echo "----------------------------------------------------"
+	echo "|    类型    |              说明                   |"
+	echo "----------------------------------------------------"
+	echo "|   feature  |             新功能                  |"
+	echo "----------------------------------------------------"
+	echo "|    fix     |             修补bug                 |"
+	echo "----------------------------------------------------"
+	echo "|    docs    |             文档变更                |"
+	echo "----------------------------------------------------"
+	echo "|    style   |    格式(不影响代码运行的变动)       |"
+	echo "----------------------------------------------------"
+	echo "|    test    |         增加测试代码/用例           |"
+	echo "----------------------------------------------------"
+	echo "|   enhance  |         代码优化,增强               |"
+	echo "----------------------------------------------------"
+	echo "正确实例如下所示:"
+	echo "示例1：feature: 完成了xxx功能"
+	echo "示例2：feature: [task-12345]完成了xxx功能"
+	echo "示例3：fix: 修复了xxxx"
+	echo "示例4：fix: [bug-123]修复了xxxx"
+	echo "示例5：docs: 更新了xxx文档"
+	echo "示例6：style: 格式化xxx类的代码"
+	echo "示例7：test: 增加了xxx类(xxx功能)的测试代码"
+	echo "示例8：enhance: 优化了xxx功能，增强了xxx特性"
+	exit 1
+fi
