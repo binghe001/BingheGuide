@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+#
+# To enable this hook, rename this file to "pre-commit".
+
+branchName=$(git symbolic-ref --short HEAD)
+branchName=$(echo "${branchName}" | grep -E "(dev)|((feature|hotfix)/(v[0-9]+\.[0-9]+(\.[0-9]+)?/)?(\w)+-(\w)+-[0-9]+(-v[0-9]+\.[0-9]+(\.[0-9]+)?)?)")
+if [ $? -ne 0 ]; then
+    echo "分支命名不符合规范, 已终止Push代码, 正确示例如下所示: "
+    echo "示例1：dev"
+    echo "示例2：feature/abc-xyz-0"
+    echo "示例3：feature/abc-xyz-112233"
+    echo "示例4：feature/abc-xyz-112233-v1.0"
+    echo "示例5：feature/v1.0.0/abc-xyz-112233"
+    echo "示例6：hotfix/abc-xyz-0"
+    echo "示例7：hotfix/abc-xyz-112233"
+    echo "示例8：hotfix/abc-xyz-112233-v1.0"
+    echo "示例9：hotfix/v1.0.0/abc-xyz-112233"
+    exit 1
+fi

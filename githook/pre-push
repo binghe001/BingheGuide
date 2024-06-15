@@ -37,13 +37,16 @@ do
 			range="$local_oid"
 			branceName=$(echo "${local_ref}" | grep -E "(dev)|((feature|hotfix)/(v[0-9]+\.[0-9]+(\.[0-9]+)?/)?(\w)+-(\w)+-[0-9]+(-v[0-9]+\.[0-9]+(\.[0-9]+)?)?)")
 			if [ $? -ne 0 ]; then
-			    echo "分支命名不规范, 已终止Push代码, 正确示例如下所示: "
+			    echo "分支命名不符合规范, 已终止Push代码, 正确示例如下所示: "
 			    echo "示例1：dev"
-			    echo "示例2：feature/binghe-upgradeVersion-0"
-			    echo "示例3：feature/binghe-upgradeVersion-112233"
-			    echo "示例4：feature/binghe-upgradeVersion-112233-v1.0"
-			    echo "示例5：feature/v1.0.0/binghe-upgradeVersion-112233"
-			    echo "示例6：hotfix/binghe-updateRetryPolicy-112233"
+			    echo "示例2：feature/abc-xyz-0"
+			    echo "示例3：feature/abc-xyz-112233"
+			    echo "示例4：feature/abc-xyz-112233-v1.0"
+			    echo "示例5：feature/v1.0.0/abc-xyz-112233"
+          echo "示例6：hotfix/abc-xyz-0"
+          echo "示例7：hotfix/abc-xyz-112233"
+          echo "示例8：hotfix/abc-xyz-112233-v1.0"
+          echo "示例9：hotfix/v1.0.0/abc-xyz-112233"
 			    exit 1
 			fi
 		else
