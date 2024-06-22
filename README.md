@@ -393,7 +393,7 @@
 * [《分布式IM系统》OpenAI接入服务-第01节-OpenAI总体对接流程架构设计](https://t.zsxq.com/aFuV1)
 * [《分布式IM系统》OpenAI接入服务-第02节-OpenAI接入服务总体框架设计](https://t.zsxq.com/ZibIi)
 * [《分布式IM系统》OpenAI接入服务-第03节-OpenAI领域模型与核心接口设计](https://t.zsxq.com/et4yg)
-* [《分布式IM系统》OpenAI接入服务-第04节-OpenAI大模型对接设计和实现](https://articles.zsxq.com/id_c9mo3wd9vvhp.html)
+* [《分布式IM系统》OpenAI接入服务-第04节-OpenAI大模型对接设计和实现](https://t.zsxq.com/y28nP)
 * [《分布式IM系统》OpenAI接入服务-第05节-单聊消息对接OpenAI大模型](https://articles.zsxq.com/id_a16rs2w50gwc.html)
 * [《分布式IM系统》OpenAI接入服务-第06节-群聊消息对接OpenAI大模型](https://articles.zsxq.com/id_sd7uh33rw02n.html)
 * [《分布式IM系统》OpenAI接入服务-第07节-扩展实现对接多种OpenAI大模型](https://articles.zsxq.com/id_gbsbw2lg43bz.html)
