@@ -397,7 +397,7 @@
 * [《分布式IM系统》OpenAI接入服务-第05节-单聊消息对接OpenAI大模型](https://t.zsxq.com/QIZGa)
 * [《分布式IM系统》OpenAI接入服务-第06节-群聊消息对接OpenAI大模型](https://t.zsxq.com/oZWqK)
 * [《分布式IM系统》OpenAI接入服务-第07节-扩展实现对接多种OpenAI大模型](https://t.zsxq.com/pvNwp)
-* [《分布式IM系统》总结-分布式IM即时通讯系统整体专栏总结](https://articles.zsxq.com/id_se6guql5xzri.html)
+* [《分布式IM系统》总结-分布式IM即时通讯系统整体专栏总结](https://t.zsxq.com/wkNmx)
 * [这套分布式IM即时通讯系统如何写到简历上？我给你整理好了！](https://mp.weixin.qq.com/s/4CYsL_OZip3g0LYfvOmFQA)
 * [互联网工程实践：这套分布式IM即时通讯系统，是如何做到弹性扩缩容的？](https://mp.weixin.qq.com/s/TBAGVM8WxOZgCexJyfrB5Q)
 * [四个多月，IM系统，20+篇章，103+文章和视频，八大项目工程，103+源码分支，完美收官](https://mp.weixin.qq.com/s/i09JzlSsYmGQlXvbSFjCbA)
