@@ -1570,6 +1570,7 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "demand/2024-06-02-chapter01.md",
+                "demand/2024-06-23-chapter02.md",
             ]
         }
     ]
