@@ -291,8 +291,8 @@
 ### 💥 分布式高性能网关
 
 * [《高性能Polaris网关》开篇：我要手把手教你搭建并研发一套抗瞬时百万流量的高性能网关项目](https://t.zsxq.com/h7vdS)
-* [《高性能Polaris网关》需求设计-第01节：为何要学习高性能Polaris网关](https://articles.zsxq.com/id_vfi1o6or2zav.html)
-* [《高性能Polaris网关》需求设计-第02节：高性能Polaris网关的目标与挑战](https://articles.zsxq.com/id_4zbu883xqvmi.html)
+* [《高性能Polaris网关》需求设计-第01节：为何要学习高性能Polaris网关](https://t.zsxq.com/Hrnec)
+* [《高性能Polaris网关》需求设计-第02节：高性能Polaris网关的目标与挑战](https://t.zsxq.com/5kNlg)
 
 ### 💥 分布式IM即时通讯系统
 
