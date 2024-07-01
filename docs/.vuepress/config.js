@@ -431,7 +431,7 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '手写高性能网关',
+                                        text: '手写高性能Polaris网关',
                                         link: '/md/project/gateway/start/2024-05-19-start.md'
                                     },
                                     {
