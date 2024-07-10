@@ -32,20 +32,20 @@ jobs:
           BRANCH: master
           FOLDER: .site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-#      - name: Sync to Gitcode
-#        uses: wearerequired/git-mirror-action@master
-#        env:
-#          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
-#        with:
-#          source-repo: git@github.com:binghe001/binghe001.github.io.git
-#          destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
-      - name: Sync to Atomgit
+      - name: Sync to Gitcode
         uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
         with:
           source-repo: git@github.com:binghe001/binghe001.github.io.git
-          destination-repo: git@atomgit.com:binghe001/blog.git
+          destination-repo: git@gitcode.net:binghe/binghe.gitcode.host.git
+#      - name: Sync to Atomgit
+#        uses: wearerequired/git-mirror-action@master
+#        env:
+#          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+#        with:
+#          source-repo: git@github.com:binghe001/binghe001.github.io.git
+#          destination-repo: git@atomgit.com:binghe001/blog.git
 #      - name: "Deploy Gitcode"
 #        uses: s0/git-publish-subdir-action@master
 #        env:
