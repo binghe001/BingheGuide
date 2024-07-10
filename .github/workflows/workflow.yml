@@ -45,7 +45,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
         with:
           source-repo: git@github.com:binghe001/binghe001.github.io.git
-          destination-repo: git@atomgit.com:binghe001/binghe.atomgit.net.git
+          destination-repo: git@atomgit.com:binghe001/binghe.git
 #      - name: "Deploy Gitcode"
 #        uses: s0/git-publish-subdir-action@master
 #        env:
