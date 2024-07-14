@@ -1562,6 +1562,7 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "start/2024-05-19-start.md",
+                "start/2024-05-20-gateway.md",
             ]
         },
         {
