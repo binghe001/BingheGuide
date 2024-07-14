@@ -1573,6 +1573,7 @@ function getBarGateway(){
                 "demand/2024-06-02-chapter01.md",
                 "demand/2024-06-23-chapter02.md",
                 "demand/2024-06-30-chapter03.md",
+                "demand/2024-07-14-chapter04.md",
             ]
         }
     ]
