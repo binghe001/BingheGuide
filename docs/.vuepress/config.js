@@ -1566,7 +1566,7 @@ function getBarGateway(){
             ]
         },
         {
-            title: "第1部分：需求设计",
+            title: "第01部分：需求设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1574,6 +1574,14 @@ function getBarGateway(){
                 "demand/2024-06-23-chapter02.md",
                 "demand/2024-06-30-chapter03.md",
                 "demand/2024-07-14-chapter04.md",
+            ]
+        },
+        {
+            title: "第02部分：总体架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "archit/2024-07-20-chapter01.md",
             ]
         }
     ]
@@ -2457,7 +2465,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第1部分：需求设计",
+            title: "第01部分：需求设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2468,7 +2476,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第2部分：总体架构设计",
+            title: "第02部分：总体架构设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2477,7 +2485,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第3部分：环境搭建",
+            title: "第03部分：环境搭建",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2488,7 +2496,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第4部分：通用模型设计",
+            title: "第04部分：通用模型设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2502,7 +2510,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第5部分：即时通讯后端服务",
+            title: "第05部分：即时通讯后端服务",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2516,7 +2524,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第6部分：即时通讯SDK",
+            title: "第06部分：即时通讯SDK",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2528,7 +2536,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第7部分：大后端平台-通用模型",
+            title: "第07部分：大后端平台-通用模型",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2543,7 +2551,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第8部分：大后端平台-用户微服务",
+            title: "第08部分：大后端平台-用户微服务",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2556,7 +2564,7 @@ function getBarPeojectIM() {
             ]
         },
         {
-            title: "第9部分：大后端平台-好友微服务",
+            title: "第09部分：大后端平台-好友微服务",
             collapsable: false,
             sidebarDepth: 0,
             children: [
