@@ -194,7 +194,8 @@ module.exports = {
                     },
                     {
                         text: '♻学习路线',
-                        link: '/md/study/concurrent/concurrent_road.md'
+                        link: '/md/study/concurrent/concurrent_road.md',
+                        link: '/md/study/java/java_road.md'
                     },
                     {
                         text: '踩坑经历',
@@ -3283,6 +3284,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/gateway/2024-05-19-start.md",
                 "project/rpc/2022-08-24-rpc.md"
             ]
         },
