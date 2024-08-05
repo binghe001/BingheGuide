@@ -195,7 +195,6 @@ module.exports = {
                     {
                         text: '♻学习路线',
                         link: '/md/study/concurrent/concurrent_road.md',
-                        link: '/md/study/java/java_road.md'
                     },
                     {
                         text: '踩坑经历',
@@ -736,7 +735,8 @@ function getStudyRoadJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "concurrent/concurrent_road.md"
+                "concurrent/concurrent_road.md",
+                "java/java_road.md"
             ]
         }
     ]
