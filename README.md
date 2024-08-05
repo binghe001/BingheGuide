@@ -296,6 +296,7 @@
 * [《高性能Polaris网关》需求设计-第03节：高性能Polaris网关需求与流程梳理](https://t.zsxq.com/W7xj6)
 * [《高性能Polaris网关》需求设计-第04节：高性能Polaris网关技术流程梳理](https://t.zsxq.com/h0FqY)
 * [《高性能Polaris网关》总体架构-第01节：高性能Polaris网关总体方案目标与架构设计](https://t.zsxq.com/m06Cx)
+* [《高性能Polaris网关》总体架构-第02节：高性能Polaris网关数据模型设计](https://articles.zsxq.com/id_g0t63liv0bsj.html)
 
 ### 💥 分布式IM即时通讯系统
 

@@ -1583,6 +1583,7 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "archit/2024-07-20-chapter01.md",
+                "archit/2024-08-03-chapter02.md",
             ]
         }
     ]
