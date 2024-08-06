@@ -1586,6 +1586,14 @@ function getBarGateway(){
                 "archit/2024-07-20-chapter01.md",
                 "archit/2024-08-03-chapter02.md",
             ]
+        },
+        {
+            title: "第03部分：环境搭建",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "env/2024-08-06-chapter01.md",
+            ]
         }
     ]
 }
