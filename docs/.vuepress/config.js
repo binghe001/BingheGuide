@@ -1593,6 +1593,7 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "env/2024-08-06-chapter01.md",
+                "env/2024-08-07-chapter02.md",
             ]
         }
     ]
