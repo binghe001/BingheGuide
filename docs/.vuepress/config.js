@@ -1594,6 +1594,7 @@ function getBarGateway(){
             children: [
                 "env/2024-08-06-chapter01.md",
                 "env/2024-08-07-chapter02.md",
+                "env/2024-08-26-chapter03.md",
             ]
         }
     ]

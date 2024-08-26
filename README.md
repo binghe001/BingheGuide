@@ -299,6 +299,7 @@
 * [《高性能Polaris网关》总体架构-第02节：高性能Polaris网关数据模型设计](https://t.zsxq.com/JfWk5)
 * [《高性能Polaris网关》环境搭建-第01节：高性能Polaris网关研发环境搭建](https://t.zsxq.com/n6Kt5)
 * [《高性能Polaris网关》环境搭建-第02节：高性能Polaris网关项目工程搭建](https://t.zsxq.com/adYCS)
+* [《高性能Polaris网关》环境搭建-第03节：高性能Polaris网关Maven私服搭建](https://articles.zsxq.com/id_3eghcw8tr2sc.html)
 
 ### 💥 分布式IM即时通讯系统
 
