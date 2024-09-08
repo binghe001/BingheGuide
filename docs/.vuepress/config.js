@@ -1596,6 +1596,14 @@ function getBarGateway(){
                 "env/2024-08-07-chapter02.md",
                 "env/2024-08-26-chapter03.md",
             ]
+        },
+        {
+            title: "第04部分：通用模型设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "model/2024-09-08-chapter01.md",
+            ]
         }
     ]
 }
