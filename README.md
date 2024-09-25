@@ -306,6 +306,7 @@
 * [《高性能Polaris网关》通用模型-第04节：调用链路顶层接口与抽象类设计](https://articles.zsxq.com/id_tfnwsj54urvg.html)
 * [《高性能Polaris网关》通用模型-第05节：调用链路顶层接口的实现类设计](https://articles.zsxq.com/id_s6ddb045x0uk.html)
 * [《高性能Polaris网关》通用模型-第06节：网关配置规则模型实现类设计](https://articles.zsxq.com/id_fnpiq7jtk9oj.html)
+* [《高性能Polaris网关》通用模型-第07节：服务定义与实例模型实现类设计](https://articles.zsxq.com/id_pj75f0kbekoi.html)
 
 ### 💥 分布式IM即时通讯系统
 

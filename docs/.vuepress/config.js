@@ -431,7 +431,7 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '手写高性能Polaris网关',
+                                        text: '手写高性能Polaris网关（新）',
                                         link: '/md/project/gateway/start/2024-05-19-start.md'
                                     },
                                     {
@@ -1608,6 +1608,7 @@ function getBarGateway(){
                 "model/2024-09-22-chapter04.md",
                 "model/2024-09-23-chapter05.md",
                 "model/2024-09-24-chapter06.md",
+                "model/2024-09-25-chapter07.md",
             ]
         }
     ]
