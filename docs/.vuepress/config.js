@@ -1611,6 +1611,7 @@ function getBarGateway(){
                 "model/2024-09-25-chapter07.md",
                 "model/2024-09-28-chapter08.md",
                 "model/2024-09-29-chapter09.md",
+                "model/2024-09-30-chapter10.md",
             ]
         }
     ]
