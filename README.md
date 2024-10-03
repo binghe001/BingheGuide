@@ -311,6 +311,7 @@
 * [《高性能Polaris网关》通用模型-第09节：网关上下文属性顶层接口与抽象类设计](https://articles.zsxq.com/id_uagjqbe799kd.html)
 * [《高性能Polaris网关》通用模型-第10节：网关上下文属性工厂与实现类设计](https://articles.zsxq.com/id_nfsida8av2j0.html)
 * [《高性能Polaris网关》通用模型-第11节：网关上下文顶层抽象接口设计](https://articles.zsxq.com/id_v4vqh4p5pleo.html)
+* [《高性能Polaris网关》通用模型-第12节：网关上下文顶层抽象类设计](https://articles.zsxq.com/id_k7krp1hm5esd.html)
 
 ### 💥 分布式IM即时通讯系统
 
