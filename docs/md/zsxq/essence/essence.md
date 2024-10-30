@@ -16,10 +16,59 @@ title: 归档：部分精华内容
 
 ## 二、重要内容
 
+* [又一个可直接用于实际项目的高性能通用熔断组件项目完结！](https://articles.zsxq.com/id_zuv6si9ztzb2.html)
+* [致星球刚入行不久的小伙伴们：快速入门Java学习路线](https://articles.zsxq.com/id_rgwsps382zdr.html)
+* [几种数据查询深分页的简单优化方案](https://articles.zsxq.com/id_zh6ama9u73ek.html)
+* [重要：金丝雀（灰度）核心发布流程与系统兼容要点](https://articles.zsxq.com/id_uacagaol20mt.html)
 * [【重要】快速了解星球，开启学习之路！](https://t.zsxq.com/15CbM55H6)
 * [Java面试考点与学习路线](https://t.zsxq.com/16ofyS9S6)
+* [又一个可直接用于实际项目的高性能通用熔断组件项目完结！](https://articles.zsxq.com/id_zuv6si9ztzb2.html)
+* [《架构师进阶系列》开篇：架构师与高级开发工程师的分水岭是啥？](https://articles.zsxq.com/id_x6bxn5584ato.html)
+* [《架构师进阶系列》前言：要想成为架构师需要掌握哪些硬核技能？](https://articles.zsxq.com/id_9vk3mg7zwkq1.html)
+* [《架构师进阶系列》性能调优-第01章：程序员进阶架构师必看的面试重灾区：JVM整体架构、内存模型与调优实战](https://articles.zsxq.com/id_njvsnik82awc.html)
+* [《架构师进阶系列》性能调优-第02章：程序员进阶架构师必看的面试重灾区：逃逸分析](https://articles.zsxq.com/id_emw19d9p10u1.html)
+* [架构师为什么要写文档？又该如何写文档呢？](https://articles.zsxq.com/id_zs0pbosfg02p.html)
+* [为什么互联网巨头们纷纷使用Git而放弃SVN？](https://articles.zsxq.com/id_u26k9nrwmird.html)
+* [从零到千万用户，如何一步步优化MySQL？](https://articles.zsxq.com/id_8jx3icjq819w.html)
+* [到底是先更新数据库还是先更新缓存？](https://articles.zsxq.com/id_rqkpl5gfocwj.html)
+* [基于Redis如何统计千万级别用户的日活和月活数据？](https://articles.zsxq.com/id_1ebwjll5wavu.html)
+* [缓存设计核心原则](https://t.zsxq.com/LSAkv)
+* [分布式环境下如何保证数据库和缓存的双写一致性？](https://articles.zsxq.com/id_jwsf250wnf24.html)
+* [高性能压测数据自动生成组件](https://t.zsxq.com/viXCl)
+* [Redis持久化机制](https://t.zsxq.com/sm30o)
+* [Redis的过期策略以及内存淘汰机制](https://articles.zsxq.com/id_pfct3jrwq81r.html)
+* [缓存与数据库的双写一致性问题](https://articles.zsxq.com/id_i7nex7w7k7bp.html)
+* [Redis缓存的常用设计模式](https://articles.zsxq.com/id_56oq8916rm1i.html)
+* [常见的分布式中间件概述](https://articles.zsxq.com/id_1jhm1d43suzu.html)
+* [数据异构最佳实践（含完整代码实现）](https://articles.zsxq.com/id_f4m0pa051gfh.html)
+* [如何设计一个支撑高并发大流量的系统的思路](https://articles.zsxq.com/id_nwldv7ahcltr.html)
+* [高并发场景下如何设置线程数量](https://articles.zsxq.com/id_pc8whrursb11.html)
+* [如何更加高效的阅读和学习开源框架源码（精华提纲篇）](https://articles.zsxq.com/id_4m9pw5f09ghf.html)
+* [一文扫尽HTTP请求头内容](https://articles.zsxq.com/id_gkdhifbdrw45.html)
+* [如何实现亿级流量下的分布式限流？这些理论需要你掌握](https://articles.zsxq.com/id_takril80ugak.html)
+* [如何实现亿级流量下的分布式限流？这些算法你必须掌握](https://articles.zsxq.com/id_kwzgdt81b4wk.html)
 
-## 三、问答精华
+## 三、JVM核心技术
+
+* [Java应用生产故障排查（内存CPU飙升、线程死锁）](https://articles.zsxq.com/id_iiiriva03p6g.html)
+* [深入Hotspot源码与Linux内核理解NIO与Epoll](https://articles.zsxq.com/id_i46sw9por506.html)
+* [面向GC的Java编程！](https://articles.zsxq.com/id_xz1vs4g0snah.html)
+* [JVM基础 | JVM调优的几种场景](https://articles.zsxq.com/id_kr2uglc07jjw.html)
+* [JVM基础 | 类的编译、编译优化、常量这地、泛型擦除、条件编译](https://articles.zsxq.com/id_fuoiff1osxp8.html)
+* [JVM基础 | 类的加载过程](https://articles.zsxq.com/id_xx0j2erjbhf8.html)
+* [JVM 基础 | 类字节码解析](https://articles.zsxq.com/id_wffiire1lwab.html)
+* [JVM基础 | JVM空间](https://articles.zsxq.com/id_6li2sf5552qg.html)
+* [JVM基础 | JVM堆内存分配机制](https://articles.zsxq.com/id_l7igfkjt71wg.html)
+* [JVM基础 | JVM垃圾回收机制](https://articles.zsxq.com/id_bfchcfwz8iux.html)
+* [JVM基础 | JVM垃圾回收算法](https://articles.zsxq.com/id_mvnsww21dde1.html)
+* [JVM基础 | CMS垃圾收集器](https://articles.zsxq.com/id_j1cpwd64tgwd.html)
+* [JVM基础 | G1垃圾收集器](https://articles.zsxq.com/id_wxjewxs5lo56.html)
+* [JVM基础 | 内存布局](https://articles.zsxq.com/id_rxr2j8x7cww2.html)
+* [JVM基础 | 垃圾回收算法总结](https://articles.zsxq.com/id_4jq16823i141.html)
+* [JVM基础 | 各种参数配置](https://articles.zsxq.com/id_e5i3665xlfi6.html)
+* [JVM基础 | 4大JVM性能分析工具详解，及内存泄漏分析方案](https://articles.zsxq.com/id_53l93zs2inzx.html)
+
+## 四、问答精华
 
 * [自己手写了一个简单MQ，面试的时候会被一般会问啥？](https://t.zsxq.com/15CDFbOah)
 * [系统对接公司的统一认证，有什么方法能让所有请求先走我们自己的拦截器后走统一认证的过滤器吗？](https://t.zsxq.com/15Sp3qSbt)
@@ -55,7 +104,7 @@ title: 归档：部分精华内容
 * [各位大佬好，最近接到一个需求，需要实现一套标准的打印机小票模板的解析和各厂商模板标签的适配](https://t.zsxq.com/15s3AyzHx)
 * [想请教冰河老师一个问题，在众多的技术中，除了工作需要之外，选择一个具体的技术花大量时间(比如5年)来不断深入学习是否可取？](https://t.zsxq.com/15IQRI0Sy)
 
-## 四、学习总结
+## 五、学习总结
 
 * [需要在10亿用户中通过用户名查找某个用户是否存在，该如何设计](https://t.zsxq.com/15zpZ6Fgz)
 * [经常用缓存，那么你是如何确定缓存的过期时间呢？](https://t.zsxq.com/15do9ouOI)
@@ -96,7 +145,7 @@ title: 归档：部分精华内容
 * [今日分享:我们为什么需要osi七层模型？](https://t.zsxq.com/16dUnO6pu)
 * [线程的各种状态](https://t.zsxq.com/16X4ruwDs)
 
-## 五、面试面经
+## 六、面试面经
 
 * [面试场景：RocketMQ消息消费问题](https://t.zsxq.com/15w3R4sIC)
 * [星球读者反馈面试真题](https://t.zsxq.com/15bE7NX8m)
@@ -178,7 +227,7 @@ title: 归档：部分精华内容
 * [打卡第四十四天：说说Java集合的快速失败(fail-fast）机制？](https://t.zsxq.com/154ZeXx91)
 * [打卡第四十五天：怎么确保一个集合不能被修改？](https://t.zsxq.com/15CbWjp4S)
 
-## 六、职场经验
+## 七、职场经验
 
 * [我是一名双非大四的学生，刚学完黑马程序员的springcloud，做了一个学堂微服务项目。秋招找java处处碰壁，现在面对这么多不知道的知识对未来很迷茫。请问我这种情况后续学习路线应该怎么规划，哪些是重点。主要是为了应届找工作，目标是中厂。](https://t.zsxq.com/15eFQVhLN)
 * [很多人工作很长时间了，却不知道如何更好的设计和优化MySQL数据库](https://t.zsxq.com/15qmiAwUh)
@@ -187,6 +236,6 @@ title: 归档：部分精华内容
 * [前面面试还好，没想到却因为没有高并发实战项目挂了](https://t.zsxq.com/156gH0qmH)
 
 
-## 七、简历
+## 八、简历
 
 * [星球专属：给大家分享1000套精美的简历模板，希望为大家的跳槽加薪带来帮助。](https://t.zsxq.com/150wNNbz9)
