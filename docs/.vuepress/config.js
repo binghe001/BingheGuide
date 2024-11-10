@@ -1616,6 +1616,14 @@ function getBarGateway(){
                 "model/2024-10-03-chapter12.md",
                 "model/2024-10-06-chapter13.md",
             ]
+        },
+        {
+            title: "第05部分：通用过滤器设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "filter/2024-11-05-chapter01.md",
+            ]
         }
     ]
 }

@@ -313,6 +313,7 @@
 * [《高性能Polaris网关》通用模型-第11节：网关上下文顶层抽象接口设计](https://articles.zsxq.com/id_v4vqh4p5pleo.html)
 * [《高性能Polaris网关》通用模型-第12节：网关上下文顶层抽象类设计](https://articles.zsxq.com/id_k7krp1hm5esd.html)
 * [《高性能Polaris网关》通用模型-第13节：网关上下文核心实现类设计](https://articles.zsxq.com/id_mbbwvvpzjpqj.html)
+* [《高性能Polaris网关》通用过滤器-第01节：网关顶级核心过滤器接口设计](https://articles.zsxq.com/id_t5d8u7dl99aw.html)
 
 ### 💥 分布式IM即时通讯系统
 
