@@ -1154,7 +1154,6 @@ title: 冰河指南
 
 ### 字节码编程
 
-* [硬核 | 基于ASM实现Java类与接口的动态代理](硬核 | 基于ASM实现Java类与接口的动态代理)
 * [字节码编程|使用Javassist生成JavaBean](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498302&idx=1&sn=41b853ab5a43befaede06931e14369b1&chksm=cf564d3ff821c42982ea40ae98f3f2f09c520ff38103154e9f2c7d056654393177b7247eeac3&token=2138570566&lang=zh_CN#rd)
 * [字节码编程|工作多年的你是否接触过这种技术？](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498023&idx=1&sn=fc208f8ac5423f96e5a8f49589f8f4b4&chksm=cf564e26f821c730b2bab402d24852ca64dc721732031b0f8656f339c91266823951dfc46d53&token=2138570566&lang=zh_CN#rd)
 * [字节码编程|使用Javassist动态生成Hello World](https://mp.weixin.qq.com/s?__biz=Mzg4MjU0OTM1OA==&mid=2247498262&idx=1&sn=8a72a0d60817fd40eda57f7f47f146ee&chksm=cf564d17f821c401a2c19944091044c318104cb684c439fdf66f26128307e127325656b73359&token=2138570566&lang=zh_CN#rd)
