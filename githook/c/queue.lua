@@ -1,7 +1,7 @@
 local ffi = require("ffi")
-local C = ffi.C
+local C = ffi.load("./lua_queue") -- 加载编译后的C模块
 
--- 定义 C 结构体
+-- 定义C结构体
 ffi.cdef[[
     typedef struct {
         void** data;
@@ -19,40 +19,47 @@ ffi.cdef[[
     size_t lua_queue_length(lua_queue_t* queue);
 ]]
 
--- 定义队列类
+-- 创建Lua队列类
 local Queue = {}
 Queue.__index = Queue
 
-function Queue.new(initial_size)
-    local self = setmetatable({}, Queue)
-    self.queue = C.lua_queue_new(initial_size)
-    return self
-end
-
-function Queue:__gc()
-    if self.queue ~= nil then
-        C.lua_queue_destroy(self.queue)
-        self.queue = nil
+function Queue:new(initial_size)
+    local queue = C.lua_queue_new(initial_size)
+    if not queue then
+        error("Failed to create queue")
     end
+    return setmetatable({ handle = queue }, Queue)
 end
 
 function Queue:enqueue(value)
-    local result = C.lua_queue_enqueue(self.queue, value)
-    return result == 0
+    local result = C.lua_queue_enqueue(self.handle, value)
+    if result ~= 0 then
+        error("Failed to enqueue element")
+    end
 end
 
 function Queue:dequeue()
-    local value = C.lua_queue_dequeue(self.queue)
-    return value ~= nil and value or nil
+    local value = C.lua_queue_dequeue(self.handle)
+    if not value then
+        error("Queue is empty")
+    end
+    return value
 end
 
 function Queue:peek()
-    local value = C.lua_queue_peek(self.queue)
-    return value ~= nil and value or nil
+    local value = C.lua_queue_peek(self.handle)
+    if not value then
+        error("Queue is empty")
+    end
+    return value
 end
 
 function Queue:length()
-    return C.lua_queue_length(self.queue)
+    return C.lua_queue_length(self.handle)
+end
+
+function Queue:destroy()
+    C.lua_queue_destroy(self.handle)
 end
 
 return Queue
