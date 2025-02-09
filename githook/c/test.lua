@@ -1,51 +1,25 @@
--- logger.lua
+-- main.lua
 
-local logger = {}
+local logger = require("logger")
 
--- 日志记录器metatable
-local logger_metatable = {
-    __gc = function(self)
-        local logger_ptr = self.__ptr
-        -- 销毁日志记录器
-        destroy_logger(logger_ptr)
-    end,
+-- 配置表
+local config = {
+    max_task_queue_size = 2000,
+    max_workers = 10,
+    buffer_size = 8192,
+    write_interval = 1000000,
+    retry_times = 3,
+    retry_delay = 200,
+    max_memory_pool_blocks = 200,
+    max_reconnect_attempts = 3,
+    reconnect_delay = 2000000,
 }
 
--- 创建新的日志记录器实例
-function logger.new(config)
-    local L = luaL_newstate()
-    luaL_openlibs(L)
+-- 创建日志记录器实例
+local log = logger.new(config)
 
-    -- 将配置表压入栈顶
-    lua_pushvalue(L, config)
+-- 记录日志
+log:record("Test message")
 
-    -- 调用luaopen_logger函数
-    local status, result = pcall(luaopen_logger, L)
-
-    if not status then
-        error("Failed to initialize logger: " .. result)
-    end
-
-    -- 检查结果是否为userdata
-    if type(result) ~= 'userdata' then
-        error("Logger initialization failed")
-    end
-
-    -- 设置metatable
-    setmetatable(result, logger_metatable)
-
-    return result
-end
-
--- 记录日志方法
-function logger:record(message)
-    local logger_ptr = self.__ptr
-    -- 在这里实现具体的日志记录逻辑
-end
-
--- 销毁日志记录器方法
-function logger:destroy()
-    local logger_ptr = self.__ptr
-end
-
-return logger
+-- 销毁日志记录器
+log:destroy()
