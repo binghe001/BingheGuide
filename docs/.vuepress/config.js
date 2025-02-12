@@ -1623,6 +1623,7 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "filter/2024-11-05-chapter01.md",
+                "filter/2025-02-13-chapter02.md",
             ]
         }
     ]
