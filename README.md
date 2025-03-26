@@ -317,6 +317,8 @@
 * [《高性能Polaris网关》通用过滤器-第02节：网关请求与响应核心工厂类的设计与实现](https://articles.zsxq.com/id_nppjhcfd88wv.html)
 * [《高性能Polaris网关》通用过滤器-第03节：网关过滤器两大顶级抽象类设计与实现](https://articles.zsxq.com/id_xrw79n74vb42.html)
 * [《高性能Polaris网关》通用过滤器-第04节：网关通用抽象过滤器链的设计与实现](https://articles.zsxq.com/id_cqufltj58mvt.html)
+* [《高性能Polaris网关》通用过滤器-第05节：网关过滤器通用工厂类的设计与实现](https://articles.zsxq.com/id_owrskdqr379x.html)
+* [《高性能Polaris网关》通用过滤器-第06节：网关过滤器适配自定义SPI提高扩展性](https://articles.zsxq.com/id_zh7lrvmho1cg.html)
 
 ### 💥 分布式IM即时通讯系统
 
