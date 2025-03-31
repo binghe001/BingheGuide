@@ -970,6 +970,18 @@
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
 
+#### 💥 深入理解JVM系列
+
+* [《深入理解JVM系列》第01章：JVM调优的几种场景](https://mp.weixin.qq.com/s/VAvqirv2c22viJNZ92WiNg)
+* [《深入理解JVM系列》第02章：类的编译、编译优化、常量这地、泛型擦除、条件编译](https://mp.weixin.qq.com/s/lUrN30-RDOlo4XAuK-G4gw)
+* [《深入理解JVM系列》第03章：类的加载过程](https://mp.weixin.qq.com/s/s_wMRPMxLE1QaCsHgfMCdw)
+* [《深入理解JVM系列》第04章：JVM内存空间](https://mp.weixin.qq.com/s/VhWmnxPw7ASlhwlzFES9ag)
+* [《深入理解JVM系列》第05章：JVM堆内存分配机制](https://mp.weixin.qq.com/s/AU-FoClRTyly5ZnGY91B7A)
+* [《深入理解JVM系列》第06章：JVM垃圾回收机制](https://mp.weixin.qq.com/s/ES5XAY08MZTBGNmwDpgxGA)
+* [《深入理解JVM系列》第07章：JVM垃圾回收算法](https://mp.weixin.qq.com/s/00ouyNFkEbGLBw-c2IdkwQ)
+* [《深入理解JVM系列》第08章：CMS垃圾收集器](https://mp.weixin.qq.com/s/SDzevG_Ovd6lxkdSndcoVw)
+* [《深入理解JVM系列》第09章：G1垃圾收集器](https://mp.weixin.qq.com/s/ioznCH_iWaCxos8pv1Fsxw)
+* [《深入理解JVM系列》第10章：JVM 内存布局](https://mp.weixin.qq.com/s/Y1MW20Qm1wqx2oVoT5tPDw)
 
 ### 💥 精通高并发系列
 
