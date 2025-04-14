@@ -319,6 +319,11 @@
 * [《高性能Polaris网关》通用过滤器-第04节：网关通用抽象过滤器链的设计与实现](https://articles.zsxq.com/id_cqufltj58mvt.html)
 * [《高性能Polaris网关》通用过滤器-第05节：网关过滤器通用工厂类的设计与实现](https://articles.zsxq.com/id_owrskdqr379x.html)
 * [《高性能Polaris网关》通用过滤器-第06节：网关过滤器适配自定义SPI提高扩展性](https://articles.zsxq.com/id_zh7lrvmho1cg.html)
+* [《高性能Polaris网关》通用过滤器-第07节：基于自定义SPI实现负载均衡过滤器](https://articles.zsxq.com/id_a49hjlvtv0hn.html)
+* [《高性能Polaris网关》通用过滤器-第08节：基于自定义SPI实现超时配置过滤器](https://articles.zsxq.com/id_retnzqxlnum7.html)
+* [《高性能Polaris网关》通用过滤器-第09节：基于自定义SPI实现HTTP过滤器](https://articles.zsxq.com/id_o2561f8e6w0z.html)
+* [《高性能Polaris网关》通用过滤器-第10节：基于自定义SPI实现RPC过滤器](https://articles.zsxq.com/id_5s4qcawrn2sg.html)
+* [《高性能Polaris网关》通用过滤器-第11节：基于自定义SPI实现指标分析过滤器](https://articles.zsxq.com/id_4qcznsndn1wx.html)
 
 ### 💥 分布式IM即时通讯系统
 

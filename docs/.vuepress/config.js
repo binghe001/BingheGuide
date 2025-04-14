@@ -1628,6 +1628,11 @@ function getBarGateway(){
                 "filter/2025-03-17-chapter04.md",
                 "filter/2025-03-25-chapter05.md",
                 "filter/2025-03-26-chapter06.md",
+                "filter/2025-04-04-chapter07.md",
+                "filter/2025-04-08-chapter08.md",
+                "filter/2025-04-10-chapter09.md",
+                "filter/2025-04-12-chapter10.md",
+                "filter/2025-04-14-chapter11.md",
             ]
         }
     ]
