@@ -324,6 +324,9 @@
 * [《高性能Polaris网关》通用过滤器-第09节：基于自定义SPI实现HTTP过滤器](https://articles.zsxq.com/id_o2561f8e6w0z.html)
 * [《高性能Polaris网关》通用过滤器-第10节：基于自定义SPI实现RPC过滤器](https://articles.zsxq.com/id_5s4qcawrn2sg.html)
 * [《高性能Polaris网关》通用过滤器-第11节：基于自定义SPI实现指标分析过滤器](https://articles.zsxq.com/id_4qcznsndn1wx.html)
+* [《高性能Polaris网关》通用过滤器-第12节：基于自定义SPI实现Mock过滤器](https://articles.zsxq.com/id_ut7c9dadbpbl.html)
+* [《高性能Polaris网关》通用过滤器-第13节：基于自定义SPI实现灰度过滤器](https://articles.zsxq.com/id_qhlmgwfdmww1.html)
+* [《高性能Polaris网关》通用过滤器-第14节：基于自定义SPI实现错误处理过滤器](https://articles.zsxq.com/id_ro1x3cj4t52d.html)
 
 ### 💥 分布式IM即时通讯系统
 
