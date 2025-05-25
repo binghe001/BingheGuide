@@ -3299,7 +3299,8 @@ function getBarCoreJVM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2025-05-25-chapter001.md"
+                "2025-05-25-chapter001.md",
+                "2025-05-25-chapter002.md",
             ]
         }
     ]
