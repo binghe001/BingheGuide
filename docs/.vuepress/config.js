@@ -3301,6 +3301,8 @@ function getBarCoreJVM() {
             children: [
                 "2025-05-25-chapter001.md",
                 "2025-05-25-chapter002.md",
+                "2025-05-25-chapter003.md",
+                "2025-05-25-chapter004.md",
             ]
         }
     ]
