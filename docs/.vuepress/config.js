@@ -236,7 +236,7 @@ module.exports = {
                                     },
                                     {
                                         text: 'JVM调优技术',
-                                        link: '/md/core/jvm/2022-04-18-001-JVM调优的几种场景.md'
+                                        link: '/md/core/jvm/2025-05-18-chapter00.md'
                                     }
                                 ]
                             },
@@ -3292,6 +3292,14 @@ function getBarCoreJVM() {
                 "2022-04-18-009-JVM -G1收集器-Region-停顿时间模型-垃圾回收.md",
                 "2022-04-18-010-JVM内存布局.md",
                 "2023-09-07-JVM各种参数配置.md"
+            ]
+        },
+        {
+            title: "JVM生产实践",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2025-05-25-chapter001.md"
             ]
         }
     ]
