@@ -980,6 +980,7 @@
 
 #### 💥 深入理解JVM系列
 
+* [冰河的第一本深入理解JVM书籍免费送](https://mp.weixin.qq.com/s/XUu3V-ixzHQ1U9FCcnwe7A)
 * [《深入理解JVM系列》第01章：JVM调优的几种场景](https://mp.weixin.qq.com/s/VAvqirv2c22viJNZ92WiNg)
 * [《深入理解JVM系列》第02章：类的编译、编译优化、常量这地、泛型擦除、条件编译](https://mp.weixin.qq.com/s/lUrN30-RDOlo4XAuK-G4gw)
 * [《深入理解JVM系列》第03章：类的加载过程](https://mp.weixin.qq.com/s/s_wMRPMxLE1QaCsHgfMCdw)

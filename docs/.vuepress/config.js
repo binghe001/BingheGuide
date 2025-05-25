@@ -3280,6 +3280,7 @@ function getBarCoreJVM() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2025-05-18-chapter00.md",
                 "2022-04-18-001-JVM调优的几种场景.md",
                 "2022-04-18-002-类的编译.md",
                 "2022-04-18-003-类的加载过程.md",
