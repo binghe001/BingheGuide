@@ -327,6 +327,11 @@
 * [《高性能Polaris网关》通用过滤器-第12节：基于自定义SPI实现Mock过滤器](https://articles.zsxq.com/id_ut7c9dadbpbl.html)
 * [《高性能Polaris网关》通用过滤器-第13节：基于自定义SPI实现灰度过滤器](https://articles.zsxq.com/id_qhlmgwfdmww1.html)
 * [《高性能Polaris网关》通用过滤器-第14节：基于自定义SPI实现错误处理过滤器](https://articles.zsxq.com/id_ro1x3cj4t52d.html)
+* [《高性能Polaris网关》通用执行器-第01节：通用核心执行器的设计与实现](https://articles.zsxq.com/id_zoepir955r3u.html)
+* [《高性能Polaris网关》通用处理器-第02节：基于disruptor设计BatchEvent缓冲队列Holder](https://articles.zsxq.com/id_0boi1kkl6v3m.html)
+* [《高性能Polaris网关》通用处理器-第03节：基于disruptor设计和实现BatchEvent模式的缓冲队列](https://articles.zsxq.com/id_o28xosigjaov.html)
+* [《高性能Polaris网关》通用处理器-第04节：MPMC缓冲队列Condition接口ThreadWait类的设计实现](https://articles.zsxq.com/id_55kbhhr1dq09.html)
+* [《高性能Polaris网关》通用处理器-第05节：MPMC模式缓冲队列自定义抽象Condition类的设计和实现](https://articles.zsxq.com/id_h10egrx4czr5.html)
 
 ### 💥 分布式IM即时通讯系统
 
@@ -978,7 +983,14 @@
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
 
-#### 💥 深入理解JVM系列
+### 性能优化专栏（热更中）
+
+* [《性能优化》专栏开篇：性能优化到底要优化什么？](https://mp.weixin.qq.com/s/XWTs6-1hqTI-8iTAe5ZVgQ)
+* [《性能优化》第01章：性能优化的7大杀手锏！](https://mp.weixin.qq.com/s/Bgw5eWf58-ro89O_ln4CGg)
+* [《性能优化》第02章：深入剖析 CPU、内存与 I/O 瓶颈](https://mp.weixin.qq.com/s/q69kJqWrojtlBXx3ASutfQ)
+* [《性能优化》第03章：分析代码运行过程中的性能](https://mp.weixin.qq.com/s/og6-t7zaLh27knF6Oz7qWg)
+
+### 💥 深入理解JVM系列
 
 * [冰河的第一本深入理解JVM书籍免费送](https://mp.weixin.qq.com/s/XUu3V-ixzHQ1U9FCcnwe7A)
 * [《深入理解JVM系列》第01章：JVM调优的几种场景](https://mp.weixin.qq.com/s/VAvqirv2c22viJNZ92WiNg)

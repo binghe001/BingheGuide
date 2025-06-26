@@ -1637,6 +1637,18 @@ function getBarGateway(){
                 "filter/2025-04-19-chapter13.md",
                 "filter/2025-04-20-chapter14.md",
             ]
+        },
+        {
+            title: "第06部分：通用处理器设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "processor/2025-06-22-chapter01.md",
+                "processor/2025-06-23-chapter02.md",
+                "processor/2025-06-24-chapter03.md",
+                "processor/2025-06-25-chapter04.md",
+                "processor/2025-06-26-chapter05.md",
+            ]
         }
     ]
 }
