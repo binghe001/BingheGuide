@@ -332,6 +332,7 @@
 * [《高性能Polaris网关》通用处理器-第03节：基于disruptor设计和实现BatchEvent模式的缓冲队列](https://articles.zsxq.com/id_o28xosigjaov.html)
 * [《高性能Polaris网关》通用处理器-第04节：MPMC缓冲队列Condition接口ThreadWait类的设计实现](https://articles.zsxq.com/id_55kbhhr1dq09.html)
 * [《高性能Polaris网关》通用处理器-第05节：MPMC模式缓冲队列自定义抽象Condition类的设计和实现](https://articles.zsxq.com/id_h10egrx4czr5.html)
+* [《高性能Polaris网关》通用处理器-第06节：MPMC模式缓冲队列自定义抽象自旋Condition的设计和实现](https://articles.zsxq.com/id_xk4itoae34ui.html)
 
 ### 💥 分布式IM即时通讯系统
 
