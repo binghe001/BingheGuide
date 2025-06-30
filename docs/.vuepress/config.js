@@ -1651,6 +1651,7 @@ function getBarGateway(){
                 "processor/2025-06-28-chapter06.md",
                 "processor/2025-06-29-chapter07.md",
                 "processor/2025-06-30-chapter08.md",
+                "processor/2025-06-30-chapter09.md",
             ]
         }
     ]

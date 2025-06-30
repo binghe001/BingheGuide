@@ -335,6 +335,7 @@
 * [《高性能Polaris网关》通用处理器-第06节：MPMC模式缓冲队列自定义抽象自旋Condition的设计和实现](https://articles.zsxq.com/id_xk4itoae34ui.html)
 * [《高性能Polaris网关》通用处理器-第07节：MPMC模式缓冲队列自定义抽象等待Condition的设计和实现](https://articles.zsxq.com/id_3dgtdkhvkmhs.html)
 * [《高性能Polaris网关》通用处理器-第08节：MPMC模式缓冲队列自定义AtomicLong的设计和实现](https://articles.zsxq.com/id_j5q3irwli7dt.html)
+* [《高性能Polaris网关》通用处理器-第09节：MPMC模式缓冲队列自定义队列容量的设计和实现](https://articles.zsxq.com/id_lawwp7gtsjkv.html)
 
 ### 💥 分布式IM即时通讯系统
 
