@@ -340,6 +340,7 @@
 * [《高性能Polaris网关》通用处理器-第11节：MPMC模式缓冲队列自定义并发环形队列的设计和实现](https://articles.zsxq.com/id_5bq4i7pnrswr.html)
 * [《高性能Polaris网关》通用处理器-第12节：MPMC模式缓冲队列自定义并发阻塞队列的设计和实现](https://articles.zsxq.com/id_3oara38w4pkd.html)
 * [《高性能Polaris网关》通用处理器-第13节：基于自定义SPI扩展实现BatchEvent模式处理器](https://articles.zsxq.com/id_h3dmdht419dw.html)
+* [《高性能Polaris网关》通用处理器-第14节：基于自定义SPI扩展实现MPMC模式处理器](https://articles.zsxq.com/id_xeid0vbikfpd.html)
 
 ### 💥 分布式IM即时通讯系统
 
