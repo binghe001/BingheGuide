@@ -341,6 +341,11 @@
 * [《高性能Polaris网关》通用处理器-第12节：MPMC模式缓冲队列自定义并发阻塞队列的设计和实现](https://articles.zsxq.com/id_3oara38w4pkd.html)
 * [《高性能Polaris网关》通用处理器-第13节：基于自定义SPI扩展实现BatchEvent模式处理器](https://articles.zsxq.com/id_h3dmdht419dw.html)
 * [《高性能Polaris网关》通用处理器-第14节：基于自定义SPI扩展实现MPMC模式处理器](https://articles.zsxq.com/id_xeid0vbikfpd.html)
+* [《高性能Polaris网关》HTTP处理器-第01节：HTTP处理器核心接口的设计与实现](https://articles.zsxq.com/id_2lje01vcukcs.html)
+* [《高性能Polaris网关》HTTP处理器-第02节：服务端核心处理器的设计与实现](https://articles.zsxq.com/id_ieammqjffxwl.html)
+* [《高性能Polaris网关》HTTP处理器-第03节：服务端连接管理器的设计与实现](https://articles.zsxq.com/id_l7t808ed7v23.html)
+* [《高性能Polaris网关》HTTP处理器-第04节：基于Netty的服务端整体设计与实现](https://articles.zsxq.com/id_opt5d47qxx81.html)
+* [《高性能Polaris网关》HTTP处理器-第05节：基于Netty的服务端整体设计与实现](https://articles.zsxq.com/id_krsknoul51r4.html)
 
 ### 💥 分布式IM即时通讯系统
 

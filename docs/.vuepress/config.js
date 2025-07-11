@@ -1658,6 +1658,18 @@ function getBarGateway(){
                 "processor/2025-07-07-chapter13.md",
                 "processor/2025-07-08-chapter14.md",
             ]
+        },
+        {
+            title: "第07部分：HTTP处理器设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "http/2025-07-10-chapter01.md",
+                "http/2025-07-11-chapter02.md",
+                "http/2025-07-12-chapter03.md",
+                "http/2025-07-13-chapter04.md",
+                "http/2025-07-14-chapter05.md",
+            ]
         }
     ]
 }
