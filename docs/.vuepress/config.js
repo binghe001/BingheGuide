@@ -1670,6 +1670,15 @@ function getBarGateway(){
                 "http/2025-07-13-chapter04.md",
                 "http/2025-07-14-chapter05.md",
             ]
+        },
+        {
+            title: "第08部分：核心启动流程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "core/2025-07-15-chapter01.md",
+                "core/2025-07-16-chapter02.md",
+            ]
         }
     ]
 }

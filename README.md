@@ -345,7 +345,9 @@
 * [《高性能Polaris网关》HTTP处理器-第02节：服务端核心处理器的设计与实现](https://articles.zsxq.com/id_ieammqjffxwl.html)
 * [《高性能Polaris网关》HTTP处理器-第03节：服务端连接管理器的设计与实现](https://articles.zsxq.com/id_l7t808ed7v23.html)
 * [《高性能Polaris网关》HTTP处理器-第04节：基于Netty的服务端整体设计与实现](https://articles.zsxq.com/id_opt5d47qxx81.html)
-* [《高性能Polaris网关》HTTP处理器-第05节：基于Netty的服务端整体设计与实现](https://articles.zsxq.com/id_krsknoul51r4.html)
+* [《高性能Polaris网关》HTTP处理器-第05节：基于Netty的客户端整体设计与实现](https://articles.zsxq.com/id_krsknoul51r4.html)
+* [《高性能Polaris网关》核心启动器-第01节：核心启动容器类的设计与实现](https://articles.zsxq.com/id_x7o883748q19.html)
+* [《高性能Polaris网关》核心启动器-第02节：核心启动加载流程的设计与实现](https://articles.zsxq.com/id_d462w11c6ww0.html)
 
 ### 💥 分布式IM即时通讯系统
 
