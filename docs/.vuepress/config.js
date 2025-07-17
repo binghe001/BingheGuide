@@ -1679,6 +1679,22 @@ function getBarGateway(){
                 "core/2025-07-15-chapter01.md",
                 "core/2025-07-16-chapter02.md",
             ]
+        },
+        {
+            title: "第08部分：牛刀小试",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "test/2025-07-17-chapter01.md",
+            ]
+        },
+        {
+            title: "第09部分：注册中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "registry/2025-07-18-chapter-01.md",
+            ]
         }
     ]
 }

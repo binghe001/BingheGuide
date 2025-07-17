@@ -348,6 +348,8 @@
 * [《高性能Polaris网关》HTTP处理器-第05节：基于Netty的客户端整体设计与实现](https://articles.zsxq.com/id_krsknoul51r4.html)
 * [《高性能Polaris网关》核心启动器-第01节：核心启动容器类的设计与实现](https://articles.zsxq.com/id_x7o883748q19.html)
 * [《高性能Polaris网关》核心启动器-第02节：核心启动加载流程的设计与实现](https://articles.zsxq.com/id_d462w11c6ww0.html)
+* [《高性能Polaris网关》牛刀小试-第01节：实战通过高性能Polaris网关访问后端服务](https://articles.zsxq.com/id_44q81o96v56b.html)
+* [《高性能Polaris网关》注册中心-第01节：注册中心通用SPI接口的设计与定义](https://articles.zsxq.com/id_flk9adu4bi4q.html)
 
 ### 💥 分布式IM即时通讯系统
 
