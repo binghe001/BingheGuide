@@ -1693,7 +1693,8 @@ function getBarGateway(){
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "registry/2025-07-18-chapter-01.md",
+                "registry/2025-07-18-chapter01.md",
+                "registry/2025-07-19-chapter02.md",
             ]
         }
     ]
