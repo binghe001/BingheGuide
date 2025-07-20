@@ -351,6 +351,9 @@
 * [《高性能Polaris网关》牛刀小试-第01节：实战通过高性能Polaris网关访问后端服务](https://articles.zsxq.com/id_44q81o96v56b.html)
 * [《高性能Polaris网关》注册中心-第01节：注册中心通用SPI接口的设计与定义](https://articles.zsxq.com/id_flk9adu4bi4q.html)
 * [《高性能Polaris网关》注册中心-第02节：基于自定义SPI扩展实现Nacos注册中心](https://articles.zsxq.com/id_uipawa4uj9zz.html)
+* [《高性能Polaris网关》注册中心-第03节：基于自定义SPI扩展实现Zookeeper注册中心](https://articles.zsxq.com/id_dlksa8wwjfrq.html)
+* [《高性能Polaris网关》注册中心-第04节：基于自定义SPI扩展实现Etcd注册中心(作业篇)](https://articles.zsxq.com/id_tx5lul1n5erg.html)
+* [《高性能Polaris网关》注册中心-第05节：基于自定义SPI扩展实现Consul注册中心(作业篇)](https://articles.zsxq.com/id_x91v0eagsrj1.html)
 
 ### 💥 分布式IM即时通讯系统
 

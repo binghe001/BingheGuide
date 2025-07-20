@@ -1695,6 +1695,9 @@ function getBarGateway(){
             children: [
                 "registry/2025-07-18-chapter01.md",
                 "registry/2025-07-19-chapter02.md",
+                "registry/2025-07-20-chapter03.md",
+                "registry/2025-07-21-chapter04.md",
+                "registry/2025-07-22-chapter05.md",
             ]
         }
     ]
