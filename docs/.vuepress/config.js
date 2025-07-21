@@ -1698,6 +1698,15 @@ function getBarGateway(){
                 "registry/2025-07-20-chapter03.md",
                 "registry/2025-07-21-chapter04.md",
                 "registry/2025-07-22-chapter05.md",
+                "registry/2025-07-23-chapter06.md",
+            ]
+        },
+        {
+            title: "第10部分：负载均衡",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "balancer/2025-07-24-chapter01.md",
             ]
         }
     ]
