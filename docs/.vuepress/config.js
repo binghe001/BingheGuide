@@ -1707,6 +1707,8 @@ function getBarGateway(){
             sidebarDepth: 0,
             children: [
                 "balancer/2025-07-24-chapter01.md",
+                "balancer/2025-07-25-chapter02.md",
+                "balancer/2025-07-26-chapter03.md",
             ]
         }
     ]
