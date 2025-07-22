@@ -1681,7 +1681,7 @@ function getBarGateway(){
             ]
         },
         {
-            title: "第08部分：牛刀小试",
+            title: "第09部分：牛刀小试",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1689,7 +1689,7 @@ function getBarGateway(){
             ]
         },
         {
-            title: "第09部分：注册中心",
+            title: "第10部分：注册中心",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1702,7 +1702,7 @@ function getBarGateway(){
             ]
         },
         {
-            title: "第10部分：负载均衡",
+            title: "第11部分：负载均衡",
             collapsable: false,
             sidebarDepth: 0,
             children: [
