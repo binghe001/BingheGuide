@@ -358,6 +358,13 @@
 * [《高性能Polaris网关》负载均衡-第01节：负载均衡通用SPI接口与顶级抽象类的设计与实现](https://articles.zsxq.com/id_6eh4qc1v8mn2.html)
 * [《高性能Polaris网关》负载均衡-第02节：基于自定义SPI扩展实现随机算法负载均衡策略](https://articles.zsxq.com/id_l81wv7jnrpsk.html)
 * [《高性能Polaris网关》负载均衡-第03节：基于自定义SPI扩展实现加权随机算法负载均衡策略](https://articles.zsxq.com/id_bqw1spd6fxmp.html)
+* [《高性能Polaris网关》负载均衡-第04节：基于自定义SPI扩展实现轮询算法负载均衡策略](https://articles.zsxq.com/id_wzvbd1ppsuw9.html)
+* [《高性能Polaris网关》负载均衡-第05节：基于自定义SPI扩展实现加权轮询算法负载均衡策略](https://articles.zsxq.com/id_a88rlgbwf7f1.html)
+* [《高性能Polaris网关》负载均衡-第06节：基于自定义SPI扩展实现哈希算法负载均衡策略](https://articles.zsxq.com/id_g8bt72pn9v4u.html)
+* [《高性能Polaris网关》负载均衡-第07节：基于自定义SPI扩展实现加权哈希算法负载均衡策略](https://articles.zsxq.com/id_6im6muo4o2tb.html)
+* [《高性能Polaris网关》负载均衡-第08节：基于自定义SPI扩展实现源IP地址哈希算法负载均衡策略](https://articles.zsxq.com/id_v96wiuqkwajd.html)
+* [《高性能Polaris网关》负载均衡-第09节：基于自定义SPI扩展实现源IP地址加权哈希算法负载均衡策略](https://articles.zsxq.com/id_x0cmqgz4evod.html)
+* [《高性能Polaris网关》负载均衡-第10节：基于自定义SPI扩展实现Zookeeper一致性Hash算法负载均衡策略](https://articles.zsxq.com/id_x4heso2w96mv.html)
 
 ### 💥 分布式IM即时通讯系统
 

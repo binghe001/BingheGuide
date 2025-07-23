@@ -1709,6 +1709,13 @@ function getBarGateway(){
                 "balancer/2025-07-24-chapter01.md",
                 "balancer/2025-07-25-chapter02.md",
                 "balancer/2025-07-26-chapter03.md",
+                "balancer/2025-07-27-chapter04.md",
+                "balancer/2025-07-28-chapter05.md",
+                "balancer/2025-07-29-chapter06.md",
+                "balancer/2025-07-30-chapter07.md",
+                "balancer/2025-07-31-chapter08.md",
+                "balancer/2025-08-01-chapter09.md",
+                "balancer/2025-08-02-chapter10.md",
             ]
         }
     ]
