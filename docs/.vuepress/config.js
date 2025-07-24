@@ -1717,6 +1717,18 @@ function getBarGateway(){
                 "balancer/2025-08-01-chapter09.md",
                 "balancer/2025-08-02-chapter10.md",
             ]
+        },
+        {
+            title: "第12部分：增强型负载均衡",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "balancer/enhanced/2025-08-03-chapter01.md",
+                "balancer/enhanced/2025-08-04-chapter02.md",
+                "balancer/enhanced/2025-08-05-chapter03.md",
+                "balancer/enhanced/2025-08-06-chapter04.md",
+                "balancer/enhanced/2025-08-07-chapter05.md",
+            ]
         }
     ]
 }
