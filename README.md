@@ -370,6 +370,7 @@
 * [《高性能Polaris网关》增强负载均衡-第03节：基于SPI扩展增强型加权哈希算法负载均衡策略](https://articles.zsxq.com/id_np467so27wm8.html)
 * [《高性能Polaris网关》增强负载均衡-第04节：基于SPI扩展增强型源IP哈希算法负载均衡策略](https://articles.zsxq.com/id_zeqkzujw7f28.html)
 * [《高性能Polaris网关》增强负载均衡-第05节：基于SPI扩展增强型一致性哈希算法负载均衡策略](https://articles.zsxq.com/id_bnmmhw7q8rnl.html)
+* [《高性能Polaris网关》实战负载均衡-第01节：实战通过自定义SPI加载的各种负载均衡策略访问后端服务](https://articles.zsxq.com/id_5wkwnzlutu7h.html)
 
 ### 💥 分布式IM即时通讯系统
 

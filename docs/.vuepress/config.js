@@ -1660,7 +1660,7 @@ function getBarGateway(){
             ]
         },
         {
-            title: "第07部分：HTTP处理器设计",
+            title: "第07部分：核心容器设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1728,6 +1728,14 @@ function getBarGateway(){
                 "balancer/enhanced/2025-08-05-chapter03.md",
                 "balancer/enhanced/2025-08-06-chapter04.md",
                 "balancer/enhanced/2025-08-07-chapter05.md",
+            ]
+        },
+        {
+            title: "第13部分：实战负载均衡",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "balancer/actual/2025-08-08-chapter01.md",
             ]
         }
     ]
