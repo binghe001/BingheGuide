@@ -1737,6 +1737,28 @@ function getBarGateway(){
             children: [
                 "balancer/actual/2025-08-08-chapter01.md",
             ]
+        },
+        {
+            title: "第14部分：配置中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "config/2025-08-09-chapter01.md",
+                "config/2025-08-10-chapter02.md",
+                "config/2025-08-11-chapter03.md",
+                "config/2025-08-12-chapter04.md",
+                "config/2025-08-13-chapter05.md",
+                "config/2025-08-14-chapter06.md",
+            ]
+        },
+        {
+            title: "第15部分：热插拔插件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "plugin/2025-08-15-chapter01.md",
+                "plugin/2025-08-16-chapter02.md",
+            ]
         }
     ]
 }

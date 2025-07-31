@@ -371,6 +371,14 @@
 * [《高性能Polaris网关》增强负载均衡-第04节：基于SPI扩展增强型源IP哈希算法负载均衡策略](https://articles.zsxq.com/id_zeqkzujw7f28.html)
 * [《高性能Polaris网关》增强负载均衡-第05节：基于SPI扩展增强型一致性哈希算法负载均衡策略](https://articles.zsxq.com/id_bnmmhw7q8rnl.html)
 * [《高性能Polaris网关》实战负载均衡-第01节：实战通过自定义SPI加载的各种负载均衡策略访问后端服务](https://articles.zsxq.com/id_5wkwnzlutu7h.html)
+* [《高性能Polaris网关》配置中心-第01节：配置中心通用SPI接口的设计与定义](https://articles.zsxq.com/id_n6pzxt934m6x.html)
+* [《高性能Polaris网关》配置中心-第02节：基于SPI扩展实现Nacos配置中心](https://articles.zsxq.com/id_u9i1um9wcwgt.html)
+* [《高性能Polaris网关》配置中心-第03节：基于SPI扩展实现Zookeeper配置中心](https://articles.zsxq.com/id_z8dw005wirv5.html)
+* [《高性能Polaris网关》配置中心-第04节：基于SPI扩展实现Etcd配置中心](https://articles.zsxq.com/id_c4qdcddoqkwk.html)
+* [《高性能Polaris网关》配置中心-第05节：基于SPI扩展实现Consul配置中心](https://articles.zsxq.com/id_w0svao9wswzn.html)
+* [《高性能Polaris网关》配置中心-第06节：网关启动容器整合配置中心实现服务配置](https://articles.zsxq.com/id_pjav7rkvql45.html)
+* [《高性能Polaris网关》热插拔插件-第01节：网关热插拔插件SPI接口与核心工厂类设计与实现](https://articles.zsxq.com/id_hb6fwph9wjct.html)
+* [《高性能Polaris网关》热插拔插件-第02节：网关启动容器整合热插拔插件的设计与实现](https://articles.zsxq.com/id_j73ff8a8jpso.html)
 
 ### 💥 分布式IM即时通讯系统
 
