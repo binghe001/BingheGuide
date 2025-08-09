@@ -1759,6 +1759,27 @@ function getBarGateway(){
                 "plugin/2025-08-15-chapter01.md",
                 "plugin/2025-08-16-chapter02.md",
             ]
+        },
+        {
+            title: "第16部分：客户端SDK",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "client/2025-08-17-chapter01.md",
+                "client/2025-08-18-chapter02.md",
+                "client/2025-08-19-chapter03.md",
+                "client/2025-08-20-chapter04.md",
+                "client/2025-08-21-chapter05.md",
+            ]
+        },
+        {
+            title: "第17部分：完整实战实例",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "actual/2025-08-22-chapter01.md",
+                "actual/2025-08-23-chapter02.md",
+            ]
         }
     ]
 }

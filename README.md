@@ -379,6 +379,13 @@
 * [《高性能Polaris网关》配置中心-第06节：网关启动容器整合配置中心实现服务配置](https://articles.zsxq.com/id_pjav7rkvql45.html)
 * [《高性能Polaris网关》热插拔插件-第01节：网关热插拔插件SPI接口与核心工厂类设计与实现](https://articles.zsxq.com/id_hb6fwph9wjct.html)
 * [《高性能Polaris网关》热插拔插件-第02节：网关启动容器整合热插拔插件的设计与实现](https://articles.zsxq.com/id_j73ff8a8jpso.html)
+* [《高性能Polaris网关》客户端SDK-第01节：网关客户端SDK注解与协议的设计与定义](https://articles.zsxq.com/id_1vmu0h117orf.html)
+* [《高性能Polaris网关》客户端SDK-第02节：网关客户端扫描器与抽象注册中心实现类设计](https://articles.zsxq.com/id_ghxbfgawi5b4.html)
+* [《高性能Polaris网关》客户端SDK-第03节：网关客户端HTTP协议SDK的设计和实现](https://articles.zsxq.com/id_qhh8t4h4vc9n.html)
+* [《高性能Polaris网关》客户端SDK-第04节：网关客户端RPC协议SDK的设计和实现](https://articles.zsxq.com/id_i3gpgcume7id.html)
+* [《高性能Polaris网关》客户端SDK-第05节：网关客户端WebSocket协议SDK的设计和实现（作业篇）](https://articles.zsxq.com/id_rax4azhrdqiw.html)
+* [《高性能Polaris网关》完整实战案例-第01节：网关访问后端服务HTTP接口完整案例](https://articles.zsxq.com/id_0kwhgjlvjok1.html)
+* [《高性能Polaris网关》完整实战案例-第02节：网关访问后端服务RPC接口完整案例](https://articles.zsxq.com/id_mpmrvkwbkhg0.html)
 
 ### 💥 分布式IM即时通讯系统
 
