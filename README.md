@@ -386,6 +386,7 @@
 * [《高性能Polaris网关》客户端SDK-第05节：网关客户端WebSocket协议SDK的设计和实现（作业篇）](https://articles.zsxq.com/id_rax4azhrdqiw.html)
 * [《高性能Polaris网关》完整实战案例-第01节：网关访问后端服务HTTP接口完整案例](https://articles.zsxq.com/id_0kwhgjlvjok1.html)
 * [《高性能Polaris网关》完整实战案例-第02节：网关访问后端服务RPC接口完整案例](https://articles.zsxq.com/id_mpmrvkwbkhg0.html)
+* [《高性能Polaris网关》总结-高性能Polaris网关整体专栏总结](https://articles.zsxq.com/id_7ke1a0potvv2.html)
 
 ### 💥 分布式IM即时通讯系统
 

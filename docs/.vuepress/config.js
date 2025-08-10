@@ -1780,6 +1780,14 @@ function getBarGateway(){
                 "actual/2025-08-22-chapter01.md",
                 "actual/2025-08-23-chapter02.md",
             ]
+        },
+        {
+            title: "第18部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "zj/summary.md",
+            ]
         }
     ]
 }
