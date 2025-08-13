@@ -21,8 +21,7 @@ footer: GPL Licensed | Copyright © 2022~2023 冰河，All rights reserved. 沉�
 ---
 
 ## 正在更新
-
-* [高性能Polaris网关](https://binghe.gitcode.host/md/project/gateway/start/2024-05-19-start.html) - 冰河的第7个高性能中间件项目，在《高性能Polaris网关》中，冰河会带着带你从零开始架构和研发一套承接瞬时百万流量的高性能网关，经阿里云实际压测，冰河自研的Polaris网关比某些成熟的开源网关性能更高。你学到的不仅仅是一套支持瞬时百万流量的分布式、高并发、高性能、高可用、可扩展的中间件项目，更重要的是要学会大厂处理高并发、大流量场景的技术方案和架构设计思想，并学会如何将这些技术方案和架构设计思想落地到实际项目中。
+* [高性能SQL引擎项目](https://binghe.gitcode.host/md/project/sql/start/2025-08-12-start.html) - 冰河要带着大家从零开始一起手写一个支持各种高并发、高性能场景、支持各种灵活多变的复杂查询业务场景、自动生成SQL的引擎项目。涉及到很多互联网大厂研发过程中所使用的核心技术和架构设计模式，也有冰河在互联网大厂工作过程中，自主研发和深度参与基础软件和基础中间件架构设计和研发过程中所使用到的核心架构模式和核心技术，更重要的是，项目中积累了冰河在解决大厂基础架构问题和灵活多变的复杂业务问题的经验。
 
 ### 开发的项目
 
@@ -31,6 +30,7 @@ footer: GPL Licensed | Copyright © 2022~2023 冰河，All rights reserved. 沉�
   * [分布式Seckill秒杀系统](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html) - 基于DDD领域驱动，运用所有分布式高并发技术栈的高并发实战项目，更具竞争力，非常适合手里没有大型高并发项目的读者进行学习。
   * [实战高并发设计模式](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html) - 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
 * 中间件项目
+  * [高性能Polaris网关](https://binghe.gitcode.host/md/project/gateway/start/2024-05-19-start.html) - 在《高性能Polaris网关》中，冰河会带着带你从零开始架构和研发一套承接瞬时百万流量的高性能网关，经阿里云实际压测，冰河自研的Polaris网关比某些成熟的开源网关性能更高。你学到的不仅仅是一套支持瞬时百万流量的分布式、高并发、高性能、高可用、可扩展的中间件项目，更重要的是要学会大厂处理高并发、大流量场景的技术方案和架构设计思想，并学会如何将这些技术方案和架构设计思想落地到实际项目中。
   * [手写高性能RPC项目](https://binghe.gitcode.host/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html) - 从零开始架构设计并研发并开发的高性能RPC中间件，架构设计与代码落地方案对标Dubbo，让你以渐进式的方式彻底吃透RPC通信技术，非常适合没有参与过大型中间件技术开发的读者进行学习。
 * 微服务项目
   * [商城脚手架项目](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html) - 基于SpringCloud Alibaba全套技术栈实现，从零开始手把手教你搭建一套完整的微服务项目，非常适合微服务架构、设计、基础薄弱的读者学习，学完完全可以独立搭建一套基于SpringCloud Alibaba全套技术栈的微服务项目。
