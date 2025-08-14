@@ -1570,6 +1570,14 @@ function getBarSql() {
             children: [
                 "start/2025-08-12-start.md",
             ]
+        },
+        {
+            title: "需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "demand/2025-08-13-chapter01.md",
+            ]
         }
     ]
 }

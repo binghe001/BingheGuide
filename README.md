@@ -292,6 +292,7 @@
 ### 💥 高性能SQL引擎
 
 [《高性能SQL引擎》开篇：我要手把手教你手搓一个高性能SQL引擎项目](https://articles.zsxq.com/id_eaqjxu8h3o2a.html)
+[《高性能SQL引擎》需求分析-第01节：为何要学习高性能SQL引擎项目](https://articles.zsxq.com/id_setomi525qep.html)
 
 ### 💥 分布式高性能网关
 
