@@ -294,6 +294,8 @@
 * [《高性能SQL引擎》开篇：我要手把手教你手搓一个高性能SQL引擎项目](https://articles.zsxq.com/id_eaqjxu8h3o2a.html)
 * [《高性能SQL引擎》需求分析-第01节：为何要学习高性能SQL引擎项目](https://articles.zsxq.com/id_setomi525qep.html)
 * [《高性能SQL引擎》需求分析-第02节：高性能SQL引擎项目的目标与挑战](https://articles.zsxq.com/id_g7wnbwapc54p.html)
+* [《高性能SQL引擎》需求分析-第03节：高性能SQL引擎功能需求与流程梳理](https://articles.zsxq.com/id_5xgj618wfoii.html)
+* [《高性能SQL引擎》总体架构-第01节：高性能SQL引擎总体方案目标与架构设计](https://articles.zsxq.com/id_kwevdoxozx6a.html)
 
 ### 💥 分布式高性能网关
 

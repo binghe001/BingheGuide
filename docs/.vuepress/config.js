@@ -1572,12 +1572,21 @@ function getBarSql() {
             ]
         },
         {
-            title: "需求设计",
+            title: "第01部分：需求设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "demand/2025-08-13-chapter01.md",
                 "demand/2025-08-15-chapter02.md",
+                "demand/2025-08-16-chapter03.md",
+            ]
+        },
+        {
+            title: "第02部分：总体架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "archit/2025-08-17-chapter01.md",
             ]
         }
     ]
