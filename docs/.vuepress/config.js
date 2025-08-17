@@ -1587,6 +1587,7 @@ function getBarSql() {
             sidebarDepth: 0,
             children: [
                 "archit/2025-08-17-chapter01.md",
+                "archit/2025-08-18-chapter02.md",
             ]
         }
     ]

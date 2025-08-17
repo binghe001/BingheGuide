@@ -296,6 +296,7 @@
 * [《高性能SQL引擎》需求分析-第02节：高性能SQL引擎项目的目标与挑战](https://articles.zsxq.com/id_g7wnbwapc54p.html)
 * [《高性能SQL引擎》需求分析-第03节：高性能SQL引擎功能需求与流程梳理](https://articles.zsxq.com/id_5xgj618wfoii.html)
 * [《高性能SQL引擎》总体架构-第01节：高性能SQL引擎总体方案目标与架构设计](https://articles.zsxq.com/id_kwevdoxozx6a.html)
+* [《高性能SQL引擎》总体架构-第02节：高性能SQL引擎的通用化落地方案](https://articles.zsxq.com/id_owoodtsg8d7i.html)
 
 ### 💥 分布式高性能网关
 
