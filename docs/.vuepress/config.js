@@ -1589,6 +1589,14 @@ function getBarSql() {
                 "archit/2025-08-17-chapter01.md",
                 "archit/2025-08-18-chapter02.md",
             ]
+        },
+        {
+            title: "第03部分：通用模型设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "model/2025-08-19-chapter01.md"
+            ]
         }
     ]
 }
