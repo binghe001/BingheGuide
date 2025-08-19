@@ -298,6 +298,7 @@
 * [《高性能SQL引擎》总体架构-第01节：高性能SQL引擎总体方案目标与架构设计](https://articles.zsxq.com/id_kwevdoxozx6a.html)
 * [《高性能SQL引擎》总体架构-第02节：高性能SQL引擎的通用化落地方案](https://articles.zsxq.com/id_owoodtsg8d7i.html)
 * [《高性能SQL引擎》数据模型设计-第01节：高性能SQL引擎通用数据模板设计与实现](https://articles.zsxq.com/id_zsx1vc28exx6.html)
+* [《高性能SQL引擎》数据模型设计-第02节：高性能SQL引擎通用数据模型设计与实现](https://articles.zsxq.com/id_cldrmj9axi5g.html)
 
 ### 💥 分布式高性能网关
 

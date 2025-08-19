@@ -1595,7 +1595,8 @@ function getBarSql() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "model/2025-08-19-chapter01.md"
+                "model/2025-08-19-chapter01.md",
+                "model/2025-08-20-chapter02.md"
             ]
         }
     ]
