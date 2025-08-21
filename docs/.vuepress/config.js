@@ -1598,6 +1598,14 @@ function getBarSql() {
                 "model/2025-08-19-chapter01.md",
                 "model/2025-08-20-chapter02.md"
             ]
+        },
+        {
+            title: "第04部分：SQL引擎设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "engine/2025-08-21-chapter01.md",
+            ]
         }
     ]
 }
