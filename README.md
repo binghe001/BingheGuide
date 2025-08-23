@@ -301,6 +301,8 @@
 * [《高性能SQL引擎》数据模型设计-第02节：高性能SQL引擎通用数据模型设计与实现](https://articles.zsxq.com/id_cldrmj9axi5g.html)
 * [《高性能SQL引擎》SQL引擎设计-第01节：高性能SQL引擎SQL构建器设计与实现](https://articles.zsxq.com/id_2gjq0c7cp1r0.html)
 * [《高性能SQL引擎》SQL引擎设计-第02节：高性能SQL引擎驱动引擎设计与实现](https://articles.zsxq.com/id_87os34sndfnf.html)
+* [《高性能SQL引擎》SQL引擎实战-第01节：基于通用模型动态生成SQL](https://articles.zsxq.com/id_2tngx12fxv2u.html)
+* [《高性能SQL引擎》SQL引擎实战-第02节：基于通用模板动态生成SQL](https://articles.zsxq.com/id_lkuz532l60dx.html)
 
 ### 💥 分布式高性能网关
 

@@ -1607,6 +1607,15 @@ function getBarSql() {
                 "engine/2025-08-21-chapter01.md",
                 "engine/2025-08-22-chapter02.md",
             ]
+        },
+        {
+            title: "第05部分：SQL引擎实战",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "example/2025-08-23-chapter01.md",
+                "example/2025-08-24-chapter02.md",
+            ]
         }
     ]
 }
