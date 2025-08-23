@@ -300,6 +300,7 @@
 * [《高性能SQL引擎》数据模型设计-第01节：高性能SQL引擎通用数据模板设计与实现](https://articles.zsxq.com/id_zsx1vc28exx6.html)
 * [《高性能SQL引擎》数据模型设计-第02节：高性能SQL引擎通用数据模型设计与实现](https://articles.zsxq.com/id_cldrmj9axi5g.html)
 * [《高性能SQL引擎》SQL引擎设计-第01节：高性能SQL引擎SQL构建器设计与实现](https://articles.zsxq.com/id_2gjq0c7cp1r0.html)
+* [《高性能SQL引擎》SQL引擎设计-第02节：高性能SQL引擎驱动引擎设计与实现](https://articles.zsxq.com/id_87os34sndfnf.html)
 
 ### 💥 分布式高性能网关
 
