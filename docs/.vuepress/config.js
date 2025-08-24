@@ -1625,6 +1625,14 @@ function getBarSql() {
                 "pressure/2025-08-25-chapter01.md",
                 "pressure/2025-08-26-chapter02.md",
             ]
+        },
+        {
+            title: "第07部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "zj/summary.md",
+            ]
         }
     ]
 }
