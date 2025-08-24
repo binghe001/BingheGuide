@@ -435,7 +435,7 @@ module.exports = {
                                         link: '/md/project/sql/start/2025-08-12-start.md'
                                     },
                                     {
-                                        text: '手写高性能Polaris网关',
+                                        text: '手写高性能Polaris网关（新）',
                                         link: '/md/project/gateway/start/2024-05-19-start.md'
                                     },
                                     {
@@ -464,7 +464,7 @@ module.exports = {
                                 text: "高并发项目",
                                 items:[
                                     {
-                                        text: '分布式IM即时通讯系统',
+                                        text: '分布式IM即时通讯系统（新）',
                                         link: '/md/project/im/start/2023-11-20-start.md'
                                     },
                                     {
@@ -1615,6 +1615,15 @@ function getBarSql() {
             children: [
                 "example/2025-08-23-chapter01.md",
                 "example/2025-08-24-chapter02.md",
+            ]
+        },
+        {
+            title: "第06部分：性能测试",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "pressure/2025-08-25-chapter01.md",
+                "pressure/2025-08-26-chapter02.md",
             ]
         }
     ]
