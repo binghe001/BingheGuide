@@ -288,6 +288,10 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥 手写线程池
+
+* [《手写线程池》开篇：我要带你一次性彻底吃透线程池核心技术](https://articles.zsxq.com/id_d8qgdw6mwawe.html)
+* [《手写线程池》线程池核心技术-第01节：线程池核心原理技术解析](https://articles.zsxq.com/id_es9ekcwm595m.html)
 
 ### 💥 高性能SQL引擎
 

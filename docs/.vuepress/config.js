@@ -431,6 +431,10 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
+                                        text: '手写线程池项目（新）',
+                                        link: '/md/project/threadpool/start/2025-08-26-start.md'
+                                    },
+                                    {
                                         text: '手写高性能SQL引擎（新）',
                                         link: '/md/project/sql/start/2025-08-12-start.md'
                                     },
@@ -685,6 +689,7 @@ module.exports = {
                     "/md/middleware/rpc/": getBarMiddlewareRPC(),
                     "/md/project/gateway/": getBarGateway(),
                     "/md/project/sql/": getBarSql(),
+                    "/md/project/threadpool/": getBarThreadPool(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1556,6 +1561,28 @@ function getBarDistributedTransaction() {
                 "transaction-video-037.md",
                 "transaction-video-038.md",
                 "transaction-video-039.md",
+            ]
+        }
+    ]
+}
+
+
+function getBarThreadPool() {
+    return [
+        {
+            title: "专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2025-08-26-start.md",
+            ]
+        },
+        {
+            title: "第01部分：线程池核心技术",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "jdk/2025-08-27-chapter01.md",
             ]
         }
     ]
@@ -3579,6 +3606,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/threadpool/2025-08-26-start.md",
                 "project/sql/2025-08-12-start.md",
                 "project/gateway/2024-05-19-start.md",
                 "project/rpc/2022-08-24-rpc.md"
