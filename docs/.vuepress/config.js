@@ -1583,6 +1583,11 @@ function getBarThreadPool() {
             sidebarDepth: 0,
             children: [
                 "jdk/2025-08-27-chapter01.md",
+                "jdk/2025-08-28-chapter02.md",
+                "jdk/2025-08-29-chapter03.md",
+                "jdk/2025-08-30-chapter04.md",
+                "jdk/2025-08-31-chapter05.md",
+                "jdk/2025-09-01-chapter06.md",
             ]
         }
     ]
