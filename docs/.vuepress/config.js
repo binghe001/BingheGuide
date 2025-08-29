@@ -1570,7 +1570,7 @@ function getBarDistributedTransaction() {
 function getBarThreadPool() {
     return [
         {
-            title: "专栏介绍",
+            title: "第01部分：专栏介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1578,7 +1578,7 @@ function getBarThreadPool() {
             ]
         },
         {
-            title: "第01部分：线程池核心技术",
+            title: "第02部分：线程池核心技术",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1588,6 +1588,14 @@ function getBarThreadPool() {
                 "jdk/2025-08-30-chapter04.md",
                 "jdk/2025-08-31-chapter05.md",
                 "jdk/2025-09-01-chapter06.md",
+            ]
+        },
+        {
+            title: "第03部分：实战手写线程池",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "example/2025-09-02-threadpool.md",
             ]
         }
     ]
