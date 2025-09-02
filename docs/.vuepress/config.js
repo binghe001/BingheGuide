@@ -1597,6 +1597,14 @@ function getBarThreadPool() {
             children: [
                 "example/2025-09-02-threadpool.md",
             ]
+        },
+        {
+            title: "第04部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2025-09-03-summary.md",
+            ]
         }
     ]
 }
