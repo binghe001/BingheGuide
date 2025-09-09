@@ -431,6 +431,10 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
+                                        text: '手写高性能脱敏组件（新）',
+                                        link: '/md/project/sensitive/start/2025-09-08-start.md'
+                                    },
+                                    {
                                         text: '手写线程池项目（新）',
                                         link: '/md/project/threadpool/start/2025-08-26-start.md'
                                     },
@@ -690,6 +694,7 @@ module.exports = {
                     "/md/project/gateway/": getBarGateway(),
                     "/md/project/sql/": getBarSql(),
                     "/md/project/threadpool/": getBarThreadPool(),
+                    "/md/project/sensitive/": getBarSensitive()(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1566,6 +1571,27 @@ function getBarDistributedTransaction() {
     ]
 }
 
+
+function getBarSensitive() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2025-09-08-start.md",
+            ]
+        },
+        {
+            title: "第02部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "demand/2025-09-09-chapter01.md",
+            ]
+        }
+    ]
+}
 
 function getBarThreadPool() {
     return [
@@ -3627,6 +3653,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/sentitive/2025-09-08-start.md",
                 "project/threadpool/2025-08-26-start.md",
                 "project/sql/2025-08-12-start.md",
                 "project/gateway/2024-05-19-start.md",

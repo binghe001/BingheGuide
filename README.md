@@ -288,6 +288,11 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥 高性能脱敏组件
+
+* [《高性能脱敏组件》开篇：我要带你从零开始手搓一个大厂必备的数据脱敏组件](https://articles.zsxq.com/id_kuq26anwz010.html)
+* [《高性能脱敏组件》需求设计-第01节：为何要学习高性能脱敏组件](https://articles.zsxq.com/id_nc6ciu16ukq3.html)
+
 ### 💥 手写线程池
 
 * [《手写线程池》开篇：我要带你一次性彻底吃透线程池核心技术](https://articles.zsxq.com/id_d8qgdw6mwawe.html)
