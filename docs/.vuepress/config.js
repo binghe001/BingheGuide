@@ -694,7 +694,7 @@ module.exports = {
                     "/md/project/gateway/": getBarGateway(),
                     "/md/project/sql/": getBarSql(),
                     "/md/project/threadpool/": getBarThreadPool(),
-                    "/md/project/sensitive/": getBarSensitive()(),
+                    "/md/project/sensitive/": getBarSensitive(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
