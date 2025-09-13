@@ -1583,11 +1583,22 @@ function getBarSensitive() {
             ]
         },
         {
-            title: "第02部分：需求设计",
+            title: "第01部分：需求设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "demand/2025-09-09-chapter01.md",
+                "demand/2025-09-10-chapter02.md",
+                "demand/2025-09-11-chapter03.md",
+            ]
+        },
+        {
+            title: "第02部分：总体架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "archit/2025-09-12-chapter01.md",
+                "archit/2025-09-13-chapter02.md",
             ]
         }
     ]

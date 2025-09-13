@@ -292,6 +292,10 @@
 
 * [《高性能脱敏组件》开篇：我要带你从零开始手搓一个大厂必备的数据脱敏组件](https://articles.zsxq.com/id_kuq26anwz010.html)
 * [《高性能脱敏组件》需求设计-第01节：为何要学习高性能脱敏组件](https://articles.zsxq.com/id_nc6ciu16ukq3.html)
+* [《高性能脱敏组件》需求设计-第02节：高性能脱敏组件的目标与挑战](https://articles.zsxq.com/id_zpt6xnbidfx8.html)
+* [《高性能脱敏组件》需求设计-第03节：高性能脱敏组件功能需求与流程梳理](https://articles.zsxq.com/id_ozpw1kouvkuc.html)
+* [《高性能脱敏组件》架构设计-第01节：高性能脱敏组件总体方案目标与架构设计](https://articles.zsxq.com/id_0dt6lqet8jxm.html)
+* [《高性能脱敏组件》架构设计-第02节：高性能脱敏组件的通用化落地方案](https://articles.zsxq.com/id_2sfcdhv5wab5.html)
 
 ### 💥 手写线程池
 
