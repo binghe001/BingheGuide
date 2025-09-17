@@ -1600,6 +1600,34 @@ function getBarSensitive() {
                 "archit/2025-09-12-chapter01.md",
                 "archit/2025-09-13-chapter02.md",
             ]
+        },
+        {
+            title: "第03部分：脱敏设计实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "shield/2025-09-14-chapter01.md",
+                "shield/2025-09-15-chapter02.md",
+                "shield/2025-09-16-chapter03.md",
+                "shield/2025-09-17-chapter04.md",
+            ]
+        },
+        {
+            title: "第04部分：扩展设计实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "extend/2025-09-18-chapter01.md",
+            ]
+        },
+        {
+            title: "第05部分：测试场景验证",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "test/2025-09-19-chapter01.md",
+                "test/2025-09-20-chapter02.md",
+            ]
         }
     ]
 }

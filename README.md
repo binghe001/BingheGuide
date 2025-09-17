@@ -296,6 +296,13 @@
 * [《高性能脱敏组件》需求设计-第03节：高性能脱敏组件功能需求与流程梳理](https://articles.zsxq.com/id_ozpw1kouvkuc.html)
 * [《高性能脱敏组件》架构设计-第01节：高性能脱敏组件总体方案目标与架构设计](https://articles.zsxq.com/id_0dt6lqet8jxm.html)
 * [《高性能脱敏组件》架构设计-第02节：高性能脱敏组件的通用化落地方案](https://articles.zsxq.com/id_2sfcdhv5wab5.html)
+* [《高性能脱敏组件》脱敏设计-第01节：注解、接口与顶层抽象类的设计与实现](https://articles.zsxq.com/id_d2nohwdids4q.html)
+* [《高性能脱敏组件》脱敏设计-第02节：高性能脱敏组件通用脱敏方法的设计与实现](https://articles.zsxq.com/id_rszbhz0qxtxe.html)
+* [《高性能脱敏组件》脱敏设计-第03节：高性能脱敏组件注解通用解析设计与实现](https://articles.zsxq.com/id_psjfbrw60dfm.html)
+* [《高性能脱敏组件》脱敏设计-第04节：内置各种常见数据脱敏器的设计与实现](https://articles.zsxq.com/id_pe741h2dno8x.html)
+* [《高性能脱敏组件》拓展设计-第01节：高性能脱敏数据组件拓展实现日志脱敏](https://articles.zsxq.com/id_rqx6k154jekw.html)
+* [《高性能脱敏组件》测试验证-第01节：高性能脱敏数据组件单元测试场景验证](https://articles.zsxq.com/id_bnwjzs1w45ef.html)
+* [《高性能脱敏组件》测试验证-第02节：高性能脱敏数据组件JMH基准性能测试](https://articles.zsxq.com/id_mw57hgkahuhd.html)
 
 ### 💥 手写线程池
 
