@@ -303,6 +303,7 @@
 * [《高性能脱敏组件》拓展设计-第01节：高性能脱敏数据组件拓展实现日志脱敏](https://articles.zsxq.com/id_rqx6k154jekw.html)
 * [《高性能脱敏组件》测试验证-第01节：高性能脱敏数据组件单元测试场景验证](https://articles.zsxq.com/id_bnwjzs1w45ef.html)
 * [《高性能脱敏组件》测试验证-第02节：高性能脱敏数据组件JMH基准性能测试](https://articles.zsxq.com/id_mw57hgkahuhd.html)
+* [《高性能脱敏组件》总结-高性能脱敏组件整体专栏总结](https://articles.zsxq.com/id_7itf8eugr9tu.html)
 
 ### 💥 手写线程池
 

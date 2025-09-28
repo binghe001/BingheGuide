@@ -1628,6 +1628,14 @@ function getBarSensitive() {
                 "test/2025-09-19-chapter01.md",
                 "test/2025-09-20-chapter02.md",
             ]
+        },
+        {
+            title: "第06部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "zj/2025-09-21-summary.md",
+            ]
         }
     ]
 }
