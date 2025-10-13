@@ -288,6 +288,31 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+
+### 性能优化
+
+* [《性能优化》专栏开篇：性能优化到底要优化什么？](https://articles.zsxq.com/id_k6vbb7um77ez.html)
+* [《性能优化》第01章：性能优化的7大杀手锏！](https://articles.zsxq.com/id_37wew5ddzgzf.html)
+* [《性能优化》第02章：深入剖析 CPU、内存与 I/O 瓶颈](https://articles.zsxq.com/id_1h77mexuq2lk.html)
+* [《性能优化》第03章：如何分析代码的运行时性能数据](https://articles.zsxq.com/id_zevwxdntzbxh.html)
+* [《性能优化》第04章：Java基准测试工具JMH](https://articles.zsxq.com/id_4lljoi1bqor6.html)
+* [《性能优化》第05章：缓冲区优化代码性能](https://articles.zsxq.com/id_9cetidrwqu0v.html)
+* [《性能优化》第06章：缓存提升系统性能](https://articles.zsxq.com/id_2rm6tpzaefog.html)
+* [《性能优化》第07章：秒杀系统深度性能优化](https://articles.zsxq.com/id_xaokb7cbtlmp.html)
+* [《性能优化》第08章：池化对象提升性能](https://articles.zsxq.com/id_0dv7h8oheclm.html)
+* [《性能优化》第09章：优化大对象提升性能](https://articles.zsxq.com/id_1p6m615wi6u8.html)
+* [《性能优化》第10章：设计模式提升性能](https://articles.zsxq.com/id_kng3ju3t7tup.html)
+* [《性能优化》第11章：并行计算提升性能](https://articles.zsxq.com/id_vq10wj8b0rx1.html)
+* [《性能优化》第12章：优化加锁方式提升性能](https://articles.zsxq.com/id_888jpw3dmpz4.html)
+* [《性能优化》第13章：乐观锁与无锁提升性能](https://articles.zsxq.com/id_pd7i273fho52.html)
+* [《性能优化》第14章：使用NIO和AIO提升性能](https://articles.zsxq.com/id_wiv6auub5wk8.html)
+* [《性能优化》第15章：优化代码提升性能](https://articles.zsxq.com/id_9c43znli7no4.html)
+* [《性能优化》第16章：JVM整体架构与调优参数说明](https://articles.zsxq.com/id_vl90mcdpxbgp.html)
+* [《性能优化》第17章：JIT对JVM性能的影响](https://articles.zsxq.com/id_893jwluchpej.html)
+* [《性能优化》第18章：JVM调优参数](https://articles.zsxq.com/id_fxa3cshjtd08.html)
+* [《性能优化》第19章：SpringBoot微服务性能优化](https://articles.zsxq.com/id_wh9jqlw7xm30.html)
+
+
 ### 💥 高性能脱敏组件
 
 * [《高性能脱敏组件》开篇：我要带你从零开始手搓一个大厂必备的数据脱敏组件](https://articles.zsxq.com/id_kuq26anwz010.html)
