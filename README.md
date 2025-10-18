@@ -311,6 +311,7 @@
 * [《性能优化》第17章：JIT对JVM性能的影响](https://articles.zsxq.com/id_893jwluchpej.html)
 * [《性能优化》第18章：JVM调优参数](https://articles.zsxq.com/id_fxa3cshjtd08.html)
 * [《性能优化》第19章：SpringBoot微服务性能优化](https://articles.zsxq.com/id_wh9jqlw7xm30.html)
+* [《性能优化》补充：重试机制最佳实践](https://articles.zsxq.com/id_ae7px94nn845.html)
 
 
 ### 💥 高性能脱敏组件
