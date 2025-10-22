@@ -431,19 +431,23 @@ module.exports = {
                                 text: "中间件项目",
                                 items:[
                                     {
-                                        text: '手写高性能脱敏组件（新）',
+                                        text: '手写高性能Redis组件',
+                                        link: '/md/project/redis-plugin/start/2025-10-20-start.md'
+                                    },
+                                    {
+                                        text: '手写高性能脱敏组件',
                                         link: '/md/project/sensitive/start/2025-09-08-start.md'
                                     },
                                     {
-                                        text: '手写线程池项目（新）',
+                                        text: '手写线程池项目',
                                         link: '/md/project/threadpool/start/2025-08-26-start.md'
                                     },
                                     {
-                                        text: '手写高性能SQL引擎（新）',
+                                        text: '手写高性能SQL引擎',
                                         link: '/md/project/sql/start/2025-08-12-start.md'
                                     },
                                     {
-                                        text: '手写高性能Polaris网关（新）',
+                                        text: '手写高性能Polaris网关',
                                         link: '/md/project/gateway/start/2024-05-19-start.md'
                                     },
                                     {
@@ -695,6 +699,7 @@ module.exports = {
                     "/md/project/sql/": getBarSql(),
                     "/md/project/threadpool/": getBarThreadPool(),
                     "/md/project/sensitive/": getBarSensitive(),
+                    "/md/project/redis-plugin/": getBarRedisPlugin(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1566,6 +1571,20 @@ function getBarDistributedTransaction() {
                 "transaction-video-037.md",
                 "transaction-video-038.md",
                 "transaction-video-039.md",
+            ]
+        }
+    ]
+}
+
+
+function getBarRedisPlugin() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2025-10-20-start.md",
             ]
         }
     ]
@@ -3700,6 +3719,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/redis-plugin/2025-10-20-start.md",
                 "project/sentitive/2025-09-08-start.md",
                 "project/threadpool/2025-08-26-start.md",
                 "project/sql/2025-08-12-start.md",

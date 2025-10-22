@@ -54,16 +54,19 @@ title: 星球：冰河技术
 
 #### 1.1 业务场景项目
 
-* [分布式IM系统(整合ChatGPT)：开发一个可以直接部署运行的IM系统，高并发实战项目，更具竞争力-进行中](https://binghe.gitcode.host/md/project/im/start/2023-11-20-start.html)
-* [Seckill分布式秒杀系统：基于DDD领域驱动设计，教你灵活运用所有的分布式、高并发技术栈，更具竞争力。](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html)
-* [实战高并发设计模式项目：涵盖13个真实高并发场景案例，全称手撸代码](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html)
+* [分布式IM即时通讯系统](https://binghe.gitcode.host/md/project/im/start/2023-11-20-start.html) - 在分布式IM即时通讯系统中，我们会实现：单聊、群聊、图片、文件、语音、视频、历史消息、消息已读、未读、添加好友、删除好友、创建群、加群、退出群、查看群成员、群公告、修改群备注等一系列完整的功能，更会实现对接OpenAI大模型服务，让你深度掌握对接OpenAI大模型服务的流程和落地实现，非常适合手里没有大型高并发项目的读者进行学习。
+* [分布式Seckill秒杀系统](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html) - 基于DDD领域驱动，运用所有分布式高并发技术栈的高并发实战项目，更具竞争力，非常适合手里没有大型高并发项目的读者进行学习。
+* [实战高并发设计模式](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html) - 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
 * [简易商城脚手架项目：基于SpringCloud Alibaba整套技术栈实现](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html)
 * 涵盖各场景的电商平台（规划中）：开发一个涵盖各营销、促销、优惠、交易等场景的分布式大规模电商平台-规划中。
 
 #### 1.2 中间件项目
 
-* [手写分布式高性能RPC框架](https://binghe.gitcode.host/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html)
-* [API网关项目](https://binghe.gitcode.host/md/project/gateway/start/2024-05-19-start.html)
+* [手写高性能脱敏组件](https://binghe.gitcode.host/md/project/sensitive/start/2025-09-08-start.html) - 从零开始，手写一个大厂必备的的数据与日志脱敏基础组件，支持各种高并发、高性能场景、支持各种灵活多变的复杂敏感数据场景，并对组件进行完整的单元测试和基准性能测试，最终达到可直接应用于生产环境的标准。
+* [手写线程池项目](https://binghe.gitcode.host/md/project/threadpool/start/2025-08-26-start.html) - 从零开始，从原理到源码，一步步解析JDK线程池的核心技术，再到一步步手写线程池，最终一次性彻底吃透线程池核心技术。彻底掌握线程池技术不仅可以让你从面试中脱颖而出，还能让你游刃有余的处理工作过程中遇到的系统并发编程问题，提高系统的并发处理能力。并且掌握好线程池技术，也能从根本上提升并发编程功能，进一步突破自己的技术瓶颈。要知道，对并发编程深入理解的程度，也是普通程序员、高级程序员和架构师的一个重要分水岭。
+* [高性能SQL引擎项目](https://binghe.gitcode.host/md/project/sql/start/2025-08-12-start.html) - 冰河要带着大家从零开始一起手写一个支持各种高并发、高性能场景、支持各种灵活多变的复杂查询业务场景、自动生成SQL的引擎项目。涉及到很多互联网大厂研发过程中所使用的核心技术和架构设计模式，也有冰河在互联网大厂工作过程中，自主研发和深度参与基础软件和基础中间件架构设计和研发过程中所使用到的核心架构模式和核心技术，更重要的是，项目中积累了冰河在解决大厂基础架构问题和灵活多变的复杂业务问题的经验。
+* [高性能Polaris网关](https://binghe.gitcode.host/md/project/gateway/start/2024-05-19-start.html) - 在《高性能Polaris网关》中，冰河会带着带你从零开始架构和研发一套承接瞬时百万流量的高性能网关，经阿里云实际压测，冰河自研的Polaris网关比某些成熟的开源网关性能更高。你学到的不仅仅是一套支持瞬时百万流量的分布式、高并发、高性能、高可用、可扩展的中间件项目，更重要的是要学会大厂处理高并发、大流量场景的技术方案和架构设计思想，并学会如何将这些技术方案和架构设计思想落地到实际项目中。
+* [手写高性能RPC项目](https://binghe.gitcode.host/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html) - 从零开始架构设计并研发并开发的高性能RPC中间件，架构设计与代码落地方案对标Dubbo，让你以渐进式的方式彻底吃透RPC通信技术，非常适合没有参与过大型中间件技术开发的读者进行学习。
 * 定时调度中间件
 
 #### 1.3 硬核项目
@@ -74,7 +77,7 @@ title: 星球：冰河技术
 
 #### 1.4 源码解析
 
-* [Spring6核心技术](https://binghe.gitcode.host/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html)
+* [Spring6源码深度解析](https://binghe.gitcode.host/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html) - 整体以最新的 Spring6 为基础，以Spring中的核心注解为入口，涵盖：IOC容器、AOP切面、声明式事务、AOT预编译和SpringMVC。给出实用案例，通过对应注解在Spring源码层面执行的时序图，引导小伙伴们有针对性的去看源码，去分析源码，最后总结和思考，形成总体上的闭环，彻底吃透Spring。
 
 #### 1.5 技术小册
 

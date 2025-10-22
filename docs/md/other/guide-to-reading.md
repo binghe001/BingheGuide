@@ -255,6 +255,10 @@ title: 冰河指南
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 高性能Redis组件
+
+* [《高性能Redis组件》开篇：我要带你从零开始手搓一个彻底解决缓存击穿、穿透和雪崩问题的高性能Redis组件](https://articles.zsxq.com/id_pztcidz1slcl.html)
+
 ### 性能优化
 
 * [《性能优化》专栏开篇：性能优化到底要优化什么？](https://articles.zsxq.com/id_k6vbb7um77ez.html)
