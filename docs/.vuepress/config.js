@@ -271,6 +271,14 @@ module.exports = {
                                         link: '/md/core/nginx/2023-07-23-《Nginx核心技术》第01章-安装Nginx.md'
                                     }
                                 ]
+                            },
+                            {
+                                text: '渗透核心技术',  items: [
+                                    {
+                                        text: '渗透实战技术',
+                                        link: '/md/hack/environment/2022-04-17-001-安装Kali系统.md'
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -425,7 +433,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '项目实战',
+                        text: '🔥项目实战',
                         items: [
                             {
                                 text: "中间件项目",
@@ -510,55 +518,11 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '渗透技术',
+                        text: '🔥AI大模型',
                         items: [
                             {
-                                text: 'log4j重大漏洞',
-                                link: '/md/hack/log4j/2022-05-30-冰河连夜复现了Log4j最新重大漏洞.md'
-                            },
-                            {
-                                text: '基础环境篇',
-                                link: '/md/hack/environment/2022-04-17-001-安装Kali系统.md'
-                            },
-                            {
-                                text: '渗透工具篇',
-                                link: '/md/hack/tools/2022-04-17-001-使用Easy-Creds工具攻击无线网络.md'
-                            },
-                            {
-                                text: '木马篇',
-                                link: '/md/hack/horse/2022-05-02-001-各种一句话木马大全.md'
-                            },
-                            {
-                                text: 'SQL注入篇',
-                                link: '/md/hack/sql/2022-05-02-001-sqli-labs-master下载与安装.md'
-                            },
-                            {
-                                text: '漏洞拿Shell篇',
-                                link: '/md/hack/shell/2022-05-02-001-各种解析漏洞拿shell.md'
-                            },
-                            {
-                                text: '暴力破解篇',
-                                link: '/md/hack/crack/2022-05-02-001-使用rarcrack暴力破解RAR-ZIP-7Z压缩包.md'
-                            },
-                            {
-                                text: '渗透脚本篇',
-                                link: '/md/hack/bash/2022-05-02-001-3389脚本开启代码(vbs版).md'
-                            },
-                            {
-                                text: '数据与系统提权篇',
-                                link: '/md/hack/raising/2022-05-02-001-数据库提权.md'
-                            },
-                            {
-                                text: '客户端渗透篇',
-                                link: '/md/hack/client/2022-05-02-001-浏览器渗透.md'
-                            },
-                            {
-                                text: '社会工程学',
-                                link: '/md/hack/sociology/2022-05-02-001-Metasploit之社会工程学工具包.md'
-                            },
-                            {
-                                text: '问题记录篇',
-                                link: '/md/hack/question/2022-05-02-001-HTTP错误4031禁止访问-执行访问被拒绝.md'
+                                text: '🔥实战AI大模型(新)',
+                                link: '/md/project/ai/dk/v1/start/2025-10-25-start.md'
                             }
                         ]
                     },
@@ -700,21 +664,11 @@ module.exports = {
                     "/md/project/threadpool/": getBarThreadPool(),
                     "/md/project/sensitive/": getBarSensitive(),
                     "/md/project/redis-plugin/": getBarRedisPlugin(),
+                    "/md/project/ai/dk/v1/": getBarAiDeepSeekV1(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
-                    "/md/hack/environment/": getBarHackEnvironment(),
-                    "/md/hack/tools/": getBarHackTools(),
-                    "/md/hack/horse/": getBarHackHorse(),
-                    "/md/hack/sql/": getBarHackSQL(),
-                    "/md/hack/shell/": getBarHackShell(),
-                    "/md/hack/crack/": getBarHackCrack(),
-                    "/md/hack/bash/": getBarHackBash(),
-                    "/md/hack/raising/": getBarHackRaising(),
-                    "/md/hack/client/": getBarHackClient(),
-                    "/md/hack/sociology/": getBarHackSociology(),
-                    "/md/hack/question/": getBarHackQUestion(),
-                    "/md/hack/log4j/": getBarHackLog4j(),
+                    "/md/hack/": getBarHack(),
                     "/md/interview/": getInterview(),
                     "/md/knowledge/book/": getBarPDFPublish(),
                     "/md/knowledge/all/": getBarBookAll(),
@@ -1576,6 +1530,27 @@ function getBarDistributedTransaction() {
     ]
 }
 
+// Java
+function getBarAiDeepSeekV1() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2025-10-25-start.md",
+            ]
+        },
+        {
+            title: "第01部分：DeepSeek API实战",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "api/2025-10-26-chapter01.md",
+            ]
+        }
+    ]
+}
 
 function getBarRedisPlugin() {
     return [
@@ -3150,287 +3125,231 @@ function getBarPeojectIM() {
         }*/
     ]
 }
-// getBarHackEnvironment
-function getBarHackEnvironment() {
+
+function getBarHack() {
     return [
         {
-            title: "基础环境篇",
+            title: "第01部分：基础环境篇",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2022-04-17-001-安装Kali系统.md",
-                "2022-04-17-002-Kali配置.md",
-                "2022-04-17-003-Kali中各项菜单的功能.md",
-                "2022-04-17-004-安装open-vm-tools实现虚拟机交互.md",
-                "2022-04-17-005-Kali设置静态IP.md",
-                "2022-04-17-006-kali安装免杀工具Veil-Evasion.md",
-                "2022-04-17-007-在Debian8上安装WPScan.md",
-                "2022-04-17-008-metasploitable2修改密码.md",
-                "2022-04-17-009-操作系统支持的管道符.md",
+                "environment/2022-04-17-001-安装Kali系统.md",
+                "environment/2022-04-17-002-Kali配置.md",
+                "environment/2022-04-17-003-Kali中各项菜单的功能.md",
+                "environment/2022-04-17-004-安装open-vm-tools实现虚拟机交互.md",
+                "environment/2022-04-17-005-Kali设置静态IP.md",
+                "environment/2022-04-17-006-kali安装免杀工具Veil-Evasion.md",
+                "environment/2022-04-17-007-在Debian8上安装WPScan.md",
+                "environment/2022-04-17-008-metasploitable2修改密码.md",
+                "environment/2022-04-17-009-操作系统支持的管道符.md",
+            ]
+        },
+        {
+            title: "第02部分：渗透工具篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "tools/2022-04-17-001-使用Easy-Creds工具攻击无线网络.md",
+                "tools/2022-04-17-002-Nmap+Zenmap+Amap+Zmap.md",
+                "tools/2022-04-17-003-Zenmap.md",
+                "tools/2022-04-17-004-Amap.md",
+                "tools/2022-04-17-005-Zmap.md",
+                "tools/2022-04-17-006-Nessus的整理.md",
+                "tools/2022-04-17-007-Burpsuite上传截断及截断原理介绍.md",
+                "tools/2022-04-17-008-Kali2.0Meterpreter运用.md",
+                "tools/2022-04-17-009-lcx.exe内网转发命令教程-LCX免杀下载.md",
+                "tools/2022-04-17-010-字典生成工具Crunch的使用案例.md",
+                "tools/2022-04-17-011-WinlogonHack获取系统密码.md",
+                "tools/2022-04-17-012-Msfvenom生成各类Payload命令.md",
+                "tools/2022-04-17-013-PsExec下载地址及其用法.md",
+                "tools/2022-04-17-014-Hydra安装Libssh模块.md",
+                "tools/2022-04-17-015-利用procdump+Mimikatz绕过杀软获取Windows明文密码.md",
+                "tools/2022-04-17-016-SQLMap的用法+谷歌黑客语法.md",
+                "tools/2022-04-17-017-SQLMap用法总结.md",
+                "tools/2022-04-17-018-SQLMap参数说明.md",
+                "tools/2022-04-17-019-十大渗透测试演练系统.md",
+                "tools/2022-04-17-020-目录扫描神器DirBuster用法.md",
+                "tools/2022-04-17-021-NMap在实战中的常见用法.md",
+                "tools/2022-04-17-022-Metasploit模块的格式说明.md",
+                "tools/2022-04-17-023-Meterpreter命令大全.md",
+                "tools/2022-04-17-024-Metasploit-Meterpreter-Shell信息收集相关的命令.md",
+                "tools/2022-04-17-025-使用Metasploit编写绕过DEP渗透模块.md",
+                "tools/2022-04-17-026-Metasploit渗透php-utility-belt程序.md",
+                "tools/2022-04-17-027-内网IPC$入侵.md",
+                "tools/2022-04-17-028-Metasploit渗透BSPlayerV2.68.md",
+                "tools/2022-04-17-029-Metasploit攻击VSFTPD2.3.4后门漏洞并渗透内网.md",
+                "tools/2022-04-17-030-Metasploit攻击PHP-CGI查询字符串参数漏洞并渗透内网.md",
+                "tools/2022-04-17-031-Metasploit攻击HFS2.3上的漏洞.md",
+                "tools/2022-04-17-032-Metasploit访问控制的持久化.md",
+                "tools/2022-04-17-033-Metasploit清除渗透痕迹.md",
+                "tools/2022-04-17-034-利用Metasploit找出SCADA服务器.md",
+                "tools/2022-04-17-035-利用Metasploit渗透DATAC-RealWin-SCADA Server2.0.md",
+                "tools/2022-04-17-036-MSF-Meterpreter清理日志.md",
+                "tools/2022-04-17-037-Metasploit自定义FTP扫描模块.md",
+                "tools/2022-04-17-038-Metasploit渗透MSSQL.md",
+                "tools/2022-04-17-039-Metasploit渗透VOIP.md",
+                "tools/2022-04-17-040-破解工具hydra安装与使用.md",
+                "tools/2022-04-17-041-Metasploit自定义SSH认证暴力破解器.md",
+                "tools/2022-04-17-042-Metasploit自定义让磁盘失效的后渗透模块.md",
+                "tools/2022-04-17-043-PowerShell基本命令和绕过权限执行.md",
+                "tools/2022-05-02-001-Metasploit自定义收集登录凭证的后渗透模块.md",
+                "tools/2022-05-02-002-利用Java生成穷举字典(数字+字母(大小写)+字符).md",
+                "tools/2022-05-02-003-PowerShell工具之Powerup详解实录.md",
+                "tools/2022-05-02-004-Meterpreter以被控制的计算机为跳板渗透其他服务器.md",
+                "tools/2022-05-02-005-Win10完美去除桌面快捷图标小箭头.md",
+                "tools/2022-05-02-006-OpenVAS8.0-Vulnerability-Scanning.md",
+                "tools/2022-05-02-007-kali-Metasploit连接Postgresql默认密码.md",
+                "tools/2022-05-02-008-使用OpenVAS进行漏洞扫描.md",
+                "tools/2022-05-02-009-对威胁建模附加搭建CVE2014-6287漏洞环境.md",
+                "tools/2022-05-02-010-Metasploit设置永久访问权限.md",
+                "tools/2022-05-02-011-Empire反弹回Metasploit.md",
+                "tools/2022-05-02-012-Metasploit制作并运行自定义Meterpreper脚本.md",
+                "tools/2022-05-02-013-使用Metasploit实现对缓冲区栈的溢出攻击.md",
+                "tools/2022-05-02-014-使用Metasploit实现基于SEH的缓冲区溢出攻击.md",
+                "tools/2022-05-02-015-Metasploit基本后渗透命令.md",
+                "tools/2022-05-02-016-Metasploit高级后渗透模块.md",
+                "tools/2022-05-02-017-Kali中一键更新Metasploit框架.md",
+                "tools/2022-05-02-018-Metasploit其他后渗透模块.md",
+                "tools/2022-05-02-019-Metasploit高级扩展功能.md",
+                "tools/2022-05-02-020-Metasploit之pushm和popm命令.md",
+                "tools/2022-05-02-021-Metasploit使用reload-edit-reload_all命令加快开发过程.md",
+                "tools/2022-05-02-022-Metasploit资源脚本的使用方法.md",
+                "tools/2022-05-02-023-在Metasploit中使用AutoRunScript.md",
+                "tools/2022-05-02-024-使用Metasploit获取目标的控制权限.md",
+                "tools/2022-05-02-025-使用Metasploit中的NMap插件扫描并渗透内网主机.md",
+                "tools/2022-05-02-026-Kali一句话升级Metasploit的命令.md",
+                "tools/2022-05-02-027-Win2012R2打Windows8.1-KB2919355.md",
+                "tools/2022-05-02-028-Armitage基本原理.md",
+                "tools/2022-05-02-029-Armitage网络扫描以及主机管理.md",
+                "tools/2022-05-02-030-使用Armitage进行渗透.md",
+                "tools/2022-05-02-031-使用Armitage进行后渗透攻击.md",
+                "tools/2022-05-02-032-使用Armitage进行客户端攻击.md",
+                "tools/2022-05-02-033-Armitage脚本编写.md",
+                "tools/2022-05-02-034-Armitage控制Metasploit.md",
+                "tools/2022-05-02-035-Armitage使用Cortana实现后渗透攻击.md",
+                "tools/2022-05-02-036-Armitage使用Cortana创建自定义菜单.md",
+                "tools/2022-05-02-037-Armitage界面的使用.md",
+                "tools/2022-05-02-038-tcpdump用法说明.md",
+            ]
+        },
+        {
+            title: "第03部分：木马篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "horse/2022-05-02-001-各种一句话木马大全.md",
+                "horse/2022-05-02-002-asp图片木马的制作和使用.md",
+            ]
+        },
+        {
+            title: "第04部分：SQL注入篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sql/2022-05-02-001-sqli-labs-master下载与安装.md",
+                "sql/2022-05-02-002-SQL注入点检测方法.md",
+                "sql/2022-05-02-003-SQL语句生成一句话.md",
+                "sql/2022-05-02-004-ASP连接MSSQL数据库语句.md",
+                "sql/2022-05-02-005-SQL注入绕过技术总结.md",
+                "sql/2022-05-02-006-SQLServer启动-关闭xp_cmdshell.md",
+            ]
+        },
+        {
+            title: "第05部分：漏洞拿Shell篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "shell/2022-05-02-001-各种解析漏洞拿shell.md",
+                "shell/2022-05-02-002-网站入侵思路.md",
+                "shell/2022-05-02-003-IIS6.0-7.0-7.5-Nginx-Apache等WebService解析漏洞.md",
+                "shell/2022-05-02-004-iis7.5加fck解析漏洞后台拿shell.md",
+                "shell/2022-05-02-005-真正的IIS永远的后门解密.md",
+            ]
+        },
+        {
+            title: "第06部分：暴力破解篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "crack/2022-05-02-001-使用rarcrack暴力破解RAR-ZIP-7Z压缩包.md",
+                "crack/2022-05-02-002-使用reaver傻瓜式破解wifi之利用路由器WPS漏洞.md",
+                "crack/2022-05-02-003-Python爆破Wifi密码.md",
+                "crack/2022-05-02-004-MySQL暴力破解工具多线程版.md",
+            ]
+        },
+        {
+            title: "第07部分：渗透脚本篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "bash/2022-05-02-001-3389脚本开启代码(vbs版).md",
+                "bash/2022-05-02-002-触发EasyFileSharingWebServer7.2HEAD缓冲区溢出的Python脚本.md",
+            ]
+        },
+        {
+            title: "第08部分：数据与系统提权篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "raising/2022-05-02-001-数据库提权.md",
+                "raising/2022-05-02-002-NC反弹CMDSHELL提权总结.md",
+                "raising/2022-05-02-003-ASP-Web提权.md",
+                "raising/2022-05-02-004-MSF提权.md",
+                "raising/2022-05-02-005-Metasploit-Win10提权.md",
+            ]
+        },
+        {
+            title: "第09部分：客户端渗透篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "client/2022-05-02-001-浏览器渗透.md",
+                "client/2022-05-02-002-对网站的客户进行渗透.md",
+                "client/2022-05-02-003-与DNS欺骗的结合使用.md",
+                "client/2022-05-02-004-基于PDF文件格式的渗透攻击.md",
+                "client/2022-05-02-005-基于Word文件格式的渗透攻击.md",
+                "client/2022-05-02-006-使用Metasploit实现对Linux客户端的渗透.md",
+                "client/2022-05-02-007-使用Metasploit渗透Android系统.md",
+            ]
+        },
+        {
+            title: "第10部分：社会工程学",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sociology/2022-05-02-001-Metasploit之社会工程学工具包.md",
+            ]
+        },
+        {
+            title: "第11部分：log4j重大漏洞",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "log4j/2022-05-30-冰河连夜复现了Log4j最新重大漏洞.md",
+            ]
+        },
+        {
+            title: "第12部分：问题记录篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "question/2022-05-02-001-HTTP错误4031禁止访问-执行访问被拒绝.md",
+                "question/2022-05-02-002-XP-IIS问题总结.md",
+                "question/2022-05-02-003-IIS-403-404问题.md",
+                "question/2022-05-02-004-DEDE5.7初始化数据体验包获取失败-无法下载安装.md",
+                "question/2022-05-02-005-discuz报错Tableuc-uc_pms-doesnt-exist-uc_pms不存在.md",
+                "question/2022-05-02-006-Windows远程登录提示超出允许最大连接数解决方案.md",
+                "question/2022-05-02-007-Windows2008自动关机最简单的解决方案.md",
+                "question/2022-05-02-008-Hydra安装报错.md",
+                "question/2022-05-02-009-安装OpenVAS后找不到默认密码无法登录Web端.md",
+                "question/2022-05-02-010-AppScan使用问题记录.md",
+                "question/2022-05-02-011-Kali系统报错.md",
+                "question/2022-05-02-012-Kali运行WPScan报错.md",
             ]
         }
     ]
 }
 
-function getBarHackShell() {
-    return [
-        {
-            title: "漏洞拿Shell篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-各种解析漏洞拿shell.md",
-                "2022-05-02-002-网站入侵思路.md",
-                "2022-05-02-003-IIS6.0-7.0-7.5-Nginx-Apache等WebService解析漏洞.md",
-                "2022-05-02-004-iis7.5加fck解析漏洞后台拿shell.md",
-                "2022-05-02-005-真正的IIS永远的后门解密.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackCrack() {
-    return [
-        {
-            title: "暴力破解篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-使用rarcrack暴力破解RAR-ZIP-7Z压缩包.md",
-                "2022-05-02-002-使用reaver傻瓜式破解wifi之利用路由器WPS漏洞.md",
-                "2022-05-02-003-Python爆破Wifi密码.md",
-                "2022-05-02-004-MySQL暴力破解工具多线程版.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackBash() {
-    return [
-        {
-            title: "渗透脚本篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-3389脚本开启代码(vbs版).md",
-                "2022-05-02-002-触发EasyFileSharingWebServer7.2HEAD缓冲区溢出的Python脚本.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackRaising() {
-    return [
-        {
-            title: "数据与系统提权篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-数据库提权.md",
-                "2022-05-02-002-NC反弹CMDSHELL提权总结.md",
-                "2022-05-02-003-ASP-Web提权.md",
-                "2022-05-02-004-MSF提权.md",
-                "2022-05-02-005-Metasploit-Win10提权.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackClient() {
-    return [
-        {
-            title: "客户端渗透篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-浏览器渗透.md",
-                "2022-05-02-002-对网站的客户进行渗透.md",
-                "2022-05-02-003-与DNS欺骗的结合使用.md",
-                "2022-05-02-004-基于PDF文件格式的渗透攻击.md",
-                "2022-05-02-005-基于Word文件格式的渗透攻击.md",
-                "2022-05-02-006-使用Metasploit实现对Linux客户端的渗透.md",
-                "2022-05-02-007-使用Metasploit渗透Android系统.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackSociology() {
-    return [
-        {
-            title: "社会工程学",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-Metasploit之社会工程学工具包.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackQUestion() {
-    return [
-        {
-            title: "问题记录篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-HTTP错误4031禁止访问-执行访问被拒绝.md",
-                "2022-05-02-002-XP-IIS问题总结.md",
-                "2022-05-02-003-IIS-403-404问题.md",
-                "2022-05-02-004-DEDE5.7初始化数据体验包获取失败-无法下载安装.md",
-                "2022-05-02-005-discuz报错Tableuc-uc_pms-doesnt-exist-uc_pms不存在.md",
-                "2022-05-02-006-Windows远程登录提示超出允许最大连接数解决方案.md",
-                "2022-05-02-007-Windows2008自动关机最简单的解决方案.md",
-                "2022-05-02-008-Hydra安装报错.md",
-                "2022-05-02-009-安装OpenVAS后找不到默认密码无法登录Web端.md",
-                "2022-05-02-010-AppScan使用问题记录.md",
-                "2022-05-02-011-Kali系统报错.md",
-                "2022-05-02-012-Kali运行WPScan报错.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackLog4j() {
-    return [
-        {
-            title: "log4j重大漏洞",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-30-冰河连夜复现了Log4j最新重大漏洞.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackHorse() {
-    return [
-        {
-            title: "木马篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-各种一句话木马大全.md",
-                "2022-05-02-002-asp图片木马的制作和使用.md",
-            ]
-        }
-    ]
-}
-
-function getBarHackSQL() {
-    return [
-        {
-            title: "SQL注入篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-05-02-001-sqli-labs-master下载与安装.md",
-                "2022-05-02-002-SQL注入点检测方法.md",
-                "2022-05-02-003-SQL语句生成一句话.md",
-                "2022-05-02-004-ASP连接MSSQL数据库语句.md",
-                "2022-05-02-005-SQL注入绕过技术总结.md",
-                "2022-05-02-006-SQLServer启动-关闭xp_cmdshell.md",
-            ]
-        }
-    ]
-}
-
-// getBarHackTools
-function getBarHackTools() {
-    return [
-        {
-            title: "渗透工具篇",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "2022-04-17-001-使用Easy-Creds工具攻击无线网络.md",
-                "2022-04-17-002-Nmap+Zenmap+Amap+Zmap.md",
-                "2022-04-17-003-Zenmap.md",
-                "2022-04-17-004-Amap.md",
-                "2022-04-17-005-Zmap.md",
-                "2022-04-17-006-Nessus的整理.md",
-                "2022-04-17-007-Burpsuite上传截断及截断原理介绍.md",
-                "2022-04-17-008-Kali2.0Meterpreter运用.md",
-                "2022-04-17-009-lcx.exe内网转发命令教程-LCX免杀下载.md",
-                "2022-04-17-010-字典生成工具Crunch的使用案例.md",
-                "2022-04-17-011-WinlogonHack获取系统密码.md",
-                "2022-04-17-012-Msfvenom生成各类Payload命令.md",
-                "2022-04-17-013-PsExec下载地址及其用法.md",
-                "2022-04-17-014-Hydra安装Libssh模块.md",
-                "2022-04-17-015-利用procdump+Mimikatz绕过杀软获取Windows明文密码.md",
-                "2022-04-17-016-SQLMap的用法+谷歌黑客语法.md",
-                "2022-04-17-017-SQLMap用法总结.md",
-                "2022-04-17-018-SQLMap参数说明.md",
-                "2022-04-17-019-十大渗透测试演练系统.md",
-                "2022-04-17-020-目录扫描神器DirBuster用法.md",
-                "2022-04-17-021-NMap在实战中的常见用法.md",
-                "2022-04-17-022-Metasploit模块的格式说明.md",
-                "2022-04-17-023-Meterpreter命令大全.md",
-                "2022-04-17-024-Metasploit-Meterpreter-Shell信息收集相关的命令.md",
-                "2022-04-17-025-使用Metasploit编写绕过DEP渗透模块.md",
-                "2022-04-17-026-Metasploit渗透php-utility-belt程序.md",
-                "2022-04-17-027-内网IPC$入侵.md",
-                "2022-04-17-028-Metasploit渗透BSPlayerV2.68.md",
-                "2022-04-17-029-Metasploit攻击VSFTPD2.3.4后门漏洞并渗透内网.md",
-                "2022-04-17-030-Metasploit攻击PHP-CGI查询字符串参数漏洞并渗透内网.md",
-                "2022-04-17-031-Metasploit攻击HFS2.3上的漏洞.md",
-                "2022-04-17-032-Metasploit访问控制的持久化.md",
-                "2022-04-17-033-Metasploit清除渗透痕迹.md",
-                "2022-04-17-034-利用Metasploit找出SCADA服务器.md",
-                "2022-04-17-035-利用Metasploit渗透DATAC-RealWin-SCADA Server2.0.md",
-                "2022-04-17-036-MSF-Meterpreter清理日志.md",
-                "2022-04-17-037-Metasploit自定义FTP扫描模块.md",
-                "2022-04-17-038-Metasploit渗透MSSQL.md",
-                "2022-04-17-039-Metasploit渗透VOIP.md",
-                "2022-04-17-040-破解工具hydra安装与使用.md",
-                "2022-04-17-041-Metasploit自定义SSH认证暴力破解器.md",
-                "2022-04-17-042-Metasploit自定义让磁盘失效的后渗透模块.md",
-                "2022-04-17-043-PowerShell基本命令和绕过权限执行.md",
-                "2022-05-02-001-Metasploit自定义收集登录凭证的后渗透模块.md",
-                "2022-05-02-002-利用Java生成穷举字典(数字+字母(大小写)+字符).md",
-                "2022-05-02-003-PowerShell工具之Powerup详解实录.md",
-                "2022-05-02-004-Meterpreter以被控制的计算机为跳板渗透其他服务器.md",
-                "2022-05-02-005-Win10完美去除桌面快捷图标小箭头.md",
-                "2022-05-02-006-OpenVAS8.0-Vulnerability-Scanning.md",
-                "2022-05-02-007-kali-Metasploit连接Postgresql默认密码.md",
-                "2022-05-02-008-使用OpenVAS进行漏洞扫描.md",
-                "2022-05-02-009-对威胁建模附加搭建CVE2014-6287漏洞环境.md",
-                "2022-05-02-010-Metasploit设置永久访问权限.md",
-                "2022-05-02-011-Empire反弹回Metasploit.md",
-                "2022-05-02-012-Metasploit制作并运行自定义Meterpreper脚本.md",
-                "2022-05-02-013-使用Metasploit实现对缓冲区栈的溢出攻击.md",
-                "2022-05-02-014-使用Metasploit实现基于SEH的缓冲区溢出攻击.md",
-                "2022-05-02-015-Metasploit基本后渗透命令.md",
-                "2022-05-02-016-Metasploit高级后渗透模块.md",
-                "2022-05-02-017-Kali中一键更新Metasploit框架.md",
-                "2022-05-02-018-Metasploit其他后渗透模块.md",
-                "2022-05-02-019-Metasploit高级扩展功能.md",
-                "2022-05-02-020-Metasploit之pushm和popm命令.md",
-                "2022-05-02-021-Metasploit使用reload-edit-reload_all命令加快开发过程.md",
-                "2022-05-02-022-Metasploit资源脚本的使用方法.md",
-                "2022-05-02-023-在Metasploit中使用AutoRunScript.md",
-                "2022-05-02-024-使用Metasploit获取目标的控制权限.md",
-                "2022-05-02-025-使用Metasploit中的NMap插件扫描并渗透内网主机.md",
-                "2022-05-02-026-Kali一句话升级Metasploit的命令.md",
-                "2022-05-02-027-Win2012R2打Windows8.1-KB2919355.md",
-                "2022-05-02-028-Armitage基本原理.md",
-                "2022-05-02-029-Armitage网络扫描以及主机管理.md",
-                "2022-05-02-030-使用Armitage进行渗透.md",
-                "2022-05-02-031-使用Armitage进行后渗透攻击.md",
-                "2022-05-02-032-使用Armitage进行客户端攻击.md",
-                "2022-05-02-033-Armitage脚本编写.md",
-                "2022-05-02-034-Armitage控制Metasploit.md",
-                "2022-05-02-035-Armitage使用Cortana实现后渗透攻击.md",
-                "2022-05-02-036-Armitage使用Cortana创建自定义菜单.md",
-                "2022-05-02-037-Armitage界面的使用.md",
-                "2022-05-02-038-tcpdump用法说明.md",
-
-            ]
-        }
-    ]
-}
 // getInterview
 function getInterview() {
     return [
@@ -3702,6 +3621,14 @@ function getStarBall() {
             sidebarDepth: 1,
             children: [
                 "essence/essence.md"
+            ]
+        },
+        {
+            title: "AI大模型",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/ai/dk/v1/2025-10-25-start.md",
             ]
         },
         {
