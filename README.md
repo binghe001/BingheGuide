@@ -292,6 +292,7 @@
 
 * [《实战AI大模型》开篇：实战AI大模型专栏正式开撸](https://articles.zsxq.com/id_rwr4how9f1dh.html)
 * [《实战AI大模型》DeepSeek API实战-第01节：实战Java和Python调用DeepSeek API](https://articles.zsxq.com/id_8e3g1w4wklrj.html)
+* [《实战AI大模型》DeepSeek API实战-第02节：DeepSeek API流式调用实战](https://articles.zsxq.com/id_d8gc58i18uxw.html)
 
 ### 💥 高性能Redis组件
 

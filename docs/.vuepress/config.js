@@ -1547,6 +1547,7 @@ function getBarAiDeepSeekV1() {
             sidebarDepth: 0,
             children: [
                 "api/2025-10-26-chapter01.md",
+                "api/2025-11-01-chapter02.md",
             ]
         }
     ]
