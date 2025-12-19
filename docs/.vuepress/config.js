@@ -1548,6 +1548,22 @@ function getBarAiDeepSeekV1() {
             children: [
                 "api/2025-10-26-chapter01.md",
                 "api/2025-11-01-chapter02.md",
+                "api/2025-11-14-chapter03.md",
+            ]
+        },
+        {
+            title: "第02部分：部署AI大模型",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "deploy/2025-11-18-chapter01.md",
+                "deploy/2025-11-22-chapter02.md",
+                "deploy/2025-11-23-chapter03.md",
+                "deploy/2025-11-24-chapter04.md",
+                "deploy/2025-11-25-chapter05.md",
+                "deploy/2025-11-26-chapter06.md",
+                "deploy/2025-11-30-chapter07.md",
+                "deploy/2025-12-01-chapter08.md",
             ]
         }
     ]
