@@ -255,6 +255,34 @@ title: 冰河指南
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 大模型案例
+
+* [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
+* [实战AI大模型：基于 Spring AI 与 Dify：搭建文档问答系统](https://articles.zsxq.com/id_cvtmxmaa0qug.html)
+* [实战指南：基于SpringAI与DeepSeek构建企业级AI应用的五种实用案例](https://articles.zsxq.com/id_7ngza06rtli1.html)
+* [实战AI研发提效：IDEA集成DeepSeek，快速提升开发和定位问题的效率](https://articles.zsxq.com/id_ke029kgrk97m.html)
+* [又一个项目：基于SpringAI Alibaba开发第一个大模型智能体](https://articles.zsxq.com/id_oxnwl9cnvk2w.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_uzj0fcw3t2ik.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整基座项目）](https://articles.zsxq.com/id_knhhkonzp5kh.html)
+* [实战AI大模型：从实战角度搞懂MCP、Function Calling和A2A](https://articles.zsxq.com/id_iuckx0u5dndh.html)
+* [又一个MCP基座项目完结：让LLM拥有"超能力"，打造个人专属工具库](https://articles.zsxq.com/id_rh7uha0v7l9x.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整项目）](https://articles.zsxq.com/id_44xu8p2dwngs.html)
+* [实战FastMCP：3分钟让LLM拥有"超能力"，打造专属工具库（Python版）](https://articles.zsxq.com/id_nck13qwbm68w.html)
+* [Spring AI MCP实战：用 Java快速搭建MCP服务接入LLM](https://articles.zsxq.com/id_n0gehwf475t1.html)
+* [一文彻底吃透MCP：原理剖析+生态详解+完整项目实战](https://articles.zsxq.com/id_6wtkibmqjl97.html)
+* [SpringAI MCP实战：从理论到代码、从设计Agent再到构建MCP服务](https://articles.zsxq.com/id_anno4o2ex74u.html)
+* [MCP网关实战：用MCP网关打造超级AI开发助手](https://articles.zsxq.com/id_zroeir9ie93x.html)
+* [实战：SpringBoot+MCP 让你的系统秒变AI助手](https://articles.zsxq.com/id_nlkotgr2g9ar.html)
+* [Spring AI + DeepSeek：让数据库听懂人话查数据实战案例](https://articles.zsxq.com/id_5rjxhgaznjun.html)
+* [DeepSeek大模型：从部署、开发到知识库搭建，从入门到精通](https://articles.zsxq.com/id_bpblxhlwfvuv.html)
+* [SpringAI实现一个简单的问答系统（实战）](https://articles.zsxq.com/id_nhwt8jzp25lx.html)
+* [本地部署DeepSeeK+Dify部署](https://articles.zsxq.com/id_t2og818nre9v.html)
+* [一文教你使用：Ollama+DeepSeek+Docker+MaxKB搭建本地知识库](https://articles.zsxq.com/id_sw4icrpeao23.html)
+* [如何基于dify和deepseek轻松训练自己的AI大模型](https://articles.zsxq.com/id_p86c0wo5xpim.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_1rmgngfm3fml.html)
+* [最新版DeepSeek保姆级安装教程：本地部署+避坑指南](https://articles.zsxq.com/id_rrwua7wxs37z.html)
+* [超简单：三步教你搞定DeepSeek本地部署](https://articles.zsxq.com/id_p8fdfdrg53wx.html)
+
 ### 💥💥💥 实战AI大模型
 
 * [《实战AI大模型》开篇：实战AI大模型专栏正式开撸](https://articles.zsxq.com/id_rwr4how9f1dh.html)

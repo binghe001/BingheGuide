@@ -290,6 +290,7 @@
 
 ### 大模型案例
 
+* [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
 * [实战AI大模型：基于 Spring AI 与 Dify：搭建文档问答系统](https://articles.zsxq.com/id_cvtmxmaa0qug.html)
 * [实战指南：基于SpringAI与DeepSeek构建企业级AI应用的五种实用案例](https://articles.zsxq.com/id_7ngza06rtli1.html)
 * [实战AI研发提效：IDEA集成DeepSeek，快速提升开发和定位问题的效率](https://articles.zsxq.com/id_ke029kgrk97m.html)

@@ -1565,6 +1565,54 @@ function getBarAiDeepSeekV1() {
                 "deploy/2025-11-30-chapter07.md",
                 "deploy/2025-12-01-chapter08.md",
             ]
+        },
+        {
+            title: "第03部分：生成AI应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "app/2025-12-02-chapter01.md",
+                "app/2025-12-03-chapter02.md",
+                "app/2025-12-04-chapter03.md",
+                "app/2025-12-05-chapter04.md",
+                "app/2025-12-06-chapter05.md",
+                "app/2025-12-07-chapter06.md",
+                "app/2025-12-08-chapter07.md",
+                "app/2025-12-09-chapter08.md",
+                "app/2025-12-10-chapter09.md",
+                "app/2025-12-11-chapter10.md",
+                "app/2025-12-12-chapter11.md",
+            ]
+        },
+        {
+            title: "第04部分：AI数字人应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "number/2025-12-13-chapter01.md",
+                "number/2025-12-14-chapter02.md",
+                "number/2025-12-15-chapter03.md",
+                "number/2025-12-16-chapter04.md",
+                "number/2025-12-17-chapter05.md",
+            ]
+        },
+        {
+            title: "第05部分：增强与优化",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "optimize/2025-12-18-chapter01.md",
+                "optimize/2025-12-19-chapter02.md",
+                "optimize/2025-12-20-chapter03.md",
+            ]
+        },
+        {
+            title: "专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2025-12-23-summary.md",
+            ]
         }
     ]
 }
