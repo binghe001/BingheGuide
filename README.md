@@ -290,6 +290,7 @@
 
 ### 大模型案例
 
+* [基于 Spring AI 构建MCP服务端与客户端（含SSE 与STDIO模式完整实现源码）](https://articles.zsxq.com/id_hqcbubtxp4ox.html)
 * [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
 * [实战AI大模型：基于 Spring AI 与 Dify：搭建文档问答系统](https://articles.zsxq.com/id_cvtmxmaa0qug.html)
 * [实战指南：基于SpringAI与DeepSeek构建企业级AI应用的五种实用案例](https://articles.zsxq.com/id_7ngza06rtli1.html)
@@ -353,6 +354,9 @@
 ### 💥 高性能Redis组件
 
 * [《高性能Redis组件》开篇：我要带你从零开始手搓一个彻底解决缓存击穿、穿透和雪崩问题的高性能Redis组件](https://articles.zsxq.com/id_pztcidz1slcl.html)
+* [《高性能Redis组件》需求设计-第01节：为何要学习高性能Redis组件](https://articles.zsxq.com/id_gwomp8mr0w56.html)
+* [《高性能Redis组件》需求设计-第02节：高性能Redis组件的目标与挑战](https://articles.zsxq.com/id_bijb9o6lhm7e.html)
+
 
 ### 💥 性能优化
 

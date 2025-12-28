@@ -1626,6 +1626,15 @@ function getBarRedisPlugin() {
             children: [
                 "start/2025-10-20-start.md",
             ]
+        },
+        {
+            title: "第01部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "demand/2025-10-23-chapter01.md",
+                "demand/2025-12-28-chapter02.md",
+            ]
         }
     ]
 }
