@@ -356,7 +356,8 @@
 * [《高性能Redis组件》开篇：我要带你从零开始手搓一个彻底解决缓存击穿、穿透和雪崩问题的高性能Redis组件](https://articles.zsxq.com/id_pztcidz1slcl.html)
 * [《高性能Redis组件》需求设计-第01节：为何要学习高性能Redis组件](https://articles.zsxq.com/id_gwomp8mr0w56.html)
 * [《高性能Redis组件》需求设计-第02节：高性能Redis组件的目标与挑战](https://articles.zsxq.com/id_bijb9o6lhm7e.html)
-
+* [《高性能Redis组件》需求设计-第03节：高性能Redis组件需求与功能处理](https://articles.zsxq.com/id_biqptfgt1xvg.html)
+* [《高性能Redis组件》总体架构-第01节：高性能Redis组件总体方案目标、技术选型与落地方案](https://articles.zsxq.com/id_159w2zrs8qpi.html)
 
 ### 💥 性能优化
 

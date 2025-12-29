@@ -1634,6 +1634,15 @@ function getBarRedisPlugin() {
             children: [
                 "demand/2025-10-23-chapter01.md",
                 "demand/2025-12-28-chapter02.md",
+                "demand/2025-12-29-chapter03.md",
+            ]
+        },
+        {
+            title: "第02部分：总体架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "archit/2025-12-30-chapter01.md",
             ]
         }
     ]
