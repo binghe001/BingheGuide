@@ -346,8 +346,14 @@ title: 冰河指南
 * [《高性能Redis组件》开篇：我要带你从零开始手搓一个彻底解决缓存击穿、穿透和雪崩问题的高性能Redis组件](https://articles.zsxq.com/id_pztcidz1slcl.html)
 * [《高性能Redis组件》需求设计-第01节：为何要学习高性能Redis组件](https://articles.zsxq.com/id_gwomp8mr0w56.html)
 * [《高性能Redis组件》需求设计-第02节：高性能Redis组件的目标与挑战](https://articles.zsxq.com/id_bijb9o6lhm7e.html)
-* [《高性能Redis组件》需求设计-第03节：高性能Redis组件需求与功能处理](https://articles.zsxq.com/id_biqptfgt1xvg.html)
+* [《高性能Redis组件》需求设计-第03节：高性能Redis组件需求与功能梳理](https://articles.zsxq.com/id_biqptfgt1xvg.html)
 * [《高性能Redis组件》总体架构-第01节：高性能Redis组件总体方案目标、技术选型与落地方案](https://articles.zsxq.com/id_159w2zrs8qpi.html)
+* [《高性能Redis组件》落地实现-第01节：高性能Redis组件基础功能设计与实现](https://articles.zsxq.com/id_6frjx0k7uj2j.html)
+* [《高性能Redis组件》落地实现-第02节：高性能Redis组件分布式锁设计与实现](https://articles.zsxq.com/id_r6stemvv0www.html)
+* [《高性能Redis组件》落地实现-第03节：高性能Redis组件防缓存击穿、穿透和雪崩的核心设计与实现](https://articles.zsxq.com/id_l2tpd67g1kqo.html)
+* [《高性能Redis组件》测试验证-第01节：高性能Redis组件单元测试场景验证](https://articles.zsxq.com/id_uh77t1erbrr2.html)
+* [《高性能Redis组件》测试验证-第02节：高性能Redis组件基准性能测试](https://articles.zsxq.com/id_noziplj72g2a.html)
+* [《高性能Redis组件》总结-高性能Redis组件整体专栏总结](https://articles.zsxq.com/id_7f7wo3mi8cpi.html)
 
 
 ### 💥 性能优化

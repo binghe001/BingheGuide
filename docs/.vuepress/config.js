@@ -1644,6 +1644,33 @@ function getBarRedisPlugin() {
             children: [
                 "archit/2025-12-30-chapter01.md",
             ]
+        },
+        {
+            title: "第03部分：落地实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "coding/2026-01-04-chapter01.md",
+                "coding/2026-01-06-chapter02.md",
+                "coding/2026-01-07-chapter03.md",
+            ]
+        },
+        {
+            title: "第04部分：测试验证",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "test/2026-01-08-chapter01.md",
+                "test/2026-01-09-chapter02.md",
+            ]
+        },
+        {
+            title: "专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2026-01-10-summary.md",
+            ]
         }
     ]
 }
