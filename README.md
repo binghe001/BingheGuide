@@ -1187,12 +1187,37 @@
 #### 作业篇
 * [《Spring核心技术》作业：专栏整体作业](https://t.zsxq.com/0cK9NLELB)
 
-### 性能优化专栏（热更中）
+### 💥 面试案例第一季
 
-* [《性能优化》专栏开篇：性能优化到底要优化什么？](https://mp.weixin.qq.com/s/XWTs6-1hqTI-8iTAe5ZVgQ)
-* [《性能优化》第01章：性能优化的7大杀手锏！](https://mp.weixin.qq.com/s/Bgw5eWf58-ro89O_ln4CGg)
-* [《性能优化》第02章：深入剖析 CPU、内存与 I/O 瓶颈](https://mp.weixin.qq.com/s/q69kJqWrojtlBXx3ASutfQ)
-* [《性能优化》第03章：分析代码运行过程中的性能](https://mp.weixin.qq.com/s/og6-t7zaLh27knF6Oz7qWg)
+* [八大场景彻底搞定Nacos面试](https://articles.zsxq.com/id_rgwh6q0fvqrb.html)
+* [阿里架构二面：如何设计一个百万级别QPS的高并发抢券系统？](https://articles.zsxq.com/id_hujova8brk9c.html)
+* [腾讯二面：千万级大表如何快速删除大量数据？](https://articles.zsxq.com/id_vhos52iwqxkt.html)
+* [阿里二面：千万级并发秒杀抢卷活动出现热点Key，如何优化Redis和数据库的性能？](https://articles.zsxq.com/id_wxrs1iua7gtx.html)
+
+### 💥 硬核八股第一季
+
+* [《面试八股》第01章：Java基础面试题](https://articles.zsxq.com/id_8i2wwu77ukog.html)
+* [《面试八股》第02章：集合容器面试题](https://articles.zsxq.com/id_kmmo73vdmaaq.html)
+* [《面试八股》第03章：Java异常面试题](https://articles.zsxq.com/id_e2b9n6w7etok.html)
+* [《面试八股》第04章：并发编程面试题](https://articles.zsxq.com/id_bdnd6hqrv8t2.html)
+* [《面试八股》第05章：SpringMVC面试题](https://articles.zsxq.com/id_te3rbbssa2a4.html)
+* [《面试八股》第06章：Spring面试题](https://articles.zsxq.com/id_qchid3vu03eh.html)
+* [《面试八股》第07章：MyBatis面试题](https://articles.zsxq.com/id_ggn9mwtlxevn.html)
+* [《面试八股》第08章：JVM面试题](https://articles.zsxq.com/id_5tugbzcrh8c1.html)
+* [《面试八股》第09章：MySQL面试题](https://articles.zsxq.com/id_sgw5pvfv9sfp.html)
+* [《面试八股》第10章：Tomcat面试题](https://articles.zsxq.com/id_4dbkkwdv5c7s.html)
+* [《面试八股》第11章：Linux操作系统面试题](https://articles.zsxq.com/id_xro97zp7gkb2.html)
+* [《面试八股》第12章：Redis面试题](https://articles.zsxq.com/id_fk9a1vizfx2l.html)
+* [《面试八股》第13章：Zookeeper面试题](https://articles.zsxq.com/id_kvb8tvrp0g0t.html)
+* [《面试八股》第14章：Dubbo面试题](https://articles.zsxq.com/id_tz8fqbmt9twz.html)
+* [《面试八股》第15章：MQ消息中间件面试题](https://articles.zsxq.com/id_o7g7v9p3l8zw.html)
+* [《面试八股》第16章：Netty面试题](https://articles.zsxq.com/id_oh8hjw7oz67d.html)
+* [《面试八股》第17章：SpringBoot面试题](https://articles.zsxq.com/id_de84kk0a9p6g.html)
+* [《面试八股》第18章：SpringCloud面试题](https://articles.zsxq.com/id_3peino8he5su.html)
+* [《面试八股》第19章：分布式面试题](https://articles.zsxq.com/id_mcj0cboux07j.html)
+* [《面试八股》第20章：计算机网络面试题](https://articles.zsxq.com/id_91daxq9q3jc4.html)
+* [《面试八股》第21章：数据结构与算法面试题](https://articles.zsxq.com/id_9c67khhwlz6w.html)
+* [《面试八股》第22章：设计模式面试题](https://articles.zsxq.com/id_wj2bwd7x1g31.html)
 
 ### 💥 深入理解JVM系列
 
