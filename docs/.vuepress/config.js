@@ -436,6 +436,19 @@ module.exports = {
                         text: '🔥项目实战',
                         items: [
                             {
+                                text: "🔥AI大模型项目",
+                                items:[
+                                    {
+                                        text: '🔥AI智能问答系统(新)',
+                                        link: '/md/project/ai/qa/start/2025-01-14-start.md'
+                                    },
+                                    {
+                                        text: '🔥实战AI大模型(新)',
+                                        link: '/md/project/ai/dk/v1/start/2025-10-25-start.md'
+                                    }
+                                ]
+                            },
+                            {
                                 text: "中间件项目",
                                 items:[
                                     {
@@ -514,15 +527,6 @@ module.exports = {
                                         link: '/md/frame/spring/ioc/2022-12-02-《Spring核心技术》开篇-我要带你一步步调试Spring6.0源码啦.md'
                                     }
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        text: '🔥AI大模型',
-                        items: [
-                            {
-                                text: '🔥实战AI大模型(新)',
-                                link: '/md/project/ai/dk/v1/start/2025-10-25-start.md'
                             }
                         ]
                     },
@@ -665,6 +669,7 @@ module.exports = {
                     "/md/project/sensitive/": getBarSensitive(),
                     "/md/project/redis-plugin/": getBarRedisPlugin(),
                     "/md/project/ai/dk/v1/": getBarAiDeepSeekV1(),
+                    "/md/project/ai/": getBarAiQaSystem(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1527,6 +1532,37 @@ function getBarDistributedTransaction() {
                 "transaction-video-039.md",
             ]
         }
+    ]
+}
+
+function getBarAiQaSystem() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2025-01-14-start.md"
+            ]
+        },
+        {
+            title: "第01部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "demand/2026-01-15-chapter01.md"
+            ]
+        },
+        {
+            title: "第02部分：落地实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "coding/2026-01-16-chapter01.md",
+                "coding/2026-01-18-chapter02.md",
+                "coding/2026-01-19-chapter03.md",
+            ]
+        },
     ]
 }
 
@@ -3738,6 +3774,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai/qa/2025-01-14-start.md",
                 "project/ai/dk/v1/2025-10-25-start.md",
             ]
         },

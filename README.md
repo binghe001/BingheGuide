@@ -288,7 +288,15 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
-### 大模型案例
+### 💥💥💥 AI智能问答系统
+
+* [《AI智能问答系统》开篇：AI智能问答极简系统正式开撸](https://articles.zsxq.com/id_i150l051l82g.html)
+* [《AI智能问答系统》需求设计：AI智能问答系统的需求与流程设计](https://articles.zsxq.com/id_82ntjb2j7cd1.html)
+* [《AI智能问答系统》落地实现-第01节：AI智能问答系统简单对话模型的设计与实现](https://articles.zsxq.com/id_hk9o2brnwj8j.html)
+* [《AI智能问答系统》落地实现-第02节：AI智能问答系统历史会话模型的设计与实现](https://articles.zsxq.com/id_vwifn2s091ju.html)
+* [《AI智能问答系统》落地实现-第03节：AI智能问答系统知识库模型的设计与实现](https://articles.zsxq.com/id_n2efsgo7qfcl.html)
+
+### 💥💥💥 大模型案例
 
 * [基于 Spring AI 构建MCP服务端与客户端（含SSE 与STDIO模式完整实现源码）](https://articles.zsxq.com/id_hqcbubtxp4ox.html)
 * [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
