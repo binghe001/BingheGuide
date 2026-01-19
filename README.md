@@ -295,6 +295,7 @@
 * [《AI智能问答系统》落地实现-第01节：AI智能问答系统简单对话模型的设计与实现](https://articles.zsxq.com/id_hk9o2brnwj8j.html)
 * [《AI智能问答系统》落地实现-第02节：AI智能问答系统历史会话模型的设计与实现](https://articles.zsxq.com/id_vwifn2s091ju.html)
 * [《AI智能问答系统》落地实现-第03节：AI智能问答系统知识库模型的设计与实现](https://articles.zsxq.com/id_n2efsgo7qfcl.html)
+* [《AI智能问答系统》落地实现-第04节：AI智能问答系统前端页面的设计与实现](https://articles.zsxq.com/id_2l3gc2xd1c0l.html)
 
 ### 💥💥💥 大模型案例
 

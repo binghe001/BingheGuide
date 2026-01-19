@@ -26,11 +26,18 @@ footer: GPL Licensed | Copyright © 2022~2025 冰河，All rights reserved. 沉�
 
 ### 开发的项目
 
+* AI大模型
+  * [实战AI大模型](https://binghe.gitcode.host/md/project/ai/dk/v1/start/2025-10-25-start.html) - 整体专栏分成几部分，大致分成：专栏介绍、DeepSeek API实战、部署大模型、生成AI应用、AI数字人应用和增强与优化等，全程实战，让你从实战角度深入理解AI大模型，并完成一个个经典的实战案例，每个案例都可单独写到简历充实简历的项目经历。
+  * [手写专属MCP工具库](https://articles.zsxq.com/id_44xu8p2dwngs.html) - 从零开始带着大家系统性手写的基于AI的专属MCP工具库，通信层采用WebSocket+HTTP提供双向协议支持，协议层采用MCP协议解析提供标准化的AI交互，让你从一个项目彻底吃透MCP项目的设计和开发流程。
+
 * 高并发项目
   * [分布式IM即时通讯系统](https://binghe.gitcode.host/md/project/im/start/2023-11-20-start.html) - 在分布式IM即时通讯系统中，我们会实现：单聊、群聊、图片、文件、语音、视频、历史消息、消息已读、未读、添加好友、删除好友、创建群、加群、退出群、查看群成员、群公告、修改群备注等一系列完整的功能，更会实现对接OpenAI大模型服务，让你深度掌握对接OpenAI大模型服务的流程和落地实现，非常适合手里没有大型高并发项目的读者进行学习。
   * [分布式Seckill秒杀系统](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html) - 基于DDD领域驱动，运用所有分布式高并发技术栈的高并发实战项目，更具竞争力，非常适合手里没有大型高并发项目的读者进行学习。
   * [实战高并发设计模式](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html) - 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
 * 中间件项目
+  * [高性能Redis组件](https://binghe.gitcode.host/md/project/redis-plugin/start/2025-10-20-start.html) - 从零开始，手写一个彻底解决缓存击穿、穿透和雪崩问题的高性能通用Redis组件，支持各种高并发、高性能场景、支持各种灵活多变的复杂Redis读写场景，并对组件进行完整的单元测试和基准性能测试，最终达到可直接应用于生产环境的标准。
+  * [高性能熔断限流组件](https://articles.zsxq.com/id_zuv6si9ztzb2.html) - 从零开始，设计和手写的一个基于Sentinel的熔断限流组件，比Sentinel支持更加灵活、更细粒度的熔断和限流策略，支持Nacos热更配置，支持动态异步加载规则，对Sentinel的性能无损，完全可应用于实际生产环境。
+  * [高性能监控组件](https://articles.zsxq.com/id_3550o56rw2uz.html) - 从零开始，设计和手写的一个上报Prometheus监控指标的通用组件项目，业务系统引用组件后，即可轻松输出各种监控指标，完全可应用于实际生产环境。
   * [手写高性能脱敏组件](https://binghe.gitcode.host/md/project/sensitive/start/2025-09-08-start.html) - 从零开始，手写一个大厂必备的的数据与日志脱敏基础组件，支持各种高并发、高性能场景、支持各种灵活多变的复杂敏感数据场景，并对组件进行完整的单元测试和基准性能测试，最终达到可直接应用于生产环境的标准。
   * [手写线程池项目](https://binghe.gitcode.host/md/project/threadpool/start/2025-08-26-start.html) - 从零开始，从原理到源码，一步步解析JDK线程池的核心技术，再到一步步手写线程池，最终一次性彻底吃透线程池核心技术。彻底掌握线程池技术不仅可以让你从面试中脱颖而出，还能让你游刃有余的处理工作过程中遇到的系统并发编程问题，提高系统的并发处理能力。并且掌握好线程池技术，也能从根本上提升并发编程功能，进一步突破自己的技术瓶颈。要知道，对并发编程深入理解的程度，也是普通程序员、高级程序员和架构师的一个重要分水岭。
   * [高性能SQL引擎项目](https://binghe.gitcode.host/md/project/sql/start/2025-08-12-start.html) - 冰河要带着大家从零开始一起手写一个支持各种高并发、高性能场景、支持各种灵活多变的复杂查询业务场景、自动生成SQL的引擎项目。涉及到很多互联网大厂研发过程中所使用的核心技术和架构设计模式，也有冰河在互联网大厂工作过程中，自主研发和深度参与基础软件和基础中间件架构设计和研发过程中所使用到的核心架构模式和核心技术，更重要的是，项目中积累了冰河在解决大厂基础架构问题和灵活多变的复杂业务问题的经验。
@@ -40,6 +47,11 @@ footer: GPL Licensed | Copyright © 2022~2025 冰河，All rights reserved. 沉�
   * [商城脚手架项目](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html) - 基于SpringCloud Alibaba全套技术栈实现，从零开始手把手教你搭建一套完整的微服务项目，非常适合微服务架构、设计、基础薄弱的读者学习，学完完全可以独立搭建一套基于SpringCloud Alibaba全套技术栈的微服务项目。
 * 手撕源码
   * [Spring6源码深度解析](https://binghe.gitcode.host/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html) - 整体以最新的 Spring6 为基础，以Spring中的核心注解为入口，涵盖：IOC容器、AOP切面、声明式事务、AOT预编译和SpringMVC。给出实用案例，通过对应注解在Spring源码层面执行的时序图，引导小伙伴们有针对性的去看源码，去分析源码，最后总结和思考，形成总体上的闭环，彻底吃透Spring。
+  * [MyBatis源码深度解析](https://articles.zsxq.com/id_rldgoc5qqqfs.html) - 整体对MyBatis的源码进行深度解析，涵盖：整体架构、基础支撑源码解析、加载mybatis-config.xml流程、Mapper接口映射、初始化SQL流程、Executor源码解析、StatementHandler源码解析、ResultSetHandler源码解析、延迟加载源码解析、SqlSeesion会话源码解析、MyBatis插件机制源码解析、mybatis-spring源码解析和mybatis-spring-boot源码解析等，360度无死角让你彻底吃透MyBatis。
+* 硬核专栏
+  * [性能优化专栏](https://articles.zsxq.com/id_4x29pkn4ccib.html) - 系统性的总结了Java性能优化各种实用的分析策略和优化手段，内容涵盖：剖析CPU/内存与IO瓶颈、分析代码运行时性能、JMH基准测试工具、缓冲区优化代码性能、缓存提升系统性能、秒杀系统深度优化、池化对象提升性能、设计模式提升性能、并行计算提升性能、优化锁提升性能、乐观锁与无锁提升性能、使用NIO和AIO提升性能、优化代码提升性能、JVM参数调优、JIT调优、SpringBoot服务优化、重试机制最佳实践等，让你从根本上系统性的掌握性能优化的实用方案和优化手段。
+* 面试现场
+  * [硬核八股第一季](https://articles.zsxq.com/id_8b4ui4gac0g8.html) - 冰河结合多年大厂面试官视角整理的各种高频面试题，涵盖：Java基础、集合容器、Java异常、并发编程、SpringMVC、Spring、MyBatis、JVM、MySQL、Tomcat、Linux、Redis、Zookeeper、Dubbo、MQ、Netty、SpringBoot、SpringCloud、分布式、计算机网络、数据结构与算法、设计模式等，有大厂面试官为你亲自整理，你还怕面试不过？
 
 ## 出版图书
 

@@ -669,7 +669,7 @@ module.exports = {
                     "/md/project/sensitive/": getBarSensitive(),
                     "/md/project/redis-plugin/": getBarRedisPlugin(),
                     "/md/project/ai/dk/v1/": getBarAiDeepSeekV1(),
-                    "/md/project/ai/": getBarAiQaSystem(),
+                    "/md/project/ai/qa/": getBarAiQaSystem(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
