@@ -1561,6 +1561,23 @@ function getBarAiQaSystem() {
                 "coding/2026-01-16-chapter01.md",
                 "coding/2026-01-18-chapter02.md",
                 "coding/2026-01-19-chapter03.md",
+                "coding/2026-01-20-chapter04.md",
+            ]
+        },
+        {
+            title: "第03部分：功能测试",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "testing/2026-01-21-chapter01.md",
+            ]
+        },
+        {
+            title: "第04部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2026-01-22-summary.md",
             ]
         },
     ]
