@@ -22,7 +22,7 @@ lock: need
 
 我们先来看下AnnotationAwareAspectJAutoProxyCreator类的结构图。
 
-![013](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-038-001.png)
+![013](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-038-001.png)
 
 上图中一些 **类/接口** 的介绍：
 
@@ -397,7 +397,7 @@ protected Object wrapIfNecessary(Object bean, String beanName, Object cacheKey) 
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -444,7 +444,7 @@ protected Object wrapIfNecessary(Object bean, String beanName, Object cacheKey) 
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -456,7 +456,7 @@ protected Object wrapIfNecessary(Object bean, String beanName, Object cacheKey) 
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -467,7 +467,7 @@ protected Object wrapIfNecessary(Object bean, String beanName, Object cacheKey) 
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -481,7 +481,7 @@ protected Object wrapIfNecessary(Object bean, String beanName, Object cacheKey) 
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

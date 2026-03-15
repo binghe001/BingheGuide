@@ -8,8 +8,8 @@ pay: https://articles.zsxq.com/id_zchmw3ulitfs.html
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
 <br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客2：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -37,7 +37,7 @@ Semaphore是JDK中提供的一种并发工具类，底层是基于AbstractQueued
 
 基于SPI扩展Semaphore限流策略的流程如图112-1所示。
 
-![图112-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-02-17-001.png)
+![图112-1](https://binghe.site/assets/images/middleware/rpc/rpc-2023-02-17-001.png)
 
 由图112-1可以看出如下信息：
 
@@ -101,7 +101,7 @@ Semaphore是JDK中提供的一种并发工具类，底层是基于AbstractQueued
 
 基于SPI扩展Semaphore限流策略的核心类关系如图112-2所示。
 
-![图112-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-02-17-002.png)
+![图112-2](https://binghe.site/assets/images/middleware/rpc/rpc-2023-02-17-002.png)
 
 ## 查看完整文章
 

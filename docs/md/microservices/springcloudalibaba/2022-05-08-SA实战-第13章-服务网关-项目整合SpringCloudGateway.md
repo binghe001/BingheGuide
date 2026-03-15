@@ -12,8 +12,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 
 **大家好，我是冰河~~**
@@ -26,7 +26,7 @@ lock: need
 
 ## 本章总览
 
-![sa-2022-05-08-026](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-026.png)
+![sa-2022-05-08-026](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-026.png)
 
 ## 章节概述
 
@@ -36,13 +36,13 @@ lock: need
 
 我们需要在项目中增加一个服务网关模块shop-gateway，在服务网关模块中实现网关的能力。此时，我们的项目中就会有用户微服务、商品微服务、订单微服务和服务网关。
 
-![sa-2022-05-08-005](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-005.png)
+![sa-2022-05-08-005](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-005.png)
 
 ### 新建网关模块
 
 在项目中新建shop-gateway模块，新增网关模块后项目的结构如下图所示。
 
-![sa-2022-05-08-006](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-006.png)
+![sa-2022-05-08-006](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-006.png)
 
 ### 初步整合SpringCloud Gateway
 
@@ -147,7 +147,7 @@ java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8888 -Dproject
 
 （6）通过服务网关访问用户微服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-08-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
+![sa-2022-05-08-007](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
 
 用户微服务返回的原始数据如下所示。
 
@@ -165,7 +165,7 @@ java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8888 -Dproject
 
 （7）通过服务网关访问商品微服务，在浏览器中输入`http://localhost:10001/server-product/product/get/1001`，如下所示。
 
-![sa-2022-05-08-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
+![sa-2022-05-08-008](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
 
 商品微服务返回的原始数据如下所示。
 
@@ -182,7 +182,7 @@ java -Dserver.port=8888 -Dcsp.sentinel.dashboard.server=localhost:8888 -Dproject
 
 （8）通过服务网关访问订单微服务，在浏览器中输入`http://localhost:10001/server-order/order/test_sentinel`，如下所示。
 
-![sa-2022-05-08-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
+![sa-2022-05-08-009](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
 
 可以看到，通过服务网关能够正确访问到订单微服务。
 
@@ -347,7 +347,7 @@ spring:
 
 （5）通过服务网关访问用户微服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-08-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
+![sa-2022-05-08-007](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
 
 用户微服务返回的原始数据如下所示。
 
@@ -365,7 +365,7 @@ spring:
 
 （6）通过服务网关访问商品微服务，在浏览器中输入`http://localhost:10001/server-product/product/get/1001`，如下所示。
 
-![sa-2022-05-08-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
+![sa-2022-05-08-008](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
 
 商品微服务返回的原始数据如下所示。
 
@@ -382,7 +382,7 @@ spring:
 
 （7）通过服务网关访问订单微服务，在浏览器中输入`http://localhost:10001/server-order/order/test_sentinel`，如下所示。
 
-![sa-2022-05-08-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
+![sa-2022-05-08-009](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
 
 可以看到，通过服务网关能够正确访问到订单微服务。
 
@@ -423,7 +423,7 @@ spring:
 
 （3）通过服务网关访问用户微服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-08-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
+![sa-2022-05-08-007](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-007.png)
 
 用户微服务返回的原始数据如下所示。
 
@@ -441,7 +441,7 @@ spring:
 
 （4）通过服务网关访问商品微服务，在浏览器中输入`http://localhost:10001/server-product/product/get/1001`，如下所示。
 
-![sa-2022-05-08-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
+![sa-2022-05-08-008](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-008.png)
 
 商品微服务返回的原始数据如下所示。
 
@@ -458,7 +458,7 @@ spring:
 
 （5）通过服务网关访问订单微服务，在浏览器中输入`http://localhost:10001/server-order/order/test_sentinel`，如下所示。
 
-![sa-2022-05-08-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
+![sa-2022-05-08-009](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-009.png)
 
 可以看到，通过服务网关能够正确访问到订单微服务。
 
@@ -686,7 +686,7 @@ spring:
 
 （4）在IDEA中配置启动服务网关shop-gateway模块的参数`-Dcsp.sentinel.app.type=1`，如下所示。
 
-![sa-2022-05-08-010](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-010.png)
+![sa-2022-05-08-010](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-010.png)
 
 如果是在命令行启动网关服务的Jar包，则可以使用如下命令。
 
@@ -714,15 +714,15 @@ public class GatewayStarter {
 
 （5）分别启动用户微服务、商品微服务、订单微服务和服务网关，启动后会在Sentinel管理界面左侧菜单栏中看到server-gateway菜单，如下所示。
 
-![sa-2022-05-08-014](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-014.png)
+![sa-2022-05-08-014](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-014.png)
 
 在server-gateway菜单下的流控规则子菜单中可以看到网关的流控规则已经注册到Sentinel，如下所示。
 
-![sa-2022-05-08-015](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-015.png)
+![sa-2022-05-08-015](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-015.png)
 
 （6）通过服务网关访问用户微服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，不断刷新页面，如下所示。
 
-![sa-2022-05-08-011](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-011.png)
+![sa-2022-05-08-011](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-011.png)
 
 用户微服务返回的原始数据如下所示。
 
@@ -737,7 +737,7 @@ public class GatewayStarter {
 
 （7）通过服务网关访问商品微服务，在浏览器中输入`http://localhost:10001/server-product/product/get/1001`，不断刷新页面，如下所示。
 
-![sa-2022-05-08-012](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-012.png)
+![sa-2022-05-08-012](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-012.png)
 
 商品微服务返回的原始数据如下所示。
 
@@ -752,7 +752,7 @@ public class GatewayStarter {
 
 （8）通过服务网关访问订单微服务，在浏览器中输入`http://localhost:10001/server-order/order/test_sentinel`，不断刷新页面，如下所示。
 
-![sa-2022-05-08-013](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-013.png)
+![sa-2022-05-08-013](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-013.png)
 
 可以看到，通过服务网关不断刷新订单微服务时，触发了服务限流，并返回了自定义的限流结果数据。
 
@@ -826,31 +826,31 @@ public String api2Demo2(){
 
 （4）分别启动用户微服务、商品微服务、订单微服务和服务网关，启动后会在Sentinel管理界面左侧菜单栏中看到server-gateway菜单，如下所示。
 
-![sa-2022-05-08-014](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-014.png)
+![sa-2022-05-08-014](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-014.png)
 
 此时，由于我们注释了调用以route维度限流的方法，所以，在流控规则里的限流规则为空，如下所示。
 
-![sa-2022-05-08-016](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-016.png)
+![sa-2022-05-08-016](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-016.png)
 
 在API管理里面会发现我们定义的API分组已经自动注册到Sentinel中了，如下所示。
 
-![sa-2022-05-08-017](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-017.png)
+![sa-2022-05-08-017](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-017.png)
 
 （5）在Sentinel管理界面的流控规则中，新增网关流控规则，如下所示。
 
-![sa-2022-05-08-018](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-018.png)
+![sa-2022-05-08-018](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-018.png)
 
 点击新增网关流控规则后，会弹出新增网关流控规则配置框，按照如下方式为user_api1分组配置限流规则。
 
-![sa-2022-05-08-019](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-019.png)
+![sa-2022-05-08-019](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-019.png)
 
 点击新增按钮后，按照同样的方式为user_api2分组配置限流规则。
 
-![sa-2022-05-08-021](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-021.png)
+![sa-2022-05-08-021](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-021.png)
 
 配置完毕后，在流控规则中的限流规则如下所示。
 
-![sa-2022-05-08-020](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-020.png)
+![sa-2022-05-08-020](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-020.png)
 
 （6）预期的测试结果如下。
 
@@ -863,7 +863,7 @@ public String api2Demo2(){
 
 （7）在浏览器上频繁访问`http://localhost:10001/server-user/user/api1/demo1`，如下所示。
 
-![sa-2022-05-08-022](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-022.png)
+![sa-2022-05-08-022](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-022.png)
 
 返回的原始数据如下所示。
 
@@ -878,7 +878,7 @@ public String api2Demo2(){
 
 （8）在浏览器上频繁访问`http://localhost:10001/server-user/user/api1/demo2`，如下所示。
 
-![sa-2022-05-08-023](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-023.png)
+![sa-2022-05-08-023](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-023.png)
 
 返回的原始数据如下所示。
 
@@ -893,7 +893,7 @@ public String api2Demo2(){
 
 （9）在浏览器上频繁访问`http://localhost:10001/server-user/user/api2/demo1`，如下所示。
 
-![sa-2022-05-08-024](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-024.png)
+![sa-2022-05-08-024](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-024.png)
 
 返回的原始数据如下所示。
 
@@ -908,7 +908,7 @@ public String api2Demo2(){
 
 （10）在浏览器上频繁访问`http://localhost:10001/server-user/user/api2/demo2`，如下所示。
 
-![sa-2022-05-08-025](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-08-025.png)
+![sa-2022-05-08-025](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-08-025.png)
 
 可以看到，访问`http://localhost:10001/server-user/user/api2/demo2`时，无论访问的频率多频繁，都不会触发Sentinel限流。
 
@@ -939,7 +939,7 @@ public String api2Demo2(){
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -986,7 +986,7 @@ public String api2Demo2(){
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -998,7 +998,7 @@ public String api2Demo2(){
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -1009,7 +1009,7 @@ public String api2Demo2(){
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -1023,7 +1023,7 @@ public String api2Demo2(){
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

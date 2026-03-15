@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_v9wd5237pgu6.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-14](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-14)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -224,7 +224,7 @@ ResourceService{resourceDao=io.binghe.spring.annotation.chapter14.dao.impl.Resou
 
 解析并获取@Resource修饰的属性的源码时序图总体上与解析并获取@Autowired修饰的属性的源码时序图相同，只是部分细节略有差异。本节，就简单介绍下解析并获取@Resource修饰的属性的源码时序图，整体如图14-1~14-2所示。
 
-![图14-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-08-001.png)
+![图14-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-08-001.png)
 
 ## 查看完整文章
 

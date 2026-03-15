@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_ag4v69xzpla1.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-16](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-16)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -200,7 +200,7 @@ PrimaryService{primaryDao=io.binghe.spring.annotation.chapter16.dao.impl.Primary
 
 @Primary注解涉及到的注册Bean流程的源码时序图如图16-1所示。
 
-![图16-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-10-001.png)
+![图16-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-10-001.png)
 
 ## 查看完整文章
 

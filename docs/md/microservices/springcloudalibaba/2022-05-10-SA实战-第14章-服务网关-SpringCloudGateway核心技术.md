@@ -13,8 +13,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 **大家好，我是冰河~~**
 
@@ -26,7 +26,7 @@ lock: need
 
 ## 本章总览
 
-![sa-2022-05-10-013](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-013.png)
+![sa-2022-05-10-013](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-013.png)
 
 ## 本章概述
 
@@ -153,7 +153,7 @@ WeightRoutePredicateFactory：接收一个[组名,权重], 然后对于同一个
 
 （1）由于在开发项目时，所有的服务都是在我本地启动的，首先查看下我本机的IP地址，如下所示。
 
-![sa-2022-05-10-001](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-001.png)
+![sa-2022-05-10-001](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-001.png)
 
 可以看到，我本机的IP地址为192.168.0.27，属于192.168.0.1/24网段。
 
@@ -179,13 +179,13 @@ spring:
 
 （3）配置完成后启动用户微服务和网关服务，通过网关服务访问用户微服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-10-002](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-002.png)
+![sa-2022-05-10-002](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-002.png)
 
 可以看到通过`http://localhost:10001/server-user/user/get/1001`链接不能正确访问到用户信息。
 
 接下来，在浏览器中输入`http://192.168.0.27:10001/server-user/user/get/1001`，能够正确获取到用户的信息。
 
-![sa-2022-05-10-003](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-003.png)
+![sa-2022-05-10-003](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-003.png)
 
 （4）停止网关微服务，将基于远程地址的断言配置成`- RemoteAddr=192.168.1.1/24`，也就是将基于远程地址的断言配置成与我本机IP地址不在同一个网段，这样就能演示请求主机地址不在地址段中的情况，修改后的基于远程地址的断言配置如下所示。
 
@@ -195,13 +195,13 @@ spring:
 
 （5）重启网关服务，再次在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-10-004](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-004.png)
+![sa-2022-05-10-004](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-004.png)
 
 可以看到通过`http://localhost:10001/server-user/user/get/1001`链接不能正确访问到用户信息。
 
 接下来，在浏览器中输入`http://192.168.0.27:10001/server-user/user/get/1001`，也不能正确获取到用户的信息了。
 
-![sa-2022-05-10-005](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-005.png)
+![sa-2022-05-10-005](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-005.png)
 
 ### 自定义断言
 
@@ -299,13 +299,13 @@ spring:
 
 （4）分别启动用户微服务与网关服务，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-10-006](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-006.png)
+![sa-2022-05-10-006](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-006.png)
 
 可以看到，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，无法获取到用户信息。
 
 （5）在浏览器中输入`http://localhost:10001/server-user/user/get/1001?name=binghe`，如下所示。
 
-![sa-2022-05-10-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-007.png)
+![sa-2022-05-10-007](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-007.png)
 
 可以看到，在访问链接后添加`?name=binghe`参数后，能够正确获取到用户信息。
 
@@ -398,11 +398,11 @@ public String apiFilter1(HttpServletRequest request, HttpServletResponse respons
 
 （3）分别启动用户微服务与网关服务，在浏览器中输入`http://localhost:10001/server-user/user/api/filter1`，如下所示。
 
-![sa-2022-05-10-008](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-008.png)
+![sa-2022-05-10-008](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-008.png)
 
 此时，查看浏览器中的响应状态码，如下所示。
 
-![sa-2022-05-10-009](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-009.png)
+![sa-2022-05-10-009](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-009.png)
 
 可以看到，此时的状态码已经被修改为1001。
 
@@ -486,7 +486,7 @@ public class GrayscaleGatewayFilterFactory extends AbstractGatewayFilterFactory<
 
 （4）分别启动用户微服务和服务网关，在浏览器中输入`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-10-010](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-010.png)
+![sa-2022-05-10-010](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-010.png)
 
 可以看到，通过服务网关正确访问到了用户微服务，并正确获取到了用户信息。
 
@@ -549,7 +549,7 @@ public class GatewayFilterConfig {
 
 （2）启动用户微服务与服务网关，在浏览器中访问`http://localhost:10001/server-user/user/get/1001`，如下所示。
 
-![sa-2022-05-10-010](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-010.png)
+![sa-2022-05-10-010](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-010.png)
 
 在服务网关终端输出如下信息。
 
@@ -609,7 +609,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 
 （2）启动用户微服务与网关服务，在浏览器中输入`http://localhost:10001/server-user/user/api/filter1?name=binghe`，如下所示。
 
-![sa-2022-05-10-012](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-10-012.png)
+![sa-2022-05-10-012](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-10-012.png)
 
 接下来，查看服务网关的终端日志，可以发现已经输出了如下信息。
 
@@ -625,7 +625,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 
 ## 网关熔断机制
 
-其实熔断机制在《[SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html)》一文中就基于SpringCloud Gateway整合Sentinel实现了。大家可以参见《[SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html)》一文。
+其实熔断机制在《[SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关](https://binghe.site/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html)》一文中就基于SpringCloud Gateway整合Sentinel实现了。大家可以参见《[SA实战 ·《SpringCloud Alibaba实战》第13章-服务网关：项目整合SpringCloud Gateway网关](https://binghe.site/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html)》一文。
 
 **注意：整个实战案例基于SpringCloud Alibaba技术栈实现，所以，整个案例专栏也是偏向于使用SpringCloud Alibaba技术栈的。**
 
@@ -654,7 +654,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -701,7 +701,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -713,7 +713,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -724,7 +724,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -738,7 +738,7 @@ public class GlobalGatewayLogFilter implements GlobalFilter, Ordered {
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

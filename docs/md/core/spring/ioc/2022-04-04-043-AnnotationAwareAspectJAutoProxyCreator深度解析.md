@@ -40,7 +40,7 @@ public class AopConfig {
 
 接下来，在`AopConfig#mathHandler()`方法中打上断点，如下所示。
 
-![001](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-001.png)
+![001](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-001.png)
 
 接下来，启动`io.mykit.spring.test`包下的`AopTest#testAop01()`方法。
 
@@ -69,21 +69,21 @@ public class AopTest {
 
 发现断点会进入`org.springframework.context.annotation`包下的`AnnotationConfigApplicationContext#AnnotationConfigApplicationContext()`方法，如下所示。
 
-![003](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-003.png)
+![003](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-003.png)
 
 而此时的断点是定位到`AnnotationConfigApplicationContext#AnnotationConfigApplicationContext()`方法中调用`refresh()`方法的代码行。`refresh()`方法会刷新Spring容器。接下来，我们可以通过IDEA左下角的方法调用堆栈进入`refresh()`方法内部，如下所示。
 
-![004](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-004.png)
+![004](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-004.png)
 
 此时发现`refresh()`方法位于`org.springframework.context.support`包下的`AbstractApplicationContext`类中。此时，会发现代码调用流程会定位在`AbstractApplicationContext#refresh()`方法中调用的`registerBeanPostProcessors()`方法代码行。如下所示。
 
-![005](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-005.png)
+![005](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-005.png)
 
 `registerBeanPostProcessors()`方法的作用就是注册bean的后置处理器来拦截bean的创建。
 
 接下来，进入`registerBeanPostProcessors()`方法，发现`registerBeanPostProcessors()`方法位于`org.springframework.context.support`包下的`AbstractApplicationContext`类中，如下所示。
 
-![006](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-006.png)
+![006](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-006.png)
 
 接下来，进入`PostProcessorRegistrationDelegate#registerBeanPostProcessors()`方法，这个方法的作用就是注册bean的后置处理器。在这个方法中按照顺序依次做了如下操作：
 
@@ -118,19 +118,19 @@ public class AopTest {
 
 4) `BeanPostProcessor(AnnotationAwareAspectJAutoProxyCreator)`创建成功，名称为`aspectJAdvisorsBuilder`。
 
-![018](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-018.png)
+![018](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-018.png)
 
 
 
 接下来，我们看看方法的调用信息。
 
-![007](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-007.png)
+![007](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-007.png)
 
 会发现此时逻辑调用会定位在`BeanPostProcessor pp = beanFactory.getBean(ppName, BeanPostProcessor.class);` 这行代码上。
 
 同样的，我们进入`beanFactory.getBean(ppName, BeanPostProcessor.class);`方法。发现会进入`org.springframework.beans.factory.support`包下的`AbstractBeanFactory#getBean(String,Class)`方法。
 
-![008](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-008.png)
+![008](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-008.png)
 
 继续进入`doGetBean()`方法，会发现逻辑执行定位到`doGetBean()`中如下代码处。
 
@@ -149,69 +149,69 @@ sharedInstance = getSingleton(beanName, () -> {
 });
 ```
 
-![009](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-009.png)
+![009](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-009.png)
 
 而在IOC容器中第一次调用`getSingleton()`方法时，不会存在实例，所以，第一次调用`getSingleton()`方法会返回null。
 
 进入`getSingleton()`方法，如下所示。
 
-![010](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-010.png)
+![010](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-010.png)
 
 此时，发现Spring会调用`singletonFactory.getObject()`方法，继续往下执行，会发现逻辑定位到`doGetBean()`方法的如下代码。
 
-![011](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-011.png)
+![011](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-011.png)
 
 继续执行断点，会发现逻辑进入`org.springframework.beans.factory.support`包下的`AbstractAutowireCapableBeanFactory#createBean(String, RootBeanDefinition, Object[])`方法中，如下所示。
 
-![012](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-012.png)
+![012](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-012.png)
 
 继续进入`doCreateBean(String,RootBeanDefinition,Object[])`方法，如下所示。
 
-![013](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-013.png)
+![013](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-013.png)
 
 此时，会发现bean已经实例化完成了，如下所示。
 
-![014](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-014.png)
+![014](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-014.png)
 
 接下来，就会初始化bean的信息。那具体bean是在哪里进行实例化的呢？我们找到`doCreateBean(String,RootBeanDefinition,Object[])`方法的如下代码片段。
 
-![015](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-015.png)
+![015](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-015.png)
 
 同时，我们也会发现此时实例化的bean的类型为`org.springframework.aop.config.internalAutoProxyCreator`。
 
-![016](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-016.png)
+![016](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-016.png)
 
 实例化完成之后就会在`doCreateBean(String,RootBeanDefinition,Object[])`方法的如下代码处进行初始化。
 
-![013](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-013.png)
+![013](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-013.png)
 
 进入`initializeBean(String, Object ,RootBeanDefinition mbd)`方法。
 
-![017](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-017.png)
+![017](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-017.png)
 
 会发现代码执行逻辑定位在`invokeAwareMethods(beanName, bean);`处。进入`invokeAwareMethods(beanName, bean);`方法。
 
-![019](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-019.png)
+![019](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-019.png)
 
 这个方法就比较简单了，相信点击都能看懂，这里就不再赘述这个方法的逻辑了。此时，代码的执行逻辑会定位到`((BeanFactoryAware) bean).setBeanFactory(AbstractAutowireCapableBeanFactory.this);`。
 
 继续执行会发现逻辑进入了`org.springframework.aop.framework.autoproxy`包下的`AbstractAdvisorAutoProxyCreator#setBeanFactory()`方法，如下所示。
 
-![002](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-002.png)
+![002](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-002.png)
 
 首先，会调用父类的`setBeanFactory(BeanFactory)`方法，然后会调用`initBeanFactory(ConfigurableListableBeanFactory) `方法初始化BeanFactory。
 
 继续往下执行，我们会发现调用的是`org.springframework.aop.aspectj.annotation`包下的`AnnotationAwareAspectJAutoProxyCreator#initBeanFactory(ConfigurableListableBeanFactory)`方法。
 
-![020](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-020.png)
+![020](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-020.png)
 
 继续往下执行，代码逻辑会执行到`org.springframework.beans.factory.support`包下的`AbstractAutowireCapableBeanFactory#createBean(String, RootBeanDefinition, Object[])`方法中，并且会定位到`Object beanInstance = doCreateBean(beanName, mbdToUse, args);`代码行。
 
-![021](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-021.png)
+![021](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-021.png)
 
 执行完会回到`org.springframework.beans.factory.support`包下的`DefaultSingletonBeanRegistry#getSingleton(String, ObjectFactory<?>)`方法，并且会执行`addSingleton(beanName, singletonObject);代码行，如下所示。
 
-![022](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-044-022.png)
+![022](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-022.png)
 
 将bean放入容器中。
 
@@ -239,7 +239,7 @@ sharedInstance = getSingleton(beanName, () -> {
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -286,7 +286,7 @@ sharedInstance = getSingleton(beanName, () -> {
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -298,7 +298,7 @@ sharedInstance = getSingleton(beanName, () -> {
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -309,7 +309,7 @@ sharedInstance = getSingleton(beanName, () -> {
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -323,7 +323,7 @@ sharedInstance = getSingleton(beanName, () -> {
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

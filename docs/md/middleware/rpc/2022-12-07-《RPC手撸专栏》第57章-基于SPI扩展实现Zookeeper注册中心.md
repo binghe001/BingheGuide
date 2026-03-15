@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_xkq21xwlnq48.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -36,7 +36,7 @@ pay: https://articles.zsxq.com/id_xkq21xwlnq48.html
 
 基于SPI扩展实现Zookeeper注册中心的流程如图57-1所示。
 
-![图57-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-12-07-002.png)
+![图57-1](https://binghe.site/assets/images/middleware/rpc/rpc-2022-12-07-002.png)
 
 由图57-1可以看出如下信息：
 
@@ -62,7 +62,7 @@ pay: https://articles.zsxq.com/id_xkq21xwlnq48.html
 
 基于SPI扩展实现Zookeeper注册中心的核心类关系如图57-2所示。
 
-![图57-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-12-07-003.png)
+![图57-2](https://binghe.site/assets/images/middleware/rpc/rpc-2022-12-07-003.png)
 
 ## 查看完整文章
 

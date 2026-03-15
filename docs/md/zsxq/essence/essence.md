@@ -6,7 +6,7 @@ title: 归档：部分精华内容
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
+<br/>博客：[https://binghe.site](https://binghe.site)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 

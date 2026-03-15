@@ -13,8 +13,8 @@ lock: need
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
 <br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客2：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -327,7 +327,7 @@ public class ZookeeperRegistryService implements RegistryService {
 
 4.学习进大厂必备技能：性能调优、并发编程、分布式、微服务、框架源码、中间件开发、项目实战
 
-5.提供站点 https://binghe.gitcode.host 所有学习内容的指导、帮助
+5.提供站点 https://binghe.site 所有学习内容的指导、帮助
 
 6.GitHub：https://github.com/binghe001/BingheGuide - 非常有价值的技术资料仓库，包括冰河所有的博客开放案例代码
 
@@ -341,7 +341,7 @@ public class ZookeeperRegistryService implements RegistryService {
 
 加入星球：扫描优惠券二维码即可加入星球。
 
-![sa-2022-04-21-007](https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
+![sa-2022-04-21-007](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-04-28-008.png)
 
 
 * **扫码** ：通过扫描优惠券二维码加入星球。
@@ -364,7 +364,7 @@ public class ZookeeperRegistryService implements RegistryService {
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -389,7 +389,7 @@ public class ZookeeperRegistryService implements RegistryService {
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

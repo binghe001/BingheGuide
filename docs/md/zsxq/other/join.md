@@ -11,14 +11,14 @@ title: 加入星球
 > 加入星球后，如果不满意，3天内可以全额退款，感兴趣的小伙伴可以先加入体验，判断对自己是否有价值。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
 加入后，这些内容统统都是你的。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-020.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/zsxq/2023-11-14-020.png?raw=true" width="80%">
     <br/>
 </div>
 

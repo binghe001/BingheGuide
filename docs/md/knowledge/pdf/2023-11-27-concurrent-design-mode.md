@@ -28,7 +28,7 @@ lock: no
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/concurrent-2022-10-31-001.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/concurrent-2022-10-31-001.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -38,7 +38,7 @@ lock: no
 《深入理解高并发编程（第2版）》包含：并发编程学习路线、源码分析篇、JDK核心类库篇、基础案例篇、实战案例篇、性能优化篇、面试篇和系统架构篇等八个大的篇章。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/concurrent-2022-10-31-002.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/concurrent-2022-10-31-002.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -51,7 +51,7 @@ lock: no
 在《实战高并发设计模式》一书中，主要以事件驱动、以故事线的形式来贯穿始末，全面系统的阐述了主人公小菜在并发编程领域一路打怪升级，最终升职加薪的过程。书中总体涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。** 让大家更好的从项目实战角度学习并发设计模式。所以说，对于并发编程来说，你可以轻松、高效的学会，吃透并发设计模式的核心知识。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-001.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-001.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -61,35 +61,35 @@ lock: no
 ## 部分内容
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-002.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-002.png?raw=true" width="70%">
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-003.png?raw=true" width="70%">
-    <br/>
-</div>
-
-
-<div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-004.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-003.png?raw=true" width="70%">
     <br/>
 </div>
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-005.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-004.png?raw=true" width="70%">
     <br/>
 </div>
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-006.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-005.png?raw=true" width="70%">
+    <br/>
+</div>
+
+
+<div align="center">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-006.png?raw=true" width="70%">
     <br/>
 </div>
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/knowledge/pdf/2023-11-27-007.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/knowledge/pdf/2023-11-27-007.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -108,14 +108,14 @@ lock: no
 经过500多天的沉淀和积累，冰河的知识星球终于成体系了，既有硬核实战项目、又有技术小册和辅助学习资料，既有架构进阶知识，又有应聘面试和职业规划内容。为了大家更好的跳槽加薪，冰河更是在星球为大家准备了1000+套精美的简历模板与面试技巧。加入星球，下面的项目、技术和知识，以及简历优化服务和职业生涯指导通通给到你。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/zsxq/2023-11-14-020.png?raw=true" width="70%">
+    <img src="https://binghe.site/images/zsxq/2023-11-14-020.png?raw=true" width="70%">
     <br/>
 </div>
 
 领券加入星球更实惠。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -134,7 +134,7 @@ lock: no
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -146,7 +146,7 @@ lock: no
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -157,7 +157,7 @@ lock: no
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -171,7 +171,7 @@ lock: no
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

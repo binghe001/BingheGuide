@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_rh08wot03ls8.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-40](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-40)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -60,7 +60,7 @@ GraalVM提供了预编译技术，能够提前将Java代码直接编译成本机
 
 打开链接：[https://www.graalvm.org/downloads/](https://www.graalvm.org/downloads/)下载GraalVM，如图40-1所示。
 
-![图40-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-04-06-001.png)
+![图40-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-04-06-001.png)
 
 可以看到，这里下载的GraalVM是22.3社区版，点击“Download”。
 
@@ -68,7 +68,7 @@ GraalVM提供了预编译技术，能够提前将Java代码直接编译成本机
 
 选择Java版本和操作系统类型，这里是使用的JDK版本是17，操作系统是64位Windows，所以，选择的Java版本是17，操作系统是Windows(amd64)，如图40-2所示。
 
-![图40-2](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-04-06-002.png)
+![图40-2](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-04-06-002.png)
 
 ### 2.2 配置环境变量
 
@@ -78,7 +78,7 @@ GraalVM提供了预编译技术，能够提前将Java代码直接编译成本机
 
 **（1）添加GRAALVM_HOME环境变量**
 
-![图40-3](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-04-06-003.png)
+![图40-3](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-04-06-003.png)
 
 ## 查看完整文章
 

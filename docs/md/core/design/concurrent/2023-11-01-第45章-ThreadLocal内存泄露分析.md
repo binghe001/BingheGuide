@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_g8i50u1mshoi.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码获取地址：[https://t.zsxq.com/0dhvFs5oR](https://t.zsxq.com/0dhvFs5oR)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -29,7 +29,7 @@ ThreadLocal能够在线程本地存储对应的变量，从而有效的避免线
 为了更好的说明ThreadLocal内存泄露的场景，以及具体的原因，先来了解下ThreadLocal的内部结构，如图45-1所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-11-01-001.png?raw=true" width="80%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-11-01-001.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -40,14 +40,14 @@ ThreadLocal能够在线程本地存储对应的变量，从而有效的避免线
 了解完ThreadLocal的内部存储结构后，我们先来思考下哪些场景下ThreadLocal不会发生内存泄露，假设我们单独开启一个线程，并且将变量存储到ThreadLocal中，如图45-2所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-11-01-002.png?raw=true" width="80%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-11-01-002.png?raw=true" width="80%">
     <br/>
 </div>
 
 可以看到，Thread线程在正常执行的情况下，会引用ThreadLocalMap的实例对象，只要Thread线程一直在执行任务，这种引用关系就一直存在。当Thread线程执行任务结束退出时，Thread线程与ThreadLocalMap实例对象之间的引用关系就不存在了，如图45-3所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-11-01-003.png?raw=true" width="80%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-11-01-003.png?raw=true" width="80%">
     <br/>
 </div>
 

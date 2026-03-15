@@ -10,23 +10,23 @@ Java并发编程基础学习指南，旨在帮助小伙伴们迅速明确Java并
 
 ## 了解详情
 
-可以点击 [《冰河自主运营的实战类技术社群》](https://binghe.gitcode.host/md/zsxq/introduce.html) 了解详情。
+可以点击 [《冰河自主运营的实战类技术社群》](https://binghe.site/md/zsxq/introduce.html) 了解详情。
 
 ## 正在更新
 
-* [分布式IM即时通讯系统](https://binghe.gitcode.host/md/project/im/start/2023-11-20-start.html) - 冰河的第6个高并发项目，在分布式IM即时通讯系统中，我们会实现：单聊、群聊、图片、文件、语音、视频、历史消息、消息已读、未读、添加好友、删除好友、创建群、加群、退出群、查看群成员、群公告、修改群备注等一系列完整的功能，更会实现对接OpenAI大模型服务，让你深度掌握对接OpenAI大模型服务的流程和落地实现，非常适合手里没有大型高并发项目的读者进行学习。
+* [分布式IM即时通讯系统](https://binghe.site/md/project/im/start/2023-11-20-start.html) - 冰河的第6个高并发项目，在分布式IM即时通讯系统中，我们会实现：单聊、群聊、图片、文件、语音、视频、历史消息、消息已读、未读、添加好友、删除好友、创建群、加群、退出群、查看群成员、群公告、修改群备注等一系列完整的功能，更会实现对接OpenAI大模型服务，让你深度掌握对接OpenAI大模型服务的流程和落地实现，非常适合手里没有大型高并发项目的读者进行学习。
 
 ### 开发的项目
 
 * 高并发项目
-    * [分布式Seckill秒杀系统](https://binghe.gitcode.host/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html) - 基于DDD领域驱动，运用所有分布式高并发技术栈的高并发实战项目，更具竞争力，非常适合手里没有大型高并发项目的读者进行学习。
-    * [实战高并发设计模式](https://binghe.gitcode.host/md/core/design/concurrent/2023-09-17-start.html) - 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
+    * [分布式Seckill秒杀系统](https://binghe.site/md/project/seckill/2023-04-16-%E3%80%8ASeckill%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E6%8A%97%E7%9E%AC%E6%97%B6%E7%99%BE%E4%B8%87%E6%B5%81%E9%87%8F%E7%9A%84%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F.html) - 基于DDD领域驱动，运用所有分布式高并发技术栈的高并发实战项目，更具竞争力，非常适合手里没有大型高并发项目的读者进行学习。
+    * [实战高并发设计模式](https://binghe.site/md/core/design/concurrent/2023-09-17-start.html) - 涵盖最核心，也是最常用的12种并发设计模式，共60多个章节，涉及到多个真实场景的案例，包含：**社区电商系统、消息聚合发送系统、交易系统、监控报警系统、积分系统、优惠券系统、文件同步助手、个人文库系统、商详页系统、单点登录系统、报表系统、热点商品统计系统、实时交易统计系统。**
 * 中间件项目
-    * [手写高性能RPC项目](https://binghe.gitcode.host/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html) - 从零开始架构设计并研发并开发的高性能RPC中间件，架构设计与代码落地方案对标Dubbo，让你以渐进式的方式彻底吃透RPC通信技术，非常适合没有参与过大型中间件技术开发的读者进行学习。
+    * [手写高性能RPC项目](https://binghe.site/md/middleware/rpc/2022-08-24-%E6%88%91%E8%AE%BE%E8%AE%A1%E4%BA%86%E4%B8%80%E6%AC%BETPS%E7%99%BE%E4%B8%87%E7%BA%A7%E5%88%AB%E7%9A%84RPC%E6%A1%86%E6%9E%B6.html) - 从零开始架构设计并研发并开发的高性能RPC中间件，架构设计与代码落地方案对标Dubbo，让你以渐进式的方式彻底吃透RPC通信技术，非常适合没有参与过大型中间件技术开发的读者进行学习。
 * 微服务项目
-    * [商城脚手架项目](https://binghe.gitcode.host/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html) - 基于SpringCloud Alibaba全套技术栈实现，从零开始手把手教你搭建一套完整的微服务项目，非常适合微服务架构、设计、基础薄弱的读者学习，学完完全可以独立搭建一套基于SpringCloud Alibaba全套技术栈的微服务项目。
+    * [商城脚手架项目](https://binghe.site/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html) - 基于SpringCloud Alibaba全套技术栈实现，从零开始手把手教你搭建一套完整的微服务项目，非常适合微服务架构、设计、基础薄弱的读者学习，学完完全可以独立搭建一套基于SpringCloud Alibaba全套技术栈的微服务项目。
 * 手撕源码
-    * [Spring6源码深度解析](https://binghe.gitcode.host/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html) - 整体以最新的 Spring6 为基础，以Spring中的核心注解为入口，涵盖：IOC容器、AOP切面、声明式事务、AOT预编译和SpringMVC。给出实用案例，通过对应注解在Spring源码层面执行的时序图，引导小伙伴们有针对性的去看源码，去分析源码，最后总结和思考，形成总体上的闭环，彻底吃透Spring。
+    * [Spring6源码深度解析](https://binghe.site/md/frame/spring/ioc/2022-12-02-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E5%BC%80%E7%AF%87-%E6%88%91%E8%A6%81%E5%B8%A6%E4%BD%A0%E4%B8%80%E6%AD%A5%E6%AD%A5%E8%B0%83%E8%AF%95Spring6.0%E6%BA%90%E7%A0%81%E5%95%A6.html) - 整体以最新的 Spring6 为基础，以Spring中的核心注解为入口，涵盖：IOC容器、AOP切面、声明式事务、AOT预编译和SpringMVC。给出实用案例，通过对应注解在Spring源码层面执行的时序图，引导小伙伴们有针对性的去看源码，去分析源码，最后总结和思考，形成总体上的闭环，彻底吃透Spring。
 
 ## 出版图书
 
@@ -63,69 +63,69 @@ Java并发编程基础学习指南，旨在帮助小伙伴们迅速明确Java并
 ### 最佳学习路线
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-001.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-001.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 并发基础
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-002.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-002.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### Java并发集合
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-003.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-003.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 并发工具类
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-004.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-004.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### Java内存模型（JMM）
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-005.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-005.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 线程池
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-006.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-006.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 阻塞队列
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-007.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-007.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 锁
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-008.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-008.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### Atomic原子类
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-009.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-009.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### 其他
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/concurrent/2023-12-24-010.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/concurrent/2023-12-24-010.png?raw=true" width="80%">
     <br/>
 </div>

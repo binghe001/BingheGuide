@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_0t7len2qpez1.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -38,7 +38,7 @@ pay: https://articles.zsxq.com/id_0t7len2qpez1.html
 
 基于SPI扩展ByteBuddy反射机制调用真实方法的流程图如图40-1所示。
 
-![图40-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-17-001.png)
+![图40-1](https://binghe.site/assets/images/middleware/rpc/rpc-2022-11-17-001.png)
 
 由图40-1可以看出，服务提供者会以SPI的形式引用调用真实方法的SPI接口，基于JDK、CGLib、Javassist和ByteBuddy的反射机制调用真实方法的类是SPI接口的实现类，服务提供者会通过SPI加载JDK、CGLib、Javassist和ByteBuddy反射机制调用真实方法的实现类。而JDK、CGLib、Javassist和ByteBuddy反射机制调用真实方法的实现类会实现SPI接口，最终调用真实方法。
 
@@ -50,7 +50,7 @@ pay: https://articles.zsxq.com/id_0t7len2qpez1.html
 
 基于SPI扩展ByteBuddy反射机制调用真实方法的核心类关系如图40-2所示。
 
-![图40-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-17-002.png)
+![图40-2](https://binghe.site/assets/images/middleware/rpc/rpc-2022-11-17-002.png)
 
 
 ## 查看完整文章

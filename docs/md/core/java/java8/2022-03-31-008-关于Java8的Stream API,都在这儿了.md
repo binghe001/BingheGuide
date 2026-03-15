@@ -41,7 +41,7 @@ Stream 是 Java8 中处理集合的关键抽象概念，它可以指定你希望
 
 一个终止操作，执行中间操作链，并产生结果 。
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-001.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-001.jpg)
 
 ## 如何创建Stream?
 
@@ -93,15 +93,15 @@ public static<T> Stream<T> generate(Supplier<T> s)
 
 ### 1.筛选与切片  
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-002.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-002.jpg)
 
 ### 2.映射  
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-003.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-003.jpg)
 
 ### 3.排序  
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-004.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-004.jpg)
 
 ## Stream 的终止操作  
 
@@ -109,23 +109,23 @@ public static<T> Stream<T> generate(Supplier<T> s)
 
 ### 1.查找与匹配
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-005.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-005.jpg)
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-006.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-006.jpg)
 
 ### 2.规约
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-007.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-007.jpg)
 
 ### 3.收集
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-008.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-008.jpg)
 
 Collector 接口中方法的实现决定了如何对流执行收集操作(如收集到 List、 Set、 Map)。但是 Collectors 实用类提供了很多静态方法，可以方便地创建常见收集器实例， 具体方法与实例如下表  
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-009.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-009.jpg)
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-010.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-010.jpg)
 
 ## 并行流与串行流  
 
@@ -140,7 +140,7 @@ sequential() 在并行流与顺序流之间进行切换
 
 > Fork/Join 框架： 就是在必要的情况下，将一个大任务，进行拆分(fork)成若干个小任务（拆到不可再拆时），再将一个个的小任务运算的结果进行 join 汇总.  
 
-![](https://binghe.gitcode.host/images/java/java8/2022-03-31-008-011.jpg)
+![](https://binghe.site/images/java/java8/2022-03-31-008-011.jpg)
 
 ### 2.Fork/Join 框架与传统线程池的区别  
 
@@ -171,7 +171,7 @@ sequential() 在并行流与顺序流之间进行切换
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -218,7 +218,7 @@ sequential() 在并行流与顺序流之间进行切换
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -230,7 +230,7 @@ sequential() 在并行流与顺序流之间进行切换
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -241,7 +241,7 @@ sequential() 在并行流与顺序流之间进行切换
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -255,7 +255,7 @@ sequential() 在并行流与顺序流之间进行切换
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

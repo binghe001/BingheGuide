@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_khq22od1cfhz.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-22](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-22)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -56,15 +56,15 @@ pay: https://articles.zsxq.com/id_khq22od1cfhz.html
 
 注册AnnotationAwareAspectJAutoProxyCreator类的源码执行流程如图23-1~23-3所示。
 
-![图23-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-19-001.png)
+![图23-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-19-001.png)
 
 
 
-![图23-2](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-19-002.png)
+![图23-2](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-19-002.png)
 
 
 
-![图23-3](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-19-003.png)
+![图23-3](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-19-003.png)
 
 由图23-1~23-3可以看出，注册AnnotationAwareAspectJAutoProxyCreator类的源码执行流程会涉及AspectTest类、AnnotationConfigApplicationContext类、AbstractApplicationContext类、PostProcessorRegistrationDelegate类、ConfigurationClassPostProcessor类、ConfigurationClassParser类、ConfigurationClass类、ConfigurationClassBeanDefinitionReader类、ImportBeanDefinitionRegistrar接口和AspectJAutoProxyRegistrar类，具体的源码执行细节参见源码解析部分。 
 

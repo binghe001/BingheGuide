@@ -32,7 +32,7 @@ lock: need
 
 **@PostConstruct的调用链如下：**
 
-![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-005.png)
+![](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-005.png)
 
 org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(String, Object, RootBeanDefinition)初始化流程中，先执行org.springframework.beans.factory.config.BeanPostProcessor.postProcessBeforeInitialization(Object, String)方法，然后再执行初始化方法：
 
@@ -102,7 +102,7 @@ public Object applyBeanPostProcessorsBeforeInitialization(Object existingBean, S
 
 **@PreDestroy调用链如下：**
 
-![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-005.png)
+![](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-005.png)
 
 @PreDestroy是通过org.springframework.beans.factory.config.DestructionAwareBeanPostProcessor.postProcessBeforeDestruction(Object, String)被调用（InitDestroyAnnotationBeanPostProcessor实现了该接口），该方法的说明如下：
 
@@ -194,7 +194,7 @@ public void destroy() {
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -241,7 +241,7 @@ public void destroy() {
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -253,7 +253,7 @@ public void destroy() {
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -264,7 +264,7 @@ public void destroy() {
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -278,7 +278,7 @@ public void destroy() {
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

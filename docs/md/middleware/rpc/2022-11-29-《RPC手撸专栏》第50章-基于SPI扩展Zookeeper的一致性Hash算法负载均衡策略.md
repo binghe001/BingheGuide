@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_9nv3pftx71zi.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -36,7 +36,7 @@ pay: https://articles.zsxq.com/id_9nv3pftx71zi.html
 
 基于SPI扩展Zookeeper的一致性Hash算法负载均衡策略的流程如图50-1所示。
 
-![图50-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-29-001.png)
+![图50-1](https://binghe.site/assets/images/middleware/rpc/rpc-2022-11-29-001.png)
 
 由图50-1可以看出如下信息：
 
@@ -62,7 +62,7 @@ pay: https://articles.zsxq.com/id_9nv3pftx71zi.html
 
 基于SPI扩展Zookeeper的一致性Hash算法负载均衡策略的核心类关系如图50-2所示。
 
-![图50-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-11-29-002.png)
+![图50-2](https://binghe.site/assets/images/middleware/rpc/rpc-2022-11-29-002.png)
 
 ## 查看完整文章
 

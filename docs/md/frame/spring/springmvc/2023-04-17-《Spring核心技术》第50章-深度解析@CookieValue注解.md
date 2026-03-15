@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_aphnzhoz3wd3.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-50](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-50)
 
 > 沉淀，成长，突破，帮助他人，成就自我。

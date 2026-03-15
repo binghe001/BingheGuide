@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_ofdkbfo5ptww.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码获取地址：[https://t.zsxq.com/0dhvFs5oR](https://t.zsxq.com/0dhvFs5oR)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -42,14 +42,14 @@ pay: https://articles.zsxq.com/id_ofdkbfo5ptww.html
 ### Sentinel的主要特性
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-001.png?raw=true" width="80%">
+    <img src="https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-03-001.png?raw=true" width="80%">
     <br/>
 </div>
 
 ### Sentinel的开源生态
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-03-002.png?raw=true" width="80%">
+    <img src="https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-03-002.png?raw=true" width="80%">
     <br/>
 </div>
 

@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_8q0nz7rucvjd.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-29](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-29)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -60,7 +60,7 @@ pay: https://articles.zsxq.com/id_8q0nz7rucvjd.html
 
 Spring底层执行事务整体流程的源码时序图如图34-1~34-2所示。
 
-![图34-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-31-001.png)
+![图34-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-31-001.png)
 
 
 ## 查看完整文章

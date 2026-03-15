@@ -12,8 +12,8 @@ lock: need
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-04](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-04)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -80,9 +80,9 @@ public class BeanTest {
 
 从IOC容器中获取Bean的过程的源码时序图如图4-1和4-2所示。
 
-![图4-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-22-001.png)
+![图4-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2022-12-22-001.png)
 
-![图4-2](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2022-12-22-002.png)
+![图4-2](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2022-12-22-002.png)
 
 由图4-1和图4-2可以看出，从IOC容器中获取Bean的过程会涉及到BeanTest类、AnnotationConfigApplicationContext类、AbstractApplicationContext类、PostProcessorRegistrationDelegate类、AbstractBeanFactory类、DefaultSingletonBeanRegistry类和AbstractAutowireCapableBeanFactory类。具体的源码执行细节参见源码解析部分。
 
@@ -759,7 +759,7 @@ doCreateBean()方法的逻辑看上去还是挺复杂的。大体的流程如下
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -806,7 +806,7 @@ doCreateBean()方法的逻辑看上去还是挺复杂的。大体的流程如下
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -818,7 +818,7 @@ doCreateBean()方法的逻辑看上去还是挺复杂的。大体的流程如下
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -829,7 +829,7 @@ doCreateBean()方法的逻辑看上去还是挺复杂的。大体的流程如下
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -843,7 +843,7 @@ doCreateBean()方法的逻辑看上去还是挺复杂的。大体的流程如下
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

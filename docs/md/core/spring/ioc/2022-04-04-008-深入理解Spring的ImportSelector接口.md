@@ -60,7 +60,7 @@ public @interface EnableTransactionManagement {
 
 此注解是开启声明式事务的注解，那么它的@Import所导入的类为TransactionManagementConfigurationSelector，那么我们看一下其类图：
 
-![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-002.png)
+![](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-002.png)
 
 由此可知该类实现类ImportSelector接口。
 
@@ -70,7 +70,7 @@ public @interface EnableTransactionManagement {
 
 在这里我们先准备两个Spring的项目工程:spring-project与ssm-project，其中spring-project里我们先创建好如下结构目录：
 
-![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-003.png)
+![](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-003.png)
 
 ### 创建实体类
 
@@ -155,7 +155,7 @@ public class AppConfig {
 
 当都完成以后我们打个jar包，准备引入至其他工程：
 
-![](https://binghe.gitcode.host/assets/images/core/spring/ioc/2022-04-04-004.png)
+![](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-004.png)
 
 ## 使用自定义@EnableXXX注解
 
@@ -299,7 +299,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -346,7 +346,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -358,7 +358,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -369,7 +369,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -383,7 +383,7 @@ private void processImports(ConfigurationClass configClass, SourceClass currentS
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

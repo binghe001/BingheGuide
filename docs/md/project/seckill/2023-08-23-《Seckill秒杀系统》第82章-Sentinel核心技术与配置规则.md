@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_kt44xk81wbd8.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码获取地址：[https://t.zsxq.com/0dhvFs5oR](https://t.zsxq.com/0dhvFs5oR)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -54,7 +54,7 @@ Sentinel的核心规则包括流控规则、熔断规则、热点规则、授权
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/microservices/springcloudalibaba/sa-2022-05-05-039.png?raw=true" width="60%">
+    <img src="https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-05-039.png?raw=true" width="60%">
     <br/>
 </div>
 

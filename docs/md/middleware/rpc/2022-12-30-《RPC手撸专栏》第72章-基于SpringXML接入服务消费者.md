@@ -8,8 +8,8 @@ pay: https://articles.zsxq.com/id_ewc703dwui4u.html
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
 <br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客2：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -37,7 +37,7 @@ pay: https://articles.zsxq.com/id_ewc703dwui4u.html
 
 基于Spring XML接入服务消费者的流程如图72-1所示。
 
-![图72-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-12-30-001.png)
+![图72-1](https://binghe.site/assets/images/middleware/rpc/rpc-2022-12-30-001.png)
 
 由图72-1可以看出如下信息：
 
@@ -75,7 +75,7 @@ pay: https://articles.zsxq.com/id_ewc703dwui4u.html
 
 基于Spring XML方式接入服务消费者的核心类关系如图72-2所示。
 
-![图72-2](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2022-12-30-002.png)
+![图72-2](https://binghe.site/assets/images/middleware/rpc/rpc-2022-12-30-002.png)
 
 ## 查看完整文章
 

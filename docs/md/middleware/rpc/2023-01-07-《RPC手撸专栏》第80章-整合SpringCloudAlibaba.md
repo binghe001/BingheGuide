@@ -13,8 +13,8 @@ lock: need
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
 <br/>博客1：[https://binghe001.github.io](https://binghe001.github.io)
-<br/>博客2：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客2：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
 
@@ -48,7 +48,7 @@ lock: need
 
 在《[SpringCloud Alibaba](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg4MjU0OTM1OA==&action=getalbum&album_id=2337104419664084992&scene=173&from_msgid=2247502755&from_itemidx=1&count=3&nolastread=1#wechat_redirect)》专栏中，选择了大家都比较熟悉的电商项目中的用户、商品和订单模块为例。一方面是这些模块的业务逻辑比较简单，另一方面，案例最终会以微服务的形式呈现给大家，专栏原有的代码是使用Fegin作为远程调用的框架，我们要做的就是将Fegin替换成我们自己手写的bhrpc框架，替换后的项目交互流程如图80-1所示。
 
-![图80-1](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-01-07-001.png)
+![图80-1](https://binghe.site/assets/images/middleware/rpc/rpc-2023-01-07-001.png)
 
 由图80-1可以看出，用户微服务、商品微服务和订单微服务的交互流程比较简单，服务与服务之间的交互都会采用我们自己手写的bhrpc框架进行实现。另外，从服务与服务之间的交互流程也可以看出，用户微服务和商品微服务作为服务提供者对外提供服务，订单微服务作为服务消费者来消费用户微服务和商品微服务对外提供的服务。
 
@@ -176,7 +176,7 @@ public class UserStarter {
 
 由于项目使用了Nacos作为配置中心，所以，需要在Nacos添加shop-user工程作为服务提供者的配置，登录Nacos管理端，找到shop-user工程的配置，如下所示。
 
-![rpc-2023-01-07-002](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-01-07-002.png)
+![rpc-2023-01-07-002](https://binghe.site/assets/images/middleware/rpc/rpc-2023-01-07-002.png)
 
 点击编辑按钮，在原有配置的基础上，添加如下配置信息。
 
@@ -272,7 +272,7 @@ public class ProductStarter {
 
 由于项目使用了Nacos作为配置中心，所以，需要在Nacos添加shop-product工程作为服务提供者的配置，登录Nacos管理端，找到shop-product工程的配置，如下所示。
 
-![rpc-2023-01-07-003](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-01-07-003.png)
+![rpc-2023-01-07-003](https://binghe.site/assets/images/middleware/rpc/rpc-2023-01-07-003.png)
 
 点击编辑按钮，在原有配置的基础上，添加如下配置信息。
 
@@ -373,7 +373,7 @@ public class OrderStarter {
 
 由于项目使用了Nacos作为配置中心，所以，需要在Nacos添加shop-order工程作为服务消费者的配置，登录Nacos管理端，找到shop-order工程的配置，如下所示。
 
-![rpc-2023-01-07-004](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-01-07-004.png)
+![rpc-2023-01-07-004](https://binghe.site/assets/images/middleware/rpc/rpc-2023-01-07-004.png)
 
 点击编辑按钮，在原有配置的基础上，添加如下配置信息。
 
@@ -530,7 +530,7 @@ Empty set (0.00 sec)
 
 打开浏览器访问`http://localhost:10002/server-order/order/submit_order?userId=1001&productId=1001&count=1`，如下所示。
 
-![rpc-2023-01-07-005](https://binghe.gitcode.host/assets/images/middleware/rpc/rpc-2023-01-07-005.png)
+![rpc-2023-01-07-005](https://binghe.site/assets/images/middleware/rpc/rpc-2023-01-07-005.png)
 
 可以看到，项目返回的结果为success，表示项目执行成功。
 
@@ -605,7 +605,7 @@ mysql> select * from t_order_item;
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -632,7 +632,7 @@ mysql> select * from t_order_item;
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

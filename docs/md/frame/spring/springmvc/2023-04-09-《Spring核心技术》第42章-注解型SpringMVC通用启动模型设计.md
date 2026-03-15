@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_rt2w9t6inv5j.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-42](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-42)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -69,7 +69,7 @@ public interface ServletContainerInitializer {
 
 在spring-web模块会实现ServletContainerInitializer接口，如图42-1所示。
 
-![图42-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-04-09-001.png)
+![图42-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-04-09-001.png)
 
 由图42-1可以看出，在spring-web模块中就实现了ServletContainerInitializer接口，打开jakarta.servlet.ServletContainerInitializer文件，内容如下所示。
 

@@ -11,7 +11,7 @@ title: 第02章：Java学习路线指南
 当然，这套学习路线包括但不限于大学生，只要愿意按照这个路线肝下去，进大厂拿高薪是100%没有问题的。毕竟，对比了网络上十几篇的Java推荐学习路线，弥补了很多缺失的重要知识点。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-001.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-001.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -22,7 +22,7 @@ title: 第02章：Java学习路线指南
 **高薪程序员必学的Java路线**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-002.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-002.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -127,7 +127,7 @@ JVM的性能调优是一个优秀的Java工程师的必备技能
 所谓内存管理，就是合理的分配系统中多个进程在运行时的空间资源，其主要包含下图中这些内容，内存的分配与回收、虚地址与物理地址之间的转换、通过虚拟内存基础，从逻辑上实现内存的扩充，通过内存分配策略和回收算法来提高内存使用率，内存安全主要是保证进程间在使用内存时的互不干扰！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-003.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-003.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -142,7 +142,7 @@ JVM的性能调优是一个优秀的Java工程师的必备技能
 Linux本质上其实指的是Linux内核，而内核的作用是：内存管理、硬件设备管理、文件系统管理，应用程序管理，这并非是我们在工作中使用的Linux，我们在工作中所用到的均为发行版，由一些组织或厂商通过将Linux内核与其他软件包装起来，并提供系统的安装配置、设定与管理工具，从而进行发布供我们使用。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-004.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-004.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -164,7 +164,7 @@ Linux的文件系统，总体上的作用和章一的文件系统相似，不再
 安装过技术软件的小伙伴们，对于环境变量这个词应该不陌生，而在Linux中同样需要环境变量，用来定义系统运行环境的一些参数。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-005.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-005.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -173,7 +173,7 @@ Linux的文件系统，总体上的作用和章一的文件系统相似，不再
 shell是当下最流行的Linux环境下的运维自动化语言，另外一个是python，能够熟练的使用shell可以提高我们在工作中的效率，因为，学习并掌握shell语言，会让大家在找工作时更有底气。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-006.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-006.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -194,7 +194,7 @@ shell技术冰河准备在后面找个时间，单独给大家分享一下它的
 一张图说清楚OSI七层模型，每一层都有其相应的作用。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-007.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-007.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -203,7 +203,7 @@ shell技术冰河准备在后面找个时间，单独给大家分享一下它的
 同样一张图来搞定TCP/IP五层模型，也有人说是四层模型，这个看自己，无所谓，主要是要理解这个流程。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-008.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-008.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -232,14 +232,14 @@ shell技术冰河准备在后面找个时间，单独给大家分享一下它的
 **三次握手**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-009.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-009.png?raw=true" width="80%">
     <br/>
 </div>
 
 **四次挥手**
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-010.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-010.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -260,7 +260,7 @@ shell技术冰河准备在后面找个时间，单独给大家分享一下它的
 手撕编程题是很多大厂的必考项目，数据结构与算法，考察的是应聘者对于程序逻辑的理解，同时也考验着大家处理问题的能力与变通情况，因此，请大家狂刷算法题时，一定要学会举一反三，学会思考和总结，如下是冰河整理的学习路线。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-011.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-011.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -400,7 +400,7 @@ Druid是阿里巴巴开源平台上一个数据库连接池实现，它结合了
 算法是考验一个程序员逻辑思维的良好渠道，也是互联网企业最喜欢考的内容，而LeetCode是一个非常非常好的算法练习平台，冰河自己也整理了一部分自己之前刷的题目，感兴趣的可以私聊哈
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-012.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-012.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -409,7 +409,7 @@ Druid是阿里巴巴开源平台上一个数据库连接池实现，它结合了
 大一至大四的全部路线学完之后，还需要通过一系列的面试题，进行学习巩固，网上有很多的博主进行了汇总整理，但看了几个之后，觉得不够全量，总是有漏掉的内容，所以后面冰河准备自己肝一个相对全一点的面试大全出来！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/study/java/2024-08-05-013.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/study/java/2024-08-05-013.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -437,7 +437,7 @@ Druid是阿里巴巴开源平台上一个数据库连接池实现，它结合了
 **值得一提的是：冰河自研的Polaris高性能网关比某些开源网关项目性能更高**，你还在等啥？不少小伙伴经过星球硬核技术和项目的历练，早已成功跳槽加薪，实现薪资翻倍，而你，还在原地踏步，抱怨大环境不好。2024年抛弃焦虑和抱怨，我们一起塌下心来沉淀硬核技术和项目，让自己的薪资更上一层楼。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="70%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="70%">
     <div style="font-size: 18px;"></div>
     <br/>
 </div>

@@ -6,8 +6,8 @@ title: 实战高并发设计模式
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码获取地址：[https://t.zsxq.com/0dhvFs5oR](https://t.zsxq.com/0dhvFs5oR)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -26,7 +26,7 @@ title: 实战高并发设计模式
 没错，《并发设计模式》是一个全新的专栏，写什么的呢？看专栏名字就知道了，写的是与并发相关的设计模式，一想到并发，小伙伴们脑海里蹦出的关键词可能是：枯燥，难学，学不会，记不住，学过就忘，明明记得看到过，可就是想不起来在哪看到过等等。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-09-17-001.png?raw=true" width="30%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-09-17-001.png?raw=true" width="30%">
     <br/>
 </div>
 
@@ -44,7 +44,7 @@ title: 实战高并发设计模式
 总体任务关系也并不是很复杂，大家看图：
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-09-17-002.png?raw=true" width="50%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-09-17-002.png?raw=true" width="50%">
     <br/>
 </div>
 
@@ -56,7 +56,7 @@ title: 实战高并发设计模式
 这次，咱们换种方式，以小菜在并发编程领域一路打怪升级的过程为线索，以场景故事的形式贯穿始末，专栏会穿插大量的图解，让大家从轻松、愉快的氛围中学习并发设计模式，主要涵盖的内容如图所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-09-17-003.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-09-17-003.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -73,7 +73,7 @@ title: 实战高并发设计模式
 在整个场景过程中，我们舍弃了整个研发过程中比较繁琐的流程，将其简化成最核心的流程，如图所示。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-09-17-004.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-09-17-004.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -90,7 +90,7 @@ title: 实战高并发设计模式
 小菜一步步梳理需求，使用并发设计模式实现一个个需求的过程，其实就是一个打怪升级的过程。当然，在这个过程中，会不断有老王的辅助和讲解，在整个过程中，小王也比较享受攻克难题，实现需求的自豪感，就这么不断进行着良性循环。久而久之，小菜的技术能力以及并发编程能力，都会得到很大的提升，能独当一面，使用并发设计模式独立负责完整的需求开发。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/assets/images/core/concurrent/2023-09-17-005.png?raw=true" width="70%">
+    <img src="https://binghe.site/assets/images/core/concurrent/2023-09-17-005.png?raw=true" width="70%">
     <br/>
 </div>
 
@@ -125,7 +125,7 @@ title: 实战高并发设计模式
 跟冰河一起从根本上提升自己的技术能力，架构思维和设计思路，以及突破自身职场瓶颈，冰河特推出重大优惠活动，扫码领券进行星球，**直接立减149元，相当于5折，** 这已经是星球最大优惠力度！
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu_149.png?raw=true" width="80%">
+    <img src="https://binghe.site/images/personal/xingqiu_149.png?raw=true" width="80%">
     <br/>
 </div>
 
@@ -172,7 +172,7 @@ title: 实战高并发设计模式
 
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/hacker_binghe.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
@@ -184,7 +184,7 @@ title: 实战高并发设计模式
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
     <div style="font-size: 18px;">公众号：冰河技术</div>
     <br/>
 </div>
@@ -195,7 +195,7 @@ title: 实战高并发设计模式
 定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/ice_video.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
     <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
@@ -209,7 +209,7 @@ title: 实战高并发设计模式
 关注 [冰河技术](https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true)公众号，回复 `星球` 可以获取入场优惠券。
 
 <div align="center">
-    <img src="https://binghe.gitcode.host/images/personal/xingqiu.png?raw=true" width="180px">
+    <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
     <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>

@@ -7,8 +7,8 @@ pay: https://articles.zsxq.com/id_xodqwm77k51b.html
 
 作者：冰河
 <br/>星球：[http://m6z.cn/6aeFbs](http://m6z.cn/6aeFbs)
-<br/>博客：[https://binghe.gitcode.host](https://binghe.gitcode.host)
-<br/>文章汇总：[https://binghe.gitcode.host/md/all/all.html](https://binghe.gitcode.host/md/all/all.html)
+<br/>博客：[https://binghe.site](https://binghe.site)
+<br/>文章汇总：[https://binghe.site/md/all/all.html](https://binghe.site/md/all/all.html)
 <br/>源码地址：[https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-12](https://github.com/binghe001/spring-annotation-book/tree/master/spring-annotation-chapter-12)
 
 > 沉淀，成长，突破，帮助他人，成就自我。
@@ -164,7 +164,7 @@ autowiredService=>>>AutowiredService{autowiredDao=io.binghe.spring.annotation.ch
 
 注意：本章也可以从解析并获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值和使用@Autowired获取属性值三个方面分析源码时序图。获取 @Autowired修饰的属性、为 @Autowired修饰属性赋值的源码时序图基本与@Value注解相同，使用@Autowired注解获取属性值的源码时序图略有差异。使用@Autowired注解获取属性值的源码时序图如图12-1~12-2所示。
 
-![图12-1](https://binghe.gitcode.host/assets/images/frame/spring/ioc/spring-core-2023-03-06-001.png)
+![图12-1](https://binghe.site/assets/images/frame/spring/ioc/spring-core-2023-03-06-001.png)
 
 ## 查看完整文章
 
