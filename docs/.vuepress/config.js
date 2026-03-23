@@ -439,11 +439,15 @@ module.exports = {
                                 text: "🔥AI大模型项目",
                                 items:[
                                     {
-                                        text: '🔥AI智能问答系统(新)',
+                                        text: 'AI智能客服系统',
+                                        link: '/md/project/ai/kefu/start/2026-01-23-start.md'
+                                    },
+                                    {
+                                        text: 'AI智能问答系统',
                                         link: '/md/project/ai/qa/start/2025-01-14-start.md'
                                     },
                                     {
-                                        text: '🔥实战AI大模型(新)',
+                                        text: '实战AI大模型',
                                         link: '/md/project/ai/dk/v1/start/2025-10-25-start.md'
                                     }
                                 ]
@@ -670,6 +674,7 @@ module.exports = {
                     "/md/project/redis-plugin/": getBarRedisPlugin(),
                     "/md/project/ai/dk/v1/": getBarAiDeepSeekV1(),
                     "/md/project/ai/qa/": getBarAiQaSystem(),
+                    "/md/project/ai/kefu/": getBarAiKeSystem(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1580,6 +1585,46 @@ function getBarAiQaSystem() {
                 "summary/2026-01-22-summary.md",
             ]
         },
+    ]
+}
+
+function getBarAiKeSystem() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2026-01-23-start.md"
+            ]
+        },
+        {
+            title: "第01部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "daemond/2026-01-24-chapter01.md"
+            ]
+        },
+        {
+            title: "第02部分：落地实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "coding/2026-01-25-chapter01.md",
+                "coding/2026-01-26-chapter02.md",
+                "coding/2026-01-27-chapter03.md",
+                "coding/2026-01-28-chapter04.md",
+            ]
+        },
+        {
+            title: "第03部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2026-01-29-summary.md",
+            ]
+        }
     ]
 }
 
@@ -3791,6 +3836,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai/kefu/2026-01-23-start.md",
                 "project/ai/qa/2025-01-14-start.md",
                 "project/ai/dk/v1/2025-10-25-start.md",
             ]

@@ -328,6 +328,113 @@
 * [最新版DeepSeek保姆级安装教程：本地部署+避坑指南](https://articles.zsxq.com/id_rrwua7wxs37z.html)
 * [超简单：三步教你搞定DeepSeek本地部署](https://articles.zsxq.com/id_p8fdfdrg53wx.html)
 
+### 💥💥💥 OpenClaw企业级实战
+
+* [《OpenClaw企业级实战》开篇：我要带你从零构建企业级全渠道AI智能体](https://articles.zsxq.com/id_v0ugrxf5o9kc.html)
+* [《OpenClaw企业级实战》启航篇-第01章：OpenClaw 入门与核心概念](https://articles.zsxq.com/id_g8kn0806w871.html)
+
+### 💥💥💥 实战Claude Code
+
+* [《实战Claude Code》基础篇-第01节：环境搭建与替换大模型](https://articles.zsxq.com/id_ocwh8o3vhf0t.html)
+* [《实战Claude Code》基础篇-第02节：Claude Code与GLM-4.7深度集成配置（附MCP扩展实战）](https://articles.zsxq.com/id_cza3w23ni9vz.html)
+* [《实战Claude Code》基础篇-第03节：命令解析、IDEA插件与代码生成](https://articles.zsxq.com/id_m4seq44qhz3w.html)
+* [《实战Claude Code》基础篇-第04节：Claude Code使用技巧和注意事项](https://articles.zsxq.com/id_qdjt3t3dekhq.html)
+* [《实战Claude Code》最佳实践-第01节：Claude Code最佳实践介绍与上下文配置](https://articles.zsxq.com/id_p4cc8axsskkn.html)
+* [《实战Claude Code》最佳实践-第02节：Claude Code官方推荐最佳实践](https://articles.zsxq.com/id_vv8betnj7hvo.html)
+
+### 💥💥💥 AI智流助手平台
+
+[《智流助手平台》-总结： 基于DeepSeek和Spring AI的高性能AI工具平台完结发布](https://articles.zsxq.com/id_alge7pd9i92n.html)
+
+### 💥💥💥 AI智能知识库系统
+
+* [《智能知识库系统》总结：Spring AI + DeepSeek 智能知识库系统完结上线](https://articles.zsxq.com/id_zlogsxz5e24m.html)
+
+### 💥💥💥 基于AI的智能成语挑战赛项目
+
+* [基于AI的智能成语挑战赛项目](https://articles.zsxq.com/id_7gw9caqh1ww2.html)
+
+### 💥💥💥 SpringAI智能体
+
+* [又一个项目：基于SpringAI Alibaba开发第一个大模型智能体](https://articles.zsxq.com/id_oxnwl9cnvk2w.html)
+
+### 💥💥💥 多轮AI智能对话系统
+
+* [《多轮AI智能对话系统》开篇：多轮智能对话系统正式开撸](https://articles.zsxq.com/id_5uhwxa6lqkwg.html)
+* [《多轮AI智能对话系统》需求设计：总体需求与方案设计](https://articles.zsxq.com/id_zj73tvtahike.html)
+* [《多轮AI智能对话系统》整体实现-第01节：项目搭建与基础功能设计与实现](https://articles.zsxq.com/id_foa8rbp9m01x.html)
+* [《多轮AI智能对话系统》整体实现-第02节：发送消息核心接口功能的设计与实现](https://articles.zsxq.com/id_pzu90b6ur1mq.html)
+* [《多轮AI智能对话系统》整体实现-第03节：上下文记忆管理功能的设计与实现](https://articles.zsxq.com/id_z3k77v5w20gw.html)
+* [《多轮AI智能对话系统》整体实现-第04节：历史会话与健康检查功能的设计与实现](https://articles.zsxq.com/id_kacnfao2m25d.html)
+* [《多轮AI智能对话系统》整体实现-第05节：前端页面功能的设计与实现](https://articles.zsxq.com/id_1g8j2f02hnex.html)
+* [《多轮AI智能对话系统》总结-多轮AI智能对话系统整体专栏总结](https://articles.zsxq.com/id_opamds7u8wat.html)
+* [《多轮AI智能对话系统》总结-多轮AI智能对话系统专栏汇总](https://articles.zsxq.com/id_44gao6eti511.html)
+
+### 💥💥💥 一站式AI智能平台
+
+* [《一站式AI智能平台》开篇：一站式AI智能平台正式开撸](https://articles.zsxq.com/id_ejapo683kpa0.html)
+* [《一站式AI智能平台》需求设计：总体需求与方案设计](https://articles.zsxq.com/id_txghklpw3edw.html)
+* [《一站式AI智能平台》后端系统实现-第01节：整体项目结构搭建与说明](https://articles.zsxq.com/id_ug1utep1zx9d.html)
+* [《一站式AI智能平台》后端系统实现-第02节：实时流式聊天功能的设计与实现](https://articles.zsxq.com/id_pg55nes512wq.html)
+* [《一站式AI智能平台》后端系统实现-第03节：生成营销文案功能的设计与实现](https://articles.zsxq.com/id_oa4efidejzw5.html)
+* [《一站式AI智能平台》后端系统实现-第04节：智能代码生成功能的设计与实现](https://articles.zsxq.com/id_r7hujknaaoda.html)
+* [《一站式AI智能平台》后端系统实现-第05节：智能问答功能的设计与实现](https://articles.zsxq.com/id_d7137ik52lcb.html)
+* [《一站式AI智能平台》后端系统实现-第06节：通用聊天功能的设计与实现](https://articles.zsxq.com/id_ncknc3v953wt.html)
+* [《一站式AI智能平台》前端页面实现-第01节：前端页面的设计与实现](https://articles.zsxq.com/id_tqhd9zrnaufw.html)
+* [《一站式AI智能平台》功能测试-第01节：一站式AI智能平台整体功能测试](https://articles.zsxq.com/id_etkh82ak5rwt.html)
+* [《一站式AI智能平台》总结-一站式AI智能平台整体专栏总结](https://articles.zsxq.com/id_8jb4gcurgtbw.html)
+
+
+### 💥💥💥 AI智能客服系统
+
+* [《AI智能客服系统》开篇：基于DeepSeek大模型的AI智能客服系统正式开撸](https://articles.zsxq.com/id_0u62m22vtqxu.html)
+* [《AI智能客服系统》需求设计：总体需求与方案设计](https://articles.zsxq.com/id_r9mn6qhq10a2.html)
+* [《AI智能客服系统》落地实现-第01节：整体项目结构搭建与说明](https://articles.zsxq.com/id_7e0bgw15hjqp.html)
+* [《AI智能客服系统》落地实现-第02节：数据模型与数据存储层的数据与实现](https://articles.zsxq.com/id_k0xen4wawbhi.html)
+* [《AI智能客服系统》落地实现-第03节：业务逻辑层与接口层的设计与实现](https://articles.zsxq.com/id_1dsq8mi55d01.html)
+* [《AI智能客服系统》落地实现-第04节：前端页面的实现与整体测试](https://articles.zsxq.com/id_3seenn8x69n0.html)
+* [《AI智能客服系统》总结-AI智能客服系统总体专栏总结](https://articles.zsxq.com/id_hwafba8bojk6.html)
+
+### 💥💥💥 AI智能问答系统
+
+* [《AI智能问答系统》开篇：AI智能问答极简系统正式开撸](https://articles.zsxq.com/id_i150l051l82g.html)
+* [《AI智能问答系统》需求设计：AI智能问答系统的需求与流程设计](https://articles.zsxq.com/id_82ntjb2j7cd1.html)
+* [《AI智能问答系统》落地实现-第01节：AI智能问答系统简单对话模型的设计与实现](https://articles.zsxq.com/id_hk9o2brnwj8j.html)
+* [《AI智能问答系统》落地实现-第02节：AI智能问答系统历史会话模型的设计与实现](https://articles.zsxq.com/id_vwifn2s091ju.html)
+* [《AI智能问答系统》落地实现-第03节：AI智能问答系统知识库模型的设计与实现](https://articles.zsxq.com/id_n2efsgo7qfcl.html)
+* [《AI智能问答系统》落地实现-第04节：AI智能问答系统前端页面的实现](https://articles.zsxq.com/id_2l3gc2xd1c0l.html)
+* [《AI智能问答系统》测试验证-第01节：AI智能问答系统整体功能性测试](https://articles.zsxq.com/id_3czqs9owbnmz.html)
+* [《AI智能问答系统》总结-AI智能问答系统整体专栏总结](https://articles.zsxq.com/id_udbbmkg7zmz5.html)
+
+### 💥💥💥 大模型案例
+
+* [基于 Spring AI 构建MCP服务端与客户端（含SSE 与STDIO模式完整实现源码）](https://articles.zsxq.com/id_hqcbubtxp4ox.html)
+* [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
+* [实战AI大模型：基于 Spring AI 与 Dify：搭建文档问答系统](https://articles.zsxq.com/id_cvtmxmaa0qug.html)
+* [实战指南：基于SpringAI与DeepSeek构建企业级AI应用的五种实用案例](https://articles.zsxq.com/id_7ngza06rtli1.html)
+* [实战AI研发提效：IDEA集成DeepSeek，快速提升开发和定位问题的效率](https://articles.zsxq.com/id_ke029kgrk97m.html)
+* [又一个项目：基于SpringAI Alibaba开发第一个大模型智能体](https://articles.zsxq.com/id_oxnwl9cnvk2w.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_uzj0fcw3t2ik.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整基座项目）](https://articles.zsxq.com/id_knhhkonzp5kh.html)
+* [实战AI大模型：从实战角度搞懂MCP、Function Calling和A2A](https://articles.zsxq.com/id_iuckx0u5dndh.html)
+* [又一个MCP基座项目完结：让LLM拥有"超能力"，打造个人专属工具库](https://articles.zsxq.com/id_rh7uha0v7l9x.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整项目）](https://articles.zsxq.com/id_44xu8p2dwngs.html)
+* [实战FastMCP：3分钟让LLM拥有"超能力"，打造专属工具库（Python版）](https://articles.zsxq.com/id_nck13qwbm68w.html)
+* [Spring AI MCP实战：用 Java快速搭建MCP服务接入LLM](https://articles.zsxq.com/id_n0gehwf475t1.html)
+* [一文彻底吃透MCP：原理剖析+生态详解+完整项目实战](https://articles.zsxq.com/id_6wtkibmqjl97.html)
+* [SpringAI MCP实战：从理论到代码、从设计Agent再到构建MCP服务](https://articles.zsxq.com/id_anno4o2ex74u.html)
+* [MCP网关实战：用MCP网关打造超级AI开发助手](https://articles.zsxq.com/id_zroeir9ie93x.html)
+* [实战：SpringBoot+MCP 让你的系统秒变AI助手](https://articles.zsxq.com/id_nlkotgr2g9ar.html)
+* [Spring AI + DeepSeek：让数据库听懂人话查数据实战案例](https://articles.zsxq.com/id_5rjxhgaznjun.html)
+* [DeepSeek大模型：从部署、开发到知识库搭建，从入门到精通](https://articles.zsxq.com/id_bpblxhlwfvuv.html)
+* [SpringAI实现一个简单的问答系统（实战）](https://articles.zsxq.com/id_nhwt8jzp25lx.html)
+* [本地部署DeepSeeK+Dify部署](https://articles.zsxq.com/id_t2og818nre9v.html)
+* [一文教你使用：Ollama+DeepSeek+Docker+MaxKB搭建本地知识库](https://articles.zsxq.com/id_sw4icrpeao23.html)
+* [如何基于dify和deepseek轻松训练自己的AI大模型](https://articles.zsxq.com/id_p86c0wo5xpim.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_1rmgngfm3fml.html)
+* [最新版DeepSeek保姆级安装教程：本地部署+避坑指南](https://articles.zsxq.com/id_rrwua7wxs37z.html)
+* [超简单：三步教你搞定DeepSeek本地部署](https://articles.zsxq.com/id_p8fdfdrg53wx.html)
+
 ### 💥💥💥 实战AI大模型
 
 * [《实战AI大模型》开篇：实战AI大模型专栏正式开撸](https://articles.zsxq.com/id_rwr4how9f1dh.html)
