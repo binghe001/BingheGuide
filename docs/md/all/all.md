@@ -278,6 +278,65 @@ title: 冰河指南
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥💥💥 智能代码审查系统
+
+* [《智能代码审查系统》开篇：我要带你从零开始手撸一个支持多种AI大模型、多种语言、对接多代码和推送平台的智能代码审查系统](https://articles.zsxq.com/id_8bn6qwzt3kbn.html)
+* [《智能代码审查系统》需求设计-第01节：为何要学习智能代码审查系统](https://articles.zsxq.com/id_bfsn3f7kic66.html)
+* [《智能代码审查系统》需求设计-第02节：智能代码审查系统目标和挑战](https://articles.zsxq.com/id_lvkeb0zo8v34.html)
+* [《智能代码审查系统》需求设计-第03节：智能代码审查系统功能拆解与需求梳理](https://articles.zsxq.com/id_wa9pjolvawql.html)
+* [《智能代码审查系统》架构设计-第01节：总体架构设计与流程梳理](https://articles.zsxq.com/id_sxuub63vk0px.html)
+* [《智能代码审查系统》架构设计-第02节：项目总体结构与模块流程梳理](https://articles.zsxq.com/id_253j75w40js1.html)
+* [《智能代码审查系统》编码实现-第01节：项目基础模型与配置类的设计与实现](https://articles.zsxq.com/id_o14w24wgac6z.html)
+* [《智能代码审查系统》编码实现-第02节：对接各种AI大模型客户端](https://articles.zsxq.com/id_qjlwh34w0ar2.html)
+* [《智能代码审查系统》编码实现-第03节：CodeReview服务层的设计与实现](https://articles.zsxq.com/id_cwlt30skfini.html)
+* [《智能代码审查系统》编码实现-第04节：生成CR记录和日报的设计与实现](https://articles.zsxq.com/id_u1r181wc1ftb.html)
+* [《智能代码审查系统》编码实现-第05节：对接微信-钉钉-飞书-自定义WebHook发送通知消息](https://articles.zsxq.com/id_to4ritf9hqfq.html)
+* [《智能代码审查系统》编码实现-第06节：三大类型代码仓库核心WebHook设计与实现](https://articles.zsxq.com/id_u2cokc7wun2n.html)
+* [《智能代码审查系统》编码实现-第07节：智能代码审查系统核心配置和启动类的设计与实现](https://articles.zsxq.com/id_axm48oojlwbv.html)
+* [《智能代码审查系统》编码实现-第08节：智能代码审查系统前端页面的设计与实现](https://articles.zsxq.com/id_wze61vg0lxoo.html)
+* [《智能代码审查系统》整体测试-第01节：整体代码审查功能测试](https://articles.zsxq.com/id_vl7402lcb3ub.html)
+* [《智能代码审查系统》总结-智能代码审查系统专栏总结](https://articles.zsxq.com/id_kc1ovx0wkb3z.html)
+
+### 💥💥💥 AI智能问答系统
+
+* [《AI智能问答系统》开篇：AI智能问答极简系统正式开撸](https://articles.zsxq.com/id_i150l051l82g.html)
+* [《AI智能问答系统》需求设计：AI智能问答系统的需求与流程设计](https://articles.zsxq.com/id_82ntjb2j7cd1.html)
+* [《AI智能问答系统》落地实现-第01节：AI智能问答系统简单对话模型的设计与实现](https://articles.zsxq.com/id_hk9o2brnwj8j.html)
+* [《AI智能问答系统》落地实现-第02节：AI智能问答系统历史会话模型的设计与实现](https://articles.zsxq.com/id_vwifn2s091ju.html)
+* [《AI智能问答系统》落地实现-第03节：AI智能问答系统知识库模型的设计与实现](https://articles.zsxq.com/id_n2efsgo7qfcl.html)
+* [《AI智能问答系统》落地实现-第04节：AI智能问答系统前端页面的设计与实现](https://articles.zsxq.com/id_2l3gc2xd1c0l.html)
+* [《AI智能问答系统》测试验证-第01节：AI智能问答系统整体功能性测试](https://articles.zsxq.com/id_3czqs9owbnmz.html)
+* [《AI智能问答系统》总结-AI智能问答系统整体专栏总结](https://articles.zsxq.com/id_udbbmkg7zmz5.html)
+
+### 💥💥💥 大模型案例
+
+* [基于 Spring AI 构建MCP服务端与客户端（含SSE 与STDIO模式完整实现源码）](https://articles.zsxq.com/id_hqcbubtxp4ox.html)
+* [实战Gemini大模型：零服务器搭建Gemini 3 Pro API稳定访问通道](https://articles.zsxq.com/id_wwf72s0dirma.html)
+* [实战AI大模型：基于 Spring AI 与 Dify：搭建文档问答系统](https://articles.zsxq.com/id_cvtmxmaa0qug.html)
+* [实战指南：基于SpringAI与DeepSeek构建企业级AI应用的五种实用案例](https://articles.zsxq.com/id_7ngza06rtli1.html)
+* [实战AI研发提效：IDEA集成DeepSeek，快速提升开发和定位问题的效率](https://articles.zsxq.com/id_ke029kgrk97m.html)
+* [又一个项目：基于SpringAI Alibaba开发第一个大模型智能体](https://articles.zsxq.com/id_oxnwl9cnvk2w.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_uzj0fcw3t2ik.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整基座项目）](https://articles.zsxq.com/id_knhhkonzp5kh.html)
+* [实战AI大模型：从实战角度搞懂MCP、Function Calling和A2A](https://articles.zsxq.com/id_iuckx0u5dndh.html)
+* [又一个MCP基座项目完结：让LLM拥有"超能力"，打造个人专属工具库](https://articles.zsxq.com/id_rh7uha0v7l9x.html)
+* [实战MCP：让LLM拥有"超能力"，打造专属工具库（Java版完整项目）](https://articles.zsxq.com/id_44xu8p2dwngs.html)
+* [实战FastMCP：3分钟让LLM拥有"超能力"，打造专属工具库（Python版）](https://articles.zsxq.com/id_nck13qwbm68w.html)
+* [Spring AI MCP实战：用 Java快速搭建MCP服务接入LLM](https://articles.zsxq.com/id_n0gehwf475t1.html)
+* [一文彻底吃透MCP：原理剖析+生态详解+完整项目实战](https://articles.zsxq.com/id_6wtkibmqjl97.html)
+* [SpringAI MCP实战：从理论到代码、从设计Agent再到构建MCP服务](https://articles.zsxq.com/id_anno4o2ex74u.html)
+* [MCP网关实战：用MCP网关打造超级AI开发助手](https://articles.zsxq.com/id_zroeir9ie93x.html)
+* [实战：SpringBoot+MCP 让你的系统秒变AI助手](https://articles.zsxq.com/id_nlkotgr2g9ar.html)
+* [Spring AI + DeepSeek：让数据库听懂人话查数据实战案例](https://articles.zsxq.com/id_5rjxhgaznjun.html)
+* [DeepSeek大模型：从部署、开发到知识库搭建，从入门到精通](https://articles.zsxq.com/id_bpblxhlwfvuv.html)
+* [SpringAI实现一个简单的问答系统（实战）](https://articles.zsxq.com/id_nhwt8jzp25lx.html)
+* [本地部署DeepSeeK+Dify部署](https://articles.zsxq.com/id_t2og818nre9v.html)
+* [一文教你使用：Ollama+DeepSeek+Docker+MaxKB搭建本地知识库](https://articles.zsxq.com/id_sw4icrpeao23.html)
+* [如何基于dify和deepseek轻松训练自己的AI大模型](https://articles.zsxq.com/id_p86c0wo5xpim.html)
+* [DeepSeek三种方式搭建最强个人知识库](https://articles.zsxq.com/id_1rmgngfm3fml.html)
+* [最新版DeepSeek保姆级安装教程：本地部署+避坑指南](https://articles.zsxq.com/id_rrwua7wxs37z.html)
+* [超简单：三步教你搞定DeepSeek本地部署](https://articles.zsxq.com/id_p8fdfdrg53wx.html)
+
 ### 💥💥💥 OpenClaw企业级实战
 
 * [《OpenClaw企业级实战》开篇：我要带你从零构建企业级全渠道AI智能体](https://articles.zsxq.com/id_v0ugrxf5o9kc.html)
@@ -291,6 +350,19 @@ title: 冰河指南
 * [《实战Claude Code》基础篇-第04节：Claude Code使用技巧和注意事项](https://articles.zsxq.com/id_qdjt3t3dekhq.html)
 * [《实战Claude Code》最佳实践-第01节：Claude Code最佳实践介绍与上下文配置](https://articles.zsxq.com/id_p4cc8axsskkn.html)
 * [《实战Claude Code》最佳实践-第02节：Claude Code官方推荐最佳实践](https://articles.zsxq.com/id_vv8betnj7hvo.html)
+* [《实战Claude Code》最佳实践-第03节：Claude Code快速上手最佳实践](https://articles.zsxq.com/id_1g25lw36wzb2.html)
+* [《实战Claude Code》最佳实践-第04节：Claude Code MCP最佳实践](https://articles.zsxq.com/id_9cq3spfgjhw2.html)
+* [《实战Claude Code》最佳实践-第05节：Claude Code Skills最佳实践](https://articles.zsxq.com/id_heiawmkmum1b.html)
+* [《实战Claude Code》最佳实践-第06节：Claude Code长期工作最佳实践](https://articles.zsxq.com/id_sa4hjotbsbap.html)
+* [《实战Claude Code》最佳实践-第07节：Claude Agent Teams最佳实践（上）](https://articles.zsxq.com/id_65nticbxrxqw.html)
+* [《实战Claude Code》最佳实践-第07节：Claude Agent Teams最佳实践（下）](https://articles.zsxq.com/id_nar4ew4dtpf5.html)
+* [《实战Claude Code》最佳实践-第08节：Claude Code Superpowers最佳实践](https://articles.zsxq.com/id_um4u6vb6lwmh.html)
+* [《实战Claude Code》最佳实践-第09节：Claude Code 工作流最佳实践](https://articles.zsxq.com/id_wpclc609majt.html)
+* [《实战Claude Code》最佳实践-第10节：Claude Code 手机远程开发最佳实践](https://articles.zsxq.com/id_iougf0s92e3z.html)
+* [《实战Claude Code》最佳实践-第11节：Claude Agent SDK最佳实践](https://articles.zsxq.com/id_r81gfol3rimw.html)
+* [Claude Code 完全指南：从安装配置到高效工作流最佳实践（上）](https://articles.zsxq.com/id_cvfdxh9jvked.html)
+* [Claude Code 完全指南：从安装配置到高效工作流最佳实践（下）](https://articles.zsxq.com/id_togl4k4s396w.html)
+* [Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”](https://articles.zsxq.com/id_hs6iq24qtzfx.html)
 
 ### 💥💥💥 AI智流助手平台
 

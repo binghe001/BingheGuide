@@ -288,6 +288,25 @@
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥💥💥 智能代码审查系统
+
+* [《智能代码审查系统》开篇：我要带你从零开始手撸一个支持多种AI大模型、多种语言、对接多代码和推送平台的智能代码审查系统](https://articles.zsxq.com/id_8bn6qwzt3kbn.html)
+* [《智能代码审查系统》需求设计-第01节：为何要学习智能代码审查系统](https://articles.zsxq.com/id_bfsn3f7kic66.html)
+* [《智能代码审查系统》需求设计-第02节：智能代码审查系统目标和挑战](https://articles.zsxq.com/id_lvkeb0zo8v34.html)
+* [《智能代码审查系统》需求设计-第03节：智能代码审查系统功能拆解与需求梳理](https://articles.zsxq.com/id_wa9pjolvawql.html)
+* [《智能代码审查系统》架构设计-第01节：总体架构设计与流程梳理](https://articles.zsxq.com/id_sxuub63vk0px.html)
+* [《智能代码审查系统》架构设计-第02节：项目总体结构与模块流程梳理](https://articles.zsxq.com/id_253j75w40js1.html)
+* [《智能代码审查系统》编码实现-第01节：项目基础模型与配置类的设计与实现](https://articles.zsxq.com/id_o14w24wgac6z.html)
+* [《智能代码审查系统》编码实现-第02节：对接各种AI大模型客户端](https://articles.zsxq.com/id_qjlwh34w0ar2.html)
+* [《智能代码审查系统》编码实现-第03节：CodeReview服务层的设计与实现](https://articles.zsxq.com/id_cwlt30skfini.html)
+* [《智能代码审查系统》编码实现-第04节：生成CR记录和日报的设计与实现](https://articles.zsxq.com/id_u1r181wc1ftb.html)
+* [《智能代码审查系统》编码实现-第05节：对接微信-钉钉-飞书-自定义WebHook发送通知消息](https://articles.zsxq.com/id_to4ritf9hqfq.html)
+* [《智能代码审查系统》编码实现-第06节：三大类型代码仓库核心WebHook设计与实现](https://articles.zsxq.com/id_u2cokc7wun2n.html)
+* [《智能代码审查系统》编码实现-第07节：智能代码审查系统核心配置和启动类的设计与实现](https://articles.zsxq.com/id_axm48oojlwbv.html)
+* [《智能代码审查系统》编码实现-第08节：智能代码审查系统前端页面的设计与实现](https://articles.zsxq.com/id_wze61vg0lxoo.html)
+* [《智能代码审查系统》整体测试-第01节：整体代码审查功能测试](https://articles.zsxq.com/id_vl7402lcb3ub.html)
+* [《智能代码审查系统》总结-智能代码审查系统专栏总结](https://articles.zsxq.com/id_kc1ovx0wkb3z.html)
+
 ### 💥💥💥 AI智能问答系统
 
 * [《AI智能问答系统》开篇：AI智能问答极简系统正式开撸](https://articles.zsxq.com/id_i150l051l82g.html)
@@ -341,6 +360,19 @@
 * [《实战Claude Code》基础篇-第04节：Claude Code使用技巧和注意事项](https://articles.zsxq.com/id_qdjt3t3dekhq.html)
 * [《实战Claude Code》最佳实践-第01节：Claude Code最佳实践介绍与上下文配置](https://articles.zsxq.com/id_p4cc8axsskkn.html)
 * [《实战Claude Code》最佳实践-第02节：Claude Code官方推荐最佳实践](https://articles.zsxq.com/id_vv8betnj7hvo.html)
+* [《实战Claude Code》最佳实践-第03节：Claude Code快速上手最佳实践](https://articles.zsxq.com/id_1g25lw36wzb2.html)
+* [《实战Claude Code》最佳实践-第04节：Claude Code MCP最佳实践](https://articles.zsxq.com/id_9cq3spfgjhw2.html)
+* [《实战Claude Code》最佳实践-第05节：Claude Code Skills最佳实践](https://articles.zsxq.com/id_heiawmkmum1b.html)
+* [《实战Claude Code》最佳实践-第06节：Claude Code长期工作最佳实践](https://articles.zsxq.com/id_sa4hjotbsbap.html)
+* [《实战Claude Code》最佳实践-第07节：Claude Agent Teams最佳实践（上）](https://articles.zsxq.com/id_65nticbxrxqw.html)
+* [《实战Claude Code》最佳实践-第07节：Claude Agent Teams最佳实践（下）](https://articles.zsxq.com/id_nar4ew4dtpf5.html)
+* [《实战Claude Code》最佳实践-第08节：Claude Code Superpowers最佳实践](https://articles.zsxq.com/id_um4u6vb6lwmh.html)
+* [《实战Claude Code》最佳实践-第09节：Claude Code 工作流最佳实践](https://articles.zsxq.com/id_wpclc609majt.html)
+* [《实战Claude Code》最佳实践-第10节：Claude Code 手机远程开发最佳实践](https://articles.zsxq.com/id_iougf0s92e3z.html)
+* [《实战Claude Code》最佳实践-第11节：Claude Agent SDK最佳实践](https://articles.zsxq.com/id_r81gfol3rimw.html)
+* [Claude Code 完全指南：从安装配置到高效工作流最佳实践（上）](https://articles.zsxq.com/id_cvfdxh9jvked.html)
+* [Claude Code 完全指南：从安装配置到高效工作流最佳实践（下）](https://articles.zsxq.com/id_togl4k4s396w.html)
+* [Claude Code 最佳学习路线：从“手敲代码”到“指挥AI打工”](https://articles.zsxq.com/id_hs6iq24qtzfx.html)
 
 ### 💥💥💥 AI智流助手平台
 
