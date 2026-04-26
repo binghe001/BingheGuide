@@ -439,6 +439,10 @@ module.exports = {
                                 text: "🔥AI大模型项目",
                                 items:[
                                     {
+                                        text: '一站式AI智能平台',
+                                        link: '/md/project/ai/one/start/2026-01-28-start.md'
+                                    },
+                                    {
                                         text: 'AI智能客服系统',
                                         link: '/md/project/ai/kefu/start/2026-01-23-start.md'
                                     },
@@ -675,6 +679,7 @@ module.exports = {
                     "/md/project/ai/dk/v1/": getBarAiDeepSeekV1(),
                     "/md/project/ai/qa/": getBarAiQaSystem(),
                     "/md/project/ai/kefu/": getBarAiKeSystem(),
+                    "/md/project/ai/one/": getBarAiOneSystem(),
                     "/md/distributed/transaction/": getBarDistributedTransaction(),
                     "/md/project/seckill/": getBarPeojectSeckill(),
                     "/md/project/im/": getBarPeojectIM(),
@@ -1623,6 +1628,56 @@ function getBarAiKeSystem() {
             sidebarDepth: 0,
             children: [
                 "summary/2026-01-29-summary.md",
+            ]
+        }
+    ]
+}
+
+function getBarAiOneSystem() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2026-01-28-start.md"
+            ]
+        },
+        {
+            title: "第01部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "daemond/2026-01-29-chapter01.md"
+            ]
+        },
+        {
+            title: "第02部分：后端实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "coding/2026-01-30-chapter01.md",
+                "coding/2026-01-31-chapter02.md",
+                "coding/2026-02-01-chapter03.md",
+                "coding/2026-02-02-chapter04.md",
+                "coding/2026-02-03-chapter05.md",
+                "coding/2026-02-04-chapter06.md",
+            ]
+        },
+        {
+            title: "第03部分：前端实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "front/2026-02-05-chapter01.md",
+            ]
+        },
+        {
+            title: "第04部分：专栏总结",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "summary/2026-02-07-summary.md",
             ]
         }
     ]
@@ -3836,6 +3891,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai/one/2026-01-28-start.md",
                 "project/ai/kefu/2026-01-23-start.md",
                 "project/ai/qa/2025-01-14-start.md",
                 "project/ai/dk/v1/2025-10-25-start.md",
