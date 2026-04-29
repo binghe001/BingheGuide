@@ -68,7 +68,7 @@
                 return "need" === this.frontmatter.lock;
             },
             articleObj: function () {
-                let $article = $('.theme-default-content');
+                let $article = $('[vp-content]');
                 if ($article.length <= 0) return null;
 
                 // 文章的实际高度
