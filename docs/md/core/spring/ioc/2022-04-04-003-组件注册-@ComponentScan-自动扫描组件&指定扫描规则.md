@@ -444,7 +444,7 @@ person
 
 **总结：我们可以使用@ComponentScan注解来指定Spring扫描哪些包，可以使用excludeFilters()指定扫描时排除哪些组件，也可以使用includeFilters()指定扫描时只包含哪些组件。当使用includeFilters()指定只包含哪些组件时，需要禁用默认的过滤规则**
 
-<font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
+`<font color="#FF0000">`**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**`</font>`
 
 > 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 

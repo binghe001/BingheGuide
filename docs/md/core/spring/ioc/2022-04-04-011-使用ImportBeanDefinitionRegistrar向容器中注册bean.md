@@ -182,7 +182,7 @@ company
 
 可以看到，此时输出了company，说明Spring容器中已经成功注册了以company命名的bean。
 
-<font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
+`<font color="#FF0000">`**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**`</font>`
 
 > 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 

@@ -23,7 +23,7 @@ Spring提供了两种后台任务的方法,分别是:
 * 调度任务，@Schedule
 * 异步任务，@Async
 
-当然，使用这两个是有条件的，需要在spring应用的上下文中声明`<task:annotation-driven/>`当然，如果我们是基于java配置的，需要在配置类上加`@EnableScheduling`和`@EnableAsync `注解，例如，下面的代码片段。
+当然，使用这两个是有条件的，需要在spring应用的上下文中声明``<task:annotation-driven/>``当然，如果我们是基于java配置的，需要在配置类上加`@EnableScheduling`和`@EnableAsync `注解，例如，下面的代码片段。
 
 ```java
 @EnableScheduling

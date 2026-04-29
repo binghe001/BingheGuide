@@ -48,7 +48,7 @@ ZipKin的核心架构图如下所示。
 
 ![sa-2022-05-13-001](https://binghe.site/assets/images/microservices/springcloudalibaba/sa-2022-05-13-001.png)
 
-<p align="right"><font size="1">注：图片来源：https://zipkin.io/pages/architecture.html</font></p>
+<p align="right">`<font size="1">`注：图片来源：https://zipkin.io/pages/architecture.html`</font>`</p>
 
 其中，ZipKin核心组件的功能如下所示。
 

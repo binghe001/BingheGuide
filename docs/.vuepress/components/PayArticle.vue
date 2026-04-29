@@ -9,8 +9,14 @@
 </template>
 
 <script>
+    import { usePageFrontmatter } from 'vuepress/client'
+
     export default {
         name: 'PayArticle',
+        setup() {
+            const frontmatter = usePageFrontmatter()
+            return { frontmatter }
+        },
         data() {
             return {}
         },
@@ -37,7 +43,7 @@
         },
         methods: {
             isPay() {
-                return this.$page.frontmatter.pay;
+                return this.frontmatter.pay;
             },
             articleObj: function () {
                 let $article = $('.theme-default-content');
@@ -79,7 +85,7 @@
                 clone.css('display', 'block');
 
                 // 按钮跳转付费
-                clone.find("#pay-read-more-btn").attr("href", this.$page.frontmatter.pay);
+                clone.find("#pay-read-more-btn").attr("href", this.frontmatter.pay);
 
                 $article.append(clone);
             }
@@ -87,7 +93,7 @@
     }
 </script>
 
-<style lang="stylus">
+<style>
     #pay-read-more-btn {
         border: none !important;
         text-decoration: none;

@@ -209,7 +209,7 @@ sharedInstance = getSingleton(beanName, () -> {
 
 ![021](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-021.png)
 
-执行完会回到`org.springframework.beans.factory.support`包下的`DefaultSingletonBeanRegistry#getSingleton(String, ObjectFactory<?>)`方法，并且会执行`addSingleton(beanName, singletonObject);代码行，如下所示。
+执行完会回到`org.springframework.beans.factory.support`包下的`DefaultSingletonBeanRegistry#getSingleton(String, ObjectFactory`<?>`)`方法，并且会执行`addSingleton(beanName, singletonObject);代码行，如下所示。
 
 ![022](https://binghe.site/assets/images/core/spring/ioc/2022-04-04-044-022.png)
 

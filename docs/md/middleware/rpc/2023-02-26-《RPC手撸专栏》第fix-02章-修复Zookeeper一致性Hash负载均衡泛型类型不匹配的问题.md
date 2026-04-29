@@ -32,7 +32,7 @@ lock: need
 
 `这个问题是如何产生的呢？`
 
-将负载均衡类型和增强型负载均衡类型的泛型SPI接口合并后，基于Zookeeper一致性Hash的负载均衡类型泛型类型为：`ServiceInstance<ServiceMeta>`，调用负载均衡SPI接口的实例对象的泛型类型为：`ServiceMeta`。这就造成了泛型类型不匹配的问题。
+将负载均衡类型和增强型负载均衡类型的泛型SPI接口合并后，基于Zookeeper一致性Hash的负载均衡类型泛型类型为：`ServiceInstance`<ServiceMeta>``，调用负载均衡SPI接口的实例对象的泛型类型为：`ServiceMeta`。这就造成了泛型类型不匹配的问题。
 
 相关类的源码如下所示。
 

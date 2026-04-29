@@ -45,7 +45,7 @@ ZipKin的核心架构如图105-1所示。
     <br/>
 </div>
 
-<p align="right"><font size="1">注：图片来源：https://zipkin.io/pages/architecture.html</font></p>
+<p align="right">`<font size="1">`注：图片来源：https://zipkin.io/pages/architecture.html`</font>`</p>
 
 其中，ZipKin核心组件的功能如下所示。
 

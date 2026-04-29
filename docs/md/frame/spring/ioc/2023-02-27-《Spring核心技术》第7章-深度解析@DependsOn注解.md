@@ -301,9 +301,9 @@ public DependsOnMethodB dependsOnMethodB(){
 
 在DependsOnTest类的main()方法中调用了AnnotationConfigApplicationContext类的构造方法，并传入了DependsOnConfig类的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -315,9 +315,9 @@ public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
 
 可以看到，在上述构造方法中，调用了register()方法来注册Bean。
 
-（3）解析AnnotationConfigApplicationContext类的register(Class<?>... componentClasses) 方法
+（3）解析AnnotationConfigApplicationContext类的register(Class`<?>`... componentClasses) 方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#register(Class<?>... componentClasses) 。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#register(Class`<?>`... componentClasses) 。
 
 ```java
 @Override
@@ -330,9 +330,9 @@ public void register(Class<?>... componentClasses) {
 
 可以看到，在AnnotationConfigApplicationContext类的register()方法中，调用reader对象的register()方法注册Bean。
 
-（4）解析AnnotatedBeanDefinitionReader类的register(Class<?>... componentClasses)方法
+（4）解析AnnotatedBeanDefinitionReader类的register(Class`<?>`... componentClasses)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#register(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#register(Class`<?>`... componentClasses)。
 
 ```java
 public void register(Class<?>... componentClasses) {
@@ -344,9 +344,9 @@ public void register(Class<?>... componentClasses) {
 
 可以看到，在AnnotatedBeanDefinitionReader类的register()方法中，会循环遍历传入的componentClasses数组，并将遍历出的每个componentClass元素作为参数调用registerBean()方法注册Bean。
 
-（5）解析AnnotatedBeanDefinitionReader类的registerBean(Class<?> beanClass)方法
+（5）解析AnnotatedBeanDefinitionReader类的registerBean(Class`<?>` beanClass)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#registerBean(Class<?> beanClass)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#registerBean(Class`<?>` beanClass)。
 
 ```java
 public void registerBean(Class<?> beanClass) {
@@ -356,9 +356,9 @@ public void registerBean(Class<?> beanClass) {
 
 可以看到，在AnnotatedBeanDefinitionReader类的registerBean()方法中会调用doRegisterBean()方法来注册Bean。
 
-（6）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法
+（6）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)。重点关注如下代码片段。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)。重点关注如下代码片段。
 
 ```java
 private <T> void doRegisterBean(Class<T> beanClass, @Nullable String name, @Nullable Class<? extends Annotation>[] qualifiers, @Nullable Supplier<T> supplier, @Nullable BeanDefinitionCustomizer[] customizers) {
@@ -423,7 +423,7 @@ static void processCommonDefinitionAnnotations(AnnotatedBeanDefinition abd, Anno
 
 可以看到，在processCommonDefinitionAnnotations()方法中，解析了@DependsOn注解，并将解析出的@DependsOn注解中的value属性的值设置到AnnotatedBeanDefinition对象的dependsOn属性中。
 
-（9）回到AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法。
+（9）回到AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法。
 
 在AnnotatedBeanDefinitionReader类的doRegisterBean()方法中，会调用BeanDefinitionReaderUtils类的registerBeanDefinition()方法，并将封装了@DependsOn注解属性的abd对象和beanName封装成BeanDefinitionHolder对象，并且与registry一起作为参数传递给BeanDefinitionReaderUtils类的registerBeanDefinition()方法。
 
@@ -482,9 +482,9 @@ public void registerBeanDefinition(String beanName, BeanDefinition beanDefinitio
 
 **注意：@DependsOn注解在Spring源码层面调用Bean工厂后置处理器的执行流程，执行到ConfigurationClassParser类的doProcessConfigurationClass()方法之前的逻辑与第5章解析@Import注解的代码流程相同，这里不再赘述。后续的代码流程直接从ConfigurationClassParser类的doProcessConfigurationClass()方法开始解析。**
 
-（1）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法
+（1）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)，重点关注如下代码片段。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)，重点关注如下代码片段。
 
 ```java
 protected final SourceClass doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter) throws IOException {
@@ -672,9 +672,9 @@ public Object getBean(String name) throws BeansException {
 
 可以看到，在AbstractBeanFactory类的getBean()方法中，直接调用了doGetBean()方法来初始化非懒加载的单实例Bean。
 
-（5）解析AbstractBeanFactory类的doGetBean(String name, Class<T> requiredType, Object[] args, boolean typeCheckOnly)方法
+（5）解析AbstractBeanFactory类的doGetBean(String name, Class`<T>` requiredType, Object[] args, boolean typeCheckOnly)方法
 
-源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean(String name, Class<T> requiredType, Object[] args, boolean typeCheckOnly)。重点关注如下代码片段。
+源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean(String name, Class`<T>` requiredType, Object[] args, boolean typeCheckOnly)。重点关注如下代码片段。
 
 ```java
 protected <T> T doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly) throws BeansException {

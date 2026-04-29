@@ -134,9 +134,9 @@ public @interface ComponentScan {
 
 * value：作用同basePackages属性，String[]数组类型，指定要扫描的包名。如果指定了要扫描的包名，则Spring会扫描指定的包及其子包下的所有类。
 * basePackages：作用同value属性，String[]数组类型，指定要扫描的包名。如果指定了要扫描的包名，则Spring会扫描指定的包及其子包下的所有类。
-* basePackageClasses：Class<?>[]数组类型，指定要扫描的类的Class对象。
-* nameGenerator：Class<? extends BeanNameGenerator>类型，指定扫描类时，向IOC注入Bean对象时的命名规则。
-* scopeResolver：Class<? extends ScopeMetadataResolver>类型，扫描类时，用于处理并转换符合条件的Bean的作用范围。
+* basePackageClasses：Class`<?>`[]数组类型，指定要扫描的类的Class对象。
+* nameGenerator：Class`<? extends BeanNameGenerator>`类型，指定扫描类时，向IOC注入Bean对象时的命名规则。
+* scopeResolver：Class`<? extends ScopeMetadataResolver>`类型，扫描类时，用于处理并转换符合条件的Bean的作用范围。
 * scopedProxy：ScopedProxyMode类型，指定生成Bean对象时的代理方式，默认的代理方法是DEFAULT，也就是不使用代理。关于ScopedProxyMode的更多详细的内容，参见2.1.3节。
 * resourcePattern：String类型，用于指定扫描的文件类型，默认是扫描指定包下的`**/*.class`。
 * useDefaultFilters：boolean类型，是否自动检测@Component @Repository @Service @Controller注解，默认是true。
@@ -155,8 +155,8 @@ org.springframework.context.event.internalEventListenerFactory
 @Filter注解中的每个属性的含义如下所示。
 
 * type：FilterType类型，表示过滤规则的类型。关于FilterType的更多详细的内容，参见2.1.4节。
-* value：Class<?>[]数组类型，过滤符合规则的类，作用同classes属性。
-* classes：Class<?>[]数组类型，过滤符合规则的类，作用同value属性。
+* value：Class`<?>`[]数组类型，过滤符合规则的类，作用同classes属性。
+* classes：Class`<?>`[]数组类型，过滤符合规则的类，作用同value属性。
 * pattern：如果FilterType取值为ASPECTJ，则此属性表示ASPECTJ表达式。
 
 #### 2.1.3 ScopedProxyMode枚举类源码
@@ -455,9 +455,9 @@ public static void main(String[] args) {
 
 可以看到，在ComponentScanTest类的main()方法中调用了AnnotationConfigApplicationContext类的构造方法，并传入了ComponentScanConfig类的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -509,9 +509,9 @@ protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory b
 
 可以看到，在AbstractApplicationContext类的invokeBeanFactoryPostProcessors()方法中调用了PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors()方法。
 
-（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法
+（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)。
 
 由于方法的源码比较长，这里，只关注当前最核心的逻辑，如下所示。
 
@@ -570,11 +570,11 @@ public static void invokeBeanFactoryPostProcessors(
 }
 ```
 
-可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法中，BeanDefinitionRegistryPostProcessor的实现类在执行逻辑上会有先后顺序，并且最终都会调用invokeBeanDefinitionRegistryPostProcessors()方法。
+可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法中，BeanDefinitionRegistryPostProcessor的实现类在执行逻辑上会有先后顺序，并且最终都会调用invokeBeanDefinitionRegistryPostProcessors()方法。
 
-（6）解析PostProcessorRegistrationDelegate类的invokeBeanDefinitionRegistryPostProcessors(Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)方法
+（6）解析PostProcessorRegistrationDelegate类的invokeBeanDefinitionRegistryPostProcessors(Collection`<? extends BeanDefinitionRegistryPostProcessor>` postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanDefinitionRegistryPostProcessors(Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanDefinitionRegistryPostProcessors(Collection`<? extends BeanDefinitionRegistryPostProcessor>` postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)。
 
 ```java
 private static void invokeBeanDefinitionRegistryPostProcessors(
@@ -634,9 +634,9 @@ public void processConfigBeanDefinitions(BeanDefinitionRegistry registry) {
 
 可以看到，在processConfigBeanDefinitions()方法中，创建了一个ConfigurationClassParser类型的对象parser，并且调用了parser的parse()方法来解析类的配置信息。
 
-（9）解析ConfigurationClassParser类的parse(Set<BeanDefinitionHolder> configCandidates)方法
+（9）解析ConfigurationClassParser类的parse(Set`<BeanDefinitionHolder>` configCandidates)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#parse(Set<BeanDefinitionHolder> configCandidates)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#parse(Set`<BeanDefinitionHolder>` configCandidates)。
 
 ```java
 public void parse(Set<BeanDefinitionHolder> configCandidates) {
@@ -665,7 +665,7 @@ public void parse(Set<BeanDefinitionHolder> configCandidates) {
 }
 ```
 
-可以看到，在ConfigurationClassParser类的parse(Set<BeanDefinitionHolder> configCandidates)方法中，调用了类中的另一个parse()方法。
+可以看到，在ConfigurationClassParser类的parse(Set`<BeanDefinitionHolder>` configCandidates)方法中，调用了类中的另一个parse()方法。
 
 （10）解析ConfigurationClassParser类的parse(AnnotationMetadata metadata, String beanName)方法
 
@@ -679,9 +679,9 @@ protected final void parse(AnnotationMetadata metadata, String beanName) throws 
 
 可以看到，上述parse()方法的实现比较简单，直接调用了processConfigurationClass()方法。
 
-（11）解析ConfigurationClassParser类的processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter)方法
+（11）解析ConfigurationClassParser类的processConfigurationClass(ConfigurationClass configClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#processConfigurationClass(ConfigurationClass configClass, Predicate`<String>` filter)。
 
 ```java
 protected void processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter) throws IOException {
@@ -697,9 +697,9 @@ protected void processConfigurationClass(ConfigurationClass configClass, Predica
 
 可以看到，在processConfigurationClass()方法中，会通过do-while()循环获取配置类和其父类的注解信息，SourceClass类中会封装配置类上注解的详细信息。在在processConfigurationClass()方法中，调用了doProcessConfigurationClass()方法。
 
-（12）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法
+（12）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)。
 
 ```java
 protected final SourceClass doProcessConfigurationClass(

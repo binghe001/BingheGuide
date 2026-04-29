@@ -223,7 +223,7 @@ public class PropertyValueConfig {
 }
 ```
 
-这里使用的`@PropertySource(value = {"classpath:person.properties"})`就相当于xml文件中使用的`<context:property-placeholder location="classpath:person.properties"/>`。
+这里使用的`@PropertySource(value = {"classpath:person.properties"})`就相当于xml文件中使用的``<context:property-placeholder location="classpath:person.properties"/>``。
 
 接下来，我们就可以在Person类的nickName字段上使用@Value注解来获取person.properties文件中的值了，如下所示。
 
@@ -274,7 +274,7 @@ zhangsan
 
 关注「 **冰河技术** 」微信公众号，后台回复 “**设计模式**” 关键字领取《**深入浅出Java 23种设计模式**》PDF文档。回复“**Java8**”关键字领取《**Java8新特性教程**》PDF文档。回复“**限流**”关键字获取《**亿级流量下的分布式限流解决方案**》PDF文档，三本PDF均是由冰河原创并整理的超硬核教程，面试必备！！
 
-<font color="#FF0000">**好了，今天就聊到这儿吧！别忘了点个赞，给个在看和转发，让更多的人看到，一起学习，一起进步！！**</font>
+`<font color="#FF0000">`**好了，今天就聊到这儿吧！别忘了点个赞，给个在看和转发，让更多的人看到，一起学习，一起进步！！**`</font>`
 
 ## 星球服务
 

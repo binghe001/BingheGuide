@@ -285,9 +285,9 @@ public class LazyTest {
 
 @Lazy注解涉及到的注册Bean的源码流程与第7章5.1小节@DependsOn注解涉及到的注册Bean的源码流程大体相同，只是在解析AnnotatedBeanDefinitionReader类的doRegisterBean()方法时，略有不同。本小节，就从AnnotatedBeanDefinitionReader类的doRegisterBean()方法开始解析。
 
-（1）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法
+（1）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)。重点关注如下代码片段。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)。重点关注如下代码片段。
 
 ```java
 private <T> void doRegisterBean(Class<T> beanClass, @Nullable String name, @Nullable Class<? extends Annotation>[] qualifiers, @Nullable Supplier<T> supplier, @Nullable BeanDefinitionCustomizer[] customizers) {
@@ -349,7 +349,7 @@ static void processCommonDefinitionAnnotations(AnnotatedBeanDefinition abd, Anno
 
 可以看到，在AnnotationConfigUtils类的processCommonDefinitionAnnotations()方法中，会解析@Lazy注解中的value属性，并将属性值存入abd对象的lazyInit字段中。
 
-（4）回到AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法。
+（4）回到AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法。
 
 可以看到，在方法中遍历qualifiers数组，如果Lazy.class的值与遍历出的qualifier对象相等，就会将abd对象的lazyInit字段设置为true。如果abd对象的lazyInit字段为true，则后续在启动IOC容器的过程中，就不会创建单例Bean对象。
 

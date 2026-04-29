@@ -317,7 +317,7 @@ public class LockExample {
 }
 ```
 
-<font color="#FF0000">**我们可以这样选择使用synchronozed锁还是ReentrantLock锁：**</font>
+`<font color="#FF0000">`**我们可以这样选择使用synchronozed锁还是ReentrantLock锁：**`</font>`
 
 * 当只有少量竞争者时，synchronized是一个很好的通用锁实现
 
