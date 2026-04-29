@@ -63,6 +63,9 @@ h2 {
   .vp-page {
     padding-inline-end: 310px !important;
   }
+  .vp-page-content {
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 959px) and (min-width: 720px) {
