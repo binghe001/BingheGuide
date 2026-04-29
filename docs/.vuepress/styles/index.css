@@ -29,15 +29,38 @@ h2 {
   border-bottom: 0px solid var(--vp-c-border);
 }
 
-.theme-default-content h4 {
+/* markdown h4 */
+[vp-content] h4 {
   font-size: 1.1rem;
   text-decoration: underline;
 }
 
-/* sidebar */
-.sidebar {
-  width: 18rem;
+/* left sidebar width */
+:root {
+  --sidebar-width: 18rem;
+}
+
+.vp-sidebar {
   font-size: 15px;
+}
+
+/* Search box: move before nav links */
+.search-box {
+  order: -1;
+  margin-right: 0.8rem;
+}
+
+/* Main content: leave space for right sidebar toolbar */
+@media (min-width: 960px) {
+  .vp-page {
+    padding-inline-end: 310px !important;
+  }
+}
+
+@media (max-width: 959px) and (min-width: 720px) {
+  .vp-page {
+    padding-inline-end: 60px !important;
+  }
 }
 
 /* ============================================================
@@ -259,8 +282,12 @@ a.toc-sidebar-link:hover {
 }
 
 /* Sidebar toggle — hide left sidebar when user clicks 左栏 */
-html.sidebar-force-hidden .sidebar {
+html.sidebar-force-hidden .vp-sidebar {
   display: none !important;
+}
+
+html.sidebar-force-hidden .vp-page {
+  padding-inline-start: 2rem !important;
 }
 
 /* Responsive breakpoints */
