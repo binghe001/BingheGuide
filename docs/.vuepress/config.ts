@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 // Convert VuePress 1 sidebar format to VuePress 2 format
 function s(prefix: string, groups: any[]): any[] {
@@ -311,6 +312,13 @@ export default defineUserConfig({
       selector: 'img:not(.nozoom)',
       options: {
         margin: 16
+      }
+    }),
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索'
+        }
       }
     })
   ],

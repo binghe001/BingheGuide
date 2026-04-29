@@ -3,9 +3,10 @@ import { useRouter } from 'vue-router'
 import LockArticle from './components/LockArticle.vue'
 import PayArticle from './components/PayArticle.vue'
 import RedirectArticle from './components/RedirectArticle.vue'
+import PageSidebar from './components/PageSidebar.vue'
 
 export default defineClientConfig({
-  rootComponents: [LockArticle, PayArticle, RedirectArticle],
+  rootComponents: [LockArticle, PayArticle, RedirectArticle, PageSidebar],
   setup() {
     if (typeof window !== 'undefined') {
       const router = useRouter()

@@ -2,17 +2,17 @@
   "name": "BingheGuide",
   "version": "2.0.1",
   "private": true,
-
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "2.0.0-rc.28",
     "@vuepress/bundler-vite": "2.0.0-rc.28",
-    "@vuepress/theme-default": "2.0.0-rc.128",
     "@vuepress/plugin-medium-zoom": "2.0.0-rc.128",
+    "@vuepress/plugin-search": "^2.0.0-rc.128",
+    "@vuepress/theme-default": "2.0.0-rc.128",
+    "sass-embedded": "^1.98.0",
     "vue": "^3.5.31",
-    "sass-embedded": "^1.98.0"
+    "vuepress": "2.0.0-rc.28"
   }
 }
