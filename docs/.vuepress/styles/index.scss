@@ -62,11 +62,11 @@ h2 {
 @media (min-width: 960px) {
   .vp-page {
     padding-inline-end: 310px !important;
+    display: grid !important;
+    grid-template-columns: 1fr min(1200px, 100%) 1fr !important;
   }
-  .vp-page [vp-content] {
-    max-width: 1200px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+  .vp-page > * {
+    grid-column: 2 !important;
   }
 }
 
