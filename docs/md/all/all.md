@@ -1,5 +1,6 @@
 ---
 title: 冰河指南
+sidebarDepth: 2
 ---
 
 # 冰河指南
