@@ -64,8 +64,9 @@ h2 {
     padding-inline-end: 310px !important;
   }
   .vp-page [vp-content] {
-    max-width: 1200px;
-    margin-inline: auto;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
 
