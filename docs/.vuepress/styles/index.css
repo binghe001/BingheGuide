@@ -45,6 +45,12 @@ h2 {
   font-size: 15px;
 }
 
+/* Search box: move before nav links */
+.search-box {
+  order: -1;
+  margin-right: 0.8rem;
+}
+
 /* ============================================================
    Right page content — prevent content from going under the
    fixed right sidebar toolbar.
@@ -288,7 +294,7 @@ html.sidebar-force-hidden .vp-sidebar {
 }
 
 html.sidebar-force-hidden .vp-page {
-  padding-inline-start: 0 !important;
+  padding-inline-start: 2rem !important;
 }
 
 /* Responsive breakpoints */
