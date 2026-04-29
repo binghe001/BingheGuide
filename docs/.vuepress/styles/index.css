@@ -1,3 +1,8 @@
+/* Override sidebar width (VuePress 2 default is 20rem, VuePress 1 used 18rem) */
+:root {
+  --sidebar-width: 18rem;
+}
+
 body {
   font-size: 0.95rem;
 }
@@ -29,15 +34,34 @@ h2 {
   border-bottom: 0px solid var(--vp-c-border);
 }
 
-.theme-default-content h4 {
+/* markdown h4 */
+[vp-content] h4 {
   font-size: 1.1rem;
   text-decoration: underline;
 }
 
-/* sidebar */
-.sidebar {
-  width: 18rem;
+/* Left sidebar (VuePress 2 uses .vp-sidebar) */
+.vp-sidebar {
   font-size: 15px;
+}
+
+/* ============================================================
+   Right page content — prevent content from going under the
+   fixed right sidebar toolbar.
+
+   Wide screens (≥960px):  fixed TOC panel (240px) + toolbar (44px) + margins
+   Medium screens (720–959px): toolbar only (44px + 10px margin)
+   ============================================================ */
+@media (min-width: 960px) {
+  .vp-page {
+    padding-inline-end: 310px !important;
+  }
+}
+
+@media (max-width: 959px) and (min-width: 720px) {
+  .vp-page {
+    padding-inline-end: 60px !important;
+  }
 }
 
 /* ============================================================
@@ -259,8 +283,12 @@ a.toc-sidebar-link:hover {
 }
 
 /* Sidebar toggle — hide left sidebar when user clicks 左栏 */
-html.sidebar-force-hidden .sidebar {
+html.sidebar-force-hidden .vp-sidebar {
   display: none !important;
+}
+
+html.sidebar-force-hidden .vp-page {
+  padding-inline-start: 0 !important;
 }
 
 /* Responsive breakpoints */
