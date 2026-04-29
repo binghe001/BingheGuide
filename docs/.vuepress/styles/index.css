@@ -1,0 +1,319 @@
+/* Override sidebar width (VuePress 2 default is 20rem, VuePress 1 used 18rem) */
+:root {
+  --sidebar-width: 18rem;
+}
+
+body {
+  font-size: 0.95rem;
+}
+
+/* markdown blockquote */
+blockquote {
+  font-size: 0.95rem;
+  color: #2c3e50;
+  border-left: .5rem solid #42b983;
+  background-color: #f3f5f7;
+  margin: 1rem 0;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+blockquote > p {
+  margin: 0;
+}
+
+/* markdown h1 */
+h1 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+/* markdown h2 */
+h2 {
+  font-size: 1.55rem;
+  border-bottom: 0px solid var(--vp-c-border);
+}
+
+/* markdown h4 */
+[vp-content] h4 {
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+/* Left sidebar (VuePress 2 uses .vp-sidebar) */
+.vp-sidebar {
+  font-size: 15px;
+}
+
+/* Search box: move before nav links */
+.search-box {
+  order: -1;
+  margin-right: 0.8rem;
+}
+
+/* ============================================================
+   Right page content — prevent content from going under the
+   fixed right sidebar toolbar.
+
+   Wide screens (≥960px):  fixed TOC panel (240px) + toolbar (44px) + margins
+   Medium screens (720–959px): toolbar only (44px + 10px margin)
+   ============================================================ */
+@media (min-width: 960px) {
+  .vp-page {
+    padding-inline-end: 310px !important;
+  }
+}
+
+@media (max-width: 959px) and (min-width: 720px) {
+  .vp-page {
+    padding-inline-end: 60px !important;
+  }
+}
+
+/* ============================================================
+   Right page sidebar toolbar
+   ============================================================ */
+.page-sidebar {
+  font-size: 12px;
+  width: 3.8rem;
+  position: fixed;
+  z-index: 11;
+  margin: 0;
+  top: 3.6rem;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.page-side-toolbar {
+  position: fixed;
+  right: 10px;
+  top: 70px;
+  width: 44px;
+}
+
+/* Regular option boxes */
+.page-side-toolbar .option-box {
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  height: 60px;
+  cursor: pointer;
+}
+
+.page-side-toolbar .option-box .show-txt {
+  color: gray;
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+.page-side-toolbar .option-box:hover {
+  background: #eee;
+}
+
+.page-side-toolbar .option-box:hover > .toc-container {
+  display: block;
+}
+
+/* TOC hover button — hidden on wide screens, shown on medium via media query */
+.page-side-toolbar .option-box-toc-over {
+  font-size: 12px;
+  position: relative;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  height: 60px;
+  cursor: pointer;
+}
+
+.page-side-toolbar .option-box-toc-over .show-txt {
+  color: gray;
+  margin-top: 3px;
+  font-size: 11px;
+}
+
+.page-side-toolbar .option-box-toc-over:hover {
+  background: #eee;
+}
+
+.page-side-toolbar .option-box-toc-over:hover > .toc-container {
+  display: block;
+}
+
+/* Floating popup panel (hover dropdown) */
+.toc-container {
+  display: none;
+  position: absolute;
+  color: #2c3e50;
+  top: -1px;
+  right: 100%;
+  margin-right: 10px;
+  width: 240px;
+  background: #fff;
+  border: 1px solid #eee;
+  z-index: 100;
+}
+
+.toc-container .pos-box {
+  position: relative;
+  padding: 16px;
+}
+
+.toc-container .scroll-box {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.toc-container .scroll-box hr {
+  margin-top: 0.5rem;
+}
+
+.toc-container .toc-box {
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 238px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+/* Fixed TOC sidebar (wide screens only — always visible to left of toolbar) */
+.toc-container-sidebar {
+  display: block;
+  position: absolute;
+  color: #2c3e50;
+  right: 100%;
+  top: 0;
+  margin-right: 10px;
+  width: 240px;
+  background: #fff;
+  z-index: 100;
+}
+
+.toc-container-sidebar .pos-box {
+  position: relative;
+  padding: 16px;
+}
+
+.toc-container-sidebar .scroll-box {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.toc-container-sidebar .scroll-box hr {
+  margin-top: 0.5rem;
+}
+
+.toc-container-sidebar .toc-box {
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 238px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+/* TOC links */
+.toc-sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-sidebar-links li {
+  margin-top: 8px;
+  line-height: 17px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+a.toc-sidebar-link {
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-block;
+  color: #2c3e50;
+  line-height: 1;
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.toc-sidebar-link:hover {
+  color: #3eaf7c;
+}
+
+.toc-sidebar-sub-headers {
+  list-style: none;
+  padding-left: 1rem;
+  font-size: 0.95em;
+  margin: 0;
+}
+
+/* Back to top button */
+.go-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 1rem;
+  right: 0.8rem;
+  width: 2rem;
+  color: #808080;
+  z-index: 3;
+}
+
+.go-to-top:hover {
+  color: #b0b0b0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Sidebar toggle — hide left sidebar when user clicks 左栏 */
+html.sidebar-force-hidden .vp-sidebar {
+  display: none !important;
+}
+
+html.sidebar-force-hidden .vp-page {
+  padding-inline-start: 2rem !important;
+}
+
+/* Responsive breakpoints */
+/* Medium screens: hide fixed TOC panel, show hover TOC button */
+@media (max-width: 959px) {
+  .toc-container-sidebar {
+    display: none !important;
+  }
+  .page-side-toolbar .option-box-toc-over {
+    display: flex;
+  }
+}
+
+/* Mobile: hide entire right sidebar */
+@media (max-width: 719px) {
+  .page-sidebar {
+    display: none;
+  }
+  .go-to-top {
+    display: none;
+  }
+}
