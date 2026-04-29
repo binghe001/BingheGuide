@@ -677,13 +677,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "",
-    "headers": [],
-    "path": "/md/knowledge/knowledge.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01章：聊聊JVM性能调优？",
     "headers": [
       {
@@ -2001,6 +1994,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "",
+    "headers": [],
+    "path": "/md/knowledge/knowledge.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "项目经验：如何破局",
     "headers": [
       {
@@ -2351,49 +2351,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/zsxq/introduce.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [
-      {
-        "level": 2,
-        "title": "加群交流",
-        "slug": "加群交流",
-        "link": "#加群交流",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "公众号",
-        "slug": "公众号",
-        "link": "#公众号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球",
-        "slug": "星球",
-        "link": "#星球",
-        "children": []
-      }
-    ],
-    "path": "/md/about/me/about-me.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/about/job/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/about/study/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2893,6 +2850,13 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
+    "path": "/md/concurrent/interview/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
     "path": "/md/concurrent/bottom/default.html",
     "pathLocale": "/",
     "extraFields": []
@@ -2907,7 +2871,36 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/concurrent/interview/default.html",
+    "path": "/md/about/job/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [
+      {
+        "level": 2,
+        "title": "加群交流",
+        "slug": "加群交流",
+        "link": "#加群交流",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "公众号",
+        "slug": "公众号",
+        "link": "#公众号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球",
+        "slug": "星球",
+        "link": "#星球",
+        "children": []
+      }
+    ],
+    "path": "/md/about/me/about-me.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4146,9 +4139,9 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Doris使用及优化（1.2.6 - 2.0.2 release）",
+    "title": "关于我",
     "headers": [],
-    "path": "/md/core/doris/2024-06-11-doris-optimize.html",
+    "path": "/md/about/study/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -4257,6 +4250,13 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/core/docker/2023-09-10-%E3%80%8A%E5%AE%B9%E5%99%A8%E5%8C%96%E6%A0%B8%E5%BF%83%E8%AE%BE%E8%AE%A1%E3%80%8B%E7%AC%AC01%E7%AB%A0-%E5%88%B6%E4%BD%9CJava%E5%9F%BA%E7%A1%80docker%E9%95%9C%E5%83%8F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Doris使用及优化（1.2.6 - 2.0.2 release）",
+    "headers": [],
+    "path": "/md/core/doris/2024-06-11-doris-optimize.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -11853,13 +11853,6 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/distributed/es/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
     "path": "/md/distributed/dubbo/default.html",
     "pathLocale": "/",
     "extraFields": []
@@ -11867,7 +11860,7 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/distributed/mongodb/default.html",
+    "path": "/md/distributed/es/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -11875,6 +11868,13 @@ export const SEARCH_INDEX = [
     "title": "关于我",
     "headers": [],
     "path": "/md/distributed/netty/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/distributed/mongodb/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -13016,291 +13016,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "HTTP 错误 403.1 - 禁止访问：执行访问被拒绝",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-001-HTTP%E9%94%99%E8%AF%AF4031%E7%A6%81%E6%AD%A2%E8%AE%BF%E9%97%AE-%E6%89%A7%E8%A1%8C%E8%AE%BF%E9%97%AE%E8%A2%AB%E6%8B%92%E7%BB%9D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "XP IIS 问题总结",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-002-XP-IIS%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "IIS 403 404问题",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题",
-        "slug": "问题",
-        "link": "#问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-003-IIS-403-404%E9%97%AE%E9%A2%98.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "DEDE5.7初始化数据体验包获取失败/无法下载安装",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-004-DEDE5.7%E5%88%9D%E5%A7%8B%E5%8C%96%E6%95%B0%E6%8D%AE%E4%BD%93%E9%AA%8C%E5%8C%85%E8%8E%B7%E5%8F%96%E5%A4%B1%E8%B4%A5-%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "discuz报错Table 'uc.uc_pms' doesn't exist，uc_pms不存在",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-005-discuz%E6%8A%A5%E9%94%99Tableuc-uc_pms-doesnt-exist-uc_pms%E4%B8%8D%E5%AD%98%E5%9C%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Windows远程登录提示超出允许最大连接数解决方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-006-Windows%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%8F%90%E7%A4%BA%E8%B6%85%E5%87%BA%E5%85%81%E8%AE%B8%E6%9C%80%E5%A4%A7%E8%BF%9E%E6%8E%A5%E6%95%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Windows 2008自动关机最简单的解决方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-007-Windows2008%E8%87%AA%E5%8A%A8%E5%85%B3%E6%9C%BA%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Hydra安装报错",
-    "headers": [
-      {
-        "level": 2,
-        "title": "方法一、支持apt-get的话",
-        "slug": "方法一、支持apt-get的话",
-        "link": "#方法一、支持apt-get的话",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "方法二、编译安装",
-        "slug": "方法二、编译安装",
-        "link": "#方法二、编译安装",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-008-Hydra%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "安装OpenVAS后找不到默认密码无法登录Web端",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-009-%E5%AE%89%E8%A3%85OpenVAS%E5%90%8E%E6%89%BE%E4%B8%8D%E5%88%B0%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95Web%E7%AB%AF.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "AppScan使用问题记录",
-    "headers": [
-      {
-        "level": 2,
-        "title": "AppScan安装时出现错误1603",
-        "slug": "appscan安装时出现错误1603",
-        "link": "#appscan安装时出现错误1603",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan扫描后篡改网站代码",
-        "slug": "appscan扫描后篡改网站代码",
-        "link": "#appscan扫描后篡改网站代码",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan扫描过程中C盘空间不足",
-        "slug": "appscan扫描过程中c盘空间不足",
-        "link": "#appscan扫描过程中c盘空间不足",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan扫描时虚拟内存不足",
-        "slug": "appscan扫描时虚拟内存不足",
-        "link": "#appscan扫描时虚拟内存不足",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan扫描时出现通信问题",
-        "slug": "appscan扫描时出现通信问题",
-        "link": "#appscan扫描时出现通信问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan打开文件时提示“文件出现损坏”",
-        "slug": "appscan打开文件时提示-文件出现损坏",
-        "link": "#appscan打开文件时提示-文件出现损坏",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AppScan整个扫描流程简述",
-        "slug": "appscan整个扫描流程简述",
-        "link": "#appscan整个扫描流程简述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "修改后验证",
-        "slug": "修改后验证",
-        "link": "#修改后验证",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-010-AppScan%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Kali系统报错",
-    "headers": [
-      {
-        "level": 2,
-        "title": "问题重现：",
-        "slug": "问题重现",
-        "link": "#问题重现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案：",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-011-Kali%E7%B3%BB%E7%BB%9F%E6%8A%A5%E9%94%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Kali运行WPScan报错",
-    "headers": [
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      }
-    ],
-    "path": "/md/hack/question/2022-05-02-012-Kali%E8%BF%90%E8%A1%8CWPScan%E6%8A%A5%E9%94%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/hack/question/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "冰河连夜复现了Log4j最新史诗级重大漏洞，含完整案例代码，全网最全！！",
     "headers": [
       {
@@ -13747,6 +13462,291 @@ export const SEARCH_INDEX = [
     "title": "关于我",
     "headers": [],
     "path": "/md/hack/raising/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "HTTP 错误 403.1 - 禁止访问：执行访问被拒绝",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-001-HTTP%E9%94%99%E8%AF%AF4031%E7%A6%81%E6%AD%A2%E8%AE%BF%E9%97%AE-%E6%89%A7%E8%A1%8C%E8%AE%BF%E9%97%AE%E8%A2%AB%E6%8B%92%E7%BB%9D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "XP IIS 问题总结",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-002-XP-IIS%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "IIS 403 404问题",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题",
+        "slug": "问题",
+        "link": "#问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-003-IIS-403-404%E9%97%AE%E9%A2%98.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "DEDE5.7初始化数据体验包获取失败/无法下载安装",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-004-DEDE5.7%E5%88%9D%E5%A7%8B%E5%8C%96%E6%95%B0%E6%8D%AE%E4%BD%93%E9%AA%8C%E5%8C%85%E8%8E%B7%E5%8F%96%E5%A4%B1%E8%B4%A5-%E6%97%A0%E6%B3%95%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "discuz报错Table 'uc.uc_pms' doesn't exist，uc_pms不存在",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-005-discuz%E6%8A%A5%E9%94%99Tableuc-uc_pms-doesnt-exist-uc_pms%E4%B8%8D%E5%AD%98%E5%9C%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Windows远程登录提示超出允许最大连接数解决方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-006-Windows%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%8F%90%E7%A4%BA%E8%B6%85%E5%87%BA%E5%85%81%E8%AE%B8%E6%9C%80%E5%A4%A7%E8%BF%9E%E6%8E%A5%E6%95%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Windows 2008自动关机最简单的解决方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-007-Windows2008%E8%87%AA%E5%8A%A8%E5%85%B3%E6%9C%BA%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Hydra安装报错",
+    "headers": [
+      {
+        "level": 2,
+        "title": "方法一、支持apt-get的话",
+        "slug": "方法一、支持apt-get的话",
+        "link": "#方法一、支持apt-get的话",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "方法二、编译安装",
+        "slug": "方法二、编译安装",
+        "link": "#方法二、编译安装",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-008-Hydra%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "安装OpenVAS后找不到默认密码无法登录Web端",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-009-%E5%AE%89%E8%A3%85OpenVAS%E5%90%8E%E6%89%BE%E4%B8%8D%E5%88%B0%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95Web%E7%AB%AF.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "AppScan使用问题记录",
+    "headers": [
+      {
+        "level": 2,
+        "title": "AppScan安装时出现错误1603",
+        "slug": "appscan安装时出现错误1603",
+        "link": "#appscan安装时出现错误1603",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan扫描后篡改网站代码",
+        "slug": "appscan扫描后篡改网站代码",
+        "link": "#appscan扫描后篡改网站代码",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan扫描过程中C盘空间不足",
+        "slug": "appscan扫描过程中c盘空间不足",
+        "link": "#appscan扫描过程中c盘空间不足",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan扫描时虚拟内存不足",
+        "slug": "appscan扫描时虚拟内存不足",
+        "link": "#appscan扫描时虚拟内存不足",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan扫描时出现通信问题",
+        "slug": "appscan扫描时出现通信问题",
+        "link": "#appscan扫描时出现通信问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan打开文件时提示“文件出现损坏”",
+        "slug": "appscan打开文件时提示-文件出现损坏",
+        "link": "#appscan打开文件时提示-文件出现损坏",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AppScan整个扫描流程简述",
+        "slug": "appscan整个扫描流程简述",
+        "link": "#appscan整个扫描流程简述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "修改后验证",
+        "slug": "修改后验证",
+        "link": "#修改后验证",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-010-AppScan%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Kali系统报错",
+    "headers": [
+      {
+        "level": 2,
+        "title": "问题重现：",
+        "slug": "问题重现",
+        "link": "#问题重现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案：",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-011-Kali%E7%B3%BB%E7%BB%9F%E6%8A%A5%E9%94%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Kali运行WPScan报错",
+    "headers": [
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      }
+    ],
+    "path": "/md/hack/question/2022-05-02-012-Kali%E8%BF%90%E8%A1%8CWPScan%E6%8A%A5%E9%94%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/hack/question/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -17644,6 +17644,137 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "书籍汇总",
+    "headers": [
+      {
+        "level": 2,
+        "title": "关于作者",
+        "slug": "关于作者",
+        "link": "#关于作者",
+        "children": [
+          {
+            "level": 3,
+            "title": "冰河",
+            "slug": "冰河",
+            "link": "#冰河",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "书籍介绍",
+        "slug": "书籍介绍",
+        "link": "#书籍介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "我出版的图书",
+            "slug": "我出版的图书",
+            "link": "#我出版的图书",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "我的部分电子书",
+            "slug": "我的部分电子书",
+            "link": "#我的部分电子书",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "联系我",
+            "slug": "联系我",
+            "link": "#联系我",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/knowledge/all/2023-03-26-%E4%B9%A6%E7%B1%8D%E6%B1%87%E6%80%BB.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "MySQL技术大全：开发、优化与运维实战",
     "headers": [
       {
@@ -18394,137 +18525,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/knowledge/book/2023-02-27-%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E9%AB%98%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B-JDK%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "书籍汇总",
-    "headers": [
-      {
-        "level": 2,
-        "title": "关于作者",
-        "slug": "关于作者",
-        "link": "#关于作者",
-        "children": [
-          {
-            "level": 3,
-            "title": "冰河",
-            "slug": "冰河",
-            "link": "#冰河",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "书籍介绍",
-        "slug": "书籍介绍",
-        "link": "#书籍介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "我出版的图书",
-            "slug": "我出版的图书",
-            "link": "#我出版的图书",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "我的部分电子书",
-            "slug": "我的部分电子书",
-            "link": "#我的部分电子书",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "联系我",
-            "slug": "联系我",
-            "link": "#联系我",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/knowledge/all/2023-03-26-%E4%B9%A6%E7%B1%8D%E6%B1%87%E6%80%BB.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -19385,6 +19385,4830 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/microservices/springboot/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/microservices/springcloud/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01章：专栏开篇",
+    "headers": [
+      {
+        "level": 2,
+        "title": "专栏整体结构",
+        "slug": "专栏整体结构",
+        "link": "#专栏整体结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "专栏形式",
+        "slug": "专栏形式",
+        "link": "#专栏形式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "适应群体",
+        "slug": "适应群体",
+        "link": "#适应群体",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "资源安排",
+        "slug": "资源安排",
+        "link": "#资源安排",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02章：专栏设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "整体设计",
+        "slug": "整体设计",
+        "link": "#整体设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "案例驱动",
+        "slug": "案例驱动",
+        "link": "#案例驱动",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "综合对比",
+        "slug": "综合对比",
+        "link": "#综合对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "资源安排",
+        "slug": "资源安排",
+        "link": "#资源安排",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他说明",
+        "slug": "其他说明",
+        "link": "#其他说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-04-SA%E5%AE%9E%E6%88%98%C2%B7%E7%AC%AC%E4%B8%80%E7%AF%87-%E4%B8%93%E6%A0%8F%E8%AE%BE%E8%AE%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03章：微服务介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "题外话",
+        "slug": "题外话",
+        "link": "#题外话",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "微服务化后的问题",
+        "slug": "微服务化后的问题",
+        "link": "#微服务化后的问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "微服务常见概念",
+        "slug": "微服务常见概念",
+        "link": "#微服务常见概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "服务调用",
+            "slug": "服务调用",
+            "link": "#服务调用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务治理",
+            "slug": "服务治理",
+            "link": "#服务治理",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "注册中心",
+            "slug": "注册中心",
+            "link": "#注册中心",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务网关",
+            "slug": "服务网关",
+            "link": "#服务网关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务限流",
+            "slug": "服务限流",
+            "link": "#服务限流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务熔断",
+            "slug": "服务熔断",
+            "link": "#服务熔断",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务降级",
+            "slug": "服务降级",
+            "link": "#服务降级",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务容错",
+            "slug": "服务容错",
+            "link": "#服务容错",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链路追踪",
+            "slug": "链路追踪",
+            "link": "#链路追踪",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "SpringCloud Alibaba",
+        "slug": "springcloud-alibaba",
+        "link": "#springcloud-alibaba",
+        "children": [
+          {
+            "level": 3,
+            "title": "主要功能",
+            "slug": "主要功能",
+            "link": "#主要功能",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "组件",
+            "slug": "组件",
+            "link": "#组件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-09-SA%E5%AE%9E%E6%88%98-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BB%8B%E7%BB%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04章：项目说明、流程设计、技术选型与模块划分",
+    "headers": [
+      {
+        "level": 2,
+        "title": "项目说明",
+        "slug": "项目说明",
+        "link": "#项目说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "项目流程设计",
+        "slug": "项目流程设计",
+        "link": "#项目流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "技术选型",
+        "slug": "技术选型",
+        "link": "#技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "模块划分",
+        "slug": "模块划分",
+        "link": "#模块划分",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-13-SA%E5%AE%9E%E6%88%98%C2%B7%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B-%E6%A8%A1%E5%9D%97%E5%88%92%E5%88%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05章：完成通用模块的开发",
+    "headers": [
+      {
+        "level": 2,
+        "title": "项目总体结构",
+        "slug": "项目总体结构",
+        "link": "#项目总体结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建Maven父工程",
+        "slug": "创建maven父工程",
+        "link": "#创建maven父工程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "创建工具类模块",
+        "slug": "创建工具类模块",
+        "link": "#创建工具类模块",
+        "children": [
+          {
+            "level": 3,
+            "title": "添加项目依赖",
+            "slug": "添加项目依赖",
+            "link": "#添加项目依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "核心类开发",
+            "slug": "核心类开发",
+            "link": "#核心类开发",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "创建实体类模块",
+        "slug": "创建实体类模块",
+        "link": "#创建实体类模块",
+        "children": [
+          {
+            "level": 3,
+            "title": "添加项目依赖",
+            "slug": "添加项目依赖-1",
+            "link": "#添加项目依赖-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "核心类开发",
+            "slug": "核心类开发-1",
+            "link": "#核心类开发-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "创建数据表",
+        "slug": "创建数据表",
+        "link": "#创建数据表",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "知识星球",
+        "slug": "知识星球",
+        "link": "#知识星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-18-SA%E5%AE%9E%E6%88%98-%E5%BC%80%E6%92%B8-%E5%AE%8C%E6%88%90%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%80%E5%8F%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06章：快速搭建三大微服务并完成交互开发与测试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "文章结构",
+        "slug": "文章结构",
+        "link": "#文章结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "项目概述",
+        "slug": "项目概述",
+        "link": "#项目概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "整体交互流程",
+            "slug": "整体交互流程",
+            "link": "#整体交互流程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务规划",
+            "slug": "服务规划",
+            "link": "#服务规划",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "用户微服务",
+        "slug": "用户微服务",
+        "link": "#用户微服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "搭建项目",
+            "slug": "搭建项目",
+            "link": "#搭建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发持久层",
+            "slug": "开发持久层",
+            "link": "#开发持久层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发业务逻辑层",
+            "slug": "开发业务逻辑层",
+            "link": "#开发业务逻辑层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发接口层",
+            "slug": "开发接口层",
+            "link": "#开发接口层",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发服务启动类",
+            "slug": "开发服务启动类",
+            "link": "#开发服务启动类",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "商品微服务",
+        "slug": "商品微服务",
+        "link": "#商品微服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "项目搭建",
+            "slug": "项目搭建",
+            "link": "#项目搭建",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发持久层",
+            "slug": "开发持久层-1",
+            "link": "#开发持久层-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发业务逻辑层",
+            "slug": "开发业务逻辑层-1",
+            "link": "#开发业务逻辑层-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发接口层",
+            "slug": "开发接口层-1",
+            "link": "#开发接口层-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发服务启动类",
+            "slug": "开发服务启动类-1",
+            "link": "#开发服务启动类-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "订单微服务",
+        "slug": "订单微服务",
+        "link": "#订单微服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "项目搭建",
+            "slug": "项目搭建-1",
+            "link": "#项目搭建-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发持久层",
+            "slug": "开发持久层-2",
+            "link": "#开发持久层-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发业务逻辑层",
+            "slug": "开发业务逻辑层-2",
+            "link": "#开发业务逻辑层-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发接口层",
+            "slug": "开发接口层-2",
+            "link": "#开发接口层-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发服务启动类",
+            "slug": "开发服务启动类-2",
+            "link": "#开发服务启动类-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "开发辅助类",
+            "slug": "开发辅助类",
+            "link": "#开发辅助类",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "测试项目",
+        "slug": "测试项目",
+        "link": "#测试项目",
+        "children": [
+          {
+            "level": 3,
+            "title": "添加测试数据",
+            "slug": "添加测试数据",
+            "link": "#添加测试数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试库存不足的情况",
+            "slug": "测试库存不足的情况",
+            "link": "#测试库存不足的情况",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试正常下单的情况",
+            "slug": "测试正常下单的情况",
+            "link": "#测试正常下单的情况",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-21-SA%E5%AE%9E%E6%88%98-%E5%AE%8C%E6%88%90%E4%B8%89%E5%A4%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E4%BA%A4%E4%BA%92%E5%BC%80%E5%8F%91.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07章：实现服务的自动注册与发现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "硬编码的问题",
+        "slug": "硬编码的问题",
+        "link": "#硬编码的问题",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "服务治理",
+        "slug": "服务治理",
+        "link": "#服务治理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "注册中心",
+        "slug": "注册中心",
+        "link": "#注册中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "服务注册与发现",
+            "slug": "服务注册与发现",
+            "link": "#服务注册与发现",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务配置",
+            "slug": "服务配置",
+            "link": "#服务配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务健康检测",
+            "slug": "服务健康检测",
+            "link": "#服务健康检测",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "常见的注册中心",
+            "slug": "常见的注册中心",
+            "link": "#常见的注册中心",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "搭建Nacos环境",
+        "slug": "搭建nacos环境",
+        "link": "#搭建nacos环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "集成Nacos注册中心",
+        "slug": "集成nacos注册中心",
+        "link": "#集成nacos注册中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "改造用户微服务",
+            "slug": "改造用户微服务",
+            "link": "#改造用户微服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "改造其他微服务",
+            "slug": "改造其他微服务",
+            "link": "#改造其他微服务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实现服务发现",
+        "slug": "实现服务发现",
+        "link": "#实现服务发现",
+        "children": [
+          {
+            "level": 3,
+            "title": "注入服务发现类",
+            "slug": "注入服务发现类",
+            "link": "#注入服务发现类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "创建动态服务地址方法",
+            "slug": "创建动态服务地址方法",
+            "link": "#创建动态服务地址方法",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定义服务提供者名称",
+            "slug": "定义服务提供者名称",
+            "link": "#定义服务提供者名称",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "修改提交订单逻辑",
+            "slug": "修改提交订单逻辑",
+            "link": "#修改提交订单逻辑",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "测试项目",
+        "slug": "测试项目",
+        "link": "#测试项目",
+        "children": [
+          {
+            "level": 3,
+            "title": "添加测试数据",
+            "slug": "添加测试数据",
+            "link": "#添加测试数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试库存不足的情况",
+            "slug": "测试库存不足的情况",
+            "link": "#测试库存不足的情况",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试正常下单的情况",
+            "slug": "测试正常下单的情况",
+            "link": "#测试正常下单的情况",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-25-SA%E5%AE%9E%E6%88%98-%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86-%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第08章：实现服务调用的负载均衡",
+    "headers": [
+      {
+        "level": 2,
+        "title": "负载均衡",
+        "slug": "负载均衡",
+        "link": "#负载均衡",
+        "children": [
+          {
+            "level": 3,
+            "title": "服务端负载均衡",
+            "slug": "服务端负载均衡",
+            "link": "#服务端负载均衡",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "客户端负载均衡",
+            "slug": "客户端负载均衡",
+            "link": "#客户端负载均衡",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "启动多服务",
+        "slug": "启动多服务",
+        "link": "#启动多服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "启动多个用户微服务",
+            "slug": "启动多个用户微服务",
+            "link": "#启动多个用户微服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "启动多个商品微服务",
+            "slug": "启动多个商品微服务",
+            "link": "#启动多个商品微服务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实现自定义负载均衡",
+        "slug": "实现自定义负载均衡",
+        "link": "#实现自定义负载均衡",
+        "children": [
+          {
+            "level": 3,
+            "title": "修改订单微服务代码",
+            "slug": "修改订单微服务代码",
+            "link": "#修改订单微服务代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试负载均衡效果",
+            "slug": "测试负载均衡效果",
+            "link": "#测试负载均衡效果",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "使用Ribbon实现负载均衡",
+        "slug": "使用ribbon实现负载均衡",
+        "link": "#使用ribbon实现负载均衡",
+        "children": [
+          {
+            "level": 3,
+            "title": "修改订单微服务代码",
+            "slug": "修改订单微服务代码-1",
+            "link": "#修改订单微服务代码-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试负载均衡效果",
+            "slug": "测试负载均衡效果-1",
+            "link": "#测试负载均衡效果-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "使用Fegin实现负载均衡",
+        "slug": "使用fegin实现负载均衡",
+        "link": "#使用fegin实现负载均衡",
+        "children": [
+          {
+            "level": 3,
+            "title": "修改订单微服务代码",
+            "slug": "修改订单微服务代码-2",
+            "link": "#修改订单微服务代码-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试负载均衡效果",
+            "slug": "测试负载均衡效果-2",
+            "link": "#测试负载均衡效果-2",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-27-SA%E5%AE%9E%E6%88%98-%E7%AC%AC8%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86-%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E8%B0%83%E7%94%A8%E7%9A%84%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第09章：服务雪崩与容错方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "并发对系统的影响",
+        "slug": "并发对系统的影响",
+        "link": "#并发对系统的影响",
+        "children": [
+          {
+            "level": 3,
+            "title": "压测说明",
+            "slug": "压测说明",
+            "link": "#压测说明",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "压测实战",
+            "slug": "压测实战",
+            "link": "#压测实战",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "服务雪崩",
+        "slug": "服务雪崩",
+        "link": "#服务雪崩",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "服务容错方案",
+        "slug": "服务容错方案",
+        "link": "#服务容错方案",
+        "children": [
+          {
+            "level": 3,
+            "title": "服务限流",
+            "slug": "服务限流",
+            "link": "#服务限流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务隔离",
+            "slug": "服务隔离",
+            "link": "#服务隔离",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务超时",
+            "slug": "服务超时",
+            "link": "#服务超时",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务熔断",
+            "slug": "服务熔断",
+            "link": "#服务熔断",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务降级",
+            "slug": "服务降级",
+            "link": "#服务降级",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-04-28-SA%E5%AE%9E%E6%88%98-%E7%AC%AC9%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99-%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9%E4%B8%8E%E5%AE%B9%E9%94%99%E6%96%B9%E6%A1%88.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第10章：项目整合Sentinel实现限流与容错",
+    "headers": [
+      {
+        "level": 2,
+        "title": "文章总览",
+        "slug": "文章总览",
+        "link": "#文章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "章节概述",
+        "slug": "章节概述",
+        "link": "#章节概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "关于Sentinel",
+        "slug": "关于sentinel",
+        "link": "#关于sentinel",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sentinel的特征",
+            "slug": "sentinel的特征",
+            "link": "#sentinel的特征",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sentinel的主要特性",
+            "slug": "sentinel的主要特性",
+            "link": "#sentinel的主要特性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Sentinel的开源生态",
+            "slug": "sentinel的开源生态",
+            "link": "#sentinel的开源生态",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目整合Sentinel",
+        "slug": "项目整合sentinel",
+        "link": "#项目整合sentinel",
+        "children": [
+          {
+            "level": 3,
+            "title": "安装Sentinel控制台",
+            "slug": "安装sentinel控制台",
+            "link": "#安装sentinel控制台",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "项目集成Sentinel",
+            "slug": "项目集成sentinel",
+            "link": "#项目集成sentinel",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "集成Sentinel限流功能",
+            "slug": "集成sentinel限流功能",
+            "link": "#集成sentinel限流功能",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "对提交订单的接口限流",
+            "slug": "对提交订单的接口限流",
+            "link": "#对提交订单的接口限流",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Feign整合Sentinel实现容错",
+        "slug": "feign整合sentinel实现容错",
+        "link": "#feign整合sentinel实现容错",
+        "children": [
+          {
+            "level": 3,
+            "title": "添加依赖并开启支持",
+            "slug": "添加依赖并开启支持",
+            "link": "#添加依赖并开启支持",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "为远程调用实现容错",
+            "slug": "为远程调用实现容错",
+            "link": "#为远程调用实现容错",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试服务容错",
+            "slug": "测试服务容错",
+            "link": "#测试服务容错",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "容错扩展",
+        "slug": "容错扩展",
+        "link": "#容错扩展",
+        "children": [
+          {
+            "level": 3,
+            "title": "实现容错时获取异常",
+            "slug": "实现容错时获取异常",
+            "link": "#实现容错时获取异常",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试服务容错",
+            "slug": "测试服务容错-1",
+            "link": "#测试服务容错-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-03-SA%E5%AE%9E%E6%88%98-%E7%AC%AC10%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99-Fegin%E6%95%B4%E5%90%88Sentinel.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第11章：Sentinel核心技术与配置规则（最全使用教程）",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sentinel核心功能",
+        "slug": "sentinel核心功能",
+        "link": "#sentinel核心功能",
+        "children": [
+          {
+            "level": 3,
+            "title": "流量控制",
+            "slug": "流量控制",
+            "link": "#流量控制",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "熔断降级",
+            "slug": "熔断降级",
+            "link": "#熔断降级",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "系统负载保护",
+            "slug": "系统负载保护",
+            "link": "#系统负载保护",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sentinel核心规则",
+        "slug": "sentinel核心规则",
+        "link": "#sentinel核心规则",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "流控规则",
+        "slug": "流控规则",
+        "link": "#流控规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "簇点链路规则",
+            "slug": "簇点链路规则",
+            "link": "#簇点链路规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置简单限流",
+            "slug": "配置简单限流",
+            "link": "#配置简单限流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "配置流控模式",
+            "slug": "配置流控模式",
+            "link": "#配置流控模式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "熔断规则",
+        "slug": "熔断规则",
+        "link": "#熔断规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "熔断规则概述",
+            "slug": "熔断规则概述",
+            "link": "#熔断规则概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示基于慢调用比例熔断",
+            "slug": "演示基于慢调用比例熔断",
+            "link": "#演示基于慢调用比例熔断",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示基于异常比例熔断",
+            "slug": "演示基于异常比例熔断",
+            "link": "#演示基于异常比例熔断",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示基于异常数熔断",
+            "slug": "演示基于异常数熔断",
+            "link": "#演示基于异常数熔断",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "热点规则",
+        "slug": "热点规则",
+        "link": "#热点规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "热点规则概述",
+            "slug": "热点规则概述",
+            "link": "#热点规则概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示热点规则",
+            "slug": "演示热点规则",
+            "link": "#演示热点规则",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示热点高级选项规则",
+            "slug": "演示热点高级选项规则",
+            "link": "#演示热点高级选项规则",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "授权规则",
+        "slug": "授权规则",
+        "link": "#授权规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "授权规则概述",
+            "slug": "授权规则概述",
+            "link": "#授权规则概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示授权规则",
+            "slug": "演示授权规则",
+            "link": "#演示授权规则",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "系统规则",
+        "slug": "系统规则",
+        "link": "#系统规则",
+        "children": [
+          {
+            "level": 3,
+            "title": "系统规则概述",
+            "slug": "系统规则概述",
+            "link": "#系统规则概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示系统规则",
+            "slug": "演示系统规则",
+            "link": "#演示系统规则",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "@SentinelResource注解",
+        "slug": "sentinelresource注解",
+        "link": "#sentinelresource注解",
+        "children": [
+          {
+            "level": 3,
+            "title": "@SentinelResource注解概述",
+            "slug": "sentinelresource注解概述",
+            "link": "#sentinelresource注解概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示@SentinelResource注解",
+            "slug": "演示-sentinelresource注解",
+            "link": "#演示-sentinelresource注解",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Sentinel持久化",
+        "slug": "sentinel持久化",
+        "link": "#sentinel持久化",
+        "children": [
+          {
+            "level": 3,
+            "title": "Sentinel持久化概述",
+            "slug": "sentinel持久化概述",
+            "link": "#sentinel持久化概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "实现Sentinel的持久化",
+            "slug": "实现sentinel的持久化",
+            "link": "#实现sentinel的持久化",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-05-SA%E5%AE%9E%E6%88%98-%E7%AC%AC11%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99%E5%8A%A0%E9%A4%90-Sentinel%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E9%85%8D%E7%BD%AE%E8%A7%84%E5%88%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第12章：网关概述与核心架构",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "网关概述",
+        "slug": "网关概述",
+        "link": "#网关概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "没有网关的弊端",
+            "slug": "没有网关的弊端",
+            "link": "#没有网关的弊端",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "引入API网关",
+            "slug": "引入api网关",
+            "link": "#引入api网关",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "主流的API网关",
+        "slug": "主流的api网关",
+        "link": "#主流的api网关",
+        "children": [
+          {
+            "level": 3,
+            "title": "Nginx+Lua",
+            "slug": "nginx-lua",
+            "link": "#nginx-lua",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Kong网关",
+            "slug": "kong网关",
+            "link": "#kong网关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Zuul网关",
+            "slug": "zuul网关",
+            "link": "#zuul网关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Apache Shenyu网关",
+            "slug": "apache-shenyu网关",
+            "link": "#apache-shenyu网关",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "SpringCloud Gateway网关",
+            "slug": "springcloud-gateway网关",
+            "link": "#springcloud-gateway网关",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "SpringCloud Gateway网关",
+        "slug": "springcloud-gateway网关-1",
+        "link": "#springcloud-gateway网关-1",
+        "children": [
+          {
+            "level": 3,
+            "title": "SpringCloud Gateway概述",
+            "slug": "springcloud-gateway概述",
+            "link": "#springcloud-gateway概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "SpringCloud Gateway核心架构",
+            "slug": "springcloud-gateway核心架构",
+            "link": "#springcloud-gateway核心架构",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC12%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E7%BD%91%E5%85%B3%E6%A6%82%E8%BF%B0%E4%B8%8E%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第13章：项目整合SpringCloud Gateway网关",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "章节概述",
+        "slug": "章节概述",
+        "link": "#章节概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "项目整合网关",
+        "slug": "项目整合网关",
+        "link": "#项目整合网关",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建网关模块",
+            "slug": "新建网关模块",
+            "link": "#新建网关模块",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初步整合SpringCloud Gateway",
+            "slug": "初步整合springcloud-gateway",
+            "link": "#初步整合springcloud-gateway",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "网关整合Nacos",
+            "slug": "网关整合nacos",
+            "link": "#网关整合nacos",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "网关整合Nacos最简配置",
+            "slug": "网关整合nacos最简配置",
+            "link": "#网关整合nacos最简配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网关整合Sentinel限流",
+        "slug": "网关整合sentinel限流",
+        "link": "#网关整合sentinel限流",
+        "children": [
+          {
+            "level": 3,
+            "title": "实现route维度限流",
+            "slug": "实现route维度限流",
+            "link": "#实现route维度限流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "实现自定义API分组维度限流",
+            "slug": "实现自定义api分组维度限流",
+            "link": "#实现自定义api分组维度限流",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第14章：SpringCloud Gateway核心技术",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章概述",
+        "slug": "本章概述",
+        "link": "#本章概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "网关断言",
+        "slug": "网关断言",
+        "link": "#网关断言",
+        "children": [
+          {
+            "level": 3,
+            "title": "SpringCloud Gateway内置断言",
+            "slug": "springcloud-gateway内置断言",
+            "link": "#springcloud-gateway内置断言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "演示内置断言",
+            "slug": "演示内置断言",
+            "link": "#演示内置断言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自定义断言",
+            "slug": "自定义断言",
+            "link": "#自定义断言",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网关过滤器",
+        "slug": "网关过滤器",
+        "link": "#网关过滤器",
+        "children": [
+          {
+            "level": 3,
+            "title": "局部过滤器",
+            "slug": "局部过滤器",
+            "link": "#局部过滤器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "全局过滤器",
+            "slug": "全局过滤器",
+            "link": "#全局过滤器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "网关熔断机制",
+        "slug": "网关熔断机制",
+        "link": "#网关熔断机制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-10-SA%E5%AE%9E%E6%88%98-%E7%AC%AC14%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-SpringCloudGateway%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第15章：核心原理与解决方案",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章概述",
+        "slug": "本章概述",
+        "link": "#本章概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分布式链路追踪",
+        "slug": "分布式链路追踪",
+        "link": "#分布式链路追踪",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "核心原理",
+        "slug": "核心原理",
+        "link": "#核心原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "解决方案",
+        "slug": "解决方案",
+        "link": "#解决方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-11-SA%E5%AE%9E%E6%88%98-%E7%AC%AC15%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第16章：项目整合Sleuth实现链路追踪",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Sleuth概述",
+        "slug": "sleuth概述",
+        "link": "#sleuth概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "Span简介",
+            "slug": "span简介",
+            "link": "#span简介",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Trace简介",
+            "slug": "trace简介",
+            "link": "#trace简介",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Annotation简介",
+            "slug": "annotation简介",
+            "link": "#annotation简介",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目整合Sleuth",
+        "slug": "项目整合sleuth",
+        "link": "#项目整合sleuth",
+        "children": [
+          {
+            "level": 3,
+            "title": "最简使用",
+            "slug": "最简使用",
+            "link": "#最简使用",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "抽样采集数据",
+            "slug": "抽样采集数据",
+            "link": "#抽样采集数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "追踪自定义线程池",
+            "slug": "追踪自定义线程池",
+            "link": "#追踪自定义线程池",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "自定义链路过滤器",
+            "slug": "自定义链路过滤器",
+            "link": "#自定义链路过滤器",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-12-SA%E5%AE%9E%E6%88%98-%E7%AC%AC16%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Sleuth%E5%AE%9E%E7%8E%B0%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第17章：Sleuth整合ZipKin",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章概述",
+        "slug": "本章概述",
+        "link": "#本章概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ZipKin核心架构",
+        "slug": "zipkin核心架构",
+        "link": "#zipkin核心架构",
+        "children": [
+          {
+            "level": 3,
+            "title": "ZipKin概述",
+            "slug": "zipkin概述",
+            "link": "#zipkin概述",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ZipKin核心架构",
+            "slug": "zipkin核心架构-1",
+            "link": "#zipkin核心架构-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目整合ZipKin",
+        "slug": "项目整合zipkin",
+        "link": "#项目整合zipkin",
+        "children": [
+          {
+            "level": 3,
+            "title": "下载安装ZipKin服务端",
+            "slug": "下载安装zipkin服务端",
+            "link": "#下载安装zipkin服务端",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "项目整合ZipKin客户端",
+            "slug": "项目整合zipkin客户端",
+            "link": "#项目整合zipkin客户端",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "ZipKin数据持久化",
+        "slug": "zipkin数据持久化",
+        "link": "#zipkin数据持久化",
+        "children": [
+          {
+            "level": 3,
+            "title": "ZipKin数据持久化到MySQL",
+            "slug": "zipkin数据持久化到mysql",
+            "link": "#zipkin数据持久化到mysql",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "ZipKin数据持久化到ElasticSearch",
+            "slug": "zipkin数据持久化到elasticsearch",
+            "link": "#zipkin数据持久化到elasticsearch",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-13-SA%E5%AE%9E%E6%88%98-%E7%AC%AC17%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-Sleuth%E6%95%B4%E5%90%88ZipKin.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第18章：MQ使用场景与选型对比",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "MQ的使用场景",
+        "slug": "mq的使用场景",
+        "link": "#mq的使用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "异步解耦",
+            "slug": "异步解耦",
+            "link": "#异步解耦",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "流量削峰",
+            "slug": "流量削峰",
+            "link": "#流量削峰",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "引入MQ后的注意事项",
+        "slug": "引入mq后的注意事项",
+        "link": "#引入mq后的注意事项",
+        "children": [
+          {
+            "level": 3,
+            "title": "系统的整体可用性降低",
+            "slug": "系统的整体可用性降低",
+            "link": "#系统的整体可用性降低",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "系统的复杂度变高",
+            "slug": "系统的复杂度变高",
+            "link": "#系统的复杂度变高",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息一致性问题",
+            "slug": "消息一致性问题",
+            "link": "#消息一致性问题",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "MQ选型对比",
+        "slug": "mq选型对比",
+        "link": "#mq选型对比",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-17-SA%E5%AE%9E%E6%88%98-%E7%AC%AC18%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-MQ%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8E%E9%80%89%E5%9E%8B%E5%AF%B9%E6%AF%94.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第19章：项目整合RocketMQ",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "RocketMQ环境准备",
+        "slug": "rocketmq环境准备",
+        "link": "#rocketmq环境准备",
+        "children": [
+          {
+            "level": 3,
+            "title": "源码编译安装RocketMQ",
+            "slug": "源码编译安装rocketmq",
+            "link": "#源码编译安装rocketmq",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试RocketMQ环境",
+            "slug": "测试rocketmq环境",
+            "link": "#测试rocketmq环境",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "源码编译RocketMQ控制台",
+            "slug": "源码编译rocketmq控制台",
+            "link": "#源码编译rocketmq控制台",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "验证RocketMQ控制台",
+            "slug": "验证rocketmq控制台",
+            "link": "#验证rocketmq控制台",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "编码测试RocketMQ",
+        "slug": "编码测试rocketmq",
+        "link": "#编码测试rocketmq",
+        "children": [
+          {
+            "level": 3,
+            "title": "导入RocketMQ依赖",
+            "slug": "导入rocketmq依赖",
+            "link": "#导入rocketmq依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "编写生产者代码",
+            "slug": "编写生产者代码",
+            "link": "#编写生产者代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "编写消费者代码",
+            "slug": "编写消费者代码",
+            "link": "#编写消费者代码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试消息的生产与消费",
+            "slug": "测试消息的生产与消费",
+            "link": "#测试消息的生产与消费",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目整合RocketMQ",
+        "slug": "项目整合rocketmq",
+        "link": "#项目整合rocketmq",
+        "children": [
+          {
+            "level": 3,
+            "title": "用户微服务整合RocketMQ",
+            "slug": "用户微服务整合rocketmq",
+            "link": "#用户微服务整合rocketmq",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "订单微服务整合RocketMQ",
+            "slug": "订单微服务整合rocketmq",
+            "link": "#订单微服务整合rocketmq",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "测试项目整合的RocketMQ",
+            "slug": "测试项目整合的rocketmq",
+            "link": "#测试项目整合的rocketmq",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-18-SA%E5%AE%9E%E6%88%98-%E7%AC%AC19%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88RocketMQ.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第20章：RocketMQ核心技术",
+    "headers": [
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "IDEA启动RocketMQ源码",
+        "slug": "idea启动rocketmq源码",
+        "link": "#idea启动rocketmq源码",
+        "children": [
+          {
+            "level": 3,
+            "title": "下载RocketMQ源码",
+            "slug": "下载rocketmq源码",
+            "link": "#下载rocketmq源码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "将源码导入IDEA",
+            "slug": "将源码导入idea",
+            "link": "#将源码导入idea",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "编译RocketMQ源码",
+            "slug": "编译rocketmq源码",
+            "link": "#编译rocketmq源码",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "启动RocketMQ",
+            "slug": "启动rocketmq",
+            "link": "#启动rocketmq",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "RocketMQ基本概念",
+        "slug": "rocketmq基本概念",
+        "link": "#rocketmq基本概念",
+        "children": [
+          {
+            "level": 3,
+            "title": "消息模型",
+            "slug": "消息模型",
+            "link": "#消息模型",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息生产者",
+            "slug": "消息生产者",
+            "link": "#消息生产者",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息消费者",
+            "slug": "消息消费者",
+            "link": "#消息消费者",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "主题",
+            "slug": "主题",
+            "link": "#主题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "代理服务器",
+            "slug": "代理服务器",
+            "link": "#代理服务器",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "名字服务",
+            "slug": "名字服务",
+            "link": "#名字服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "拉取式消费",
+            "slug": "拉取式消费",
+            "link": "#拉取式消费",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "推动式消费",
+            "slug": "推动式消费",
+            "link": "#推动式消费",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "生产者组",
+            "slug": "生产者组",
+            "link": "#生产者组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消费者组",
+            "slug": "消费者组",
+            "link": "#消费者组",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "集群消费",
+            "slug": "集群消费",
+            "link": "#集群消费",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "广播消费",
+            "slug": "广播消费",
+            "link": "#广播消费",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "普通顺序消息",
+            "slug": "普通顺序消息",
+            "link": "#普通顺序消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "严格顺序消息",
+            "slug": "严格顺序消息",
+            "link": "#严格顺序消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息",
+            "slug": "消息",
+            "link": "#消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "标签",
+            "slug": "标签",
+            "link": "#标签",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "RocketMQ特性",
+        "slug": "rocketmq特性",
+        "link": "#rocketmq特性",
+        "children": [
+          {
+            "level": 3,
+            "title": "订阅与发布",
+            "slug": "订阅与发布",
+            "link": "#订阅与发布",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息顺序",
+            "slug": "消息顺序",
+            "link": "#消息顺序",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息过滤",
+            "slug": "消息过滤",
+            "link": "#消息过滤",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息可靠性",
+            "slug": "消息可靠性",
+            "link": "#消息可靠性",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "至少一次",
+            "slug": "至少一次",
+            "link": "#至少一次",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "回溯消费",
+            "slug": "回溯消费",
+            "link": "#回溯消费",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "事务消息",
+            "slug": "事务消息",
+            "link": "#事务消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "定时消息",
+            "slug": "定时消息",
+            "link": "#定时消息",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息重试",
+            "slug": "消息重试",
+            "link": "#消息重试",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息重投",
+            "slug": "消息重投",
+            "link": "#消息重投",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "流量控制",
+            "slug": "流量控制",
+            "link": "#流量控制",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "死信队列",
+            "slug": "死信队列",
+            "link": "#死信队列",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "RocketMQ最佳实践",
+        "slug": "rocketmq最佳实践",
+        "link": "#rocketmq最佳实践",
+        "children": [
+          {
+            "level": 3,
+            "title": "生产者",
+            "slug": "生产者",
+            "link": "#生产者",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消费者",
+            "slug": "消费者",
+            "link": "#消费者",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Broker",
+            "slug": "broker",
+            "link": "#broker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "NameServer",
+            "slug": "nameserver",
+            "link": "#nameserver",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "客户端配置",
+            "slug": "客户端配置",
+            "link": "#客户端配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "系统配置",
+            "slug": "系统配置",
+            "link": "#系统配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-20-SA%E5%AE%9E%E6%88%98-%E7%AC%AC20%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-RocketMQ%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第21章：服务配置介绍与Nacos核心概念",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前文回顾",
+        "slug": "前文回顾",
+        "link": "#前文回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "群魔乱舞(配置散落存储)",
+        "slug": "群魔乱舞-配置散落存储",
+        "link": "#群魔乱舞-配置散落存储",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分久必合(配置中心)",
+        "slug": "分久必合-配置中心",
+        "link": "#分久必合-配置中心",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置中心解决方案",
+        "slug": "配置中心解决方案",
+        "link": "#配置中心解决方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Nacos配置中心概念",
+        "slug": "nacos配置中心概念",
+        "link": "#nacos配置中心概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-21-SA%E5%AE%9E%E6%88%98-%E7%AC%AC21%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D%E4%B8%8ENacos%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第22章：项目整合Nacos配置中心",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前文回顾",
+        "slug": "前文回顾",
+        "link": "#前文回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "环境准备",
+        "slug": "环境准备",
+        "link": "#环境准备",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "服务整合Nacos配置中心",
+        "slug": "服务整合nacos配置中心",
+        "link": "#服务整合nacos配置中心",
+        "children": [
+          {
+            "level": 3,
+            "title": "用户微服务整合配置中心",
+            "slug": "用户微服务整合配置中心",
+            "link": "#用户微服务整合配置中心",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "商品微服务整合配置中心",
+            "slug": "商品微服务整合配置中心",
+            "link": "#商品微服务整合配置中心",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "订单微服务整合配置中心",
+            "slug": "订单微服务整合配置中心",
+            "link": "#订单微服务整合配置中心",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "网关服务整合配置中心",
+            "slug": "网关服务整合配置中心",
+            "link": "#网关服务整合配置中心",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查看Nacos中的配置",
+            "slug": "查看nacos中的配置",
+            "link": "#查看nacos中的配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "整合Nacos配置中心测试",
+        "slug": "整合nacos配置中心测试",
+        "link": "#整合nacos配置中心测试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-23-SA%E5%AE%9E%E6%88%98-%E7%AC%AC22%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Nacos%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第23章：实现动态刷新与配置共享",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前文回顾",
+        "slug": "前文回顾",
+        "link": "#前文回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "实现动态刷新",
+        "slug": "实现动态刷新",
+        "link": "#实现动态刷新",
+        "children": [
+          {
+            "level": 3,
+            "title": "修改Nacos配置",
+            "slug": "修改nacos配置",
+            "link": "#修改nacos配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "通过IOC容器获取Nacos配置",
+            "slug": "通过ioc容器获取nacos配置",
+            "link": "#通过ioc容器获取nacos配置",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "通过注解获取Nacos配置",
+            "slug": "通过注解获取nacos配置",
+            "link": "#通过注解获取nacos配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "实现配置共享",
+        "slug": "实现配置共享",
+        "link": "#实现配置共享",
+        "children": [
+          {
+            "level": 3,
+            "title": "单服务多环境实现共享",
+            "slug": "单服务多环境实现共享",
+            "link": "#单服务多环境实现共享",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "多服务配置实现共享",
+            "slug": "多服务配置实现共享",
+            "link": "#多服务配置实现共享",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-24-SA%E5%AE%9E%E6%88%98-%E7%AC%AC23%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%88%B7%E6%96%B0%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第24章：分布式事务核心原理与Seata介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前文回顾",
+        "slug": "前文回顾",
+        "link": "#前文回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分布式事务",
+        "slug": "分布式事务",
+        "link": "#分布式事务",
+        "children": [
+          {
+            "level": 3,
+            "title": "系统学习分布式事务",
+            "slug": "系统学习分布式事务",
+            "link": "#系统学习分布式事务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "深入理解分布式事务",
+            "slug": "深入理解分布式事务",
+            "link": "#深入理解分布式事务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Seata介绍",
+        "slug": "seata介绍",
+        "link": "#seata介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "Seata 是什么?",
+            "slug": "seata-是什么",
+            "link": "#seata-是什么",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "AT 模式",
+            "slug": "at-模式",
+            "link": "#at-模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "TCC 模式",
+            "slug": "tcc-模式",
+            "link": "#tcc-模式",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Saga 模式",
+            "slug": "saga-模式",
+            "link": "#saga-模式",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-25-SA%E5%AE%9E%E6%88%98-%E7%AC%AC24%E7%AB%A0-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8ESeata%E4%BB%8B%E7%BB%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第25章：项目整合Seata实现分布式事务",
+    "headers": [
+      {
+        "level": 2,
+        "title": "前文回顾",
+        "slug": "前文回顾",
+        "link": "#前文回顾",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "本章总览",
+        "slug": "本章总览",
+        "link": "#本章总览",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "分布式事务问题",
+        "slug": "分布式事务问题",
+        "link": "#分布式事务问题",
+        "children": [
+          {
+            "level": 3,
+            "title": "查询数据表数据",
+            "slug": "查询数据表数据",
+            "link": "#查询数据表数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "重现分布式事务问题",
+            "slug": "重现分布式事务问题",
+            "link": "#重现分布式事务问题",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查询数据表数据",
+            "slug": "查询数据表数据-1",
+            "link": "#查询数据表数据-1",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "搭建并整合Seata",
+        "slug": "搭建并整合seata",
+        "link": "#搭建并整合seata",
+        "children": [
+          {
+            "level": 3,
+            "title": "搭建Seata基础环境",
+            "slug": "搭建seata基础环境",
+            "link": "#搭建seata基础环境",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "项目整合Seata",
+            "slug": "项目整合seata",
+            "link": "#项目整合seata",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "导入unlog表",
+            "slug": "导入unlog表",
+            "link": "#导入unlog表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "商品微服务整合Seata",
+            "slug": "商品微服务整合seata",
+            "link": "#商品微服务整合seata",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "订单微服务整合Seata",
+            "slug": "订单微服务整合seata",
+            "link": "#订单微服务整合seata",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "验证Seata事务",
+        "slug": "验证seata事务",
+        "link": "#验证seata事务",
+        "children": [
+          {
+            "level": 3,
+            "title": "重置数据库数据",
+            "slug": "重置数据库数据",
+            "link": "#重置数据库数据",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查询数据表数据",
+            "slug": "查询数据表数据-2",
+            "link": "#查询数据表数据-2",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "验证Seata事务",
+            "slug": "验证seata事务-1",
+            "link": "#验证seata事务-1",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "查询数据表数据",
+            "slug": "查询数据表数据-3",
+            "link": "#查询数据表数据-3",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-05-25-SA%E5%AE%9E%E6%88%98-%E7%AC%AC25%E7%AB%A0-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Seata%E5%AE%9E%E7%8E%B0%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第26章：专栏总结及后续规划",
+    "headers": [
+      {
+        "level": 2,
+        "title": "专栏总体划分",
+        "slug": "专栏总体划分",
+        "link": "#专栏总体划分",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "专栏涉及到的技术",
+        "slug": "专栏涉及到的技术",
+        "link": "#专栏涉及到的技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "具体篇章内容",
+        "slug": "具体篇章内容",
+        "link": "#具体篇章内容",
+        "children": [
+          {
+            "level": 3,
+            "title": "专栏设计篇",
+            "slug": "专栏设计篇",
+            "link": "#专栏设计篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "微服务介绍篇",
+            "slug": "微服务介绍篇",
+            "link": "#微服务介绍篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "微服务环境搭建篇",
+            "slug": "微服务环境搭建篇",
+            "link": "#微服务环境搭建篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务治理篇",
+            "slug": "服务治理篇",
+            "link": "#服务治理篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务容错篇",
+            "slug": "服务容错篇",
+            "link": "#服务容错篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务网关篇",
+            "slug": "服务网关篇",
+            "link": "#服务网关篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "链路追踪篇",
+            "slug": "链路追踪篇",
+            "link": "#链路追踪篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "消息服务篇",
+            "slug": "消息服务篇",
+            "link": "#消息服务篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "服务配置篇",
+            "slug": "服务配置篇",
+            "link": "#服务配置篇",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "分布式事务篇",
+            "slug": "分布式事务篇",
+            "link": "#分布式事务篇",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "专栏总结",
+        "slug": "专栏总结",
+        "link": "#专栏总结",
+        "children": [
+          {
+            "level": 3,
+            "title": "为自己而学",
+            "slug": "为自己而学",
+            "link": "#为自己而学",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "每天进步一点点",
+            "slug": "每天进步一点点",
+            "link": "#每天进步一点点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "后续规划",
+        "slug": "后续规划",
+        "link": "#后续规划",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球服务",
+        "slug": "星球服务",
+        "link": "#星球服务",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球重磅福利",
+        "slug": "星球重磅福利",
+        "link": "#星球重磅福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/microservices/springcloudalibaba/2022-06-15-SA%E5%AE%9E%E6%88%98-%E7%AC%AC26%E7%AB%A0-%E4%B8%93%E6%A0%8F%E6%80%BB%E7%BB%93%E4%B8%8E%E5%90%8E%E7%BB%AD%E8%A7%84%E5%88%92.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "字节码编程 | 工作多年的你依然重复做着CRUD？是否接触过这种技术？",
     "headers": [
       {
@@ -19665,14 +24489,21 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/middleware/limiter/default.html",
+    "path": "/md/middleware/threadpool/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/middleware/threadpool/default.html",
+    "path": "/md/middleware/independent/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/middleware/limiter/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -28420,5008 +33251,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/middleware/independent/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01章：专栏开篇",
-    "headers": [
-      {
-        "level": 2,
-        "title": "专栏整体结构",
-        "slug": "专栏整体结构",
-        "link": "#专栏整体结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "专栏形式",
-        "slug": "专栏形式",
-        "link": "#专栏形式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "适应群体",
-        "slug": "适应群体",
-        "link": "#适应群体",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "资源安排",
-        "slug": "资源安排",
-        "link": "#资源安排",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-02-SpringCloudAlibaba%E4%B8%93%E6%A0%8F%E5%BC%80%E7%AF%87.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02章：专栏设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "整体设计",
-        "slug": "整体设计",
-        "link": "#整体设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "案例驱动",
-        "slug": "案例驱动",
-        "link": "#案例驱动",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "综合对比",
-        "slug": "综合对比",
-        "link": "#综合对比",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "资源安排",
-        "slug": "资源安排",
-        "link": "#资源安排",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他说明",
-        "slug": "其他说明",
-        "link": "#其他说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-04-SA%E5%AE%9E%E6%88%98%C2%B7%E7%AC%AC%E4%B8%80%E7%AF%87-%E4%B8%93%E6%A0%8F%E8%AE%BE%E8%AE%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03章：微服务介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "题外话",
-        "slug": "题外话",
-        "link": "#题外话",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "微服务化后的问题",
-        "slug": "微服务化后的问题",
-        "link": "#微服务化后的问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "微服务常见概念",
-        "slug": "微服务常见概念",
-        "link": "#微服务常见概念",
-        "children": [
-          {
-            "level": 3,
-            "title": "服务调用",
-            "slug": "服务调用",
-            "link": "#服务调用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务治理",
-            "slug": "服务治理",
-            "link": "#服务治理",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "注册中心",
-            "slug": "注册中心",
-            "link": "#注册中心",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务网关",
-            "slug": "服务网关",
-            "link": "#服务网关",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务限流",
-            "slug": "服务限流",
-            "link": "#服务限流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务熔断",
-            "slug": "服务熔断",
-            "link": "#服务熔断",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务降级",
-            "slug": "服务降级",
-            "link": "#服务降级",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务容错",
-            "slug": "服务容错",
-            "link": "#服务容错",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链路追踪",
-            "slug": "链路追踪",
-            "link": "#链路追踪",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "SpringCloud Alibaba",
-        "slug": "springcloud-alibaba",
-        "link": "#springcloud-alibaba",
-        "children": [
-          {
-            "level": 3,
-            "title": "主要功能",
-            "slug": "主要功能",
-            "link": "#主要功能",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "组件",
-            "slug": "组件",
-            "link": "#组件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-09-SA%E5%AE%9E%E6%88%98-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%BB%8B%E7%BB%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04章：项目说明、流程设计、技术选型与模块划分",
-    "headers": [
-      {
-        "level": 2,
-        "title": "项目说明",
-        "slug": "项目说明",
-        "link": "#项目说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "项目流程设计",
-        "slug": "项目流程设计",
-        "link": "#项目流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "技术选型",
-        "slug": "技术选型",
-        "link": "#技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "模块划分",
-        "slug": "模块划分",
-        "link": "#模块划分",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-13-SA%E5%AE%9E%E6%88%98%C2%B7%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E-%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1-%E6%8A%80%E6%9C%AF%E9%80%89%E5%9E%8B-%E6%A8%A1%E5%9D%97%E5%88%92%E5%88%86.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05章：完成通用模块的开发",
-    "headers": [
-      {
-        "level": 2,
-        "title": "项目总体结构",
-        "slug": "项目总体结构",
-        "link": "#项目总体结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建Maven父工程",
-        "slug": "创建maven父工程",
-        "link": "#创建maven父工程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "创建工具类模块",
-        "slug": "创建工具类模块",
-        "link": "#创建工具类模块",
-        "children": [
-          {
-            "level": 3,
-            "title": "添加项目依赖",
-            "slug": "添加项目依赖",
-            "link": "#添加项目依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "核心类开发",
-            "slug": "核心类开发",
-            "link": "#核心类开发",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "创建实体类模块",
-        "slug": "创建实体类模块",
-        "link": "#创建实体类模块",
-        "children": [
-          {
-            "level": 3,
-            "title": "添加项目依赖",
-            "slug": "添加项目依赖-1",
-            "link": "#添加项目依赖-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "核心类开发",
-            "slug": "核心类开发-1",
-            "link": "#核心类开发-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "创建数据表",
-        "slug": "创建数据表",
-        "link": "#创建数据表",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "知识星球",
-        "slug": "知识星球",
-        "link": "#知识星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-18-SA%E5%AE%9E%E6%88%98-%E5%BC%80%E6%92%B8-%E5%AE%8C%E6%88%90%E9%80%9A%E7%94%A8%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BC%80%E5%8F%91.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06章：快速搭建三大微服务并完成交互开发与测试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "文章结构",
-        "slug": "文章结构",
-        "link": "#文章结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "项目概述",
-        "slug": "项目概述",
-        "link": "#项目概述",
-        "children": [
-          {
-            "level": 3,
-            "title": "整体交互流程",
-            "slug": "整体交互流程",
-            "link": "#整体交互流程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务规划",
-            "slug": "服务规划",
-            "link": "#服务规划",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "用户微服务",
-        "slug": "用户微服务",
-        "link": "#用户微服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "搭建项目",
-            "slug": "搭建项目",
-            "link": "#搭建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发持久层",
-            "slug": "开发持久层",
-            "link": "#开发持久层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发业务逻辑层",
-            "slug": "开发业务逻辑层",
-            "link": "#开发业务逻辑层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发接口层",
-            "slug": "开发接口层",
-            "link": "#开发接口层",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发服务启动类",
-            "slug": "开发服务启动类",
-            "link": "#开发服务启动类",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "商品微服务",
-        "slug": "商品微服务",
-        "link": "#商品微服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "项目搭建",
-            "slug": "项目搭建",
-            "link": "#项目搭建",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发持久层",
-            "slug": "开发持久层-1",
-            "link": "#开发持久层-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发业务逻辑层",
-            "slug": "开发业务逻辑层-1",
-            "link": "#开发业务逻辑层-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发接口层",
-            "slug": "开发接口层-1",
-            "link": "#开发接口层-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发服务启动类",
-            "slug": "开发服务启动类-1",
-            "link": "#开发服务启动类-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "订单微服务",
-        "slug": "订单微服务",
-        "link": "#订单微服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "项目搭建",
-            "slug": "项目搭建-1",
-            "link": "#项目搭建-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发持久层",
-            "slug": "开发持久层-2",
-            "link": "#开发持久层-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发业务逻辑层",
-            "slug": "开发业务逻辑层-2",
-            "link": "#开发业务逻辑层-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发接口层",
-            "slug": "开发接口层-2",
-            "link": "#开发接口层-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发服务启动类",
-            "slug": "开发服务启动类-2",
-            "link": "#开发服务启动类-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "开发辅助类",
-            "slug": "开发辅助类",
-            "link": "#开发辅助类",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "测试项目",
-        "slug": "测试项目",
-        "link": "#测试项目",
-        "children": [
-          {
-            "level": 3,
-            "title": "添加测试数据",
-            "slug": "添加测试数据",
-            "link": "#添加测试数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试库存不足的情况",
-            "slug": "测试库存不足的情况",
-            "link": "#测试库存不足的情况",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试正常下单的情况",
-            "slug": "测试正常下单的情况",
-            "link": "#测试正常下单的情况",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-21-SA%E5%AE%9E%E6%88%98-%E5%AE%8C%E6%88%90%E4%B8%89%E5%A4%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%90%AD%E5%BB%BA%E4%B8%8E%E4%BA%A4%E4%BA%92%E5%BC%80%E5%8F%91.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07章：实现服务的自动注册与发现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "硬编码的问题",
-        "slug": "硬编码的问题",
-        "link": "#硬编码的问题",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "服务治理",
-        "slug": "服务治理",
-        "link": "#服务治理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "注册中心",
-        "slug": "注册中心",
-        "link": "#注册中心",
-        "children": [
-          {
-            "level": 3,
-            "title": "服务注册与发现",
-            "slug": "服务注册与发现",
-            "link": "#服务注册与发现",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务配置",
-            "slug": "服务配置",
-            "link": "#服务配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务健康检测",
-            "slug": "服务健康检测",
-            "link": "#服务健康检测",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "常见的注册中心",
-            "slug": "常见的注册中心",
-            "link": "#常见的注册中心",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "搭建Nacos环境",
-        "slug": "搭建nacos环境",
-        "link": "#搭建nacos环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "集成Nacos注册中心",
-        "slug": "集成nacos注册中心",
-        "link": "#集成nacos注册中心",
-        "children": [
-          {
-            "level": 3,
-            "title": "改造用户微服务",
-            "slug": "改造用户微服务",
-            "link": "#改造用户微服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "改造其他微服务",
-            "slug": "改造其他微服务",
-            "link": "#改造其他微服务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实现服务发现",
-        "slug": "实现服务发现",
-        "link": "#实现服务发现",
-        "children": [
-          {
-            "level": 3,
-            "title": "注入服务发现类",
-            "slug": "注入服务发现类",
-            "link": "#注入服务发现类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "创建动态服务地址方法",
-            "slug": "创建动态服务地址方法",
-            "link": "#创建动态服务地址方法",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "定义服务提供者名称",
-            "slug": "定义服务提供者名称",
-            "link": "#定义服务提供者名称",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "修改提交订单逻辑",
-            "slug": "修改提交订单逻辑",
-            "link": "#修改提交订单逻辑",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "测试项目",
-        "slug": "测试项目",
-        "link": "#测试项目",
-        "children": [
-          {
-            "level": 3,
-            "title": "添加测试数据",
-            "slug": "添加测试数据",
-            "link": "#添加测试数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试库存不足的情况",
-            "slug": "测试库存不足的情况",
-            "link": "#测试库存不足的情况",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试正常下单的情况",
-            "slug": "测试正常下单的情况",
-            "link": "#测试正常下单的情况",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-25-SA%E5%AE%9E%E6%88%98-%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86-%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E7%9A%84%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第08章：实现服务调用的负载均衡",
-    "headers": [
-      {
-        "level": 2,
-        "title": "负载均衡",
-        "slug": "负载均衡",
-        "link": "#负载均衡",
-        "children": [
-          {
-            "level": 3,
-            "title": "服务端负载均衡",
-            "slug": "服务端负载均衡",
-            "link": "#服务端负载均衡",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "客户端负载均衡",
-            "slug": "客户端负载均衡",
-            "link": "#客户端负载均衡",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "启动多服务",
-        "slug": "启动多服务",
-        "link": "#启动多服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "启动多个用户微服务",
-            "slug": "启动多个用户微服务",
-            "link": "#启动多个用户微服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "启动多个商品微服务",
-            "slug": "启动多个商品微服务",
-            "link": "#启动多个商品微服务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实现自定义负载均衡",
-        "slug": "实现自定义负载均衡",
-        "link": "#实现自定义负载均衡",
-        "children": [
-          {
-            "level": 3,
-            "title": "修改订单微服务代码",
-            "slug": "修改订单微服务代码",
-            "link": "#修改订单微服务代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试负载均衡效果",
-            "slug": "测试负载均衡效果",
-            "link": "#测试负载均衡效果",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "使用Ribbon实现负载均衡",
-        "slug": "使用ribbon实现负载均衡",
-        "link": "#使用ribbon实现负载均衡",
-        "children": [
-          {
-            "level": 3,
-            "title": "修改订单微服务代码",
-            "slug": "修改订单微服务代码-1",
-            "link": "#修改订单微服务代码-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试负载均衡效果",
-            "slug": "测试负载均衡效果-1",
-            "link": "#测试负载均衡效果-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "使用Fegin实现负载均衡",
-        "slug": "使用fegin实现负载均衡",
-        "link": "#使用fegin实现负载均衡",
-        "children": [
-          {
-            "level": 3,
-            "title": "修改订单微服务代码",
-            "slug": "修改订单微服务代码-2",
-            "link": "#修改订单微服务代码-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试负载均衡效果",
-            "slug": "测试负载均衡效果-2",
-            "link": "#测试负载均衡效果-2",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-27-SA%E5%AE%9E%E6%88%98-%E7%AC%AC8%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86-%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E8%B0%83%E7%94%A8%E7%9A%84%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第09章：服务雪崩与容错方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "并发对系统的影响",
-        "slug": "并发对系统的影响",
-        "link": "#并发对系统的影响",
-        "children": [
-          {
-            "level": 3,
-            "title": "压测说明",
-            "slug": "压测说明",
-            "link": "#压测说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "压测实战",
-            "slug": "压测实战",
-            "link": "#压测实战",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "服务雪崩",
-        "slug": "服务雪崩",
-        "link": "#服务雪崩",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "服务容错方案",
-        "slug": "服务容错方案",
-        "link": "#服务容错方案",
-        "children": [
-          {
-            "level": 3,
-            "title": "服务限流",
-            "slug": "服务限流",
-            "link": "#服务限流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务隔离",
-            "slug": "服务隔离",
-            "link": "#服务隔离",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务超时",
-            "slug": "服务超时",
-            "link": "#服务超时",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务熔断",
-            "slug": "服务熔断",
-            "link": "#服务熔断",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务降级",
-            "slug": "服务降级",
-            "link": "#服务降级",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-04-28-SA%E5%AE%9E%E6%88%98-%E7%AC%AC9%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99-%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9%E4%B8%8E%E5%AE%B9%E9%94%99%E6%96%B9%E6%A1%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第10章：项目整合Sentinel实现限流与容错",
-    "headers": [
-      {
-        "level": 2,
-        "title": "文章总览",
-        "slug": "文章总览",
-        "link": "#文章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "章节概述",
-        "slug": "章节概述",
-        "link": "#章节概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "关于Sentinel",
-        "slug": "关于sentinel",
-        "link": "#关于sentinel",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sentinel的特征",
-            "slug": "sentinel的特征",
-            "link": "#sentinel的特征",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sentinel的主要特性",
-            "slug": "sentinel的主要特性",
-            "link": "#sentinel的主要特性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Sentinel的开源生态",
-            "slug": "sentinel的开源生态",
-            "link": "#sentinel的开源生态",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "项目整合Sentinel",
-        "slug": "项目整合sentinel",
-        "link": "#项目整合sentinel",
-        "children": [
-          {
-            "level": 3,
-            "title": "安装Sentinel控制台",
-            "slug": "安装sentinel控制台",
-            "link": "#安装sentinel控制台",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "项目集成Sentinel",
-            "slug": "项目集成sentinel",
-            "link": "#项目集成sentinel",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "集成Sentinel限流功能",
-            "slug": "集成sentinel限流功能",
-            "link": "#集成sentinel限流功能",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "对提交订单的接口限流",
-            "slug": "对提交订单的接口限流",
-            "link": "#对提交订单的接口限流",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Feign整合Sentinel实现容错",
-        "slug": "feign整合sentinel实现容错",
-        "link": "#feign整合sentinel实现容错",
-        "children": [
-          {
-            "level": 3,
-            "title": "添加依赖并开启支持",
-            "slug": "添加依赖并开启支持",
-            "link": "#添加依赖并开启支持",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "为远程调用实现容错",
-            "slug": "为远程调用实现容错",
-            "link": "#为远程调用实现容错",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试服务容错",
-            "slug": "测试服务容错",
-            "link": "#测试服务容错",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "容错扩展",
-        "slug": "容错扩展",
-        "link": "#容错扩展",
-        "children": [
-          {
-            "level": 3,
-            "title": "实现容错时获取异常",
-            "slug": "实现容错时获取异常",
-            "link": "#实现容错时获取异常",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试服务容错",
-            "slug": "测试服务容错-1",
-            "link": "#测试服务容错-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-03-SA%E5%AE%9E%E6%88%98-%E7%AC%AC10%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99-Fegin%E6%95%B4%E5%90%88Sentinel.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第11章：Sentinel核心技术与配置规则（最全使用教程）",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Sentinel核心功能",
-        "slug": "sentinel核心功能",
-        "link": "#sentinel核心功能",
-        "children": [
-          {
-            "level": 3,
-            "title": "流量控制",
-            "slug": "流量控制",
-            "link": "#流量控制",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "熔断降级",
-            "slug": "熔断降级",
-            "link": "#熔断降级",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "系统负载保护",
-            "slug": "系统负载保护",
-            "link": "#系统负载保护",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sentinel核心规则",
-        "slug": "sentinel核心规则",
-        "link": "#sentinel核心规则",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "流控规则",
-        "slug": "流控规则",
-        "link": "#流控规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "簇点链路规则",
-            "slug": "簇点链路规则",
-            "link": "#簇点链路规则",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置简单限流",
-            "slug": "配置简单限流",
-            "link": "#配置简单限流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "配置流控模式",
-            "slug": "配置流控模式",
-            "link": "#配置流控模式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "熔断规则",
-        "slug": "熔断规则",
-        "link": "#熔断规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "熔断规则概述",
-            "slug": "熔断规则概述",
-            "link": "#熔断规则概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示基于慢调用比例熔断",
-            "slug": "演示基于慢调用比例熔断",
-            "link": "#演示基于慢调用比例熔断",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示基于异常比例熔断",
-            "slug": "演示基于异常比例熔断",
-            "link": "#演示基于异常比例熔断",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示基于异常数熔断",
-            "slug": "演示基于异常数熔断",
-            "link": "#演示基于异常数熔断",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "热点规则",
-        "slug": "热点规则",
-        "link": "#热点规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "热点规则概述",
-            "slug": "热点规则概述",
-            "link": "#热点规则概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示热点规则",
-            "slug": "演示热点规则",
-            "link": "#演示热点规则",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示热点高级选项规则",
-            "slug": "演示热点高级选项规则",
-            "link": "#演示热点高级选项规则",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "授权规则",
-        "slug": "授权规则",
-        "link": "#授权规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "授权规则概述",
-            "slug": "授权规则概述",
-            "link": "#授权规则概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示授权规则",
-            "slug": "演示授权规则",
-            "link": "#演示授权规则",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "系统规则",
-        "slug": "系统规则",
-        "link": "#系统规则",
-        "children": [
-          {
-            "level": 3,
-            "title": "系统规则概述",
-            "slug": "系统规则概述",
-            "link": "#系统规则概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示系统规则",
-            "slug": "演示系统规则",
-            "link": "#演示系统规则",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "@SentinelResource注解",
-        "slug": "sentinelresource注解",
-        "link": "#sentinelresource注解",
-        "children": [
-          {
-            "level": 3,
-            "title": "@SentinelResource注解概述",
-            "slug": "sentinelresource注解概述",
-            "link": "#sentinelresource注解概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示@SentinelResource注解",
-            "slug": "演示-sentinelresource注解",
-            "link": "#演示-sentinelresource注解",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Sentinel持久化",
-        "slug": "sentinel持久化",
-        "link": "#sentinel持久化",
-        "children": [
-          {
-            "level": 3,
-            "title": "Sentinel持久化概述",
-            "slug": "sentinel持久化概述",
-            "link": "#sentinel持久化概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "实现Sentinel的持久化",
-            "slug": "实现sentinel的持久化",
-            "link": "#实现sentinel的持久化",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-05-SA%E5%AE%9E%E6%88%98-%E7%AC%AC11%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E5%AE%B9%E9%94%99%E5%8A%A0%E9%A4%90-Sentinel%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E4%B8%8E%E9%85%8D%E7%BD%AE%E8%A7%84%E5%88%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第12章：网关概述与核心架构",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "网关概述",
-        "slug": "网关概述",
-        "link": "#网关概述",
-        "children": [
-          {
-            "level": 3,
-            "title": "没有网关的弊端",
-            "slug": "没有网关的弊端",
-            "link": "#没有网关的弊端",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "引入API网关",
-            "slug": "引入api网关",
-            "link": "#引入api网关",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "主流的API网关",
-        "slug": "主流的api网关",
-        "link": "#主流的api网关",
-        "children": [
-          {
-            "level": 3,
-            "title": "Nginx+Lua",
-            "slug": "nginx-lua",
-            "link": "#nginx-lua",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Kong网关",
-            "slug": "kong网关",
-            "link": "#kong网关",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Zuul网关",
-            "slug": "zuul网关",
-            "link": "#zuul网关",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Apache Shenyu网关",
-            "slug": "apache-shenyu网关",
-            "link": "#apache-shenyu网关",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "SpringCloud Gateway网关",
-            "slug": "springcloud-gateway网关",
-            "link": "#springcloud-gateway网关",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "SpringCloud Gateway网关",
-        "slug": "springcloud-gateway网关-1",
-        "link": "#springcloud-gateway网关-1",
-        "children": [
-          {
-            "level": 3,
-            "title": "SpringCloud Gateway概述",
-            "slug": "springcloud-gateway概述",
-            "link": "#springcloud-gateway概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "SpringCloud Gateway核心架构",
-            "slug": "springcloud-gateway核心架构",
-            "link": "#springcloud-gateway核心架构",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC12%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E7%BD%91%E5%85%B3%E6%A6%82%E8%BF%B0%E4%B8%8E%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第13章：项目整合SpringCloud Gateway网关",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "章节概述",
-        "slug": "章节概述",
-        "link": "#章节概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "项目整合网关",
-        "slug": "项目整合网关",
-        "link": "#项目整合网关",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建网关模块",
-            "slug": "新建网关模块",
-            "link": "#新建网关模块",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初步整合SpringCloud Gateway",
-            "slug": "初步整合springcloud-gateway",
-            "link": "#初步整合springcloud-gateway",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "网关整合Nacos",
-            "slug": "网关整合nacos",
-            "link": "#网关整合nacos",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "网关整合Nacos最简配置",
-            "slug": "网关整合nacos最简配置",
-            "link": "#网关整合nacos最简配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网关整合Sentinel限流",
-        "slug": "网关整合sentinel限流",
-        "link": "#网关整合sentinel限流",
-        "children": [
-          {
-            "level": 3,
-            "title": "实现route维度限流",
-            "slug": "实现route维度限流",
-            "link": "#实现route维度限流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "实现自定义API分组维度限流",
-            "slug": "实现自定义api分组维度限流",
-            "link": "#实现自定义api分组维度限流",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-08-SA%E5%AE%9E%E6%88%98-%E7%AC%AC13%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88SpringCloudGateway.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第14章：SpringCloud Gateway核心技术",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章概述",
-        "slug": "本章概述",
-        "link": "#本章概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "网关断言",
-        "slug": "网关断言",
-        "link": "#网关断言",
-        "children": [
-          {
-            "level": 3,
-            "title": "SpringCloud Gateway内置断言",
-            "slug": "springcloud-gateway内置断言",
-            "link": "#springcloud-gateway内置断言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "演示内置断言",
-            "slug": "演示内置断言",
-            "link": "#演示内置断言",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自定义断言",
-            "slug": "自定义断言",
-            "link": "#自定义断言",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网关过滤器",
-        "slug": "网关过滤器",
-        "link": "#网关过滤器",
-        "children": [
-          {
-            "level": 3,
-            "title": "局部过滤器",
-            "slug": "局部过滤器",
-            "link": "#局部过滤器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "全局过滤器",
-            "slug": "全局过滤器",
-            "link": "#全局过滤器",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "网关熔断机制",
-        "slug": "网关熔断机制",
-        "link": "#网关熔断机制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-10-SA%E5%AE%9E%E6%88%98-%E7%AC%AC14%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3-SpringCloudGateway%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第15章：核心原理与解决方案",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章概述",
-        "slug": "本章概述",
-        "link": "#本章概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分布式链路追踪",
-        "slug": "分布式链路追踪",
-        "link": "#分布式链路追踪",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "核心原理",
-        "slug": "核心原理",
-        "link": "#核心原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "解决方案",
-        "slug": "解决方案",
-        "link": "#解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-11-SA%E5%AE%9E%E6%88%98-%E7%AC%AC15%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8E%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第16章：项目整合Sleuth实现链路追踪",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Sleuth概述",
-        "slug": "sleuth概述",
-        "link": "#sleuth概述",
-        "children": [
-          {
-            "level": 3,
-            "title": "Span简介",
-            "slug": "span简介",
-            "link": "#span简介",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Trace简介",
-            "slug": "trace简介",
-            "link": "#trace简介",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Annotation简介",
-            "slug": "annotation简介",
-            "link": "#annotation简介",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "项目整合Sleuth",
-        "slug": "项目整合sleuth",
-        "link": "#项目整合sleuth",
-        "children": [
-          {
-            "level": 3,
-            "title": "最简使用",
-            "slug": "最简使用",
-            "link": "#最简使用",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "抽样采集数据",
-            "slug": "抽样采集数据",
-            "link": "#抽样采集数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "追踪自定义线程池",
-            "slug": "追踪自定义线程池",
-            "link": "#追踪自定义线程池",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "自定义链路过滤器",
-            "slug": "自定义链路过滤器",
-            "link": "#自定义链路过滤器",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-12-SA%E5%AE%9E%E6%88%98-%E7%AC%AC16%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Sleuth%E5%AE%9E%E7%8E%B0%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第17章：Sleuth整合ZipKin",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章概述",
-        "slug": "本章概述",
-        "link": "#本章概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ZipKin核心架构",
-        "slug": "zipkin核心架构",
-        "link": "#zipkin核心架构",
-        "children": [
-          {
-            "level": 3,
-            "title": "ZipKin概述",
-            "slug": "zipkin概述",
-            "link": "#zipkin概述",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "ZipKin核心架构",
-            "slug": "zipkin核心架构-1",
-            "link": "#zipkin核心架构-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "项目整合ZipKin",
-        "slug": "项目整合zipkin",
-        "link": "#项目整合zipkin",
-        "children": [
-          {
-            "level": 3,
-            "title": "下载安装ZipKin服务端",
-            "slug": "下载安装zipkin服务端",
-            "link": "#下载安装zipkin服务端",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "项目整合ZipKin客户端",
-            "slug": "项目整合zipkin客户端",
-            "link": "#项目整合zipkin客户端",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "ZipKin数据持久化",
-        "slug": "zipkin数据持久化",
-        "link": "#zipkin数据持久化",
-        "children": [
-          {
-            "level": 3,
-            "title": "ZipKin数据持久化到MySQL",
-            "slug": "zipkin数据持久化到mysql",
-            "link": "#zipkin数据持久化到mysql",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "ZipKin数据持久化到ElasticSearch",
-            "slug": "zipkin数据持久化到elasticsearch",
-            "link": "#zipkin数据持久化到elasticsearch",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-13-SA%E5%AE%9E%E6%88%98-%E7%AC%AC17%E7%AB%A0-%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA-Sleuth%E6%95%B4%E5%90%88ZipKin.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第18章：MQ使用场景与选型对比",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "MQ的使用场景",
-        "slug": "mq的使用场景",
-        "link": "#mq的使用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "异步解耦",
-            "slug": "异步解耦",
-            "link": "#异步解耦",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "流量削峰",
-            "slug": "流量削峰",
-            "link": "#流量削峰",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "引入MQ后的注意事项",
-        "slug": "引入mq后的注意事项",
-        "link": "#引入mq后的注意事项",
-        "children": [
-          {
-            "level": 3,
-            "title": "系统的整体可用性降低",
-            "slug": "系统的整体可用性降低",
-            "link": "#系统的整体可用性降低",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "系统的复杂度变高",
-            "slug": "系统的复杂度变高",
-            "link": "#系统的复杂度变高",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息一致性问题",
-            "slug": "消息一致性问题",
-            "link": "#消息一致性问题",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "MQ选型对比",
-        "slug": "mq选型对比",
-        "link": "#mq选型对比",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-17-SA%E5%AE%9E%E6%88%98-%E7%AC%AC18%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-MQ%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E4%B8%8E%E9%80%89%E5%9E%8B%E5%AF%B9%E6%AF%94.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第19章：项目整合RocketMQ",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "RocketMQ环境准备",
-        "slug": "rocketmq环境准备",
-        "link": "#rocketmq环境准备",
-        "children": [
-          {
-            "level": 3,
-            "title": "源码编译安装RocketMQ",
-            "slug": "源码编译安装rocketmq",
-            "link": "#源码编译安装rocketmq",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试RocketMQ环境",
-            "slug": "测试rocketmq环境",
-            "link": "#测试rocketmq环境",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "源码编译RocketMQ控制台",
-            "slug": "源码编译rocketmq控制台",
-            "link": "#源码编译rocketmq控制台",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "验证RocketMQ控制台",
-            "slug": "验证rocketmq控制台",
-            "link": "#验证rocketmq控制台",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "编码测试RocketMQ",
-        "slug": "编码测试rocketmq",
-        "link": "#编码测试rocketmq",
-        "children": [
-          {
-            "level": 3,
-            "title": "导入RocketMQ依赖",
-            "slug": "导入rocketmq依赖",
-            "link": "#导入rocketmq依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "编写生产者代码",
-            "slug": "编写生产者代码",
-            "link": "#编写生产者代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "编写消费者代码",
-            "slug": "编写消费者代码",
-            "link": "#编写消费者代码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试消息的生产与消费",
-            "slug": "测试消息的生产与消费",
-            "link": "#测试消息的生产与消费",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "项目整合RocketMQ",
-        "slug": "项目整合rocketmq",
-        "link": "#项目整合rocketmq",
-        "children": [
-          {
-            "level": 3,
-            "title": "用户微服务整合RocketMQ",
-            "slug": "用户微服务整合rocketmq",
-            "link": "#用户微服务整合rocketmq",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "订单微服务整合RocketMQ",
-            "slug": "订单微服务整合rocketmq",
-            "link": "#订单微服务整合rocketmq",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "测试项目整合的RocketMQ",
-            "slug": "测试项目整合的rocketmq",
-            "link": "#测试项目整合的rocketmq",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-18-SA%E5%AE%9E%E6%88%98-%E7%AC%AC19%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88RocketMQ.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第20章：RocketMQ核心技术",
-    "headers": [
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "IDEA启动RocketMQ源码",
-        "slug": "idea启动rocketmq源码",
-        "link": "#idea启动rocketmq源码",
-        "children": [
-          {
-            "level": 3,
-            "title": "下载RocketMQ源码",
-            "slug": "下载rocketmq源码",
-            "link": "#下载rocketmq源码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "将源码导入IDEA",
-            "slug": "将源码导入idea",
-            "link": "#将源码导入idea",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "编译RocketMQ源码",
-            "slug": "编译rocketmq源码",
-            "link": "#编译rocketmq源码",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "启动RocketMQ",
-            "slug": "启动rocketmq",
-            "link": "#启动rocketmq",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "RocketMQ基本概念",
-        "slug": "rocketmq基本概念",
-        "link": "#rocketmq基本概念",
-        "children": [
-          {
-            "level": 3,
-            "title": "消息模型",
-            "slug": "消息模型",
-            "link": "#消息模型",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息生产者",
-            "slug": "消息生产者",
-            "link": "#消息生产者",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息消费者",
-            "slug": "消息消费者",
-            "link": "#消息消费者",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "主题",
-            "slug": "主题",
-            "link": "#主题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "代理服务器",
-            "slug": "代理服务器",
-            "link": "#代理服务器",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "名字服务",
-            "slug": "名字服务",
-            "link": "#名字服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "拉取式消费",
-            "slug": "拉取式消费",
-            "link": "#拉取式消费",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "推动式消费",
-            "slug": "推动式消费",
-            "link": "#推动式消费",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "生产者组",
-            "slug": "生产者组",
-            "link": "#生产者组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消费者组",
-            "slug": "消费者组",
-            "link": "#消费者组",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "集群消费",
-            "slug": "集群消费",
-            "link": "#集群消费",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "广播消费",
-            "slug": "广播消费",
-            "link": "#广播消费",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "普通顺序消息",
-            "slug": "普通顺序消息",
-            "link": "#普通顺序消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "严格顺序消息",
-            "slug": "严格顺序消息",
-            "link": "#严格顺序消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息",
-            "slug": "消息",
-            "link": "#消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "标签",
-            "slug": "标签",
-            "link": "#标签",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "RocketMQ特性",
-        "slug": "rocketmq特性",
-        "link": "#rocketmq特性",
-        "children": [
-          {
-            "level": 3,
-            "title": "订阅与发布",
-            "slug": "订阅与发布",
-            "link": "#订阅与发布",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息顺序",
-            "slug": "消息顺序",
-            "link": "#消息顺序",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息过滤",
-            "slug": "消息过滤",
-            "link": "#消息过滤",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息可靠性",
-            "slug": "消息可靠性",
-            "link": "#消息可靠性",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "至少一次",
-            "slug": "至少一次",
-            "link": "#至少一次",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "回溯消费",
-            "slug": "回溯消费",
-            "link": "#回溯消费",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "事务消息",
-            "slug": "事务消息",
-            "link": "#事务消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "定时消息",
-            "slug": "定时消息",
-            "link": "#定时消息",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息重试",
-            "slug": "消息重试",
-            "link": "#消息重试",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息重投",
-            "slug": "消息重投",
-            "link": "#消息重投",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "流量控制",
-            "slug": "流量控制",
-            "link": "#流量控制",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "死信队列",
-            "slug": "死信队列",
-            "link": "#死信队列",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "RocketMQ最佳实践",
-        "slug": "rocketmq最佳实践",
-        "link": "#rocketmq最佳实践",
-        "children": [
-          {
-            "level": 3,
-            "title": "生产者",
-            "slug": "生产者",
-            "link": "#生产者",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消费者",
-            "slug": "消费者",
-            "link": "#消费者",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Broker",
-            "slug": "broker",
-            "link": "#broker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "NameServer",
-            "slug": "nameserver",
-            "link": "#nameserver",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "客户端配置",
-            "slug": "客户端配置",
-            "link": "#客户端配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "系统配置",
-            "slug": "系统配置",
-            "link": "#系统配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-20-SA%E5%AE%9E%E6%88%98-%E7%AC%AC20%E7%AB%A0-%E6%B6%88%E6%81%AF%E6%9C%8D%E5%8A%A1-RocketMQ%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第21章：服务配置介绍与Nacos核心概念",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前文回顾",
-        "slug": "前文回顾",
-        "link": "#前文回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "群魔乱舞(配置散落存储)",
-        "slug": "群魔乱舞-配置散落存储",
-        "link": "#群魔乱舞-配置散落存储",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分久必合(配置中心)",
-        "slug": "分久必合-配置中心",
-        "link": "#分久必合-配置中心",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "配置中心解决方案",
-        "slug": "配置中心解决方案",
-        "link": "#配置中心解决方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Nacos配置中心概念",
-        "slug": "nacos配置中心概念",
-        "link": "#nacos配置中心概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-21-SA%E5%AE%9E%E6%88%98-%E7%AC%AC21%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D%E4%B8%8ENacos%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第22章：项目整合Nacos配置中心",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前文回顾",
-        "slug": "前文回顾",
-        "link": "#前文回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "环境准备",
-        "slug": "环境准备",
-        "link": "#环境准备",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "服务整合Nacos配置中心",
-        "slug": "服务整合nacos配置中心",
-        "link": "#服务整合nacos配置中心",
-        "children": [
-          {
-            "level": 3,
-            "title": "用户微服务整合配置中心",
-            "slug": "用户微服务整合配置中心",
-            "link": "#用户微服务整合配置中心",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "商品微服务整合配置中心",
-            "slug": "商品微服务整合配置中心",
-            "link": "#商品微服务整合配置中心",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "订单微服务整合配置中心",
-            "slug": "订单微服务整合配置中心",
-            "link": "#订单微服务整合配置中心",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "网关服务整合配置中心",
-            "slug": "网关服务整合配置中心",
-            "link": "#网关服务整合配置中心",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查看Nacos中的配置",
-            "slug": "查看nacos中的配置",
-            "link": "#查看nacos中的配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "整合Nacos配置中心测试",
-        "slug": "整合nacos配置中心测试",
-        "link": "#整合nacos配置中心测试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-23-SA%E5%AE%9E%E6%88%98-%E7%AC%AC22%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Nacos%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第23章：实现动态刷新与配置共享",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前文回顾",
-        "slug": "前文回顾",
-        "link": "#前文回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "实现动态刷新",
-        "slug": "实现动态刷新",
-        "link": "#实现动态刷新",
-        "children": [
-          {
-            "level": 3,
-            "title": "修改Nacos配置",
-            "slug": "修改nacos配置",
-            "link": "#修改nacos配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "通过IOC容器获取Nacos配置",
-            "slug": "通过ioc容器获取nacos配置",
-            "link": "#通过ioc容器获取nacos配置",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "通过注解获取Nacos配置",
-            "slug": "通过注解获取nacos配置",
-            "link": "#通过注解获取nacos配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "实现配置共享",
-        "slug": "实现配置共享",
-        "link": "#实现配置共享",
-        "children": [
-          {
-            "level": 3,
-            "title": "单服务多环境实现共享",
-            "slug": "单服务多环境实现共享",
-            "link": "#单服务多环境实现共享",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "多服务配置实现共享",
-            "slug": "多服务配置实现共享",
-            "link": "#多服务配置实现共享",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-24-SA%E5%AE%9E%E6%88%98-%E7%AC%AC23%E7%AB%A0-%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE-%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%88%B7%E6%96%B0%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%85%B1%E4%BA%AB.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第24章：分布式事务核心原理与Seata介绍",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前文回顾",
-        "slug": "前文回顾",
-        "link": "#前文回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分布式事务",
-        "slug": "分布式事务",
-        "link": "#分布式事务",
-        "children": [
-          {
-            "level": 3,
-            "title": "系统学习分布式事务",
-            "slug": "系统学习分布式事务",
-            "link": "#系统学习分布式事务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "深入理解分布式事务",
-            "slug": "深入理解分布式事务",
-            "link": "#深入理解分布式事务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Seata介绍",
-        "slug": "seata介绍",
-        "link": "#seata介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "Seata 是什么?",
-            "slug": "seata-是什么",
-            "link": "#seata-是什么",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "AT 模式",
-            "slug": "at-模式",
-            "link": "#at-模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "TCC 模式",
-            "slug": "tcc-模式",
-            "link": "#tcc-模式",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Saga 模式",
-            "slug": "saga-模式",
-            "link": "#saga-模式",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-25-SA%E5%AE%9E%E6%88%98-%E7%AC%AC24%E7%AB%A0-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1%E6%A0%B8%E5%BF%83%E5%8E%9F%E7%90%86%E4%B8%8ESeata%E4%BB%8B%E7%BB%8D.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第25章：项目整合Seata实现分布式事务",
-    "headers": [
-      {
-        "level": 2,
-        "title": "前文回顾",
-        "slug": "前文回顾",
-        "link": "#前文回顾",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "本章总览",
-        "slug": "本章总览",
-        "link": "#本章总览",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "分布式事务问题",
-        "slug": "分布式事务问题",
-        "link": "#分布式事务问题",
-        "children": [
-          {
-            "level": 3,
-            "title": "查询数据表数据",
-            "slug": "查询数据表数据",
-            "link": "#查询数据表数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "重现分布式事务问题",
-            "slug": "重现分布式事务问题",
-            "link": "#重现分布式事务问题",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查询数据表数据",
-            "slug": "查询数据表数据-1",
-            "link": "#查询数据表数据-1",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "搭建并整合Seata",
-        "slug": "搭建并整合seata",
-        "link": "#搭建并整合seata",
-        "children": [
-          {
-            "level": 3,
-            "title": "搭建Seata基础环境",
-            "slug": "搭建seata基础环境",
-            "link": "#搭建seata基础环境",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "项目整合Seata",
-            "slug": "项目整合seata",
-            "link": "#项目整合seata",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "导入unlog表",
-            "slug": "导入unlog表",
-            "link": "#导入unlog表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "商品微服务整合Seata",
-            "slug": "商品微服务整合seata",
-            "link": "#商品微服务整合seata",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "订单微服务整合Seata",
-            "slug": "订单微服务整合seata",
-            "link": "#订单微服务整合seata",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "验证Seata事务",
-        "slug": "验证seata事务",
-        "link": "#验证seata事务",
-        "children": [
-          {
-            "level": 3,
-            "title": "重置数据库数据",
-            "slug": "重置数据库数据",
-            "link": "#重置数据库数据",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查询数据表数据",
-            "slug": "查询数据表数据-2",
-            "link": "#查询数据表数据-2",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "验证Seata事务",
-            "slug": "验证seata事务-1",
-            "link": "#验证seata事务-1",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "查询数据表数据",
-            "slug": "查询数据表数据-3",
-            "link": "#查询数据表数据-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-05-25-SA%E5%AE%9E%E6%88%98-%E7%AC%AC25%E7%AB%A0-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1-%E9%A1%B9%E7%9B%AE%E6%95%B4%E5%90%88Seata%E5%AE%9E%E7%8E%B0%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第26章：专栏总结及后续规划",
-    "headers": [
-      {
-        "level": 2,
-        "title": "专栏总体划分",
-        "slug": "专栏总体划分",
-        "link": "#专栏总体划分",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "专栏涉及到的技术",
-        "slug": "专栏涉及到的技术",
-        "link": "#专栏涉及到的技术",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "具体篇章内容",
-        "slug": "具体篇章内容",
-        "link": "#具体篇章内容",
-        "children": [
-          {
-            "level": 3,
-            "title": "专栏设计篇",
-            "slug": "专栏设计篇",
-            "link": "#专栏设计篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "微服务介绍篇",
-            "slug": "微服务介绍篇",
-            "link": "#微服务介绍篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "微服务环境搭建篇",
-            "slug": "微服务环境搭建篇",
-            "link": "#微服务环境搭建篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务治理篇",
-            "slug": "服务治理篇",
-            "link": "#服务治理篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务容错篇",
-            "slug": "服务容错篇",
-            "link": "#服务容错篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务网关篇",
-            "slug": "服务网关篇",
-            "link": "#服务网关篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "链路追踪篇",
-            "slug": "链路追踪篇",
-            "link": "#链路追踪篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "消息服务篇",
-            "slug": "消息服务篇",
-            "link": "#消息服务篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "服务配置篇",
-            "slug": "服务配置篇",
-            "link": "#服务配置篇",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "分布式事务篇",
-            "slug": "分布式事务篇",
-            "link": "#分布式事务篇",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "专栏总结",
-        "slug": "专栏总结",
-        "link": "#专栏总结",
-        "children": [
-          {
-            "level": 3,
-            "title": "为自己而学",
-            "slug": "为自己而学",
-            "link": "#为自己而学",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "每天进步一点点",
-            "slug": "每天进步一点点",
-            "link": "#每天进步一点点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "后续规划",
-        "slug": "后续规划",
-        "link": "#后续规划",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球服务",
-        "slug": "星球服务",
-        "link": "#星球服务",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球重磅福利",
-        "slug": "星球重磅福利",
-        "link": "#星球重磅福利",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
-        "children": [
-          {
-            "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/microservices/springcloudalibaba/2022-06-15-SA%E5%AE%9E%E6%88%98-%E7%AC%AC26%E7%AB%A0-%E4%B8%93%E6%A0%8F%E6%80%BB%E7%BB%93%E4%B8%8E%E5%90%8E%E7%BB%AD%E8%A7%84%E5%88%92.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/performance/jvm/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/microservices/springcloud/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/performance/mysql/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/performance/system/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/microservices/springboot/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "关于我",
-    "headers": [],
-    "path": "/md/performance/tomcat/default.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01章：并发编程学习指南",
-    "headers": [
-      {
-        "level": 2,
-        "title": "介绍",
-        "slug": "介绍",
-        "link": "#介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "了解详情",
-        "slug": "了解详情",
-        "link": "#了解详情",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "正在更新",
-        "slug": "正在更新",
-        "link": "#正在更新",
-        "children": [
-          {
-            "level": 3,
-            "title": "开发的项目",
-            "slug": "开发的项目",
-            "link": "#开发的项目",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "出版图书",
-        "slug": "出版图书",
-        "link": "#出版图书",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "PDF",
-        "slug": "pdf",
-        "link": "#pdf",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "面试必备",
-        "slug": "面试必备",
-        "link": "#面试必备",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "共同维护",
-        "slug": "共同维护",
-        "link": "#共同维护",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "并发编程学习路线",
-        "slug": "并发编程学习路线",
-        "link": "#并发编程学习路线",
-        "children": [
-          {
-            "level": 3,
-            "title": "最佳学习路线",
-            "slug": "最佳学习路线",
-            "link": "#最佳学习路线",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "并发基础",
-            "slug": "并发基础",
-            "link": "#并发基础",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Java并发集合",
-            "slug": "java并发集合",
-            "link": "#java并发集合",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "并发工具类",
-            "slug": "并发工具类",
-            "link": "#并发工具类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Java内存模型（JMM）",
-            "slug": "java内存模型-jmm",
-            "link": "#java内存模型-jmm",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "线程池",
-            "slug": "线程池",
-            "link": "#线程池",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "阻塞队列",
-            "slug": "阻塞队列",
-            "link": "#阻塞队列",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "锁",
-            "slug": "锁",
-            "link": "#锁",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Atomic原子类",
-            "slug": "atomic原子类",
-            "link": "#atomic原子类",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "其他",
-            "slug": "其他",
-            "link": "#其他",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/study/concurrent/concurrent_road.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "我要手把手教你搭建并研发一套抗瞬时百万流量的秒杀系统",
     "headers": [
       {
@@ -39535,182 +39364,173 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "星球学习指南：快速了解星球，开启学习之旅！",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、加入知识星球",
-        "slug": "一、加入知识星球",
-        "link": "#一、加入知识星球",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 快速了解星球",
-            "slug": "_1-1-快速了解星球",
-            "link": "#_1-1-快速了解星球",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 自我介绍",
-            "slug": "_1-3-自我介绍",
-            "link": "#_1-3-自我介绍",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 提问问题",
-            "slug": "_1-4-提问问题",
-            "link": "#_1-4-提问问题",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、申请项目仓库",
-        "slug": "二、申请项目仓库",
-        "link": "#二、申请项目仓库",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、明确学习路线",
-        "slug": "三、明确学习路线",
-        "link": "#三、明确学习路线",
-        "children": []
-      }
-    ],
-    "path": "/md/zsxq/guide/guide.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "加入星球",
+    "title": "关于我",
     "headers": [],
-    "path": "/md/zsxq/other/join.html",
+    "path": "/md/performance/jvm/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "星球项目汇总",
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/performance/mysql/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/performance/system/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01章：并发编程学习指南",
     "headers": [
       {
         "level": 2,
-        "title": "SpringCloud Alibaba实战",
-        "slug": "springcloud-alibaba实战",
-        "link": "#springcloud-alibaba实战",
+        "title": "介绍",
+        "slug": "介绍",
+        "link": "#介绍",
         "children": []
       },
       {
         "level": 2,
-        "title": "RPC手撸专栏",
-        "slug": "rpc手撸专栏",
-        "link": "#rpc手撸专栏",
+        "title": "了解详情",
+        "slug": "了解详情",
+        "link": "#了解详情",
         "children": []
       },
       {
         "level": 2,
-        "title": "Spring6核心技术",
-        "slug": "spring6核心技术",
-        "link": "#spring6核心技术",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Seckill秒杀系统",
-        "slug": "seckill秒杀系统",
-        "link": "#seckill秒杀系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "并发设计模式",
-        "slug": "并发设计模式",
-        "link": "#并发设计模式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "规划中的专栏",
-        "slug": "规划中的专栏",
-        "link": "#规划中的专栏",
+        "title": "正在更新",
+        "slug": "正在更新",
+        "link": "#正在更新",
         "children": [
           {
             "level": 3,
-            "title": "中间件项目",
-            "slug": "中间件项目",
-            "link": "#中间件项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "超硬核项目",
-            "slug": "超硬核项目",
-            "link": "#超硬核项目",
+            "title": "开发的项目",
+            "slug": "开发的项目",
+            "link": "#开发的项目",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "星球规划",
-        "slug": "星球规划",
-        "link": "#星球规划",
+        "title": "出版图书",
+        "slug": "出版图书",
+        "link": "#出版图书",
         "children": []
       },
       {
         "level": 2,
-        "title": "再放一波福利",
-        "slug": "再放一波福利",
-        "link": "#再放一波福利",
+        "title": "PDF",
+        "slug": "pdf",
+        "link": "#pdf",
         "children": []
       },
       {
         "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
+        "title": "面试必备",
+        "slug": "面试必备",
+        "link": "#面试必备",
         "children": []
       },
       {
         "level": 2,
-        "title": "联系冰河",
-        "slug": "联系冰河",
-        "link": "#联系冰河",
+        "title": "共同维护",
+        "slug": "共同维护",
+        "link": "#共同维护",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "并发编程学习路线",
+        "slug": "并发编程学习路线",
+        "link": "#并发编程学习路线",
         "children": [
           {
             "level": 3,
-            "title": "加群交流",
-            "slug": "加群交流",
-            "link": "#加群交流",
+            "title": "最佳学习路线",
+            "slug": "最佳学习路线",
+            "link": "#最佳学习路线",
             "children": []
           },
           {
             "level": 3,
-            "title": "公众号",
-            "slug": "公众号",
-            "link": "#公众号",
+            "title": "并发基础",
+            "slug": "并发基础",
+            "link": "#并发基础",
             "children": []
           },
           {
             "level": 3,
-            "title": "视频号",
-            "slug": "视频号",
-            "link": "#视频号",
+            "title": "Java并发集合",
+            "slug": "java并发集合",
+            "link": "#java并发集合",
             "children": []
           },
           {
             "level": 3,
-            "title": "星球",
-            "slug": "星球",
-            "link": "#星球",
+            "title": "并发工具类",
+            "slug": "并发工具类",
+            "link": "#并发工具类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Java内存模型（JMM）",
+            "slug": "java内存模型-jmm",
+            "link": "#java内存模型-jmm",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "线程池",
+            "slug": "线程池",
+            "link": "#线程池",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "阻塞队列",
+            "slug": "阻塞队列",
+            "link": "#阻塞队列",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "锁",
+            "slug": "锁",
+            "link": "#锁",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Atomic原子类",
+            "slug": "atomic原子类",
+            "link": "#atomic原子类",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
             "children": []
           }
         ]
       }
     ],
-    "path": "/md/zsxq/other/project.html",
+    "path": "/md/study/concurrent/concurrent_road.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "关于我",
+    "headers": [],
+    "path": "/md/performance/tomcat/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -39955,6 +39775,186 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/zsxq/essence/essence.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "星球学习指南：快速了解星球，开启学习之旅！",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、加入知识星球",
+        "slug": "一、加入知识星球",
+        "link": "#一、加入知识星球",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 快速了解星球",
+            "slug": "_1-1-快速了解星球",
+            "link": "#_1-1-快速了解星球",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 自我介绍",
+            "slug": "_1-3-自我介绍",
+            "link": "#_1-3-自我介绍",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 提问问题",
+            "slug": "_1-4-提问问题",
+            "link": "#_1-4-提问问题",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、申请项目仓库",
+        "slug": "二、申请项目仓库",
+        "link": "#二、申请项目仓库",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、明确学习路线",
+        "slug": "三、明确学习路线",
+        "link": "#三、明确学习路线",
+        "children": []
+      }
+    ],
+    "path": "/md/zsxq/guide/guide.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "加入星球",
+    "headers": [],
+    "path": "/md/zsxq/other/join.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "星球项目汇总",
+    "headers": [
+      {
+        "level": 2,
+        "title": "SpringCloud Alibaba实战",
+        "slug": "springcloud-alibaba实战",
+        "link": "#springcloud-alibaba实战",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "RPC手撸专栏",
+        "slug": "rpc手撸专栏",
+        "link": "#rpc手撸专栏",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Spring6核心技术",
+        "slug": "spring6核心技术",
+        "link": "#spring6核心技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Seckill秒杀系统",
+        "slug": "seckill秒杀系统",
+        "link": "#seckill秒杀系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "并发设计模式",
+        "slug": "并发设计模式",
+        "link": "#并发设计模式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "规划中的专栏",
+        "slug": "规划中的专栏",
+        "link": "#规划中的专栏",
+        "children": [
+          {
+            "level": 3,
+            "title": "中间件项目",
+            "slug": "中间件项目",
+            "link": "#中间件项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "超硬核项目",
+            "slug": "超硬核项目",
+            "link": "#超硬核项目",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "星球规划",
+        "slug": "星球规划",
+        "link": "#星球规划",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "再放一波福利",
+        "slug": "再放一波福利",
+        "link": "#再放一波福利",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "联系冰河",
+        "slug": "联系冰河",
+        "link": "#联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "加群交流",
+            "slug": "加群交流",
+            "link": "#加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "公众号",
+            "slug": "公众号",
+            "link": "#公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "视频号",
+            "slug": "视频号",
+            "link": "#视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "星球",
+            "slug": "星球",
+            "link": "#星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/zsxq/other/project.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -56600,14 +56600,231 @@ export const SEARCH_INDEX = [
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/distributed/mq/rabbitmq/default.html",
+    "path": "/md/distributed/mq/rocketmq/default.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
     "title": "关于我",
     "headers": [],
-    "path": "/md/distributed/mq/rocketmq/default.html",
+    "path": "/md/distributed/mq/rabbitmq/default.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第39章：AOT预编译技术概述",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、学习指引",
+        "slug": "一、学习指引",
+        "link": "#一、学习指引",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、JIT与AOT概述",
+        "slug": "二、jit与aot概述",
+        "link": "#二、jit与aot概述",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 JIT即时编译",
+            "slug": "_2-1-jit即时编译",
+            "link": "#_2-1-jit即时编译",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 AOT预编译",
+            "slug": "_2-2-aot预编译",
+            "link": "#_2-2-aot预编译",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 JIT与AOT的联系",
+            "slug": "_2-3-jit与aot的联系",
+            "link": "#_2-3-jit与aot的联系",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、AOT的优缺点",
+        "slug": "三、aot的优缺点",
+        "link": "#三、aot的优缺点",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 AOT优点",
+            "slug": "_3-1-aot优点",
+            "link": "#_3-1-aot优点",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 AOT缺点",
+            "slug": "_3-2-aot缺点",
+            "link": "#_3-2-aot缺点",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、Graalvm",
+        "slug": "四、graalvm",
+        "link": "#四、graalvm",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、Native Image",
+        "slug": "五、native-image",
+        "link": "#五、native-image",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、总结",
+        "slug": "六、总结",
+        "link": "#六、总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、VIP服务",
+        "slug": "七、vip服务",
+        "link": "#七、vip服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "星球提供的服务",
+            "slug": "星球提供的服务",
+            "link": "#星球提供的服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何加入星球",
+            "slug": "如何加入星球",
+            "link": "#如何加入星球",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "加群交流",
+        "slug": "加群交流",
+        "link": "#加群交流",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "公众号",
+        "slug": "公众号",
+        "link": "#公众号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "视频号",
+        "slug": "视频号",
+        "link": "#视频号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球",
+        "slug": "星球",
+        "link": "#星球",
+        "children": []
+      }
+    ],
+    "path": "/md/frame/spring/aot/2023-04-05-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC39%E7%AB%A0-AOT%E9%A2%84%E7%BC%96%E8%AF%91%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "【付费】第40章：手动构建Native Image",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、学习指引",
+        "slug": "一、学习指引",
+        "link": "#一、学习指引",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、安装GraalVM环境",
+        "slug": "二、安装graalvm环境",
+        "link": "#二、安装graalvm环境",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 下载GraalVM",
+            "slug": "_2-1-下载graalvm",
+            "link": "#_2-1-下载graalvm",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 配置环境变量",
+            "slug": "_2-2-配置环境变量",
+            "link": "#_2-2-配置环境变量",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/frame/spring/aot/2023-04-06-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC40%E7%AB%A0-%E6%9E%84%E5%BB%BANative-Image.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "【付费】第41章：Maven构建Native Image",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、学习指引",
+        "slug": "一、学习指引",
+        "link": "#一、学习指引",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、搭建项目环境",
+        "slug": "二、搭建项目环境",
+        "link": "#二、搭建项目环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、使用GraalVM SDK构建",
+        "slug": "三、使用graalvm-sdk构建",
+        "link": "#三、使用graalvm-sdk构建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/frame/spring/aot/2023-04-07-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC41%E7%AB%A0-Maven%E6%9E%84%E5%BB%BANative-Image.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -57000,223 +57217,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/frame/spring/aop/2023-03-25-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC28%E7%AB%A0-@EnableLoadTimeWeaving%E6%B3%A8%E8%A7%A3.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第39章：AOT预编译技术概述",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、学习指引",
-        "slug": "一、学习指引",
-        "link": "#一、学习指引",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、JIT与AOT概述",
-        "slug": "二、jit与aot概述",
-        "link": "#二、jit与aot概述",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 JIT即时编译",
-            "slug": "_2-1-jit即时编译",
-            "link": "#_2-1-jit即时编译",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 AOT预编译",
-            "slug": "_2-2-aot预编译",
-            "link": "#_2-2-aot预编译",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 JIT与AOT的联系",
-            "slug": "_2-3-jit与aot的联系",
-            "link": "#_2-3-jit与aot的联系",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "三、AOT的优缺点",
-        "slug": "三、aot的优缺点",
-        "link": "#三、aot的优缺点",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 AOT优点",
-            "slug": "_3-1-aot优点",
-            "link": "#_3-1-aot优点",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 AOT缺点",
-            "slug": "_3-2-aot缺点",
-            "link": "#_3-2-aot缺点",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "四、Graalvm",
-        "slug": "四、graalvm",
-        "link": "#四、graalvm",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、Native Image",
-        "slug": "五、native-image",
-        "link": "#五、native-image",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、总结",
-        "slug": "六、总结",
-        "link": "#六、总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、VIP服务",
-        "slug": "七、vip服务",
-        "link": "#七、vip服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "星球提供的服务",
-            "slug": "星球提供的服务",
-            "link": "#星球提供的服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何加入星球",
-            "slug": "如何加入星球",
-            "link": "#如何加入星球",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "加群交流",
-        "slug": "加群交流",
-        "link": "#加群交流",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "公众号",
-        "slug": "公众号",
-        "link": "#公众号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "视频号",
-        "slug": "视频号",
-        "link": "#视频号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球",
-        "slug": "星球",
-        "link": "#星球",
-        "children": []
-      }
-    ],
-    "path": "/md/frame/spring/aot/2023-04-05-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC39%E7%AB%A0-AOT%E9%A2%84%E7%BC%96%E8%AF%91%E6%8A%80%E6%9C%AF%E6%A6%82%E8%BF%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "【付费】第40章：手动构建Native Image",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、学习指引",
-        "slug": "一、学习指引",
-        "link": "#一、学习指引",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、安装GraalVM环境",
-        "slug": "二、安装graalvm环境",
-        "link": "#二、安装graalvm环境",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 下载GraalVM",
-            "slug": "_2-1-下载graalvm",
-            "link": "#_2-1-下载graalvm",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 配置环境变量",
-            "slug": "_2-2-配置环境变量",
-            "link": "#_2-2-配置环境变量",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/frame/spring/aot/2023-04-06-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC40%E7%AB%A0-%E6%9E%84%E5%BB%BANative-Image.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "【付费】第41章：Maven构建Native Image",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、学习指引",
-        "slug": "一、学习指引",
-        "link": "#一、学习指引",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、搭建项目环境",
-        "slug": "二、搭建项目环境",
-        "link": "#二、搭建项目环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、使用GraalVM SDK构建",
-        "slug": "三、使用graalvm-sdk构建",
-        "link": "#三、使用graalvm-sdk构建",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/frame/spring/aot/2023-04-07-%E3%80%8ASpring%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%AC41%E7%AB%A0-Maven%E6%9E%84%E5%BB%BANative-Image.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -61558,6 +61558,2557 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "第01节：分布式IM即时通讯系统研发环境搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、安装Docker环境",
+        "slug": "三、安装docker环境",
+        "link": "#三、安装docker环境",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 查看操作系统内核版本",
+            "slug": "_3-1-查看操作系统内核版本",
+            "link": "#_3-1-查看操作系统内核版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 卸载旧版本Docker",
+            "slug": "_3-2-卸载旧版本docker",
+            "link": "#_3-2-卸载旧版本docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 安装gcc环境",
+            "slug": "_3-3-安装gcc环境",
+            "link": "#_3-3-安装gcc环境",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 安装yum工具",
+            "slug": "_3-4-安装yum工具",
+            "link": "#_3-4-安装yum工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 设置Docker镜像仓库",
+            "slug": "_3-5-设置docker镜像仓库",
+            "link": "#_3-5-设置docker镜像仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6 更新yum包软件索引",
+            "slug": "_3-6-更新yum包软件索引",
+            "link": "#_3-6-更新yum包软件索引",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.7 安装Docker",
+            "slug": "_3-7-安装docker",
+            "link": "#_3-7-安装docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.8 启动Docker",
+            "slug": "_3-8-启动docker",
+            "link": "#_3-8-启动docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.9 设置Docker开机自启动",
+            "slug": "_3-9-设置docker开机自启动",
+            "link": "#_3-9-设置docker开机自启动",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.10 查看Docker版本",
+            "slug": "_3-10-查看docker版本",
+            "link": "#_3-10-查看docker版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.11 配置镜像加速",
+            "slug": "_3-11-配置镜像加速",
+            "link": "#_3-11-配置镜像加速",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/environment/2023-12-01-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：分布式IM即时通讯系统项目工程搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、安装git环境",
+        "slug": "三、安装git环境",
+        "link": "#三、安装git环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、搭建项目工程",
+        "slug": "四、搭建项目工程",
+        "link": "#四、搭建项目工程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/environment/2023-12-04-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：分布式IM即时通讯系统Maven私服搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、环境说明",
+        "slug": "三、环境说明",
+        "link": "#三、环境说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、环境搭建",
+        "slug": "四、环境搭建",
+        "link": "#四、环境搭建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、Nexus3配置",
+        "slug": "五、nexus3配置",
+        "link": "#五、nexus3配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 打开Nexus3页面",
+            "slug": "_5-1-打开nexus3页面",
+            "link": "#_5-1-打开nexus3页面",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/environment/2023-12-05-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：搭建并优化多节点Minio分布式文件系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、环境说明",
+        "slug": "三、环境说明",
+        "link": "#三、环境说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、docker-compose说明",
+        "slug": "四、docker-compose说明",
+        "link": "#四、docker-compose说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、编写配置文件",
+        "slug": "五、编写配置文件",
+        "link": "#五、编写配置文件",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 编写容器配置",
+            "slug": "_5-1-编写容器配置",
+            "link": "#_5-1-编写容器配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/environment/2023-12-06-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：分布式IM即时通讯系统总体方案目标与架构设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、方案目标",
+        "slug": "三、方案目标",
+        "link": "#三、方案目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、技术选型",
+        "slug": "四、技术选型",
+        "link": "#四、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、系统初步架构设计",
+        "slug": "五、系统初步架构设计",
+        "link": "#五、系统初步架构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、系统架构设计优化",
+        "slug": "六、系统架构设计优化",
+        "link": "#六、系统架构设计优化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/architecture/2023-11-29-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：分布式IM即时通讯系统数据模型设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、数据模型设计",
+        "slug": "三、数据模型设计",
+        "link": "#三、数据模型设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 用户模型设计",
+            "slug": "_3-1-用户模型设计",
+            "link": "#_3-1-用户模型设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 好友关系模型设计",
+            "slug": "_3-2-好友关系模型设计",
+            "link": "#_3-2-好友关系模型设计",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/architecture/2023-11-30-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "设计开发中",
+    "headers": [],
+    "path": "/md/project/im/develop/develop.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：通用代码设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、代码设计",
+        "slug": "三、代码设计",
+        "link": "#三、代码设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-15-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：自定义编解码器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、自定义通信协议",
+        "slug": "三、自定义通信协议",
+        "link": "#三、自定义通信协议",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、Netty编码器类",
+        "slug": "四、netty编码器类",
+        "link": "#四、netty编码器类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、Netty解码器类",
+        "slug": "五、netty解码器类",
+        "link": "#五、netty解码器类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-16-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：通用ChannelHanler的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一、ChannelPipeline的内部结构",
+        "slug": "一、channelpipeline的内部结构",
+        "link": "#一、channelpipeline的内部结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、事件传播机制",
+        "slug": "二、事件传播机制",
+        "link": "#二、事件传播机制",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看全文",
+        "slug": "查看全文",
+        "link": "#查看全文",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-17-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：登录处理器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看全文",
+        "slug": "查看全文",
+        "link": "#查看全文",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-18-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：心跳处理器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、编码实现",
+        "slug": "五、编码实现",
+        "link": "#五、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看全文",
+        "slug": "查看全文",
+        "link": "#查看全文",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-19-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06节：单聊处理器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看全文",
+        "slug": "查看全文",
+        "link": "#查看全文",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-20-chapter06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07节：群聊处理器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看全文",
+        "slug": "查看全文",
+        "link": "#查看全文",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/im-backend/2023-12-21-chapter07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：OpenAI总体对接流程架构设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、单聊接入OpenAI大模型",
+        "slug": "三、单聊接入openai大模型",
+        "link": "#三、单聊接入openai大模型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-03-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：OpenAI接入服务总体框架设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、总体框架设计",
+        "slug": "三、总体框架设计",
+        "link": "#三、总体框架设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-04-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：OpenAI领域模型与核心接口设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、模型设计",
+        "slug": "三、模型设计",
+        "link": "#三、模型设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-05-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：OpenAI大模型对接设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、接口交互流程设计",
+        "slug": "三、接口交互流程设计",
+        "link": "#三、接口交互流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、对接ChatGPT的实现",
+        "slug": "四、对接chatgpt的实现",
+        "link": "#四、对接chatgpt的实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-06-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：单聊消息对接OpenAI大模型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、接入流程",
+        "slug": "三、接入流程",
+        "link": "#三、接入流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-07-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06节：群聊消息对接OpenAI大模型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、接入流程",
+        "slug": "三、接入流程",
+        "link": "#三、接入流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-08-chapter06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07节：扩展实现对接多种OpenAI大模型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、扩展设计",
+        "slug": "三、扩展设计",
+        "link": "#三、扩展设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/openai/2024-03-09-chapter07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：分布式IM即时通讯系统通用模型设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、模型数据梳理",
+        "slug": "三、模型数据梳理",
+        "link": "#三、模型数据梳理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、数据模型设计",
+        "slug": "四、数据模型设计",
+        "link": "#四、数据模型设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-09-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：分布式IM即时通讯系统通用缓存设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、应用场景",
+        "slug": "三、应用场景",
+        "link": "#三、应用场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、混合型缓存设计",
+        "slug": "四、混合型缓存设计",
+        "link": "#四、混合型缓存设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 扩展性设计",
+            "slug": "_4-1-扩展性设计",
+            "link": "#_4-1-扩展性设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 本地缓存设计",
+            "slug": "_4-2-本地缓存设计",
+            "link": "#_4-2-本地缓存设计",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-10-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：混合型缓存通用模型设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、缓存模型设计",
+        "slug": "三、缓存模型设计",
+        "link": "#三、缓存模型设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 缓存通用模型结构设计",
+            "slug": "_3-1-缓存通用模型结构设计",
+            "link": "#_3-1-缓存通用模型结构设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 缓存通用模型编码实现",
+            "slug": "_3-2-缓存通用模型编码实现",
+            "link": "#_3-2-缓存通用模型编码实现",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-11-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：分布式锁通用代码设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、代码设计",
+        "slug": "三、代码设计",
+        "link": "#三、代码设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 代码场景设计",
+            "slug": "_3-1-代码场景设计",
+            "link": "#_3-1-代码场景设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 代码扩展性设计",
+            "slug": "_3-2-代码扩展性设计",
+            "link": "#_3-2-代码扩展性设计",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-12-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：MQ消息发送通用代码设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、代码设计",
+        "slug": "三、代码设计",
+        "link": "#三、代码设计",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 代码场景设计",
+            "slug": "_3-1-代码场景设计",
+            "link": "#_3-1-代码场景设计",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 代码扩展性设计",
+            "slug": "_3-2-代码扩展性设计",
+            "link": "#_3-2-代码扩展性设计",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-13-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06节：多系统共用模型与工具推送到Maven私服",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、配置IDEA",
+        "slug": "三、配置idea",
+        "link": "#三、配置idea",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-14-chapter06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07节：分布式ID生成器的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、分布式ID方案",
+        "slug": "三、分布式id方案",
+        "link": "#三、分布式id方案",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、雪花算法",
+        "slug": "四、雪花算法",
+        "link": "#四、雪花算法",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、编码实现",
+        "slug": "五、编码实现",
+        "link": "#五、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/model/2023-12-15-chapter07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：为何要学习分布式IM即时通讯系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、为何会出现IM即时通讯系统",
+        "slug": "二、为何会出现im即时通讯系统",
+        "link": "#二、为何会出现im即时通讯系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、大厂为何都要研发IM即时通讯系统",
+        "slug": "三、大厂为何都要研发im即时通讯系统",
+        "link": "#三、大厂为何都要研发im即时通讯系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/requirement/2023-11-23-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：分布式IM即时通讯系统的目标与挑战",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、IM即时通讯系统的目标",
+        "slug": "三、im即时通讯系统的目标",
+        "link": "#三、im即时通讯系统的目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、IM即时通讯系统的挑战",
+        "slug": "四、im即时通讯系统的挑战",
+        "link": "#四、im即时通讯系统的挑战",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/requirement/2023-11-25-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：分布式IM即时通讯系统功能需求与流程梳理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、需求描述",
+        "slug": "三、需求描述",
+        "link": "#三、需求描述",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 消息管理需求",
+            "slug": "_3-1-消息管理需求",
+            "link": "#_3-1-消息管理需求",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 用户管理需求",
+            "slug": "_3-2-用户管理需求",
+            "link": "#_3-2-用户管理需求",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/requirement/2023-11-26-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：分布式IM即时通讯系统技术流程梳理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本章诉求",
+        "slug": "二、本章诉求",
+        "link": "#二、本章诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、用户请求交互链路",
+        "slug": "三、用户请求交互链路",
+        "link": "#三、用户请求交互链路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、发送消息交互链路",
+        "slug": "四、发送消息交互链路",
+        "link": "#四、发送消息交互链路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/requirement/2023-11-28-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "总结：分布式IM即时通讯系统整体专栏总结",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、核心需求",
+        "slug": "一、核心需求",
+        "link": "#一、核心需求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、总体概述",
+        "slug": "二、总体概述",
+        "link": "#二、总体概述",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、适应人群",
+        "slug": "四、适应人群",
+        "link": "#四、适应人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、提交作业",
+        "slug": "六、提交作业",
+        "link": "#六、提交作业",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.代码作业",
+            "slug": "_1-代码作业",
+            "link": "#_1-代码作业",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.文字打卡",
+            "slug": "_2-文字打卡",
+            "link": "#_2-文字打卡",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七、如何加入星球",
+        "slug": "七、如何加入星球",
+        "link": "#七、如何加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、其他方式加入星球",
+        "slug": "八、其他方式加入星球",
+        "link": "#八、其他方式加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、联系冰河",
+        "slug": "九、联系冰河",
+        "link": "#九、联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.加群交流",
+            "slug": "_1-加群交流",
+            "link": "#_1-加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.公众号",
+            "slug": "_2-公众号",
+            "link": "#_2-公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.视频号",
+            "slug": "_3-视频号",
+            "link": "#_3-视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.星球",
+            "slug": "_4-星球",
+            "link": "#_4-星球",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/md/project/im/summary/2024-03-10-summary.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "开篇：分布式IM即时通讯系统正式启动",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、项目介绍",
+        "slug": "一、项目介绍",
+        "link": "#一、项目介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.对比网上系统",
+            "slug": "_1-对比网上系统",
+            "link": "#_1-对比网上系统",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.项目工程",
+            "slug": "_2-项目工程",
+            "link": "#_2-项目工程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.服务监控",
+            "slug": "_3-服务监控",
+            "link": "#_3-服务监控",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、能学到哪些技术？",
+        "slug": "二、能学到哪些技术",
+        "link": "#二、能学到哪些技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、适应人群",
+        "slug": "三、适应人群",
+        "link": "#三、适应人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、系统大纲",
+        "slug": "四、系统大纲",
+        "link": "#四、系统大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/start/2023-11-20-start.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "面试：可以写到简历上的分布式IM即时通讯系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、方案目标",
+        "slug": "二、方案目标",
+        "link": "#二、方案目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、系统初步架构设计",
+        "slug": "四、系统初步架构设计",
+        "link": "#四、系统初步架构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、系统架构设计优化",
+        "slug": "五、系统架构设计优化",
+        "link": "#五、系统架构设计优化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、容器化架构设计",
+        "slug": "六、容器化架构设计",
+        "link": "#六、容器化架构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、DDD分层业务架构设计",
+        "slug": "七、ddd分层业务架构设计",
+        "link": "#七、ddd分层业务架构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、发送消息交互链路",
+        "slug": "八、发送消息交互链路",
+        "link": "#八、发送消息交互链路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、单聊交互链路",
+        "slug": "九、单聊交互链路",
+        "link": "#九、单聊交互链路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、群聊交互链路",
+        "slug": "十、群聊交互链路",
+        "link": "#十、群聊交互链路",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十一、写在最后",
+        "slug": "十一、写在最后",
+        "link": "#十一、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、其他方式加入星球",
+        "slug": "八、其他方式加入星球",
+        "link": "#八、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/start/2023-12-08-interview.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：发送单聊消息的流程设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/sdk/2023-12-22-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：发送群聊消息的流程设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/sdk/2023-12-23-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：在线状态的统一设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、类结构设计",
+        "slug": "三、类结构设计",
+        "link": "#三、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/sdk/2023-12-24-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：消息监听与广播机制的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/sdk/2023-12-25-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：接收消息发送结果的流程设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、类结构设计",
+        "slug": "四、类结构设计",
+        "link": "#四、类结构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/sdk/2023-12-26-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：网关访问后端服务HTTP接口完整案例",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、实战场景",
+        "slug": "三、实战场景",
+        "link": "#三、实战场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、服务规划",
+        "slug": "四、服务规划",
+        "link": "#四、服务规划",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、案例实现",
+        "slug": "五、案例实现",
+        "link": "#五、案例实现",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 后端服务整合SDK",
+            "slug": "_5-1-后端服务整合sdk",
+            "link": "#_5-1-后端服务整合sdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 添加服务配置",
+            "slug": "_5-2-添加服务配置",
+            "link": "#_5-2-添加服务配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "六、启动服务",
+        "slug": "六、启动服务",
+        "link": "#六、启动服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 启动后端服务",
+            "slug": "_6-1-启动后端服务",
+            "link": "#_6-1-启动后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 启动网关",
+            "slug": "_6-2-启动网关",
+            "link": "#_6-2-启动网关",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七、验证实战场景",
+        "slug": "七、验证实战场景",
+        "link": "#七、验证实战场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 环境准备",
+            "slug": "_7-1-环境准备",
+            "link": "#_7-1-环境准备",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 同时启动网关和后端服务",
+            "slug": "_7-2-同时启动网关和后端服务",
+            "link": "#_7-2-同时启动网关和后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 停止后端服务",
+            "slug": "_7-3-停止后端服务",
+            "link": "#_7-3-停止后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.4 恢复后端服务",
+            "slug": "_7-4-恢复后端服务",
+            "link": "#_7-4-恢复后端服务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "八、本节总结",
+        "slug": "八、本节总结",
+        "link": "#八、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、写在最后",
+        "slug": "九、写在最后",
+        "link": "#九、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、其他方式加入星球",
+        "slug": "十、其他方式加入星球",
+        "link": "#十、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/actual/2025-08-22-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：网关访问后端服务RPC接口完整案例",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、实战场景",
+        "slug": "三、实战场景",
+        "link": "#三、实战场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、服务规划",
+        "slug": "四、服务规划",
+        "link": "#四、服务规划",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、案例实现",
+        "slug": "五、案例实现",
+        "link": "#五、案例实现",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 后端服务整合SDK",
+            "slug": "_5-1-后端服务整合sdk",
+            "link": "#_5-1-后端服务整合sdk",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "5.2 添加服务配置",
+            "slug": "_5-2-添加服务配置",
+            "link": "#_5-2-添加服务配置",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "六、启动服务",
+        "slug": "六、启动服务",
+        "link": "#六、启动服务",
+        "children": [
+          {
+            "level": 3,
+            "title": "6.1 启动后端服务",
+            "slug": "_6-1-启动后端服务",
+            "link": "#_6-1-启动后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "6.2 启动网关",
+            "slug": "_6-2-启动网关",
+            "link": "#_6-2-启动网关",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七、验证实战场景",
+        "slug": "七、验证实战场景",
+        "link": "#七、验证实战场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "7.1 环境准备",
+            "slug": "_7-1-环境准备",
+            "link": "#_7-1-环境准备",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.2 同时启动网关和后端服务",
+            "slug": "_7-2-同时启动网关和后端服务",
+            "link": "#_7-2-同时启动网关和后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.3 停止后端服务",
+            "slug": "_7-3-停止后端服务",
+            "link": "#_7-3-停止后端服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "7.4 恢复后端服务",
+            "slug": "_7-4-恢复后端服务",
+            "link": "#_7-4-恢复后端服务",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "八、本节总结",
+        "slug": "八、本节总结",
+        "link": "#八、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、写在最后",
+        "slug": "九、写在最后",
+        "link": "#九、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "十、其他方式加入星球",
+        "slug": "十、其他方式加入星球",
+        "link": "#十、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/actual/2025-08-23-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：高性能Polaris网关总体方案目标与架构设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、方案目标",
+        "slug": "三、方案目标",
+        "link": "#三、方案目标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、技术选型",
+        "slug": "四、技术选型",
+        "link": "#四、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、总体架构设计",
+        "slug": "五、总体架构设计",
+        "link": "#五、总体架构设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、网关内部执行流程",
+        "slug": "六、网关内部执行流程",
+        "link": "#六、网关内部执行流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/archit/2024-07-20-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：高性能Polaris网关数据模型设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、数据模型设计",
+        "slug": "三、数据模型设计",
+        "link": "#三、数据模型设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/archit/2024-08-03-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：网关客户端SDK注解与协议的设计与定义",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/client/2025-08-17-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：网关客户端扫描器与抽象注册中心实现类设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/client/2025-08-18-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：网关客户端HTTP协议SDK的设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/client/2025-08-19-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：网关客户端RPC协议SDK的设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/client/2025-08-20-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：网关客户端WebSocket协议SDK的设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/client/2025-08-21-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "第01节：负载均衡通用SPI接口与顶级抽象类的设计与实现",
     "headers": [
       {
@@ -61984,588 +64535,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/gateway/balancer/2025-08-02-chapter10.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：高性能Polaris网关总体方案目标与架构设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、方案目标",
-        "slug": "三、方案目标",
-        "link": "#三、方案目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、技术选型",
-        "slug": "四、技术选型",
-        "link": "#四、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、总体架构设计",
-        "slug": "五、总体架构设计",
-        "link": "#五、总体架构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、网关内部执行流程",
-        "slug": "六、网关内部执行流程",
-        "link": "#六、网关内部执行流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/archit/2024-07-20-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：高性能Polaris网关数据模型设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、数据模型设计",
-        "slug": "三、数据模型设计",
-        "link": "#三、数据模型设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/archit/2024-08-03-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：网关访问后端服务HTTP接口完整案例",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、实战场景",
-        "slug": "三、实战场景",
-        "link": "#三、实战场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、服务规划",
-        "slug": "四、服务规划",
-        "link": "#四、服务规划",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、案例实现",
-        "slug": "五、案例实现",
-        "link": "#五、案例实现",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 后端服务整合SDK",
-            "slug": "_5-1-后端服务整合sdk",
-            "link": "#_5-1-后端服务整合sdk",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 添加服务配置",
-            "slug": "_5-2-添加服务配置",
-            "link": "#_5-2-添加服务配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "六、启动服务",
-        "slug": "六、启动服务",
-        "link": "#六、启动服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 启动后端服务",
-            "slug": "_6-1-启动后端服务",
-            "link": "#_6-1-启动后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 启动网关",
-            "slug": "_6-2-启动网关",
-            "link": "#_6-2-启动网关",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "七、验证实战场景",
-        "slug": "七、验证实战场景",
-        "link": "#七、验证实战场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 环境准备",
-            "slug": "_7-1-环境准备",
-            "link": "#_7-1-环境准备",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 同时启动网关和后端服务",
-            "slug": "_7-2-同时启动网关和后端服务",
-            "link": "#_7-2-同时启动网关和后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 停止后端服务",
-            "slug": "_7-3-停止后端服务",
-            "link": "#_7-3-停止后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.4 恢复后端服务",
-            "slug": "_7-4-恢复后端服务",
-            "link": "#_7-4-恢复后端服务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "八、本节总结",
-        "slug": "八、本节总结",
-        "link": "#八、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、写在最后",
-        "slug": "九、写在最后",
-        "link": "#九、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "十、其他方式加入星球",
-        "slug": "十、其他方式加入星球",
-        "link": "#十、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/actual/2025-08-22-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：网关访问后端服务RPC接口完整案例",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、实战场景",
-        "slug": "三、实战场景",
-        "link": "#三、实战场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、服务规划",
-        "slug": "四、服务规划",
-        "link": "#四、服务规划",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、案例实现",
-        "slug": "五、案例实现",
-        "link": "#五、案例实现",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 后端服务整合SDK",
-            "slug": "_5-1-后端服务整合sdk",
-            "link": "#_5-1-后端服务整合sdk",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "5.2 添加服务配置",
-            "slug": "_5-2-添加服务配置",
-            "link": "#_5-2-添加服务配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "六、启动服务",
-        "slug": "六、启动服务",
-        "link": "#六、启动服务",
-        "children": [
-          {
-            "level": 3,
-            "title": "6.1 启动后端服务",
-            "slug": "_6-1-启动后端服务",
-            "link": "#_6-1-启动后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "6.2 启动网关",
-            "slug": "_6-2-启动网关",
-            "link": "#_6-2-启动网关",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "七、验证实战场景",
-        "slug": "七、验证实战场景",
-        "link": "#七、验证实战场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "7.1 环境准备",
-            "slug": "_7-1-环境准备",
-            "link": "#_7-1-环境准备",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.2 同时启动网关和后端服务",
-            "slug": "_7-2-同时启动网关和后端服务",
-            "link": "#_7-2-同时启动网关和后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.3 停止后端服务",
-            "slug": "_7-3-停止后端服务",
-            "link": "#_7-3-停止后端服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "7.4 恢复后端服务",
-            "slug": "_7-4-恢复后端服务",
-            "link": "#_7-4-恢复后端服务",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "八、本节总结",
-        "slug": "八、本节总结",
-        "link": "#八、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、写在最后",
-        "slug": "九、写在最后",
-        "link": "#九、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "十、其他方式加入星球",
-        "slug": "十、其他方式加入星球",
-        "link": "#十、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/actual/2025-08-23-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：网关客户端SDK注解与协议的设计与定义",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/client/2025-08-17-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：网关客户端扫描器与抽象注册中心实现类设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/client/2025-08-18-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：网关客户端HTTP协议SDK的设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/client/2025-08-19-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：网关客户端RPC协议SDK的设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/client/2025-08-20-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：网关客户端WebSocket协议SDK的设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/client/2025-08-21-chapter05.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -63077,6 +65046,235 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/gateway/demand/2024-07-14-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：高性能Polaris网关研发环境搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、安装Docker环境",
+        "slug": "三、安装docker环境",
+        "link": "#三、安装docker环境",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 查看操作系统内核版本",
+            "slug": "_3-1-查看操作系统内核版本",
+            "link": "#_3-1-查看操作系统内核版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 卸载旧版本Docker",
+            "slug": "_3-2-卸载旧版本docker",
+            "link": "#_3-2-卸载旧版本docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 安装gcc环境",
+            "slug": "_3-3-安装gcc环境",
+            "link": "#_3-3-安装gcc环境",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.4 安装yum工具",
+            "slug": "_3-4-安装yum工具",
+            "link": "#_3-4-安装yum工具",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.5 设置Docker镜像仓库",
+            "slug": "_3-5-设置docker镜像仓库",
+            "link": "#_3-5-设置docker镜像仓库",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.6 更新yum包软件索引",
+            "slug": "_3-6-更新yum包软件索引",
+            "link": "#_3-6-更新yum包软件索引",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.7 安装Docker",
+            "slug": "_3-7-安装docker",
+            "link": "#_3-7-安装docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.8 启动Docker",
+            "slug": "_3-8-启动docker",
+            "link": "#_3-8-启动docker",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.9 设置Docker开机自启动",
+            "slug": "_3-9-设置docker开机自启动",
+            "link": "#_3-9-设置docker开机自启动",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.10 查看Docker版本",
+            "slug": "_3-10-查看docker版本",
+            "link": "#_3-10-查看docker版本",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.11 Docker常用命令",
+            "slug": "_3-11-docker常用命令",
+            "link": "#_3-11-docker常用命令",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "四、安装docker-compose环境",
+        "slug": "四、安装docker-compose环境",
+        "link": "#四、安装docker-compose环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、一键安装依赖环境",
+        "slug": "五、一键安装依赖环境",
+        "link": "#五、一键安装依赖环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/env/2024-08-06-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：高性能Polaris网关项目工程搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、安装git环境",
+        "slug": "三、安装git环境",
+        "link": "#三、安装git环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、搭建项目工程",
+        "slug": "四、搭建项目工程",
+        "link": "#四、搭建项目工程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/env/2024-08-07-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：高性能Polaris网关Maven私服搭建",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、环境说明",
+        "slug": "三、环境说明",
+        "link": "#三、环境说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、环境搭建",
+        "slug": "四、环境搭建",
+        "link": "#四、环境搭建",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、Nexus3配置",
+        "slug": "五、nexus3配置",
+        "link": "#五、nexus3配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "5.1 打开Nexus3页面",
+            "slug": "_5-1-打开nexus3页面",
+            "link": "#_5-1-打开nexus3页面",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/env/2024-08-26-chapter03.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -63683,119 +65881,34 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：高性能Polaris网关研发环境搭建",
+    "title": "第01节：HTTP处理器核心接口的设计与实现",
     "headers": [
       {
         "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
         "children": []
       },
       {
         "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、安装Docker环境",
-        "slug": "三、安装docker环境",
-        "link": "#三、安装docker环境",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 查看操作系统内核版本",
-            "slug": "_3-1-查看操作系统内核版本",
-            "link": "#_3-1-查看操作系统内核版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 卸载旧版本Docker",
-            "slug": "_3-2-卸载旧版本docker",
-            "link": "#_3-2-卸载旧版本docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 安装gcc环境",
-            "slug": "_3-3-安装gcc环境",
-            "link": "#_3-3-安装gcc环境",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 安装yum工具",
-            "slug": "_3-4-安装yum工具",
-            "link": "#_3-4-安装yum工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 设置Docker镜像仓库",
-            "slug": "_3-5-设置docker镜像仓库",
-            "link": "#_3-5-设置docker镜像仓库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.6 更新yum包软件索引",
-            "slug": "_3-6-更新yum包软件索引",
-            "link": "#_3-6-更新yum包软件索引",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7 安装Docker",
-            "slug": "_3-7-安装docker",
-            "link": "#_3-7-安装docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.8 启动Docker",
-            "slug": "_3-8-启动docker",
-            "link": "#_3-8-启动docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9 设置Docker开机自启动",
-            "slug": "_3-9-设置docker开机自启动",
-            "link": "#_3-9-设置docker开机自启动",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10 查看Docker版本",
-            "slug": "_3-10-查看docker版本",
-            "link": "#_3-10-查看docker版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11 Docker常用命令",
-            "slug": "_3-11-docker常用命令",
-            "link": "#_3-11-docker常用命令",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "四、安装docker-compose环境",
-        "slug": "四、安装docker-compose环境",
-        "link": "#四、安装docker-compose环境",
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
         "children": []
       },
       {
         "level": 2,
-        "title": "五、一键安装依赖环境",
-        "slug": "五、一键安装依赖环境",
-        "link": "#五、一键安装依赖环境",
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
         "children": []
       },
       {
@@ -63806,39 +65919,39 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/gateway/env/2024-08-06-chapter01.html",
+    "path": "/md/project/gateway/http/2025-07-10-chapter01.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "第02节：高性能Polaris网关项目工程搭建",
+    "title": "第02节：服务端核心处理器的设计与实现",
     "headers": [
       {
         "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
         "children": []
       },
       {
         "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、安装git环境",
-        "slug": "三、安装git环境",
-        "link": "#三、安装git环境",
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、搭建项目工程",
-        "slug": "四、搭建项目工程",
-        "link": "#四、搭建项目工程",
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
         "children": []
       },
       {
@@ -63849,55 +65962,40 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/gateway/env/2024-08-07-chapter02.html",
+    "path": "/md/project/gateway/http/2025-07-11-chapter02.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "第03节：高性能Polaris网关Maven私服搭建",
+    "title": "第03节：服务端连接管理器的设计与实现",
     "headers": [
       {
         "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
         "children": []
       },
       {
         "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、环境说明",
-        "slug": "三、环境说明",
-        "link": "#三、环境说明",
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、环境搭建",
-        "slug": "四、环境搭建",
-        "link": "#四、环境搭建",
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
         "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、Nexus3配置",
-        "slug": "五、nexus3配置",
-        "link": "#五、nexus3配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 打开Nexus3页面",
-            "slug": "_5-1-打开nexus3页面",
-            "link": "#_5-1-打开nexus3页面",
-            "children": []
-          }
-        ]
       },
       {
         "level": 2,
@@ -63907,7 +66005,93 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/gateway/env/2024-08-26-chapter03.html",
+    "path": "/md/project/gateway/http/2025-07-12-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：基于Netty的服务端整体设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/http/2025-07-13-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：基于Netty的客户端整体设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/http/2025-07-14-chapter05.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -64465,7 +66649,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：HTTP处理器核心接口的设计与实现",
+    "title": "第01节：网关热插拔插件SPI接口与核心工厂类设计与实现",
     "headers": [
       {
         "level": 2,
@@ -64503,12 +66687,12 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/gateway/http/2025-07-10-chapter01.html",
+    "path": "/md/project/gateway/plugin/2025-08-15-chapter01.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "第02节：服务端核心处理器的设计与实现",
+    "title": "第02节：网关启动容器整合热插拔插件的设计与实现",
     "headers": [
       {
         "level": 2,
@@ -64546,136 +66730,7 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/gateway/http/2025-07-11-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：服务端连接管理器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/http/2025-07-12-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：基于Netty的服务端整体设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/http/2025-07-13-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：基于Netty的客户端整体设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/http/2025-07-14-chapter05.html",
+    "path": "/md/project/gateway/plugin/2025-08-16-chapter02.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -65282,92 +67337,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：网关热插拔插件SPI接口与核心工厂类设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/plugin/2025-08-15-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：网关启动容器整合热插拔插件的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/plugin/2025-08-16-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：注册中心通用SPI接口的设计与定义",
     "headers": [
       {
@@ -65942,1975 +67911,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：分布式IM即时通讯系统总体方案目标与架构设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、方案目标",
-        "slug": "三、方案目标",
-        "link": "#三、方案目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、技术选型",
-        "slug": "四、技术选型",
-        "link": "#四、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、系统初步架构设计",
-        "slug": "五、系统初步架构设计",
-        "link": "#五、系统初步架构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、系统架构设计优化",
-        "slug": "六、系统架构设计优化",
-        "link": "#六、系统架构设计优化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/architecture/2023-11-29-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：分布式IM即时通讯系统数据模型设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、数据模型设计",
-        "slug": "三、数据模型设计",
-        "link": "#三、数据模型设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 用户模型设计",
-            "slug": "_3-1-用户模型设计",
-            "link": "#_3-1-用户模型设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 好友关系模型设计",
-            "slug": "_3-2-好友关系模型设计",
-            "link": "#_3-2-好友关系模型设计",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/architecture/2023-11-30-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "设计开发中",
-    "headers": [],
-    "path": "/md/project/im/develop/develop.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：分布式IM即时通讯系统研发环境搭建",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、安装Docker环境",
-        "slug": "三、安装docker环境",
-        "link": "#三、安装docker环境",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 查看操作系统内核版本",
-            "slug": "_3-1-查看操作系统内核版本",
-            "link": "#_3-1-查看操作系统内核版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 卸载旧版本Docker",
-            "slug": "_3-2-卸载旧版本docker",
-            "link": "#_3-2-卸载旧版本docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 安装gcc环境",
-            "slug": "_3-3-安装gcc环境",
-            "link": "#_3-3-安装gcc环境",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.4 安装yum工具",
-            "slug": "_3-4-安装yum工具",
-            "link": "#_3-4-安装yum工具",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.5 设置Docker镜像仓库",
-            "slug": "_3-5-设置docker镜像仓库",
-            "link": "#_3-5-设置docker镜像仓库",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.6 更新yum包软件索引",
-            "slug": "_3-6-更新yum包软件索引",
-            "link": "#_3-6-更新yum包软件索引",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.7 安装Docker",
-            "slug": "_3-7-安装docker",
-            "link": "#_3-7-安装docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.8 启动Docker",
-            "slug": "_3-8-启动docker",
-            "link": "#_3-8-启动docker",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.9 设置Docker开机自启动",
-            "slug": "_3-9-设置docker开机自启动",
-            "link": "#_3-9-设置docker开机自启动",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.10 查看Docker版本",
-            "slug": "_3-10-查看docker版本",
-            "link": "#_3-10-查看docker版本",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.11 配置镜像加速",
-            "slug": "_3-11-配置镜像加速",
-            "link": "#_3-11-配置镜像加速",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/environment/2023-12-01-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：分布式IM即时通讯系统项目工程搭建",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、安装git环境",
-        "slug": "三、安装git环境",
-        "link": "#三、安装git环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、搭建项目工程",
-        "slug": "四、搭建项目工程",
-        "link": "#四、搭建项目工程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/environment/2023-12-04-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：分布式IM即时通讯系统Maven私服搭建",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、环境说明",
-        "slug": "三、环境说明",
-        "link": "#三、环境说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、环境搭建",
-        "slug": "四、环境搭建",
-        "link": "#四、环境搭建",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、Nexus3配置",
-        "slug": "五、nexus3配置",
-        "link": "#五、nexus3配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 打开Nexus3页面",
-            "slug": "_5-1-打开nexus3页面",
-            "link": "#_5-1-打开nexus3页面",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/environment/2023-12-05-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：搭建并优化多节点Minio分布式文件系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、环境说明",
-        "slug": "三、环境说明",
-        "link": "#三、环境说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、docker-compose说明",
-        "slug": "四、docker-compose说明",
-        "link": "#四、docker-compose说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、编写配置文件",
-        "slug": "五、编写配置文件",
-        "link": "#五、编写配置文件",
-        "children": [
-          {
-            "level": 3,
-            "title": "5.1 编写容器配置",
-            "slug": "_5-1-编写容器配置",
-            "link": "#_5-1-编写容器配置",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/environment/2023-12-06-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：OpenAI总体对接流程架构设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、单聊接入OpenAI大模型",
-        "slug": "三、单聊接入openai大模型",
-        "link": "#三、单聊接入openai大模型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-03-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：OpenAI接入服务总体框架设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、总体框架设计",
-        "slug": "三、总体框架设计",
-        "link": "#三、总体框架设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-04-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：OpenAI领域模型与核心接口设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、模型设计",
-        "slug": "三、模型设计",
-        "link": "#三、模型设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-05-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：OpenAI大模型对接设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、接口交互流程设计",
-        "slug": "三、接口交互流程设计",
-        "link": "#三、接口交互流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、对接ChatGPT的实现",
-        "slug": "四、对接chatgpt的实现",
-        "link": "#四、对接chatgpt的实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-06-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：单聊消息对接OpenAI大模型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、接入流程",
-        "slug": "三、接入流程",
-        "link": "#三、接入流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-07-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06节：群聊消息对接OpenAI大模型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、接入流程",
-        "slug": "三、接入流程",
-        "link": "#三、接入流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-08-chapter06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07节：扩展实现对接多种OpenAI大模型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、扩展设计",
-        "slug": "三、扩展设计",
-        "link": "#三、扩展设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/openai/2024-03-09-chapter07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：通用代码设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、代码设计",
-        "slug": "三、代码设计",
-        "link": "#三、代码设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-15-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：自定义编解码器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、自定义通信协议",
-        "slug": "三、自定义通信协议",
-        "link": "#三、自定义通信协议",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、Netty编码器类",
-        "slug": "四、netty编码器类",
-        "link": "#四、netty编码器类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、Netty解码器类",
-        "slug": "五、netty解码器类",
-        "link": "#五、netty解码器类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-16-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：通用ChannelHanler的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "一、ChannelPipeline的内部结构",
-        "slug": "一、channelpipeline的内部结构",
-        "link": "#一、channelpipeline的内部结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、事件传播机制",
-        "slug": "二、事件传播机制",
-        "link": "#二、事件传播机制",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看全文",
-        "slug": "查看全文",
-        "link": "#查看全文",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-17-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：登录处理器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看全文",
-        "slug": "查看全文",
-        "link": "#查看全文",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-18-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：心跳处理器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、编码实现",
-        "slug": "五、编码实现",
-        "link": "#五、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看全文",
-        "slug": "查看全文",
-        "link": "#查看全文",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-19-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06节：单聊处理器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看全文",
-        "slug": "查看全文",
-        "link": "#查看全文",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-20-chapter06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07节：群聊处理器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看全文",
-        "slug": "查看全文",
-        "link": "#查看全文",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/im-backend/2023-12-21-chapter07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：分布式IM即时通讯系统通用模型设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、模型数据梳理",
-        "slug": "三、模型数据梳理",
-        "link": "#三、模型数据梳理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、数据模型设计",
-        "slug": "四、数据模型设计",
-        "link": "#四、数据模型设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-09-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：分布式IM即时通讯系统通用缓存设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、应用场景",
-        "slug": "三、应用场景",
-        "link": "#三、应用场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、混合型缓存设计",
-        "slug": "四、混合型缓存设计",
-        "link": "#四、混合型缓存设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 扩展性设计",
-            "slug": "_4-1-扩展性设计",
-            "link": "#_4-1-扩展性设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 本地缓存设计",
-            "slug": "_4-2-本地缓存设计",
-            "link": "#_4-2-本地缓存设计",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-10-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：混合型缓存通用模型设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、缓存模型设计",
-        "slug": "三、缓存模型设计",
-        "link": "#三、缓存模型设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 缓存通用模型结构设计",
-            "slug": "_3-1-缓存通用模型结构设计",
-            "link": "#_3-1-缓存通用模型结构设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 缓存通用模型编码实现",
-            "slug": "_3-2-缓存通用模型编码实现",
-            "link": "#_3-2-缓存通用模型编码实现",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-11-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：分布式锁通用代码设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、代码设计",
-        "slug": "三、代码设计",
-        "link": "#三、代码设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 代码场景设计",
-            "slug": "_3-1-代码场景设计",
-            "link": "#_3-1-代码场景设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 代码扩展性设计",
-            "slug": "_3-2-代码扩展性设计",
-            "link": "#_3-2-代码扩展性设计",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-12-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：MQ消息发送通用代码设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、代码设计",
-        "slug": "三、代码设计",
-        "link": "#三、代码设计",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 代码场景设计",
-            "slug": "_3-1-代码场景设计",
-            "link": "#_3-1-代码场景设计",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 代码扩展性设计",
-            "slug": "_3-2-代码扩展性设计",
-            "link": "#_3-2-代码扩展性设计",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-13-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06节：多系统共用模型与工具推送到Maven私服",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、配置IDEA",
-        "slug": "三、配置idea",
-        "link": "#三、配置idea",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-14-chapter06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07节：分布式ID生成器的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、分布式ID方案",
-        "slug": "三、分布式id方案",
-        "link": "#三、分布式id方案",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、雪花算法",
-        "slug": "四、雪花算法",
-        "link": "#四、雪花算法",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、编码实现",
-        "slug": "五、编码实现",
-        "link": "#五、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/model/2023-12-15-chapter07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：发送单聊消息的流程设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/sdk/2023-12-22-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：发送群聊消息的流程设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/sdk/2023-12-23-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：在线状态的统一设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、类结构设计",
-        "slug": "三、类结构设计",
-        "link": "#三、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/sdk/2023-12-24-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：消息监听与广播机制的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/sdk/2023-12-25-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：接收消息发送结果的流程设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、类结构设计",
-        "slug": "四、类结构设计",
-        "link": "#四、类结构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/sdk/2023-12-26-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：为何要学习分布式IM即时通讯系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、为何会出现IM即时通讯系统",
-        "slug": "二、为何会出现im即时通讯系统",
-        "link": "#二、为何会出现im即时通讯系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、大厂为何都要研发IM即时通讯系统",
-        "slug": "三、大厂为何都要研发im即时通讯系统",
-        "link": "#三、大厂为何都要研发im即时通讯系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/requirement/2023-11-23-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：分布式IM即时通讯系统的目标与挑战",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、IM即时通讯系统的目标",
-        "slug": "三、im即时通讯系统的目标",
-        "link": "#三、im即时通讯系统的目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、IM即时通讯系统的挑战",
-        "slug": "四、im即时通讯系统的挑战",
-        "link": "#四、im即时通讯系统的挑战",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/requirement/2023-11-25-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：分布式IM即时通讯系统功能需求与流程梳理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、需求描述",
-        "slug": "三、需求描述",
-        "link": "#三、需求描述",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 消息管理需求",
-            "slug": "_3-1-消息管理需求",
-            "link": "#_3-1-消息管理需求",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 用户管理需求",
-            "slug": "_3-2-用户管理需求",
-            "link": "#_3-2-用户管理需求",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/requirement/2023-11-26-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：分布式IM即时通讯系统技术流程梳理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本章诉求",
-        "slug": "二、本章诉求",
-        "link": "#二、本章诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、用户请求交互链路",
-        "slug": "三、用户请求交互链路",
-        "link": "#三、用户请求交互链路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、发送消息交互链路",
-        "slug": "四、发送消息交互链路",
-        "link": "#四、发送消息交互链路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/requirement/2023-11-28-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "总结：分布式IM即时通讯系统整体专栏总结",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、核心需求",
-        "slug": "一、核心需求",
-        "link": "#一、核心需求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、总体概述",
-        "slug": "二、总体概述",
-        "link": "#二、总体概述",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、适应人群",
-        "slug": "四、适应人群",
-        "link": "#四、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、提交作业",
-        "slug": "六、提交作业",
-        "link": "#六、提交作业",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.代码作业",
-            "slug": "_1-代码作业",
-            "link": "#_1-代码作业",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.文字打卡",
-            "slug": "_2-文字打卡",
-            "link": "#_2-文字打卡",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "七、如何加入星球",
-        "slug": "七、如何加入星球",
-        "link": "#七、如何加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、其他方式加入星球",
-        "slug": "八、其他方式加入星球",
-        "link": "#八、其他方式加入星球",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、联系冰河",
-        "slug": "九、联系冰河",
-        "link": "#九、联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.加群交流",
-            "slug": "_1-加群交流",
-            "link": "#_1-加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.公众号",
-            "slug": "_2-公众号",
-            "link": "#_2-公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.视频号",
-            "slug": "_3-视频号",
-            "link": "#_3-视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.星球",
-            "slug": "_4-星球",
-            "link": "#_4-星球",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/md/project/im/summary/2024-03-10-summary.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "开篇：分布式IM即时通讯系统正式启动",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、项目介绍",
-        "slug": "一、项目介绍",
-        "link": "#一、项目介绍",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.对比网上系统",
-            "slug": "_1-对比网上系统",
-            "link": "#_1-对比网上系统",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.项目工程",
-            "slug": "_2-项目工程",
-            "link": "#_2-项目工程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.服务监控",
-            "slug": "_3-服务监控",
-            "link": "#_3-服务监控",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、能学到哪些技术？",
-        "slug": "二、能学到哪些技术",
-        "link": "#二、能学到哪些技术",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、适应人群",
-        "slug": "三、适应人群",
-        "link": "#三、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、系统大纲",
-        "slug": "四、系统大纲",
-        "link": "#四、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/start/2023-11-20-start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "面试：可以写到简历上的分布式IM即时通讯系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、方案目标",
-        "slug": "二、方案目标",
-        "link": "#二、方案目标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、系统初步架构设计",
-        "slug": "四、系统初步架构设计",
-        "link": "#四、系统初步架构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、系统架构设计优化",
-        "slug": "五、系统架构设计优化",
-        "link": "#五、系统架构设计优化",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、容器化架构设计",
-        "slug": "六、容器化架构设计",
-        "link": "#六、容器化架构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、DDD分层业务架构设计",
-        "slug": "七、ddd分层业务架构设计",
-        "link": "#七、ddd分层业务架构设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、发送消息交互链路",
-        "slug": "八、发送消息交互链路",
-        "link": "#八、发送消息交互链路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、单聊交互链路",
-        "slug": "九、单聊交互链路",
-        "link": "#九、单聊交互链路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "十、群聊交互链路",
-        "slug": "十、群聊交互链路",
-        "link": "#十、群聊交互链路",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "十一、写在最后",
-        "slug": "十一、写在最后",
-        "link": "#十一、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、其他方式加入星球",
-        "slug": "八、其他方式加入星球",
-        "link": "#八、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/start/2023-12-08-interview.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：高性能Redis组件总体方案目标",
     "headers": [
       {
@@ -68242,7 +68242,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "开篇：我要带你从零开始手搓一个大厂必备的高性能Redis组件",
+    "title": "总结：高性能Redis组件整体专栏总结",
     "headers": [
       {
         "level": 2,
@@ -68253,77 +68253,48 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "二、适用场景",
-        "slug": "二、适用场景",
-        "link": "#二、适用场景",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 缓存击穿",
-            "slug": "_2-1-缓存击穿",
-            "link": "#_2-1-缓存击穿",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 缓存穿透",
-            "slug": "_2-2-缓存穿透",
-            "link": "#_2-2-缓存穿透",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.3 缓存雪崩",
-            "slug": "_2-3-缓存雪崩",
-            "link": "#_2-3-缓存雪崩",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "三、适应人群",
-        "slug": "三、适应人群",
-        "link": "#三、适应人群",
+        "title": "二、专栏结构",
+        "slug": "二、专栏结构",
+        "link": "#二、专栏结构",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、技术选型",
-        "slug": "四、技术选型",
-        "link": "#四、技术选型",
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
         "children": []
       },
       {
         "level": 2,
-        "title": "五、系统大纲",
-        "slug": "五、系统大纲",
-        "link": "#五、系统大纲",
+        "title": "四、适应人群",
+        "slug": "四、适应人群",
+        "link": "#四、适应人群",
         "children": []
       },
       {
         "level": 2,
-        "title": "六、如何学习",
-        "slug": "六、如何学习",
-        "link": "#六、如何学习",
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
         "children": []
       },
       {
         "level": 2,
-        "title": "七、写在最后",
-        "slug": "七、写在最后",
-        "link": "#七、写在最后",
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
         "children": []
       },
       {
         "level": 2,
-        "title": "八、其他方式加入星球",
-        "slug": "八、其他方式加入星球",
-        "link": "#八、其他方式加入星球",
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
         "children": []
       }
     ],
-    "path": "/md/project/redis-plugin/start/2025-10-20-start.html",
+    "path": "/md/project/redis-plugin/summary/2026-01-10-summary.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -68450,7 +68421,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "总结：高性能Redis组件整体专栏总结",
+    "title": "开篇：我要带你从零开始手搓一个大厂必备的高性能Redis组件",
     "headers": [
       {
         "level": 2,
@@ -68461,48 +68432,77 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "二、专栏结构",
-        "slug": "二、专栏结构",
-        "link": "#二、专栏结构",
+        "title": "二、适用场景",
+        "slug": "二、适用场景",
+        "link": "#二、适用场景",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 缓存击穿",
+            "slug": "_2-1-缓存击穿",
+            "link": "#_2-1-缓存击穿",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 缓存穿透",
+            "slug": "_2-2-缓存穿透",
+            "link": "#_2-2-缓存穿透",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.3 缓存雪崩",
+            "slug": "_2-3-缓存雪崩",
+            "link": "#_2-3-缓存雪崩",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "三、适应人群",
+        "slug": "三、适应人群",
+        "link": "#三、适应人群",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
+        "title": "四、技术选型",
+        "slug": "四、技术选型",
+        "link": "#四、技术选型",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、适应人群",
-        "slug": "四、适应人群",
-        "link": "#四、适应人群",
+        "title": "五、系统大纲",
+        "slug": "五、系统大纲",
+        "link": "#五、系统大纲",
         "children": []
       },
       {
         "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
+        "title": "六、如何学习",
+        "slug": "六、如何学习",
+        "link": "#六、如何学习",
         "children": []
       },
       {
         "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
+        "title": "七、写在最后",
+        "slug": "七、写在最后",
+        "link": "#七、写在最后",
         "children": []
       },
       {
         "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
+        "title": "八、其他方式加入星球",
+        "slug": "八、其他方式加入星球",
+        "link": "#八、其他方式加入星球",
         "children": []
       }
     ],
-    "path": "/md/project/redis-plugin/summary/2026-01-10-summary.html",
+    "path": "/md/project/redis-plugin/start/2025-10-20-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -68766,63 +68766,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "开篇：我要带你从零开始手搓一个大厂必备的数据脱敏组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、项目背景",
-        "slug": "一、项目背景",
-        "link": "#一、项目背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、适应人群",
-        "slug": "二、适应人群",
-        "link": "#二、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、系统大纲",
-        "slug": "四、系统大纲",
-        "link": "#四、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/sensitive/start/2025-09-08-start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：注解、接口与顶层抽象类的设计与实现",
     "headers": [
       {
@@ -68977,6 +68920,63 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/sensitive/shield/2025-09-17-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "开篇：我要带你从零开始手搓一个大厂必备的数据脱敏组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、项目背景",
+        "slug": "一、项目背景",
+        "link": "#一、项目背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、适应人群",
+        "slug": "二、适应人群",
+        "link": "#二、适应人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、系统大纲",
+        "slug": "四、系统大纲",
+        "link": "#四、系统大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/sensitive/start/2025-09-08-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -69274,92 +69274,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：高性能SQL引擎SQL构建器设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、SQL构建器设计",
-        "slug": "三、sql构建器设计",
-        "link": "#三、sql构建器设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、SQL构建器实现",
-        "slug": "四、sql构建器实现",
-        "link": "#四、sql构建器实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/sql/engine/2025-08-21-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：高性能SQL引擎驱动引擎设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、驱动引擎设计",
-        "slug": "三、驱动引擎设计",
-        "link": "#三、驱动引擎设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/sql/engine/2025-08-22-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：为何要学习高性能SQL引擎项目",
     "headers": [
       {
@@ -69580,6 +69494,92 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/sql/demand/2025-08-16-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：高性能SQL引擎SQL构建器设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、SQL构建器设计",
+        "slug": "三、sql构建器设计",
+        "link": "#三、sql构建器设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、SQL构建器实现",
+        "slug": "四、sql构建器实现",
+        "link": "#四、sql构建器实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/sql/engine/2025-08-21-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：高性能SQL引擎驱动引擎设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、驱动引擎设计",
+        "slug": "三、驱动引擎设计",
+        "link": "#三、驱动引擎设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/sql/engine/2025-08-22-chapter02.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -69915,6 +69915,63 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "开篇：我要手把手教你手搓一个高性能SQL引擎项目",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、项目背景",
+        "slug": "一、项目背景",
+        "link": "#一、项目背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、适应人群",
+        "slug": "二、适应人群",
+        "link": "#二、适应人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、系统大纲",
+        "slug": "四、系统大纲",
+        "link": "#四、系统大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/sql/start/2025-08-12-start.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "总结：高性能SQL引擎整体专栏总结",
     "headers": [
       {
@@ -70046,113 +70103,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/sql/zj/summary.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "开篇：我要手把手教你手搓一个高性能SQL引擎项目",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、项目背景",
-        "slug": "一、项目背景",
-        "link": "#一、项目背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、适应人群",
-        "slug": "二、适应人群",
-        "link": "#二、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、系统大纲",
-        "slug": "四、系统大纲",
-        "link": "#四、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/sql/start/2025-08-12-start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "开篇：我要带你一次性彻底吃透线程池核心技术",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、专栏背景",
-        "slug": "一、专栏背景",
-        "link": "#一、专栏背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、适应人群",
-        "slug": "二、适应人群",
-        "link": "#二、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、系统大纲",
-        "slug": "三、系统大纲",
-        "link": "#三、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、如何学习",
-        "slug": "四、如何学习",
-        "link": "#四、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、写在最后",
-        "slug": "五、写在最后",
-        "link": "#五、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、其他方式加入星球",
-        "slug": "六、其他方式加入星球",
-        "link": "#六、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/threadpool/start/2025-08-26-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -70571,6 +70521,56 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "开篇：我要带你一次性彻底吃透线程池核心技术",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、专栏背景",
+        "slug": "一、专栏背景",
+        "link": "#一、专栏背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、适应人群",
+        "slug": "二、适应人群",
+        "link": "#二、适应人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、系统大纲",
+        "slug": "三、系统大纲",
+        "link": "#三、系统大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、如何学习",
+        "slug": "四、如何学习",
+        "link": "#四、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、写在最后",
+        "slug": "五、写在最后",
+        "link": "#五、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、其他方式加入星球",
+        "slug": "六、其他方式加入星球",
+        "link": "#六、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/threadpool/start/2025-08-26-start.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "总结：手写线程池专栏整体总结",
     "headers": [
       {
@@ -70631,6 +70631,85 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/threadpool/summary/2025-09-03-summary.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "手写高性能Polaris网关",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、网关项目背景调研",
+        "slug": "一、网关项目背景调研",
+        "link": "#一、网关项目背景调研",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、为何是网关项目？",
+        "slug": "二、为何是网关项目",
+        "link": "#二、为何是网关项目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、系统大纲",
+        "slug": "四、系统大纲",
+        "link": "#四、系统大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、提交作业",
+        "slug": "六、提交作业",
+        "link": "#六、提交作业",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.代码作业",
+            "slug": "_1-代码作业",
+            "link": "#_1-代码作业",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.文字打卡",
+            "slug": "_2-文字打卡",
+            "link": "#_2-文字打卡",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "七、如何加入星球",
+        "slug": "七、如何加入星球",
+        "link": "#七、如何加入星球",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、其他方式加入星球",
+        "slug": "八、其他方式加入星球",
+        "link": "#八、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/zsxq/project/gateway/2024-05-19-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -70771,27 +70850,49 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "手写高性能Polaris网关",
+    "title": "分布式IM即时通讯系统",
     "headers": [
       {
         "level": 2,
-        "title": "一、网关项目背景调研",
-        "slug": "一、网关项目背景调研",
-        "link": "#一、网关项目背景调研",
+        "title": "一、项目介绍",
+        "slug": "一、项目介绍",
+        "link": "#一、项目介绍",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.对比网上系统",
+            "slug": "_1-对比网上系统",
+            "link": "#_1-对比网上系统",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.项目工程",
+            "slug": "_2-项目工程",
+            "link": "#_2-项目工程",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.服务监控",
+            "slug": "_3-服务监控",
+            "link": "#_3-服务监控",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、能学到哪些技术？",
+        "slug": "二、能学到哪些技术",
+        "link": "#二、能学到哪些技术",
         "children": []
       },
       {
         "level": 2,
-        "title": "二、为何是网关项目？",
-        "slug": "二、为何是网关项目",
-        "link": "#二、为何是网关项目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
+        "title": "三、适应人群",
+        "slug": "三、适应人群",
+        "link": "#三、适应人群",
         "children": []
       },
       {
@@ -70807,45 +70908,117 @@ export const SEARCH_INDEX = [
         "slug": "五、如何学习",
         "link": "#五、如何学习",
         "children": []
+      }
+    ],
+    "path": "/md/zsxq/project/im/2023-11-20-im.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "手写高性能RPC框架项目",
+    "headers": [
+      {
+        "level": 2,
+        "title": "为啥要开发RPC框架",
+        "slug": "为啥要开发rpc框架",
+        "link": "#为啥要开发rpc框架",
+        "children": []
       },
       {
         "level": 2,
-        "title": "六、提交作业",
-        "slug": "六、提交作业",
-        "link": "#六、提交作业",
+        "title": "你能学到什么？",
+        "slug": "你能学到什么",
+        "link": "#你能学到什么",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "代码结构",
+        "slug": "代码结构",
+        "link": "#代码结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "演示效果",
+        "slug": "演示效果",
+        "link": "#演示效果",
         "children": [
           {
             "level": 3,
-            "title": "1.代码作业",
-            "slug": "_1-代码作业",
-            "link": "#_1-代码作业",
+            "title": "RPC核心注解说明",
+            "slug": "rpc核心注解说明",
+            "link": "#rpc核心注解说明",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.文字打卡",
-            "slug": "_2-文字打卡",
-            "link": "#_2-文字打卡",
+            "title": "效果演示",
+            "slug": "效果演示",
+            "link": "#效果演示",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "七、如何加入星球",
-        "slug": "七、如何加入星球",
-        "link": "#七、如何加入星球",
+        "title": "一点点建议",
+        "slug": "一点点建议",
+        "link": "#一点点建议",
         "children": []
       },
       {
         "level": 2,
-        "title": "八、其他方式加入星球",
-        "slug": "八、其他方式加入星球",
-        "link": "#八、其他方式加入星球",
+        "title": "一起出发",
+        "slug": "一起出发",
+        "link": "#一起出发",
+        "children": [
+          {
+            "level": 3,
+            "title": "星球提供的服务",
+            "slug": "星球提供的服务",
+            "link": "#星球提供的服务",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "如何加入星球",
+            "slug": "如何加入星球",
+            "link": "#如何加入星球",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "加群交流",
+        "slug": "加群交流",
+        "link": "#加群交流",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "公众号",
+        "slug": "公众号",
+        "link": "#公众号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "星球",
+        "slug": "星球",
+        "link": "#星球",
         "children": []
       }
     ],
-    "path": "/md/zsxq/project/gateway/2024-05-19-start.html",
+    "path": "/md/zsxq/project/rpc/2022-08-24-rpc.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -70936,67 +71109,110 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "分布式IM即时通讯系统",
+    "title": "分布式Seckill秒杀系统",
     "headers": [
       {
         "level": 2,
-        "title": "一、项目介绍",
-        "slug": "一、项目介绍",
-        "link": "#一、项目介绍",
+        "title": "一、秒杀专栏背景调研",
+        "slug": "一、秒杀专栏背景调研",
+        "link": "#一、秒杀专栏背景调研",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、为何要搞秒杀系统",
+        "slug": "二、为何要搞秒杀系统",
+        "link": "#二、为何要搞秒杀系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、秒杀系统核心技术",
+        "slug": "三、秒杀系统核心技术",
+        "link": "#三、秒杀系统核心技术",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、如何学习秒杀系统",
+        "slug": "四、如何学习秒杀系统",
+        "link": "#四、如何学习秒杀系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、提交作业",
+        "slug": "五、提交作业",
+        "link": "#五、提交作业",
         "children": [
           {
             "level": 3,
-            "title": "1.对比网上系统",
-            "slug": "_1-对比网上系统",
-            "link": "#_1-对比网上系统",
+            "title": "1.代码作业",
+            "slug": "_1-代码作业",
+            "link": "#_1-代码作业",
             "children": []
           },
           {
             "level": 3,
-            "title": "2.项目工程",
-            "slug": "_2-项目工程",
-            "link": "#_2-项目工程",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.服务监控",
-            "slug": "_3-服务监控",
-            "link": "#_3-服务监控",
+            "title": "2.文字打卡",
+            "slug": "_2-文字打卡",
+            "link": "#_2-文字打卡",
             "children": []
           }
         ]
       },
       {
         "level": 2,
-        "title": "二、能学到哪些技术？",
-        "slug": "二、能学到哪些技术",
-        "link": "#二、能学到哪些技术",
+        "title": "六、如何加入星球",
+        "slug": "六、如何加入星球",
+        "link": "#六、如何加入星球",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、适应人群",
-        "slug": "三、适应人群",
-        "link": "#三、适应人群",
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、系统大纲",
-        "slug": "四、系统大纲",
-        "link": "#四、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
+        "title": "八、联系冰河",
+        "slug": "八、联系冰河",
+        "link": "#八、联系冰河",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.加群交流",
+            "slug": "_1-加群交流",
+            "link": "#_1-加群交流",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.公众号",
+            "slug": "_2-公众号",
+            "link": "#_2-公众号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.视频号",
+            "slug": "_3-视频号",
+            "link": "#_3-视频号",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.星球",
+            "slug": "_4-星球",
+            "link": "#_4-星球",
+            "children": []
+          }
+        ]
       }
     ],
-    "path": "/md/zsxq/project/im/2023-11-20-im.html",
+    "path": "/md/zsxq/project/seckill/2023-04-16-seckill.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -71180,171 +71396,48 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "手写高性能RPC框架项目",
+    "title": "手写高性能SQL引擎项目",
     "headers": [
       {
         "level": 2,
-        "title": "为啥要开发RPC框架",
-        "slug": "为啥要开发rpc框架",
-        "link": "#为啥要开发rpc框架",
+        "title": "一、项目背景",
+        "slug": "一、项目背景",
+        "link": "#一、项目背景",
         "children": []
       },
       {
         "level": 2,
-        "title": "你能学到什么？",
-        "slug": "你能学到什么",
-        "link": "#你能学到什么",
+        "title": "二、适应人群",
+        "slug": "二、适应人群",
+        "link": "#二、适应人群",
         "children": []
       },
       {
         "level": 2,
-        "title": "代码结构",
-        "slug": "代码结构",
-        "link": "#代码结构",
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
         "children": []
       },
       {
         "level": 2,
-        "title": "演示效果",
-        "slug": "演示效果",
-        "link": "#演示效果",
-        "children": [
-          {
-            "level": 3,
-            "title": "RPC核心注解说明",
-            "slug": "rpc核心注解说明",
-            "link": "#rpc核心注解说明",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "效果演示",
-            "slug": "效果演示",
-            "link": "#效果演示",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "一点点建议",
-        "slug": "一点点建议",
-        "link": "#一点点建议",
+        "title": "四、系统大纲",
+        "slug": "四、系统大纲",
+        "link": "#四、系统大纲",
         "children": []
       },
       {
         "level": 2,
-        "title": "一起出发",
-        "slug": "一起出发",
-        "link": "#一起出发",
-        "children": [
-          {
-            "level": 3,
-            "title": "星球提供的服务",
-            "slug": "星球提供的服务",
-            "link": "#星球提供的服务",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "如何加入星球",
-            "slug": "如何加入星球",
-            "link": "#如何加入星球",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
         "children": []
       },
       {
         "level": 2,
-        "title": "加群交流",
-        "slug": "加群交流",
-        "link": "#加群交流",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "公众号",
-        "slug": "公众号",
-        "link": "#公众号",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "星球",
-        "slug": "星球",
-        "link": "#星球",
-        "children": []
-      }
-    ],
-    "path": "/md/zsxq/project/rpc/2022-08-24-rpc.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "分布式Seckill秒杀系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、秒杀专栏背景调研",
-        "slug": "一、秒杀专栏背景调研",
-        "link": "#一、秒杀专栏背景调研",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、为何要搞秒杀系统",
-        "slug": "二、为何要搞秒杀系统",
-        "link": "#二、为何要搞秒杀系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、秒杀系统核心技术",
-        "slug": "三、秒杀系统核心技术",
-        "link": "#三、秒杀系统核心技术",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、如何学习秒杀系统",
-        "slug": "四、如何学习秒杀系统",
-        "link": "#四、如何学习秒杀系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、提交作业",
-        "slug": "五、提交作业",
-        "link": "#五、提交作业",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.代码作业",
-            "slug": "_1-代码作业",
-            "link": "#_1-代码作业",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.文字打卡",
-            "slug": "_2-文字打卡",
-            "link": "#_2-文字打卡",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "六、如何加入星球",
-        "slug": "六、如何加入星球",
-        "link": "#六、如何加入星球",
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
         "children": []
       },
       {
@@ -71353,45 +71446,9 @@ export const SEARCH_INDEX = [
         "slug": "七、其他方式加入星球",
         "link": "#七、其他方式加入星球",
         "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、联系冰河",
-        "slug": "八、联系冰河",
-        "link": "#八、联系冰河",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.加群交流",
-            "slug": "_1-加群交流",
-            "link": "#_1-加群交流",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.公众号",
-            "slug": "_2-公众号",
-            "link": "#_2-公众号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.视频号",
-            "slug": "_3-视频号",
-            "link": "#_3-视频号",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.星球",
-            "slug": "_4-星球",
-            "link": "#_4-星球",
-            "children": []
-          }
-        ]
       }
     ],
-    "path": "/md/zsxq/project/seckill/2023-04-16-seckill.html",
+    "path": "/md/zsxq/project/sql/2025-08-12-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -71568,264 +71625,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "手写高性能SQL引擎项目",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、项目背景",
-        "slug": "一、项目背景",
-        "link": "#一、项目背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、适应人群",
-        "slug": "二、适应人群",
-        "link": "#二、适应人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、系统大纲",
-        "slug": "四、系统大纲",
-        "link": "#四、系统大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/zsxq/project/sql/2025-08-12-start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：整体项目结构搭建与说明",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、项目搭建",
-        "slug": "三、项目搭建",
-        "link": "#三、项目搭建",
-        "children": [
-          {
-            "level": 3,
-            "title": "3.1 创建项目",
-            "slug": "_3-1-创建项目",
-            "link": "#_3-1-创建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.2 设计表结构",
-            "slug": "_3-2-设计表结构",
-            "link": "#_3-2-设计表结构",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3.3 创建表结构",
-            "slug": "_3-3-创建表结构",
-            "link": "#_3-3-创建表结构",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/coding/2026-01-25-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：数据模型与数据存储层的数据与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心设计",
-        "slug": "三、核心设计",
-        "link": "#三、核心设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/coding/2026-01-26-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：业务逻辑层与接口层的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心设计",
-        "slug": "三、核心设计",
-        "link": "#三、核心设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/coding/2026-01-27-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：前端页面的实现与整体测试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、页面实现",
-        "slug": "三、页面实现",
-        "link": "#三、页面实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、功能测试",
-        "slug": "四、功能测试",
-        "link": "#四、功能测试",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、本节总结",
-        "slug": "五、本节总结",
-        "link": "#五、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/coding/2026-01-28-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：总体需求与方案设计",
     "headers": [
       {
@@ -71865,134 +71664,6 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "五、写在最后",
-        "slug": "五、写在最后",
-        "link": "#五、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、其他方式加入星球",
-        "slug": "六、其他方式加入星球",
-        "link": "#六、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/daemond/2026-01-24-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "基于DeepSeek大模型的AI智能客服系统正式开撸",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、项目背景",
-        "slug": "二、项目背景",
-        "link": "#二、项目背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、整体功能效果",
-        "slug": "三、整体功能效果",
-        "link": "#三、整体功能效果",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、技术选型",
-        "slug": "四、技术选型",
-        "link": "#四、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、适用人群",
-        "slug": "五、适用人群",
-        "link": "#五、适用人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、专栏大纲",
-        "slug": "六、专栏大纲",
-        "link": "#六、专栏大纲",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、如何学习",
-        "slug": "七、如何学习",
-        "link": "#七、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、写在最后",
-        "slug": "八、写在最后",
-        "link": "#八、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、其他方式加入星球",
-        "slug": "九、其他方式加入星球",
-        "link": "#九、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/kefu/start/2026-01-23-start.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "《AI智能客服系统》总结-AI智能客服系统总体专栏总结",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、项目背景",
-        "slug": "一、项目背景",
-        "link": "#一、项目背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、专栏结构",
-        "slug": "二、专栏结构",
-        "link": "#二、专栏结构",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、技术选型",
-        "slug": "三、技术选型",
-        "link": "#三、技术选型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、适用人群",
-        "slug": "四、适用人群",
-        "link": "#四、适用人群",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、如何学习",
-        "slug": "五、如何学习",
-        "link": "#五、如何学习",
-        "children": []
-      },
-      {
-        "level": 2,
         "title": "六、写在最后",
         "slug": "六、写在最后",
         "link": "#六、写在最后",
@@ -72006,7 +71677,64 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/project/ai/kefu/summary/2026-01-29-summary.html",
+    "path": "/md/project/ai/one/daemond/2026-01-29-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：前端页面的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、页面实现",
+        "slug": "三、页面实现",
+        "link": "#三、页面实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、后端接口实现",
+        "slug": "四、后端接口实现",
+        "link": "#四、后端接口实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、本节总结",
+        "slug": "五、本节总结",
+        "link": "#五、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/one/front/2026-02-05-chapter01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -72346,120 +72074,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：前端页面的设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、页面实现",
-        "slug": "三、页面实现",
-        "link": "#三、页面实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、后端接口实现",
-        "slug": "四、后端接口实现",
-        "link": "#四、后端接口实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、本节总结",
-        "slug": "五、本节总结",
-        "link": "#五、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/one/front/2026-02-05-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：总体需求与方案设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、功能需求",
-        "slug": "三、功能需求",
-        "link": "#三、功能需求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、核心流程设计",
-        "slug": "四、核心流程设计",
-        "link": "#四、核心流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、本节总结",
-        "slug": "五、本节总结",
-        "link": "#五、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/one/daemond/2026-01-29-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "开篇：一站式AI智能平台正式开撸",
     "headers": [
       {
@@ -72527,6 +72141,56 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/ai/one/start/2026-01-28-start.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：一站式AI智能平台整体功能测试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、功能测试",
+        "slug": "三、功能测试",
+        "link": "#三、功能测试",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、本节总结",
+        "slug": "五、本节总结",
+        "link": "#五、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "写在最后",
+        "slug": "写在最后",
+        "link": "#写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "其他方式加入星球",
+        "slug": "其他方式加入星球",
+        "link": "#其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/one/test/2026-02-06-chapter01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -72602,7 +72266,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：一站式AI智能平台整体功能测试",
+    "title": "第01节：整体项目结构搭建与说明",
     "headers": [
       {
         "level": 2,
@@ -72620,9 +72284,160 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "三、功能测试",
-        "slug": "三、功能测试",
-        "link": "#三、功能测试",
+        "title": "三、项目搭建",
+        "slug": "三、项目搭建",
+        "link": "#三、项目搭建",
+        "children": [
+          {
+            "level": 3,
+            "title": "3.1 创建项目",
+            "slug": "_3-1-创建项目",
+            "link": "#_3-1-创建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.2 设计表结构",
+            "slug": "_3-2-设计表结构",
+            "link": "#_3-2-设计表结构",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3.3 创建表结构",
+            "slug": "_3-3-创建表结构",
+            "link": "#_3-3-创建表结构",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/coding/2026-01-25-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：数据模型与数据存储层的数据与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心设计",
+        "slug": "三、核心设计",
+        "link": "#三、核心设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/coding/2026-01-26-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：业务逻辑层与接口层的设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心设计",
+        "slug": "三、核心设计",
+        "link": "#三、核心设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/coding/2026-01-27-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：前端页面的实现与整体测试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、页面实现",
+        "slug": "三、页面实现",
+        "link": "#三、页面实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、功能测试",
+        "slug": "四、功能测试",
+        "link": "#四、功能测试",
         "children": []
       },
       {
@@ -72634,20 +72449,248 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "写在最后",
-        "slug": "写在最后",
-        "link": "#写在最后",
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
         "children": []
       },
       {
         "level": 2,
-        "title": "其他方式加入星球",
-        "slug": "其他方式加入星球",
-        "link": "#其他方式加入星球",
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
         "children": []
       }
     ],
-    "path": "/md/project/ai/one/test/2026-02-06-chapter01.html",
+    "path": "/md/project/ai/kefu/coding/2026-01-28-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：总体需求与方案设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、功能需求",
+        "slug": "三、功能需求",
+        "link": "#三、功能需求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、核心流程设计",
+        "slug": "四、核心流程设计",
+        "link": "#四、核心流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、本节总结",
+        "slug": "五、本节总结",
+        "link": "#五、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、写在最后",
+        "slug": "五、写在最后",
+        "link": "#五、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、其他方式加入星球",
+        "slug": "六、其他方式加入星球",
+        "link": "#六、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/daemond/2026-01-24-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "基于DeepSeek大模型的AI智能客服系统正式开撸",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、项目背景",
+        "slug": "二、项目背景",
+        "link": "#二、项目背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、整体功能效果",
+        "slug": "三、整体功能效果",
+        "link": "#三、整体功能效果",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、技术选型",
+        "slug": "四、技术选型",
+        "link": "#四、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、适用人群",
+        "slug": "五、适用人群",
+        "link": "#五、适用人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、专栏大纲",
+        "slug": "六、专栏大纲",
+        "link": "#六、专栏大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、如何学习",
+        "slug": "七、如何学习",
+        "link": "#七、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、写在最后",
+        "slug": "八、写在最后",
+        "link": "#八、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、其他方式加入星球",
+        "slug": "九、其他方式加入星球",
+        "link": "#九、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/start/2026-01-23-start.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：AI智能问答系统的需求与流程设计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、功能需求",
+        "slug": "三、功能需求",
+        "link": "#三、功能需求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、流程设计",
+        "slug": "四、流程设计",
+        "link": "#四、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/qa/demand/2026-01-15-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "《AI智能客服系统》总结-AI智能客服系统总体专栏总结",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、项目背景",
+        "slug": "一、项目背景",
+        "link": "#一、项目背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、专栏结构",
+        "slug": "二、专栏结构",
+        "link": "#二、专栏结构",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、技术选型",
+        "slug": "三、技术选型",
+        "link": "#三、技术选型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、适用人群",
+        "slug": "四、适用人群",
+        "link": "#四、适用人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、如何学习",
+        "slug": "五、如何学习",
+        "link": "#五、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/kefu/summary/2026-01-29-summary.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -72838,49 +72881,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：AI智能问答系统的需求与流程设计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、功能需求",
-        "slug": "三、功能需求",
-        "link": "#三、功能需求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、流程设计",
-        "slug": "四、流程设计",
-        "link": "#四、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/qa/demand/2026-01-15-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "开篇：AI智能问答系统正式开撸",
     "headers": [
       {
@@ -72995,349 +72995,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：AI智能问答系统整体功能性测试",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、申请API Key",
-        "slug": "三、申请api-key",
-        "link": "#三、申请api-key",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、测试AI智能问答系统",
-        "slug": "四、测试ai智能问答系统",
-        "link": "#四、测试ai智能问答系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、本节总结",
-        "slug": "五、本节总结",
-        "link": "#五、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、写在最后",
-        "slug": "六、写在最后",
-        "link": "#六、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、其他方式加入星球",
-        "slug": "七、其他方式加入星球",
-        "link": "#七、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/qa/testing/2026-01-21-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：基于SPI扩展增强型加权随机算法负载均衡策略",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/enhanced/2025-08-03-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：基于SPI扩展增强型加权轮询算法负载均衡策略",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/enhanced/2025-08-04-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：基于SPI扩展增强型加权哈希算法负载均衡策略",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/enhanced/2025-08-05-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：基于SPI扩展增强型源IP哈希算法负载均衡策略",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/enhanced/2025-08-06-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：基于SPI扩展增强型一致性哈希算法负载均衡策略",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、核心类设计",
-        "slug": "三、核心类设计",
-        "link": "#三、核心类设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/enhanced/2025-08-07-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：实战通过SPI加载负载均衡策略访问后端服务",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、背景",
-        "slug": "一、背景",
-        "link": "#一、背景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节重点",
-        "slug": "二、本节重点",
-        "link": "#二、本节重点",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、实战场景",
-        "slug": "三、实战场景",
-        "link": "#三、实战场景",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、服务规划",
-        "slug": "四、服务规划",
-        "link": "#四、服务规划",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "五、路由实现",
-        "slug": "五、路由实现",
-        "link": "#五、路由实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "六、测试场景验证",
-        "slug": "六、测试场景验证",
-        "link": "#六、测试场景验证",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "七、本节总结",
-        "slug": "七、本节总结",
-        "link": "#七、本节总结",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "八、写在最后",
-        "slug": "八、写在最后",
-        "link": "#八、写在最后",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "九、其他方式加入星球",
-        "slug": "九、其他方式加入星球",
-        "link": "#九、其他方式加入星球",
-        "children": []
-      }
-    ],
-    "path": "/md/project/gateway/balancer/actual/2025-08-08-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：Node.js基础环境搭建",
     "headers": [
       {
@@ -73414,6 +73071,63 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/im/front/base/2024-02-08-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：AI智能问答系统整体功能性测试",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、申请API Key",
+        "slug": "三、申请api-key",
+        "link": "#三、申请api-key",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、测试AI智能问答系统",
+        "slug": "四、测试ai智能问答系统",
+        "link": "#四、测试ai智能问答系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、本节总结",
+        "slug": "五、本节总结",
+        "link": "#五、本节总结",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、写在最后",
+        "slug": "六、写在最后",
+        "link": "#六、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、其他方式加入星球",
+        "slug": "七、其他方式加入星球",
+        "link": "#七、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/qa/testing/2026-01-21-chapter01.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -73848,6 +73562,201 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/im/front/group/2024-02-20-chapter08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：好友服务常规功能的设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、功能梳理",
+        "slug": "三、功能梳理",
+        "link": "#三、功能梳理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、接口设计",
+        "slug": "四、接口设计",
+        "link": "#四、接口设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/friend/2024-01-11-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：好友微服务整合Dubbo的流程设计与实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、调用流程",
+        "slug": "三、调用流程",
+        "link": "#三、调用流程",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 引入Dubbo依赖",
+            "slug": "_4-1-引入dubbo依赖",
+            "link": "#_4-1-引入dubbo依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4.2 服务提供者",
+            "slug": "_4-2-服务提供者",
+            "link": "#_4-2-服务提供者",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/friend/2024-01-14-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：领域事件的发送与接收设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/friend/2024-01-15-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：异步更新好友微服务数据的设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": [
+          {
+            "level": 3,
+            "title": "4.1 实现事件模型",
+            "slug": "_4-1-实现事件模型",
+            "link": "#_4-1-实现事件模型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/friend/2024-01-16-chapter04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -74382,201 +74291,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/im/front/user/2024-02-10-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：好友服务常规功能的设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、功能梳理",
-        "slug": "三、功能梳理",
-        "link": "#三、功能梳理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、接口设计",
-        "slug": "四、接口设计",
-        "link": "#四、接口设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/friend/2024-01-11-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：好友微服务整合Dubbo的流程设计与实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、调用流程",
-        "slug": "三、调用流程",
-        "link": "#三、调用流程",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 引入Dubbo依赖",
-            "slug": "_4-1-引入dubbo依赖",
-            "link": "#_4-1-引入dubbo依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4.2 服务提供者",
-            "slug": "_4-2-服务提供者",
-            "link": "#_4-2-服务提供者",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/friend/2024-01-14-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：领域事件的发送与接收设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/friend/2024-01-15-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：异步更新好友微服务数据的设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、编码实现",
-        "slug": "四、编码实现",
-        "link": "#四、编码实现",
-        "children": [
-          {
-            "level": 3,
-            "title": "4.1 实现事件模型",
-            "slug": "_4-1-实现事件模型",
-            "link": "#_4-1-实现事件模型",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/friend/2024-01-16-chapter04.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -75517,258 +75231,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "第01节：视频通话呼叫发起流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-01-31-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：视频通话呼叫取消流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-01-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：视频通话呼叫失败流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-02-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：视频通话呼叫接受流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-03-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：视频通话呼叫拒绝流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-04-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06节：视频通话呼叫挂断流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-05-chapter06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07节：视频通话同步会话状态流程设计和实现",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、前言",
-        "slug": "一、前言",
-        "link": "#一、前言",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、本节诉求",
-        "slug": "二、本节诉求",
-        "link": "#二、本节诉求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、流程设计",
-        "slug": "三、流程设计",
-        "link": "#三、流程设计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/im/platform/video/2024-02-06-chapter07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "第01节：用户注册与登录授权的流程设计与实现",
     "headers": [
       {
@@ -76035,7 +75497,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "开篇：一站式AI智能平台正式开撸",
+    "title": "第01节：视频通话呼叫发起流程设计和实现",
     "headers": [
       {
         "level": 2,
@@ -76046,44 +75508,296 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "二、项目背景",
-        "slug": "二、项目背景",
-        "link": "#二、项目背景",
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、整体功能效果",
-        "slug": "三、整体功能效果",
-        "link": "#三、整体功能效果",
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、技术选型",
-        "slug": "四、技术选型",
-        "link": "#四、技术选型",
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-01-31-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：视频通话呼叫取消流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
         "children": []
       },
       {
         "level": 2,
-        "title": "五、适用人群",
-        "slug": "五、适用人群",
-        "link": "#五、适用人群",
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
         "children": []
       },
       {
         "level": 2,
-        "title": "六、专栏大纲",
-        "slug": "六、专栏大纲",
-        "link": "#六、专栏大纲",
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
         "children": []
       },
       {
         "level": 2,
-        "title": "七、如何学习",
-        "slug": "七、如何学习",
-        "link": "#七、如何学习",
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-01-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：视频通话呼叫失败流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-02-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：视频通话呼叫接受流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-03-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：视频通话呼叫拒绝流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-04-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06节：视频通话呼叫挂断流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-05-chapter06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07节：视频通话同步会话状态流程设计和实现",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节诉求",
+        "slug": "二、本节诉求",
+        "link": "#二、本节诉求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、流程设计",
+        "slug": "三、流程设计",
+        "link": "#三、流程设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/im/platform/video/2024-02-06-chapter07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：实战通过SPI加载负载均衡策略访问后端服务",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、实战场景",
+        "slug": "三、实战场景",
+        "link": "#三、实战场景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、服务规划",
+        "slug": "四、服务规划",
+        "link": "#四、服务规划",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、路由实现",
+        "slug": "五、路由实现",
+        "link": "#五、路由实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、测试场景验证",
+        "slug": "六、测试场景验证",
+        "link": "#六、测试场景验证",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "七、本节总结",
+        "slug": "七、本节总结",
+        "link": "#七、本节总结",
         "children": []
       },
       {
@@ -76101,7 +75815,279 @@ export const SEARCH_INDEX = [
         "children": []
       }
     ],
-    "path": "/md/zsxq/project/ai/one/2026-01-28-start.html",
+    "path": "/md/project/gateway/balancer/actual/2025-08-08-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第01节：基于SPI扩展增强型加权随机算法负载均衡策略",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/balancer/enhanced/2025-08-03-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：基于SPI扩展增强型加权轮询算法负载均衡策略",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/balancer/enhanced/2025-08-04-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：基于SPI扩展增强型加权哈希算法负载均衡策略",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/balancer/enhanced/2025-08-05-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：基于SPI扩展增强型源IP哈希算法负载均衡策略",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/balancer/enhanced/2025-08-06-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：基于SPI扩展增强型一致性哈希算法负载均衡策略",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、背景",
+        "slug": "一、背景",
+        "link": "#一、背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、本节重点",
+        "slug": "二、本节重点",
+        "link": "#二、本节重点",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、核心类设计",
+        "slug": "三、核心类设计",
+        "link": "#三、核心类设计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、编码实现",
+        "slug": "四、编码实现",
+        "link": "#四、编码实现",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/gateway/balancer/enhanced/2025-08-07-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "开篇：实战手撸AI智能问答系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、前言",
+        "slug": "一、前言",
+        "link": "#一、前言",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "一、项目背景",
+        "slug": "一、项目背景",
+        "link": "#一、项目背景",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、适用人群",
+        "slug": "二、适用人群",
+        "link": "#二、适用人群",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、专栏大纲",
+        "slug": "三、专栏大纲",
+        "link": "#三、专栏大纲",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、如何学习",
+        "slug": "四、如何学习",
+        "link": "#四、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "五、写在最后",
+        "slug": "五、写在最后",
+        "link": "#五、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "六、其他方式加入星球",
+        "slug": "六、其他方式加入星球",
+        "link": "#六、其他方式加入星球",
+        "children": []
+      }
+    ],
+    "path": "/md/zsxq/project/ai/qa/2025-01-14-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -76177,7 +76163,7 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "开篇：实战手撸AI智能问答系统",
+    "title": "开篇：一站式AI智能平台正式开撸",
     "headers": [
       {
         "level": 2,
@@ -76188,48 +76174,62 @@ export const SEARCH_INDEX = [
       },
       {
         "level": 2,
-        "title": "一、项目背景",
-        "slug": "一、项目背景",
-        "link": "#一、项目背景",
+        "title": "二、项目背景",
+        "slug": "二、项目背景",
+        "link": "#二、项目背景",
         "children": []
       },
       {
         "level": 2,
-        "title": "二、适用人群",
-        "slug": "二、适用人群",
-        "link": "#二、适用人群",
+        "title": "三、整体功能效果",
+        "slug": "三、整体功能效果",
+        "link": "#三、整体功能效果",
         "children": []
       },
       {
         "level": 2,
-        "title": "三、专栏大纲",
-        "slug": "三、专栏大纲",
-        "link": "#三、专栏大纲",
+        "title": "四、技术选型",
+        "slug": "四、技术选型",
+        "link": "#四、技术选型",
         "children": []
       },
       {
         "level": 2,
-        "title": "四、如何学习",
-        "slug": "四、如何学习",
-        "link": "#四、如何学习",
+        "title": "五、适用人群",
+        "slug": "五、适用人群",
+        "link": "#五、适用人群",
         "children": []
       },
       {
         "level": 2,
-        "title": "五、写在最后",
-        "slug": "五、写在最后",
-        "link": "#五、写在最后",
+        "title": "六、专栏大纲",
+        "slug": "六、专栏大纲",
+        "link": "#六、专栏大纲",
         "children": []
       },
       {
         "level": 2,
-        "title": "六、其他方式加入星球",
-        "slug": "六、其他方式加入星球",
-        "link": "#六、其他方式加入星球",
+        "title": "七、如何学习",
+        "slug": "七、如何学习",
+        "link": "#七、如何学习",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "八、写在最后",
+        "slug": "八、写在最后",
+        "link": "#八、写在最后",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "九、其他方式加入星球",
+        "slug": "九、其他方式加入星球",
+        "link": "#九、其他方式加入星球",
         "children": []
       }
     ],
-    "path": "/md/zsxq/project/ai/qa/2025-01-14-start.html",
+    "path": "/md/zsxq/project/ai/one/2026-01-28-start.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -77078,6 +77078,325 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "第01节：DeepSeek本地部署+知识库+联网搜索",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、本地部署DeepSeek",
+        "slug": "一、本地部署deepseek",
+        "link": "#一、本地部署deepseek",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、安装Page Assist插件",
+        "slug": "二、安装page-assist插件",
+        "link": "#二、安装page-assist插件",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-18-chapter01.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第02节：DeepSeek R1蒸馏模型组本地部署与调用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、知识蒸馏技术",
+        "slug": "一、知识蒸馏技术",
+        "link": "#一、知识蒸馏技术",
+        "children": [
+          {
+            "level": 3,
+            "title": "1.1 技术架构与核心能力",
+            "slug": "_1-1-技术架构与核心能力",
+            "link": "#_1-1-技术架构与核心能力",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.2 模型系列与开源生态",
+            "slug": "_1-2-模型系列与开源生态",
+            "link": "#_1-2-模型系列与开源生态",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.3 应用场景与实施效果",
+            "slug": "_1-3-应用场景与实施效果",
+            "link": "#_1-3-应用场景与实施效果",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "1.4 实施建议与注意事项",
+            "slug": "_1-4-实施建议与注意事项",
+            "link": "#_1-4-实施建议与注意事项",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "二、 硬件配置",
+        "slug": "二、-硬件配置",
+        "link": "#二、-硬件配置",
+        "children": [
+          {
+            "level": 3,
+            "title": "2.1 蒸馏模型所需显存列表",
+            "slug": "_2-1-蒸馏模型所需显存列表",
+            "link": "#_2-1-蒸馏模型所需显存列表",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2.2 部署硬件",
+            "slug": "_2-2-部署硬件",
+            "link": "#_2-2-部署硬件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-22-chapter02.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第03节：DeepSeek R1蒸馏模型组Ollama调用",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、Ollama调用DeepSeek说明",
+        "slug": "一、ollama调用deepseek说明",
+        "link": "#一、ollama调用deepseek说明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、演示Ollama调用DeepSeek",
+        "slug": "二、演示ollama调用deepseek",
+        "link": "#二、演示ollama调用deepseek",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-23-chapter03.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第04节：基于Windows系统部署DeepSeek多模态生成模型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、安装Git环境",
+        "slug": "一、安装git环境",
+        "link": "#一、安装git环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、安装canda环境",
+        "slug": "二、安装canda环境",
+        "link": "#二、安装canda环境",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、启动Anaconda Prompt",
+        "slug": "三、启动anaconda-prompt",
+        "link": "#三、启动anaconda-prompt",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-24-chapter04.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第05节：基于Ubuntu系统部署DeepSeek多模态生成模型",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、环境要求",
+        "slug": "一、环境要求",
+        "link": "#一、环境要求",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、更新基础软件包",
+        "slug": "二、更新基础软件包",
+        "link": "#二、更新基础软件包",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-25-chapter05.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第06节：基于Ollama+OpenWebUI和DeepSeek-R1本地部署AI对话系统",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、核心工具与模型介绍",
+        "slug": "一、核心工具与模型介绍",
+        "link": "#一、核心工具与模型介绍",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、部署前的环境准备",
+        "slug": "二、部署前的环境准备",
+        "link": "#二、部署前的环境准备",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、详细部署步骤",
+        "slug": "三、详细部署步骤",
+        "link": "#三、详细部署步骤",
+        "children": [
+          {
+            "level": 3,
+            "title": "第一步：安装Ollama",
+            "slug": "第一步-安装ollama",
+            "link": "#第一步-安装ollama",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "第二步：获取DeepSeek-R1模型",
+            "slug": "第二步-获取deepseek-r1模型",
+            "link": "#第二步-获取deepseek-r1模型",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-26-chapter06.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第07节：Sealos Cloud+K8S一键脚本部署",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、事先准备",
+        "slug": "一、事先准备",
+        "link": "#一、事先准备",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、安装系统",
+        "slug": "二、安装系统",
+        "link": "#二、安装系统",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "三、处理域名",
+        "slug": "三、处理域名",
+        "link": "#三、处理域名",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "四、部署Sealos Cloud",
+        "slug": "四、部署sealos-cloud",
+        "link": "#四、部署sealos-cloud",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-11-30-chapter07.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "第08节：私有化部署Sealos Cloud+Devbox+Minio",
+    "headers": [
+      {
+        "level": 2,
+        "title": "一、安装ubuntu 25.04",
+        "slug": "一、安装ubuntu-25-04",
+        "link": "#一、安装ubuntu-25-04",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "二、安装部署Sealos",
+        "slug": "二、安装部署sealos",
+        "link": "#二、安装部署sealos",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "查看完整文章",
+        "slug": "查看完整文章",
+        "link": "#查看完整文章",
+        "children": []
+      }
+    ],
+    "path": "/md/project/ai/dk/v1/deploy/2025-12-01-chapter08.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "第01节：实践QEMU-KVM 虚拟化",
     "headers": [
       {
@@ -77424,325 +77743,6 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/md/project/ai/dk/v1/number/2025-12-17-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第01节：DeepSeek本地部署+知识库+联网搜索",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、本地部署DeepSeek",
-        "slug": "一、本地部署deepseek",
-        "link": "#一、本地部署deepseek",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、安装Page Assist插件",
-        "slug": "二、安装page-assist插件",
-        "link": "#二、安装page-assist插件",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-18-chapter01.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第02节：DeepSeek R1蒸馏模型组本地部署与调用",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、知识蒸馏技术",
-        "slug": "一、知识蒸馏技术",
-        "link": "#一、知识蒸馏技术",
-        "children": [
-          {
-            "level": 3,
-            "title": "1.1 技术架构与核心能力",
-            "slug": "_1-1-技术架构与核心能力",
-            "link": "#_1-1-技术架构与核心能力",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.2 模型系列与开源生态",
-            "slug": "_1-2-模型系列与开源生态",
-            "link": "#_1-2-模型系列与开源生态",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.3 应用场景与实施效果",
-            "slug": "_1-3-应用场景与实施效果",
-            "link": "#_1-3-应用场景与实施效果",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "1.4 实施建议与注意事项",
-            "slug": "_1-4-实施建议与注意事项",
-            "link": "#_1-4-实施建议与注意事项",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "二、 硬件配置",
-        "slug": "二、-硬件配置",
-        "link": "#二、-硬件配置",
-        "children": [
-          {
-            "level": 3,
-            "title": "2.1 蒸馏模型所需显存列表",
-            "slug": "_2-1-蒸馏模型所需显存列表",
-            "link": "#_2-1-蒸馏模型所需显存列表",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2.2 部署硬件",
-            "slug": "_2-2-部署硬件",
-            "link": "#_2-2-部署硬件",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-22-chapter02.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第03节：DeepSeek R1蒸馏模型组Ollama调用",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、Ollama调用DeepSeek说明",
-        "slug": "一、ollama调用deepseek说明",
-        "link": "#一、ollama调用deepseek说明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、演示Ollama调用DeepSeek",
-        "slug": "二、演示ollama调用deepseek",
-        "link": "#二、演示ollama调用deepseek",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-23-chapter03.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第04节：基于Windows系统部署DeepSeek多模态生成模型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、安装Git环境",
-        "slug": "一、安装git环境",
-        "link": "#一、安装git环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、安装canda环境",
-        "slug": "二、安装canda环境",
-        "link": "#二、安装canda环境",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、启动Anaconda Prompt",
-        "slug": "三、启动anaconda-prompt",
-        "link": "#三、启动anaconda-prompt",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-24-chapter04.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第05节：基于Ubuntu系统部署DeepSeek多模态生成模型",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、环境要求",
-        "slug": "一、环境要求",
-        "link": "#一、环境要求",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、更新基础软件包",
-        "slug": "二、更新基础软件包",
-        "link": "#二、更新基础软件包",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-25-chapter05.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第06节：基于Ollama+OpenWebUI和DeepSeek-R1本地部署AI对话系统",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、核心工具与模型介绍",
-        "slug": "一、核心工具与模型介绍",
-        "link": "#一、核心工具与模型介绍",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、部署前的环境准备",
-        "slug": "二、部署前的环境准备",
-        "link": "#二、部署前的环境准备",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、详细部署步骤",
-        "slug": "三、详细部署步骤",
-        "link": "#三、详细部署步骤",
-        "children": [
-          {
-            "level": 3,
-            "title": "第一步：安装Ollama",
-            "slug": "第一步-安装ollama",
-            "link": "#第一步-安装ollama",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "第二步：获取DeepSeek-R1模型",
-            "slug": "第二步-获取deepseek-r1模型",
-            "link": "#第二步-获取deepseek-r1模型",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-26-chapter06.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第07节：Sealos Cloud+K8S一键脚本部署",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、事先准备",
-        "slug": "一、事先准备",
-        "link": "#一、事先准备",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、安装系统",
-        "slug": "二、安装系统",
-        "link": "#二、安装系统",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "三、处理域名",
-        "slug": "三、处理域名",
-        "link": "#三、处理域名",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "四、部署Sealos Cloud",
-        "slug": "四、部署sealos-cloud",
-        "link": "#四、部署sealos-cloud",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-11-30-chapter07.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "第08节：私有化部署Sealos Cloud+Devbox+Minio",
-    "headers": [
-      {
-        "level": 2,
-        "title": "一、安装ubuntu 25.04",
-        "slug": "一、安装ubuntu-25-04",
-        "link": "#一、安装ubuntu-25-04",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "二、安装部署Sealos",
-        "slug": "二、安装部署sealos",
-        "link": "#二、安装部署sealos",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "查看完整文章",
-        "slug": "查看完整文章",
-        "link": "#查看完整文章",
-        "children": []
-      }
-    ],
-    "path": "/md/project/ai/dk/v1/deploy/2025-12-01-chapter08.html",
     "pathLocale": "/",
     "extraFields": []
   },
