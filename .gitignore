@@ -13,3 +13,5 @@
 /deploy.bak.sh
 
 /docs/.vuepress/dist/
+
+/docs/.vuepress/.temp/
