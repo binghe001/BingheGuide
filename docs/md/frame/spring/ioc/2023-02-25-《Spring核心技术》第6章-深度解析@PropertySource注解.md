@@ -211,11 +211,11 @@ binghe ====>>> 18
 
 在PropertySourceTest类的main()方法中调用了AnnotationConfigApplicationContext类的构造方法，并传入了PropertySourceConfig类的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-**注意：@PropertySource注解在Spring源码中的执行流程的（2）~（11）步与第5章的@Import注解相同，这里不再赘述，直接跳到ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法。**
+**注意：@PropertySource注解在Spring源码中的执行流程的（2）~（11）步与第5章的@Import注解相同，这里不再赘述，直接跳到ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)方法。**
 
-（2）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法
+（2）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)，重点关注如下代码片段。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)，重点关注如下代码片段。
 
 ```java
 protected final SourceClass doProcessConfigurationClass(
@@ -306,9 +306,9 @@ createPropertySource()方法的源码比较简单，不再赘述。
 
 在PropertySourceProcessor类的processPropertySource()方法中，创建完PropertySource对象后，会调用addPropertySource()方法将获取到的属性值添加到Spring的环境变量中。
 
-（7）解析PropertySourceProcessor类的addPropertySource(PropertySource<?> propertySource)方法
+（7）解析PropertySourceProcessor类的addPropertySource(PropertySource`<?>` propertySource)方法
 
-源码详见：org.springframework.core.io.support.PropertySourceProcessor#addPropertySource(PropertySource<?> propertySource)。
+源码详见：org.springframework.core.io.support.PropertySourceProcessor#addPropertySource(PropertySource`<?>` propertySource)。
 
 ```java
 private void addPropertySource(org.springframework.core.env.PropertySource<?> propertySource) {

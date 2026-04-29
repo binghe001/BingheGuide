@@ -98,9 +98,9 @@ public class BeanTest {
 
 在BeanTest类的main()方法中调用了AnnotationConfigApplicationContext类的构造方法，并传入了ComponentScanConfig类的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -152,9 +152,9 @@ protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory b
 
 可以看到，在AbstractApplicationContext类的invokeBeanFactoryPostProcessors()方法中调用了PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors()方法。
 
-（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法
+（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)。
 
 由于方法的源码比较长，这里，只关注当前最核心的逻辑，如下所示。
 
@@ -213,11 +213,11 @@ public static void invokeBeanFactoryPostProcessors(
 }
 ```
 
-可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法中，有多处通过beanFactory对象的getBean()方法获取Bean对象的代码。
+可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法中，有多处通过beanFactory对象的getBean()方法获取Bean对象的代码。
 
-（6）解析AbstractBeanFactory类的getBean(String name, Class<T> requiredType)方法
+（6）解析AbstractBeanFactory类的getBean(String name, Class`<T>` requiredType)方法
 
-源码详见org.springframework.beans.factory.support.AbstractBeanFactory#getBean(String name, Class<T> requiredType)。
+源码详见org.springframework.beans.factory.support.AbstractBeanFactory#getBean(String name, Class`<T>` requiredType)。
 
 ```java
 @Override
@@ -228,9 +228,9 @@ public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
 
 可以看到，getBean()方法调用了doGetBean()方法。
 
-（7）解析AbstractBeanFactory类的doGetBean(String name, Class<T> requiredType, Object[] args, boolean typeCheckOnly)方法
+（7）解析AbstractBeanFactory类的doGetBean(String name, Class`<T>` requiredType, Object[] args, boolean typeCheckOnly)方法
 
-源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean(String name, @Nullable Class<T> requiredType, @Nullable Object[] args, boolean typeCheckOnly)。
+源码详见：org.springframework.beans.factory.support.AbstractBeanFactory#doGetBean(String name, @Nullable Class`<T>` requiredType, @Nullable Object[] args, boolean typeCheckOnly)。
 
 ```java
 protected <T> T doGetBean(
@@ -500,9 +500,9 @@ protected Object getObjectForBeanInstance(
 
 * 通过FactoryBean的getObject方法获取需要的Bean实例。
 
-（11）解析DefaultSingletonBeanRegistry类的getSingleton(String beanName, ObjectFactory<?> singletonFactory)方法。
+（11）解析DefaultSingletonBeanRegistry类的getSingleton(String beanName, ObjectFactory`<?>` singletonFactory)方法。
 
-源码详见：org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#getSingleton(String beanName, ObjectFactory<?> singletonFactory)。
+源码详见：org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#getSingleton(String beanName, ObjectFactory`<?>` singletonFactory)。
 
 ```java
 public Object getSingleton(String beanName, ObjectFactory<?> singletonFactory) {
@@ -575,7 +575,7 @@ protected void afterSingletonCreation(String beanName) {
 
 可以看到，beforeSingletonCreation()方法和afterSingletonCreation()方法的执行逻辑比较简单，这里不再赘述。
 
-（12）回到AbstractBeanFactory类的doGetBean(String name, Class<T> requiredType, Object[] args, boolean typeCheckOnly)方法，这里重点看如下代码片段。
+（12）回到AbstractBeanFactory类的doGetBean(String name, Class`<T>` requiredType, Object[] args, boolean typeCheckOnly)方法，这里重点看如下代码片段。
 
 ```java
 if (mbd.isSingleton()) {

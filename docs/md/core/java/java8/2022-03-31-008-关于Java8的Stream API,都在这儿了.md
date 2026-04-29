@@ -49,15 +49,15 @@ Java8 中的 Collection 接口被扩展，提供了两个获取流的方法：
 
 ### 1.获取Stream
 
-* default Stream<E> stream() : 返回一个顺序流
+* default Stream`<E>` stream() : 返回一个顺序流
 
-* default Stream<E> parallelStream() : 返回一个并行流  
+* default Stream`<E>` parallelStream() : 返回一个并行流  
 
 ### 2.由数组创建Stream
 
 Java8 中的 Arrays 的静态方法 stream() 可以获取数组流：  
 
-* static <T> Stream<T> stream(T[] array): 返回一个流  
+* static `<T>` Stream`<T>` stream(T[] array): 返回一个流  
 
 重载形式，能够处理对应基本类型的数组：
 
@@ -71,7 +71,7 @@ Java8 中的 Arrays 的静态方法 stream() 可以获取数组流：
 
 可以使用静态方法 Stream.of(), 通过显示值创建一个流。它可以接收任意数量的参数。  
 
-* public static<T> Stream<T> of(T... values) : 返回一个流  
+* public static`<T>` Stream`<T>` of(T... values) : 返回一个流  
 
 ### 4.由函数创建流  
 
@@ -81,11 +81,11 @@ Java8 中的 Arrays 的静态方法 stream() 可以获取数组流：
 
 * 迭代
 
-public static<T> Stream<T> iterate(final T seed, final UnaryOperator<T> f)
+public static`<T>` Stream`<T>` iterate(final T seed, final UnaryOperator`<T>` f)
 
 * 生成
 
-public static<T> Stream<T> generate(Supplier<T> s)  
+public static`<T>` Stream`<T>` generate(Supplier`<T>` s)  
 
 ## Stream的中间操作  
 

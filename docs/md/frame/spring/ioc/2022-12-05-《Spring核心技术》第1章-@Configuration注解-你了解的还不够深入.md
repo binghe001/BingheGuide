@@ -321,7 +321,7 @@ person1 是否等于 person2 ===>> true
 
 本节，就简单介绍下@Configuration注解在源码层面的注册与实例化两种执行时序图。
 
-**注意：本章的源码时序图和源码解析均以本章案例程序作为入口进行分析，并且会在ConfigurationAnnotationConfig类上标注@Configuration注解，同时在ConfigurationAnnotationTest测试类中，调用AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法来创建IOC容器。**
+**注意：本章的源码时序图和源码解析均以本章案例程序作为入口进行分析，并且会在ConfigurationAnnotationConfig类上标注@Configuration注解，同时在ConfigurationAnnotationTest测试类中，调用AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法来创建IOC容器。**
 
 ### 4.1 注册ConfigurationClassPostProcessor流程源码时序图
 
@@ -374,9 +374,9 @@ public static void main(String[] args) {
 
 可以看到，在main()方法中会调用AnnotationConfigApplicationContext类的构造方法传入配置类ConfigurationAnnotationConfig的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -518,9 +518,9 @@ private final Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHash
 
 使用@Configuration注解标注的ConfigurationAnnotationConfig类的Bean定义信息的注册流程的源码执行过程可结合图1-2进行分析，启动Spring IOC容器时，向IOC容器中注册ConfigurationAnnotationConfig类的Bean定义信息的源码执行过程如下所示。
 
-（1）运行案例程序启动类ConfigurationAnnotationTest的main()方法，并进入AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法。
+（1）运行案例程序启动类ConfigurationAnnotationTest的main()方法，并进入AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法。
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -530,11 +530,11 @@ public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
 }
 ```
 
-可以看到，在AnnotationConfigApplicationContext(Class<?>... componentClasses)方法中调用了register()方法，传入componentClasses参数进行注册。
+可以看到，在AnnotationConfigApplicationContext(Class`<?>`... componentClasses)方法中调用了register()方法，传入componentClasses参数进行注册。
 
-（2）解析AnnotationConfigApplicationContext类的register(Class<?>... componentClasses)方法
+（2）解析AnnotationConfigApplicationContext类的register(Class`<?>`... componentClasses)方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#register(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#register(Class`<?>`... componentClasses)。
 
 ```java
 @Override
@@ -545,11 +545,11 @@ public void register(Class<?>... componentClasses) {
 }
 ```
 
-可以看到，在register(Class<?>... componentClasses)方法中调用了reader的register()方法。
+可以看到，在register(Class`<?>`... componentClasses)方法中调用了reader的register()方法。
 
-（3）解析AnnotatedBeanDefinitionReader类的register(Class<?>... componentClasses)方法
+（3）解析AnnotatedBeanDefinitionReader类的register(Class`<?>`... componentClasses)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#register(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#register(Class`<?>`... componentClasses)。
 
 ```java
 public void register(Class<?>... componentClasses) {
@@ -559,11 +559,11 @@ public void register(Class<?>... componentClasses) {
 }
 ```
 
-可以看到，在register(Class<?>... componentClasses)方法中，会循环遍历传入的可变参数componentClasses，每次循环时，都会调用registerBean()方法。
+可以看到，在register(Class`<?>`... componentClasses)方法中，会循环遍历传入的可变参数componentClasses，每次循环时，都会调用registerBean()方法。
 
-（4）解析AnnotatedBeanDefinitionReader类的registerBean(Class<?> beanClass)方法
+（4）解析AnnotatedBeanDefinitionReader类的registerBean(Class`<?>` beanClass)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#registerBean(Class<?> beanClass)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#registerBean(Class`<?>` beanClass)。
 
 ```java
 public void registerBean(Class<?> beanClass) {
@@ -571,11 +571,11 @@ public void registerBean(Class<?> beanClass) {
 }
 ```
 
-可以看到，在registerBean(Class<?> beanClass)方法中调用了doRegisterBean()方法。
+可以看到，在registerBean(Class`<?>` beanClass)方法中调用了doRegisterBean()方法。
 
-（5）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法。
+（5）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法。
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)。
 
 ```java
 private <T> void doRegisterBean(Class<T> beanClass, @Nullable String name,@Nullable Class<? extends Annotation>[] qualifiers, @Nullable Supplier<T> supplier, @Nullable BeanDefinitionCustomizer[] customizers) {
@@ -590,7 +590,7 @@ private <T> void doRegisterBean(Class<T> beanClass, @Nullable String name,@Nulla
 }
 ```
 
-可以看到，在doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法中调用了BeanDefinitionReaderUtils类的registerBeanDefinition()方法。
+可以看到，在doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法中调用了BeanDefinitionReaderUtils类的registerBeanDefinition()方法。
 
 （6）解析BeanDefinitionReaderUtils类的registerBeanDefinition(BeanDefinitionHolder definitionHolder, BeanDefinitionRegistry registry)方法
 
@@ -616,9 +616,9 @@ public static void registerBeanDefinition(
 
 Spring IOC容器在刷新时，会实例化使用@Configuration注解标注的类，可结合图1-3-1和图1-3-2理解，具体的源码执行流程如下所示。
 
-（1）运行案例程序启动类ConfigurationAnnotationTest的main()方法，并进入AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法。
+（1）运行案例程序启动类ConfigurationAnnotationTest的main()方法，并进入AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法。
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -628,7 +628,7 @@ public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
 }
 ```
 
-可以看到，在AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法中会调用refresh()方法刷新IOC容器。
+可以看到，在AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法中会调用refresh()方法刷新IOC容器。
 
 （2）解析AbstractApplicationContext类的refresh()方法
 
@@ -669,9 +669,9 @@ protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory b
 
 可以看到，在invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory)方法中调用了PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors()方法。
 
-（4）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法
+（4）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)。
 
 ```java
 public static void invokeBeanFactoryPostProcessors(
@@ -687,9 +687,9 @@ public static void invokeBeanFactoryPostProcessors(
 
 可以看到，在invokeBeanFactoryPostProcessors()方法中又调用了PostProcessorRegistrationDelegate类中的另一个invokeBeanFactoryPostProcessors()方法。
 
-（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(Collection<? extends BeanFactoryPostProcessor> postProcessors, ConfigurableListableBeanFactory beanFactory)方法
+（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(Collection`<? extends BeanFactoryPostProcessor>` postProcessors, ConfigurableListableBeanFactory beanFactory)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(Collection<? extends BeanFactoryPostProcessor> postProcessors, ConfigurableListableBeanFactory beanFactory)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(Collection`<? extends BeanFactoryPostProcessor>` postProcessors, ConfigurableListableBeanFactory beanFactory)。
 
 ```java
 private static void invokeBeanFactoryPostProcessors(Collection<? extends BeanFactoryPostProcessor> postProcessors, ConfigurableListableBeanFactory beanFactory) {
@@ -745,9 +745,9 @@ public void enhanceConfigurationClasses(ConfigurableListableBeanFactory beanFact
 
 可以看到，在enhanceConfigurationClasses(ConfigurableListableBeanFactory beanFactory)方法中，主要是使用ConfigurationClassEnhancer对象的enhance()方法生成代理类，也就是使用CGLib生成代理类。
 
-（8）解析ConfigurationClassEnhancer类的enhance(Class<?> configClass, ClassLoader classLoader)方法
+（8）解析ConfigurationClassEnhancer类的enhance(Class`<?>` configClass, ClassLoader classLoader)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassEnhancer#enhance(Class<?> configClass, @Nullable ClassLoader classLoader)。
+源码详见：org.springframework.context.annotation.ConfigurationClassEnhancer#enhance(Class`<?>` configClass, @Nullable ClassLoader classLoader)。
 
 ```java
 public Class<?> enhance(Class<?> configClass, @Nullable ClassLoader classLoader) {
@@ -758,11 +758,11 @@ public Class<?> enhance(Class<?> configClass, @Nullable ClassLoader classLoader)
 }
 ```
 
-可以看到，在enhance(Class<?> configClass, ClassLoader classLoader)方法中调用了createClass()方法创建代理类，在这之前先调用newEnhancer()方法实例化Enhancer对象。
+可以看到，在enhance(Class`<?>` configClass, ClassLoader classLoader)方法中调用了createClass()方法创建代理类，在这之前先调用newEnhancer()方法实例化Enhancer对象。
 
-（9）解析ConfigurationClassEnhancer类的newEnhancer(Class<?> configSuperClass, ClassLoader classLoader)方法
+（9）解析ConfigurationClassEnhancer类的newEnhancer(Class`<?>` configSuperClass, ClassLoader classLoader)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassEnhancer#newEnhancer(Class<?> configSuperClass, @Nullable ClassLoader classLoader)。
+源码详见：org.springframework.context.annotation.ConfigurationClassEnhancer#newEnhancer(Class`<?>` configSuperClass, @Nullable ClassLoader classLoader)。
 
 ```java
 private Enhancer newEnhancer(Class<?> configSuperClass, @Nullable ClassLoader classLoader) {

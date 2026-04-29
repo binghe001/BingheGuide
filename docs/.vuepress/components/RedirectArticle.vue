@@ -9,8 +9,14 @@
 </template>
 
 <script>
+    import { usePageFrontmatter } from 'vuepress/client'
+
     export default {
         name: 'RedirectArticle',
+        setup() {
+            const frontmatter = usePageFrontmatter()
+            return { frontmatter }
+        },
         data() {
             return {}
         },
@@ -37,7 +43,7 @@
         },
         methods: {
           isRedirect() {
-                return this.$page.frontmatter.redirectUrl;
+                return this.frontmatter.redirectUrl;
             },
             articleObj: function () {
                 let $article = $('.theme-default-content');
@@ -79,7 +85,7 @@
                 clone.css('display', 'block');
 
                 // 按钮跳转付费
-                clone.find("#redirect-read-more-btn").attr("href", this.$page.frontmatter.redirectUrl);
+                clone.find("#redirect-read-more-btn").attr("href", this.frontmatter.redirectUrl);
 
                 $article.append(clone);
             }
@@ -87,7 +93,7 @@
     }
 </script>
 
-<style lang="stylus">
+<style>
     #redirect-read-more-btn {
         border: none !important;
         text-decoration: none;

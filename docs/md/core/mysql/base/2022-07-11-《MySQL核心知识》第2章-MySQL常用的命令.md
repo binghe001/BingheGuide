@@ -118,7 +118,7 @@ alter table table1 drop index ind_id;
 select concat(id,':',name,'=') from students;
 ```
 
-12、limit(选出10到20条)<第一个记录集的编号是0>
+12、limit(选出10到20条)`<第一个记录集的编号是0>`
 
 ```sql
 select * from students order by id limit 9,10;

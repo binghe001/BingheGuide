@@ -218,7 +218,7 @@ long triggerTime(long delay) {
 
 
 
-这两个triggerTime方法的代码比较简单，就是获取下一次执行任务的具体时间。有一点需要注意的是：delay < (Long.MAX_VALUE >> 1判断delay的值是否小于Long.MAX_VALUE的一半，如果小于Long.MAX_VALUE值的一半，则直接返回delay，否则需要处理溢出的情况。
+这两个triggerTime方法的代码比较简单，就是获取下一次执行任务的具体时间。有一点需要注意的是：delay `< (Long.MAX_VALUE >`> 1判断delay的值是否小于Long.MAX_VALUE的一半，如果小于Long.MAX_VALUE值的一半，则直接返回delay，否则需要处理溢出的情况。
 
 我们看到在triggerTime方法中处理防止溢出的逻辑使用了overflowFree方法，接下来，我们就看看overflowFree方法的实现。
 

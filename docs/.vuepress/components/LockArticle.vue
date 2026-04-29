@@ -28,9 +28,14 @@
 </template>
 
 <script>
+    import { usePageFrontmatter } from 'vuepress/client'
 
     export default {
         name: 'LockArticle',
+        setup() {
+            const frontmatter = usePageFrontmatter()
+            return { frontmatter }
+        },
         data() {
             return {}
         },
@@ -60,7 +65,7 @@
         },
         methods: {
             isLock() {
-                return "need" === this.$page.frontmatter.lock;
+                return "need" === this.frontmatter.lock;
             },
             articleObj: function () {
                 let $article = $('.theme-default-content');
@@ -238,7 +243,7 @@
 
 </script>
 
-<style lang="stylus">
+<style>
     #read-more-btn {
         border: none !important;
         text-decoration: none;

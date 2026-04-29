@@ -319,9 +319,9 @@ io.binghe.spring.annotation.chapter05.bean.ImportBeanDefinitionRegistrarBean
 
 在ImportTest类的main()方法中调用了AnnotationConfigApplicationContext类的构造方法，并传入了ImportConfig类的Class对象来创建IOC容器。接下来，会进入AnnotationConfigApplicationContext类的构造方法。
 
-（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class<?>... componentClasses)构造方法
+（2）解析AnnotationConfigApplicationContext类的AnnotationConfigApplicationContext(Class`<?>`... componentClasses)构造方法
 
-源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class<?>... componentClasses)。
+源码详见：org.springframework.context.annotation.AnnotationConfigApplicationContext#AnnotationConfigApplicationContext(Class`<?>`... componentClasses)。
 
 ```java
 public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
@@ -373,9 +373,9 @@ protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory b
 
 可以看到，在AbstractApplicationContext类的invokeBeanFactoryPostProcessors()方法中调用了PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors()方法。
 
-（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法
+（5）解析PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)。
 
 由于方法的源码比较长，这里，只关注当前最核心的逻辑，如下所示。
 
@@ -434,11 +434,11 @@ public static void invokeBeanFactoryPostProcessors(
 }
 ```
 
-可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors)方法中，BeanDefinitionRegistryPostProcessor的实现类在执行逻辑上会有先后顺序，并且最终都会调用invokeBeanDefinitionRegistryPostProcessors()方法。
+可以看到，在PostProcessorRegistrationDelegate类的invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory, List`<BeanFactoryPostProcessor>` beanFactoryPostProcessors)方法中，BeanDefinitionRegistryPostProcessor的实现类在执行逻辑上会有先后顺序，并且最终都会调用invokeBeanDefinitionRegistryPostProcessors()方法。
 
-（6）解析PostProcessorRegistrationDelegate类的invokeBeanDefinitionRegistryPostProcessors(Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)方法
+（6）解析PostProcessorRegistrationDelegate类的invokeBeanDefinitionRegistryPostProcessors(Collection`<? extends BeanDefinitionRegistryPostProcessor>` postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)方法
 
-源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanDefinitionRegistryPostProcessors(Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)。
+源码详见：org.springframework.context.support.PostProcessorRegistrationDelegate#invokeBeanDefinitionRegistryPostProcessors(Collection`<? extends BeanDefinitionRegistryPostProcessor>` postProcessors, BeanDefinitionRegistry registry, ApplicationStartup applicationStartup)。
 
 ```java
 private static void invokeBeanDefinitionRegistryPostProcessors(
@@ -502,9 +502,9 @@ public void processConfigBeanDefinitions(BeanDefinitionRegistry registry) {
 
 可以看到，在processConfigBeanDefinitions()方法中，创建了一个ConfigurationClassParser类型的对象parser，并且调用了parser的parse()方法来解析类的配置信息。
 
-（9）解析ConfigurationClassParser类的parse(Set<BeanDefinitionHolder> configCandidates)方法
+（9）解析ConfigurationClassParser类的parse(Set`<BeanDefinitionHolder>` configCandidates)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#parse(Set<BeanDefinitionHolder> configCandidates)，重点关注如下代码片段
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#parse(Set`<BeanDefinitionHolder>` configCandidates)，重点关注如下代码片段
 
 ```java
 public void parse(Set<BeanDefinitionHolder> configCandidates) {
@@ -528,7 +528,7 @@ public void parse(Set<BeanDefinitionHolder> configCandidates) {
 }
 ```
 
-可以看到，在ConfigurationClassParser类的parse(Set<BeanDefinitionHolder> configCandidates)方法中，调用了类中的另一个parse()方法。
+可以看到，在ConfigurationClassParser类的parse(Set`<BeanDefinitionHolder>` configCandidates)方法中，调用了类中的另一个parse()方法。
 
 （10）解析ConfigurationClassParser类的parse(AnnotationMetadata metadata, String beanName)方法
 
@@ -542,9 +542,9 @@ protected final void parse(AnnotationMetadata metadata, String beanName) throws 
 
 可以看到，上述parse()方法的实现比较简单，直接调用了processConfigurationClass()方法。
 
-（11）解析ConfigurationClassParser类的processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter)方法
+（11）解析ConfigurationClassParser类的processConfigurationClass(ConfigurationClass configClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#processConfigurationClass(ConfigurationClass configClass, Predicate`<String>` filter)。
 
 ```java
 protected void processConfigurationClass(ConfigurationClass configClass, Predicate<String> filter) throws IOException {
@@ -560,9 +560,9 @@ protected void processConfigurationClass(ConfigurationClass configClass, Predica
 
 可以看到，在processConfigurationClass()方法中，会通过do-while()循环获取配置类和其父类的注解信息，SourceClass类中会封装配置类上注解的详细信息。在在processConfigurationClass()方法中，调用了doProcessConfigurationClass()方法。
 
-（12）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)方法
+（12）解析ConfigurationClassParser类的doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate<String> filter)，重点关注如下代码片段。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#doProcessConfigurationClass(ConfigurationClass configClass, SourceClass sourceClass, Predicate`<String>` filter)，重点关注如下代码片段。
 
 ```java
 protected final SourceClass doProcessConfigurationClass(
@@ -579,9 +579,9 @@ protected final SourceClass doProcessConfigurationClass(
 
 可以看到，在doProcessConfigurationClass()方法中，会调用processImports()方法来解析@Import注解。
 
-（13）解析ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection<SourceClass> importCandidates, Predicate<String> exclusionFilter, boolean checkForCircularImports)方法。
+（13）解析ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection`<SourceClass>` importCandidates, Predicate`<String>` exclusionFilter, boolean checkForCircularImports)方法。
 
-源码详见：org.springframework.context.annotation.ConfigurationClassParser#processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection<SourceClass> importCandidates, Predicate<String> exclusionFilter, boolean checkForCircularImports)。
+源码详见：org.springframework.context.annotation.ConfigurationClassParser#processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection`<SourceClass>` importCandidates, Predicate`<String>` exclusionFilter, boolean checkForCircularImports)。
 
 ```java
 private void processImports(ConfigurationClass configClass, SourceClass currentSourceClass,
@@ -663,7 +663,7 @@ public String[] selectImports(AnnotationMetadata importingClassMetadata) {
 
 可以看到，在MyImportSelector类的selectImports()方法中，会返回包含ImportSelectorBean类的全类名的String数组，后续会将ImportSelectorBean类的Bean对象注入IOC容器。
 
-（15）回到ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection<SourceClass> importCandidates, Predicate<String> exclusionFilter, boolean checkForCircularImports)方法。
+（15）回到ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection`<SourceClass>` importCandidates, Predicate`<String>` exclusionFilter, boolean checkForCircularImports)方法。
 
 如果@Import注解引入的是实现了ImportBeanDefinitionRegistrar接口的类，则执行的是` else if (candidate.isAssignable(ImportBeanDefinitionRegistrar.class))`条件的逻辑，如下所示。
 
@@ -698,7 +698,7 @@ private final Map<ImportBeanDefinitionRegistrar, AnnotationMetadata> importBeanD
 
 可以看到，importBeanDefinitionRegistrars是一个LinkedHashMap对象，也就是说，会将ImportBeanDefinitionRegistrar对象和AnnotationMetadata对象的映射关系存入一个LinkedHashMap对象中。
 
-（17）再次回到ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection<SourceClass> importCandidates, Predicate<String> exclusionFilter, boolean checkForCircularImports)方法。
+（17）再次回到ConfigurationClassParser类的processImports(ConfigurationClass configClass, SourceClass currentSourceClass, Collection`<SourceClass>` importCandidates, Predicate`<String>` exclusionFilter, boolean checkForCircularImports)方法。
 
 如果@Import注解引入的类既没有实现ImportSelector接口，又没有实现ImportBeanDefinitionRegistrar接口，则执行`else`逻辑，如下所示。
 
@@ -722,9 +722,9 @@ else {
 this.reader.loadBeanDefinitions(configClasses);
 ```
 
-（19）解析ConfigurationClassBeanDefinitionReader类的loadBeanDefinitions(Set<ConfigurationClass> configurationModel)方法
+（19）解析ConfigurationClassBeanDefinitionReader类的loadBeanDefinitions(Set`<ConfigurationClass>` configurationModel)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitions(Set<ConfigurationClass> configurationModel)，如下所示。
+源码详见：org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitions(Set`<ConfigurationClass>` configurationModel)，如下所示。
 
 ```java
 public void loadBeanDefinitions(Set<ConfigurationClass> configurationModel) {
@@ -793,9 +793,9 @@ Map<ImportBeanDefinitionRegistrar, AnnotationMetadata> getImportBeanDefinitionRe
 
 在loadBeanDefinitionsForConfigurationClass()会调用loadBeanDefinitionsFromRegistrars()方法从实现了ImportBeanDefinitionRegistrar接口的类中加载Bean定义信息。
 
-（25）解析ConfigurationClassBeanDefinitionReader类的loadBeanDefinitionsFromRegistrars(Map<ImportBeanDefinitionRegistrar, AnnotationMetadata> registrars)方法
+（25）解析ConfigurationClassBeanDefinitionReader类的loadBeanDefinitionsFromRegistrars(Map`<ImportBeanDefinitionRegistrar, AnnotationMetadata>` registrars)方法
 
-源码详见：org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsFromRegistrars(Map<ImportBeanDefinitionRegistrar, AnnotationMetadata> registrars)。
+源码详见：org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader#loadBeanDefinitionsFromRegistrars(Map`<ImportBeanDefinitionRegistrar, AnnotationMetadata>` registrars)。
 
 ```java
 private void loadBeanDefinitionsFromRegistrars(Map<ImportBeanDefinitionRegistrar, AnnotationMetadata> registrars) {

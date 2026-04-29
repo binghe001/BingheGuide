@@ -364,9 +364,9 @@ org.springframework.context.event.internalEventListenerFactory
 
 **注意：@Conditional注解在Spring源码层面的执行流程与第7章的5.1节@DependsOn注解在Spring源码层面注册Bean的执行流程大体类似，只是在执行AnnotatedBeanDefinitionReader类的doRegisterBean()方法的逻辑时，略有差异。**
 
-（1）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)方法
+（1）解析AnnotatedBeanDefinitionReader类的doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)方法
 
-源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class<T> beanClass, String name, Class<? extends Annotation>[] qualifiers, Supplier<T> supplier, BeanDefinitionCustomizer[] customizers)。
+源码详见：org.springframework.context.annotation.AnnotatedBeanDefinitionReader#doRegisterBean(Class`<T>` beanClass, String name, Class`<? extends Annotation>`[] qualifiers, Supplier`<T>` supplier, BeanDefinitionCustomizer[] customizers)。
 
 ```java
 private <T> void doRegisterBean(Class<T> beanClass, @Nullable String name, @Nullable Class<? extends Annotation>[] qualifiers, @Nullable Supplier<T> supplier, @Nullable BeanDefinitionCustomizer[] customizers) {

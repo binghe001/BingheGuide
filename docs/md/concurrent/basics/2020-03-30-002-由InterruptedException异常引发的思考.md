@@ -49,7 +49,7 @@ public class InterruptedTask implements Runnable{
 
 上述代码的本意是通过isInterrupted()方法检查线程是否被中断了，如果中断了就退出while循环。其他线程通过调用执行线程的interrupt()方法来中断执行线程，此时会设置执行线程的中断标志位，从而使currentThread.isInterrupted()返回true，这样就能够退出while循环。
 
-这看上去没啥问题啊！<font color="#FF0000">**但真的是这样吗？**</font>我们创建一个InterruptedTest类用于测试，代码如下所示。
+这看上去没啥问题啊！`<font color="#FF0000">`**但真的是这样吗？**`</font>`我们创建一个InterruptedTest类用于测试，代码如下所示。
 
 ```java
 package io.binghe.concurrent.lab08;
@@ -78,17 +78,17 @@ public class InterruptedTest {
 
 ![](https://img-blog.csdnimg.cn/20200317222959371.jpg)
 
-<font color="#FF0000">**这竟然跟我们想象的不一样！不一样！不一样！这是为什么呢？**</font>
+`<font color="#FF0000">`**这竟然跟我们想象的不一样！不一样！不一样！这是为什么呢？**`</font>`
 
 ## 问题分析
 
-上述代码明明调用了线程的interrupt()方法来中断线程，但是却并没有起到啥作用。原因是线程的run()方法在执行的时候，大部分时间都是阻塞在sleep(100)上，当其他线程通过调用执行线程的interrupt()方法来中断执行线程时，大概率的会触发InterruptedException异常，<font color="#FF0000">**在触发InterruptedException异常的同时，JVM会同时把线程的中断标志位清除，所以，这个时候在run()方法中判断的currentThread.isInterrupted()会返回false，也就不会退出当前while循环了。**</font>
+上述代码明明调用了线程的interrupt()方法来中断线程，但是却并没有起到啥作用。原因是线程的run()方法在执行的时候，大部分时间都是阻塞在sleep(100)上，当其他线程通过调用执行线程的interrupt()方法来中断执行线程时，大概率的会触发InterruptedException异常，`<font color="#FF0000">`**在触发InterruptedException异常的同时，JVM会同时把线程的中断标志位清除，所以，这个时候在run()方法中判断的currentThread.isInterrupted()会返回false，也就不会退出当前while循环了。**`</font>`
 
-既然问题分析清除了，<font color="#FF0000">**那如何中断线程并退出程序呢？**</font>
+既然问题分析清除了，`<font color="#FF0000">`**那如何中断线程并退出程序呢？**`</font>`
 
 ## 问题解决
 
-<font color="#FF0000">**正确的处理方式应该是在InterruptedTask类中的run()方法中的while(true)循环中捕获异常之后重新设置中断标志位**</font>，所以，正确的InterruptedTask类的代码如下所示。
+`<font color="#FF0000">`**正确的处理方式应该是在InterruptedTask类中的run()方法中的while(true)循环中捕获异常之后重新设置中断标志位**`</font>`，所以，正确的InterruptedTask类的代码如下所示。
 
 ```java
 package io.binghe.concurrent.lab08;
@@ -126,7 +126,7 @@ public class InterruptedTask implements Runnable{
 currentThread.interrupt();
 ```
 
-这就使得我们<font color="#FF0000">**捕获到InterruptedException异常后，能够重新设置线程的中断标志位，从而中断当前执行的线程。**</font>
+这就使得我们`<font color="#FF0000">`**捕获到InterruptedException异常后，能够重新设置线程的中断标志位，从而中断当前执行的线程。**`</font>`
 
 我们再次运行InterruptedTest类的main方法，如下所示。
 
@@ -134,7 +134,7 @@ currentThread.interrupt();
 
 ## 总结
 
-<font color="#FF0000">**处理InterruptedException异常时要小心，如果在调用执行线程的interrupt()方法中断执行线程时，抛出了InterruptedException异常，则在触发InterruptedException异常的同时，JVM会同时把执行线程的中断标志位清除，此时调用执行线程的isInterrupted()方法时，会返回false。此时，正确的处理方式是在执行线程的run()方法中捕获到InterruptedException异常，并重新设置中断标志位（也就是在捕获InterruptedException异常的catch代码块中，重新调用当前线程的interrupt()方法）。**</font>
+`<font color="#FF0000">`**处理InterruptedException异常时要小心，如果在调用执行线程的interrupt()方法中断执行线程时，抛出了InterruptedException异常，则在触发InterruptedException异常的同时，JVM会同时把执行线程的中断标志位清除，此时调用执行线程的isInterrupted()方法时，会返回false。此时，正确的处理方式是在执行线程的run()方法中捕获到InterruptedException异常，并重新设置中断标志位（也就是在捕获InterruptedException异常的catch代码块中，重新调用当前线程的interrupt()方法）。**`</font>`
 
 ## 写在最后
 

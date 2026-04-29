@@ -283,7 +283,7 @@ protected Object initializeBean(final String beanName, final Object bean, @Nulla
 invokeInitMethods(beanName, wrappedBean, mbd);
 ```
 
-invokeInitMethods()方法的作用就是：执行初始化方法，这些初始化方法包括我们之前讲的： **在xml文件中的<bean>标签中使用init-method属性指定的初始化方法；在@Bean注解中使用initMehod属性指定的方法；使用@PostConstruct注解标注的方法；实现InitializingBean接口的方法等。**
+invokeInitMethods()方法的作用就是：执行初始化方法，这些初始化方法包括我们之前讲的： **在xml文件中的`<bean>`标签中使用init-method属性指定的初始化方法；在@Bean注解中使用initMehod属性指定的方法；使用@PostConstruct注解标注的方法；实现InitializingBean接口的方法等。**
 
 **在调用invokeInitMethods()方法之前，Spring调用了applyBeanPostProcessorsBeforeInitialization()方法，代码行如下所示。**
 
@@ -335,7 +335,7 @@ initializeBean(beanName, exposedObject, mbd){
 
 在initializeBean()中，调用自定义的初始化方法invokeInitMethods()之前，调用了applyBeanPostProcessorsBeforeInitialization()方法，而在调用自定义的初始化方法invokeInitMethods()之后，调用了applyBeanPostProcessorsAfterInitialization()方法。整个bean的初始化过程就结束了。
 
-<font color="#FF0000">**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**</font>
+`<font color="#FF0000">`**好了，咱们今天就聊到这儿吧！别忘了给个在看和转发，让更多的人看到，一起学习一起进步！！**`</font>`
 
 > 项目工程源码已经提交到GitHub：[https://github.com/binghe001/spring-annotation](https://github.com/binghe001/spring-annotation)
 

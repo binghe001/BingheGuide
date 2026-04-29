@@ -63,7 +63,7 @@ public interface ServletContainerInitializer {
 
 可以看到，在ServletContainerInitializer接口中只提供了一个onStartup()方法，在Tomcat启动的过程中就会调用这个onStartup()方法。
 
-在Tomcat启动的过程中，就会去加载ServletContainerInitializer接口的所有实现类，并且还会去解析@HandlersTypes注解，将解析到的结果信息封装到一个Set<Class<?>>集合中。
+在Tomcat启动的过程中，就会去加载ServletContainerInitializer接口的所有实现类，并且还会去解析@HandlersTypes注解，将解析到的结果信息封装到一个Set<Class`<?>`>集合中。
 
 ### 2.2 Tomcat SPI 实现类
 

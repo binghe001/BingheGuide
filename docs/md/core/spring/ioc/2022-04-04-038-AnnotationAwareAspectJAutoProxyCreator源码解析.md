@@ -160,7 +160,7 @@ protected boolean shouldSkip(Class<?> beanClass, String beanName) {
 
 ## 生成代理对象
 
-从使用<aop:xxx>标签来自动生成代理的话，先看看AopNamespaceHandler，使用<aop:config>标签则使用 ConfigBeanDefinitionParser 解析，使用了<aop:aspectj-autoproxy>标签则使用 AspectJAutoProxyBeanDefinitionParser 解析，依次类推。
+从使用`<aop:xxx>`标签来自动生成代理的话，先看看AopNamespaceHandler，使用`<aop:config>`标签则使用 ConfigBeanDefinitionParser 解析，使用了`<aop:aspectj-autoproxy>`标签则使用 AspectJAutoProxyBeanDefinitionParser 解析，依次类推。
 
 ```java
 @Override
@@ -175,8 +175,8 @@ public void init() {
 }
 ```
 
-- <aop:config>方式使用 AspectJAwareAdvisorAutoProxyCreator 创建代理
-- <aop:aspectj-autoproxy>使用 AnnotationAwareAspectJAutoProxyCreator 创建代理
+- `<aop:config>`方式使用 AspectJAwareAdvisorAutoProxyCreator 创建代理
+- `<aop:aspectj-autoproxy>`使用 AnnotationAwareAspectJAutoProxyCreator 创建代理
 
 ConfigBeanDefinitionParser.java
 
