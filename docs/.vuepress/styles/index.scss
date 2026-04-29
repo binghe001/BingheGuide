@@ -1,6 +1,7 @@
 /* Override sidebar width (VuePress 2 default is 20rem, VuePress 1 used 18rem) */
 :root {
   --sidebar-width: 18rem;
+  --content-width: 1200px;
 }
 
 body {
