@@ -345,6 +345,14 @@ export default defineUserConfig({
       // Escape unknown tags and processing instructions (<?php, etc.)
       return content.replace(/</g, '&lt;').replace(/>/g, '&gt;')
     }
+  },
+  extendsPage(page) {
+    // VuePress 1 used layout: post; VuePress 2 defaultTheme has no "post" layout
+    // Remove unsupported layout values to fall back to the default Layout
+    const supported = ['Layout', '404']
+    if (page.frontmatter.layout && !supported.includes(page.frontmatter.layout as string)) {
+      delete page.frontmatter.layout
+    }
   }
 })
 
