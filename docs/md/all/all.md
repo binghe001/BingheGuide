@@ -279,6 +279,11 @@ sidebarDepth: 2
 * [转管理被下属怼，如何破局？](https://mp.weixin.qq.com/s/sCuzs3WBrY-71SH08LbUuw)
 * [我敢说：99.9%的程序员根本没在项目中使用过Java的这个功能！](https://mp.weixin.qq.com/s/jif79kuwLBDNgWNb18VrMw)
 
+### 💥💥💥 AI全链路短剧生成平台
+
+* [《AI全链路短剧生成平台》开篇：我要带你从零开始手撸一个企业级AI全链路短剧生成平台](https://articles.zsxq.com/id_ozultmh0ha9c.html)
+* [《AI全链路短剧生成平台》需求设计：AI全链路短剧生成平台总体需求梳理与详细设计](https://articles.zsxq.com/id_w6mvunwuasbh.html)
+
 ### 💥💥💥 智能代码审查系统
 
 * [《智能代码审查系统》开篇：我要带你从零开始手撸一个支持多种AI大模型、多种语言、对接多代码和推送平台的智能代码审查系统](https://articles.zsxq.com/id_8bn6qwzt3kbn.html)
