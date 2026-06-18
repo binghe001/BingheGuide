@@ -282,7 +282,27 @@ sidebarDepth: 2
 ### 💥💥💥 AI全链路短剧生成平台
 
 * [《AI全链路短剧生成平台》开篇：我要带你从零开始手撸一个企业级AI全链路短剧生成平台](https://articles.zsxq.com/id_ozultmh0ha9c.html)
-* [《AI全链路短剧生成平台》需求设计：AI全链路短剧生成平台总体需求梳理与详细设计](https://articles.zsxq.com/id_w6mvunwuasbh.html)
+* [《AI全链路短剧生成平台》需求设计-第01节：AI全链路短剧生成平台总体需求梳理与详细设计](https://articles.zsxq.com/id_w6mvunwuasbh.html)
+* [《AI全链路短剧生成平台》需求设计-第02节：AI全链路短剧生成平台技术流程梳理](https://articles.zsxq.com/id_we24bui5b6uw.html)
+* [《AI全链路短剧生成平台》学习导航-第01节：从多个角度聊聊为何要学习AI全链路短剧生成平台](https://articles.zsxq.com/id_g4s70boj15wl.html)
+* [《AI全链路短剧生成平台》学习导航-第02节：建设AI全链路短剧生成平台的目标与挑战](https://articles.zsxq.com/id_49livppct5k4.html)
+* [《AI全链路短剧生成平台》架构设计-第01节：AI全链路短剧生成平台总体方案目标与架构设计](https://articles.zsxq.com/id_hqwxzt2ruwka.html)
+* [《AI全链路短剧生成平台》环境搭建-第01节：AI全链路短剧生成平台基础环境搭建](https://articles.zsxq.com/id_w5qdj48f63l9.html)
+* [《AI全链路短剧生成平台》环境搭建-第02节：AI全链路短剧生成平台研发环境搭建](https://articles.zsxq.com/id_263wmcuuumje.html)
+* [《AI全链路短剧生成平台》系统设计-第01节：AI全链路短剧生成平台数据模型设计](https://articles.zsxq.com/id_1587dwcz11k5.html)
+* [《AI全链路短剧生成平台》系统设计-第02节：AI全链路短剧生成平台后端服务设计思路](https://articles.zsxq.com/id_af2w11dxpcw0.html)
+* [《AI全链路短剧生成平台》系统设计-第03节：AI全链路短剧生成平台Agent系统设计思路](https://articles.zsxq.com/id_gg85vicd3eqi.html)
+* [《AI全链路短剧生成平台》系统设计-第04节：全自动流水线与 Python 服务设计设计思路](https://articles.zsxq.com/id_f802igo9gf7f.html)
+* [《AI全链路短剧生成平台》系统设计-第05节：AI全链路短剧生成平台API接口设计思路](https://articles.zsxq.com/id_s3pqlmttwdkw.html)
+* [《AI全链路短剧生成平台》系统设计-第06节：AI全链路短剧生成平台前端设计思路](https://articles.zsxq.com/id_uakttauz35l1.html)
+* [《AI全链路短剧生成平台》后端服务-第01节：后端服务实体模型的设计与实现](https://articles.zsxq.com/id_djwjpp4imebw.html)
+* [《AI全链路短剧生成平台》后端服务-第02节：后端服务DTO模型的设计与实现](https://articles.zsxq.com/id_1dlovanab6l8.html)
+* [《AI全链路短剧生成平台》后端服务-第03节：后端服务Mapper接口的设计与实现](https://articles.zsxq.com/id_t9viqwo10whw.html)
+* [《AI全链路短剧生成平台》后端服务-第04节：后端服务通用基础模块的设计与实现](https://articles.zsxq.com/id_w98hpfqts8aw.html)
+* [《AI全链路短剧生成平台》后端服务-第05节：后端服务AI数据模型的设计与实现](https://articles.zsxq.com/id_w4fddoqbebzg.html)
+* [《AI全链路短剧生成平台》后端服务-第06节：后端服务AI-Provider接口的设计与实现](https://articles.zsxq.com/id_7xmoxcf2i8o5.html)
+* [《AI全链路短剧生成平台》后端服务-第07节：后端服务文本类型AI-Provider的设计与实现](https://articles.zsxq.com/id_9z8shw0wd4qk.html)
+* [《AI全链路短剧生成平台》后端服务-第08节：后端服务图片类型AI-Provider的设计与实现](https://articles.zsxq.com/id_0u7dvwm63qio.html)
 
 ### 💥💥💥 智能代码审查系统
 
