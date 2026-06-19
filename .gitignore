@@ -8,6 +8,8 @@
 
 /.site/
 
+generate_config.py
+
 /deploy.sh
 
 /deploy.bak.sh
