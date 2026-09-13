@@ -176,7 +176,8 @@ export default defineUserConfig({
                   { text: '一站式AI智能平台', link: '/md/project/ai/one/start/2026-01-28-start.md' },
                   { text: 'AI智能客服系统', link: '/md/project/ai/kefu/start/2026-01-23-start.md' },
                   { text: 'AI智能问答系统', link: '/md/project/ai/qa/start/2025-01-14-start.md' },
-                  { text: '实战AI大模型', link: '/md/project/ai/dk/v1/start/2025-10-25-start.md' }
+                  { text: '实战AI大模型', link: '/md/project/ai/dk/v1/start/2025-10-25-start.md' },
+                  { text: '实战AI综合项目', link: '/md/project/ai/zonghe/2026-03-13-chapter01.md' }
                 ]
               },
               {
@@ -294,6 +295,7 @@ export default defineUserConfig({
           '/md/project/ai/kefu/': s('/md/project/ai/kefu/', getBarAiKeSystem()),
           '/md/project/ai/one/': s('/md/project/ai/one/', getBarAiOneSystem()),
           '/md/project/ai/multi/': s('/md/project/ai/multi/', getBarAiMultiSystem()),
+          '/md/project/ai/zonghe/': s('/md/project/ai/zonghe/', getBarAiZongheSystem()),
           '/md/distributed/transaction/': s('/md/distributed/transaction/', getBarDistributedTransaction()),
           '/md/project/seckill/': s('/md/project/seckill/', getBarPeojectSeckill()),
           '/md/project/im/': s('/md/project/im/', getBarPeojectIM()),
@@ -1297,6 +1299,19 @@ function getBarAiKeSystem() {
             sidebarDepth: 0,
             children: [
                 "summary/2026-01-29-summary.md",
+            ]
+        }
+    ]
+}
+
+function getBarAiZongheSystem() {
+    return [
+        {
+            title: "实战AI综合项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2026-03-13-chapter01.md"
             ]
         }
     ]
@@ -3601,6 +3616,7 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai/zonghe/2026-03-13-chapter01.md",
                 "project/ai/multi/2026-02-11-start.md",
                 "project/ai/one/2026-01-28-start.md",
                 "project/ai/kefu/2026-01-23-start.md",
