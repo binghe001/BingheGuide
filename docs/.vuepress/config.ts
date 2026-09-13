@@ -3,6 +3,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
+import type { Plugin } from 'markdown-it'
+import mermaidPlugin from 'vuepress-plugin-mermaidjs'
 
 // Convert VuePress 1 sidebar format to VuePress 2 format
 function s(prefix: string, groups: any[]): any[] {
@@ -335,6 +337,23 @@ export default defineUserConfig({
     md.renderer.rules.html_block = (tokens: any[], idx: number) => {
       return '<div v-pre>' + tokens[idx].content + '</div>\n'
     }
+    // Handle mermaid code blocks
+    const fence = md.renderer.rules.fence || function(tokens, idx, options, env, self) {
+      return self.renderToken(tokens, idx, options)
+    }
+
+    md.renderer.rules.fence = (tokens, idx, options, env, self) => {
+      const token = tokens[idx]
+      // Check if this is a mermaid code block
+      if (token.info.trim() === 'mermaid') {
+        const code = token.content
+        // Return Vue component tag with mermaid code in HTML attribute
+        return `<MermaidRenderer data-mermaid-code="${encodeURIComponent(code)}" />`
+      }
+      // For non-mermaid code blocks, use default fence renderer
+      return fence(tokens, idx, options, env, self)
+    }
+
     // Escape angle brackets for non-standard/unknown HTML tag names
     const knownHtmlTags = new Set([
       'a','abbr','address','article','aside','audio','b','blockquote','body','br',
