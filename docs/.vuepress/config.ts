@@ -3,7 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
-import mdEnhance from 'vuepress-plugin-md-enhance'
+import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 
 // Convert VuePress 1 sidebar format to VuePress 2 format
 function s(prefix: string, groups: any[]): any[] {
@@ -173,6 +173,7 @@ export default defineUserConfig({
               {
                 text: '🔥AI大模型项目',
                 children: [
+                  { text: '智能代码审查系统', link: '/md/project/ai/cr/start/2026-04-05-start.md' },
                   { text: '多轮智能对话系统', link: '/md/project/ai/multi/start/2026-02-11-start.md' },
                   { text: '一站式AI智能平台', link: '/md/project/ai/one/start/2026-01-28-start.md' },
                   { text: 'AI智能客服系统', link: '/md/project/ai/kefu/start/2026-01-23-start.md' },
@@ -296,6 +297,7 @@ export default defineUserConfig({
           '/md/project/ai/kefu/': s('/md/project/ai/kefu/', getBarAiKeSystem()),
           '/md/project/ai/one/': s('/md/project/ai/one/', getBarAiOneSystem()),
           '/md/project/ai/multi/': s('/md/project/ai/multi/', getBarAiMultiSystem()),
+          '/md/project/ai/cr/': s('/md/project/ai/cr/', getBarAiCrSystem()),
           '/md/project/ai/zonghe/': s('/md/project/ai/zonghe/', getBarAiZongheSystem()),
           '/md/distributed/transaction/': s('/md/distributed/transaction/', getBarDistributedTransaction()),
           '/md/project/seckill/': s('/md/project/seckill/', getBarPeojectSeckill()),
@@ -317,6 +319,10 @@ export default defineUserConfig({
     }
   }),
   plugins: [
+    mdEnhancePlugin({
+      // 启用 Mermaid 支持
+      mermaid: true,
+    }),
     mediumZoomPlugin({
       selector: 'img:not(.nozoom)',
       options: {
@@ -329,9 +335,6 @@ export default defineUserConfig({
           placeholder: '搜索'
         }
       }
-    }),
-    mdEnhance({
-      mermaid: true,
     })
   ],
   extendsMarkdown(md) {
@@ -1362,6 +1365,19 @@ function getBarAiMultiSystem() {
             sidebarDepth: 0,
             children: [
                 "summary/2026-02-29-summary.md",
+            ]
+        }
+    ]
+}
+
+function getBarAiCrSystem() {
+    return [
+        {
+            title: "开篇：专栏介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "start/2026-04-05-start.md"
             ]
         }
     ]
@@ -3625,6 +3641,8 @@ function getStarBall() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai/cr/2026-04-05-start.md",
+                "project/ai/zonghe/2026-03-13-chapter01.md",
                 "project/ai/zonghe/2026-03-13-chapter01.md",
                 "project/ai/zonghe/2026-09-14-chapter02.md",
                 "project/ai/zonghe/2026-09-15-chapter03.md",
