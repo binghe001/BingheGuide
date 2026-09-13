@@ -4,10 +4,9 @@ import LockArticle from './components/LockArticle.vue'
 import PayArticle from './components/PayArticle.vue'
 import RedirectArticle from './components/RedirectArticle.vue'
 import PageSidebar from './components/PageSidebar.vue'
-import MermaidRenderer from './components/MermaidRenderer.vue'
 
 export default defineClientConfig({
-  rootComponents: [LockArticle, PayArticle, RedirectArticle, PageSidebar, MermaidRenderer],
+  rootComponents: [LockArticle, PayArticle, RedirectArticle, PageSidebar],
   setup() {
     if (typeof window !== 'undefined') {
       const router = useRouter()
