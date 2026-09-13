@@ -12,11 +12,14 @@
 
 本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “冰河” 微信(hacker_binghe)，备注：`学习加群`。
 
+
+
 <div align="center">
     <img src="https://binghe.site/images/personal/hacker_binghe.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">冰河微信</div>
+    <div style="font-size: 18px;">冰河微信</div>
     <br/>
 </div>
+
 
 
 ## 公众号
@@ -24,8 +27,19 @@
 分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。内容在 **冰河技术** 微信公众号首发，强烈建议大家关注。
 
 <div align="center">
-    <img src="https://img-blog.csdnimg.cn/20210426115714643.jpg?raw=true" width="180px">
-    <div style="font-size: 9px;">公众号：冰河技术</div>
+    <img src="https://binghe.site/images/personal/ice_wechat.jpg?raw=true" width="180px">
+    <div style="font-size: 18px;">公众号：冰河技术</div>
+    <br/>
+</div>
+
+
+## 视频号
+
+定期分享各种编程语言、开发技术、分布式与微服务架构、分布式数据库、分布式事务、云原生、大数据与云计算技术和渗透技术。另外，还会分享各种面试题和面试技巧。
+
+<div align="center">
+    <img src="https://binghe.site/images/personal/ice_video.png?raw=true" width="180px">
+    <div style="font-size: 18px;">视频号：冰河技术</div>
     <br/>
 </div>
 
@@ -39,6 +53,6 @@
 
 <div align="center">
     <img src="https://binghe.site/images/personal/xingqiu.png?raw=true" width="180px">
-    <div style="font-size: 9px;">知识星球：冰河技术</div>
+    <div style="font-size: 18px;">知识星球：冰河技术</div>
     <br/>
 </div>
