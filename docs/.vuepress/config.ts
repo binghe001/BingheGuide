@@ -3,8 +3,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
-import type { Plugin } from 'markdown-it'
-import mermaidPlugin from 'vuepress-plugin-mermaidjs'
+import mdEnhance from 'vuepress-plugin-md-enhance'
 
 // Convert VuePress 1 sidebar format to VuePress 2 format
 function s(prefix: string, groups: any[]): any[] {
@@ -330,28 +329,15 @@ export default defineUserConfig({
           placeholder: '搜索'
         }
       }
+    }),
+    mdEnhance({
+      mermaid: true,
     })
   ],
   extendsMarkdown(md) {
     // Wrap html_block tokens in v-pre to prevent Vue template compilation
     md.renderer.rules.html_block = (tokens: any[], idx: number) => {
       return '<div v-pre>' + tokens[idx].content + '</div>\n'
-    }
-    // Handle mermaid code blocks
-    const fence = md.renderer.rules.fence || function(tokens, idx, options, env, self) {
-      return self.renderToken(tokens, idx, options)
-    }
-
-    md.renderer.rules.fence = (tokens, idx, options, env, self) => {
-      const token = tokens[idx]
-      // Check if this is a mermaid code block
-      if (token.info.trim() === 'mermaid') {
-        const code = token.content
-        // Return HTML with data attribute for JavaScript to read
-        return `<div class="mermaid" data-mermaid-code="${encodeURIComponent(code)}"></div>`
-      }
-      // For non-mermaid code blocks, use default fence renderer
-      return fence(tokens, idx, options, env, self)
     }
 
     // Escape angle brackets for non-standard/unknown HTML tag names
