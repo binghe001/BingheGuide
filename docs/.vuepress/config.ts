@@ -1334,6 +1334,7 @@ function getBarAiZongheSystem() {
                 "2026-09-14-chapter02.md",
                 "2026-09-15-chapter03.md",
                 "2026-09-16-chapter04.md",
+                "2026-09-17-chapter05.md",
             ]
         }
     ]
@@ -3642,6 +3643,7 @@ function getStarBall() {
                 "project/ai/zonghe/2026-09-14-chapter02.md",
                 "project/ai/zonghe/2026-09-15-chapter03.md",
                 "project/ai/zonghe/2026-09-16-chapter04.md",
+                "project/ai/zonghe/2026-09-17-chapter05.md",
                 "project/ai/multi/2026-02-11-start.md",
                 "project/ai/one/2026-01-28-start.md",
                 "project/ai/kefu/2026-01-23-start.md",
