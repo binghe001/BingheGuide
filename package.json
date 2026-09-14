@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.28",
+    "@vuepress/plugin-markdown-chart": "^2.0.0-rc.128",
     "@vuepress/plugin-medium-zoom": "2.0.0-rc.128",
     "@vuepress/plugin-search": "2.0.0-rc.128",
     "@vuepress/theme-default": "2.0.0-rc.128",

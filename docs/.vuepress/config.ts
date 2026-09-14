@@ -1,9 +1,9 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
-import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
+import { markdownChartPlugin } from '@vuepress/plugin-markdown-chart'
 
 // Convert VuePress 1 sidebar format to VuePress 2 format
 function s(prefix: string, groups: any[]): any[] {
@@ -319,15 +319,12 @@ export default defineUserConfig({
     }
   }),
   plugins: [
-    mdEnhancePlugin({
+    markdownChartPlugin({
       // 启用 Mermaid 支持
       mermaid: true,
     }),
-    mediumZoomPlugin({
-      selector: 'img:not(.nozoom)',
-      options: {
-        margin: 16
-      }
+    mdEnhancePlugin({
+      // 启用 Mermaid 支持
     }),
     searchPlugin({
       locales: {
