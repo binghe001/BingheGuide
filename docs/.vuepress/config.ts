@@ -1376,6 +1376,34 @@ function getBarAiCrSystem() {
             children: [
                 "start/2026-04-05-start.md"
             ]
+        },
+        {
+            title: "第01部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "daemond/2026-04-07-chapter01.md",
+                "daemond/2026-04-08-chapter02.md",
+                "daemond/2026-04-09-chapter03.md",
+            ]
+        },
+        {
+            title: "第02部分：架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "archit/2026-04-10-chapter01.md",
+                "archit/2026-04-11-chapter02.md",
+            ]
+        },
+        {
+            title: "第03部分：编码实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "coding/2026-04-12-chapter01.md",
+                "coding/2026-04-13-chapter02.md",
+            ]
         }
     ]
 }
