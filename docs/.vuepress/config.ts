@@ -1407,6 +1407,7 @@ function getBarAiCrSystem() {
                 "coding/2026-04-15-chapter04.md",
                 "coding/2026-04-16-chapter05.md",
                 "coding/2026-04-17-chapter06.md",
+                "coding/2026-04-18-chapter07.md",
                 "coding/2026-04-19-chapter08.md",
             ]
         },
