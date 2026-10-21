@@ -331,6 +331,7 @@ sidebarDepth: 2
 * [《AI全链路短剧生成平台》大前端篇章-第04节：通用接口配置层的设计与实现](https://articles.zsxq.com/id_z425jncukkw4.html)
 * [《AI全链路短剧生成平台》大前端篇章-第05节：页面展示层的设计与实现](https://articles.zsxq.com/id_w0feno4xvqmw.html)
 * [《AI全链路短剧生成平台》大前端篇章-第06节：服务容器化部署的设计与实现](https://articles.zsxq.com/id_6gs5e2lkjwxt.html)
+* [AI全链路短剧生成平台课程汇总](https://articles.zsxq.com/id_b7eizpf3c96u.html)
 
 ### 💥💥💥 智能代码审查系统
 
@@ -544,6 +545,28 @@ sidebarDepth: 2
 * [《实战AI大模型》增强与优化-第01节：增强优化ComfyUI并安装插件](https://articles.zsxq.com/id_9c59bfuwvui7.html)
 * [《实战AI大模型》增强与优化-第02节：从源码到Docker部署Qwen3-VL接口](https://articles.zsxq.com/id_knwci2d7n4l2.html)
 * [《实战AI大模型》增强与优化-第03节：分离部署Duix.Avatar服务端和客户端](https://articles.zsxq.com/id_wev1i6sw26dl.html)
+
+
+### 💥 AI开源合集
+
+* [AI时代还不会写提示词？试试这个GitHub 38.8K+ Star的开源神器，秒变专业Prompt！](https://articles.zsxq.com/id_8xah6qfwknhf.html)
+* [推荐一款清华大学开源的 AI Agent 工作台！](https://articles.zsxq.com/id_wrs7no4q4ehm.html)
+* [推荐一款GitHub 37.2K Star的开源AI网关，10 人及以下团队免费用！](https://articles.zsxq.com/id_i4dagt6ltpgx.html)
+* [给大家推荐一款腾讯的“开源版WorkBuddy”，支持私有化部署！](https://articles.zsxq.com/id_44shvj5wl4j8.html)
+* [从秒杀系统说起：如何把一个业务需求变成可复用的 SKILL](https://articles.zsxq.com/id_r9tsden58lkt.html)
+* [给大家推荐一个开源的自进化Agent](https://articles.zsxq.com/id_reref7x0mep8.html)
+* [工作都由AI做了，那人做什么？](https://articles.zsxq.com/id_hpw1j9rpireq.html)
+* [一个实打实的数据分析SKILL是如何诞生的？](https://articles.zsxq.com/id_5op3t1tr3kv8.html)
+* [把自己“蒸馏”成 SKILL，到底要怎么做？](https://articles.zsxq.com/id_gws9aj9uxofr.html)
+
+
+### 💥 系统开放平台
+
+* [《系统开放平台》开篇：我要从零带你手写一个企业级微服务开放平台](https://articles.zsxq.com/id_d314eieawsga.html)
+* [《系统开放平台》痛点梳理：系统开放平台痛点问题与解决方案梳理](https://articles.zsxq.com/id_o5zxen3ckmd5.html)
+* [《系统开放平台》系统架构：系统开放平台整体架构与数据表设计](https://articles.zsxq.com/id_dqzuesoq4uq5.html)
+* [《系统开放平台》编码实现：系统开放平台服务调用接口的设计与实现](https://articles.zsxq.com/id_j0wqm9z0uvkn.html)
+* [《系统开放平台》编码实现：系统开放平台资源服务模块的设计与实现](https://articles.zsxq.com/id_ziwsub0rziuv.html)
 
 ### 💥 高性能Redis组件
 
